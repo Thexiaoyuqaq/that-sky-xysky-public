@@ -1,0 +1,127 @@
+# Node 环境配置
+nodeEnv: "development"
+
+# 服务器配置
+server:
+  host: "0.0.0.0"
+  port: 2333
+
+# 数据库配置
+database:
+  type: "sqlite"
+  sqlite:
+    path: "./data/db/sky.db"
+  mysql:
+    host: "127.0.0.1"
+    port: 3306
+    user: "root"
+    password: ""
+    name: "xysky"
+    connectionLimit: 10
+    queueLimit: 0
+    idleTimeout: 60000
+    maxIdle: 5
+    connectTimeout: 10000
+
+# JWT 配置
+jwt:
+  secret: "1234cfe08b8e9a522229e4663e4c1234"
+  expiresIn: "7d"
+
+# 游戏配置
+game:
+  initialCurrency:
+    candles: 5
+    hearts: 5
+    seasonCandles: 5
+    prestige: 5
+  socialFeed:
+    socialFeedExpireDays: 30
+    uri: "serveruri.cn"
+    curatedFeeds:
+      defaultFillPriority: [ "friends", "followed", "public", "local" ]
+      friendsQueryLimit: 2000
+      followedQueryLimit: 2000
+      publicQueryLimit: 4000
+      localQueryLimit: 4000
+      maxBucketCount: 200
+      allowCrossRingFill: true
+      allowCrossBucketFill: true
+      defaultInnerRadius: 16
+      defaultOuterRadius: 0
+      defaultVerticalRadius: 24
+      scoreAlgoVersion: "v1a32"
+      totalAvailableResultsMode: "filtered_unique"
+      liteFields: [ "social_feed_id", "user_id", "author_id", "pool_type", "pool_name", "level_id", "create_at", "expire_at", "message", "content_type", "content", "resource_id", "recording_id", "tags", "reactions", "state", "comments_enabled", "location", "local_creation", "followed", "friend" ]
+
+# UDP 服务器配置
+udp:
+  uri: "100.64.15.8:19132"
+
+# CDN 配置
+cdn:
+  host: "sky.resources.cdn.thatgamecompany.com"
+  prefix: ""
+
+# MQTT 配置 (可选)
+mqtt:
+  brokerUrl: ""
+  username: ""
+  password: ""
+
+# 内容审核配置
+contentModeration:
+  enabled: true # 是否启用内容审核
+  blockMode: "direct" # 拦截模式: direct(直接拦截) 或 replace(替换为星号)
+  replacementChar: "*" # 替换字符
+  logViolations: true # 是否记录违规日志
+
+# 资源列表
+resourceList:
+- "device_capabilities"
+- "userdata"
+- "set_friends"
+- "set_friend_statues"
+- "online_friends"
+- "set_rank"
+- "currency"
+- "forge_rates"
+- "motd"
+- "outfit_defs"
+- "achievements"
+- "achievement_stats"
+- "relationship_defs"
+- "questionnaires"
+- "event_schedule"
+- "set_world_quests"
+- "iap_list"
+- "invite_list"
+- "unlocks"
+- "get_shop"
+- "spirit_shops"
+- "collectibles"
+- "wing_buffs"
+- "gift_messages"
+- "set_app_badge_number"
+- "get_consumable_defs"
+- "get_consumables"
+- "get_buff_defs"
+- "get_buffs"
+- "get_lootboxes"
+- "checkpoints"
+- "generic_shop_defs"
+- "external_account_friends"
+- "serendipity_matches"
+- "get_star_tag_defs"
+- "status_unlocks"
+- "free_gifts"
+- "get_map_defs"
+- "achievement_defs"
+- "achievement_stats_tracking"
+- "event_currency_defs"
+- "infractions"
+- "get_user_profile"
+- "emote_sequences"
+- "video_defs"
+- "radiance_spawn_defs"
+- "messages"

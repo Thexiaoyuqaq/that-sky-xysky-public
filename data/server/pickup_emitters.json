@@ -1,0 +1,217 @@
+{
+  "defaults": {
+    "preactive_duration": 0,
+    "pool_amount": 600,
+    "emit_interval": 1,
+    "active_duration": 60480,
+    "currency_type": "wax",
+    "chunks_per_emit": 1,
+    "chunk_size_likelihood": [1.0, 0.0, 0.0],
+    "chunk_size_amount": [1, 0, 0]
+  },
+  "emitters": [
+    {
+      "level_id": 0,
+      "emitter_name": "SocialFeedChallenge",
+      "events": [
+        {
+          "event_name": "global_daily_reset_time",
+          "pool_name": "anylevel_social_feed_challenge",
+          "chunks_per_emit": 1,
+          "chunk_size_amount": [5, 0, 0],
+          "pool_amount": 2000,
+          "emit_interval": 1,
+          "active_duration": 1440
+        }
+      ]
+    },
+    {
+      "level_id": 0,
+      "emitter_name": "TreasureShovel",
+      "events": [
+        {
+          "event_name": "global_daily_reset_time",
+          "pool_name": "anylevel_social_feed_challenge",
+          "chunks_per_emit": 1,
+          "chunk_size_amount": [5, 0, 0],
+          "pool_amount": 2000,
+          "emit_interval": 1,
+          "active_duration": 1440
+        }
+      ]
+    },
+    {
+      "level_id": 3526133726,
+      "emitter_name": "CandlespaceBlizz",
+      "events": [
+        {
+          "event_name": "social_blizz_sm",
+          "pool_name": "social_blizzard",
+          "chunks_per_emit": 1,
+          "chunk_size_amount": [1, 0, 0],
+          "pool_amount": 1000,
+          "emit_interval": 6,
+          "active_duration": 1439
+        },
+        {
+          "event_name": "social_blizz_lg",
+          "pool_name": "social_blizzard",
+          "chunks_per_emit": 1,
+          "chunk_size_amount": [1, 0, 0],
+          "pool_amount": 1000,
+          "emit_interval": 4,
+          "active_duration": 1439
+        }
+      ]
+    },
+    {
+      "level_id": 3526133726,
+      "emitter_name": "CandlespaceSnowHutFire",
+      "events": [
+        {
+          "event_name": "social_snowhutfire_sm",
+          "pool_name": "social_blizzard",
+          "chunks_per_emit": 1,
+          "chunk_size_amount": [1, 0, 0],
+          "pool_amount": 1000,
+          "emit_interval": 6,
+          "active_duration": 1439
+        },
+        {
+          "event_name": "social_snowhutfire_lg",
+          "pool_name": "social_blizzard",
+          "chunks_per_emit": 1,
+          "chunk_size_amount": [1, 0, 0],
+          "pool_amount": 1000,
+          "emit_interval": 4,
+          "active_duration": 1439
+        }
+      ]
+    },
+    {
+      "level_id": 3526133726,
+      "emitter_name": "RainbowEvent",
+      "events": [
+        {
+          "event_name": "social_rainbow_on",
+          "pool_name": "event_rainbow",
+          "chunks_per_emit": 2,
+          "chunk_size_amount": [1, 0, 0],
+          "pool_amount": 500,
+          "emit_interval": 6,
+          "active_duration": 20160
+        }
+      ]
+    },
+    {
+      "level_id": 3526133726,
+      "emitter_name": "SakuraEmitterBlooming",
+      "events": [
+        {
+          "event_name": "global_bloom_sakura_bloom_wax02",
+          "pool_name": "event_bloom_2022",
+          "chunks_per_emit": 1,
+          "chunk_size_amount": [1, 0, 0],
+          "pool_amount": 1000,
+          "emit_interval": 12,
+          "active_duration": 4320
+        },
+        {
+          "event_name": "global_bloom_sakura_bloom_wax01",
+          "pool_name": "event_bloom_2022",
+          "chunks_per_emit": 1,
+          "chunk_size_amount": [1, 0, 0],
+          "pool_amount": 1000,
+          "emit_interval": 36,
+          "active_duration": 4320
+        }
+      ]
+    },
+    {
+      "level_id": 3526133726,
+      "emitter_name": "SakuraEmitterFalling",
+      "events": [
+        {
+          "event_name": "global_bloom_sakura_fall_wax02",
+          "pool_name": "event_bloom_2022",
+          "chunks_per_emit": 1,
+          "chunk_size_amount": [1, 0, 0],
+          "pool_amount": 1000,
+          "emit_interval": 6,
+          "active_duration": 8640
+        },
+        {
+          "event_name": "global_bloom_sakura_fall_wax01",
+          "pool_name": "event_bloom_2022",
+          "chunks_per_emit": 1,
+          "chunk_size_amount": [1, 0, 0],
+          "pool_amount": 1000,
+          "emit_interval": 9,
+          "active_duration": 4320
+        }
+      ]
+    },
+    {
+      "level_id": 1509719447,
+      "emitter_name": "SkyBuddyEC",
+      "events": [
+        {
+          "event_name": "global_skyfest",
+          "pool_name": "skyfest_ec_wax",
+          "chunks_per_emit": 3,
+          "chunk_size_amount": [1, 0, 0],
+          "pool_amount": 125,
+          "emit_interval": 10,
+          "active_duration": 1439,
+          "currency_type": "event_candle_days_of_sky_wax"
+        }
+      ]
+    },
+    {
+      "level_id": 1509719447,
+      "emitter_name": "SkyFestEel",
+      "events": [
+        {
+          "event_name": "global_skyfest",
+          "pool_name": "global_sky_anniversary3",
+          "chunks_per_emit": 3,
+          "chunk_size_amount": [1, 0, 0],
+          "pool_amount": 125,
+          "emit_interval": 10,
+          "active_duration": 1439
+        }
+      ]
+    },
+    {
+      "level_id": 1509719447,
+      "emitter_name": "SkyTower",
+      "events": [
+        {
+          "event_name": "global_skyfest",
+          "pool_name": "global_sky_anniversary3",
+          "chunks_per_emit": 5,
+          "chunk_size_amount": [1, 0, 0],
+          "pool_amount": 600,
+          "emit_interval": 1,
+          "active_duration": 60480
+        }
+      ]
+    },
+    {
+      "level_id": 2720691892,
+      "emitter_name": "RainGrandmaTable",
+      "events": [
+        {
+          "preactive_duration": 5,
+          "event_name": "social_rain_grandmatable",
+          "pool_name": "global_social_tables",
+          "chunks_per_emit": 6,
+          "chunk_size_amount": [9, 0, 0],
+          "pool_amount": 1000,
+          "emit_interval": 60,
+          "active_duration": 10
+        }
+      ]
+    }
+  ]
+}

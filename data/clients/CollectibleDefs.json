@@ -1,0 +1,3273 @@
+[
+    {
+        "default": true,
+        "droppable": false,
+        "event": "SetVoice",
+        "icon": "UiEmoteCallDefault",
+        "level": "CandleSpace",
+        "max_level": 1,
+        "name": "skykid",
+        "params": "skykid",
+        "speedMult": [
+            0.0
+        ],
+        "type": "voice"
+    },
+    {
+        "default": true,
+        "droppable": false,
+        "event": "SocialAttitude",
+        "icon": "UiEmoteStanceDefault",
+        "level": "CandleSpace",
+        "max_level": 1,
+        "name": "normal",
+        "params": "0",
+        "speedMult": [
+            0.0
+        ],
+        "type": "attitude"
+    },
+    {
+        "default": true,
+        "droppable": false,
+        "emote_category": "gesture",
+        "event": "SocialSitDown",
+        "icon": "UiEmoteSitAnim",
+        "level": "CandleSpace",
+        "max_level": 1,
+        "name": "sit",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": true,
+        "droppable": false,
+        "event": "SocialCandle",
+        "icon": "UiEmoteFlameAnim",
+        "level": "CandleSpace",
+        "max_level": 1,
+        "name": "flame",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "item"
+    },
+    {
+        "default": true,
+        "droppable": false,
+        "event": "SocialGoHome",
+        "icon": "UiMenuGate",
+        "level": "CandleSpace",
+        "max_level": 1,
+        "name": "home",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "item"
+    },
+    {
+        "default": true,
+        "droppable": false,
+        "event": "SocialShowPresence",
+        "icon": "UiMiscStarCluster",
+        "level": "MainStreet",
+        "max_level": 1,
+        "name": "presence",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "item"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "SocialBlank",
+        "icon": "UiEmoteRise",
+        "level": "CandleSpace",
+        "max_level": 1,
+        "name": "cape",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "item"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmotePoint",
+        "level": "Dawn",
+        "max_level": 4,
+        "name": "point",
+        "params": "PointEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteCome",
+        "level": "Dawn",
+        "max_level": 4,
+        "name": "come",
+        "params": "ComeWithMeEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteNoThanks",
+        "level": "Dawn",
+        "max_level": 4,
+        "name": "nothanks",
+        "params": "NoThanksEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiSocialCarryA",
+        "level": "Dawn",
+        "max_level": 2,
+        "name": "carry",
+        "params": "OfferCarry",
+        "speedMult": [
+            0.0
+        ],
+        "type": "action"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP01Welcome",
+        "level": "Dawn",
+        "max_level": 4,
+        "name": "welcome",
+        "params": "WelcomeEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP06NodAnim",
+        "level": "DuskOasis",
+        "max_level": 4,
+        "name": "nod",
+        "params": "NodEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP10TskTsk",
+        "level": "Rain",
+        "max_level": 4,
+        "name": "tsktsk",
+        "params": "TiskTiskEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteButterfly",
+        "level": "Prairie_ButterflyFields",
+        "max_level": 4,
+        "name": "butterfly",
+        "params": "ButterflyEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteClap",
+        "level": "Prairie_Village",
+        "max_level": 4,
+        "name": "thumbsup",
+        "params": "ThumbsUpEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteWaveAnim",
+        "level": "Prairie_Village",
+        "max_level": 6,
+        "name": "wave",
+        "params": "WaveEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "positive",
+        "event": "SocialEmote",
+        "icon": "UiEmoteLaugh",
+        "level": "Prairie_Village",
+        "max_level": 4,
+        "name": "laugh",
+        "params": "LaughWithEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmote",
+        "icon": "UiEmoteYawn",
+        "level": "Prairie_Village",
+        "max_level": 4,
+        "name": "yawn",
+        "params": "YawnEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmote",
+        "icon": "UiEmoteSweat",
+        "level": "Prairie_Cave",
+        "max_level": 4,
+        "name": "wipe",
+        "params": "WipeBrowEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "group",
+        "event": "SocialBeacon",
+        "icon": "UiEmoteTeamwork",
+        "level": "DayHubCave",
+        "max_level": 1,
+        "name": "beacon",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiSocialDoubleFive",
+        "level": "Prairie_NestAndKeeper",
+        "max_level": 4,
+        "name": "doublefive",
+        "params": "OfferDoubleFiveEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "action"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "positive",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP01Kiss",
+        "level": "RainMid",
+        "max_level": 4,
+        "name": "kiss",
+        "params": "BlowKissEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP07Gratitude",
+        "level": "Prairie_Island",
+        "max_level": 4,
+        "name": "gratitude",
+        "params": "GratitudeEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP07BellyScratch",
+        "level": "Prairie_Island",
+        "max_level": 4,
+        "name": "bellyscratch",
+        "params": "BellyScratchEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteSocialBearHug",
+        "level": "SunsetVillage",
+        "max_level": 4,
+        "name": "bearhug",
+        "params": "BearHugEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "action"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "positive",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP10Chuckle",
+        "level": "RainMid",
+        "max_level": 4,
+        "name": "chuckle",
+        "params": "ChuckleEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteCold",
+        "level": "Rain",
+        "max_level": 4,
+        "name": "cold",
+        "params": "ColdEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "group",
+        "event": "SocialSeek",
+        "icon": "UiEmoteHideSeek",
+        "level": "RainForest",
+        "max_level": 1,
+        "name": "seek",
+        "params": "SeekEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "negative",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAngry",
+        "level": "RainForest",
+        "max_level": 4,
+        "name": "pout",
+        "params": "PoutEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmote",
+        "icon": "UiEmoteShy",
+        "level": "RainForest",
+        "max_level": 4,
+        "name": "shy",
+        "params": "ShyEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmote",
+        "icon": "UiEmoteStress",
+        "level": "RainMid",
+        "max_level": 4,
+        "name": "ohno",
+        "params": "ShockedEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteApologize",
+        "level": "RainMid",
+        "max_level": 4,
+        "name": "sorry",
+        "params": "ApologizeEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmote",
+        "icon": "UiEmoteCry",
+        "level": "RainMid",
+        "max_level": 6,
+        "name": "cry",
+        "params": "CryEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP02Sarcastic",
+        "level": "RainForest",
+        "max_level": 4,
+        "name": "sarcastic",
+        "params": "SarcasticEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiSocialHairTousleA",
+        "level": "Rain_Cave",
+        "max_level": 4,
+        "name": "hairtousle",
+        "params": "OfferHairTousleEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "action"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP06Shrug",
+        "level": "DuskOasis",
+        "max_level": 4,
+        "name": "shrug",
+        "params": "ShrugEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP07Grumpy",
+        "level": "Prairie_Island",
+        "max_level": 4,
+        "name": "grumpy",
+        "params": "GrumpyEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP09Peek",
+        "level": "SunsetVillage",
+        "max_level": 4,
+        "name": "peek",
+        "params": "PeekEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP10Eww",
+        "level": "RainForest",
+        "max_level": 4,
+        "name": "eww",
+        "params": "EwwEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP10Facepalm",
+        "level": "Rain",
+        "max_level": 4,
+        "name": "facepalm",
+        "params": "FacePalmEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteHandstand",
+        "level": "Sunset_Citadel",
+        "max_level": 4,
+        "name": "handstand",
+        "params": "HandstandEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmote",
+        "icon": "UiEmoteBackflip",
+        "level": "Sunset_Citadel",
+        "max_level": 4,
+        "name": "backflip",
+        "params": "BackFlipEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteBow",
+        "level": "SunsetColosseum",
+        "max_level": 4,
+        "name": "bow",
+        "params": "BowEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "positive",
+        "event": "SocialEmote",
+        "icon": "UiEmoteCheer",
+        "level": "SunsetColosseum",
+        "max_level": 4,
+        "name": "cheer",
+        "params": "CheerEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "positive",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP02Joy",
+        "level": "Sunset",
+        "max_level": 4,
+        "name": "joy",
+        "params": "JoyEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP03Axel",
+        "level": "Sunset",
+        "max_level": 4,
+        "name": "tripleaxel",
+        "params": "TripleAxelEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "positive",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP04Celebrate",
+        "level": "Prairie_ButterflyFields",
+        "max_level": 4,
+        "name": "celebrate",
+        "params": "CelebrateEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP04LoopDance",
+        "level": "Dawn",
+        "max_level": 4,
+        "name": "loopdance",
+        "params": "LoopDanceEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialDance",
+        "icon": "UiEmoteAP01Dance",
+        "level": "Prairie_NestAndKeeper",
+        "max_level": 4,
+        "name": "dance",
+        "params": "DanceEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP01Juggle",
+        "level": "Sunset",
+        "max_level": 4,
+        "name": "juggle",
+        "params": "JuggleEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP06CrabWalk",
+        "level": "DuskOasis",
+        "max_level": 4,
+        "name": "crabwalk",
+        "params": "CrabwalkEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "positive",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP07Rally",
+        "level": "Prairie_Island",
+        "max_level": 4,
+        "name": "rally",
+        "params": "RallyEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP09SpinTrick",
+        "level": "SunsetVillage",
+        "max_level": 4,
+        "name": "spintrick",
+        "params": "SpinTrickEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP09ShowDanceAnim",
+        "level": "SunsetVillage",
+        "max_level": 4,
+        "name": "showdance",
+        "params": "ShowDanceEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteScared",
+        "level": "Dusk",
+        "max_level": 4,
+        "name": "scared",
+        "params": "DuckEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteFaint",
+        "level": "Dusk",
+        "max_level": 4,
+        "name": "die",
+        "params": "FaintEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP01Respect",
+        "level": "DuskGraveyard",
+        "max_level": 4,
+        "name": "respect",
+        "params": "RespectEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteLookAround",
+        "level": "DuskMid",
+        "max_level": 4,
+        "name": "lookaround",
+        "params": "LookAroundEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteSalute",
+        "level": "Dusk_CrabField",
+        "max_level": 4,
+        "name": "salute",
+        "params": "SaluteEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP02Acknowledge",
+        "level": "DuskGraveyard",
+        "max_level": 4,
+        "name": "acknowledge",
+        "params": "AcknowledgeEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP02KungFu",
+        "level": "Night2",
+        "max_level": 4,
+        "name": "kungfu",
+        "params": "KungFuEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP04DontGo",
+        "level": "DuskGraveyard",
+        "max_level": 4,
+        "name": "dontgo",
+        "params": "DontGoEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP06Scare",
+        "level": "DuskOasis",
+        "max_level": 4,
+        "name": "scare",
+        "params": "ScareEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "group",
+        "event": "SocialEmote",
+        "icon": "UiSocialPlayfight",
+        "level": "DuskOasis",
+        "max_level": 4,
+        "name": "playfight",
+        "params": "PlayfightEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "action"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP08DustOff",
+        "level": "DawnCave",
+        "max_level": 4,
+        "name": "dustoff",
+        "params": "DustOffEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "positive",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP08ChestPound",
+        "level": "DawnCave",
+        "max_level": 4,
+        "name": "chestpound",
+        "params": "ChestPoundEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "positive",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP10Marching",
+        "level": "RainForest",
+        "max_level": 4,
+        "name": "marching",
+        "params": "MarchingEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteForce",
+        "level": "Night",
+        "max_level": 4,
+        "name": "force",
+        "params": "UseTheForceEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteFloat",
+        "level": "Night2",
+        "max_level": 4,
+        "name": "float",
+        "params": "FloatEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmotePray",
+        "level": "Night",
+        "max_level": 4,
+        "name": "pray",
+        "params": "PrayEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP02Salutation",
+        "level": "Prairie_Cave",
+        "max_level": 4,
+        "name": "salutation",
+        "params": "SalutationEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP03Quiet",
+        "level": "Night2",
+        "max_level": 4,
+        "name": "shh",
+        "params": "ShhEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialSparkler",
+        "icon": "UiEmoteAP04Sparkler",
+        "level": "SunsetEnd2",
+        "max_level": 4,
+        "name": "sparkler",
+        "params": "SparklerEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP01Think",
+        "level": "Night",
+        "max_level": 4,
+        "name": "think",
+        "params": "ThinkEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP06Doze",
+        "level": "DuskOasis",
+        "max_level": 4,
+        "name": "doze",
+        "params": "DozeEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP08Balance",
+        "level": "DawnCave",
+        "max_level": 4,
+        "name": "balance",
+        "params": "BalanceEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP08DeepBreath",
+        "level": "DawnCave",
+        "max_level": 4,
+        "name": "deepbreath",
+        "params": "DeepBreathEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP10Bubbles",
+        "level": "RainMid",
+        "max_level": 4,
+        "name": "bubbles",
+        "params": "BubblesEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "event": "SetVoice",
+        "icon": "UiEmoteCallBird",
+        "level": "Prairie_NestAndKeeper",
+        "max_level": 1,
+        "name": "bird",
+        "params": "bird",
+        "speedMult": [
+            0.0
+        ],
+        "type": "voice"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "event": "SetVoice",
+        "icon": "UiEmoteCallFish",
+        "level": "RainMid",
+        "max_level": 1,
+        "name": "whale",
+        "params": "whale",
+        "speedMult": [
+            0.0
+        ],
+        "type": "voice"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "event": "SetVoice",
+        "icon": "UiEmoteCallManta",
+        "level": "Sunset_Citadel",
+        "max_level": 1,
+        "name": "manta",
+        "params": "manta",
+        "speedMult": [
+            0.0
+        ],
+        "type": "voice"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "event": "SetVoice",
+        "icon": "UiEmoteCallGhostManta",
+        "level": "Night2",
+        "max_level": 1,
+        "name": "ghost",
+        "params": "ghost",
+        "speedMult": [
+            0.0
+        ],
+        "type": "voice"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "event": "SetVoice",
+        "icon": "UiEmoteCallCrab",
+        "level": "Dusk_CrabField",
+        "max_level": 1,
+        "name": "crabvoice",
+        "params": "crab",
+        "speedMult": [
+            0.0
+        ],
+        "type": "voice"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "event": "SetVoice",
+        "icon": "UiEmoteCallJellyfish",
+        "level": "Prairie_Island",
+        "max_level": 1,
+        "name": "jelly",
+        "params": "jelly",
+        "speedMult": [
+            0.0
+        ],
+        "type": "voice"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "event": "SocialAttitude",
+        "icon": "UiEmoteStanceWide",
+        "level": "DuskGraveyard",
+        "max_level": 1,
+        "name": "brave",
+        "params": "2",
+        "speedMult": [
+            0.0
+        ],
+        "type": "attitude"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "event": "SocialAttitude",
+        "icon": "UiEmoteStanceHero",
+        "level": "Sunset",
+        "max_level": 1,
+        "name": "strong",
+        "params": "3",
+        "speedMult": [
+            0.0
+        ],
+        "type": "attitude"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "event": "SocialAttitude",
+        "icon": "UiEmoteStanceSneak",
+        "level": "DuskGraveyard",
+        "max_level": 1,
+        "name": "sneaky",
+        "params": "4",
+        "speedMult": [
+            0.0
+        ],
+        "type": "attitude"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "event": "SocialAttitude",
+        "icon": "UiEmoteStanceCrossArm",
+        "level": "SunsetColosseum",
+        "max_level": 1,
+        "name": "proud",
+        "params": "5",
+        "speedMult": [
+            0.0
+        ],
+        "type": "attitude"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "event": "SocialAttitude",
+        "icon": "UiEmoteStanceSolemn",
+        "level": "Night",
+        "max_level": 1,
+        "name": "love",
+        "params": "6",
+        "speedMult": [
+            0.0
+        ],
+        "type": "attitude"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "event": "SocialAttitude",
+        "icon": "UiEmoteStanceSassy",
+        "level": "Dawn",
+        "max_level": 1,
+        "name": "sass",
+        "params": "7",
+        "speedMult": [
+            0.0
+        ],
+        "type": "attitude"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "event": "SocialAttitude",
+        "icon": "UiEmoteStanceLazyCool",
+        "level": "RainForest",
+        "max_level": 1,
+        "name": "lazycool",
+        "params": "8",
+        "speedMult": [
+            0.0
+        ],
+        "type": "attitude"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "event": "SocialAttitude",
+        "icon": "UiEmoteStanceWise",
+        "level": "NightArchive",
+        "max_level": 1,
+        "name": "wise",
+        "params": "9",
+        "speedMult": [
+            0.0
+        ],
+        "type": "attitude"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "event": "SocialAttitude",
+        "icon": "UiEmoteStanceTimid",
+        "level": "Prairie_Island",
+        "max_level": 1,
+        "name": "timid",
+        "params": "10",
+        "speedMult": [
+            0.0
+        ],
+        "type": "attitude"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "DuskOasis",
+        "max_level": 1,
+        "name": "questap06",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Prairie_Island",
+        "max_level": 1,
+        "name": "questap07",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "DawnCave",
+        "max_level": 1,
+        "name": "questap08",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "SunsetVillage",
+        "max_level": 1,
+        "name": "questap09",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Rain_BaseCamp",
+        "max_level": 1,
+        "name": "questap10",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "NightDesert",
+        "max_level": 1,
+        "name": "questap11",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP11BeckonAnim",
+        "level": "NightDesert",
+        "max_level": 4,
+        "name": "beckon",
+        "params": "BeckonEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "positive",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP11Gloat",
+        "level": "NightDesert",
+        "max_level": 4,
+        "name": "gloat",
+        "params": "GloatEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP11Stretch",
+        "level": "NightDesert",
+        "max_level": 4,
+        "name": "stretch",
+        "params": "StretchEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP11Sneeze",
+        "level": "NightDesert",
+        "max_level": 4,
+        "name": "sneeze",
+        "params": "SneezeEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP11Slouch",
+        "level": "Night_JarCave",
+        "max_level": 4,
+        "name": "slouch",
+        "params": "SlouchEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP11Scheme",
+        "level": "NightDesert_Beach",
+        "max_level": 4,
+        "name": "scheme",
+        "params": "SchemeEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Skyway",
+        "max_level": 1,
+        "name": "questap12",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP12Voila",
+        "level": "Skyway",
+        "max_level": 4,
+        "name": "voila",
+        "params": "VoilaEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP12PointUp",
+        "level": "Skyway",
+        "max_level": 4,
+        "name": "pointup",
+        "params": "PointupEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "event": "SetVoice",
+        "icon": "UiEmoteCallBabyManta",
+        "level": "Skyway",
+        "max_level": 1,
+        "name": "babymanta",
+        "params": "baby",
+        "speedMult": [
+            0.0
+        ],
+        "type": "voice"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "event": "SocialAttitude",
+        "icon": "UiEmoteStanceNerdy",
+        "level": "Skyway",
+        "max_level": 1,
+        "name": "nerdy",
+        "params": "11",
+        "speedMult": [
+            0.0
+        ],
+        "type": "attitude"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiOutfitPendantAP13",
+        "level": "Dusk_Triangle",
+        "max_level": 1,
+        "name": "questap13",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP13WaitAnim",
+        "level": "Dusk_Triangle",
+        "max_level": 4,
+        "name": "wait",
+        "params": "WaitEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "positive",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP13EvilLaughAnim",
+        "level": "Dusk_Triangle",
+        "max_level": 4,
+        "name": "evillaugh",
+        "params": "EvillaughEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP13Ouch",
+        "level": "Dusk_Triangle",
+        "max_level": 4,
+        "name": "ouch",
+        "params": "OuchEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "negative",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP13Anxious",
+        "level": "Dusk_Triangle",
+        "max_level": 4,
+        "name": "anxious",
+        "params": "AnxiousEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiOutfitPendantAP14",
+        "level": "Sunset_Theater",
+        "max_level": 1,
+        "name": "questap14",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "positive",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP14HeadBobAnim",
+        "level": "Sunset_Theater",
+        "max_level": 4,
+        "name": "headbob",
+        "params": "HeadbobEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "group",
+        "event": "SocialEmoteLoop",
+        "icon": "UiSocialDuetDanceA",
+        "level": "Sunset_Theater",
+        "max_level": 2,
+        "name": "duetdance",
+        "params": "DuetDanceEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "action"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "group",
+        "event": "SocialEmote",
+        "icon": "UiSocialHandShakeA",
+        "level": "Sunset_Theater",
+        "max_level": 2,
+        "name": "handshake",
+        "params": "HandShakeEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "action"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "positive",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP14Awww",
+        "level": "Sunset_Theater",
+        "max_level": 4,
+        "name": "awww",
+        "params": "AwwwEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "StormEvent_VoidSpace",
+        "max_level": 1,
+        "name": "questap15",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "StormEvent_VoidSpace",
+        "max_level": 1,
+        "name": "lightvoidspace01",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "StormEvent_VoidSpace",
+        "max_level": 1,
+        "name": "lightvoidspace02",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "StormEvent_VoidSpace",
+        "max_level": 1,
+        "name": "darkvoidspace01",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "StormEvent_VoidSpace",
+        "max_level": 1,
+        "name": "darkvoidspace02",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "SunsetColosseum",
+        "max_level": 1,
+        "name": "questap16",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "positive",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP16ArmWaveAnim",
+        "level": "SunsetColosseum",
+        "max_level": 4,
+        "name": "armwave",
+        "params": "ArmWaveEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "positive",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP16RaiseTheRoofAnim",
+        "level": "SunsetColosseum",
+        "max_level": 4,
+        "name": "raisetheroof",
+        "params": "RaiseTheRoofEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP16Twirl",
+        "level": "SunsetColosseum",
+        "max_level": 4,
+        "name": "twirl",
+        "params": "TwirlEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "positive",
+        "event": "SocialEmoteRhythmicLoop",
+        "icon": "UiEmoteAP16RhythmicClapAnim",
+        "level": "SunsetColosseum",
+        "max_level": 4,
+        "name": "rhythmicclap",
+        "params": "RhythmicClapEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP16ConductAnim",
+        "level": "SunsetColosseum",
+        "max_level": 4,
+        "name": "conduct",
+        "params": "ConductEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP16SilentClapAnim",
+        "level": "SunsetColosseum",
+        "max_level": 4,
+        "name": "silentclap",
+        "params": "SilentClapEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "positive",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP16Skip",
+        "level": "SunsetColosseum",
+        "max_level": 4,
+        "name": "skip",
+        "params": "SkipEmote",
+        "speedMult": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP17Plead",
+        "level": "Night_Shelter",
+        "max_level": 4,
+        "name": "plead",
+        "params": "PleadEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "negative",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP17Tiptoe",
+        "level": "Night_Shelter",
+        "max_level": 4,
+        "name": "tiptoe",
+        "params": "SneakEmote",
+        "speedMult": [
+            0.1,
+            0.1,
+            0.4,
+            0.4
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "negative",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP17Grief",
+        "level": "Night_Shelter",
+        "max_level": 4,
+        "name": "grief",
+        "params": "GriefEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "SocialAttitude",
+        "icon": "UiEmoteStanceInjured",
+        "level": "Night_Shelter",
+        "max_level": 1,
+        "name": "injured",
+        "params": "12",
+        "speedMult": [
+            0.0
+        ],
+        "type": "attitude"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Night_Shelter",
+        "max_level": 1,
+        "name": "questap17",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Dawn",
+        "max_level": 1,
+        "name": "questap18",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "performance",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP18Hackysack",
+        "level": "Dawn",
+        "max_level": 4,
+        "name": "hackysack",
+        "params": "HackysackEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP18Roll",
+        "level": "Dawn",
+        "max_level": 4,
+        "name": "roll",
+        "params": "RollEmote",
+        "speedMult": [
+            0.3,
+            0.3,
+            1.0,
+            1.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "negative",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP18Mope",
+        "level": "Dawn",
+        "max_level": 4,
+        "name": "mope",
+        "params": "MopeEmote",
+        "speedMult": [
+            0.1,
+            0.1,
+            0.2,
+            0.2
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP18Pullup",
+        "level": "Dawn",
+        "max_level": 4,
+        "name": "pullup",
+        "params": "PullupEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Prairie_WildLifePark",
+        "max_level": 1,
+        "name": "questap19",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "group",
+        "event": "SocialEmote",
+        "icon": "UiSocialSideHugA",
+        "level": "Prairie_WildLifePark",
+        "max_level": 4,
+        "name": "sidehug",
+        "params": "SideHugEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "action"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP19JollyDance",
+        "level": "Prairie_WildLifePark",
+        "max_level": 4,
+        "name": "jollydance",
+        "params": "JollyDanceEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP19WindPose",
+        "level": "Prairie_WildLifePark",
+        "max_level": 4,
+        "name": "windpose",
+        "params": "WindPoseEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "SetVoice",
+        "icon": "UiEmoteCallNightbird",
+        "level": "Prairie_WildLifePark",
+        "max_level": 1,
+        "name": "nightbird",
+        "params": "nightBird",
+        "speedMult": [
+            0.0
+        ],
+        "type": "voice"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAuroraPenguinDanceAnim",
+        "level": "SunsetColosseum",
+        "max_level": 2,
+        "name": "penguindance",
+        "params": "PenguinDanceEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "MainStreet",
+        "max_level": 1,
+        "name": "questap20",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Night_PaintedWorld",
+        "max_level": 1,
+        "name": "questap21",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "gesture",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP21Whistle",
+        "level": "Night_PaintedWorld",
+        "max_level": 4,
+        "name": "whistle",
+        "params": "WhistleEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "positive",
+        "event": "SocialMuscle",
+        "icon": "UiEmoteAP21Muscle",
+        "level": "Night_PaintedWorld",
+        "max_level": 4,
+        "name": "muscle",
+        "params": "MuscleEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "group",
+        "event": "SocialEmote",
+        "icon": "UiSocialPrincessCarryA",
+        "level": "Night_PaintedWorld",
+        "max_level": 2,
+        "name": "princesscarry",
+        "params": "OfferPrincessCarryEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "action"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "performance",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP21FloatDance",
+        "level": "Night_PaintedWorld",
+        "max_level": 4,
+        "name": "floatdance",
+        "params": "FloatDanceEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "MainStreet_ShopProps",
+        "max_level": 1,
+        "name": "questap22",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "MainStreet_ConcertHall",
+        "max_level": 1,
+        "name": "questap23",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "MainStreet_ConcertHall",
+        "max_level": 0,
+        "name": "questap23_duo",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "MainStreet_ConcertHall",
+        "max_level": 0,
+        "name": "questap23_duo_cellist",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "group",
+        "event": "SocialEmote",
+        "icon": "UiSocialDuetBowA",
+        "level": "MainStreet_ConcertHall",
+        "max_level": 4,
+        "name": "duetbow",
+        "params": "OfferDuetBowEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "action"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "MainStreet_ConcertHall",
+        "max_level": 0,
+        "name": "ap23_pianist_stage01",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "MainStreet_ConcertHall",
+        "max_level": 0,
+        "name": "ap23_cello_stage01",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "MainStreet_ConcertHall",
+        "max_level": 0,
+        "name": "ap23_pianist_stage02",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "MainStreet_ConcertHall",
+        "max_level": 0,
+        "name": "ap23_cello_stage02",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "MainStreet_ConcertHall",
+        "max_level": 0,
+        "name": "ap23_instrument_shop",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Night_StoryBook",
+        "max_level": 1,
+        "name": "questap24",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "gesture",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP24Reading",
+        "level": "Night_StoryBook",
+        "max_level": 4,
+        "name": "reading",
+        "params": "ReadingEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "Night_StoryBook",
+        "max_level": 0,
+        "name": "ap24_home",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "Night_StoryBook",
+        "max_level": 0,
+        "name": "ap24_friend",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "Night_StoryBook",
+        "max_level": 0,
+        "name": "ap24_wanderer",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "Night_StoryBook",
+        "max_level": 0,
+        "name": "ap24_family",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "MainStreet_ShopOutfits",
+        "max_level": 1,
+        "name": "questap25",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP25Cartwheel",
+        "level": "MainStreet_ShopOutfits",
+        "max_level": 4,
+        "name": "cartwheel",
+        "params": "CartwheelEmote",
+        "speedMult": [
+            0.3,
+            0.3,
+            0.3,
+            0.3
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "positive",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP25HeartHands",
+        "level": "MainStreet_ShopOutfits",
+        "max_level": 4,
+        "name": "hearthands",
+        "params": "HeartHandsEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP25HypeDance",
+        "level": "MainStreet_ShopOutfits",
+        "max_level": 4,
+        "name": "hypedance",
+        "params": "HypedanceEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Rain_BlueBirdTheater",
+        "max_level": 1,
+        "name": "questap26",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "negative",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP26CoughAnim",
+        "level": "Rain_BlueBirdTheater",
+        "max_level": 4,
+        "name": "cough",
+        "params": "CoughEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "positive",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP26Amazed",
+        "level": "Rain_BlueBirdTheater",
+        "max_level": 4,
+        "name": "amazed",
+        "params": "AmazedEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "SetVoice",
+        "icon": "UiEmoteCallBluebird",
+        "level": "Rain_BlueBirdTheater",
+        "max_level": 1,
+        "name": "bluebird",
+        "params": "blueBird",
+        "speedMult": [
+            0.0
+        ],
+        "type": "voice"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "SocialAttitude",
+        "icon": "UiEmoteStanceSad",
+        "level": "Rain_BlueBirdTheater",
+        "max_level": 1,
+        "name": "sad",
+        "params": "13",
+        "speedMult": [
+            0.0
+        ],
+        "type": "attitude"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiOutfitHairAP26LowHat",
+        "level": "Rain_BlueBirdTheater",
+        "max_level": 0,
+        "name": "ap26_cousin",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiOutfitCapeAP26Hourglass",
+        "level": "Rain_BlueBirdTheater",
+        "max_level": 0,
+        "name": "ap26_mourner",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiOutfitBodyAP26Lumberjack",
+        "level": "Rain_BlueBirdTheater",
+        "max_level": 0,
+        "name": "ap26_lumberjack",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiOutfitCapeAP26MoonCloak",
+        "level": "Rain_BlueBirdTheater",
+        "max_level": 0,
+        "name": "ap26_future",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Event_Cinema",
+        "max_level": 1,
+        "name": "questap27",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "DuskMid_Past",
+        "max_level": 1,
+        "name": "questap27manatee",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "SetVoice",
+        "icon": "UiEmoteCallManatee",
+        "level": "DuskMid_Past",
+        "max_level": 1,
+        "name": "manatee",
+        "params": "manatee",
+        "speedMult": [
+            0.0
+        ],
+        "type": "voice"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "SocialAttitude",
+        "icon": "UiEmoteStanceGuard",
+        "level": "DuskMid_Past",
+        "max_level": 1,
+        "name": "guard",
+        "params": "14",
+        "speedMult": [
+            0.0
+        ],
+        "type": "attitude"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "DuskMid_Past",
+        "max_level": 0,
+        "name": "ap27_caretaker",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "DuskMid_PastMarket",
+        "max_level": 0,
+        "name": "ap27_oldman",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "Night",
+        "max_level": 0,
+        "name": "ap27_memory1",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "Night",
+        "max_level": 0,
+        "name": "ap27_memory2",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "Night",
+        "max_level": 0,
+        "name": "ap27_memory3",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "Night",
+        "max_level": 0,
+        "name": "ap27_memory4",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Dawn",
+        "max_level": 1,
+        "name": "questap28",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "performance",
+        "event": "SocialSignalFlags",
+        "icon": "UiEmoteAP28Flag",
+        "level": "Skyway",
+        "max_level": 4,
+        "name": "flag",
+        "params": "FlagEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "positive",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP28AirplaneArms",
+        "level": "Skyway",
+        "max_level": 4,
+        "name": "airplanearms",
+        "params": "AirplaneArmsEmote",
+        "speedMult": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP28JellyDance",
+        "level": "Skyway",
+        "max_level": 4,
+        "name": "jellydance",
+        "params": "JellyDanceEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "negative",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP28Dizzy",
+        "level": "Skyway",
+        "max_level": 4,
+        "name": "dizzy",
+        "params": "DizzyEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "SetVoice",
+        "icon": "UiEmoteCallLighthorn",
+        "level": "Dawn",
+        "max_level": 1,
+        "name": "lighthorn",
+        "params": "lighthorn",
+        "speedMult": [
+            0.0
+        ],
+        "type": "voice"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Night_Workshop",
+        "max_level": 1,
+        "name": "questap29",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "group",
+        "event": "SocialEmoteLoop",
+        "icon": "UiSocialAP29RevolvingDanceA",
+        "level": "Night_Workshop",
+        "max_level": 4,
+        "name": "revolvingdance",
+        "params": "OfferRevolvingDanceEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "action"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "positive",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP29CuteClapAnim",
+        "level": "Night_Workshop",
+        "max_level": 4,
+        "name": "cuteclap",
+        "params": "CuteclapEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "group",
+        "event": "SocialEmote",
+        "icon": "UiSocialAP29SecretHandshakeA",
+        "level": "Night_Workshop",
+        "max_level": 4,
+        "name": "secrethandshake",
+        "params": "OfferSecretHandshakeEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "action"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "group",
+        "event": "SocialEmoteLoop",
+        "icon": "UiSocialAP29WhisperA",
+        "level": "Night_Workshop",
+        "max_level": 4,
+        "name": "whisper",
+        "params": "OfferWhisperEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "action"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "MainStreet_FunArmada",
+        "max_level": 1,
+        "name": "questap30",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "positive",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP30Approve",
+        "level": "MainStreet_FunArmada",
+        "max_level": 4,
+        "name": "approve",
+        "params": "ApproveEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP30BreakDance",
+        "level": "MainStreet_FunArmada",
+        "max_level": 4,
+        "name": "breakdance",
+        "params": "BreakDanceEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "performance",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP30BallTrick",
+        "level": "MainStreet_FunArmada",
+        "max_level": 4,
+        "name": "balltrick",
+        "params": "BallTrickEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "gesture",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP30Write",
+        "level": "MainStreet_FunArmada",
+        "max_level": 4,
+        "name": "write",
+        "params": "WriteEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "group",
+        "event": "SocialEmote",
+        "icon": "UiSocialDuetBowA",
+        "level": "None",
+        "max_level": 2,
+        "name": "duetbownfc",
+        "params": "OfferDuetBowEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "action"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "RainShelter",
+        "max_level": 1,
+        "name": "questsummer",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Event_DaysOfMischief",
+        "max_level": 1,
+        "name": "questmischief",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Sunset_YetiPark",
+        "max_level": 1,
+        "name": "questfeast_yeti",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Sunset",
+        "max_level": 1,
+        "name": "questfortune",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Prairie_Village",
+        "max_level": 1,
+        "name": "questbloom",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Prairie_WildLifePark",
+        "max_level": 1,
+        "name": "questbloompark",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "DayHubCave",
+        "max_level": 1,
+        "name": "questrainbow",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "DuskOasis",
+        "max_level": 1,
+        "name": "questbloomdesert",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Prairie_Village",
+        "max_level": 1,
+        "name": "questbloomsunflower",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Dusk_Triangle",
+        "max_level": 1,
+        "name": "questtreasure",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "SunsetColosseum",
+        "max_level": 1,
+        "name": "questcompetition",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    }
+]

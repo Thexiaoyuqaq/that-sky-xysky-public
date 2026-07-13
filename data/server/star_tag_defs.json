@@ -1,0 +1,1670 @@
+{
+  "get_star_tag_defs": [
+    {
+      "name": "ancestor_daylight_prairie",
+      "sku": "SKY-PN-ST-ANC-DP",
+      "part": "",
+      "consumable_name": "teleport_prairie_elder",
+      "group_name": "",
+      "batches": [
+        1
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "ancestor_hidden_forest",
+      "sku": "SKY-PN-ST-ANC-HF",
+      "part": "",
+      "consumable_name": "teleport_forest_elder",
+      "group_name": "",
+      "batches": [
+        2
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "ancestor_isle_dawn",
+      "sku": "SKY-PN-ST-ANC-ID",
+      "part": "",
+      "consumable_name": "teleport_isle_elder",
+      "group_name": "",
+      "batches": [
+        1
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "birthdayhat_krill",
+      "sku": "SKY-KC-ST-SUM-DD",
+      "part": "",
+      "consumable_name": "birthdayhat_krill",
+      "group_name": "",
+      "batches": [
+        8
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "bloom_rose_trail",
+      "sku": "SKY-PN-ST-BL-RP",
+      "part": "",
+      "consumable_name": "bloom_rose_trail",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "bloom_sakura_confetti",
+      "sku": "SKY-PN-ST-CAP-BP",
+      "part": "",
+      "consumable_name": "bloom_sakura",
+      "group_name": "",
+      "batches": [
+        1002
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "butterfly_pastel",
+      "sku": "SKY-PN-ST-BL-CB",
+      "part": "",
+      "consumable_name": "butterfly_pastel",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "cap_winged_light",
+      "sku": "SKY-AP-HAT-WL-BK",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "cape_lightseeker",
+      "sku": "SKY-PN-ST-CAP-LS",
+      "part": "",
+      "consumable_name": "outfit_wing_lightseeker",
+      "group_name": "",
+      "batches": [
+        1
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "cape_lightseeker_petal",
+      "sku": "SKY-PN-ST-CAP-LP",
+      "part": "",
+      "consumable_name": "outfit_wing_petal",
+      "group_name": "",
+      "batches": [
+        2
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "cape_rhythm_director",
+      "sku": "SKY-PN-ST-CAP-RD",
+      "part": "",
+      "consumable_name": "outfit_wing_director",
+      "group_name": "",
+      "batches": [
+        2
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "connect_soulmate_left",
+      "sku": "SKY-PN-ST-HOL-SISL",
+      "part": "",
+      "consumable_name": "relationship_flair_soulmate",
+      "group_name": "SKY-BB-HOL-TOG-20Q4",
+      "batches": [
+        2
+      ],
+      "can_link_with": "SKY-PN-ST-HOL-SISR"
+    },
+    {
+      "name": "connect_soulmate_right",
+      "sku": "SKY-PN-ST-HOL-SISR",
+      "part": "",
+      "consumable_name": "relationship_flair_soulmate",
+      "group_name": "SKY-BB-HOL-TOG-20Q4",
+      "batches": [
+        2
+      ],
+      "can_link_with": "SKY-PN-ST-HOL-SISL"
+    },
+    {
+      "name": "connect_you_and_i_left",
+      "sku": "SKY-PN-ST-CNT-YIL",
+      "part": "",
+      "consumable_name": "relationship_flair_you_and_i",
+      "group_name": "SKY-PN-ST-CNT-YI",
+      "batches": [
+        1
+      ],
+      "can_link_with": "SKY-PN-ST-CNT-YIR"
+    },
+    {
+      "name": "connect_you_and_i_right",
+      "sku": "SKY-PN-ST-CNT-YIR",
+      "part": "",
+      "consumable_name": "relationship_flair_you_and_i",
+      "group_name": "SKY-PN-ST-CNT-YI",
+      "batches": [
+        1
+      ],
+      "can_link_with": "SKY-PN-ST-CNT-YIL"
+    },
+    {
+      "name": "costume_weasel_mask",
+      "sku": "SKY-PN-ST-COS-WM",
+      "part": "",
+      "consumable_name": "outfit_mask_weasel",
+      "group_name": "",
+      "batches": [
+        1
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "crab_curse_starpin",
+      "sku": "SKY-KC-ST-CB-AC",
+      "part": "",
+      "consumable_name": "crab_curse_starpin",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "creature_flipped_crab",
+      "sku": "SKY-PN-ST-CRE-FC",
+      "part": "",
+      "consumable_name": "shout_crab",
+      "group_name": "",
+      "batches": [
+        1
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "creature_healer_crab",
+      "sku": "SKY-PN-ST-CRE-HC",
+      "part": "",
+      "consumable_name": "relationship_allow_carry",
+      "group_name": "SKY-BB-PP-HOL-1YR",
+      "batches": [
+        1
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "creature_manta",
+      "sku": "SKY-PN-ST-CRE-MA",
+      "part": "",
+      "consumable_name": "shout_manta",
+      "group_name": "",
+      "batches": [
+        1,
+        2
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "dark_dragon_firework",
+      "sku": "SKY-PN-ST-SUM-DF",
+      "part": "",
+      "consumable_name": "dark_dragon_firework",
+      "group_name": "",
+      "batches": [
+        12
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "drop_wing",
+      "sku": "SKY-PN-ST-CRE-DG",
+      "part": "",
+      "consumable_name": "drop_wing",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "duet_bow_special",
+      "sku": "SKY-PN-ST-EXP-DB",
+      "part": "",
+      "consumable_name": "relationship_allow_duet_bow_special",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "figurine_ste",
+      "sku": "SKY-FG-ST-PRO-FG-1",
+      "part": "",
+      "consumable_name": "figurineskykid_normaledition",
+      "group_name": "",
+      "batches": [
+        8
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "hat_dark_dragon",
+      "sku": "SKY-AP-HAT-DGB-BK",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "holiday_earthday_cape",
+      "sku": "SKY-PN-ST-HOL-ED",
+      "part": "",
+      "consumable_name": "outfit_wing_earthday",
+      "group_name": "SKY-BB-PP-HOL-1YR",
+      "batches": [
+        1
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "holiday_earthday_friendship",
+      "sku": "SKY-PN-ST-HOL-EDF",
+      "part": "",
+      "consumable_name": "relationship_allow_warp",
+      "group_name": "SKY-BB-PP-HOL-1YR",
+      "batches": [
+        1
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "hoodie_tgc_i_l",
+      "sku": "SKY-AP-HO-TGCI-BKLG",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "hoodie_tgc_i_m",
+      "sku": "SKY-AP-HO-TGCI-BKMD",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "hoodie_tgc_i_s",
+      "sku": "SKY-AP-HO-TGCI-BKSM",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "hoodie_tgc_i_xl",
+      "sku": "SKY-AP-HO-TGCI-BKXL",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "hoodie_tgc_i_xxl",
+      "sku": "SKY-AP-HO-TGCI-BKXXL",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "instrument_harmony_harp",
+      "sku": "SKY-PN-ST-MI-HH",
+      "part": "",
+      "consumable_name": "outfit_prop_harp",
+      "group_name": "",
+      "batches": [
+        1
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "mask_chibi",
+      "sku": "SKY-PN-ST-MAS-CB",
+      "part": "",
+      "consumable_name": "height_small_3x_handhold",
+      "group_name": "",
+      "batches": [
+        2
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "mask_rhythm_actor",
+      "sku": "SKY-PN-ST-MAS-RA",
+      "part": "",
+      "consumable_name": "outfit_mask_actor",
+      "group_name": "",
+      "batches": [
+        2
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_figurine_TGC_specialEdition",
+      "sku": "SKY-FG-ST-KD-TGC",
+      "part": "",
+      "consumable_name": "outfit_figurine_TGC_specialEdition",
+      "group_name": "",
+      "batches": [
+        10
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_hair_elder_valley_bro",
+      "sku": "SKY-PL-SP-ANC-VT1",
+      "part": "",
+      "consumable_name": "outfit_hair_elder_valley_bro",
+      "group_name": "",
+      "batches": [
+        1004
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_hair_elder_valley_sis",
+      "sku": "SKY-PL-SP-ANC-VT2",
+      "part": "",
+      "consumable_name": "outfit_hair_elder_valley_sis",
+      "group_name": "",
+      "batches": [
+        1004
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_hair_fish",
+      "sku": "SKY-KC-ST-PL-LC",
+      "part": "",
+      "consumable_name": "outfit_hair_fish",
+      "group_name": "",
+      "batches": [
+        1004
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_hat_bunny2",
+      "sku": "SKY-KC-ST-RB-BU",
+      "part": "",
+      "consumable_name": "outfit_hat_bunny2",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_hat_witchhat_01",
+      "sku": "SKY-PN-ST-COS-WH",
+      "part": "",
+      "consumable_name": "outfit_hat_witchhat_01",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_horn_STARpinSunglasses",
+      "sku": "SKY-PN-ST-COS-SS",
+      "part": "",
+      "consumable_name": "outfit_horn_STARpinSunglasses",
+      "group_name": "",
+      "batches": [
+        12
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_horn_bunnyAcc",
+      "sku": "SKY-KC-ST-RB-6",
+      "part": "",
+      "consumable_name": "outfit_horn_bunnyAcc",
+      "group_name": "",
+      "batches": [
+        9
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_mask_fox",
+      "sku": "SKY-PN-ST-MAS-GF",
+      "part": "",
+      "consumable_name": "outfit_mask_fox",
+      "group_name": "",
+      "batches": [
+        3
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_mask_red_face",
+      "sku": "SKY-PN-ST-MAS-NY",
+      "part": "",
+      "consumable_name": "outfit_mask_red_face",
+      "group_name": "",
+      "batches": [
+        1004
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_mask_tiger_starPin",
+      "sku": "SKY-PN-ST-MAS-FT",
+      "part": "",
+      "consumable_name": "outfit_mask_tiger_starPin",
+      "group_name": "",
+      "batches": [
+        11
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_neck_crabAcc_original",
+      "sku": "SKY-KC-ST-CB-6",
+      "part": "",
+      "consumable_name": "outfit_neck_crabAcc_original",
+      "group_name": "",
+      "batches": [
+        9
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_neck_crabAcc_specialEdition",
+      "sku": "SKY-KC-ST-SC1-6",
+      "part": "",
+      "consumable_name": "outfit_neck_crabAcc_specialEdition",
+      "group_name": "",
+      "batches": [
+        9
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_neck_feast_alt",
+      "sku": "SKY-KC-ST-CRE-DD",
+      "part": "",
+      "consumable_name": "outfit_neck_feast_alt",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_neck_feast_ghost",
+      "sku": "SKY-AP-ST-SF-WF",
+      "part": "",
+      "consumable_name": "outfit_neck_feast_ghost",
+      "group_name": "",
+      "batches": [
+        9
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_STAR_lantern",
+      "sku": "SKY-PN-ST-PRO-LT",
+      "part": "",
+      "consumable_name": "outfit_prop_STAR_lantern",
+      "group_name": "",
+      "batches": [
+        11
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_STAR_loveboat",
+      "sku": "SKY-PN-ST-PRO-LB",
+      "part": "",
+      "consumable_name": "outfit_prop_STAR_gondola",
+      "group_name": "",
+      "batches": [
+        11
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_ap05piano",
+      "sku": "SKY-PN-ST-MI-RP",
+      "part": "",
+      "consumable_name": "outfit_prop_ap05piano",
+      "group_name": "",
+      "batches": [
+        4
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_artbook",
+      "sku": "SKY-BK-ST-PRO-ART",
+      "part": "",
+      "consumable_name": "outfit_prop_artbook",
+      "group_name": "",
+      "batches": [
+        11
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_aurora_doll_mini",
+      "sku": "SKY-PL-ST-COB-AU2",
+      "part": "",
+      "consumable_name": "outfit_prop_microphone_aurora",
+      "group_name": "",
+      "batches": [
+        1001
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_bigmanta_plush",
+      "sku": "SKY-PL-ST-MA-38",
+      "part": "",
+      "consumable_name": "outfit_prop_bigmanta_plush",
+      "group_name": "",
+      "batches": [
+        10
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_birthday_oreo_plush",
+      "sku": "SKY-PL-ST-LO-BR",
+      "part": "",
+      "consumable_name": "outfit_prop_birthday_oreo_plush",
+      "group_name": "",
+      "batches": [
+        12
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_birthdaycake_giant",
+      "sku": "SKY-PN-ST-PRO-BC",
+      "part": "",
+      "consumable_name": "outfit_prop_birthdaycake_giant",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_cannon_pin",
+      "sku": "SKY-PN-ST-PRO-CA",
+      "part": "",
+      "consumable_name": "outfit_prop_cannon_pin",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_horn",
+      "sku": "SKY-PN-ST-MI-SH",
+      "part": "",
+      "consumable_name": "outfit_prop_horn",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_jumbo_mischief_cat",
+      "sku": "SKY-PL-ST-CRE-MF",
+      "part": "",
+      "consumable_name": "outfit_prop_jumbo_mischief_cat",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_lepetitprince_littlefox",
+      "sku": "SKY-KC-ST-LPP-TF",
+      "part": "",
+      "consumable_name": "outfit_prop_lepetitprince_littlefox",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_loveseesaw",
+      "sku": "SKY-PN-ST-PRO-LS",
+      "part": "",
+      "consumable_name": "outfit_prop_loveseesaw",
+      "group_name": "",
+      "batches": [
+        8
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_moomin_plush",
+      "sku": "SKY-KC-ST-COB-MM",
+      "part": "",
+      "consumable_name": "outfit_prop_moomin_plush",
+      "group_name": "",
+      "batches": [
+        1013
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_oreo_plush",
+      "sku": "SKY-PL-ST-CRE-LO",
+      "part": "",
+      "consumable_name": "outfit_prop_oreo_plush",
+      "group_name": "",
+      "batches": [
+        12
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_oreo_plush2",
+      "sku": "SKY-PL-ST-LO-SC",
+      "part": "",
+      "consumable_name": "outfit_prop_oreo_plush2",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_storybook",
+      "sku": "SKY-BK-ST-FS-PUB",
+      "part": "",
+      "consumable_name": "outfit_prop_storybook",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_teaset",
+      "sku": "SKY-PN-ST-PRO-BT",
+      "part": "",
+      "consumable_name": "outfit_prop_teaset",
+      "group_name": "",
+      "batches": [
+        3
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_umbrella03",
+      "sku": "SKY-UM-ST-PRO-LU",
+      "part": "",
+      "consumable_name": "outfit_prop_umbrella03",
+      "group_name": "",
+      "batches": [
+        3
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_starpin_snowman_body",
+      "sku": "SKY-PL-ST-ANC-BHOF",
+      "part": "",
+      "consumable_name": "outfit_starpin_snowman_body",
+      "group_name": "",
+      "batches": [
+        1004
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_starpin_snowman_head",
+      "sku": "SKY-PL-ST-ANC-BHHS",
+      "part": "",
+      "consumable_name": "outfit_starpin_snowman_head",
+      "group_name": "",
+      "batches": [
+        1004
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_wing_ap04white",
+      "sku": "SKY-PN-ST-CAP-BW",
+      "part": "",
+      "consumable_name": "outfit_wing_ap04elder",
+      "group_name": "",
+      "batches": [
+        4
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_wing_ap06layereda",
+      "sku": "SKY-PN-ST-CAP-EA",
+      "part": "",
+      "consumable_name": "outfit_wing_ap06layereda",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_wing_aurora_doll_mini",
+      "sku": "SKY-PL-ST-COB-AU1",
+      "part": "",
+      "consumable_name": "outfit_wing_aurora",
+      "group_name": "",
+      "batches": [
+        1001
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_wing_blossom",
+      "sku": "SKY-PN-ST-CAP-BM",
+      "part": "",
+      "consumable_name": "outfit_wing_blossom",
+      "group_name": "",
+      "batches": [
+        3
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_wing_mischief_bat",
+      "sku": "SKY-PN-ST-CAP-MB",
+      "part": "",
+      "consumable_name": "outfit_wing_mischief_bat",
+      "group_name": "",
+      "batches": [
+        1004
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_wing_ocean",
+      "sku": "SKY-PN-ST-CAP-ON-2021",
+      "part": "",
+      "consumable_name": "outfit_wing_ocean",
+      "group_name": "SKY-BB-PP-HOL-2YR",
+      "batches": [
+        4
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_wing_postman",
+      "sku": "SKY-PN-ST-CAP-DP",
+      "part": "",
+      "consumable_name": "outfit_wing_postman",
+      "group_name": "",
+      "batches": [
+        3
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_wing_snowflake",
+      "sku": "SKY-PN-ST-CAP-FS",
+      "part": "",
+      "consumable_name": "outfit_wing_snowflake",
+      "group_name": "",
+      "batches": [
+        11
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "plushy_crab",
+      "sku": "SKY-HM-PL-CB-15",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        4
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "plushy_crab_special1",
+      "sku": "SKY-HM-PL-SC1-15",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        4
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "plushy_crab_special2",
+      "sku": "SKY-HM-PL-SC2-15",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        4
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "portal_hidden_forest",
+      "sku": "SKY-PN-ST-POR-HF",
+      "part": "",
+      "consumable_name": "teleport_forest_cave",
+      "group_name": "",
+      "batches": [
+        2
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "potion_growth_huge",
+      "sku": "SKY-PN-ST-BL-HS",
+      "part": "",
+      "consumable_name": "potion_growth_huge",
+      "group_name": "",
+      "batches": [
+        1013
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "potion_growth_keychain",
+      "sku": "SKY-KC-ST-BL-GR",
+      "part": "",
+      "consumable_name": "potion_growth_keychain",
+      "group_name": "",
+      "batches": [
+        1013
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "potion_growth_tiny",
+      "sku": "SKY-PN-ST-BL-TS",
+      "part": "",
+      "consumable_name": "potion_growth_tiny",
+      "group_name": "",
+      "batches": [
+        1013
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "rabbit_form",
+      "sku": "SKY-PN-ST-BL-RB",
+      "part": "",
+      "consumable_name": "rabbit_form_pin",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "rainbow_handhold",
+      "sku": "SKY-PN-ST-SPL-RS",
+      "part": "",
+      "consumable_name": "rainbow_handhold",
+      "group_name": "",
+      "batches": [
+        8
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "relationship_allow_bearhug",
+      "sku": "SKY-PN-ST-EXP-BH",
+      "part": "",
+      "consumable_name": "relationship_allow_bearhug",
+      "group_name": "",
+      "batches": [
+        3
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "relationship_allow_bearhug2",
+      "sku": "SKY-KC-ST-ANC-BH",
+      "part": "",
+      "consumable_name": "relationship_allow_bearhug2",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "relationship_allow_cradle_carry",
+      "sku": "SKY-PN-ST-SUM-CC",
+      "part": "",
+      "consumable_name": "relationship_allow_cradle_carry",
+      "group_name": "",
+      "batches": [
+        12
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "relationship_allow_piggyback",
+      "sku": "SKY-PN-ST-PL-HC",
+      "part": "",
+      "consumable_name": "relationship_allow_piggyback",
+      "group_name": "",
+      "batches": [
+        12
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "relationship_allow_playfight",
+      "sku": "SKY-PN-ST-EXP-EP",
+      "part": "",
+      "consumable_name": "relationship_allow_playfight",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "relationship_allow_playfight_left",
+      "sku": "SKY-PN-ST-EXP-EPL",
+      "part": "",
+      "consumable_name": "relationship_allow_playfight",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "relationship_allow_playfight_right",
+      "sku": "SKY-PN-ST-EXP-EPR",
+      "part": "",
+      "consumable_name": "relationship_allow_playfight",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "relationship_allow_side_hug",
+      "sku": "SKY-PN-ST-EXP-SH",
+      "part": "",
+      "consumable_name": "relationship_allow_side_hug",
+      "group_name": "",
+      "batches": [
+        12
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "shout_aurora_keychain",
+      "sku": "SKY-KC-ST-COB-AU",
+      "part": "",
+      "consumable_name": "shout_aurora_keychain",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "shout_kizunaaicn",
+      "sku": "SKY-KC-ST-COB-AI",
+      "part": "",
+      "consumable_name": "shout_kizunaaicn",
+      "group_name": "",
+      "batches": [
+        3
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "shout_manatee_keychain",
+      "sku": "SKY-KC-ST-CRE-MNT",
+      "part": "",
+      "consumable_name": "shout_manatee_keychain",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "socks_recharge",
+      "sku": "SKY-AP-SOC-WHGYBK",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "sp_hat_white",
+      "sku": "SKY-AP-HAT-LO-WH",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        11
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "sp_keychain_candle",
+      "sku": "SKY-KC-ST-CD-24Q3",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        1004
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "sp_keychain_jellyfish",
+      "sku": "SKY-KC-SP-PL-JF",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        1004
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "sp_keychain_mischief_witch",
+      "sku": "SKY-KC-SP-PL-MW",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        1004
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "sp_keychain_rhythm",
+      "sku": "SKY-KC-SP-PL-RD",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        1004
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "sp_keychain_sleepyMerchant",
+      "sku": "SKY-KC-ST-MS-SL",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        12
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "sp_manta_keychain",
+      "sku": "SKY-AC-KC-MA-4YR",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        10
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "sp_necklace_manta",
+      "sku": "SKY-AC-JS-CRE-MIS",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        8
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "sp_plushy_aurora",
+      "sku": "SKY-AC-JS-COB-AIS",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        1001
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "sp_plushy_candle",
+      "sku": "SKY-PL-ST-CD-24Q3",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        1004
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "sp_plushy_crab30",
+      "sku": "SKY-HM-PL-CB-30",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        12
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "sp_plushy_crab90",
+      "sku": "SKY-HM-PL-CB-90",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        12
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "sp_plushy_krill",
+      "sku": "SKY-HM-PL-DD-TBD",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        8
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "sp_plushy_manta10",
+      "sku": "SKY-HM-PL-MA-10",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        11
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "sp_plushy_mischief_cat",
+      "sku": "SKY-PL-SP-CRE-MF",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        1004
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "sp_plushy_sleepyMerchant",
+      "sku": "SKY-PL-ST-MS-SL",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        12
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "star_protector",
+      "sku": "SKY-NA-ST-PRO-2021",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_birthdaycrab",
+      "sku": "SKY-KC-ST-SUM-BC",
+      "part": "",
+      "consumable_name": "teleport_birthdaycrab",
+      "group_name": "SKY-BB-PP-HOL-2YR",
+      "batches": [
+        4
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_deer_summon",
+      "sku": "SKY-PL-ST-CRE-DE",
+      "part": "",
+      "consumable_name": "teleport_deer_summon",
+      "group_name": "",
+      "batches": [
+        12
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_figurine_littleprince",
+      "sku": "SKY-FG-ST-COB-LPP1",
+      "part": "",
+      "consumable_name": "teleport_figurine_littleprince",
+      "group_name": "",
+      "batches": [
+        10
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_figurineskykid_se",
+      "sku": "SKY-FG-ST-PRO-FG-SF1",
+      "part": "",
+      "consumable_name": "teleport_figurineskykid_se",
+      "group_name": "",
+      "batches": [
+        8
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_forgotten_ark",
+      "sku": "SKY-PN-ST-POR-FA",
+      "part": "",
+      "consumable_name": "teleport_forgotten_ark",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_hermit_valley",
+      "sku": "SKY-PN-ST-POR-HV",
+      "part": "",
+      "consumable_name": "teleport_hermit_valley",
+      "group_name": "",
+      "batches": [
+        3
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_manatee_plush",
+      "sku": "SKY-PL-ST-CRE-MNT",
+      "part": "",
+      "consumable_name": "teleport_manatee_plush",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_nature_turtle",
+      "sku": "SKY-PN-ST-CRE-NT",
+      "part": "",
+      "consumable_name": "teleport_nature_turtle",
+      "group_name": "",
+      "batches": [
+        8
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_oreo",
+      "sku": "SKY-PN-ST-SUM-SP",
+      "part": "",
+      "consumable_name": "teleport_oreo",
+      "group_name": "",
+      "batches": [
+        4
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_prairie_peaks_bloom",
+      "sku": "SKY-PN-ST-SUM-PPB",
+      "part": "",
+      "consumable_name": "teleport_prairie_peaks_bloom",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_prairie_village_bloom",
+      "sku": "SKY-PN-ST-SUM-SF",
+      "part": "",
+      "consumable_name": "teleport_prairie_village_bloom",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_prophecy_cave",
+      "sku": "SKY-PN-ST-POR-CP",
+      "part": "",
+      "consumable_name": "teleport_prophecy_cave",
+      "group_name": "",
+      "batches": [
+        11
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_sanctuary_island",
+      "sku": "SKY-PN-ST-POR-SI",
+      "part": "",
+      "consumable_name": "teleport_sanctuary_island",
+      "group_name": "",
+      "batches": [
+        11
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_starlight_desert",
+      "sku": "SKY-PN-ST-POR-SD",
+      "part": "",
+      "consumable_name": "teleport_starlight_desert",
+      "group_name": "",
+      "batches": [
+        10
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_starlight_desert_beach",
+      "sku": "SKY-KC-ST-SUM-MS",
+      "part": "",
+      "consumable_name": "teleport_starlight_desert_beach",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_valley_elder",
+      "sku": "SKY-PN-ST-ANC-VT",
+      "part": "",
+      "consumable_name": "teleport_valley_elder",
+      "group_name": "",
+      "batches": [
+        3
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_vault_elder",
+      "sku": "SKY-PN-ST-ANC-VK",
+      "part": "",
+      "consumable_name": "teleport_vault_elder",
+      "group_name": "",
+      "batches": [
+        10
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_wasteland_elder",
+      "sku": "SKY-PN-ST-ANC-GW",
+      "part": "",
+      "consumable_name": "teleport_wasteland_elder",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_wisteria_tree",
+      "sku": "SKY-PN-ST-SUM-WB",
+      "part": "",
+      "consumable_name": "teleport_wisteria_tree",
+      "group_name": "",
+      "batches": [
+        11
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "tgc_logo",
+      "sku": "SKY-PN-ST-TGC-LO",
+      "part": "",
+      "consumable_name": "outfit_wing_tgc",
+      "group_name": "",
+      "batches": [
+        1,
+        2
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "timeline_daynight2",
+      "sku": "SKY-PN-ST-SUM-HM2",
+      "part": "",
+      "consumable_name": "timeline_daynight",
+      "group_name": "",
+      "batches": [
+        8
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "timeline_fortune_fireworks",
+      "sku": "SKY-PN-ST-SUM-FF",
+      "part": "",
+      "consumable_name": "timeline_fortune_fireworks",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "timeline_newyear_fireworks",
+      "sku": "SKY-PN-ST-SUM-NF",
+      "part": "",
+      "consumable_name": "timeline_newyear_fireworks",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "tshirt_dark_dragon_b_l",
+      "sku": "SKY-AP-TS-DGP-BKLG",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "tshirt_dark_dragon_b_m",
+      "sku": "SKY-AP-TS-DGP-BKMD",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "tshirt_dark_dragon_b_s",
+      "sku": "SKY-AP-TS-DGP-BKSM",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "tshirt_dark_dragon_b_xl",
+      "sku": "SKY-AP-TS-DGP-BKXL",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "tshirt_dark_dragon_b_xxl",
+      "sku": "SKY-AP-TS-DGP-BKXXL",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "tshirt_dark_dragon_g_l",
+      "sku": "SKY-AP-TS-DGP-GYLG",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "tshirt_dark_dragon_g_m",
+      "sku": "SKY-AP-TS-DGP-GYMD",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "tshirt_dark_dragon_g_s",
+      "sku": "SKY-AP-TS-DGP-GYSM",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "tshirt_dark_dragon_g_xl",
+      "sku": "SKY-AP-TS-DGP-GYXL",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "tshirt_dark_dragon_g_xxl",
+      "sku": "SKY-AP-TS-DGP-GYXXL",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "tshirt_dark_dragon_w_l",
+      "sku": "SKY-AP-TS-DGP-WHLG",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "tshirt_dark_dragon_w_m",
+      "sku": "SKY-AP-TS-DGP-WHMD",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "tshirt_dark_dragon_w_s",
+      "sku": "SKY-AP-TS-DGP-WHSM",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "tshirt_dark_dragon_w_xl",
+      "sku": "SKY-AP-TS-DGP-WHXL",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "tshirt_dark_dragon_w_xxl",
+      "sku": "SKY-AP-TS-DGP-WHXXL",
+      "part": "",
+      "consumable_name": "star_protector",
+      "group_name": "",
+      "batches": [
+        6
+      ],
+      "can_link_with": ""
+    }
+  ],
+  "star_tag_links": []
+}

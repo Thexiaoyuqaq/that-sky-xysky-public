@@ -1,0 +1,327 @@
+{
+    "remaining_votes": [
+        {
+            "name": "donature_sculpture_2026",
+            "data": [
+                {
+                    "vote_id": "donature_sculpture_2026_1",
+                    "daily_option": -1,
+                    "daily_group": 20,
+                    "voting_period_option": -1,
+                    "voting_period_group": 280
+                }
+            ],
+            "option_defs": [
+                {
+                    "vote_id": "donature_sculpture_2026_1",
+                    "group_name": "donature_sculpture_2026",
+                    "max_votes_per_day": -1,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 9240000
+                }
+            ],
+            "group_defs": [
+                {
+                    "group_id": "donature_sculpture_2026",
+                    "team_count": 1,
+                    "enforce_teams": false,
+                    "allow_changing_teams": false,
+                    "randomly_assign_teams": false,
+                    "max_votes_per_day": 20,
+                    "max_votes_per_voting_period": 280,
+                    "voting_time_period": "global_nature_2026",
+                    "retain_data_time_period": "global_nature_2026"
+                }
+            ]
+        },
+        {
+            "name": "do_bloom_flowers_2026",
+            "data": [
+                {
+                    "vote_id": "do_bloom_flowers_2026_7",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_8",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_2",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_10",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_4",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_13",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_9",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_12",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_6",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_5",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_18",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_14",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_3",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_1",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_15",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_11",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_17",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_16",
+                    "daily_option": 100,
+                    "daily_group": 250,
+                    "voting_period_option": -1,
+                    "voting_period_group": -1
+                }
+            ],
+            "option_defs": [
+                {
+                    "vote_id": "do_bloom_flowers_2026_15",
+                    "group_name": "do_bloom_flowers_2026",
+                    "option_index": 14,
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_2",
+                    "group_name": "do_bloom_flowers_2026",
+                    "option_index": 1,
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_6",
+                    "group_name": "do_bloom_flowers_2026",
+                    "option_index": 5,
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_10",
+                    "group_name": "do_bloom_flowers_2026",
+                    "option_index": 9,
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_11",
+                    "group_name": "do_bloom_flowers_2026",
+                    "option_index": 10,
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_17",
+                    "group_name": "do_bloom_flowers_2026",
+                    "option_index": 16,
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_4",
+                    "group_name": "do_bloom_flowers_2026",
+                    "option_index": 3,
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_5",
+                    "group_name": "do_bloom_flowers_2026",
+                    "option_index": 4,
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_13",
+                    "group_name": "do_bloom_flowers_2026",
+                    "option_index": 12,
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_16",
+                    "group_name": "do_bloom_flowers_2026",
+                    "option_index": 15,
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_7",
+                    "group_name": "do_bloom_flowers_2026",
+                    "option_index": 6,
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_9",
+                    "group_name": "do_bloom_flowers_2026",
+                    "option_index": 8,
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_8",
+                    "group_name": "do_bloom_flowers_2026",
+                    "option_index": 7,
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_18",
+                    "group_name": "do_bloom_flowers_2026",
+                    "option_index": 17,
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_14",
+                    "group_name": "do_bloom_flowers_2026",
+                    "option_index": 13,
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_3",
+                    "group_name": "do_bloom_flowers_2026",
+                    "option_index": 2,
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_1",
+                    "group_name": "do_bloom_flowers_2026",
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                },
+                {
+                    "vote_id": "do_bloom_flowers_2026_12",
+                    "group_name": "do_bloom_flowers_2026",
+                    "option_index": 11,
+                    "max_votes_per_day": 100,
+                    "max_votes_per_voting_period": -1,
+                    "target_amount": 3000000
+                }
+            ],
+            "group_defs": [
+                {
+                    "group_id": "do_bloom_flowers_2026",
+                    "team_count": 1,
+                    "enforce_teams": false,
+                    "allow_changing_teams": false,
+                    "randomly_assign_teams": false,
+                    "max_votes_per_day": 250,
+                    "max_votes_per_voting_period": -1,
+                    "voting_time_period": "global_bloom_2026_grow",
+                    "retain_data_time_period": "global_bloom"
+                }
+            ]
+        }
+    ]
+}

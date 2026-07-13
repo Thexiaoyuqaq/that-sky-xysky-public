@@ -1,0 +1,228 @@
+{
+  "get_trust_activity_defs": [
+    {
+      "trust_activity": "gameroom_eden_run",
+      "type": "player",
+      "activity_group": "player_eden_run_symmetric",
+      "trust_delta": 200,
+      "party_type": "gameroom",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "player_heart_gift",
+      "type": "player",
+      "activity_group": "player_gift",
+      "trust_delta": 100,
+      "party_type": "pair",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "player_light",
+      "type": "player",
+      "activity_group": "player_gift",
+      "trust_delta": 20,
+      "party_type": "pair",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "player_unlock",
+      "type": "player",
+      "activity_group": "player_unlock",
+      "trust_delta": 200,
+      "party_type": "pair",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_companion_large",
+      "type": "npc",
+      "activity_group": "spirit_companion",
+      "trust_delta": 300,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_companion_small",
+      "type": "npc",
+      "activity_group": "spirit_companion",
+      "trust_delta": 100,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_dailyquest",
+      "type": "npc",
+      "activity_group": "spirit_quest_complete",
+      "trust_delta": 0,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_emote_at",
+      "type": "npc",
+      "activity_group": "spirit_interaction",
+      "trust_delta": 0,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_emote_with",
+      "type": "npc",
+      "activity_group": "spirit_interaction",
+      "trust_delta": 0,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_memory",
+      "type": "npc",
+      "activity_group": "spirit_quest_complete",
+      "trust_delta": 0,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_temple",
+      "type": "npc",
+      "activity_group": "spirit_interaction",
+      "trust_delta": 0,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 400,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock_100",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 100,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock_1000",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 1000,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock_150",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 150,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock_200",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 200,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock_267",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 267,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock_300",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 300,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock_400",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 400,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock_50",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 50,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock_500",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 500,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock_600",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 600,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock_800",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 800,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock_heart",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 300,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock_outfit",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 600,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock_quest",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 400,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "zero_trust_quest",
+      "type": "npc",
+      "activity_group": "zero_trust_group",
+      "trust_delta": 0,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "zero_trust_unlock",
+      "type": "npc",
+      "activity_group": "zero_trust_group",
+      "trust_delta": 0,
+      "party_type": "",
+      "validation_level": ""
+    }
+  ]
+}

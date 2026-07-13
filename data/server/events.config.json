@@ -1,0 +1,3295 @@
+{
+  "version": 2,
+  "base_time": 1587366000,
+  "timezone": "Asia/Shanghai",
+  "valid_window_sec": 1800,
+  "defaults": {
+    "duration": "fromList",
+    "when": {
+      "kind": "list"
+    }
+  },
+  "groups": [
+    {
+      "id": "season_ap29",
+      "title": "Season AP29",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "ap29_fetch_01_revolvingdance",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "ap29_fetch_02_revolvingdance",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "ap29_fetch_03_revolvingdance",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "ap29_fetch_04_cuteclap",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "ap29_fetch_05_cuteclap",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "ap29_fetch_06_cuteclap",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "ap29_fetch_07_secret",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "ap29_fetch_08_secret",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "ap29_fetch_09_secret",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "ap29_fetch_10_whisper",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "ap29_fetch_11_whisper",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "ap29_fetch_12_whisper",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap29_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap29_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap29_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap29_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap29_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap29_fetch_06",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap29_fetch_07",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap29_fetch_08",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap29_fetch_09",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap29_fetch_10",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap29_fetch_11",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap29_fetch_12",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "title": "Collectibles",
+      "type": "daily",
+      "enabled": true,
+      "events": [
+        {
+          "name": "collectible_cough",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "collectible_duetbow",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "collectible_questap23_duo",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "collectible_reading",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "collectible_armwave",
+          "when": {
+            "kind": "dayRange",
+            "days": 2,
+            "offsetDays": 0
+          }
+        },
+        {
+          "name": "collectible_backflip",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_beacon",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_bird",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_bow",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_brave",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_butterfly",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_cape",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_cheer",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_cold",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_come",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_cry",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_die",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_float",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_force",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_ghost",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_guard",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_handstand",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_laugh",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_lighthorn",
+          "when": {
+            "kind": "dayRange",
+            "days": 2,
+            "offsetDays": 0
+          }
+        },
+        {
+          "name": "collectible_lookaround",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_love",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_manatee",
+          "when": {
+            "kind": "dayRange",
+            "days": 2,
+            "offsetDays": 0
+          }
+        },
+        {
+          "name": "collectible_manta",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_nothanks",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_ohno",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_point",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_pout",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_pray",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_proud",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_raisetheroof",
+          "when": {
+            "kind": "dayRange",
+            "days": 2,
+            "offsetDays": 0
+          }
+        },
+        {
+          "name": "collectible_rhythmicclap",
+          "when": {
+            "kind": "dayRange",
+            "days": 2,
+            "offsetDays": 0
+          }
+        },
+        {
+          "name": "collectible_salute",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_scared",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_seek",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_shy",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_sneaky",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_sorry",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_strong",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_thumbsup",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_twirl",
+          "when": {
+            "kind": "dayRange",
+            "days": 2,
+            "offsetDays": 0
+          }
+        },
+        {
+          "name": "collectible_wave",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_whale",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_wipe",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "collectible_yawn",
+          "when": {
+            "kind": "dayStart"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dusk",
+      "title": "Dusk",
+      "type": "evergreen",
+      "enabled": true,
+      "events": [
+        {
+          "name": "dusk_embersanctuary_on",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "dusk_darkstone_0",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "dusk_darkstone_1",
+          "when": {
+            "kind": "dayStart"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evergreen_misc",
+      "title": "Evergreen Misc",
+      "type": "evergreen",
+      "enabled": true,
+      "events": [
+        {
+          "name": "enable_dye_shop",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "feast_toyvendorforever",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "personality_quiz_evergreen",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_cafe_serving",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_competition_cloudcollect",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_competition_flyrace",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_competition_sliderace",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_competition_speedskate",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_competition_voidcollect",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_sunset_yeti_race",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "skyfest_soundbath",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "sunset_village_fishing",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "sunset_village_spell_shop",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "wing_buff_conversion_period",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_scavenger_spirit_beachday1",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "quest_scavenger_spirit_beachday2",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "quest_scavenger_spirit_rockcollection1",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "quest_sunset_flyrace",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "quest_sunset_race",
+          "when": {
+            "kind": "dayStart"
+          }
+        }
+        
+      ]
+    },
+    {
+      "id": "nature",
+      "title": "nature",
+      "type": "evergreen",
+      "enabled": true,
+      "events": [
+        {
+          "name": "nature_geyser_on",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_nature_vortex1",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_nature_vortex2",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_nature_vortex3",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "realm_daily_quests",
+      "title": "Realm Daily Quests",
+      "type": "daily_random",
+      "enabled": true,
+      "random": {
+        "count": 1,
+        "salt": "realm_daily_quests",
+        "avoidPreviousDay": true
+      },
+      "events": [
+        {
+          "name": "night_quest",
+          "duration": 1440,
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "dusk_quest",
+          "duration": 1440,
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "sunset_quest",
+          "duration": 1440,
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "rain_quest",
+          "duration": 1440,
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "prairie_quest",
+          "duration": 1440,
+          "when": {
+            "kind": "dayStart"
+          }
+        }
+      ]
+    },
+    {
+      "id": "global_events",
+      "title": "Global Events",
+      "type": "evergreen",
+      "enabled": true,
+      "events": [
+        {
+          "name": "global_cafe_open",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "global_feast_wonderland",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "global_mainstreet",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "global_musicshop_sale",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "global_pc_launch",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "global_transcendent_traveler",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "global_violin",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "global_merchandise_live",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "global_flowflowerpack_launch",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "global_flowflowerjourney_evergreen",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "global_ball_beach",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "global_skyfest",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "global_weekend_shop2",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "global_wing_none",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "global_sky_anniversary",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "global_qixi_couple",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "global_office_shop",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "global_weekend_shop",
+          "when": {
+            "kind": "dayRange",
+            "days": 2,
+            "offsetDays": 0
+          }
+        },
+        {
+          "name": "global_rosegarden_forever",
+          "when": {
+            "kind": "list"
+          },
+          "duration": 99999999
+        },
+        {
+          "name": "global_daily_reset_time",
+          "when": {
+            "kind": "dayRange",
+            "days": 2,
+            "offsetDays": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap09",
+      "title": "Season AP09",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap09_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap09_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap09_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap09_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap10",
+      "title": "Season AP10",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap10_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap10_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap10_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap10_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap10_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap10_fetch_06",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap11",
+      "title": "Season AP11",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap11_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap12",
+      "title": "Season AP12",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap12_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap12_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap12_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap12_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap12_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap13",
+      "title": "Season AP13",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap13_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap13_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap13_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap13_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap13_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tgc_office",
+      "title": "Tgc_Office",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "tgcoffice_behavior_employees",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_tgc_office_travis",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "skyfest2026_w1",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "skyfest_fireworks_show",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "skyfest_gallerydawn",
+          "when": {
+            "kind": "dayStart"
+          }
+        }
+        
+      ]
+    },
+    {
+      "id": "season_ap14",
+      "title": "Season AP14",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap14_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap14_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap14_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap14_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap14_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap16",
+      "title": "Season AP16",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap16_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap16_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap16_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap16_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap16_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap17",
+      "title": "Season AP17",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap17_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap17_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap17_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap17_fetch_07",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap17_fetch_09",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap18",
+      "title": "Season AP18",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap18_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap18_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap18_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap18_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap18_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap19",
+      "title": "Season AP19",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap19_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap19_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap19_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap19_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap19_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap20",
+      "title": "Season AP20",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap20_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap20_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap20_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap20_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap20_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap20_fetch_06",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap20_fetch_07",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap20_fetch_08",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap20_fetch_09",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap20_fetch_10",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap21",
+      "title": "Season AP21",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap21_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap21_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap21_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap21_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap21_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap21_fetch_05_part02",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap22",
+      "title": "Season AP22",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap22_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap22_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap22_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap22_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap22_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap22_miniHouse_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap22_miniHouse_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap22_miniHouse_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap22_miniShop_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap22_miniShop_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap22_miniShop_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap22_miniSocial_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap22_miniSocial_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap22_miniSocial_03",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap23",
+      "title": "Season AP23",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap23_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap23_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap23_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap23_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap23_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap24",
+      "title": "Season AP24",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap24_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap24_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap24_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap24_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap24_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap24_fetch_06",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap24_fetch_07",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap24_fetch_08",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap24_fetch_09",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap24_fetch_10",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap24_fetch_11",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap24_fetch_12",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap24_sidequest_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap24_sidequest_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap24_sidequest_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap24_sidequest_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap24_sidequest_06",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap24_sidequest_07",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap25",
+      "title": "Season AP25",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap25_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap25_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap25_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap25_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap25_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap26",
+      "title": "Season AP26",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap26_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap26_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap26_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap26_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap26_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap26_fetch_06",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap27",
+      "title": "Season AP27",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap27_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap27_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap27_fetch_02_part1",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap27_fetch_02_part2",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap27_fetch_02_part3",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap27_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap27_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap27_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap27_manatee_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "AP27CapeHealingSpa",
+          "when": {
+            "kind": "dayRange",
+            "days": 2,
+            "offsetDays": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "season_ap28",
+      "title": "Season AP28",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap28_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_01_bells",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_02_bells",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_03_bells",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_04_bells",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_05_bells",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_06",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_06_bells",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_07",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_07_bells",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_08",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_08_bells",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_09",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_09_bells",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_10",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap28_fetch_10_bells",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "radiance",
+      "title": "Radiance",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "radiant_darkstone_enable",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "title": "Seasons",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "season_06_ever_started",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "season_27_ch4_shop",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "season_27_end_shop",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stormy",
+      "title": "stormy",
+      "type": "daily",
+      "enabled": true,
+      "events": [
+        {
+          "name": "stormy_prairie",
+          "when": {
+            "kind": "dayStart"
+          }
+        }
+      ]},
+    {
+      "id": "social_daily",
+      "title": "Social Daily",
+      "type": "daily",
+      "enabled": true,
+      "events": [
+        {
+          "name": "social_turtle_on",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "social_wax_on",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "social_feed_prompt_birthday_party",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "social_feed_prompt_casual_cafe",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "social_dusk_embersanctuary",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "social_dusk_spitroastpassive",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "social_eelwatercreature",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "social_prairie_cozycave",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "social_rain_bonfirecamp",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "social_skyway_speedtube",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "social_sunset_labyrinth",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "day_boat",
+          "when": {
+            "kind": "dayStart"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ap06_unlocks",
+      "title": "AP06 Unlocks",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "spiritshopitem_ap06unlock_ap07_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap07_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap07_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap07_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap07_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap07_fetch_06",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap08_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap08_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap08_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap08_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap09_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap09_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap09_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap09_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap09_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap10_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap10_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap10_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap10_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap10_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap10_fetch_06",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap11_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap11_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap11_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap11_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap11_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap11_fetch_06",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap11_fetch_07",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap12_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap12_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap12_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap12_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap12_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap13_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap13_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap13_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap13_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap13_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap14_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap14_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap14_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap14_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap14_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap15_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap15_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap15_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap15_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap15_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap15_fetch_06",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap16_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap16_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap16_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap16_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap16_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap17_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap17_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap17_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap17_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap17_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap17_fetch_06",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap17_fetch_07",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap17_fetch_08",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap17_fetch_09",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap17_fetch_10",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap18_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap18_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap18_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap18_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap18_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap19_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap19_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap19_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap19_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap19_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap20_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap20_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap20_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap20_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap20_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap20_fetch_06",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap20_fetch_07",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap20_fetch_08",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap20_fetch_09",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap20_fetch_10",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap21_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap21_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap21_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap21_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap21_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap22_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap22_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap22_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap22_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap22_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap22_miniHouse_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap22_miniHouse_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap22_miniHouse_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap22_miniShop_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap22_miniShop_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap22_miniShop_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap22_miniSocial_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap22_miniSocial_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap22_miniSocial_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap23_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap23_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap23_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap23_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap23_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap24_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap24_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap24_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap24_fetch_07",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap24_fetch_09",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap24_fetch_11",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap25_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap25_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap25_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap25_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap25_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap26_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap26_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap26_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap26_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap26_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap26_fetch_06",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap27_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap27_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap27_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap27_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap27_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_ap27_manatee_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_fetch_dawn",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_fetch_day",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_fetch_dusk",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_fetch_night",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_fetch_rain",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "spiritshopitem_ap06unlock_fetch_sunset",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "projectors",
+      "title": "Projectors",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "projector_ember_p1",
+          "when": {
+            "kind": "dayRange",
+            "days": 2,
+            "offsetDays": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "traveling_spirits",
+      "title": "Traveling Spirits",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "visiting_vendor_questap06",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap07",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap08",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap09",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap10",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap11",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap12",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap13",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap14",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap15",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap16",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap17",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap18",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap19",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap20",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap21",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap22",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap23",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap24",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap25",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap26",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap27",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap27manatee",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap28",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap29",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_questap30",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_ap22_miniquest_house",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_ap22_miniquest_shop",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_ap22_miniquest_social",
+          "when": {
+            "kind": "dayStart"
+          }
+        },
+        {
+          "name": "visiting_vendor_chestpound",
+          "when": {
+            "kind": "offset",
+            "values": [
+              188460800
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "treasure_candle_rotation",
+      "title": "Treasure Candle Rotation",
+      "type": "nested_daily_random",
+      "enabled": true,
+      "random": {
+        "count": 1,
+        "salt": "treasure_candle_rotation",
+        "avoidPreviousDay": true,
+        "weekdayCounts": {
+          "0": 3,
+          "4": "all",
+          "5": 3,
+          "6": 3
+        }
+      },
+      "childRandom": {
+        "count": 1,
+        "avoidPreviousDay": true
+      },
+      "events": [
+        {
+          "name": "event_rain_tcandle_master",
+          "duration": 1440,
+          "when": {
+            "kind": "dayStart"
+          },
+          "children": [
+            {
+              "name": "event_rain_tcandles2",
+              "duration": 1440,
+              "when": {
+                "kind": "dayStart"
+              }
+            },
+            {
+              "name": "event_rain_tcandles3",
+              "duration": 1440,
+              "when": {
+                "kind": "dayStart"
+              }
+            },
+            {
+              "name": "event_rain_tcandles1",
+              "duration": 1440,
+              "when": {
+                "kind": "dayStart"
+              }
+            }
+          ]
+        },
+        {
+          "name": "event_sunset_tcandle_master",
+          "duration": 1440,
+          "when": {
+            "kind": "dayStart"
+          },
+          "children": [
+            {
+              "name": "event_sunset_tcandles1",
+              "duration": 1440,
+              "when": {
+                "kind": "dayStart"
+              }
+            },
+            {
+              "name": "event_sunset_tcandles2",
+              "duration": 1440,
+              "when": {
+                "kind": "dayStart"
+              }
+            }
+          ]
+        },
+        {
+          "name": "event_prairie_tcandle_master",
+          "duration": 1440,
+          "when": {
+            "kind": "dayStart"
+          },
+          "children": [
+            {
+              "name": "event_prairie_tcandles1",
+              "duration": 1440,
+              "when": {
+                "kind": "dayStart"
+              }
+            },
+            {
+              "name": "event_prairie_tcandles2",
+              "duration": 1440,
+              "when": {
+                "kind": "dayStart"
+              }
+            },
+            {
+              "name": "event_prairie_tcandles3",
+              "duration": 1440,
+              "when": {
+                "kind": "dayStart"
+              }
+            }
+          ]
+        },
+        {
+          "name": "event_dusk_tcandle_master",
+          "duration": 1440,
+          "when": {
+            "kind": "dayStart"
+          },
+          "children": [
+            {
+              "name": "event_dusk_tcandles2",
+              "duration": 1440,
+              "when": {
+                "kind": "dayStart"
+              }
+            },
+            {
+              "name": "event_dusk_tcandles1",
+              "duration": 1440,
+              "when": {
+                "kind": "dayStart"
+              }
+            },
+            {
+              "name": "event_dusk_tcandles3",
+              "duration": 1440,
+              "when": {
+                "kind": "dayStart"
+              }
+            }
+          ]
+        },
+        {
+          "name": "event_night_tcandle_master",
+          "duration": 1440,
+          "when": {
+            "kind": "dayStart"
+          },
+          "children": [
+            {
+              "name": "event_night_tcandles1",
+              "duration": 1440,
+              "when": {
+                "kind": "dayStart"
+              }
+            },
+            {
+              "name": "event_night_tcandles2",
+              "duration": 1440,
+              "when": {
+                "kind": "dayStart"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season_ap30",
+      "title": "Season AP30",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap30_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap30_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap30_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap30_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap30_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap30_fetch_01_challenge",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap30_fetch_02_challenge",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap30_fetch_03_challenge",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap30_fetch_04_challenge",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap30_fetch_05_challenge",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scheduled_social",
+      "title": "Scheduled Social",
+      "type": "scheduled",
+      "enabled": true,
+      "events": [
+        {
+          "name": "social_rain_grandmatable",
+          "when": {
+            "kind": "dailyTimes",
+            "times": [
+              "05:30",
+              "08:00",
+              "12:00",
+              "16:00",
+              "20:00",
+              "22:00"
+            ],
+            "prepareWindowSec": 1800
+          }
+        }
+      ]
+    }
+  ]
+}

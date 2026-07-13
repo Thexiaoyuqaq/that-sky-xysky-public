@@ -1,0 +1,76 @@
+{
+  "get_trust_group_defs": [
+    {
+      "activity_group": "player_eden_run_symmetric",
+      "category": "weekly",
+      "max": 200,
+      "global_max": 2500,
+      "multiplier": 0.5,
+      "cap_cadence": "weekly"
+    },
+    {
+      "activity_group": "player_gift",
+      "category": "immediate",
+      "max": -1,
+      "global_max": -1,
+      "multiplier": 1,
+      "cap_cadence": "uncapped"
+    },
+    {
+      "activity_group": "player_interaction",
+      "category": "daily",
+      "max": 250,
+      "global_max": 300,
+      "multiplier": 0.5,
+      "cap_cadence": "daily"
+    },
+    {
+      "activity_group": "player_unlock",
+      "category": "immediate",
+      "max": -1,
+      "global_max": -1,
+      "multiplier": 1,
+      "cap_cadence": "uncapped"
+    },
+    {
+      "activity_group": "spirit_companion",
+      "category": "immediate",
+      "max": 100,
+      "global_max": 100,
+      "multiplier": 1,
+      "cap_cadence": "daily"
+    },
+    {
+      "activity_group": "spirit_interaction",
+      "category": "daily",
+      "max": 5,
+      "global_max": 10,
+      "multiplier": 1,
+      "cap_cadence": "daily"
+    },
+    {
+      "activity_group": "spirit_quest_complete",
+      "category": "immediate",
+      "max": 500,
+      "global_max": 800,
+      "multiplier": 1,
+      "cap_cadence": "daily"
+    },
+    {
+      "activity_group": "spirit_unlock",
+      "category": "immediate",
+      "max": -1,
+      "global_max": -1,
+      "multiplier": 1,
+      "cap_cadence": "uncapped"
+    },
+    {
+      "activity_group": "zero_trust_group",
+      "category": "immediate",
+      "max": 0,
+      "global_max": 0,
+      "multiplier": 1,
+      "cap_cadence": "uncapped"
+    }
+  ]
+}

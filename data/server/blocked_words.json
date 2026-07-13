@@ -1,0 +1,152 @@
+{
+  "_comment": "违禁词表配置文件",
+  "_lastUpdated": "2026-05-22",
+
+  "settings": {
+    "enabled": true,
+    "logViolations": true,
+    "caseSensitive": false,
+    "cacheResults": true,
+    "cacheTTL": 300
+  },
+
+  "categories": {
+    "politics": {
+      "name": "政治敏感",
+      "level": "critical",
+      "action": "block"
+    },
+
+    "pornography": {
+      "name": "色情低俗",
+      "level": "high",
+      "action": "block"
+    },
+
+    "violence": {
+      "name": "暴力血腥",
+      "level": "high",
+      "action": "block"
+    },
+
+    "gamble": {
+      "name": "赌博诈骗",
+      "level": "high",
+      "action": "block"
+    },
+
+    "advertisement": {
+      "name": "广告推广",
+      "level": "medium",
+      "action": "review"
+    },
+
+    "spam": {
+      "name": "垃圾信息",
+      "level": "low",
+      "action": "warn"
+    },
+
+    "custom": {
+      "name": "自定义",
+      "level": "medium",
+      "action": "block"
+    }
+  },
+
+  "words": {
+    "politics": [
+      {
+        "word": "冲塔",
+        "aliases": ["ct"],
+        "type": "exact",
+        "description": "政治黑话"
+      }
+    ],
+
+    "pornography": [
+      {
+        "word": "色情",
+        "aliases": ["sq", "色q", "s情"],
+        "type": "exact",
+        "description": "色情内容"
+      },
+      {
+        "word": "黄片",
+        "aliases": ["黄p", "黄网", "av", "成人视频"],
+        "type": "exact",
+        "description": "成人视频"
+      }
+    ],
+
+    "gamble": [
+      {
+        "word": "赌博",
+        "aliases": ["db", "赌b", "d博"],
+        "type": "exact",
+        "description": "赌博相关"
+      },
+      {
+        "word": "诈骗",
+        "aliases": ["zp", "诈p", "z骗"],
+        "type": "exact",
+        "description": "诈骗相关"
+      }
+    ],
+
+    "advertisement": [
+      {
+        "word": "代购",
+        "aliases": ["dg", "代g", "d购"],
+        "type": "exact",
+        "description": "广告内容"
+      },
+      {
+        "word": "加微信",
+        "aliases": ["加vx", "加v信", "加wechat", "加v"],
+        "type": "exact",
+        "description": "微信广告"
+      },
+      {
+        "word": "扩列",
+        "aliases": ["扩q"],
+        "type": "exact",
+        "description": "社交引流"
+      }
+    ],
+
+    "spam": [
+      {
+        "word": "傻逼",
+        "aliases": ["sb", "煞笔", "沙比"],
+        "type": "exact",
+        "description": "辱骂词"
+      },
+      {
+        "word": "脑瘫",
+        "aliases": ["nt"],
+        "type": "exact",
+        "description": "攻击词"
+      },
+      {
+        "word": "废物",
+        "aliases": ["fw"],
+        "type": "exact",
+        "description": "辱骂"
+      },
+      {
+        "word": "弱智",
+        "aliases": ["rz"],
+        "type": "exact",
+        "description": "辱骂"
+      }
+    ]
+  },
+
+  "whitelist": [
+    {
+      "pattern": "合法词汇",
+      "description": "白名单示例"
+    }
+  ]
+}

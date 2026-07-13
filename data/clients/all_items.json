@@ -1,0 +1,7302 @@
+[
+    {
+        "id": 1212774255,
+        "name": "CharSkyKid_Body_Ghost",
+        "type": "body"
+    },
+    {
+        "id": 1887022437,
+        "name": "CharSkyKid_Body_Perfect",
+        "type": "body"
+    },
+    {
+        "id": 3691343236,
+        "name": "CharSkyKid_Body_ClassicShortPants",
+        "type": "body"
+    },
+    {
+        "id": 9501707,
+        "name": "CharSkyKid_Body_ClassicDress",
+        "type": "body"
+    },
+    {
+        "id": 4178856893,
+        "name": "CharSkyKid_Body_ClassicCivilian",
+        "type": "body"
+    },
+    {
+        "id": 556395364,
+        "name": "CharSkyKid_Body_ShortPants",
+        "type": "body"
+    },
+    {
+        "id": 4070169080,
+        "name": "CharSkyKid_Body_LongPants",
+        "type": "body"
+    },
+    {
+        "id": 4086661700,
+        "name": "CharSkyKid_Body_LongSkinnyPants",
+        "type": "body"
+    },
+    {
+        "id": 2432891829,
+        "name": "CharSkyKid_Body_LongDancePants",
+        "type": "body"
+    },
+    {
+        "id": 739857211,
+        "name": "CharSkyKid_Body_MonkPants",
+        "type": "body"
+    },
+    {
+        "id": 4145832489,
+        "name": "CharSkyKid_Body_LongMonkPants",
+        "type": "body"
+    },
+    {
+        "id": 971855908,
+        "name": "CharSkyKid_Body_WarriorPants",
+        "type": "body"
+    },
+    {
+        "id": 1502671700,
+        "name": "CharSkyKid_Body_Museum",
+        "type": "body"
+    },
+    {
+        "id": 3547429853,
+        "name": "CharSkyKid_Body_EvergreenRobe",
+        "type": "body"
+    },
+    {
+        "id": 268095236,
+        "name": "CharSkyKid_Body_AP04CozyPants",
+        "type": "body"
+    },
+    {
+        "id": 3091075289,
+        "name": "CharSkyKid_Body_APMerchantPants_01",
+        "type": "body"
+    },
+    {
+        "id": 570621080,
+        "name": "CharSkyKid_Body_AP05JugglerPants_01",
+        "type": "body"
+    },
+    {
+        "id": 2119378818,
+        "name": "CharSkyKid_Body_APDancerPants_01",
+        "type": "body"
+    },
+    {
+        "id": 3114889986,
+        "name": "CharSkyKid_Body_APActorPants_01",
+        "type": "body"
+    },
+    {
+        "id": 1394323104,
+        "name": "CharSkyKid_Body_AP07CargoPants_01",
+        "type": "body"
+    },
+    {
+        "id": 1796000040,
+        "name": "CharSkyKid_Body_AP07Jumpsuits_01",
+        "type": "body"
+    },
+    {
+        "id": 19011829,
+        "name": "CharSkyKid_Body_AP08BaggyPants_01",
+        "type": "body"
+    },
+    {
+        "id": 2757535836,
+        "name": "CharSkyKid_Body_AP09Uniform_01",
+        "type": "body"
+    },
+    {
+        "id": 2037585691,
+        "name": "CharSkyKid_Body_AP09Yeti_01",
+        "type": "body"
+    },
+    {
+        "id": 4235588648,
+        "name": "CharSkyKid_Body_AP10Overalls_01",
+        "type": "body"
+    },
+    {
+        "id": 1599550012,
+        "name": "CharSkyKid_Body_AP11Ancestor_01",
+        "type": "body"
+    },
+    {
+        "id": 2329174634,
+        "name": "CharSkyKid_Body_AP11Sword_01",
+        "type": "body"
+    },
+    {
+        "id": 3613616928,
+        "name": "CharSkyKid_Body_AP11GreenPajama_01",
+        "type": "body"
+    },
+    {
+        "id": 2399570789,
+        "name": "CharSkyKid_Body_AP12GradientTunic_01",
+        "type": "body"
+    },
+    {
+        "id": 785182973,
+        "name": "CharSkyKid_Body_AP12DarkTunic_01",
+        "type": "body"
+    },
+    {
+        "id": 1689650369,
+        "name": "CharSkyKid_Body_AP12YellowTunic_01",
+        "type": "body"
+    },
+    {
+        "id": 3300338401,
+        "name": "CharSkyKid_Body_AP12BlueTunic_01",
+        "type": "body"
+    },
+    {
+        "id": 1996382026,
+        "name": "CharSkyKid_Body_AP13Tunic_01",
+        "type": "body"
+    },
+    {
+        "id": 1474644064,
+        "name": "CharSkyKid_Body_AP14DancerSkirt_01",
+        "type": "body"
+    },
+    {
+        "id": 3359163064,
+        "name": "CharSkyKid_Body_AP14ShadowPants_01",
+        "type": "body"
+    },
+    {
+        "id": 2160307077,
+        "name": "CharSkyKid_Body_AP14JesterPants_01",
+        "type": "body"
+    },
+    {
+        "id": 3876903238,
+        "name": "CharSkyKid_Body_AP15LightCreature_01",
+        "type": "body"
+    },
+    {
+        "id": 2505735620,
+        "name": "CharSkyKid_Body_AP16WhiteCropTop",
+        "type": "body"
+    },
+    {
+        "id": 762330186,
+        "name": "CharSkyKid_Body_AP16SlateRunaway",
+        "type": "body"
+    },
+    {
+        "id": 4004011364,
+        "name": "CharSkyKid_Body_AP16OrangeLove",
+        "type": "body"
+    },
+    {
+        "id": 1556320811,
+        "name": "CharSkyKid_Body_AP16BlueSeed",
+        "type": "body"
+    },
+    {
+        "id": 283405912,
+        "name": "CharSkyKid_Body_AP16GreenCure",
+        "type": "body"
+    },
+    {
+        "id": 3751864662,
+        "name": "CharSkyKid_Body_AP17RaggedTunic",
+        "type": "body"
+    },
+    {
+        "id": 62686802,
+        "name": "CharSkyKid_Body_AP17Injured",
+        "type": "body"
+    },
+    {
+        "id": 204906579,
+        "name": "CharSkyKid_Body_AP17Apron",
+        "type": "body"
+    },
+    {
+        "id": 16599374,
+        "name": "CharSkyKid_Body_AP18LightRobe",
+        "type": "body"
+    },
+    {
+        "id": 1570724646,
+        "name": "CharSkyKid_Body_AP18DarkRobe",
+        "type": "body"
+    },
+    {
+        "id": 968780178,
+        "name": "CharSkyKid_Body_AP19MonkRobe",
+        "type": "body"
+    },
+    {
+        "id": 3262838982,
+        "name": "CharSkyKid_Body_AP19CargoShorts",
+        "type": "body"
+    },
+    {
+        "id": 3566532901,
+        "name": "CharSkyKid_Body_AP20Robe",
+        "type": "body"
+    },
+    {
+        "id": 4208380331,
+        "name": "CharSkyKid_Body_AP21SilkRaiment",
+        "type": "body"
+    },
+    {
+        "id": 1016529682,
+        "name": "CharSkyKid_Body_AP21LinenPants",
+        "type": "body"
+    },
+    {
+        "id": 4100650486,
+        "name": "CharSkyKid_Body_AP21RoyalDress",
+        "type": "body"
+    },
+    {
+        "id": 3209394519,
+        "name": "CharSkyKid_Body_AP21Coat",
+        "type": "body"
+    },
+    {
+        "id": 1340942800,
+        "name": "CharSkyKid_Body_AP22Designer",
+        "type": "body"
+    },
+    {
+        "id": 689212828,
+        "name": "CharSkyKid_Body_AP23PianistBasic",
+        "type": "body"
+    },
+    {
+        "id": 717260699,
+        "name": "CharSkyKid_Body_AP23PianistSuit",
+        "type": "body"
+    },
+    {
+        "id": 3365769672,
+        "name": "CharSkyKid_Body_AP23CellistBasic",
+        "type": "body"
+    },
+    {
+        "id": 4167389358,
+        "name": "CharSkyKid_Body_AP26Gown",
+        "type": "body"
+    },
+    {
+        "id": 3524022789,
+        "name": "CharSkyKid_Body_AP23CellistDress",
+        "type": "body"
+    },
+    {
+        "id": 1067168961,
+        "name": "CharSkyKid_Body_AP24Classic",
+        "type": "body"
+    },
+    {
+        "id": 2471203139,
+        "name": "CharSkyKid_Body_AP24Triangle",
+        "type": "body"
+    },
+    {
+        "id": 1147049062,
+        "name": "CharSkyKid_Body_AP24Invisible",
+        "type": "body"
+    },
+    {
+        "id": 3366656732,
+        "name": "CharSkyKid_Body_AP27Herder",
+        "type": "body"
+    },
+    {
+        "id": 1609195382,
+        "name": "CharSkyKid_Body_AP24Bell",
+        "type": "body"
+    },
+    {
+        "id": 687599756,
+        "name": "CharSkyKid_Body_AP25BigPants",
+        "type": "body"
+    },
+    {
+        "id": 3340820959,
+        "name": "CharSkyKid_Body_AP25Tunic",
+        "type": "body"
+    },
+    {
+        "id": 2738611896,
+        "name": "CharSkyKid_Body_AP25Wrap",
+        "type": "body"
+    },
+    {
+        "id": 2173561040,
+        "name": "CharSkyKid_Body_AP26Royal",
+        "type": "body"
+    },
+    {
+        "id": 985276781,
+        "name": "CharSkyKid_Body_AP26Lumberjack",
+        "type": "body"
+    },
+    {
+        "id": 4152353681,
+        "name": "CharSkyKid_Body_AP27OldMan",
+        "type": "body"
+    },
+    {
+        "id": 3812795131,
+        "name": "CharSkyKid_Body_AP27Guard",
+        "type": "body"
+    },
+    {
+        "id": 1299699518,
+        "name": "CharSkyKid_Body_AP27Caretaker",
+        "type": "body"
+    },
+    {
+        "id": 251066039,
+        "name": "CharSkyKid_Body_AP28MantaWhisperer",
+        "type": "body"
+    },
+    {
+        "id": 956064331,
+        "name": "CharSkyKid_Body_AP28BirdTunic",
+        "type": "body"
+    },
+    {
+        "id": 3172558216,
+        "name": "CharSkyKid_Body_AP28FurTrim",
+        "type": "body"
+    },
+    {
+        "id": 152229566,
+        "name": "CharSkyKid_Body_AP28JellyShorts",
+        "type": "body"
+    },
+    {
+        "id": 1699034072,
+        "name": "CharSkyKid_Body_AP29ShortJacket",
+        "type": "body"
+    },
+    {
+        "id": 2739718932,
+        "name": "CharSkyKid_Body_AP29Layered",
+        "type": "body"
+    },
+    {
+        "id": 3368825743,
+        "name": "CharSkyKid_Body_AP29Pleated",
+        "type": "body"
+    },
+    {
+        "id": 3198588208,
+        "name": "CharSkyKid_Body_AP30RuffledShirt",
+        "type": "body"
+    },
+    {
+        "id": 159630415,
+        "name": "CharSkyKid_Body_AP30Romper",
+        "type": "body"
+    },
+    {
+        "id": 1283702485,
+        "name": "CharSkyKid_Body_AP30WaistCoat",
+        "type": "body"
+    },
+    {
+        "id": 1326990699,
+        "name": "CharSkyKid_Body_AP30PuffyDress",
+        "type": "body"
+    },
+    {
+        "id": 565657098,
+        "name": "CharSkyKid_Body_FortuneMuralist",
+        "type": "body"
+    },
+    {
+        "id": 3235919336,
+        "name": "CharSkyKid_Body_FortuneDragonRobe",
+        "type": "body"
+    },
+    {
+        "id": 36993010,
+        "name": "CharSkyKid_Body_Gardener",
+        "type": "body"
+    },
+    {
+        "id": 197626319,
+        "name": "CharSkyKid_Body_BloomSunflowerDress",
+        "type": "body"
+    },
+    {
+        "id": 3907395193,
+        "name": "CharSkyKid_Body_BloomGreenTunic",
+        "type": "body"
+    },
+    {
+        "id": 1943608572,
+        "name": "CharSkyKid_Body_OceanWaves",
+        "type": "body"
+    },
+    {
+        "id": 3890107548,
+        "name": "CharSkyKid_Body_Rainbow_01",
+        "type": "body"
+    },
+    {
+        "id": 1840544846,
+        "name": "CharSkyKid_Body_DarkRainbow",
+        "type": "body"
+    },
+    {
+        "id": 4142790102,
+        "name": "CharSkyKid_Body_AP25RolledSleeve",
+        "type": "body"
+    },
+    {
+        "id": 1078516708,
+        "name": "CharSkyKid_Body_ColorTiedJumpsuit",
+        "type": "body"
+    },
+    {
+        "id": 2882619199,
+        "name": "CharSkyKid_Body_BirthdayShirt_05",
+        "type": "body"
+    },
+    {
+        "id": 2644324022,
+        "name": "CharSkyKid_Body_GreekRobe",
+        "type": "body"
+    },
+    {
+        "id": 2394803704,
+        "name": "CharSkyKid_Body_FeastCoat",
+        "type": "body"
+    },
+    {
+        "id": 3273901261,
+        "name": "CharSkyKid_Body_TreasurePants",
+        "type": "body"
+    },
+    {
+        "id": 1220898723,
+        "name": "CharSkyKid_Body_SwimTrunks",
+        "type": "body"
+    },
+    {
+        "id": 1003584869,
+        "name": "CharSkyKid_Body_SunlightDress",
+        "type": "body"
+    },
+    {
+        "id": 510141304,
+        "name": "CharSkyKid_Body_RibbonTieredDress",
+        "type": "body"
+    },
+    {
+        "id": 487803091,
+        "name": "CharSkyKid_Body_RibbonSkirt",
+        "type": "body"
+    },
+    {
+        "id": 3701136390,
+        "name": "CharSkyKid_Body_MoonlightDress",
+        "type": "body"
+    },
+    {
+        "id": 1957181695,
+        "name": "CharSkyKid_Body_FashionJeans",
+        "type": "body"
+    },
+    {
+        "id": 2919054549,
+        "name": "CharSkyKid_Body_CrystalDress",
+        "type": "body"
+    },
+    {
+        "id": 3263857791,
+        "name": "CharSkyKid_Body_CrystalSuit",
+        "type": "body"
+    },
+    {
+        "id": 3855001923,
+        "name": "CharSkyKid_Body_Witch",
+        "type": "body"
+    },
+    {
+        "id": 3593293058,
+        "name": "CharSkyKid_Body_Goth",
+        "type": "body"
+    },
+    {
+        "id": 2113669861,
+        "name": "CharSkyKid_Body_Snowman",
+        "type": "body"
+    },
+    {
+        "id": 2757660764,
+        "name": "CharSkyKid_Body_YellowPinafore",
+        "type": "body"
+    },
+    {
+        "id": 3833103417,
+        "name": "CharSkyKid_Body_BandUniform",
+        "type": "body"
+    },
+    {
+        "id": 3044674135,
+        "name": "CharSkyKid_Body_FortuneSnake",
+        "type": "body"
+    },
+    {
+        "id": 2853496425,
+        "name": "CharSkyKid_Body_AnnivBeigeSuit",
+        "type": "body"
+    },
+    {
+        "id": 354061063,
+        "name": "CharSkyKid_Body_AnnivYellowGown",
+        "type": "body"
+    },
+    {
+        "id": 2283367548,
+        "name": "CharSkyKid_Body_TriumphSkateOutfit",
+        "type": "body"
+    },
+    {
+        "id": 4274946012,
+        "name": "CharSkyKid_Body_FortunePanelDress",
+        "type": "body"
+    },
+    {
+        "id": 2225980364,
+        "name": "CharSkyKid_Body_TreasureDress",
+        "type": "body"
+    },
+    {
+        "id": 1078336693,
+        "name": "CharSkyKid_Body_NatureFlowyDress",
+        "type": "body"
+    },
+    {
+        "id": 3599986885,
+        "name": "CharSkyKid_Face_None",
+        "type": "face"
+    },
+    {
+        "id": 1600525874,
+        "name": "CharSkyKid_Mask_ElderDawn",
+        "type": "face"
+    },
+    {
+        "id": 3207378178,
+        "name": "CharSkyKid_Mask_ElderDay",
+        "type": "face"
+    },
+    {
+        "id": 252652358,
+        "name": "CharSkyKid_Mask_ElderRain",
+        "type": "face"
+    },
+    {
+        "id": 3117037165,
+        "name": "CharSkyKid_Mask_ElderSunsetA",
+        "type": "face"
+    },
+    {
+        "id": 3066704308,
+        "name": "CharSkyKid_Mask_ElderSunsetB",
+        "type": "face"
+    },
+    {
+        "id": 3659135953,
+        "name": "CharSkyKid_Mask_ElderDusk",
+        "type": "face"
+    },
+    {
+        "id": 1929978494,
+        "name": "CharSkyKid_Mask_ElderNight",
+        "type": "face"
+    },
+    {
+        "id": 850155893,
+        "name": "CharSkyKid_Mask_ElderDawn_02",
+        "type": "face"
+    },
+    {
+        "id": 776944197,
+        "name": "CharSkyKid_Mask_ElderDay_02",
+        "type": "face"
+    },
+    {
+        "id": 4247878009,
+        "name": "CharSkyKid_Mask_ElderRain_02",
+        "type": "face"
+    },
+    {
+        "id": 1285002304,
+        "name": "CharSkyKid_Mask_ElderSunsetA_02",
+        "type": "face"
+    },
+    {
+        "id": 2664370995,
+        "name": "CharSkyKid_Mask_ElderSunsetB_02",
+        "type": "face"
+    },
+    {
+        "id": 497608138,
+        "name": "CharSkyKid_Mask_AP07Sunglasses",
+        "type": "face"
+    },
+    {
+        "id": 3089919808,
+        "name": "CharSkyKid_Horn_AP19Glasses",
+        "type": "face"
+    },
+    {
+        "id": 2141120111,
+        "name": "CharSkyKid_Horn_AP19Straw",
+        "type": "face"
+    },
+    {
+        "id": 2839033349,
+        "name": "CharSkyKid_Horn_AP19SkullJaw",
+        "type": "face"
+    },
+    {
+        "id": 3415277744,
+        "name": "CharSkyKid_Face_AP23Filigree",
+        "type": "face"
+    },
+    {
+        "id": 1769778398,
+        "name": "CharSkyKid_Face_AP26BlueWings",
+        "type": "face"
+    },
+    {
+        "id": 679644723,
+        "name": "CharSkyKid_Face_AP26Plume",
+        "type": "face"
+    },
+    {
+        "id": 1620195144,
+        "name": "CharSkyKid_Face_AP28AntlerHelm",
+        "type": "face"
+    },
+    {
+        "id": 522657778,
+        "name": "CharSkyKid_Mask_BlueSunglasses",
+        "type": "face"
+    },
+    {
+        "id": 1417208065,
+        "name": "CharSkyKid_Horn_StarSunglasses",
+        "type": "face"
+    },
+    {
+        "id": 2359499304,
+        "name": "CharSkyKid_Horn_FlameSunglasses",
+        "type": "face"
+    },
+    {
+        "id": 4037336099,
+        "name": "CharSkyKid_Horn_HeartSunglasses",
+        "type": "face"
+    },
+    {
+        "id": 367726874,
+        "name": "CharSkyKid_Face_Monocle",
+        "type": "face"
+    },
+    {
+        "id": 2880027551,
+        "name": "CharSkyKid_Horn_HeadCrab",
+        "type": "face"
+    },
+    {
+        "id": 3345521846,
+        "name": "CharSkyKid_Face_CurseSticker",
+        "type": "face"
+    },
+    {
+        "id": 1627709855,
+        "name": "CharSkyKid_Mask_YetiGoggles",
+        "type": "face"
+    },
+    {
+        "id": 870333428,
+        "name": "CharSkyKid_Face_Anniversary3DGlasses",
+        "type": "face"
+    },
+    {
+        "id": 651891067,
+        "name": "CharSkyKid_Face_AviatorMoth",
+        "type": "face"
+    },
+    {
+        "id": 1505448625,
+        "name": "CharSkyKid_Face_PersonalityPurpleGlasses",
+        "type": "face"
+    },
+    {
+        "id": 1312732709,
+        "name": "CharSkyKid_Face_PersonalityFLove",
+        "type": "face"
+    },
+    {
+        "id": 3746116036,
+        "name": "CharSkyKid_Face_PersonalityTGear",
+        "type": "face"
+    },
+    {
+        "id": 2169410144,
+        "name": "CharSkyKid_Horn_FortuneGlasses",
+        "type": "face"
+    },
+    {
+        "id": 415828741,
+        "name": "CharSkyKid_Horn_STARpin_sunglasses",
+        "type": "face"
+    },
+    {
+        "id": 4294934699,
+        "name": "CharSkyKid_Face_AP27NightElder",
+        "type": "face"
+    },
+    {
+        "id": 895433144,
+        "name": "CharSkyKid_Face_AP28RoundGlasses",
+        "type": "face"
+    },
+    {
+        "id": 1532093990,
+        "name": "CharSkyKid_Feet_None",
+        "type": "feet"
+    },
+    {
+        "id": 3569403301,
+        "name": "CharSkyKid_Feet_ClassicSocks",
+        "type": "feet"
+    },
+    {
+        "id": 1401690627,
+        "name": "CharSkyKid_Feet_AP09UniformBoots",
+        "type": "feet"
+    },
+    {
+        "id": 2446385866,
+        "name": "CharSkyKid_Feet_AP10Overalls",
+        "type": "feet"
+    },
+    {
+        "id": 4272659714,
+        "name": "CharSkyKid_Feet_AP17RaggedTunic",
+        "type": "feet"
+    },
+    {
+        "id": 3239360482,
+        "name": "CharSkyKid_Feet_AP19CargoShorts",
+        "type": "feet"
+    },
+    {
+        "id": 136350340,
+        "name": "CharSkyKid_Feet_AP20ShortStraps",
+        "type": "feet"
+    },
+    {
+        "id": 4039366130,
+        "name": "CharSkyKid_Feet_AP20LongStraps",
+        "type": "feet"
+    },
+    {
+        "id": 1905437419,
+        "name": "CharSkyKid_Feet_AP20RobeSandals",
+        "type": "feet"
+    },
+    {
+        "id": 884373594,
+        "name": "CharSkyKid_Feet_AP23WrapSandals",
+        "type": "feet"
+    },
+    {
+        "id": 4079587922,
+        "name": "CharSkyKid_Feet_AP24BellShoes",
+        "type": "feet"
+    },
+    {
+        "id": 4235697122,
+        "name": "CharSkyKid_Feet_AP25BootShort",
+        "type": "feet"
+    },
+    {
+        "id": 3008909143,
+        "name": "CharSkyKid_Feet_AP25BootTall",
+        "type": "feet"
+    },
+    {
+        "id": 294393894,
+        "name": "CharSkyKid_Feet_AP26LumberjackBoots",
+        "type": "feet"
+    },
+    {
+        "id": 820007464,
+        "name": "CharSkyKid_Feet_AP27GuardBoots",
+        "type": "feet"
+    },
+    {
+        "id": 2228162224,
+        "name": "CharSkyKid_Feet_AP28FluffyBoots",
+        "type": "feet"
+    },
+    {
+        "id": 1920507960,
+        "name": "CharSkyKid_Feet_RainbowDarkLoafers",
+        "type": "feet"
+    },
+    {
+        "id": 1616682074,
+        "name": "CharSkyKid_Feet_SunlightSandals",
+        "type": "feet"
+    },
+    {
+        "id": 2472875823,
+        "name": "CharSkyKid_Feet_Witch",
+        "type": "feet"
+    },
+    {
+        "id": 1924654939,
+        "name": "CharSkyKid_Feet_GothBoots",
+        "type": "feet"
+    },
+    {
+        "id": 1206191412,
+        "name": "CharSkyKid_Feet_BalletFlats",
+        "type": "feet"
+    },
+    {
+        "id": 3249713966,
+        "name": "CharSkyKid_Feet_BunnySlippers",
+        "type": "feet"
+    },
+    {
+        "id": 3665959930,
+        "name": "CharSkyKid_Feet_YetiBoots",
+        "type": "feet"
+    },
+    {
+        "id": 2157116232,
+        "name": "CharSkyKid_Feet_FeastLegWarmers",
+        "type": "feet"
+    },
+    {
+        "id": 423244060,
+        "name": "CharSkyKid_Feet_AuroraSneakers",
+        "type": "feet"
+    },
+    {
+        "id": 3295997258,
+        "name": "CharSkyKid_Feet_TreasureBoots",
+        "type": "feet"
+    },
+    {
+        "id": 1188947706,
+        "name": "CharSkyKid_Feet_SeaFoam",
+        "type": "feet"
+    },
+    {
+        "id": 3414313367,
+        "name": "CharSkyKid_Feet_AnnivButterfly",
+        "type": "feet"
+    },
+    {
+        "id": 3551453652,
+        "name": "CharSkyKid_Feet_FluffyMoth",
+        "type": "feet"
+    },
+    {
+        "id": 1333301937,
+        "name": "CharSkyKid_Feet_TriumphIceSkates",
+        "type": "feet"
+    },
+    {
+        "id": 272927310,
+        "name": "CharSkyKid_Feet_OreoSlipper",
+        "type": "feet"
+    },
+    {
+        "id": 1229053584,
+        "name": "CharSkyKid_Hair_BraidSideSmall",
+        "type": "hair"
+    },
+    {
+        "id": 2576690543,
+        "name": "CharSkyKid_Hair_TightCurls",
+        "type": "hair"
+    },
+    {
+        "id": 2159918060,
+        "name": "CharSkyKid_Hair_PigtailLow",
+        "type": "hair"
+    },
+    {
+        "id": 2784461785,
+        "name": "CharSkyKid_Hair_BraidSide",
+        "type": "hair"
+    },
+    {
+        "id": 3075031305,
+        "name": "CharSkyKid_Hair_BraidBack",
+        "type": "hair"
+    },
+    {
+        "id": 1957362244,
+        "name": "CharSkyKid_Hair_PonytailShort",
+        "type": "hair"
+    },
+    {
+        "id": 1572568701,
+        "name": "CharSkyKid_Hair_PonytailShaggy",
+        "type": "hair"
+    },
+    {
+        "id": 2471339479,
+        "name": "CharSkyKid_Hair_ShaggyShort",
+        "type": "hair"
+    },
+    {
+        "id": 2802448856,
+        "name": "CharSkyKid_Hair_BraidTwo",
+        "type": "hair"
+    },
+    {
+        "id": 189805609,
+        "name": "CharSkyKid_Hair_TopTwoKnot",
+        "type": "hair"
+    },
+    {
+        "id": 392918653,
+        "name": "CharSkyKid_Hair_TopTwoKnotBig",
+        "type": "hair"
+    },
+    {
+        "id": 1091766677,
+        "name": "CharSkyKid_Hair_Bun",
+        "type": "hair"
+    },
+    {
+        "id": 1472657881,
+        "name": "CharSkyKid_Hair_Buzz",
+        "type": "hair"
+    },
+    {
+        "id": 158418233,
+        "name": "CharSkyKid_Hair_TopSharp",
+        "type": "hair"
+    },
+    {
+        "id": 1779588853,
+        "name": "CharSkyKid_Hair_Mohawk",
+        "type": "hair"
+    },
+    {
+        "id": 1151632134,
+        "name": "CharSkyKid_Hair_ShoulderLong",
+        "type": "hair"
+    },
+    {
+        "id": 1415190429,
+        "name": "CharSkyKid_Hair_TwoTails",
+        "type": "hair"
+    },
+    {
+        "id": 310226317,
+        "name": "CharSkyKid_Hair_ShortBob",
+        "type": "hair"
+    },
+    {
+        "id": 3668577427,
+        "name": "CharSkyKid_Hair_ShortBobRound",
+        "type": "hair"
+    },
+    {
+        "id": 21382025,
+        "name": "CharSkyKid_Hair_LongBob",
+        "type": "hair"
+    },
+    {
+        "id": 1966947567,
+        "name": "CharSkyKid_Hair_PunkTall",
+        "type": "hair"
+    },
+    {
+        "id": 589320403,
+        "name": "CharSkyKid_Hair_TopOneSideS",
+        "type": "hair"
+    },
+    {
+        "id": 1092648973,
+        "name": "CharSkyKid_Hair_TopOneSideM",
+        "type": "hair"
+    },
+    {
+        "id": 1075871354,
+        "name": "CharSkyKid_Hair_TopOneSideL",
+        "type": "hair"
+    },
+    {
+        "id": 2582832281,
+        "name": "CharSkyKid_Hair_Dreads",
+        "type": "hair"
+    },
+    {
+        "id": 1747536341,
+        "name": "CharSkyKid_Hair_BackLong",
+        "type": "hair"
+    },
+    {
+        "id": 4055513070,
+        "name": "CharSkyKid_Hair_Beard",
+        "type": "hair"
+    },
+    {
+        "id": 766797080,
+        "name": "CharSkyKid_Hair_ShoulderLongTie",
+        "type": "hair"
+    },
+    {
+        "id": 651777506,
+        "name": "CharSkyKid_Hair_Lion",
+        "type": "hair"
+    },
+    {
+        "id": 3437606455,
+        "name": "CharSkyKid_Hair_Puff",
+        "type": "hair"
+    },
+    {
+        "id": 2666640712,
+        "name": "CharSkyKid_Hair_Afro",
+        "type": "hair"
+    },
+    {
+        "id": 351601302,
+        "name": "CharSkyKid_Hair_BallCurly",
+        "type": "hair"
+    },
+    {
+        "id": 1960678833,
+        "name": "CharSkyKid_Hair_TwoBallsCurly",
+        "type": "hair"
+    },
+    {
+        "id": 416680174,
+        "name": "CharSkyKid_Hair_ElderDawn",
+        "type": "hair"
+    },
+    {
+        "id": 2432602294,
+        "name": "CharSkyKid_Hair_ElderDay",
+        "type": "hair"
+    },
+    {
+        "id": 1078517906,
+        "name": "CharSkyKid_Hair_ElderRain",
+        "type": "hair"
+    },
+    {
+        "id": 777821397,
+        "name": "CharSkyKid_Hair_ElderBro",
+        "type": "hair"
+    },
+    {
+        "id": 3381405437,
+        "name": "CharSkyKid_Hair_ElderSis",
+        "type": "hair"
+    },
+    {
+        "id": 2681369749,
+        "name": "CharSkyKid_Hair_ElderDusk",
+        "type": "hair"
+    },
+    {
+        "id": 3721236258,
+        "name": "CharSkyKid_Hair_ElderNight",
+        "type": "hair"
+    },
+    {
+        "id": 3441194314,
+        "name": "CharSkyKid_Hair_AP02Stupa_01",
+        "type": "hair"
+    },
+    {
+        "id": 777066155,
+        "name": "CharSkyKid_Hair_AP02Bhutan_01",
+        "type": "hair"
+    },
+    {
+        "id": 499685406,
+        "name": "CharSkyKid_Hair_AP02Cone_01",
+        "type": "hair"
+    },
+    {
+        "id": 3342968869,
+        "name": "CharSkyKid_Hair_AP03Victorian_01",
+        "type": "hair"
+    },
+    {
+        "id": 1636174276,
+        "name": "CharSkyKid_Hair_AP03Samurai_01",
+        "type": "hair"
+    },
+    {
+        "id": 4152249299,
+        "name": "CharSkyKid_Hair_AP03Barrette_01",
+        "type": "hair"
+    },
+    {
+        "id": 4161779120,
+        "name": "CharSkyKid_Hair_AP03Upstyle_01",
+        "type": "hair"
+    },
+    {
+        "id": 2231097150,
+        "name": "CharSkyKid_Hair_AP03Umbrella_01",
+        "type": "hair"
+    },
+    {
+        "id": 1859574381,
+        "name": "CharSkyKid_Hair_AP04Ribbon_01",
+        "type": "hair"
+    },
+    {
+        "id": 168028151,
+        "name": "CharSkyKid_Hair_AP04WavyBob_01",
+        "type": "hair"
+    },
+    {
+        "id": 640785264,
+        "name": "CharSkyKid_Hair_APDancer_01",
+        "type": "hair"
+    },
+    {
+        "id": 1458373057,
+        "name": "CharSkyKid_Hair_APJuggler_01",
+        "type": "hair"
+    },
+    {
+        "id": 3216257586,
+        "name": "CharSkyKid_Hair_APMusician_01",
+        "type": "hair"
+    },
+    {
+        "id": 298050356,
+        "name": "CharSkyKid_Hair_AP05Director_01",
+        "type": "hair"
+    },
+    {
+        "id": 4147463881,
+        "name": "CharSkyKid_Hair_AP06ConeHat_01",
+        "type": "hair"
+    },
+    {
+        "id": 862984657,
+        "name": "CharSkyKid_Hair_AP06WizardHat_01",
+        "type": "hair"
+    },
+    {
+        "id": 1881845530,
+        "name": "CharSkyKid_Hair_AP06BunRound_01",
+        "type": "hair"
+    },
+    {
+        "id": 1001062354,
+        "name": "CharSkyKid_Hair_AP06ScoutHat_01",
+        "type": "hair"
+    },
+    {
+        "id": 1469931494,
+        "name": "CharSkyKid_Hair_AP06WizardHair_01",
+        "type": "hair"
+    },
+    {
+        "id": 3559895758,
+        "name": "CharSkyKid_Hair_AP06Pigtails_01",
+        "type": "hair"
+    },
+    {
+        "id": 3225530939,
+        "name": "CharSkyKid_Hair_AP06Turban_01",
+        "type": "hair"
+    },
+    {
+        "id": 3711594408,
+        "name": "CharSkyKid_Hair_AP07Jellyfish_01",
+        "type": "hair"
+    },
+    {
+        "id": 185578776,
+        "name": "CharSkyKid_Hair_AP07Braid_01",
+        "type": "hair"
+    },
+    {
+        "id": 3423843452,
+        "name": "CharSkyKid_Hair_AP07Undercut_01",
+        "type": "hair"
+    },
+    {
+        "id": 579079763,
+        "name": "CharSkyKid_Hair_AP07Balding_01",
+        "type": "hair"
+    },
+    {
+        "id": 2589518446,
+        "name": "CharSkyKid_Hair_AP07BowlCut_01",
+        "type": "hair"
+    },
+    {
+        "id": 3106806383,
+        "name": "CharSkyKid_Hair_AP08Ponytail_01",
+        "type": "hair"
+    },
+    {
+        "id": 335244637,
+        "name": "CharSkyKid_Hair_AP08DoubleBun_01",
+        "type": "hair"
+    },
+    {
+        "id": 3079030961,
+        "name": "CharSkyKid_Hair_AP08Braid_01",
+        "type": "hair"
+    },
+    {
+        "id": 1292019970,
+        "name": "CharSkyKid_Hair_AP08ShortDreads_01",
+        "type": "hair"
+    },
+    {
+        "id": 1181948107,
+        "name": "CharSkyKid_Hair_AP09Yeti_01",
+        "type": "hair"
+    },
+    {
+        "id": 3151596915,
+        "name": "CharSkyKid_Hair_AP09Hat_01",
+        "type": "hair"
+    },
+    {
+        "id": 3273609261,
+        "name": "CharSkyKid_Hair_AP09MultiBuns_01",
+        "type": "hair"
+    },
+    {
+        "id": 3349548343,
+        "name": "CharSkyKid_Hair_AP09BambooHat_01",
+        "type": "hair"
+    },
+    {
+        "id": 4197706078,
+        "name": "CharSkyKid_Hair_AP10PotHat_01",
+        "type": "hair"
+    },
+    {
+        "id": 1182848068,
+        "name": "CharSkyKid_Hair_AP10StrawCrown_01",
+        "type": "hair"
+    },
+    {
+        "id": 985301559,
+        "name": "CharSkyKid_Hair_AP10PonytailDreads_01",
+        "type": "hair"
+    },
+    {
+        "id": 1861676609,
+        "name": "CharSkyKid_Hair_AP10LongBangs_01",
+        "type": "hair"
+    },
+    {
+        "id": 3995121582,
+        "name": "CharSkyKid_Hair_AP10FrontBraids_01",
+        "type": "hair"
+    },
+    {
+        "id": 563247171,
+        "name": "CharSkyKid_Hair_AP10Bandana_01",
+        "type": "hair"
+    },
+    {
+        "id": 8842536,
+        "name": "CharSkyKid_Hair_AP11Messy_01",
+        "type": "hair"
+    },
+    {
+        "id": 1557042466,
+        "name": "CharSkyKid_Hair_AP11LongWavy_01",
+        "type": "hair"
+    },
+    {
+        "id": 3432481452,
+        "name": "CharSkyKid_Hair_AP11UniformHat_01",
+        "type": "hair"
+    },
+    {
+        "id": 1631935520,
+        "name": "CharSkyKid_Hair_AP11Crown_01",
+        "type": "hair"
+    },
+    {
+        "id": 1054319781,
+        "name": "CharSkyKid_Hair_AP11ConeHat_01",
+        "type": "hair"
+    },
+    {
+        "id": 2973360164,
+        "name": "CharSkyKid_Hair_AP11Prince_01",
+        "type": "hair"
+    },
+    {
+        "id": 695266768,
+        "name": "CharSkyKid_Hair_AP12FeatherHat_01",
+        "type": "hair"
+    },
+    {
+        "id": 900398132,
+        "name": "CharSkyKid_Hair_AP12RuffledLong_01",
+        "type": "hair"
+    },
+    {
+        "id": 1677355248,
+        "name": "CharSkyKid_Hair_AP12RuffledShort_01",
+        "type": "hair"
+    },
+    {
+        "id": 3121880340,
+        "name": "CharSkyKid_Hair_AP12Goggles_01",
+        "type": "hair"
+    },
+    {
+        "id": 2330207038,
+        "name": "CharSkyKid_Hair_AP13LongBraids_01",
+        "type": "hair"
+    },
+    {
+        "id": 4289515375,
+        "name": "CharSkyKid_Hair_AP13TattooBraids_01",
+        "type": "hair"
+    },
+    {
+        "id": 340088294,
+        "name": "CharSkyKid_Hair_AP13BucketHat_01",
+        "type": "hair"
+    },
+    {
+        "id": 667804750,
+        "name": "CharSkyKid_Hair_AP14TuftedDirector_01",
+        "type": "hair"
+    },
+    {
+        "id": 1734511916,
+        "name": "CharSkyKid_Hair_AP14HeadWrap_01",
+        "type": "hair"
+    },
+    {
+        "id": 3509269224,
+        "name": "CharSkyKid_Hair_AP14ShadowHood_01",
+        "type": "hair"
+    },
+    {
+        "id": 955810815,
+        "name": "CharSkyKid_Hair_AP14JesterHood_01",
+        "type": "hair"
+    },
+    {
+        "id": 1171373479,
+        "name": "CharSkyKid_Hair_AP14CurlyLong_01",
+        "type": "hair"
+    },
+    {
+        "id": 581019533,
+        "name": "CharSkyKid_Hair_AP15Krill_01",
+        "type": "hair"
+    },
+    {
+        "id": 752338700,
+        "name": "CharSkyKid_Hair_AP15Manta_01",
+        "type": "hair"
+    },
+    {
+        "id": 3623892047,
+        "name": "CharSkyKid_Hair_AP15Jellyfish_01",
+        "type": "hair"
+    },
+    {
+        "id": 280230718,
+        "name": "CharSkyKid_Hair_AP16Fire",
+        "type": "hair"
+    },
+    {
+        "id": 1137446101,
+        "name": "CharSkyKid_Hair_AP16Water",
+        "type": "hair"
+    },
+    {
+        "id": 3166060424,
+        "name": "CharSkyKid_Hair_AP16Wind",
+        "type": "hair"
+    },
+    {
+        "id": 1092928798,
+        "name": "CharSkyKid_Hair_AP16Earth",
+        "type": "hair"
+    },
+    {
+        "id": 834381284,
+        "name": "CharSkyKid_Hair_AP16RunawayBob",
+        "type": "hair"
+    },
+    {
+        "id": 947901990,
+        "name": "CharSkyKid_Hair_AP16ClassicAurora",
+        "type": "hair"
+    },
+    {
+        "id": 2708364799,
+        "name": "CharSkyKid_Hair_AP17PaperboyCap",
+        "type": "hair"
+    },
+    {
+        "id": 1685967592,
+        "name": "CharSkyKid_Hair_AP17Genius",
+        "type": "hair"
+    },
+    {
+        "id": 894646226,
+        "name": "CharSkyKid_Hair_AP17BandanaBraid",
+        "type": "hair"
+    },
+    {
+        "id": 962984138,
+        "name": "CharSkyKid_Hair_AP18Spiky",
+        "type": "hair"
+    },
+    {
+        "id": 3071068126,
+        "name": "CharSkyKid_Hair_AP18MediumBob",
+        "type": "hair"
+    },
+    {
+        "id": 2704502947,
+        "name": "CharSkyKid_Hair_AP18SlickBack",
+        "type": "hair"
+    },
+    {
+        "id": 3027173765,
+        "name": "CharSkyKid_Hair_AP18SideFade",
+        "type": "hair"
+    },
+    {
+        "id": 1608794967,
+        "name": "CharSkyKid_Hair_AP19DoubleBraidBack",
+        "type": "hair"
+    },
+    {
+        "id": 1709375144,
+        "name": "CharSkyKid_Hair_AP19HeadTattoo",
+        "type": "hair"
+    },
+    {
+        "id": 4191758612,
+        "name": "CharSkyKid_Hair_AP19Skull",
+        "type": "hair"
+    },
+    {
+        "id": 3701634531,
+        "name": "CharSkyKid_Hair_AP20SlickBowlCut",
+        "type": "hair"
+    },
+    {
+        "id": 2720882556,
+        "name": "CharSkyKid_Hair_AP20Beads",
+        "type": "hair"
+    },
+    {
+        "id": 3074254138,
+        "name": "CharSkyKid_Hair_AP20Maypole",
+        "type": "hair"
+    },
+    {
+        "id": 1464537338,
+        "name": "CharSkyKid_Hair_AP20MaypoleNoRibbons",
+        "type": "hair"
+    },
+    {
+        "id": 1771957565,
+        "name": "CharSkyKid_Hair_AP21FancyUpdo",
+        "type": "hair"
+    },
+    {
+        "id": 3074656880,
+        "name": "CharSkyKid_Hair_AP21Turban",
+        "type": "hair"
+    },
+    {
+        "id": 3978184428,
+        "name": "CharSkyKid_Hair_AP21RoyalBun",
+        "type": "hair"
+    },
+    {
+        "id": 847985255,
+        "name": "CharSkyKid_Hair_AP21HunterBun",
+        "type": "hair"
+    },
+    {
+        "id": 1809713977,
+        "name": "CharSkyKid_Hair_AP22Pigtail",
+        "type": "hair"
+    },
+    {
+        "id": 3530481152,
+        "name": "CharSkyKid_Hair_AP23PianistKnot",
+        "type": "hair"
+    },
+    {
+        "id": 2206820531,
+        "name": "CharSkyKid_Hair_AP23CellistBun",
+        "type": "hair"
+    },
+    {
+        "id": 1833695876,
+        "name": "CharSkyKid_Hair_AP24Onion",
+        "type": "hair"
+    },
+    {
+        "id": 467964467,
+        "name": "CharSkyKid_Hair_AP24Triangle",
+        "type": "hair"
+    },
+    {
+        "id": 1884335548,
+        "name": "CharSkyKid_Hair_AP25BluePaint",
+        "type": "hair"
+    },
+    {
+        "id": 439176151,
+        "name": "CharSkyKid_Hair_AP25Bob",
+        "type": "hair"
+    },
+    {
+        "id": 3506415534,
+        "name": "CharSkyKid_Hair_AP26LowHat",
+        "type": "hair"
+    },
+    {
+        "id": 966853540,
+        "name": "CharSkyKid_Hair_AP27HelmetPlumed",
+        "type": "hair"
+    },
+    {
+        "id": 3297002457,
+        "name": "CharSkyKid_Hair_AP27HelmetScarred",
+        "type": "hair"
+    },
+    {
+        "id": 2922870804,
+        "name": "CharSkyKid_Hair_AP27CaretakerHood",
+        "type": "hair"
+    },
+    {
+        "id": 2565555477,
+        "name": "CharSkyKid_Hair_AP27FluffyManatee",
+        "type": "hair"
+    },
+    {
+        "id": 1524008359,
+        "name": "CharSkyKid_Hair_AP28MantaWhisperer",
+        "type": "hair"
+    },
+    {
+        "id": 104243961,
+        "name": "CharSkyKid_Hair_AP28Father",
+        "type": "hair"
+    },
+    {
+        "id": 302731041,
+        "name": "CharSkyKid_Hair_AP29Highlights",
+        "type": "hair"
+    },
+    {
+        "id": 1380982476,
+        "name": "CharSkyKid_Hair_AP29LongHood",
+        "type": "hair"
+    },
+    {
+        "id": 2519946647,
+        "name": "CharSkyKid_Hair_AP29KnotBun",
+        "type": "hair"
+    },
+    {
+        "id": 1127661976,
+        "name": "CharSkyKid_Hair_AP30TaperDirector",
+        "type": "hair"
+    },
+    {
+        "id": 1679409076,
+        "name": "CharSkyKid_Hair_AP30HighPonytail",
+        "type": "hair"
+    },
+    {
+        "id": 3582275717,
+        "name": "CharSkyKid_Hair_AP30AviatorHat",
+        "type": "hair"
+    },
+    {
+        "id": 191656498,
+        "name": "CharSkyKid_Hair_DoubleBun",
+        "type": "hair"
+    },
+    {
+        "id": 12035514,
+        "name": "CharSkyKid_Hair_WoolHat",
+        "type": "hair"
+    },
+    {
+        "id": 2611730485,
+        "name": "CharSkyKid_Hair_LionDance",
+        "type": "hair"
+    },
+    {
+        "id": 2573732532,
+        "name": "CharSkyKid_Hair_Fish_01",
+        "type": "hair"
+    },
+    {
+        "id": 772774119,
+        "name": "CharSkyKid_Hair_FortuneSnake",
+        "type": "hair"
+    },
+    {
+        "id": 2737207737,
+        "name": "CharSkyKid_Hair_Blossom_01",
+        "type": "hair"
+    },
+    {
+        "id": 3595485163,
+        "name": "CharSkyKid_Hair_CallaLily",
+        "type": "hair"
+    },
+    {
+        "id": 2811958899,
+        "name": "CharSkyKid_Hair_BloomSpiky",
+        "type": "hair"
+    },
+    {
+        "id": 2907785503,
+        "name": "CharSkyKid_Hair_RoseBraid",
+        "type": "hair"
+    },
+    {
+        "id": 94314115,
+        "name": "CharSkyKid_Hair_BloomSunflowerBandana",
+        "type": "hair"
+    },
+    {
+        "id": 411325058,
+        "name": "CharSkyKid_Hair_NatureWater",
+        "type": "hair"
+    },
+    {
+        "id": 3176327135,
+        "name": "CharSkyKid_Hair_ElderManta",
+        "type": "hair"
+    },
+    {
+        "id": 1969205567,
+        "name": "CharSkyKid_Hair_RainbowHat_01",
+        "type": "hair"
+    },
+    {
+        "id": 4275257661,
+        "name": "CharSkyKid_Hair_RockStar",
+        "type": "hair"
+    },
+    {
+        "id": 1644550510,
+        "name": "CharSkyKid_Hair_ColorHeadband",
+        "type": "hair"
+    },
+    {
+        "id": 78870607,
+        "name": "CharSkyKid_Hair_ColorTufts",
+        "type": "hair"
+    },
+    {
+        "id": 2025123542,
+        "name": "CharSkyKid_Hair_MarchingBand",
+        "type": "hair"
+    },
+    {
+        "id": 1216449043,
+        "name": "CharSkyKid_Hair_MoonlightUpdo",
+        "type": "hair"
+    },
+    {
+        "id": 2926311387,
+        "name": "CharSkyKid_Hair_AP04Pumpkin_01",
+        "type": "hair"
+    },
+    {
+        "id": 2809306606,
+        "name": "CharSkyKid_Hair_WitchHat_01",
+        "type": "hair"
+    },
+    {
+        "id": 2494409544,
+        "name": "CharSkyKid_Hair_MischiefCat",
+        "type": "hair"
+    },
+    {
+        "id": 1967941939,
+        "name": "CharSkyKid_Hair_Witch",
+        "type": "hair"
+    },
+    {
+        "id": 512277997,
+        "name": "CharSkyKid_Hair_Spider_01",
+        "type": "hair"
+    },
+    {
+        "id": 4275358862,
+        "name": "CharSkyKid_Hair_SpiderBun",
+        "type": "hair"
+    },
+    {
+        "id": 396709100,
+        "name": "CharSkyKid_Hair_MischiefFeatherHat",
+        "type": "hair"
+    },
+    {
+        "id": 1109294427,
+        "name": "CharSkyKid_Hair_MischiefSmoked",
+        "type": "hair"
+    },
+    {
+        "id": 1941159163,
+        "name": "CharSkyKid_Hair_Xmas",
+        "type": "hair"
+    },
+    {
+        "id": 1854693120,
+        "name": "CharSkyKid_Hair_WinterHat_01",
+        "type": "hair"
+    },
+    {
+        "id": 3607057365,
+        "name": "CharSkyKid_Hair_Snowman",
+        "type": "hair"
+    },
+    {
+        "id": 4166901385,
+        "name": "CharSkyKid_Hair_Frantic",
+        "type": "hair"
+    },
+    {
+        "id": 3066279406,
+        "name": "CharSkyKid_Hair_BlueHare",
+        "type": "hair"
+    },
+    {
+        "id": 124583663,
+        "name": "CharSkyKid_Hair_MeteorPigtails",
+        "type": "hair"
+    },
+    {
+        "id": 605141665,
+        "name": "CharSkyKid_Hair_PurpleBraids",
+        "type": "hair"
+    },
+    {
+        "id": 3462129665,
+        "name": "CharSkyKid_Hair_PastryShort",
+        "type": "hair"
+    },
+    {
+        "id": 1333659676,
+        "name": "CharSkyKid_Hair_Greek",
+        "type": "hair"
+    },
+    {
+        "id": 1353453524,
+        "name": "CharSkyKid_Hair_TriumphSwept",
+        "type": "hair"
+    },
+    {
+        "id": 970149675,
+        "name": "CharSkyKid_Hair_FortunePonytail",
+        "type": "hair"
+    },
+    {
+        "id": 2103279490,
+        "name": "CharSkyKid_Hair_TreasureBandanaLong",
+        "type": "hair"
+    },
+    {
+        "id": 2140738449,
+        "name": "CharSkyKid_Hair_NatureFloating",
+        "type": "hair"
+    },
+    {
+        "id": 265421366,
+        "name": "CharSkyKid_Hair_KizunaAi_Red",
+        "type": "hair"
+    },
+    {
+        "id": 3012259367,
+        "name": "CharSkyKid_Hair_KizunaAi_Pink",
+        "type": "hair"
+    },
+    {
+        "id": 1794435961,
+        "name": "CharSkyKid_Hair_Elf_01",
+        "type": "hair"
+    },
+    {
+        "id": 998517415,
+        "name": "CharSkyKid_Hair_Traveler_01",
+        "type": "hair"
+    },
+    {
+        "id": 1015295034,
+        "name": "CharSkyKid_Hair_Traveler_02",
+        "type": "hair"
+    },
+    {
+        "id": 1740771042,
+        "name": "CharSkyKid_Hair_None",
+        "type": "hair"
+    },
+    {
+        "id": 1470462579,
+        "name": "CharSkyKid_Hat_None",
+        "type": "hat"
+    },
+    {
+        "id": 2656707950,
+        "name": "CharSkyKid_Hair_AP07StrawHat_01",
+        "type": "hat"
+    },
+    {
+        "id": 1097951337,
+        "name": "CharSkyKid_Horn_AP12Dove_01",
+        "type": "hat"
+    },
+    {
+        "id": 1100765809,
+        "name": "CharSkyKid_Horn_AP12SideFeather_01",
+        "type": "hat"
+    },
+    {
+        "id": 3499444951,
+        "name": "CharSkyKid_Horn_AP12DoubleFeather_01",
+        "type": "hat"
+    },
+    {
+        "id": 460877065,
+        "name": "CharSkyKid_Horn_AP12DeluxeFeather_01",
+        "type": "hat"
+    },
+    {
+        "id": 4177943566,
+        "name": "CharSkyKid_Horn_AP13AcornHat_01",
+        "type": "hat"
+    },
+    {
+        "id": 261157329,
+        "name": "CharSkyKid_Horn_AP15DarkPlant_01",
+        "type": "hat"
+    },
+    {
+        "id": 518018131,
+        "name": "CharSkyKid_Horn_AP15Butterfly_01",
+        "type": "hat"
+    },
+    {
+        "id": 2162765417,
+        "name": "CharSkyKid_Horn_AP19TriangleHat",
+        "type": "hat"
+    },
+    {
+        "id": 3553474908,
+        "name": "CharSkyKid_Horn_AP19Dew",
+        "type": "hat"
+    },
+    {
+        "id": 3250808503,
+        "name": "CharSkyKid_Horn_AP19WesternHat",
+        "type": "hat"
+    },
+    {
+        "id": 1018554765,
+        "name": "CharSkyKid_Horn_AP20MessageBoat",
+        "type": "hat"
+    },
+    {
+        "id": 2175662240,
+        "name": "CharSkyKid_Horn_AP20Ribbon",
+        "type": "hat"
+    },
+    {
+        "id": 3542628390,
+        "name": "CharSkyKid_Horn_AP21Lotus",
+        "type": "hat"
+    },
+    {
+        "id": 999368342,
+        "name": "CharSkyKid_Horn_AP21Crown",
+        "type": "hat"
+    },
+    {
+        "id": 2681575195,
+        "name": "CharSkyKid_Horn_AP22Pencil",
+        "type": "hat"
+    },
+    {
+        "id": 1490938927,
+        "name": "CharSkyKid_Hat_AP24ClassicEars",
+        "type": "hat"
+    },
+    {
+        "id": 1671013067,
+        "name": "CharSkyKid_Hat_AP24TriangleHat",
+        "type": "hat"
+    },
+    {
+        "id": 3858960511,
+        "name": "CharSkyKid_Hat_AP24BellRibbon",
+        "type": "hat"
+    },
+    {
+        "id": 3809442297,
+        "name": "CharSkyKid_Hat_AP24Wreath",
+        "type": "hat"
+    },
+    {
+        "id": 3899522921,
+        "name": "CharSkyKid_Hat_AP25BlueRibbon",
+        "type": "hat"
+    },
+    {
+        "id": 805833241,
+        "name": "CharSkyKid_Hat_AP26RedBow",
+        "type": "hat"
+    },
+    {
+        "id": 2335418069,
+        "name": "CharSkyKid_Hat_AP26FeatherClip",
+        "type": "hat"
+    },
+    {
+        "id": 1112272068,
+        "name": "CharSkyKid_Hat_AP27MemoryFlowers",
+        "type": "hat"
+    },
+    {
+        "id": 42895742,
+        "name": "CharSkyKid_Hat_AP27Constellation",
+        "type": "hat"
+    },
+    {
+        "id": 823793333,
+        "name": "CharSkyKid_Hat_AP27ManateeChibi",
+        "type": "hat"
+    },
+    {
+        "id": 1098827945,
+        "name": "CharSkyKid_Horn_AP28ButterflyAntennae",
+        "type": "hat"
+    },
+    {
+        "id": 2718540272,
+        "name": "CharSkyKid_Hat_AP28HairBells",
+        "type": "hat"
+    },
+    {
+        "id": 1356773082,
+        "name": "CharSkyKid_Hat_AP29SunHat",
+        "type": "hat"
+    },
+    {
+        "id": 193895353,
+        "name": "CharSkyKid_Hat_AP30Goggles",
+        "type": "hat"
+    },
+    {
+        "id": 1750300383,
+        "name": "CharSkyKid_Hat_AP30SmallHat",
+        "type": "hat"
+    },
+    {
+        "id": 2852204993,
+        "name": "CharSkyKid_Horn_Orange",
+        "type": "hat"
+    },
+    {
+        "id": 2103066149,
+        "name": "CharSkyKid_Horn_Fish_01",
+        "type": "hat"
+    },
+    {
+        "id": 3096008923,
+        "name": "CharSkyKid_Horn_FlowerCrown_01",
+        "type": "hat"
+    },
+    {
+        "id": 1953498523,
+        "name": "CharSkyKid_Horn_HeartBeret",
+        "type": "hat"
+    },
+    {
+        "id": 2526696914,
+        "name": "CharSkyKid_Horn_Coral_01",
+        "type": "hat"
+    },
+    {
+        "id": 4036560425,
+        "name": "CharSkyKid_Horn_RainbowPoppy_01",
+        "type": "hat"
+    },
+    {
+        "id": 3986227568,
+        "name": "CharSkyKid_Horn_RainbowPoppy_02",
+        "type": "hat"
+    },
+    {
+        "id": 4282682072,
+        "name": "CharSkyKid_Hat_ColorBeret",
+        "type": "hat"
+    },
+    {
+        "id": 299998503,
+        "name": "CharSkyKid_Horn_BirthdayHat_01",
+        "type": "hat"
+    },
+    {
+        "id": 316776122,
+        "name": "CharSkyKid_Horn_BirthdayHat_02",
+        "type": "hat"
+    },
+    {
+        "id": 333553741,
+        "name": "CharSkyKid_Horn_BirthdayHat_03",
+        "type": "hat"
+    },
+    {
+        "id": 216110408,
+        "name": "CharSkyKid_Horn_BirthdayHat_04",
+        "type": "hat"
+    },
+    {
+        "id": 232888027,
+        "name": "CharSkyKid_Horn_BirthdayHat_05",
+        "type": "hat"
+    },
+    {
+        "id": 1519286664,
+        "name": "CharSkyKid_Hat_BirthdayHat_06",
+        "type": "hat"
+    },
+    {
+        "id": 1536064283,
+        "name": "CharSkyKid_Hat_BirthdayHat_07",
+        "type": "hat"
+    },
+    {
+        "id": 1499641684,
+        "name": "CharSkyKid_Hat_AwardShowHat_07",
+        "type": "hat"
+    },
+    {
+        "id": 2735883801,
+        "name": "CharSkyKid_Horn_BalloonManta",
+        "type": "hat"
+    },
+    {
+        "id": 2853146456,
+        "name": "CharSkyKid_Horn_BalloonCrab",
+        "type": "hat"
+    },
+    {
+        "id": 3146061946,
+        "name": "CharSkyKid_Horn_BalloonKrill",
+        "type": "hat"
+    },
+    {
+        "id": 93665472,
+        "name": "CharSkyKid_Horn_BalloonJellyfish",
+        "type": "hat"
+    },
+    {
+        "id": 4196286465,
+        "name": "CharSkyKid_Horn_BalloonCrown",
+        "type": "hat"
+    },
+    {
+        "id": 3894684459,
+        "name": "CharSkyKid_Hat_BlueBow",
+        "type": "hat"
+    },
+    {
+        "id": 1336357503,
+        "name": "CharSkyKid_Hat_StackedHat",
+        "type": "hat"
+    },
+    {
+        "id": 4134419610,
+        "name": "CharSkyKid_Hat_FeastFurHat",
+        "type": "hat"
+    },
+    {
+        "id": 797945263,
+        "name": "CharSkyKid_Horn_OreoHeadband",
+        "type": "hat"
+    },
+    {
+        "id": 1986529378,
+        "name": "CharSkyKid_Horn_Laurel",
+        "type": "hat"
+    },
+    {
+        "id": 2353681667,
+        "name": "CharSkyKid_Hat_MoonlightFlower",
+        "type": "hat"
+    },
+    {
+        "id": 2426328587,
+        "name": "CharSkyKid_Horn_TopHat",
+        "type": "hat"
+    },
+    {
+        "id": 2206693873,
+        "name": "CharSkyKid_Hat_Fascinator",
+        "type": "hat"
+    },
+    {
+        "id": 520528143,
+        "name": "CharSkyKid_Horn_WitchHat_01",
+        "type": "hat"
+    },
+    {
+        "id": 828149591,
+        "name": "CharSkyKid_Horn_PumpkinCrab",
+        "type": "hat"
+    },
+    {
+        "id": 1491730970,
+        "name": "CharSkyKid_Hat_MischiefCatEars",
+        "type": "hat"
+    },
+    {
+        "id": 3217045629,
+        "name": "CharSkyKid_Hat_MischiefLeaf",
+        "type": "hat"
+    },
+    {
+        "id": 3130864157,
+        "name": "CharSkyKid_Horn_Snowflake_01",
+        "type": "hat"
+    },
+    {
+        "id": 96846842,
+        "name": "CharSkyKid_Horn_Pinecone",
+        "type": "hat"
+    },
+    {
+        "id": 423685869,
+        "name": "CharSkyKid_Hat_FeastSnowman",
+        "type": "hat"
+    },
+    {
+        "id": 609163907,
+        "name": "CharSkyKid_Horn_Shell_01",
+        "type": "hat"
+    },
+    {
+        "id": 3494701775,
+        "name": "CharSkyKid_Horn_SummerHat_01",
+        "type": "hat"
+    },
+    {
+        "id": 3474308057,
+        "name": "CharSkyKid_Horn_Bunny_01",
+        "type": "hat"
+    },
+    {
+        "id": 3339760965,
+        "name": "CharSkyKid_Horn_MusicNote_02",
+        "type": "hat"
+    },
+    {
+        "id": 2642663739,
+        "name": "CharSkyKid_Horn_PastryEars",
+        "type": "hat"
+    },
+    {
+        "id": 3187411260,
+        "name": "CharSkyKid_Horn_PastryTea",
+        "type": "hat"
+    },
+    {
+        "id": 3222069277,
+        "name": "CharSkyKid_Horn_PastryMini",
+        "type": "hat"
+    },
+    {
+        "id": 3810181932,
+        "name": "CharSkyKid_Hat_CrystalHearts",
+        "type": "hat"
+    },
+    {
+        "id": 1462865130,
+        "name": "CharSkyKid_Hat_PersonalityPuppyEars",
+        "type": "hat"
+    },
+    {
+        "id": 3296834872,
+        "name": "CharSkyKid_Hat_PersonalityNurseCap",
+        "type": "hat"
+    },
+    {
+        "id": 1106159439,
+        "name": "CharSkyKid_Hat_PersonalityPaintbrush",
+        "type": "hat"
+    },
+    {
+        "id": 2851189953,
+        "name": "CharSkyKid_Hat_PersonalityJStraight",
+        "type": "hat"
+    },
+    {
+        "id": 2916912976,
+        "name": "CharSkyKid_Hat_PersonalityPCurve",
+        "type": "hat"
+    },
+    {
+        "id": 2915823949,
+        "name": "CharSkyKid_Hat_TreasurePirate",
+        "type": "hat"
+    },
+    {
+        "id": 4176666281,
+        "name": "CharSkyKid_Hat_NatureWaterVeil",
+        "type": "hat"
+    },
+    {
+        "id": 3406718056,
+        "name": "CharSkyKid_Hat_Sprout",
+        "type": "hat"
+    },
+    {
+        "id": 1824849394,
+        "name": "CharSkyKid_Horn_FlowerPoppy_01",
+        "type": "hat"
+    },
+    {
+        "id": 1808071775,
+        "name": "CharSkyKid_Horn_FlowerPoppy_02",
+        "type": "hat"
+    },
+    {
+        "id": 3289428108,
+        "name": "CharSkyKid_Horn_MusicNote_01",
+        "type": "hat"
+    },
+    {
+        "id": 638183642,
+        "name": "CharSkyKid_Horn_Qixi",
+        "type": "hat"
+    },
+    {
+        "id": 3724487321,
+        "name": "CharSkyKid_Horn_KizunaAi",
+        "type": "hat"
+    },
+    {
+        "id": 2392703269,
+        "name": "CharSkyKid_Horn_FlowerPS",
+        "type": "hat"
+    },
+    {
+        "id": 3197147422,
+        "name": "CharSkyKid_Horn_MothAntenna",
+        "type": "hat"
+    },
+    {
+        "id": 755945769,
+        "name": "CharSkyKid_Hat_SunlightJelly",
+        "type": "hat"
+    },
+    {
+        "id": 3680499229,
+        "name": "CharSkyKid_Horn_None",
+        "type": "horn"
+    },
+    {
+        "id": 1139229702,
+        "name": "CharSkyKid_Horn_TuneBand",
+        "type": "horn"
+    },
+    {
+        "id": 343022577,
+        "name": "CharSkyKid_Horn_AP04EarMuffs",
+        "type": "horn"
+    },
+    {
+        "id": 3886634356,
+        "name": "CharSkyKid_Horn_AP06Tassel",
+        "type": "horn"
+    },
+    {
+        "id": 2066928294,
+        "name": "CharSkyKid_Horn_AP09Yeti_01",
+        "type": "horn"
+    },
+    {
+        "id": 2239648913,
+        "name": "CharSkyKid_Horn_AP13Braids_01",
+        "type": "horn"
+    },
+    {
+        "id": 2120438208,
+        "name": "CharSkyKid_Horn_AP16MoonStar",
+        "type": "horn"
+    },
+    {
+        "id": 4201698142,
+        "name": "CharSkyKid_Horn_AP18Tusk",
+        "type": "horn"
+    },
+    {
+        "id": 2098032228,
+        "name": "CharSkyKid_Horn_AP18FabricStrip",
+        "type": "horn"
+    },
+    {
+        "id": 543767647,
+        "name": "CharSkyKid_Horn_AP21Deer",
+        "type": "horn"
+    },
+    {
+        "id": 240329801,
+        "name": "CharSkyKid_Horn_AP25YellowPaint",
+        "type": "horn"
+    },
+    {
+        "id": 3840286276,
+        "name": "CharSkyKid_Horn_AP26EarMuff",
+        "type": "horn"
+    },
+    {
+        "id": 632704347,
+        "name": "CharSkyKid_Horn_AP27KrillHorns",
+        "type": "horn"
+    },
+    {
+        "id": 4144878506,
+        "name": "CharSkyKid_Horn_AP27ManateeFins",
+        "type": "horn"
+    },
+    {
+        "id": 415201570,
+        "name": "CharSkyKid_Horn_AP29OrbEarring",
+        "type": "horn"
+    },
+    {
+        "id": 1941670246,
+        "name": "CharSkyKid_Horn_DragonEarring",
+        "type": "horn"
+    },
+    {
+        "id": 4281186011,
+        "name": "CharSkyKid_Horn_RainbowTassel_01",
+        "type": "horn"
+    },
+    {
+        "id": 402481655,
+        "name": "CharSkyKid_Horn_RainbowEarring_01",
+        "type": "horn"
+    },
+    {
+        "id": 2784731062,
+        "name": "CharSkyKid_Horn_RainbowHeadphones_01",
+        "type": "horn"
+    },
+    {
+        "id": 505461699,
+        "name": "CharSkyKid_Horn_DarkRainbowEarring",
+        "type": "horn"
+    },
+    {
+        "id": 1724896208,
+        "name": "CharSkyKid_Horn_SunnyEarring",
+        "type": "horn"
+    },
+    {
+        "id": 1455441344,
+        "name": "CharSkyKid_Horn_MoonEarring",
+        "type": "horn"
+    },
+    {
+        "id": 2974245021,
+        "name": "CharSkyKid_Horn_Withered_01",
+        "type": "horn"
+    },
+    {
+        "id": 465529931,
+        "name": "CharSkyKid_Horn_Elk",
+        "type": "horn"
+    },
+    {
+        "id": 3163931287,
+        "name": "CharSkyKid_Horn_BloomSunflowerEarring",
+        "type": "horn"
+    },
+    {
+        "id": 1407984050,
+        "name": "CharSkyKid_Horn_NatureFins",
+        "type": "horn"
+    },
+    {
+        "id": 3307772112,
+        "name": "CharSkyKid_Horn_FireworkEarring",
+        "type": "horn"
+    },
+    {
+        "id": 3663390882,
+        "name": "CharSkyKid_Mask_Basic",
+        "type": "mask"
+    },
+    {
+        "id": 2954671753,
+        "name": "CharSkyKid_Mask_BasicQ",
+        "type": "mask"
+    },
+    {
+        "id": 2012375604,
+        "name": "CharSkyKid_Mask_BasicSleepy",
+        "type": "mask"
+    },
+    {
+        "id": 576463963,
+        "name": "CharSkyKid_Mask_Bandana",
+        "type": "mask"
+    },
+    {
+        "id": 685288461,
+        "name": "CharSkyKid_Mask_Smoke",
+        "type": "mask"
+    },
+    {
+        "id": 2726619261,
+        "name": "CharSkyKid_Mask_AP02Crab_01",
+        "type": "mask"
+    },
+    {
+        "id": 4228619598,
+        "name": "CharSkyKid_Mask_AP02Fox_01",
+        "type": "mask"
+    },
+    {
+        "id": 3555166118,
+        "name": "CharSkyKid_Mask_AP02Bird_01",
+        "type": "mask"
+    },
+    {
+        "id": 2535142832,
+        "name": "CharSkyKid_Mask_AP02Bull_01",
+        "type": "mask"
+    },
+    {
+        "id": 1044037391,
+        "name": "CharSkyKid_Mask_AP02Deer_01",
+        "type": "mask"
+    },
+    {
+        "id": 3107843108,
+        "name": "CharSkyKid_Mask_AP02Weasel_01",
+        "type": "mask"
+    },
+    {
+        "id": 1968067367,
+        "name": "CharSkyKid_Mask_AP03A",
+        "type": "mask"
+    },
+    {
+        "id": 1984844986,
+        "name": "CharSkyKid_Mask_AP03B",
+        "type": "mask"
+    },
+    {
+        "id": 2001622605,
+        "name": "CharSkyKid_Mask_AP03C",
+        "type": "mask"
+    },
+    {
+        "id": 1884179272,
+        "name": "CharSkyKid_Mask_AP03D",
+        "type": "mask"
+    },
+    {
+        "id": 1900956891,
+        "name": "CharSkyKid_Mask_AP03E",
+        "type": "mask"
+    },
+    {
+        "id": 1917734510,
+        "name": "CharSkyKid_Mask_AP03F",
+        "type": "mask"
+    },
+    {
+        "id": 1934512129,
+        "name": "CharSkyKid_Mask_AP03G",
+        "type": "mask"
+    },
+    {
+        "id": 378937945,
+        "name": "CharSkyKid_Mask_AP04Child",
+        "type": "mask"
+    },
+    {
+        "id": 2479708305,
+        "name": "CharSkyKid_Mask_AP04Beard",
+        "type": "mask"
+    },
+    {
+        "id": 2699133379,
+        "name": "CharSkyKid_Mask_AP04Mustache",
+        "type": "mask"
+    },
+    {
+        "id": 3095923099,
+        "name": "CharSkyKid_Mask_AP04Adult",
+        "type": "mask"
+    },
+    {
+        "id": 1304488902,
+        "name": "CharSkyKid_Mask_APDefault",
+        "type": "mask"
+    },
+    {
+        "id": 1837529177,
+        "name": "CharSkyKid_Mask_APMerchant_01",
+        "type": "mask"
+    },
+    {
+        "id": 3716657324,
+        "name": "CharSkyKid_Mask_APActor_01",
+        "type": "mask"
+    },
+    {
+        "id": 2580070469,
+        "name": "CharSkyKid_Mask_APDirector_01",
+        "type": "mask"
+    },
+    {
+        "id": 570479295,
+        "name": "CharSkyKid_Mask_AP05Musician_01",
+        "type": "mask"
+    },
+    {
+        "id": 1481505198,
+        "name": "CharSkyKid_Mask_AP06VeilA",
+        "type": "mask"
+    },
+    {
+        "id": 1464727579,
+        "name": "CharSkyKid_Mask_AP06VeilB",
+        "type": "mask"
+    },
+    {
+        "id": 1453662570,
+        "name": "CharSkyKid_Mask_AP06WizardBeard",
+        "type": "mask"
+    },
+    {
+        "id": 3456549768,
+        "name": "CharSkyKid_Mask_AP06Scarf",
+        "type": "mask"
+    },
+    {
+        "id": 2228385984,
+        "name": "CharSkyKid_Mask_AP07ThickBrows",
+        "type": "mask"
+    },
+    {
+        "id": 1841716599,
+        "name": "CharSkyKid_Mask_AP08Turtle",
+        "type": "mask"
+    },
+    {
+        "id": 874165952,
+        "name": "CharSkyKid_Mask_AP08Spider",
+        "type": "mask"
+    },
+    {
+        "id": 1803698272,
+        "name": "CharSkyKid_Mask_AP08Bat",
+        "type": "mask"
+    },
+    {
+        "id": 2810531591,
+        "name": "CharSkyKid_Mask_AP08Lion",
+        "type": "mask"
+    },
+    {
+        "id": 1975317361,
+        "name": "CharSkyKid_Mask_AP08Wolf",
+        "type": "mask"
+    },
+    {
+        "id": 1227125760,
+        "name": "CharSkyKid_Mask_AP09Rabbit_01",
+        "type": "mask"
+    },
+    {
+        "id": 377387846,
+        "name": "CharSkyKid_Mask_AP09Pigeon_01",
+        "type": "mask"
+    },
+    {
+        "id": 2040915884,
+        "name": "CharSkyKid_Mask_AP09Quail_01",
+        "type": "mask"
+    },
+    {
+        "id": 1804120909,
+        "name": "CharSkyKid_Mask_AP09Phoenix_01",
+        "type": "mask"
+    },
+    {
+        "id": 2539746779,
+        "name": "CharSkyKid_Mask_AP10QuestGiver_01",
+        "type": "mask"
+    },
+    {
+        "id": 3694334425,
+        "name": "CharSkyKid_Mask_AP10Eyepatch_01",
+        "type": "mask"
+    },
+    {
+        "id": 968949049,
+        "name": "CharSkyKid_Mask_AP10Sticks_01",
+        "type": "mask"
+    },
+    {
+        "id": 2971069819,
+        "name": "CharSkyKid_Mask_AP10MaskA_01",
+        "type": "mask"
+    },
+    {
+        "id": 3367308484,
+        "name": "CharSkyKid_Mask_AP10MaskB_01",
+        "type": "mask"
+    },
+    {
+        "id": 1917305945,
+        "name": "CharSkyKid_Mask_AP10MaskC_01",
+        "type": "mask"
+    },
+    {
+        "id": 863399530,
+        "name": "CharSkyKid_Mask_AP10MaskD_01",
+        "type": "mask"
+    },
+    {
+        "id": 3656368045,
+        "name": "CharSkyKid_Mask_AP11Frog_01",
+        "type": "mask"
+    },
+    {
+        "id": 3803802524,
+        "name": "CharSkyKid_Mask_AP13FullBeard_01",
+        "type": "mask"
+    },
+    {
+        "id": 3476360592,
+        "name": "CharSkyKid_Mask_AP13BraidedBeard_01",
+        "type": "mask"
+    },
+    {
+        "id": 3854957370,
+        "name": "CharSkyKid_Mask_AP13Cracked_01",
+        "type": "mask"
+    },
+    {
+        "id": 829098419,
+        "name": "CharSkyKid_Mask_AP13Snorkel_01",
+        "type": "mask"
+    },
+    {
+        "id": 1157549055,
+        "name": "CharSkyKid_Mask_AP13SnorkelLite_01",
+        "type": "mask"
+    },
+    {
+        "id": 3709738516,
+        "name": "CharSkyKid_Mask_AP13ScarB_01",
+        "type": "mask"
+    },
+    {
+        "id": 838868770,
+        "name": "CharSkyKid_Mask_AP14LongTufts_01",
+        "type": "mask"
+    },
+    {
+        "id": 2828771153,
+        "name": "CharSkyKid_Mask_AP14Surprised_01",
+        "type": "mask"
+    },
+    {
+        "id": 1040588703,
+        "name": "CharSkyKid_Mask_AP14Determined_01",
+        "type": "mask"
+    },
+    {
+        "id": 3749509272,
+        "name": "CharSkyKid_Mask_AP14Happy_01",
+        "type": "mask"
+    },
+    {
+        "id": 2256279494,
+        "name": "CharSkyKid_Mask_AP14Sad_01",
+        "type": "mask"
+    },
+    {
+        "id": 3979589429,
+        "name": "CharSkyKid_Mask_AP14Focused_01",
+        "type": "mask"
+    },
+    {
+        "id": 3965413610,
+        "name": "CharSkyKid_Mask_AP15DarkPlant_01",
+        "type": "mask"
+    },
+    {
+        "id": 3129801434,
+        "name": "CharSkyKid_Mask_AP16Fire",
+        "type": "mask"
+    },
+    {
+        "id": 1190954465,
+        "name": "CharSkyKid_Mask_AP16Water",
+        "type": "mask"
+    },
+    {
+        "id": 2592501436,
+        "name": "CharSkyKid_Mask_AP16Wind",
+        "type": "mask"
+    },
+    {
+        "id": 1305777522,
+        "name": "CharSkyKid_Mask_AP16Earth",
+        "type": "mask"
+    },
+    {
+        "id": 3995763436,
+        "name": "CharSkyKid_Mask_AP16CureForMe",
+        "type": "mask"
+    },
+    {
+        "id": 318648989,
+        "name": "CharSkyKid_Mask_AP17PuffyBeard",
+        "type": "mask"
+    },
+    {
+        "id": 2205584694,
+        "name": "CharSkyKid_Mask_AP17Injured",
+        "type": "mask"
+    },
+    {
+        "id": 4198386154,
+        "name": "CharSkyKid_Mask_AP18Bear",
+        "type": "mask"
+    },
+    {
+        "id": 2350742964,
+        "name": "CharSkyKid_Mask_AP18Serow",
+        "type": "mask"
+    },
+    {
+        "id": 1873180512,
+        "name": "CharSkyKid_Mask_AP18Boar",
+        "type": "mask"
+    },
+    {
+        "id": 4176974961,
+        "name": "CharSkyKid_Mask_AP18Raccoon",
+        "type": "mask"
+    },
+    {
+        "id": 1994876029,
+        "name": "CharSkyKid_Mask_AP18Monkey",
+        "type": "mask"
+    },
+    {
+        "id": 2766745271,
+        "name": "CharSkyKid_Mask_AP19Scruffy",
+        "type": "mask"
+    },
+    {
+        "id": 2524649321,
+        "name": "CharSkyKid_Mask_AP19Blindfold",
+        "type": "mask"
+    },
+    {
+        "id": 3404935839,
+        "name": "CharSkyKid_Mask_AP21PaintMakeup",
+        "type": "mask"
+    },
+    {
+        "id": 905270780,
+        "name": "CharSkyKid_Mask_AP21Eyebrows",
+        "type": "mask"
+    },
+    {
+        "id": 2674587204,
+        "name": "CharSkyKid_Mask_AP21Deer",
+        "type": "mask"
+    },
+    {
+        "id": 1799721195,
+        "name": "CharSkyKid_Mask_AP21Crescent",
+        "type": "mask"
+    },
+    {
+        "id": 1637433722,
+        "name": "CharSkyKid_Mask_AP23Seahorse",
+        "type": "mask"
+    },
+    {
+        "id": 2324136136,
+        "name": "CharSkyKid_Mask_AP25Gazelle",
+        "type": "mask"
+    },
+    {
+        "id": 348503857,
+        "name": "CharSkyKid_Mask_AP26Peacock",
+        "type": "mask"
+    },
+    {
+        "id": 1731259960,
+        "name": "CharSkyKid_Mask_AP27FluffyBeard",
+        "type": "mask"
+    },
+    {
+        "id": 1942866709,
+        "name": "CharSkyKid_Mask_AP27ManateeMask",
+        "type": "mask"
+    },
+    {
+        "id": 389783918,
+        "name": "CharSkyKid_Mask_AP27RulerMask",
+        "type": "mask"
+    },
+    {
+        "id": 2126929596,
+        "name": "CharSkyKid_Mask_AP27NightElder",
+        "type": "mask"
+    },
+    {
+        "id": 685532355,
+        "name": "CharSkyKid_Mask_AP29RepairedA",
+        "type": "mask"
+    },
+    {
+        "id": 702309974,
+        "name": "CharSkyKid_Mask_AP29RepairedB",
+        "type": "mask"
+    },
+    {
+        "id": 719087593,
+        "name": "CharSkyKid_Mask_AP29RepairedC",
+        "type": "mask"
+    },
+    {
+        "id": 735865212,
+        "name": "CharSkyKid_Mask_AP29RepairedD",
+        "type": "mask"
+    },
+    {
+        "id": 752642831,
+        "name": "CharSkyKid_Mask_AP29RepairedE",
+        "type": "mask"
+    },
+    {
+        "id": 819118062,
+        "name": "CharSkyKid_Mask_AP30Puffin",
+        "type": "mask"
+    },
+    {
+        "id": 2980073358,
+        "name": "CharSkyKid_Mask_AP30Dodo",
+        "type": "mask"
+    },
+    {
+        "id": 1614955514,
+        "name": "CharSkyKid_Mask_RedFace",
+        "type": "mask"
+    },
+    {
+        "id": 2818435195,
+        "name": "CharSkyKid_Mask_Ox",
+        "type": "mask"
+    },
+    {
+        "id": 1125212215,
+        "name": "CharSkyKid_Mask_Tiger_01",
+        "type": "mask"
+    },
+    {
+        "id": 1786772661,
+        "name": "CharSkyKid_Mask_FortuneRabbit",
+        "type": "mask"
+    },
+    {
+        "id": 804970623,
+        "name": "CharSkyKid_Mask_Dragon",
+        "type": "mask"
+    },
+    {
+        "id": 2674531115,
+        "name": "CharSkyKid_Mask_FortuneSnake",
+        "type": "mask"
+    },
+    {
+        "id": 3556109083,
+        "name": "CharSkyKid_Mask_Rose",
+        "type": "mask"
+    },
+    {
+        "id": 1423557106,
+        "name": "CharSkyKid_Mask_Ocean",
+        "type": "mask"
+    },
+    {
+        "id": 3212574496,
+        "name": "CharSkyKid_Mask_OceanWaves",
+        "type": "mask"
+    },
+    {
+        "id": 1418306778,
+        "name": "CharSkyKid_Mask_RainbowDark",
+        "type": "mask"
+    },
+    {
+        "id": 3571233086,
+        "name": "CharSkyKid_Mask_ColorFacepaint",
+        "type": "mask"
+    },
+    {
+        "id": 1860934851,
+        "name": "CharSkyKid_Mask_ColorSleek",
+        "type": "mask"
+    },
+    {
+        "id": 3510033943,
+        "name": "CharSkyKid_Mask_RunwayMakeup",
+        "type": "mask"
+    },
+    {
+        "id": 290370708,
+        "name": "CharSkyKid_Mask_MischiefCat",
+        "type": "mask"
+    },
+    {
+        "id": 4263557558,
+        "name": "CharSkyKid_Mask_Crabula",
+        "type": "mask"
+    },
+    {
+        "id": 2186762617,
+        "name": "CharSkyKid_Mask_MischiefBeak",
+        "type": "mask"
+    },
+    {
+        "id": 2583730876,
+        "name": "CharSkyKid_Mask_RibbonMask",
+        "type": "mask"
+    },
+    {
+        "id": 429032146,
+        "name": "CharSkyKid_Mask_RosePetals",
+        "type": "mask"
+    },
+    {
+        "id": 629020744,
+        "name": "CharSkyKid_Mask_TreasureEyePatch",
+        "type": "mask"
+    },
+    {
+        "id": 2565689942,
+        "name": "CharSkyKid_Mask_FortuneHorse",
+        "type": "mask"
+    },
+    {
+        "id": 3332990455,
+        "name": "CharSkyKid_Mask_SparrowCheeks",
+        "type": "mask"
+    },
+    {
+        "id": 313890291,
+        "name": "CharSkyKid_Mask_Traveler_01",
+        "type": "mask"
+    },
+    {
+        "id": 330667910,
+        "name": "CharSkyKid_Mask_Traveler_02",
+        "type": "mask"
+    },
+    {
+        "id": 4267756678,
+        "name": "CharSkyKid_Mask_None",
+        "type": "mask"
+    },
+    {
+        "id": 3800884691,
+        "name": "CharSkyKid_Neck_None",
+        "type": "neck"
+    },
+    {
+        "id": 2348358260,
+        "name": "CharSkyKid_Neck_AP02Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 1117786973,
+        "name": "CharSkyKid_Neck_AP03Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 1962184054,
+        "name": "CharSkyKid_Neck_AP04Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 3594119491,
+        "name": "CharSkyKid_Neck_AP01Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 3076646648,
+        "name": "CharSkyKid_Neck_AP06Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 268594609,
+        "name": "CharSkyKid_Neck_AP07Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 1178170170,
+        "name": "CharSkyKid_Neck_AP08Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 1096380139,
+        "name": "CharSkyKid_Neck_AP09Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 801960077,
+        "name": "CharSkyKid_Neck_AP10Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 1271596580,
+        "name": "CharSkyKid_Neck_AP11Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 1032801203,
+        "name": "CharSkyKid_Neck_AP12Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 2822050914,
+        "name": "CharSkyKid_Neck_AP13Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 348351073,
+        "name": "CharSkyKid_Neck_AP14Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 2364036392,
+        "name": "CharSkyKid_Neck_AP15Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 2304273623,
+        "name": "CharSkyKid_Neck_AP16Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 3424072038,
+        "name": "CharSkyKid_Neck_AP17Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 746070101,
+        "name": "CharSkyKid_Neck_AP18Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 1976641388,
+        "name": "CharSkyKid_Neck_AP19Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 241955936,
+        "name": "CharSkyKid_Neck_AP20Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 549282393,
+        "name": "CharSkyKid_Neck_AP21Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 637137758,
+        "name": "CharSkyKid_Neck_AP22Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 2513756879,
+        "name": "CharSkyKid_Neck_AP23Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 3624197084,
+        "name": "CharSkyKid_Neck_AP24Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 2386007621,
+        "name": "CharSkyKid_Neck_AP25Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 3991464090,
+        "name": "CharSkyKid_Neck_AP26Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 1031539147,
+        "name": "CharSkyKid_Neck_AP27Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 1387420248,
+        "name": "CharSkyKid_Neck_AP28Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 3097983121,
+        "name": "CharSkyKid_Neck_AP29Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 388197051,
+        "name": "CharSkyKid_Neck_AP30Pendant",
+        "type": "neck"
+    },
+    {
+        "id": 1539087887,
+        "name": "CharSkyKid_Neck_AP07BowTie",
+        "type": "neck"
+    },
+    {
+        "id": 2852268102,
+        "name": "CharSkyKid_Neck_AP11Ascot_01",
+        "type": "neck"
+    },
+    {
+        "id": 111442902,
+        "name": "CharSkyKid_Neck_AP12Scales_01",
+        "type": "neck"
+    },
+    {
+        "id": 3366453218,
+        "name": "CharSkyKid_Neck_AP15Crab_01",
+        "type": "neck"
+    },
+    {
+        "id": 1557749105,
+        "name": "CharSkyKid_Neck_AP17Scarf",
+        "type": "neck"
+    },
+    {
+        "id": 1861774843,
+        "name": "CharSkyKid_Neck_AP17Sash",
+        "type": "neck"
+    },
+    {
+        "id": 2998588256,
+        "name": "CharSkyKid_Neck_AP18FluffyRuff",
+        "type": "neck"
+    },
+    {
+        "id": 3216608471,
+        "name": "CharSkyKid_Neck_AP24Bell",
+        "type": "neck"
+    },
+    {
+        "id": 508053549,
+        "name": "CharSkyKid_Neck_AP24Arms",
+        "type": "neck"
+    },
+    {
+        "id": 543336463,
+        "name": "CharSkyKid_Neck_AP24OnionRibbon",
+        "type": "neck"
+    },
+    {
+        "id": 3335305759,
+        "name": "CharSkyKid_Neck_AP24TriangleScarf",
+        "type": "neck"
+    },
+    {
+        "id": 3830947937,
+        "name": "CharSkyKid_Neck_AP24StripesScarf",
+        "type": "neck"
+    },
+    {
+        "id": 1740328786,
+        "name": "CharSkyKid_Neck_AP30RuffledCollar",
+        "type": "neck"
+    },
+    {
+        "id": 3507584533,
+        "name": "CharSkyKid_Neck_DragonBodyBlack",
+        "type": "neck"
+    },
+    {
+        "id": 2842816931,
+        "name": "CharSkyKid_Neck_DragonHeadBlack",
+        "type": "neck"
+    },
+    {
+        "id": 39449835,
+        "name": "CharSkyKid_Neck_DragonTailBlack",
+        "type": "neck"
+    },
+    {
+        "id": 10057527,
+        "name": "CharSkyKid_Neck_DragonBodyWhite",
+        "type": "neck"
+    },
+    {
+        "id": 31003581,
+        "name": "CharSkyKid_Neck_DragonHeadWhite",
+        "type": "neck"
+    },
+    {
+        "id": 3876501733,
+        "name": "CharSkyKid_Neck_DragonTailWhite",
+        "type": "neck"
+    },
+    {
+        "id": 2018127955,
+        "name": "CharSkyKid_Neck_Bow",
+        "type": "neck"
+    },
+    {
+        "id": 4243195909,
+        "name": "CharSkyKid_Neck_Ocean_01",
+        "type": "neck"
+    },
+    {
+        "id": 2190506520,
+        "name": "CharSkyKid_Neck_SeaTurtle_01",
+        "type": "neck"
+    },
+    {
+        "id": 444212788,
+        "name": "CharSkyKid_Neck_ShoulderButterfly",
+        "type": "neck"
+    },
+    {
+        "id": 2049250562,
+        "name": "CharSkyKid_Neck_OceanScarf",
+        "type": "neck"
+    },
+    {
+        "id": 638459030,
+        "name": "CharSkyKid_Neck_RibbonBib",
+        "type": "neck"
+    },
+    {
+        "id": 3081926749,
+        "name": "CharSkyKid_Neck_Jellyfish_01",
+        "type": "neck"
+    },
+    {
+        "id": 3911363147,
+        "name": "CharSkyKid_Neck_KrillTie",
+        "type": "neck"
+    },
+    {
+        "id": 148607714,
+        "name": "CharSkyKid_Neck_Xmas",
+        "type": "neck"
+    },
+    {
+        "id": 1274410097,
+        "name": "CharSkyKid_Neck_WinterScarf_01",
+        "type": "neck"
+    },
+    {
+        "id": 1561380173,
+        "name": "CharSkyKid_Neck_WinterScarfBlue",
+        "type": "neck"
+    },
+    {
+        "id": 624845066,
+        "name": "CharSkyKid_Neck_MedalGold",
+        "type": "neck"
+    },
+    {
+        "id": 181601037,
+        "name": "CharSkyKid_Neck_MedalSilver",
+        "type": "neck"
+    },
+    {
+        "id": 2120110468,
+        "name": "CharSkyKid_Neck_MedalBronze",
+        "type": "neck"
+    },
+    {
+        "id": 3759684304,
+        "name": "CharSkyKid_Neck_PastryBow",
+        "type": "neck"
+    },
+    {
+        "id": 735408670,
+        "name": "CharSkyKid_Neck_CrabBandana",
+        "type": "neck"
+    },
+    {
+        "id": 947873621,
+        "name": "CharSkyKid_Neck_WinterScarf_Ghost",
+        "type": "neck"
+    },
+    {
+        "id": 1717256363,
+        "name": "CharSkyKid_Neck_Crab",
+        "type": "neck"
+    },
+    {
+        "id": 4011103041,
+        "name": "CharSkyKid_Neck_CrabBow",
+        "type": "neck"
+    },
+    {
+        "id": 2263105749,
+        "name": "NPC_SkinnyIntellectualShawlUp",
+        "type": "neck"
+    },
+    {
+        "id": 3546169335,
+        "name": "CharSkyKid_Tail_AP24Classic",
+        "type": "neck"
+    },
+    {
+        "id": 2862044650,
+        "name": "CharSkyKid_Tail_AP27KrillTail",
+        "type": "neck"
+    },
+    {
+        "id": 1535462337,
+        "name": "CharSkyKid_Tail_AP27ManateeTail",
+        "type": "neck"
+    },
+    {
+        "id": 1508808346,
+        "name": "CharSkyKid_Tail_MischiefCat",
+        "type": "neck"
+    },
+    {
+        "id": 472119629,
+        "name": "CharSkyKid_Tail_MoonlightRabbit",
+        "type": "neck"
+    },
+    {
+        "id": 2035109393,
+        "name": "CharSkyKid_Prop_None",
+        "type": "prop"
+    },
+    {
+        "id": 2671000446,
+        "name": "CharSkyKid_Prop_Harp",
+        "type": "prop"
+    },
+    {
+        "id": 4174653841,
+        "name": "CharSkyKid_Prop_Harp_02",
+        "type": "prop"
+    },
+    {
+        "id": 1064146256,
+        "name": "CharSkyKid_Prop_Bass",
+        "type": "prop"
+    },
+    {
+        "id": 1889256860,
+        "name": "CharSkyKid_Prop_Piano",
+        "type": "prop"
+    },
+    {
+        "id": 1021011859,
+        "name": "CharSkyKid_Prop_Voice",
+        "type": "prop"
+    },
+    {
+        "id": 4246711693,
+        "name": "CharSkyKid_Prop_AP02Bell_01",
+        "type": "prop"
+    },
+    {
+        "id": 4196378836,
+        "name": "CharSkyKid_Prop_AP02Bell_02",
+        "type": "prop"
+    },
+    {
+        "id": 396560731,
+        "name": "CharSkyKid_Prop_AP03Flute_01",
+        "type": "prop"
+    },
+    {
+        "id": 1237767078,
+        "name": "CharSkyKid_Prop_AP03PanFlute_01",
+        "type": "prop"
+    },
+    {
+        "id": 3269660804,
+        "name": "CharSkyKid_Prop_AP04Guitar",
+        "type": "prop"
+    },
+    {
+        "id": 445114499,
+        "name": "CharSkyKid_Prop_AP04Guitar_02",
+        "type": "prop"
+    },
+    {
+        "id": 2352004821,
+        "name": "CharSkyKid_Prop_AP04Ukulele",
+        "type": "prop"
+    },
+    {
+        "id": 399957901,
+        "name": "CharSkyKid_Prop_AP05Xylophone",
+        "type": "prop"
+    },
+    {
+        "id": 3275797515,
+        "name": "CharSkyKid_Prop_APPiano_01",
+        "type": "prop"
+    },
+    {
+        "id": 3292575134,
+        "name": "CharSkyKid_Prop_APPiano_02",
+        "type": "prop"
+    },
+    {
+        "id": 900914909,
+        "name": "CharSkyKid_Prop_AP07HandPan",
+        "type": "prop"
+    },
+    {
+        "id": 3214955312,
+        "name": "CharSkyKid_Prop_AP07HandPan_02",
+        "type": "prop"
+    },
+    {
+        "id": 3499881140,
+        "name": "CharSkyKid_Prop_AP08Dundun",
+        "type": "prop"
+    },
+    {
+        "id": 1060478515,
+        "name": "CharSkyKid_Prop_AP08Dundun_02",
+        "type": "prop"
+    },
+    {
+        "id": 2912111789,
+        "name": "CharSkyKid_Prop_AP09Lute_01",
+        "type": "prop"
+    },
+    {
+        "id": 3398864498,
+        "name": "CharSkyKid_Prop_AP10Bugle_01",
+        "type": "prop"
+    },
+    {
+        "id": 3382086879,
+        "name": "CharSkyKid_Prop_AP10Bugle_02",
+        "type": "prop"
+    },
+    {
+        "id": 2657110838,
+        "name": "CharSkyKid_Prop_AP12Kalimba_01",
+        "type": "prop"
+    },
+    {
+        "id": 3517576809,
+        "name": "CharSkyKid_Prop_AP14Guitar_01",
+        "type": "prop"
+    },
+    {
+        "id": 3467243952,
+        "name": "CharSkyKid_Prop_AP14Guitar_02",
+        "type": "prop"
+    },
+    {
+        "id": 1492361361,
+        "name": "CharSkyKid_Prop_AP15DarkHorn_01",
+        "type": "prop"
+    },
+    {
+        "id": 2541154237,
+        "name": "CharSkyKid_Prop_AP16Microphone",
+        "type": "prop"
+    },
+    {
+        "id": 1522004767,
+        "name": "CharSkyKid_Prop_Microphone",
+        "type": "prop"
+    },
+    {
+        "id": 2426271504,
+        "name": "CharSkyKid_Prop_AP18Ocarina",
+        "type": "prop"
+    },
+    {
+        "id": 2937613724,
+        "name": "CharSkyKid_Prop_AP23PianoAnims",
+        "type": "prop"
+    },
+    {
+        "id": 3276984188,
+        "name": "CharSkyKid_Prop_AP23CelloBasic",
+        "type": "prop"
+    },
+    {
+        "id": 3515083879,
+        "name": "CharSkyKid_Prop_AP23CelloFancy",
+        "type": "prop"
+    },
+    {
+        "id": 1459210234,
+        "name": "CharSkyKid_Prop_AP24Harmonica",
+        "type": "prop"
+    },
+    {
+        "id": 3813772970,
+        "name": "CharSkyKid_Prop_AP25Cymbals",
+        "type": "prop"
+    },
+    {
+        "id": 1638144370,
+        "name": "CharSkyKid_Prop_Ocarina_01",
+        "type": "prop"
+    },
+    {
+        "id": 2003040587,
+        "name": "CharSkyKid_Prop_Drum",
+        "type": "prop"
+    },
+    {
+        "id": 2427867502,
+        "name": "CharSkyKid_Prop_Violin",
+        "type": "prop"
+    },
+    {
+        "id": 448440286,
+        "name": "CharSkyKid_Prop_Saxophone",
+        "type": "prop"
+    },
+    {
+        "id": 2164056940,
+        "name": "CharSkyKid_Prop_FortuneDrum",
+        "type": "prop"
+    },
+    {
+        "id": 3280753494,
+        "name": "CharSkyKid_Prop_Firework",
+        "type": "prop"
+    },
+    {
+        "id": 2574095143,
+        "name": "CharSkyKid_Prop_Umbrella",
+        "type": "prop"
+    },
+    {
+        "id": 2643573525,
+        "name": "CharSkyKid_Prop_ScepterWand",
+        "type": "prop"
+    },
+    {
+        "id": 1571192422,
+        "name": "CharSkyKid_Prop_Wrench",
+        "type": "prop"
+    },
+    {
+        "id": 3617250847,
+        "name": "CharSkyKid_Prop_AP03Umbrella_01",
+        "type": "prop"
+    },
+    {
+        "id": 3634028466,
+        "name": "CharSkyKid_Prop_AP03Umbrella_02",
+        "type": "prop"
+    },
+    {
+        "id": 772545524,
+        "name": "CharSkyKid_Prop_AP19UltimateCamera",
+        "type": "prop"
+    },
+    {
+        "id": 2805583371,
+        "name": "CharSkyKid_Prop_AP19Camera",
+        "type": "prop"
+    },
+    {
+        "id": 3954012883,
+        "name": "CharSkyKid_Prop_Camera_DroneUpgrade",
+        "type": "prop"
+    },
+    {
+        "id": 1690003492,
+        "name": "CharSkyKid_Prop_AP24Umbrella",
+        "type": "prop"
+    },
+    {
+        "id": 3824926188,
+        "name": "CharSkyKid_Prop_AP27ShepherdStaff",
+        "type": "prop"
+    },
+    {
+        "id": 4157919669,
+        "name": "CharSkyKid_Prop_AP27ManateeFigurine",
+        "type": "prop"
+    },
+    {
+        "id": 1818899794,
+        "name": "CharSkyKid_Prop_AP27Spear",
+        "type": "prop"
+    },
+    {
+        "id": 1318519644,
+        "name": "CharSkyKid_Prop_AP27Shield",
+        "type": "prop"
+    },
+    {
+        "id": 334772634,
+        "name": "CharSkyKid_Prop_AP29Piccolo",
+        "type": "prop"
+    },
+    {
+        "id": 1742830864,
+        "name": "CharSkyKid_Prop_FortuneUmbrella",
+        "type": "prop"
+    },
+    {
+        "id": 665447105,
+        "name": "CharSkyKid_Prop_FortuneFan",
+        "type": "prop"
+    },
+    {
+        "id": 2617044669,
+        "name": "CharSkyKid_Prop_SnakeGameHead",
+        "type": "prop"
+    },
+    {
+        "id": 1725054932,
+        "name": "CharSkyKid_Prop_HeartFirework",
+        "type": "prop"
+    },
+    {
+        "id": 1365752287,
+        "name": "CharSkyKid_Prop_LilyUmbrella",
+        "type": "prop"
+    },
+    {
+        "id": 4224515207,
+        "name": "CharSkyKid_Prop_BloomSunflowerUmbrella",
+        "type": "prop"
+    },
+    {
+        "id": 2798263765,
+        "name": "CharSkyKid_Prop_JenovaFan",
+        "type": "prop"
+    },
+    {
+        "id": 1147334487,
+        "name": "CharSkyKid_Prop_AnniversaryClapboard",
+        "type": "prop"
+    },
+    {
+        "id": 3419274280,
+        "name": "CharSkyKid_Prop_CompetitionTorch",
+        "type": "prop"
+    },
+    {
+        "id": 492045003,
+        "name": "CharSkyKid_Prop_TriumphIceBoard",
+        "type": "prop"
+    },
+    {
+        "id": 2701016401,
+        "name": "CharSkyKid_Prop_Lantern",
+        "type": "prop"
+    },
+    {
+        "id": 2236626508,
+        "name": "CharSkyKid_Prop_SummerUmbrella_01",
+        "type": "prop"
+    },
+    {
+        "id": 3507421896,
+        "name": "CharSkyKid_Prop_MantaFloat",
+        "type": "prop"
+    },
+    {
+        "id": 4167049644,
+        "name": "CharSkyKid_Prop_MischiefBroom",
+        "type": "prop"
+    },
+    {
+        "id": 2863573149,
+        "name": "CharSkyKid_Prop_TreasureShovel",
+        "type": "prop"
+    },
+    {
+        "id": 1676525521,
+        "name": "CharSkyKid_Prop_SnowBallMittens",
+        "type": "prop"
+    },
+    {
+        "id": 3237585252,
+        "name": "CharSkyKid_Prop_FortunePony",
+        "type": "prop"
+    },
+    {
+        "id": 3650806085,
+        "name": "CharSkyKid_Prop_AP03Umbrella_03",
+        "type": "prop"
+    },
+    {
+        "id": 141496362,
+        "name": "CharSkyKid_Prop_ShepherdStaff",
+        "type": "prop"
+    },
+    {
+        "id": 131890888,
+        "name": "CharSkyKid_Prop_WaterBucket",
+        "type": "prop"
+    },
+    {
+        "id": 3638329901,
+        "name": "CharSkyKid_Prop_ClosedAnnivLaptop",
+        "type": "prop"
+    },
+    {
+        "id": 992885953,
+        "name": "CharSkyKid_Prop_Table",
+        "type": "prop"
+    },
+    {
+        "id": 2403746432,
+        "name": "CharSkyKid_Prop_JarRound",
+        "type": "prop"
+    },
+    {
+        "id": 2564803619,
+        "name": "CharSkyKid_Prop_LanternPost",
+        "type": "prop"
+    },
+    {
+        "id": 1210172296,
+        "name": "CharSkyKid_Prop_Brick",
+        "type": "prop"
+    },
+    {
+        "id": 3166511624,
+        "name": "CharSkyKid_Prop_UnitCube",
+        "type": "prop"
+    },
+    {
+        "id": 400649815,
+        "name": "CharSkyKid_Prop_UnitCylinder",
+        "type": "prop"
+    },
+    {
+        "id": 85297904,
+        "name": "CharSkyKid_Prop_UnitSphere",
+        "type": "prop"
+    },
+    {
+        "id": 230517294,
+        "name": "CharSkyKid_Prop_Stool",
+        "type": "prop"
+    },
+    {
+        "id": 1241127007,
+        "name": "CharSkyKid_Prop_JarTall",
+        "type": "prop"
+    },
+    {
+        "id": 90660037,
+        "name": "CharSkyKid_Prop_APFlagAnim",
+        "type": "prop"
+    },
+    {
+        "id": 3772092866,
+        "name": "CharSkyKid_Prop_NightBook",
+        "type": "prop"
+    },
+    {
+        "id": 3454884039,
+        "name": "CharSkyKid_Prop_SpellFire",
+        "type": "prop"
+    },
+    {
+        "id": 3791491815,
+        "name": "CharSkyKid_Prop_Sparkler",
+        "type": "prop"
+    },
+    {
+        "id": 3813675315,
+        "name": "CharSkyKid_Prop_MuralWater",
+        "type": "prop"
+    },
+    {
+        "id": 1713655968,
+        "name": "CharSkyKid_Prop_MuralEarth",
+        "type": "prop"
+    },
+    {
+        "id": 4011187760,
+        "name": "CharSkyKid_Prop_MuralAir",
+        "type": "prop"
+    },
+    {
+        "id": 2026179880,
+        "name": "CharSkyKid_Prop_MuralFire",
+        "type": "prop"
+    },
+    {
+        "id": 1209963222,
+        "name": "CharSkyKid_Prop_MuralVoid",
+        "type": "prop"
+    },
+    {
+        "id": 3863666964,
+        "name": "CharSkyKid_Prop_MuralMind",
+        "type": "prop"
+    },
+    {
+        "id": 3871711624,
+        "name": "CharSkyKid_Prop_MuralDark",
+        "type": "prop"
+    },
+    {
+        "id": 983280232,
+        "name": "CharSkyKid_Prop_MuralLight",
+        "type": "prop"
+    },
+    {
+        "id": 1192794220,
+        "name": "CharSkyKid_Prop_PipeBroken_01",
+        "type": "prop"
+    },
+    {
+        "id": 3779226149,
+        "name": "CharSkyKid_Prop_AP04Bonfire",
+        "type": "prop"
+    },
+    {
+        "id": 1793801900,
+        "name": "CharSkyKid_Prop_AP05Brazier_01",
+        "type": "prop"
+    },
+    {
+        "id": 660764419,
+        "name": "CharSkyKid_Prop_AP08Brazier_01",
+        "type": "prop"
+    },
+    {
+        "id": 313507026,
+        "name": "CharSkyKid_Prop_AP10Brazier_01",
+        "type": "prop"
+    },
+    {
+        "id": 1079120316,
+        "name": "CharSkyKid_Prop_AP10Bookshelf_01",
+        "type": "prop"
+    },
+    {
+        "id": 1994487329,
+        "name": "CharSkyKid_Prop_AP10Hammock_01",
+        "type": "prop"
+    },
+    {
+        "id": 858492530,
+        "name": "CharSkyKid_Prop_AP10Jar_01",
+        "type": "prop"
+    },
+    {
+        "id": 1748930676,
+        "name": "CharSkyKid_Prop_AP10Pillow_01",
+        "type": "prop"
+    },
+    {
+        "id": 2532849479,
+        "name": "CharSkyKid_Prop_AP10Torch_01",
+        "type": "prop"
+    },
+    {
+        "id": 2781793496,
+        "name": "CharSkyKid_Prop_AP10Tent_01",
+        "type": "prop"
+    },
+    {
+        "id": 2200254997,
+        "name": "CharSkyKid_Prop_AP10Spotlight_01",
+        "type": "prop"
+    },
+    {
+        "id": 1661108877,
+        "name": "CharSkyKid_Prop_AP10Hoop_01",
+        "type": "prop"
+    },
+    {
+        "id": 638976622,
+        "name": "CharSkyKid_Prop_AP11Star_01",
+        "type": "prop"
+    },
+    {
+        "id": 351343999,
+        "name": "CharSkyKid_Prop_AP11Rose_01",
+        "type": "prop"
+    },
+    {
+        "id": 2571086901,
+        "name": "CharSkyKid_Prop_AP11Fox_01",
+        "type": "prop"
+    },
+    {
+        "id": 2520754044,
+        "name": "CharSkyKid_Prop_AP11Fox_02",
+        "type": "prop"
+    },
+    {
+        "id": 400728495,
+        "name": "CharSkyKid_Prop_AP14VaseBouquet_01",
+        "type": "prop"
+    },
+    {
+        "id": 586956707,
+        "name": "CharSkyKid_Prop_AP17Chimes",
+        "type": "prop"
+    },
+    {
+        "id": 2166729056,
+        "name": "CharSkyKid_Prop_AP17Plants",
+        "type": "prop"
+    },
+    {
+        "id": 1859928985,
+        "name": "CharSkyKid_Prop_AP17Kettle",
+        "type": "prop"
+    },
+    {
+        "id": 2299496947,
+        "name": "CharSkyKid_Prop_AP17UltimateMemoryBook",
+        "type": "prop"
+    },
+    {
+        "id": 3254046376,
+        "name": "CharSkyKid_Prop_AP17Crab",
+        "type": "prop"
+    },
+    {
+        "id": 693099209,
+        "name": "CharSkyKid_Prop_AP17Manta",
+        "type": "prop"
+    },
+    {
+        "id": 2724560498,
+        "name": "CharSkyKid_Prop_AP18Ball",
+        "type": "prop"
+    },
+    {
+        "id": 2398739399,
+        "name": "CharSkyKid_Prop_AP19CrystalJar",
+        "type": "prop"
+    },
+    {
+        "id": 2921973017,
+        "name": "CharSkyKid_Prop_AP21Basket",
+        "type": "prop"
+    },
+    {
+        "id": 4094759137,
+        "name": "CharSkyKid_Prop_AP24Tent",
+        "type": "prop"
+    },
+    {
+        "id": 562440888,
+        "name": "CharSkyKid_Prop_AP24ClassicPlush",
+        "type": "prop"
+    },
+    {
+        "id": 3206083539,
+        "name": "CharSkyKid_Prop_AP24ClassicPlushAlt",
+        "type": "prop"
+    },
+    {
+        "id": 1859482246,
+        "name": "CharSkyKid_Prop_AP25ClothDivider",
+        "type": "prop"
+    },
+    {
+        "id": 2322000786,
+        "name": "CharSkyKid_Prop_AP26TreePerch",
+        "type": "prop"
+    },
+    {
+        "id": 1207553616,
+        "name": "CharSkyKid_Prop_AP27ButterflyToy",
+        "type": "prop"
+    },
+    {
+        "id": 1088632540,
+        "name": "CharSkyKid_Prop_AP27ManateePlush",
+        "type": "prop"
+    },
+    {
+        "id": 1396819174,
+        "name": "CharSkyKid_Prop_AP27CrabFigurine",
+        "type": "prop"
+    },
+    {
+        "id": 1790995566,
+        "name": "CharSkyKid_Prop_AP27PlantVine",
+        "type": "prop"
+    },
+    {
+        "id": 940241865,
+        "name": "CharSkyKid_Prop_AP27TeaStall",
+        "type": "prop"
+    },
+    {
+        "id": 1344768504,
+        "name": "CharSkyKid_Prop_AP27Poster",
+        "type": "prop"
+    },
+    {
+        "id": 817681551,
+        "name": "CharSkyKid_Prop_AP27Projector",
+        "type": "prop"
+    },
+    {
+        "id": 250062849,
+        "name": "CharSkyKid_Prop_AP28MigrationBell",
+        "type": "prop"
+    },
+    {
+        "id": 3783391418,
+        "name": "CharSkyKid_Prop_AP30BirdPlush",
+        "type": "prop"
+    },
+    {
+        "id": 3360525431,
+        "name": "CharSkyKid_Prop_SunlightProjector",
+        "type": "prop"
+    },
+    {
+        "id": 3635742134,
+        "name": "CharSkyKid_Prop_SunlightSandcastleA",
+        "type": "prop"
+    },
+    {
+        "id": 3618964515,
+        "name": "CharSkyKid_Prop_SunlightSandcastleB",
+        "type": "prop"
+    },
+    {
+        "id": 3602186896,
+        "name": "CharSkyKid_Prop_SunlightSandcastleC",
+        "type": "prop"
+    },
+    {
+        "id": 3719630229,
+        "name": "CharSkyKid_Prop_SunlightSandcastleD",
+        "type": "prop"
+    },
+    {
+        "id": 3702852610,
+        "name": "CharSkyKid_Prop_SunlightSandcastleE",
+        "type": "prop"
+    },
+    {
+        "id": 3686074991,
+        "name": "CharSkyKid_Prop_SunlightSandcastleF",
+        "type": "prop"
+    },
+    {
+        "id": 3669297372,
+        "name": "CharSkyKid_Prop_SunlightSandcastleG",
+        "type": "prop"
+    },
+    {
+        "id": 2438433644,
+        "name": "CharSkyKid_Prop_SnowmanArm_01",
+        "type": "prop"
+    },
+    {
+        "id": 2488766501,
+        "name": "CharSkyKid_Prop_SnowmanArm_02",
+        "type": "prop"
+    },
+    {
+        "id": 971519645,
+        "name": "CharSkyKid_Prop_SnowmanEye",
+        "type": "prop"
+    },
+    {
+        "id": 2606723355,
+        "name": "CharSkyKid_Prop_SnowmanMouth",
+        "type": "prop"
+    },
+    {
+        "id": 922827644,
+        "name": "CharSkyKid_Prop_SnowmanButton",
+        "type": "prop"
+    },
+    {
+        "id": 2370729467,
+        "name": "CharSkyKid_Prop_SnowmanNose",
+        "type": "prop"
+    },
+    {
+        "id": 1792023002,
+        "name": "CharSkyKid_Prop_SnowmanHead",
+        "type": "prop"
+    },
+    {
+        "id": 878008923,
+        "name": "CharSkyKid_Prop_SnowmanBodySmall",
+        "type": "prop"
+    },
+    {
+        "id": 2456901755,
+        "name": "CharSkyKid_Prop_SnowmanBodyMedium",
+        "type": "prop"
+    },
+    {
+        "id": 3523789315,
+        "name": "CharSkyKid_Prop_SnowmanBodyLarge",
+        "type": "prop"
+    },
+    {
+        "id": 738751550,
+        "name": "CharSkyKid_Prop_SnowmanElk",
+        "type": "prop"
+    },
+    {
+        "id": 3590033004,
+        "name": "CharSkyKid_Prop_SnowmanHolly",
+        "type": "prop"
+    },
+    {
+        "id": 3373923966,
+        "name": "CharSkyKid_Prop_SnowmanSantaHat",
+        "type": "prop"
+    },
+    {
+        "id": 1456440257,
+        "name": "CharSkyKid_Prop_SnowmanYeti",
+        "type": "prop"
+    },
+    {
+        "id": 3672936969,
+        "name": "CharSkyKid_Prop_SnowmanScarf",
+        "type": "prop"
+    },
+    {
+        "id": 1249988630,
+        "name": "CharSkyKid_Prop_SnowmanBeard",
+        "type": "prop"
+    },
+    {
+        "id": 1870200002,
+        "name": "CharSkyKid_Prop_LotusBathtub",
+        "type": "prop"
+    },
+    {
+        "id": 868326091,
+        "name": "CharSkyKid_Prop_MoonlightPoster",
+        "type": "prop"
+    },
+    {
+        "id": 2243781039,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyG_00",
+        "type": "prop"
+    },
+    {
+        "id": 2227003420,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyG_01",
+        "type": "prop"
+    },
+    {
+        "id": 2277336277,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyG_02",
+        "type": "prop"
+    },
+    {
+        "id": 2260558658,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyG_03",
+        "type": "prop"
+    },
+    {
+        "id": 2176670563,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyG_04",
+        "type": "prop"
+    },
+    {
+        "id": 2159892944,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyG_05",
+        "type": "prop"
+    },
+    {
+        "id": 2210225801,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyG_06",
+        "type": "prop"
+    },
+    {
+        "id": 2193448182,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyG_07",
+        "type": "prop"
+    },
+    {
+        "id": 2378001991,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyG_08",
+        "type": "prop"
+    },
+    {
+        "id": 2361224372,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyG_09",
+        "type": "prop"
+    },
+    {
+        "id": 3303138371,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyS_00",
+        "type": "prop"
+    },
+    {
+        "id": 3286360752,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyS_01",
+        "type": "prop"
+    },
+    {
+        "id": 3336693609,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyS_02",
+        "type": "prop"
+    },
+    {
+        "id": 3319915990,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyS_03",
+        "type": "prop"
+    },
+    {
+        "id": 3370248847,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyS_04",
+        "type": "prop"
+    },
+    {
+        "id": 3353471228,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyS_05",
+        "type": "prop"
+    },
+    {
+        "id": 3403804085,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyS_06",
+        "type": "prop"
+    },
+    {
+        "id": 3387026466,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyS_07",
+        "type": "prop"
+    },
+    {
+        "id": 3437359323,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyS_08",
+        "type": "prop"
+    },
+    {
+        "id": 3420581704,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyS_09",
+        "type": "prop"
+    },
+    {
+        "id": 3739209370,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyS_10",
+        "type": "prop"
+    },
+    {
+        "id": 525012104,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyG_Generic",
+        "type": "prop"
+    },
+    {
+        "id": 1561206052,
+        "name": "CharSkyKid_Prop_AnniversaryTrophyS_Generic",
+        "type": "prop"
+    },
+    {
+        "id": 2789085020,
+        "name": "CharSkyKid_Prop_AnniversaryPopcorn",
+        "type": "prop"
+    },
+    {
+        "id": 4231705121,
+        "name": "CharSkyKid_Prop_AnniversaryMovieSeats",
+        "type": "prop"
+    },
+    {
+        "id": 1229210180,
+        "name": "CharSkyKid_Prop_AnniversaryCarpet",
+        "type": "prop"
+    },
+    {
+        "id": 349632547,
+        "name": "CharSkyKid_Prop_SkyBalloon",
+        "type": "prop"
+    },
+    {
+        "id": 4008449178,
+        "name": "CharSkyKid_Prop_BalloonArch",
+        "type": "prop"
+    },
+    {
+        "id": 1889575970,
+        "name": "CharSkyKid_Prop_SkykidPlushie",
+        "type": "prop"
+    },
+    {
+        "id": 2067569217,
+        "name": "CharSkyKid_Prop_HandheldController",
+        "type": "prop"
+    },
+    {
+        "id": 3944655926,
+        "name": "CharSkyKid_Prop_KrillCarpet",
+        "type": "prop"
+    },
+    {
+        "id": 3257174271,
+        "name": "CharSkyKid_Prop_MischiefPumpkinLamp",
+        "type": "prop"
+    },
+    {
+        "id": 1663911379,
+        "name": "CharSkyKid_Prop_MischiefWeb",
+        "type": "prop"
+    },
+    {
+        "id": 1909194311,
+        "name": "CharSkyKid_Prop_MischiefTree",
+        "type": "prop"
+    },
+    {
+        "id": 1847959152,
+        "name": "CharSkyKid_Prop_TwinRibbonPoster",
+        "type": "prop"
+    },
+    {
+        "id": 1642254357,
+        "name": "CharSkyKid_Prop_TriumphHangingFlags",
+        "type": "prop"
+    },
+    {
+        "id": 1415291630,
+        "name": "CharSkyKid_Prop_TriumphPodium",
+        "type": "prop"
+    },
+    {
+        "id": 1128415142,
+        "name": "CharSkyKid_Prop_TriumphFlagSunset",
+        "type": "prop"
+    },
+    {
+        "id": 4226158713,
+        "name": "CharSkyKid_Prop_TriumphFlagDusk",
+        "type": "prop"
+    },
+    {
+        "id": 4123511998,
+        "name": "CharSkyKid_Prop_TriumphFlagRain",
+        "type": "prop"
+    },
+    {
+        "id": 1018998892,
+        "name": "CharSkyKid_Prop_TriumphFlagPrairie",
+        "type": "prop"
+    },
+    {
+        "id": 179847918,
+        "name": "CharSkyKid_Prop_FortuneCarousel",
+        "type": "prop"
+    },
+    {
+        "id": 282739272,
+        "name": "CharSkyKid_Prop_SkyArtBook01_Closed",
+        "type": "prop"
+    },
+    {
+        "id": 2042282864,
+        "name": "CharSkyKid_Prop_SkyStoryBook01_Closed",
+        "type": "prop"
+    },
+    {
+        "id": 3580839943,
+        "name": "CharSkyKid_Prop_Swing",
+        "type": "prop"
+    },
+    {
+        "id": 3264472211,
+        "name": "CharSkyKid_Prop_Seesaw",
+        "type": "prop"
+    },
+    {
+        "id": 3879569417,
+        "name": "CharSkyKid_Prop_LoveBoat",
+        "type": "prop"
+    },
+    {
+        "id": 1866875264,
+        "name": "CharSkyKid_Prop_FlowerArch",
+        "type": "prop"
+    },
+    {
+        "id": 3314486409,
+        "name": "CharSkyKid_Prop_TeaTable",
+        "type": "prop"
+    },
+    {
+        "id": 2323059536,
+        "name": "CharSkyKid_Prop_Tent_01",
+        "type": "prop"
+    },
+    {
+        "id": 2152276643,
+        "name": "CharSkyKid_Prop_WisteriaTeaTable",
+        "type": "prop"
+    },
+    {
+        "id": 1623048596,
+        "name": "CharSkyKid_Prop_PicnicBlanket",
+        "type": "prop"
+    },
+    {
+        "id": 57978849,
+        "name": "CharSkyKid_Prop_Pinwheel_01",
+        "type": "prop"
+    },
+    {
+        "id": 3300553109,
+        "name": "CharSkyKid_Prop_BirthdayFlags_01",
+        "type": "prop"
+    },
+    {
+        "id": 2472280620,
+        "name": "CharSkyKid_Prop_Balloon_01",
+        "type": "prop"
+    },
+    {
+        "id": 3082302140,
+        "name": "CharSkyKid_Prop_LightFence_01",
+        "type": "prop"
+    },
+    {
+        "id": 2710392028,
+        "name": "CharSkyKid_Prop_Cannon_01",
+        "type": "prop"
+    },
+    {
+        "id": 3118441214,
+        "name": "CharSkyKid_Prop_Cannon_Pin",
+        "type": "prop"
+    },
+    {
+        "id": 2555302612,
+        "name": "CharSkyKid_Prop_BirthdayCake_Giant",
+        "type": "prop"
+    },
+    {
+        "id": 2623105999,
+        "name": "CharSkyKid_Prop_JarBubbleMachine",
+        "type": "prop"
+    },
+    {
+        "id": 946432484,
+        "name": "CharSkyKid_Prop_IslandUmbrella_01",
+        "type": "prop"
+    },
+    {
+        "id": 9427151,
+        "name": "CharSkyKid_Prop_BeachBall",
+        "type": "prop"
+    },
+    {
+        "id": 3102291624,
+        "name": "CharSkyKid_Prop_BeachRecliner",
+        "type": "prop"
+    },
+    {
+        "id": 2942701550,
+        "name": "CharSkyKid_Prop_BeachChairWood",
+        "type": "prop"
+    },
+    {
+        "id": 1480625729,
+        "name": "CharSkyKid_Prop_BeachChairCloth",
+        "type": "prop"
+    },
+    {
+        "id": 1279207725,
+        "name": "CharSkyKid_Prop_MischiefTable",
+        "type": "prop"
+    },
+    {
+        "id": 2546683657,
+        "name": "CharSkyKid_Prop_MischiefPumpkin",
+        "type": "prop"
+    },
+    {
+        "id": 120659421,
+        "name": "CharSkyKid_Prop_MischiefCat",
+        "type": "prop"
+    },
+    {
+        "id": 4289316912,
+        "name": "CharSkyKid_Prop_MischiefCat_02",
+        "type": "prop"
+    },
+    {
+        "id": 2850020126,
+        "name": "CharSkyKid_Prop_TableXmas",
+        "type": "prop"
+    },
+    {
+        "id": 3595700561,
+        "name": "CharSkyKid_Prop_PillowXmas",
+        "type": "prop"
+    },
+    {
+        "id": 1105476656,
+        "name": "CharSkyKid_Prop_SequencerStation",
+        "type": "prop"
+    },
+    {
+        "id": 300610386,
+        "name": "CharSkyKid_Prop_SequencerAnni",
+        "type": "prop"
+    },
+    {
+        "id": 1931354705,
+        "name": "CharSkyKid_Prop_SnowGlobe",
+        "type": "prop"
+    },
+    {
+        "id": 3861349446,
+        "name": "CharSkyKid_Prop_MarshmallowSet",
+        "type": "prop"
+    },
+    {
+        "id": 3345812070,
+        "name": "CharSkyKid_Prop_MarshmallowStick",
+        "type": "prop"
+    },
+    {
+        "id": 210900213,
+        "name": "CharSkyKid_Prop_StupaBell",
+        "type": "prop"
+    },
+    {
+        "id": 472085675,
+        "name": "CharSkyKid_Prop_SkyBallGoals",
+        "type": "prop"
+    },
+    {
+        "id": 4038870504,
+        "name": "CharSkyKid_Prop_Snowman",
+        "type": "prop"
+    },
+    {
+        "id": 888954010,
+        "name": "CharSkyKid_Prop_ButterflyFountain",
+        "type": "prop"
+    },
+    {
+        "id": 1026150557,
+        "name": "CharSkyKid_Prop_Bucket",
+        "type": "prop"
+    },
+    {
+        "id": 1566446132,
+        "name": "CharSkyKid_Prop_HangingLights",
+        "type": "prop"
+    },
+    {
+        "id": 3732558756,
+        "name": "CharSkyKid_Prop_MusicShell",
+        "type": "prop"
+    },
+    {
+        "id": 3872219060,
+        "name": "CharSkyKid_Prop_MusicShellOffice",
+        "type": "prop"
+    },
+    {
+        "id": 1216836155,
+        "name": "CharSkyKid_Prop_ShellMusicBox",
+        "type": "prop"
+    },
+    {
+        "id": 4031431925,
+        "name": "CharSkyKid_Prop_DiscoLight",
+        "type": "prop"
+    },
+    {
+        "id": 2013620199,
+        "name": "CharSkyKid_Prop_BirthdayOreo",
+        "type": "prop"
+    },
+    {
+        "id": 1196366474,
+        "name": "CharSkyKid_Prop_OreoPlush",
+        "type": "prop"
+    },
+    {
+        "id": 3127747591,
+        "name": "CharSkyKid_Prop_HeartPlush",
+        "type": "prop"
+    },
+    {
+        "id": 383870159,
+        "name": "CharSkyKid_Prop_JuiceCup",
+        "type": "prop"
+    },
+    {
+        "id": 3194797259,
+        "name": "CharSkyKid_Prop_PickupTest",
+        "type": "prop"
+    },
+    {
+        "id": 880849997,
+        "name": "CharSkyKid_Prop_Surfboard",
+        "type": "prop"
+    },
+    {
+        "id": 1123438996,
+        "name": "CharSkyKid_Prop_Snowboard",
+        "type": "prop"
+    },
+    {
+        "id": 1342989690,
+        "name": "CharSkyKid_Prop_BigMantaPlush",
+        "type": "prop"
+    },
+    {
+        "id": 3467430754,
+        "name": "CharSkyKid_Prop_CompanionCube",
+        "type": "prop"
+    },
+    {
+        "id": 3056648015,
+        "name": "CharSkyKid_Prop_PlaceableRace",
+        "type": "prop"
+    },
+    {
+        "id": 1877873726,
+        "name": "CharSkyKid_Prop_PuzzleKey",
+        "type": "prop"
+    },
+    {
+        "id": 965050096,
+        "name": "CharSkyKid_Prop_PuzzlePressurePlate",
+        "type": "prop"
+    },
+    {
+        "id": 891667449,
+        "name": "CharSkyKid_Prop_PlaceableMessage",
+        "type": "prop"
+    },
+    {
+        "id": 134220884,
+        "name": "CharSkyKid_Prop_PuzzleChest",
+        "type": "prop"
+    },
+    {
+        "id": 1897925656,
+        "name": "CharSkyKid_Prop_PuzzleBox",
+        "type": "prop"
+    },
+    {
+        "id": 2549161743,
+        "name": "CharSkyKid_Prop_PuzzleCage",
+        "type": "prop"
+    },
+    {
+        "id": 2562133754,
+        "name": "CharSkyKid_Prop_BloomSapling",
+        "type": "prop"
+    },
+    {
+        "id": 1207265702,
+        "name": "CharSkyKid_Prop_LemonadeStand",
+        "type": "prop"
+    },
+    {
+        "id": 3221410629,
+        "name": "CharSkyKid_Prop_LargeBonfire",
+        "type": "prop"
+    },
+    {
+        "id": 3885697879,
+        "name": "CharSkyKid_Prop_ScreenBlue",
+        "type": "prop"
+    },
+    {
+        "id": 3048255671,
+        "name": "CharSkyKid_Prop_ScreenYellow",
+        "type": "prop"
+    },
+    {
+        "id": 2748979522,
+        "name": "CharSkyKid_Prop_ScreenGreen",
+        "type": "prop"
+    },
+    {
+        "id": 637470210,
+        "name": "CharSkyKid_Prop_ScreenRed",
+        "type": "prop"
+    },
+    {
+        "id": 1455986951,
+        "name": "CharSkyKid_Prop_CurtainDoorYellow",
+        "type": "prop"
+    },
+    {
+        "id": 2252136235,
+        "name": "CharSkyKid_Prop_WindowYellow",
+        "type": "prop"
+    },
+    {
+        "id": 1314404890,
+        "name": "CharSkyKid_Prop_CeilingYellow",
+        "type": "prop"
+    },
+    {
+        "id": 3746783511,
+        "name": "CharSkyKid_Prop_StoneStool",
+        "type": "prop"
+    },
+    {
+        "id": 2391813810,
+        "name": "CharSkyKid_Prop_StoneBenchSingle",
+        "type": "prop"
+    },
+    {
+        "id": 3049207033,
+        "name": "CharSkyKid_Prop_StoneChair",
+        "type": "prop"
+    },
+    {
+        "id": 1066276511,
+        "name": "CharSkyKid_Prop_StoneArmchair",
+        "type": "prop"
+    },
+    {
+        "id": 2383799717,
+        "name": "CharSkyKid_Prop_StoneLoveseat",
+        "type": "prop"
+    },
+    {
+        "id": 2180164522,
+        "name": "CharSkyKid_Prop_StoneBench",
+        "type": "prop"
+    },
+    {
+        "id": 834342298,
+        "name": "CharSkyKid_Prop_StoneSofaCorner",
+        "type": "prop"
+    },
+    {
+        "id": 1330072768,
+        "name": "CharSkyKid_Prop_StoneSofaSide",
+        "type": "prop"
+    },
+    {
+        "id": 638878223,
+        "name": "CharSkyKid_Prop_StoneTableSmall",
+        "type": "prop"
+    },
+    {
+        "id": 1255087004,
+        "name": "CharSkyKid_Prop_StoneDiningTableSquare",
+        "type": "prop"
+    },
+    {
+        "id": 191494937,
+        "name": "CharSkyKid_Prop_StoneDiningTableRound",
+        "type": "prop"
+    },
+    {
+        "id": 174990797,
+        "name": "CharSkyKid_Prop_StoneDiningTableLong",
+        "type": "prop"
+    },
+    {
+        "id": 1335924637,
+        "name": "CharSkyKid_Prop_StoneDesk",
+        "type": "prop"
+    },
+    {
+        "id": 2363400055,
+        "name": "CharSkyKid_Prop_StoneConsoleTable",
+        "type": "prop"
+    },
+    {
+        "id": 4144850092,
+        "name": "CharSkyKid_Prop_StoneCoffeeTable",
+        "type": "prop"
+    },
+    {
+        "id": 2100673915,
+        "name": "CharSkyKid_Prop_StoneBedSingle",
+        "type": "prop"
+    },
+    {
+        "id": 2580215163,
+        "name": "CharSkyKid_Prop_StoneDresserTall",
+        "type": "prop"
+    },
+    {
+        "id": 354637946,
+        "name": "CharSkyKid_Prop_StoneDresserLong",
+        "type": "prop"
+    },
+    {
+        "id": 3252215039,
+        "name": "CharSkyKid_Prop_StoneBathtubSmall",
+        "type": "prop"
+    },
+    {
+        "id": 2555203639,
+        "name": "CharSkyKid_Prop_StoneBathtubLarge",
+        "type": "prop"
+    },
+    {
+        "id": 2862066111,
+        "name": "CharSkyKid_Prop_StoneSink",
+        "type": "prop"
+    },
+    {
+        "id": 4009626867,
+        "name": "CharSkyKid_Prop_StoneWallMirror",
+        "type": "prop"
+    },
+    {
+        "id": 3222813724,
+        "name": "CharSkyKid_Prop_StoneWallTowelRack",
+        "type": "prop"
+    },
+    {
+        "id": 2130338881,
+        "name": "CharSkyKid_Prop_StoneKitchenStove",
+        "type": "prop"
+    },
+    {
+        "id": 1963462002,
+        "name": "CharSkyKid_Prop_StoneKitchenOven",
+        "type": "prop"
+    },
+    {
+        "id": 1222254814,
+        "name": "CharSkyKid_Prop_StoneKitchenDrawers",
+        "type": "prop"
+    },
+    {
+        "id": 3640483204,
+        "name": "CharSkyKid_Prop_StoneKitchenCabinet",
+        "type": "prop"
+    },
+    {
+        "id": 1281080148,
+        "name": "CharSkyKid_Prop_StoneWallPotRack",
+        "type": "prop"
+    },
+    {
+        "id": 2945636444,
+        "name": "CharSkyKid_Prop_StoneWallMugRack",
+        "type": "prop"
+    },
+    {
+        "id": 3563533798,
+        "name": "CharSkyKid_Prop_StoneBoxEmpty",
+        "type": "prop"
+    },
+    {
+        "id": 2099106125,
+        "name": "CharSkyKid_Prop_StoneBoxClosed",
+        "type": "prop"
+    },
+    {
+        "id": 953697696,
+        "name": "CharSkyKid_Prop_StoneCubeSmall",
+        "type": "prop"
+    },
+    {
+        "id": 2968439094,
+        "name": "CharSkyKid_Prop_StoneCubeWide",
+        "type": "prop"
+    },
+    {
+        "id": 2336185410,
+        "name": "CharSkyKid_Prop_StoneCubeTall",
+        "type": "prop"
+    },
+    {
+        "id": 2915092340,
+        "name": "CharSkyKid_Prop_StoneWallShelf",
+        "type": "prop"
+    },
+    {
+        "id": 4200042372,
+        "name": "CharSkyKid_Prop_DecorPillowA",
+        "type": "prop"
+    },
+    {
+        "id": 4250375229,
+        "name": "CharSkyKid_Prop_DecorPillowB",
+        "type": "prop"
+    },
+    {
+        "id": 1184087298,
+        "name": "CharSkyKid_Prop_DecorFoldedCloth",
+        "type": "prop"
+    },
+    {
+        "id": 3166902855,
+        "name": "CharSkyKid_Prop_StonePlantStand",
+        "type": "prop"
+    },
+    {
+        "id": 2082042811,
+        "name": "CharSkyKid_Prop_StoneCandleHolder",
+        "type": "prop"
+    },
+    {
+        "id": 94900427,
+        "name": "CharSkyKid_Prop_StoneCandleLight",
+        "type": "prop"
+    },
+    {
+        "id": 1469117611,
+        "name": "CharSkyKid_Prop_StoneWallSconce",
+        "type": "prop"
+    },
+    {
+        "id": 3751258725,
+        "name": "CharSkyKid_Prop_RugSmallSolid",
+        "type": "prop"
+    },
+    {
+        "id": 1125519288,
+        "name": "CharSkyKid_Prop_RugSmallStripes",
+        "type": "prop"
+    },
+    {
+        "id": 1228281990,
+        "name": "CharSkyKid_Prop_RugSmallClassic",
+        "type": "prop"
+    },
+    {
+        "id": 1511211735,
+        "name": "CharSkyKid_Prop_RugSmallHalfCircle",
+        "type": "prop"
+    },
+    {
+        "id": 123883635,
+        "name": "CharSkyKid_Prop_RugMediumSolid",
+        "type": "prop"
+    },
+    {
+        "id": 3344563218,
+        "name": "CharSkyKid_Prop_RugMediumStripes",
+        "type": "prop"
+    },
+    {
+        "id": 1557278257,
+        "name": "CharSkyKid_Prop_RugMediumDiamonds",
+        "type": "prop"
+    },
+    {
+        "id": 1105326296,
+        "name": "CharSkyKid_Prop_RugMediumArgyle",
+        "type": "prop"
+    },
+    {
+        "id": 1527229968,
+        "name": "CharSkyKid_Prop_RugMediumCircle",
+        "type": "prop"
+    },
+    {
+        "id": 2569292673,
+        "name": "CharSkyKid_Prop_RugLargeSolid",
+        "type": "prop"
+    },
+    {
+        "id": 3914935526,
+        "name": "CharSkyKid_Prop_RugLargeCircle",
+        "type": "prop"
+    },
+    {
+        "id": 3687773613,
+        "name": "CharSkyKid_Prop_IceBathtubLarge",
+        "type": "prop"
+    },
+    {
+        "id": 1057545173,
+        "name": "CharSkyKid_Prop_IceBedSingle",
+        "type": "prop"
+    },
+    {
+        "id": 4246706221,
+        "name": "CharSkyKid_Prop_IceConsoleTable",
+        "type": "prop"
+    },
+    {
+        "id": 970968741,
+        "name": "CharSkyKid_Prop_IceDresserTall",
+        "type": "prop"
+    },
+    {
+        "id": 3844212672,
+        "name": "CharSkyKid_Prop_IceKitchenDrawers",
+        "type": "prop"
+    },
+    {
+        "id": 2684484732,
+        "name": "CharSkyKid_Prop_IceKitchenOven",
+        "type": "prop"
+    },
+    {
+        "id": 3266082415,
+        "name": "CharSkyKid_Prop_IceKitchenStove",
+        "type": "prop"
+    },
+    {
+        "id": 190240622,
+        "name": "CharSkyKid_Prop_IceSofaSide",
+        "type": "prop"
+    },
+    {
+        "id": 322796797,
+        "name": "CharSkyKid_Prop_IceStool",
+        "type": "prop"
+    },
+    {
+        "id": 15959877,
+        "name": "CharSkyKid_Prop_IceTableSmall",
+        "type": "prop"
+    },
+    {
+        "id": 520635031,
+        "name": "CharSkyKid_Prop_IceBlockHorizontal",
+        "type": "prop"
+    },
+    {
+        "id": 2483986553,
+        "name": "CharSkyKid_Prop_IceBlockVertical",
+        "type": "prop"
+    },
+    {
+        "id": 825787368,
+        "name": "CharSkyKid_Prop_IceSlideConcave",
+        "type": "prop"
+    },
+    {
+        "id": 478645060,
+        "name": "CharSkyKid_Prop_IceSlideConvex",
+        "type": "prop"
+    },
+    {
+        "id": 3126396576,
+        "name": "CharSkyKid_Prop_StoneMannequin",
+        "type": "prop"
+    },
+    {
+        "id": 3095120585,
+        "name": "CharSkyKid_Prop_HangingMask",
+        "type": "prop"
+    },
+    {
+        "id": 617515221,
+        "name": "CharSkyKid_Prop_AP22BedSingle",
+        "type": "prop"
+    },
+    {
+        "id": 3186253067,
+        "name": "CharSkyKid_Prop_AP22Chair",
+        "type": "prop"
+    },
+    {
+        "id": 135173365,
+        "name": "CharSkyKid_Prop_AP22DiningTable",
+        "type": "prop"
+    },
+    {
+        "id": 3050534175,
+        "name": "CharSkyKid_Prop_AP22Loveseat",
+        "type": "prop"
+    },
+    {
+        "id": 515565800,
+        "name": "CharSkyKid_Prop_AP22PendantLight",
+        "type": "prop"
+    },
+    {
+        "id": 2262109314,
+        "name": "CharSkyKid_Prop_AP22BathTub",
+        "type": "prop"
+    },
+    {
+        "id": 2781485867,
+        "name": "CharSkyKid_Prop_AP22StepStool",
+        "type": "prop"
+    },
+    {
+        "id": 119790202,
+        "name": "CharSkyKid_Prop_AP22HangingLight",
+        "type": "prop"
+    },
+    {
+        "id": 2224069802,
+        "name": "CharSkyKid_Prop_AP22WallPaintingSet",
+        "type": "prop"
+    },
+    {
+        "id": 3879001162,
+        "name": "CharSkyKid_Prop_AP22WallPainting",
+        "type": "prop"
+    },
+    {
+        "id": 1614627079,
+        "name": "CharSkyKid_Prop_AP22WallSpiceRack",
+        "type": "prop"
+    },
+    {
+        "id": 2506079720,
+        "name": "CharSkyKid_Prop_AP22HangingPlanter",
+        "type": "prop"
+    },
+    {
+        "id": 3647861724,
+        "name": "CharSkyKid_Prop_AP22Lamp",
+        "type": "prop"
+    },
+    {
+        "id": 4065041958,
+        "name": "CharSkyKid_Prop_AP23WallPosterDuet",
+        "type": "prop"
+    },
+    {
+        "id": 2142899329,
+        "name": "CharSkyKid_Prop_AP23WallPosterPiano",
+        "type": "prop"
+    },
+    {
+        "id": 3560476573,
+        "name": "CharSkyKid_Prop_AP23WallPosterCello",
+        "type": "prop"
+    },
+    {
+        "id": 532493211,
+        "name": "CharSkyKid_Prop_AP23WallPosterConch",
+        "type": "prop"
+    },
+    {
+        "id": 2720507649,
+        "name": "CharSkyKid_Prop_AP23WallPosterPianoKeys",
+        "type": "prop"
+    },
+    {
+        "id": 4257679730,
+        "name": "CharSkyKid_Prop_AP23Vanity",
+        "type": "prop"
+    },
+    {
+        "id": 1128529984,
+        "name": "CharSkyKid_Prop_AP23ClothDivider",
+        "type": "prop"
+    },
+    {
+        "id": 2194864345,
+        "name": "CharSkyKid_Prop_AP23Curtain",
+        "type": "prop"
+    },
+    {
+        "id": 2516417270,
+        "name": "CharSkyKid_Prop_AP23HalfRug",
+        "type": "prop"
+    },
+    {
+        "id": 1796823004,
+        "name": "CharSkyKid_Prop_AP23Vase",
+        "type": "prop"
+    },
+    {
+        "id": 3692695254,
+        "name": "CharSkyKid_Prop_AP23DecorCup",
+        "type": "prop"
+    },
+    {
+        "id": 418311439,
+        "name": "CharSkyKid_Prop_AP23Cup",
+        "type": "prop"
+    },
+    {
+        "id": 691838905,
+        "name": "CharSkyKid_Prop_AP23Bench",
+        "type": "prop"
+    },
+    {
+        "id": 31683673,
+        "name": "CharSkyKid_Prop_AP23PlaceablePianoBasic",
+        "type": "prop"
+    },
+    {
+        "id": 4070704730,
+        "name": "CharSkyKid_Prop_AP23PlaceablePianoFancy",
+        "type": "prop"
+    },
+    {
+        "id": 2374525542,
+        "name": "CharSkyKid_Prop_AP23PlaceablePianoUpright",
+        "type": "prop"
+    },
+    {
+        "id": 2495179760,
+        "name": "CharSkyKid_Prop_RugSmallSolid_AP23Pianist",
+        "type": "prop"
+    },
+    {
+        "id": 4167329804,
+        "name": "CharSkyKid_Prop_RugSmallSolid_AP23Cellist",
+        "type": "prop"
+    },
+    {
+        "id": 1316031635,
+        "name": "CharSkyKid_Prop_AP24Portrait",
+        "type": "prop"
+    },
+    {
+        "id": 3589738269,
+        "name": "CharSkyKid_Prop_AP24WallPhotos_01",
+        "type": "prop"
+    },
+    {
+        "id": 3539405412,
+        "name": "CharSkyKid_Prop_AP24WallPhotos_02",
+        "type": "prop"
+    },
+    {
+        "id": 1520401291,
+        "name": "CharSkyKid_Prop_AP24Chandelier",
+        "type": "prop"
+    },
+    {
+        "id": 4186114166,
+        "name": "CharSkyKid_Prop_AP24Clock",
+        "type": "prop"
+    },
+    {
+        "id": 2078878708,
+        "name": "CharSkyKid_Prop_MannequinFigurine",
+        "type": "prop"
+    },
+    {
+        "id": 3622569633,
+        "name": "CharSkyKid_Prop_InstrumentRack",
+        "type": "prop"
+    },
+    {
+        "id": 820123732,
+        "name": "CharSkyKid_Prop_StarJar",
+        "type": "prop"
+    },
+    {
+        "id": 3484125105,
+        "name": "CharSkyKid_Prop_CrabOfCompetition_Stone",
+        "type": "prop"
+    },
+    {
+        "id": 990352394,
+        "name": "CharSkyKid_Prop_CrabOfCompetition_Gold",
+        "type": "prop"
+    },
+    {
+        "id": 710288298,
+        "name": "CharSkyKid_Prop_MoonlightLantern",
+        "type": "prop"
+    },
+    {
+        "id": 838310270,
+        "name": "CharSkyKid_Prop_PastryPlush",
+        "type": "prop"
+    },
+    {
+        "id": 1976308516,
+        "name": "CharSkyKid_Prop_PastryTeaTable",
+        "type": "prop"
+    },
+    {
+        "id": 3911262457,
+        "name": "CharSkyKid_Prop_MischiefCauldron",
+        "type": "prop"
+    },
+    {
+        "id": 92994870,
+        "name": "CharSkyKid_Prop_TeaBath",
+        "type": "prop"
+    },
+    {
+        "id": 2909815194,
+        "name": "CharSkyKid_Prop_CrabbitPortal",
+        "type": "prop"
+    },
+    {
+        "id": 2401211033,
+        "name": "CharSkyKid_Prop_PianoUpright",
+        "type": "prop"
+    },
+    {
+        "id": 843122153,
+        "name": "CharSkyKid_Prop_FortunePlant",
+        "type": "prop"
+    },
+    {
+        "id": 1049677321,
+        "name": "CharSkyKid_Prop_FortuneCoupletPoster",
+        "type": "prop"
+    },
+    {
+        "id": 3254169352,
+        "name": "CharSkyKid_Prop_FortuneCandleFlags",
+        "type": "prop"
+    },
+    {
+        "id": 714872201,
+        "name": "CharSkyKid_Prop_MeteorHeart",
+        "type": "prop"
+    },
+    {
+        "id": 2322576113,
+        "name": "CharSkyKid_Prop_RoseJar",
+        "type": "prop"
+    },
+    {
+        "id": 2282352471,
+        "name": "CharSkyKid_Prop_BubbleBeanBag",
+        "type": "prop"
+    },
+    {
+        "id": 4032918033,
+        "name": "CharSkyKid_Prop_TwinRibbonOrnament",
+        "type": "prop"
+    },
+    {
+        "id": 1701939759,
+        "name": "CharSkyKid_Prop_RibbonHourglass",
+        "type": "prop"
+    },
+    {
+        "id": 4248068234,
+        "name": "CharSkyKid_Prop_KizunaAiTVPillow",
+        "type": "prop"
+    },
+    {
+        "id": 4181754095,
+        "name": "CharSkyKid_Prop_SunflowerBarTable",
+        "type": "prop"
+    },
+    {
+        "id": 3871911060,
+        "name": "CharSkyKid_Prop_SunflowerLadder",
+        "type": "prop"
+    },
+    {
+        "id": 4167684785,
+        "name": "CharSkyKid_Prop_SunflowerPillow",
+        "type": "prop"
+    },
+    {
+        "id": 1066013135,
+        "name": "CharSkyKid_Prop_SunflowerRugHalfCircle",
+        "type": "prop"
+    },
+    {
+        "id": 674107192,
+        "name": "CharSkyKid_Prop_SunflowerWallShelf",
+        "type": "prop"
+    },
+    {
+        "id": 1319283910,
+        "name": "CharSkyKid_Prop_TreasurePirateBed",
+        "type": "prop"
+    },
+    {
+        "id": 1792897832,
+        "name": "CharSkyKid_Prop_NatureSculptureC",
+        "type": "prop"
+    },
+    {
+        "id": 1809675451,
+        "name": "CharSkyKid_Prop_NatureSculptureB",
+        "type": "prop"
+    },
+    {
+        "id": 1826453070,
+        "name": "CharSkyKid_Prop_NatureSculptureA",
+        "type": "prop"
+    },
+    {
+        "id": 1816940630,
+        "name": "CharSkyKid_Prop_NatureFlag",
+        "type": "prop"
+    },
+    {
+        "id": 47028381,
+        "name": "CharSkyKid_Prop_NatureClamShell",
+        "type": "prop"
+    },
+    {
+        "id": 867290899,
+        "name": "CharSkyKid_Prop_ColorKiteCrab",
+        "type": "prop"
+    },
+    {
+        "id": 361641378,
+        "name": "CharSkyKid_Prop_ColorKiteBird",
+        "type": "prop"
+    },
+    {
+        "id": 2243838196,
+        "name": "CharSkyKid_Prop_ColorKiteButterfly",
+        "type": "prop"
+    },
+    {
+        "id": 3868947248,
+        "name": "CharSkyKid_Prop_ColorKiteManta",
+        "type": "prop"
+    },
+    {
+        "id": 2511558411,
+        "name": "CharSkyKid_Prop_ColorKiteJelly",
+        "type": "prop"
+    },
+    {
+        "id": 3818807855,
+        "name": "CharSkyKid_Prop_ColorKiteTurtle",
+        "type": "prop"
+    },
+    {
+        "id": 2184312680,
+        "name": "CharSkyKid_Prop_ColorKiteManatee",
+        "type": "prop"
+    },
+    {
+        "id": 1544370636,
+        "name": "CharSkyKid_Prop_ColorKiteTunaKing",
+        "type": "prop"
+    },
+    {
+        "id": 2959318222,
+        "name": "CharSkyKid_Prop_ColorKiteLighthorn",
+        "type": "prop"
+    },
+    {
+        "id": 2245279351,
+        "name": "CharSkyKid_Wing_ClassicOne_Default",
+        "type": "wing"
+    },
+    {
+        "id": 4204389920,
+        "name": "CharSkyKid_Wing_ClassicOne_TGCBlue",
+        "type": "wing"
+    },
+    {
+        "id": 2219120716,
+        "name": "CharSkyKid_Wing_ClassicOne_TGCBlue$",
+        "type": "wing"
+    },
+    {
+        "id": 3133397376,
+        "name": "CharSkyKid_Wing_ClassicOne_TGCBlueSTAR",
+        "type": "wing"
+    },
+    {
+        "id": 3329648148,
+        "name": "CharSkyKid_Wing_ClassicOne_Orange",
+        "type": "wing"
+    },
+    {
+        "id": 4290017146,
+        "name": "CharSkyKid_Wing_ClassicOne_Yellow",
+        "type": "wing"
+    },
+    {
+        "id": 2038455273,
+        "name": "CharSkyKid_Wing_ClassicOne_Red",
+        "type": "wing"
+    },
+    {
+        "id": 3167707894,
+        "name": "CharSkyKid_Wing_ClassicOne_Beige",
+        "type": "wing"
+    },
+    {
+        "id": 1611389272,
+        "name": "CharSkyKid_Wing_ClassicOne_Teal",
+        "type": "wing"
+    },
+    {
+        "id": 1676224199,
+        "name": "CharSkyKid_Wing_ClassicOne_Ancestor",
+        "type": "wing"
+    },
+    {
+        "id": 3466800656,
+        "name": "CharSkyKid_Wing_ClassicOne_Purple",
+        "type": "wing"
+    },
+    {
+        "id": 4009091214,
+        "name": "CharSkyKid_Wing_ClassicOne_Pink",
+        "type": "wing"
+    },
+    {
+        "id": 4282852965,
+        "name": "CharSkyKid_Wing_ClassicOne_Black",
+        "type": "wing"
+    },
+    {
+        "id": 2642234311,
+        "name": "CharSkyKid_Wing_ClassicOne_White",
+        "type": "wing"
+    },
+    {
+        "id": 1572254977,
+        "name": "CharSkyKid_Wing_ClassicTwo_Default",
+        "type": "wing"
+    },
+    {
+        "id": 2538528582,
+        "name": "CharSkyKid_Wing_ClassicTwo_Orange",
+        "type": "wing"
+    },
+    {
+        "id": 2457259628,
+        "name": "CharSkyKid_Wing_ClassicTwo_Yellow",
+        "type": "wing"
+    },
+    {
+        "id": 1589470987,
+        "name": "CharSkyKid_Wing_ClassicTwo_Red",
+        "type": "wing"
+    },
+    {
+        "id": 928886892,
+        "name": "CharSkyKid_Wing_ClassicTwo_Beige",
+        "type": "wing"
+    },
+    {
+        "id": 3664427114,
+        "name": "CharSkyKid_Wing_ClassicTwo_Teal",
+        "type": "wing"
+    },
+    {
+        "id": 4001331221,
+        "name": "CharSkyKid_Wing_ClassicTwo_Ancestor",
+        "type": "wing"
+    },
+    {
+        "id": 4247134782,
+        "name": "CharSkyKid_Wing_ClassicTwo_Purple",
+        "type": "wing"
+    },
+    {
+        "id": 4267976544,
+        "name": "CharSkyKid_Wing_ClassicTwo_Pink",
+        "type": "wing"
+    },
+    {
+        "id": 1428342959,
+        "name": "CharSkyKid_Wing_ClassicTwo_Black",
+        "type": "wing"
+    },
+    {
+        "id": 338030121,
+        "name": "CharSkyKid_Wing_ClassicTwo_White",
+        "type": "wing"
+    },
+    {
+        "id": 2153396257,
+        "name": "CharSkyKid_Wing_ClassicRey",
+        "type": "wing"
+    },
+    {
+        "id": 3821532566,
+        "name": "CharSkyKid_Wing_ClassicDiamonds",
+        "type": "wing"
+    },
+    {
+        "id": 1205733815,
+        "name": "CharSkyKid_Wing_AP02Fur_01",
+        "type": "wing"
+    },
+    {
+        "id": 3130294398,
+        "name": "CharSkyKid_Wing_AP02Tail_01",
+        "type": "wing"
+    },
+    {
+        "id": 1516488095,
+        "name": "CharSkyKid_Wing_AP03Petal_01",
+        "type": "wing"
+    },
+    {
+        "id": 2766860709,
+        "name": "CharSkyKid_Wing_AP03Biolum_01",
+        "type": "wing"
+    },
+    {
+        "id": 2716527852,
+        "name": "CharSkyKid_Wing_AP03Biolum_02",
+        "type": "wing"
+    },
+    {
+        "id": 3740388568,
+        "name": "CharSkyKid_Wing_AP04Child_01",
+        "type": "wing"
+    },
+    {
+        "id": 2181608090,
+        "name": "CharSkyKid_Wing_AP04Adult_01",
+        "type": "wing"
+    },
+    {
+        "id": 1740444614,
+        "name": "CharSkyKid_Wing_AP04Elder_01",
+        "type": "wing"
+    },
+    {
+        "id": 844189904,
+        "name": "CharSkyKid_Wing_APJuggler_01",
+        "type": "wing"
+    },
+    {
+        "id": 803430286,
+        "name": "CharSkyKid_Wing_APDirector_01",
+        "type": "wing"
+    },
+    {
+        "id": 705761080,
+        "name": "CharSkyKid_Wing_AP06Trim_01",
+        "type": "wing"
+    },
+    {
+        "id": 2473421893,
+        "name": "CharSkyKid_Wing_AP06Tassel_02",
+        "type": "wing"
+    },
+    {
+        "id": 3952275244,
+        "name": "CharSkyKid_Wing_AP06Layered_01",
+        "type": "wing"
+    },
+    {
+        "id": 4002608101,
+        "name": "CharSkyKid_Wing_AP06Layered_02",
+        "type": "wing"
+    },
+    {
+        "id": 2091421626,
+        "name": "CharSkyKid_Wing_AP07Butterfly_01",
+        "type": "wing"
+    },
+    {
+        "id": 1632614382,
+        "name": "CharSkyKid_Wing_AP07Manta_01",
+        "type": "wing"
+    },
+    {
+        "id": 2230620057,
+        "name": "CharSkyKid_Wing_AP07Shell_01",
+        "type": "wing"
+    },
+    {
+        "id": 798847432,
+        "name": "CharSkyKid_Wing_AP07Aloha_01",
+        "type": "wing"
+    },
+    {
+        "id": 2520550531,
+        "name": "CharSkyKid_Wing_AP08Bat_01",
+        "type": "wing"
+    },
+    {
+        "id": 4174493120,
+        "name": "CharSkyKid_Wing_AP08Turtle_01",
+        "type": "wing"
+    },
+    {
+        "id": 839472537,
+        "name": "CharSkyKid_Wing_AP08Spider_01",
+        "type": "wing"
+    },
+    {
+        "id": 3561435747,
+        "name": "CharSkyKid_Wing_AP09Waves_01",
+        "type": "wing"
+    },
+    {
+        "id": 122710957,
+        "name": "CharSkyKid_Wing_AP09Robe_01",
+        "type": "wing"
+    },
+    {
+        "id": 3026076378,
+        "name": "CharSkyKid_Wing_AP09Fur_01",
+        "type": "wing"
+    },
+    {
+        "id": 441553228,
+        "name": "CharSkyKid_Wing_AP09Phoenix_01",
+        "type": "wing"
+    },
+    {
+        "id": 748003864,
+        "name": "CharSkyKid_Wing_AP10YellowCape_01",
+        "type": "wing"
+    },
+    {
+        "id": 3696148119,
+        "name": "CharSkyKid_Wing_AP10GreenCape_01",
+        "type": "wing"
+    },
+    {
+        "id": 2657709608,
+        "name": "CharSkyKid_Wing_AP11HeavyFur_01",
+        "type": "wing"
+    },
+    {
+        "id": 1685782319,
+        "name": "CharSkyKid_Wing_AP11Tattered_01",
+        "type": "wing"
+    },
+    {
+        "id": 3215804208,
+        "name": "CharSkyKid_Wing_AP11Uniform_01",
+        "type": "wing"
+    },
+    {
+        "id": 3738527580,
+        "name": "CharSkyKid_Wing_AP11Wrinkled_01",
+        "type": "wing"
+    },
+    {
+        "id": 2096903675,
+        "name": "CharSkyKid_Wing_AP11Scarf_01",
+        "type": "wing"
+    },
+    {
+        "id": 1973407668,
+        "name": "CharSkyKid_Wing_AP11GreenCoat_01",
+        "type": "wing"
+    },
+    {
+        "id": 4132414494,
+        "name": "CharSkyKid_Wing_AP12BlueWing_01",
+        "type": "wing"
+    },
+    {
+        "id": 3351362719,
+        "name": "CharSkyKid_Wing_AP12TwoTone_01",
+        "type": "wing"
+    },
+    {
+        "id": 1783289476,
+        "name": "CharSkyKid_Wing_AP13LeatherScales_01",
+        "type": "wing"
+    },
+    {
+        "id": 11666630,
+        "name": "CharSkyKid_Wing_AP13Shoulder_01",
+        "type": "wing"
+    },
+    {
+        "id": 266898341,
+        "name": "CharSkyKid_Wing_AP13Shawl_01",
+        "type": "wing"
+    },
+    {
+        "id": 465012383,
+        "name": "CharSkyKid_Wing_AP13Coat_01",
+        "type": "wing"
+    },
+    {
+        "id": 381927458,
+        "name": "CharSkyKid_Wing_AP13NobleCloak_01",
+        "type": "wing"
+    },
+    {
+        "id": 3295990486,
+        "name": "CharSkyKid_Wing_AP14Tuxedo_01",
+        "type": "wing"
+    },
+    {
+        "id": 1176158362,
+        "name": "CharSkyKid_Wing_AP14Jester_01",
+        "type": "wing"
+    },
+    {
+        "id": 1502325329,
+        "name": "CharSkyKid_Wing_AP14TatteredScarf_01",
+        "type": "wing"
+    },
+    {
+        "id": 716837019,
+        "name": "CharSkyKid_Wing_AP15DarkPlant_01",
+        "type": "wing"
+    },
+    {
+        "id": 3506098500,
+        "name": "CharSkyKid_Wing_AP15Krill_01",
+        "type": "wing"
+    },
+    {
+        "id": 1867773122,
+        "name": "CharSkyKid_Wing_AP15Jellyfish_01",
+        "type": "wing"
+    },
+    {
+        "id": 4175539233,
+        "name": "CharSkyKid_Wing_AP15BabyManta_01",
+        "type": "wing"
+    },
+    {
+        "id": 549718023,
+        "name": "CharSkyKid_Wing_AP15BigManta_01",
+        "type": "wing"
+    },
+    {
+        "id": 3304670919,
+        "name": "CharSkyKid_Wing_AP16Fire",
+        "type": "wing"
+    },
+    {
+        "id": 3626103866,
+        "name": "CharSkyKid_Wing_AP16Water",
+        "type": "wing"
+    },
+    {
+        "id": 884875389,
+        "name": "CharSkyKid_Wing_AP16Wind",
+        "type": "wing"
+    },
+    {
+        "id": 1155951821,
+        "name": "CharSkyKid_Wing_AP16Earth",
+        "type": "wing"
+    },
+    {
+        "id": 887471242,
+        "name": "CharSkyKid_Wing_AP16ButterflyYellow",
+        "type": "wing"
+    },
+    {
+        "id": 2392447482,
+        "name": "CharSkyKid_Wing_AP16ButterflyBlue",
+        "type": "wing"
+    },
+    {
+        "id": 177057533,
+        "name": "CharSkyKid_Wing_AP16OrangeLove",
+        "type": "wing"
+    },
+    {
+        "id": 1572741128,
+        "name": "CharSkyKid_Wing_AP17UniformCloak",
+        "type": "wing"
+    },
+    {
+        "id": 1707773613,
+        "name": "CharSkyKid_Wing_AP17InjuredSoldier",
+        "type": "wing"
+    },
+    {
+        "id": 1891246567,
+        "name": "CharSkyKid_Wing_AP17TiedShawl",
+        "type": "wing"
+    },
+    {
+        "id": 3258520588,
+        "name": "CharSkyKid_Wing_AP18RaccoonTail",
+        "type": "wing"
+    },
+    {
+        "id": 4159379134,
+        "name": "CharSkyKid_Wing_AP18FauxPelt",
+        "type": "wing"
+    },
+    {
+        "id": 2276624488,
+        "name": "CharSkyKid_Wing_AP18FurryGuard",
+        "type": "wing"
+    },
+    {
+        "id": 3129769633,
+        "name": "CharSkyKid_Wing_AP19Poncho",
+        "type": "wing"
+    },
+    {
+        "id": 1395019618,
+        "name": "CharSkyKid_Wing_AP20Rhythm",
+        "type": "wing"
+    },
+    {
+        "id": 3194775469,
+        "name": "CharSkyKid_Wing_AP20Gratitude",
+        "type": "wing"
+    },
+    {
+        "id": 4135571419,
+        "name": "CharSkyKid_Wing_AP20Enchantment",
+        "type": "wing"
+    },
+    {
+        "id": 475588674,
+        "name": "CharSkyKid_Wing_AP20Abyss",
+        "type": "wing"
+    },
+    {
+        "id": 3045512814,
+        "name": "CharSkyKid_Wing_AP20MaypoleScarf",
+        "type": "wing"
+    },
+    {
+        "id": 1888254859,
+        "name": "CharSkyKid_Wing_AP21SilkSash",
+        "type": "wing"
+    },
+    {
+        "id": 2052290045,
+        "name": "CharSkyKid_Wing_AP21SilkShawl",
+        "type": "wing"
+    },
+    {
+        "id": 3178513084,
+        "name": "CharSkyKid_Wing_AP21LinenScarf",
+        "type": "wing"
+    },
+    {
+        "id": 2744408674,
+        "name": "CharSkyKid_Wing_AP21KingCloak",
+        "type": "wing"
+    },
+    {
+        "id": 585866161,
+        "name": "CharSkyKid_Wing_AP21Deer",
+        "type": "wing"
+    },
+    {
+        "id": 985424833,
+        "name": "CharSkyKid_Wing_AP22Designer",
+        "type": "wing"
+    },
+    {
+        "id": 276925723,
+        "name": "CharSkyKid_Wing_AP23PianistCloak",
+        "type": "wing"
+    },
+    {
+        "id": 2338894131,
+        "name": "CharSkyKid_Wing_AP23CellistCloak",
+        "type": "wing"
+    },
+    {
+        "id": 3680491919,
+        "name": "CharSkyKid_Wing_AP24Bell",
+        "type": "wing"
+    },
+    {
+        "id": 3292345242,
+        "name": "CharSkyKid_Wing_AP24Triangle",
+        "type": "wing"
+    },
+    {
+        "id": 171834165,
+        "name": "CharSkyKid_Wing_AP24Arms",
+        "type": "wing"
+    },
+    {
+        "id": 1186393635,
+        "name": "CharSkyKid_Wing_AP25Detached",
+        "type": "wing"
+    },
+    {
+        "id": 986842510,
+        "name": "CharSkyKid_Wing_AP25Ribbons",
+        "type": "wing"
+    },
+    {
+        "id": 1239792999,
+        "name": "CharSkyKid_Wing_AP25DyeCloth",
+        "type": "wing"
+    },
+    {
+        "id": 3958985394,
+        "name": "CharSkyKid_Wing_AP26Heuke",
+        "type": "wing"
+    },
+    {
+        "id": 2226970214,
+        "name": "CharSkyKid_Wing_AP26Hourglass",
+        "type": "wing"
+    },
+    {
+        "id": 3370586827,
+        "name": "CharSkyKid_Wing_AP26MoonCloak",
+        "type": "wing"
+    },
+    {
+        "id": 654884315,
+        "name": "CharSkyKid_Wing_AP26BlueBird",
+        "type": "wing"
+    },
+    {
+        "id": 2955255563,
+        "name": "CharSkyKid_Wing_AP27GuardCape",
+        "type": "wing"
+    },
+    {
+        "id": 4104507832,
+        "name": "CharSkyKid_Wing_AP27Darkness",
+        "type": "wing"
+    },
+    {
+        "id": 393014201,
+        "name": "CharSkyKid_Wing_AP27NightElder",
+        "type": "wing"
+    },
+    {
+        "id": 3985580089,
+        "name": "CharSkyKid_Wing_AP28CharmerCape",
+        "type": "wing"
+    },
+    {
+        "id": 1047044186,
+        "name": "CharSkyKid_Wing_AP28BirdWhisperer",
+        "type": "wing"
+    },
+    {
+        "id": 1098211010,
+        "name": "CharSkyKid_Wing_AP28GuardianCape",
+        "type": "wing"
+    },
+    {
+        "id": 662395186,
+        "name": "CharSkyKid_Wing_AP28MantaWhisperer",
+        "type": "wing"
+    },
+    {
+        "id": 1358123056,
+        "name": "CharSkyKid_Wing_AP29LightStrands",
+        "type": "wing"
+    },
+    {
+        "id": 3371872468,
+        "name": "CharSkyKid_Wing_AP29DoubleFive",
+        "type": "wing"
+    },
+    {
+        "id": 1023970646,
+        "name": "CharSkyKid_Wing_AP29Shush",
+        "type": "wing"
+    },
+    {
+        "id": 2958465868,
+        "name": "CharSkyKid_Wing_AP30Curly",
+        "type": "wing"
+    },
+    {
+        "id": 2194341542,
+        "name": "CharSkyKid_Wing_AP30LongCoat",
+        "type": "wing"
+    },
+    {
+        "id": 19915109,
+        "name": "CharSkyKid_Wing_AP30SpiritBird",
+        "type": "wing"
+    },
+    {
+        "id": 3420139902,
+        "name": "CharSkyKid_Wing_Fortune",
+        "type": "wing"
+    },
+    {
+        "id": 389333831,
+        "name": "CharSkyKid_Wing_Fish_01",
+        "type": "wing"
+    },
+    {
+        "id": 2605055617,
+        "name": "CharSkyKid_Wing_FortuneDragon",
+        "type": "wing"
+    },
+    {
+        "id": 1928253710,
+        "name": "CharSkyKid_Wing_FortuneSnake",
+        "type": "wing"
+    },
+    {
+        "id": 511060416,
+        "name": "CharSkyKid_Wing_Blossom_01",
+        "type": "wing"
+    },
+    {
+        "id": 774729659,
+        "name": "CharSkyKid_Wing_Wisteria_01",
+        "type": "wing"
+    },
+    {
+        "id": 2469511883,
+        "name": "CharSkyKid_Wing_Tulip",
+        "type": "wing"
+    },
+    {
+        "id": 2597776800,
+        "name": "CharSkyKid_Wing_CallaLily",
+        "type": "wing"
+    },
+    {
+        "id": 3362032500,
+        "name": "CharSkyKid_Wing_RosePattern",
+        "type": "wing"
+    },
+    {
+        "id": 2279209769,
+        "name": "CharSkyKid_Wing_BloomSunflower",
+        "type": "wing"
+    },
+    {
+        "id": 2731242012,
+        "name": "CharSkyKid_Wing_ClassicOne_EarthDay",
+        "type": "wing"
+    },
+    {
+        "id": 2934152045,
+        "name": "CharSkyKid_Wing_Ocean_01",
+        "type": "wing"
+    },
+    {
+        "id": 4292293040,
+        "name": "CharSkyKid_Wing_SeaTurtle_01",
+        "type": "wing"
+    },
+    {
+        "id": 2960015153,
+        "name": "CharSkyKid_Wing_SeaFoam",
+        "type": "wing"
+    },
+    {
+        "id": 92214283,
+        "name": "CharSkyKid_Wing_FishPattern",
+        "type": "wing"
+    },
+    {
+        "id": 68102609,
+        "name": "CharSkyKid_Wing_WaterWave",
+        "type": "wing"
+    },
+    {
+        "id": 1462163205,
+        "name": "CharSkyKid_Wing_Rainbow_01",
+        "type": "wing"
+    },
+    {
+        "id": 3725406473,
+        "name": "CharSkyKid_Wing_DarkRainbow",
+        "type": "wing"
+    },
+    {
+        "id": 1532633237,
+        "name": "CharSkyKid_Wing_ColorShawl",
+        "type": "wing"
+    },
+    {
+        "id": 1141508341,
+        "name": "CharSkyKid_Wing_ColorBrushShawl",
+        "type": "wing"
+    },
+    {
+        "id": 560539817,
+        "name": "CharSkyKid_Wing_TGCHoodie",
+        "type": "wing"
+    },
+    {
+        "id": 672426028,
+        "name": "CharSkyKid_Wing_TGCBlackHoodie",
+        "type": "wing"
+    },
+    {
+        "id": 769730861,
+        "name": "CharSkyKid_Wing_TGCWireframe",
+        "type": "wing"
+    },
+    {
+        "id": 3897923380,
+        "name": "CharSkyKid_Wing_TGCWireframeEvergreen",
+        "type": "wing"
+    },
+    {
+        "id": 1164341765,
+        "name": "CharSkyKid_Wing_TeamDusk",
+        "type": "wing"
+    },
+    {
+        "id": 2676410520,
+        "name": "CharSkyKid_Wing_TeamPrairie",
+        "type": "wing"
+    },
+    {
+        "id": 1140668738,
+        "name": "CharSkyKid_Wing_TeamSunset",
+        "type": "wing"
+    },
+    {
+        "id": 1079685410,
+        "name": "CharSkyKid_Wing_TeamRain",
+        "type": "wing"
+    },
+    {
+        "id": 704153146,
+        "name": "CharSkyKid_Wing_SunlightTowelBlue",
+        "type": "wing"
+    },
+    {
+        "id": 3208071230,
+        "name": "CharSkyKid_Wing_SunlightTowelPink",
+        "type": "wing"
+    },
+    {
+        "id": 1254605514,
+        "name": "CharSkyKid_Wing_SunlightTowelYellow",
+        "type": "wing"
+    },
+    {
+        "id": 1140633536,
+        "name": "CharSkyKid_Wing_SunlightShawl",
+        "type": "wing"
+    },
+    {
+        "id": 2963100882,
+        "name": "CharSkyKid_Wing_LinenCover",
+        "type": "wing"
+    },
+    {
+        "id": 3006682068,
+        "name": "CharSkyKid_Wing_Moonlight",
+        "type": "wing"
+    },
+    {
+        "id": 2496216296,
+        "name": "CharSkyKid_Wing_Bat",
+        "type": "wing"
+    },
+    {
+        "id": 3505106371,
+        "name": "CharSkyKid_Wing_ClassicOne_TGCBlueBat",
+        "type": "wing"
+    },
+    {
+        "id": 832452232,
+        "name": "CharSkyKid_Wing_SpiderWeb_01",
+        "type": "wing"
+    },
+    {
+        "id": 3304536471,
+        "name": "CharSkyKid_Wing_Withered_01",
+        "type": "wing"
+    },
+    {
+        "id": 729135671,
+        "name": "CharSkyKid_Wing_MischiefCat",
+        "type": "wing"
+    },
+    {
+        "id": 1647992111,
+        "name": "CharSkyKid_Wing_MischiefGoth",
+        "type": "wing"
+    },
+    {
+        "id": 4236701988,
+        "name": "CharSkyKid_Wing_ClassicOne_Crab",
+        "type": "wing"
+    },
+    {
+        "id": 1268605695,
+        "name": "CharSkyKid_Wing_Cobweb",
+        "type": "wing"
+    },
+    {
+        "id": 2515602673,
+        "name": "CharSkyKid_Wing_Crabula",
+        "type": "wing"
+    },
+    {
+        "id": 1632197469,
+        "name": "CharSkyKid_Wing_Raven",
+        "type": "wing"
+    },
+    {
+        "id": 1433045050,
+        "name": "CharSkyKid_Wing_Xmas",
+        "type": "wing"
+    },
+    {
+        "id": 2351116071,
+        "name": "CharSkyKid_Wing_Snowflake",
+        "type": "wing"
+    },
+    {
+        "id": 2973627634,
+        "name": "CharSkyKid_Wing_WinterElder_01",
+        "type": "wing"
+    },
+    {
+        "id": 1528576593,
+        "name": "CharSkyKid_Wing_YetiFur",
+        "type": "wing"
+    },
+    {
+        "id": 69520136,
+        "name": "CharSkyKid_Wing_WinterPuffer",
+        "type": "wing"
+    },
+    {
+        "id": 4284898649,
+        "name": "CharSkyKid_Wing_FeastFluffyShawl",
+        "type": "wing"
+    },
+    {
+        "id": 3896224849,
+        "name": "CharSkyKid_Wing_FeastScarf",
+        "type": "wing"
+    },
+    {
+        "id": 2036428953,
+        "name": "CharSkyKid_Wing_Meteor",
+        "type": "wing"
+    },
+    {
+        "id": 3719316709,
+        "name": "CharSkyKid_Wing_PastryCloud",
+        "type": "wing"
+    },
+    {
+        "id": 2359398180,
+        "name": "CharSkyKid_Wing_BandJacket",
+        "type": "wing"
+    },
+    {
+        "id": 1691107894,
+        "name": "CharSkyKid_Wing_AnnivTuxedo",
+        "type": "wing"
+    },
+    {
+        "id": 506655643,
+        "name": "CharSkyKid_Wing_RibbonDressCape",
+        "type": "wing"
+    },
+    {
+        "id": 2325779063,
+        "name": "CharSkyKid_Wing_RibbonBow",
+        "type": "wing"
+    },
+    {
+        "id": 1022316355,
+        "name": "CharSkyKid_Wing_TriumphIce",
+        "type": "wing"
+    },
+    {
+        "id": 662821395,
+        "name": "CharSkyKid_Wing_FortuneHorse",
+        "type": "wing"
+    },
+    {
+        "id": 692626208,
+        "name": "CharSkyKid_Wing_NatureWaterfall",
+        "type": "wing"
+    },
+    {
+        "id": 3789929787,
+        "name": "CharSkyKid_Wing_Sparrow",
+        "type": "wing"
+    },
+    {
+        "id": 2529994785,
+        "name": "CharSkyKid_Wing_Moth",
+        "type": "wing"
+    },
+    {
+        "id": 78382708,
+        "name": "CharSkyKid_Wing_KizunaAi_Pink",
+        "type": "wing"
+    },
+    {
+        "id": 1245852319,
+        "name": "CharSkyKid_Wing_KizunaAi_Red",
+        "type": "wing"
+    },
+    {
+        "id": 320385458,
+        "name": "CharSkyKid_Wing_SwitchRed_01",
+        "type": "wing"
+    },
+    {
+        "id": 496297629,
+        "name": "CharSkyKid_Wing_SwitchBlue_01",
+        "type": "wing"
+    },
+    {
+        "id": 3719395356,
+        "name": "CharSkyKid_Wing_Traveler_01",
+        "type": "wing"
+    },
+    {
+        "id": 3769728213,
+        "name": "CharSkyKid_Wing_Traveler_02",
+        "type": "wing"
+    },
+    {
+        "id": 1553660885,
+        "name": "CharSkyKid_Wing_Flow",
+        "type": "wing"
+    },
+    {
+        "id": 1324678683,
+        "name": "CharSkyKid_Wing_None",
+        "type": "wing"
+    },
+    {
+        "id": 915389313,
+        "name": "CharSkyKid_Wing_TreasureCoin",
+        "type": "wing"
+    },
+    {
+        "id": 143015909,
+        "name": "CharSkyKid_Wing_MaskRampEffects",
+        "type": "wing"
+    },
+    {
+        "id": 16155741,
+        "name": "NPC_CivilianMaleBody",
+        "type": "body"
+    },
+    {
+        "id": 4162320124,
+        "name": "NPC_CivilianFemaleBody",
+        "type": "body"
+    },
+    {
+        "id": 3824207637,
+        "name": "NPC_CivilianMaleShoulder",
+        "type": "wing"
+    },
+    {
+        "id": 1860979128,
+        "name": "NPC_CivilianFemaleShoulder",
+        "type": "wing"
+    },
+    {
+        "id": 2090822187,
+        "name": "NPC_YoungFemaleBody",
+        "type": "body"
+    },
+    {
+        "id": 3303306080,
+        "name": "NPC_CivilianShoes",
+        "type": "feet"
+    },
+    {
+        "id": 3883172759,
+        "name": "NPC_LaborerMaleBody",
+        "type": "body"
+    },
+    {
+        "id": 2816518651,
+        "name": "NPC_LaborerMaleShoulder",
+        "type": "wing"
+    },
+    {
+        "id": 466270181,
+        "name": "NPC_LaborerMaleHeadwrap",
+        "type": "wing"
+    },
+    {
+        "id": 2077092050,
+        "name": "NPC_LaborerShoes",
+        "type": "feet"
+    },
+    {
+        "id": 2600519757,
+        "name": "NPC_MerchantBody",
+        "type": "body"
+    },
+    {
+        "id": 1323093800,
+        "name": "NPC_MusicianBody",
+        "type": "body"
+    },
+    {
+        "id": 4214095179,
+        "name": "NPC_SkinnyIntellectualBody",
+        "type": "body"
+    },
+    {
+        "id": 1991853726,
+        "name": "NPC_SkinnyIntellectualShawlDn",
+        "type": "body"
+    },
+    {
+        "id": 1794721661,
+        "name": "NPC_KidLongPantsBody",
+        "type": "body"
+    },
+    {
+        "id": 2839299672,
+        "name": "NPC_CivilianMaleBodyGhost",
+        "type": "body"
+    },
+    {
+        "id": 4106521599,
+        "name": "CharSkyNPC_Body_MusicianRigGhost",
+        "type": "body"
+    },
+    {
+        "id": 2290553360,
+        "name": "NPC_AP21SilkRaiment",
+        "type": "body"
+    },
+    {
+        "id": 2199658951,
+        "name": "NPC_AP21RoyalDress",
+        "type": "body"
+    },
+    {
+        "id": 2541104174,
+        "name": "NPC_AP21Coat",
+        "type": "body"
+    },
+    {
+        "id": 3796947687,
+        "name": "NPC_AP21LinenPants",
+        "type": "body"
+    },
+    {
+        "id": 944179865,
+        "name": "NPC_AP22Designer",
+        "type": "body"
+    },
+    {
+        "id": 2589993245,
+        "name": "NPC_AP23PianistBasic",
+        "type": "body"
+    },
+    {
+        "id": 527452384,
+        "name": "NPC_AP23PianistSuit",
+        "type": "body"
+    },
+    {
+        "id": 243876501,
+        "name": "NPC_AP23CellistBasic",
+        "type": "body"
+    },
+    {
+        "id": 1913737176,
+        "name": "NPC_AP23CellistDress",
+        "type": "body"
+    },
+    {
+        "id": 1634205150,
+        "name": "NPC_AP24Classic",
+        "type": "body"
+    },
+    {
+        "id": 2391519470,
+        "name": "NPC_AP24Apron",
+        "type": "body"
+    },
+    {
+        "id": 1274426890,
+        "name": "NPC_AP24TopHat",
+        "type": "body"
+    },
+    {
+        "id": 3668846217,
+        "name": "NPC_AP24BellOnly",
+        "type": "body"
+    },
+    {
+        "id": 3591367253,
+        "name": "NPC_AP24BellShoes",
+        "type": "body"
+    },
+    {
+        "id": 3381806432,
+        "name": "NPC_AP24BellShoesCham",
+        "type": "body"
+    },
+    {
+        "id": 3827791978,
+        "name": "NPC_AP24BellDress",
+        "type": "body"
+    },
+    {
+        "id": 701147810,
+        "name": "NPC_AP24BellFull",
+        "type": "body"
+    },
+    {
+        "id": 2977864704,
+        "name": "NPC_AP24Stripes",
+        "type": "body"
+    },
+    {
+        "id": 948938519,
+        "name": "NPC_AP24Onion",
+        "type": "body"
+    },
+    {
+        "id": 1542335746,
+        "name": "NPC_AP24Triangle",
+        "type": "body"
+    },
+    {
+        "id": 977491987,
+        "name": "NPC_AP24Ears",
+        "type": "body"
+    },
+    {
+        "id": 634364554,
+        "name": "NPC_AP21KingCloak",
+        "type": "wing"
+    },
+    {
+        "id": 3729640004,
+        "name": "NPC_AP25Tunic",
+        "type": "body"
+    },
+    {
+        "id": 2431356413,
+        "name": "NPC_AP25Wrap",
+        "type": "body"
+    },
+    {
+        "id": 1947648133,
+        "name": "NPC_AP25BigPants",
+        "type": "body"
+    },
+    {
+        "id": 664433535,
+        "name": "NPC_AP25DyeCloth",
+        "type": "wing"
+    },
+    {
+        "id": 2202271796,
+        "name": "NPC_AP26Lumberjack",
+        "type": "body"
+    },
+    {
+        "id": 357067539,
+        "name": "NPC_AP26Gown",
+        "type": "body"
+    },
+    {
+        "id": 1851222343,
+        "name": "NPC_AP26Royal",
+        "type": "body"
+    },
+    {
+        "id": 2096448812,
+        "name": "NPC_AP27OldMan",
+        "type": "body"
+    },
+    {
+        "id": 1646809829,
+        "name": "NPC_AP27Caretaker",
+        "type": "body"
+    },
+    {
+        "id": 277424628,
+        "name": "NPC_AP27Guard",
+        "type": "body"
+    },
+    {
+        "id": 3423574672,
+        "name": "NPC_AP27GuardNoSword",
+        "type": "body"
+    },
+    {
+        "id": 328199268,
+        "name": "NPC_AP27GuardMask",
+        "type": "mask"
+    },
+    {
+        "id": 1867952185,
+        "name": "NPC_AP27Herder",
+        "type": "body"
+    },
+    {
+        "id": 437722673,
+        "name": "NPC_AP27NightElder",
+        "type": "body"
+    },
+    {
+        "id": 2734743537,
+        "name": "NPC_AP28JellyShorts",
+        "type": "body"
+    },
+    {
+        "id": 3221338960,
+        "name": "NPC_AP28BirdTunic",
+        "type": "body"
+    },
+    {
+        "id": 4075433434,
+        "name": "NPC_AP28MantaWhisperer",
+        "type": "body"
+    },
+    {
+        "id": 1084705569,
+        "name": "NPC_AP29PleatedCivilian",
+        "type": "body"
+    },
+    {
+        "id": 2895860405,
+        "name": "NPC_AP29PleatedLaborer",
+        "type": "body"
+    },
+    {
+        "id": 2902904579,
+        "name": "NPC_AP29LightStrandsWing",
+        "type": "wing"
+    },
+    {
+        "id": 3407717100,
+        "name": "NPC_AP29HighlightsHair",
+        "type": "hair"
+    },
+    {
+        "id": 2011409159,
+        "name": "NPC_AP29ShortJacket",
+        "type": "body"
+    },
+    {
+        "id": 443250643,
+        "name": "NPC_AP29Layered",
+        "type": "body"
+    },
+    {
+        "id": 4016950898,
+        "name": "NPC_AP30PuffyDress",
+        "type": "body"
+    },
+    {
+        "id": 3507252757,
+        "name": "NPC_AP30RuffledShirt",
+        "type": "body"
+    },
+    {
+        "id": 1191379798,
+        "name": "NPC_AP30Romper",
+        "type": "body"
+    },
+    {
+        "id": 3540532198,
+        "name": "NPC_AP30WaistCoat",
+        "type": "body"
+    },
+    {
+        "id": 4136670535,
+        "name": "NPC_AP31Artist",
+        "type": "body"
+    },
+    {
+        "id": 772190650,
+        "name": "CharSkyNPC_Body_Invisible",
+        "type": "body"
+    },
+    {
+        "id": 3599231951,
+        "name": "CharSkyNPC_Body_MaleCivilian",
+        "type": "body"
+    },
+    {
+        "id": 801819898,
+        "name": "CharSkyNPC_Body_FemaleCivilian",
+        "type": "body"
+    },
+    {
+        "id": 3454227119,
+        "name": "CharSkyNPC_Body_MerchantRig",
+        "type": "body"
+    },
+    {
+        "id": 3691947440,
+        "name": "CharSkyNPC_Body_MusicianRig",
+        "type": "body"
+    },
+    {
+        "id": 1021189534,
+        "name": "CharSkyNPC_Body_ActorRig",
+        "type": "body"
+    },
+    {
+        "id": 3988556959,
+        "name": "CharSkyNPC_Body_DirectorRig",
+        "type": "body"
+    },
+    {
+        "id": 3777675530,
+        "name": "CharSkyNPC_Body_DancerRig",
+        "type": "body"
+    },
+    {
+        "id": 28439235,
+        "name": "CharSkyNPC_Body_JugglerRig",
+        "type": "body"
+    },
+    {
+        "id": 38798400,
+        "name": "CharSkyNPC_Body_FatLabor",
+        "type": "body"
+    },
+    {
+        "id": 190298753,
+        "name": "CharSkyNPC_Body_FatLaborWave",
+        "type": "body"
+    },
+    {
+        "id": 3382365614,
+        "name": "CharSkyNPC_Body_FatLaborStaff",
+        "type": "body"
+    },
+    {
+        "id": 3398439446,
+        "name": "CharSkyNPC_Body_FatLaborChild",
+        "type": "body"
+    },
+    {
+        "id": 561104938,
+        "name": "CharSkyNPC_Body_StrongLabor",
+        "type": "body"
+    },
+    {
+        "id": 206123876,
+        "name": "CharSkyNPC_Body_StrongLaborHammer",
+        "type": "body"
+    },
+    {
+        "id": 695339321,
+        "name": "CharSkyNPC_Body_SkinnyIntellectual",
+        "type": "body"
+    },
+    {
+        "id": 1154523481,
+        "name": "CharSkyNPC_Body_StrongKnight",
+        "type": "body"
+    },
+    {
+        "id": 1593516145,
+        "name": "CharSkyNPC_Body_YoungFemaleRig",
+        "type": "body"
+    },
+    {
+        "id": 1315608939,
+        "name": "CharSkyNPC_Body_RobedLadyRig",
+        "type": "body"
+    },
+    {
+        "id": 1837221355,
+        "name": "CharSkyNPC_Body_FatLaborDress",
+        "type": "body"
+    },
+    {
+        "id": 4078911489,
+        "name": "CharSkyNPC_Body_AP07CargoPants_01",
+        "type": "body"
+    },
+    {
+        "id": 2069718115,
+        "name": "CharSkyNPC_Body_AP07Jumpsuits_01",
+        "type": "body"
+    },
+    {
+        "id": 599960964,
+        "name": "CharSkyNPC_Body_AP08Lion",
+        "type": "body"
+    },
+    {
+        "id": 1151349110,
+        "name": "CharSkyNPC_Body_AP09Yeti_01",
+        "type": "body"
+    },
+    {
+        "id": 764327266,
+        "name": "CharSkyNPC_Body_AP10ClassClown",
+        "type": "body"
+    },
+    {
+        "id": 182380113,
+        "name": "CharSkyNPC_Body_AP11Prince",
+        "type": "body"
+    },
+    {
+        "id": 1796917420,
+        "name": "CharSkyNPC_Body_AP11PrinceSpirit",
+        "type": "body"
+    },
+    {
+        "id": 259920137,
+        "name": "CharSkyNPC_Body_AP11Narcissist",
+        "type": "body"
+    },
+    {
+        "id": 2653344890,
+        "name": "CharSkyNPC_Body_AP12GradientTunic_01",
+        "type": "body"
+    },
+    {
+        "id": 2859828506,
+        "name": "CharSkyNPC_Body_AP12DarkTunic_01",
+        "type": "body"
+    },
+    {
+        "id": 680578814,
+        "name": "CharSkyNPC_Body_AP12YellowTunic_01",
+        "type": "body"
+    },
+    {
+        "id": 959234770,
+        "name": "CharSkyNPC_Body_AP12BlueTunic_01",
+        "type": "body"
+    },
+    {
+        "id": 2423233585,
+        "name": "CharSkyNPC_Body_AP13Tunic_01",
+        "type": "body"
+    },
+    {
+        "id": 3837654839,
+        "name": "CharSkyNPC_Body_AP14DancerSkirt_01",
+        "type": "body"
+    },
+    {
+        "id": 976560518,
+        "name": "CharSkyNPC_Body_AP14JesterPants_01",
+        "type": "body"
+    },
+    {
+        "id": 2864351859,
+        "name": "CharSkyNPC_Body_AP14ShadowPants_01",
+        "type": "body"
+    },
+    {
+        "id": 2429994788,
+        "name": "CharSkyNPC_Body_AP16BlueSeed",
+        "type": "body"
+    },
+    {
+        "id": 3503598217,
+        "name": "CharSkyNPC_Body_AP16SlateRunaway",
+        "type": "body"
+    },
+    {
+        "id": 46311347,
+        "name": "CharSkyNPC_Body_AP16WhiteCropTop",
+        "type": "body"
+    },
+    {
+        "id": 3862190679,
+        "name": "CharSkyNPC_Body_AP16OrangeLove",
+        "type": "body"
+    },
+    {
+        "id": 1624438401,
+        "name": "CharSkyNPC_Body_AP16GreenCure",
+        "type": "body"
+    },
+    {
+        "id": 544677782,
+        "name": "CharSkyNPC_Body_AP17Apron",
+        "type": "body"
+    },
+    {
+        "id": 2908158247,
+        "name": "CharSkyNPC_Body_AP17Injured",
+        "type": "body"
+    },
+    {
+        "id": 250725075,
+        "name": "CharSkyNPC_Body_AP18LightRobe",
+        "type": "body"
+    },
+    {
+        "id": 153742709,
+        "name": "CharSkyNPC_Body_AP19MonkRobe",
+        "type": "body"
+    },
+    {
+        "id": 1008750552,
+        "name": "CharSkyNPC_Body_AP21King",
+        "type": "body"
+    },
+    {
+        "id": 1325554033,
+        "name": "CharSkyNPC_Body_MoonlightDress",
+        "type": "body"
+    },
+    {
+        "id": 2942907137,
+        "name": "CharSkyNPC_Hair_FatLaborBun",
+        "type": "hair"
+    },
+    {
+        "id": 4264449179,
+        "name": "CharSkyKid_Mask_NPC",
+        "type": "mask"
+    },
+    {
+        "id": 163040607,
+        "name": "CharSkyNPC_Mask_KnightHelmet",
+        "type": "mask"
+    },
+    {
+        "id": 2297892564,
+        "name": "CharSkyNPC_Mask_FatLaborMask",
+        "type": "mask"
+    },
+    {
+        "id": 295437965,
+        "name": "CharSkyNPC_Horn_SkinnyIntellectualCrown",
+        "type": "horn"
+    },
+    {
+        "id": 819999441,
+        "name": "CharSkyNPC_Horn_FatLaborChains",
+        "type": "horn"
+    },
+    {
+        "id": 856905140,
+        "name": "CharSkyNPC_Horn_FatLaborChains_02",
+        "type": "horn"
+    },
+    {
+        "id": 3577824232,
+        "name": "CharSkyNPC_Horn_MCivilianChains",
+        "type": "horn"
+    },
+    {
+        "id": 480878076,
+        "name": "CharSkyNPC_Horn_SkinnyIntellectualChains",
+        "type": "horn"
+    },
+    {
+        "id": 807441841,
+        "name": "CharSkyNPC_Horn_StrongLaborChains",
+        "type": "horn"
+    },
+    {
+        "id": 3890058529,
+        "name": "CharSkyNPC_Prop_Book",
+        "type": "prop"
+    },
+    {
+        "id": 2041015009,
+        "name": "CharSkyNPC_Prop_Booze",
+        "type": "prop"
+    },
+    {
+        "id": 1349345394,
+        "name": "CharSkyNPC_Prop_ButterflyNet",
+        "type": "prop"
+    },
+    {
+        "id": 1893595978,
+        "name": "CharSkyNPC_Prop_Clipboard",
+        "type": "prop"
+    },
+    {
+        "id": 2604212320,
+        "name": "CharSkyNPC_Prop_FireStick",
+        "type": "prop"
+    },
+    {
+        "id": 2909584278,
+        "name": "CharSkyNPC_Prop_Flag",
+        "type": "prop"
+    },
+    {
+        "id": 1715802669,
+        "name": "CharSkyNPC_Prop_Horn",
+        "type": "prop"
+    },
+    {
+        "id": 2186944737,
+        "name": "CharSkyNPC_Prop_Jar",
+        "type": "prop"
+    },
+    {
+        "id": 987619822,
+        "name": "CharSkyNPC_Prop_Oar",
+        "type": "prop"
+    },
+    {
+        "id": 2114336091,
+        "name": "CharSkyNPC_Prop_PickAxe",
+        "type": "prop"
+    },
+    {
+        "id": 1228521966,
+        "name": "CharSkyNPC_Prop_PowerGlove",
+        "type": "prop"
+    },
+    {
+        "id": 2317142749,
+        "name": "CharSkyNPC_Prop_Shield",
+        "type": "prop"
+    },
+    {
+        "id": 776794517,
+        "name": "CharSkyNPC_Prop_Spear",
+        "type": "prop"
+    },
+    {
+        "id": 421401781,
+        "name": "CharSkyNPC_Prop_Sword",
+        "type": "prop"
+    },
+    {
+        "id": 2869952788,
+        "name": "CharSkyNPC_Wing_AP28CharmerCape",
+        "type": "wing"
+    },
+    {
+        "id": 945835400,
+        "name": "CharSkyKid_Prop_Shield_01",
+        "type": "prop"
+    },
+    {
+        "id": 365699781,
+        "name": "Nest_MainStreetApartment_Capacity_1",
+        "type": "neck"
+    },
+    {
+        "id": 315366924,
+        "name": "Nest_MainStreetApartment_Capacity_2",
+        "type": "neck"
+    },
+    {
+        "id": 332144543,
+        "name": "Nest_MainStreetApartment_Capacity_3",
+        "type": "neck"
+    },
+    {
+        "id": 1775293343,
+        "name": "CharSkyKid_Prop_AP30ChallengeBouncePad",
+        "type": "prop"
+    },
+    {
+        "id": 1158719606,
+        "name": "CharSkyKid_Prop_AP30ChallengeBouncePad_2",
+        "type": "prop"
+    },
+    {
+        "id": 1175497225,
+        "name": "CharSkyKid_Prop_AP30ChallengeBouncePad_3",
+        "type": "prop"
+    },
+    {
+        "id": 4001389262,
+        "name": "CharSkyKid_Prop_AP30ChallengeLantern",
+        "type": "prop"
+    },
+    {
+        "id": 3366526331,
+        "name": "CharSkyKid_Prop_AP30ChallengeToken",
+        "type": "prop"
+    },
+    {
+        "id": 4180409510,
+        "name": "CharSkyKid_Prop_AP30ChallengeBallDispenser",
+        "type": "prop"
+    },
+    {
+        "id": 826142239,
+        "name": "CharSkyKid_Prop_AP30ChallengeTarget",
+        "type": "prop"
+    },
+    {
+        "id": 634715293,
+        "name": "CharSkyKid_Prop_AP30ChallengePlatform",
+        "type": "prop"
+    },
+    {
+        "id": 3954884592,
+        "name": "CharSkyKid_Prop_TreasureSeekersBanner",
+        "type": "prop"
+    },
+    {
+        "id": 3318272121,
+        "name": "CharSkyKid_Prop_ChallengeTreasure",
+        "type": "prop"
+    }
+]

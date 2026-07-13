@@ -1,0 +1,25 @@
+{
+  "motd": "Hello Xiaoyu!",
+  "motd_title": "Tips: ",
+  "motd_timestamp": 1777114091,
+  "motd_version": 383129,
+  "motd_buttons": [
+    {
+      "url": "https://www.tiktok.com/@thatskygame",
+      "img": "Icon_tiktok"
+    },
+    {
+      "url": "https://www.instagram.com/thatskygame/?hl=en",
+      "img": "Icon_instagram"
+    },
+    {
+      "url": "https://www.facebook.com/thatskygame/",
+      "img": "Icon_facebook"
+    },
+    {
+      "url": "https://discord.gg/thatskygame",
+      "img": "Icon_discord"
+    }
+  ],
+  "motd_season_end": 1783062000
+}
