@@ -11518,8 +11518,8 @@
             "ta": "spirit_unlock"
         },
         {
-            "id": 843624684,
-            "nm": "relationship_ability_ap06unlock_ap10_double_five",
+            "id": 1250000509,
+            "nm": "relationship_ability_ap06unlock_ap10_high_five_3",
             "typ": "relationship_ability",
             "spirit": "questap10",
             "cst": 0,
@@ -11538,7 +11538,7 @@
             "cst": 0,
             "ap": false,
             "ctyp": "season_candle",
-            "dep": 843624684,
+            "dep": 1250000509,
             "tt": 4,
             "td": 1964902950,
             "ta": "spirit_unlock"
@@ -11745,6 +11745,6 @@
             "ta": "spirit_unlock"
         }
     ],
-    "spirit_shops_version": 398899,
-    "spirit_shops_total_count": 2432
+    "spirit_shops_version": 403162,
+    "spirit_shops_total_count": 2501
 }

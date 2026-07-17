@@ -24,29 +24,6 @@
       "client_level_names": null
     },
     {
-      "id": 901504997,
-      "name": "crab_rock_trick",
-      "cooldown": 0,
-      "cancel_cooldown": 0,
-      "duration": 8,
-      "multiplier": 1,
-      "effect": "crab_rock_trick",
-      "icon": "UiMenuBuffCrabRock",
-      "event": "none",
-      "is_aura": false,
-      "aura_dist": 0,
-      "is_stackable": false,
-      "is_removable": true,
-      "disable_fx": false,
-      "recipient_type": "local",
-      "params": [],
-      "fx_type": "basic",
-      "disable_icon": false,
-      "depend_buffs": [],
-      "client_event_names": null,
-      "client_level_names": null
-    },
-    {
       "id": 3589061110,
       "name": "birthdayhat_krill",
       "cooldown": 0,
@@ -78,7 +55,7 @@
       "cancel_cooldown": 0,
       "duration": 20,
       "multiplier": 1,
-      "effect": "emitter_foot_flower",
+      "effect": "foot_trail_rose",
       "icon": "UiOutfitPropAP11Rose",
       "event": "none",
       "is_aura": false,
@@ -254,6 +231,29 @@
       "multiplier": 1,
       "effect": "crab_curse",
       "icon": "UiMenuBuffCrabCurse",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 901504997,
+      "name": "crab_rock_trick",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 8,
+      "multiplier": 1,
+      "effect": "crab_rock_trick",
+      "icon": "UiMenuBuffCrabRock",
       "event": "none",
       "is_aura": false,
       "aura_dist": 0,
@@ -545,7 +545,9 @@
       "fx_type": "basic",
       "disable_icon": false,
       "depend_buffs": [],
-      "client_event_names": null,
+      "client_event_names": [
+        "global_halloween"
+      ],
       "client_level_names": null
     },
     {
@@ -555,7 +557,7 @@
       "cancel_cooldown": 0,
       "duration": 20,
       "multiplier": 0.5,
-      "effect": "emitter_foot_flower",
+      "effect": "foot_trail_flower",
       "icon": "UiMenuBuffFlairFlower",
       "event": "none",
       "is_aura": false,
@@ -598,7 +600,9 @@
       "fx_type": "basic",
       "disable_icon": false,
       "depend_buffs": [],
-      "client_event_names": null,
+      "client_event_names": [
+        "global_halloween"
+      ],
       "client_level_names": null
     },
     {
@@ -651,7 +655,9 @@
       "fx_type": "basic",
       "disable_icon": false,
       "depend_buffs": [],
-      "client_event_names": null,
+      "client_event_names": [
+        "global_halloween"
+      ],
       "client_level_names": null
     },
     {
@@ -752,7 +758,9 @@
       "fx_type": "basic",
       "disable_icon": false,
       "depend_buffs": [],
-      "client_event_names": null,
+      "client_event_names": [
+        "global_halloween"
+      ],
       "client_level_names": null
     },
     {
@@ -1460,6 +1468,29 @@
       "multiplier": -3,
       "effect": "height_mult",
       "icon": "UiMenuBuffChibi",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 3745827883,
+      "name": "oreo_form_pin",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 20,
+      "multiplier": 1,
+      "effect": "oreo_form",
+      "icon": "UiOutfitPropOreoPlush",
       "event": "none",
       "is_aura": false,
       "aura_dist": 0,
@@ -2229,6 +2260,31 @@
       "client_level_names": null
     },
     {
+      "id": 3788617799,
+      "name": "outfit_body_sunlightwetsuit",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_body",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Body_SunlightWetsuit"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
       "id": 1289297791,
       "name": "outfit_body_swimtrunks",
       "cooldown": 0,
@@ -2647,31 +2703,6 @@
       "client_level_names": null
     },
     {
-      "id": 43899279,
-      "name": "outfit_neck_bow",
-      "cooldown": 0,
-      "cancel_cooldown": 0,
-      "duration": 30,
-      "multiplier": 1,
-      "effect": "outfit_neck",
-      "icon": "UiOutfitNeckDOL23Bow",
-      "event": "none",
-      "is_aura": false,
-      "aura_dist": 0,
-      "is_stackable": false,
-      "is_removable": true,
-      "disable_fx": false,
-      "recipient_type": "handhold",
-      "params": [
-        "CharSkyKid_Neck_Bow"
-      ],
-      "fx_type": "basic",
-      "disable_icon": false,
-      "depend_buffs": [],
-      "client_event_names": null,
-      "client_level_names": null
-    },
-    {
       "id": 523621584,
       "name": "outfit_classicone_yellow",
       "cooldown": 0,
@@ -2991,6 +3022,31 @@
       "recipient_type": "handhold",
       "params": [
         "CharSkyKid_Feet_SeaFoam"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 522478268,
+      "name": "outfit_feet_sunlightduckflippers",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_feet",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Feet_SunlightDuckFlippers"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -4084,6 +4140,31 @@
       "client_level_names": null
     },
     {
+      "id": 4245742233,
+      "name": "outfit_hair_sunlightsurfer",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_hair",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Hair_SunlightSurfer"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
       "id": 4187369974,
       "name": "outfit_hair_treasurebandanalong",
       "cooldown": 0,
@@ -4153,31 +4234,6 @@
       "recipient_type": "handhold",
       "params": [
         "CharSkyKid_Hair_WinterHat_01"
-      ],
-      "fx_type": "basic",
-      "disable_icon": false,
-      "depend_buffs": [],
-      "client_event_names": null,
-      "client_level_names": null
-    },
-    {
-      "id": 4024059810,
-      "name": "outfit_neck_crabAcc_original",
-      "cooldown": 0,
-      "cancel_cooldown": 0,
-      "duration": 10,
-      "multiplier": 1,
-      "effect": "outfit_neck",
-      "icon": "UiOutfitNeckCrab",
-      "event": "none",
-      "is_aura": false,
-      "aura_dist": 0,
-      "is_stackable": false,
-      "is_removable": true,
-      "disable_fx": false,
-      "recipient_type": "handhold",
-      "params": [
-        "CharSkyKid_Neck_Crab"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -4282,6 +4338,31 @@
       "recipient_type": "handhold",
       "params": [
         "CharSkyKid_Hair_Xmas"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 3463140994,
+      "name": "outfit_neck_crabbandana",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_neck",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Neck_CrabBandana"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -5032,6 +5113,31 @@
       "recipient_type": "handhold",
       "params": [
         "CharSkyKid_Hat_SunlightJelly"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 2693860841,
+      "name": "outfit_hat_sunlightsunglasses",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_hat",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Hat_SunlightSunglasses"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -6968,6 +7074,31 @@
       "client_level_names": null
     },
     {
+      "id": 1627015206,
+      "name": "outfit_mask_sunlightsnorkel",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_mask",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Mask_SunlightSnorkel"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
       "id": 475055967,
       "name": "outfit_mask_tiger",
       "cooldown": 0,
@@ -7168,6 +7299,56 @@
       "client_level_names": null
     },
     {
+      "id": 43899279,
+      "name": "outfit_neck_bow",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_neck",
+      "icon": "UiOutfitNeckDOL23Bow",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Neck_Bow"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 4024059810,
+      "name": "outfit_neck_crabAcc_original",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 10,
+      "multiplier": 1,
+      "effect": "outfit_neck",
+      "icon": "UiOutfitNeckCrab",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Neck_Crab"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
       "id": 4268418066,
       "name": "outfit_neck_crabAcc_specialEdition",
       "cooldown": 0,
@@ -7185,31 +7366,6 @@
       "recipient_type": "handhold",
       "params": [
         "CharSkyKid_Neck_CrabBow"
-      ],
-      "fx_type": "basic",
-      "disable_icon": false,
-      "depend_buffs": [],
-      "client_event_names": null,
-      "client_level_names": null
-    },
-    {
-      "id": 3463140994,
-      "name": "outfit_neck_crabbandana",
-      "cooldown": 0,
-      "cancel_cooldown": 0,
-      "duration": 30,
-      "multiplier": 1,
-      "effect": "outfit_neck",
-      "icon": "",
-      "event": "none",
-      "is_aura": false,
-      "aura_dist": 0,
-      "is_stackable": false,
-      "is_removable": true,
-      "disable_fx": false,
-      "recipient_type": "handhold",
-      "params": [
-        "CharSkyKid_Neck_CrabBandana"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -8185,6 +8341,31 @@
       "recipient_type": "handhold",
       "params": [
         "CharSkyKid_Prop_SkyArtBook01_Closed"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 3945644101,
+      "name": "outfit_prop_artbook2",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 20,
+      "multiplier": 1,
+      "effect": "outfit_prop",
+      "icon": "UiOutfitPropSkyArtBook",
+      "event": "ArtBookBuffEvent",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Prop_SkyArtBook02_Closed"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -13184,7 +13365,9 @@
       "recipient_type": "local",
       "params": [
         "bearhug",
-        "bearhug_3"
+        "bearhug_2",
+        "bearhug_3",
+        "bearhug_4"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -13210,7 +13393,9 @@
       "recipient_type": "local",
       "params": [
         "bearhug",
-        "bearhug_3"
+        "bearhug_2",
+        "bearhug_3",
+        "bearhug_4"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -13236,7 +13421,9 @@
       "recipient_type": "local",
       "params": [
         "carry",
-        "carry_2"
+        "carry_2",
+        "carry_3",
+        "carry_4"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -13288,9 +13475,13 @@
       "recipient_type": "local",
       "params": [
         "duetbow",
+        "duetbow_2",
         "duetbow_3",
+        "duetbow_4",
         "duetbownfc",
-        "duetbownfc_2"
+        "duetbownfc_2",
+        "duetbownfc_3",
+        "duetbownfc_4"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -13316,7 +13507,9 @@
       "recipient_type": "local",
       "params": [
         "carry",
-        "carry_2"
+        "carry_2",
+        "carry_3",
+        "carry_4"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -13342,7 +13535,35 @@
       "recipient_type": "local",
       "params": [
         "playfight",
-        "playfight_3"
+        "playfight_2",
+        "playfight_3",
+        "playfight_4"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 3018972876,
+      "name": "relationship_allow_princesscarry",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 5,
+      "multiplier": 1,
+      "effect": "relationship_allow",
+      "icon": "UiSocialPrincessCarryA",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "local",
+      "params": [
+        "princesscarry",
+        "princesscarry_2"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -13368,7 +13589,9 @@
       "recipient_type": "local",
       "params": [
         "sidehug",
-        "sidehug_3"
+        "sidehug_2",
+        "sidehug_3",
+        "sidehug_4"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -14005,6 +14228,32 @@
       "params": [
         "Prairie_Island",
         "summon_nature_turtle"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 813435451,
+      "name": "teleport_night_go_town",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 0.05000000074505806,
+      "multiplier": 1,
+      "effect": "teleport",
+      "icon": "UiOutfitBodyAP24Bell",
+      "event": "TeleportBuffEvent",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "Night_GO_Town",
+        "cape_teleport"
       ],
       "fx_type": "basic",
       "disable_icon": false,

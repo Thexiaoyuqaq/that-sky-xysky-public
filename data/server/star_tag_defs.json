@@ -1,6 +1,17 @@
 {
   "get_star_tag_defs": [
     {
+      "name": "birthdayhat_krill",
+      "sku": "SKY-KC-ST-SUM-DD",
+      "part": "",
+      "consumable_name": "birthdayhat_krill",
+      "group_name": "",
+      "batches": [
+        8
+      ],
+      "can_link_with": ""
+    },
+    {
       "name": "ancestor_daylight_prairie",
       "sku": "SKY-PN-ST-ANC-DP",
       "part": "",
@@ -30,17 +41,6 @@
       "group_name": "",
       "batches": [
         1
-      ],
-      "can_link_with": ""
-    },
-    {
-      "name": "birthdayhat_krill",
-      "sku": "SKY-KC-ST-SUM-DD",
-      "part": "",
-      "consumable_name": "birthdayhat_krill",
-      "group_name": "",
-      "batches": [
-        8
       ],
       "can_link_with": ""
     },
@@ -379,6 +379,15 @@
       "can_link_with": ""
     },
     {
+      "name": "oreo_form",
+      "sku": "SKY-HM-PL-KD-LO",
+      "part": "",
+      "consumable_name": "oreo_form",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
       "name": "outfit_figurine_TGC_specialEdition",
       "sku": "SKY-FG-ST-KD-TGC",
       "part": "",
@@ -579,6 +588,15 @@
       "batches": [
         11
       ],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_artbook2",
+      "sku": "SKY-BK-ST-HOL-ART",
+      "part": "",
+      "consumable_name": "outfit_prop_artbook2",
+      "group_name": "",
+      "batches": [],
       "can_link_with": ""
     },
     {
@@ -1014,6 +1032,15 @@
       "batches": [
         6
       ],
+      "can_link_with": ""
+    },
+    {
+      "name": "relationship_allow_princesscarry",
+      "sku": "SKY-KC-ST-HOL-CC",
+      "part": "",
+      "consumable_name": "relationship_allow_princesscarry",
+      "group_name": "",
+      "batches": [],
       "can_link_with": ""
     },
     {

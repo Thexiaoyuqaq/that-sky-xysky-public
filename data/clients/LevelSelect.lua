@@ -30,11 +30,8 @@ ArcLevels = {
 	level( "StormEvent_VoidSpace",		"",			"storm" ),
 	-- Do not add levels to "" bundle without changing things in MakeResourceScripts.lua
 	-- Combined assets can not exceed 150MB""
-	level( "DawnCave",					"dawn" ),
-	level( "Dawn_TrialsWater",			"dawn" ),
-	level( "Dawn_TrialsEarth",			"dawn" ),
-	level( "Dawn_TrialsAir",			"dawn" ),
-	level( "Dawn_TrialsFire",			"dawn" ),
+
+	-- Mainstreet Levels
 	level( "MainStreet",				"dawn" ),
 	level( "MainStreetFlyingIntro",		"dawn" ),
 	level( "MainStreet_ShopOutfits",	"dawn" ),
@@ -46,6 +43,11 @@ ArcLevels = {
 	level( "MainStreet_FunArmada",		"dawn" ),
 	level( "MainStreet_Soundbath",  	"dawn" ),
 	level( "MainStreet_Cafe_Wonderland","dawn" ),
+	level( "MainStreet_StorySpace",		"dawn" ),
+	level( "Nest_Shell", 				"dawn" ),
+	level( "Event_Cinema",         		"dawn" ),
+	level( "Night_IPHallway",			"dawn" ),
+	
 	level( "Prairie_ButterflyFields", 	"prairie" ),
 	level( "Prairie_Cave", 				"prairie" ),
 	level( "Prairie_NestAndKeeper", 	"prairie" ),
@@ -54,15 +56,16 @@ ArcLevels = {
 	level( "Prairie_WildLifePark", 		"prairie" ),
 	level( "DayHubCave", 				"prairie" ),
 	level( "DayEnd", 					"prairie" ),
+	
 	level( "Rain", 						"rain" ),
 	level( "RainForest", 				"rain" ),
 	level( "RainMid", 					"rain" ),
 	level( "RainShelter", 				"rain" ),
-	level( "Rain_BlueBirdTheater", 		"rain" ),
 	level( "Rain_Cave", 				"rain" ),
 	level( "Rain_BaseCamp", 			"rain" ),
 	level( "RainEnd", 					"rain" ),
 	level( "Skyway", 					"rain" ),
+	
 	level( "Sunset", 					"sunset" ),
 	level( "SunsetRace", 				"sunset" ),
 	level( "Sunset_Citadel", 			"sunset" ),
@@ -71,17 +74,10 @@ ArcLevels = {
 	level( "SunsetColosseum",           "sunset" ),
 	level( "SunsetEnd2", 				"sunset" ),
 	level( "SunsetVillage",             "sunset" ),
-	level( "Sunset_Theater",            "sunset" ),
 	level( "SunsetVillage_MusicShop",   "sunset" ),
 	level( "Sunset_YetiPark",           "sunset" ),
-	level( "Event_Arr_Runaway",         "sunset" ),
-	level( "Event_Arr_SoftInside",      "sunset" ),
-	level( "Event_Arr_Warrior",         "sunset" ),
-	level( "Event_Arr_TheSeed",         "sunset" ),
-	level( "Event_Arr_EyesOfAChild",    "sunset" ),
-	level( "Event_Arr_ExhaleInhale",    "sunset" ),
-	level( "Event_Cinema",         		"sunset" ),
-    level( "Event_Personality",         "sunset" ),
+	level( "Sunset_Theater",            "sunset" ),
+
 	level( "DuskStart", 				"dusk" ),
 	level( "Dusk", 						"dusk" ),
 	level( "Dusk_Triangle", 			"dusk" ),
@@ -90,36 +86,75 @@ ArcLevels = {
 	level( "DuskGraveyard", 			"dusk" ),
 	level( "Dusk_CrabField", 			"dusk" ),
 	level( "DuskMid", 					"dusk" ),
-	level( "DuskMid_Past", 				"dusk" ),
-	level( "DuskMid_PastMarket", 		"dusk" ),
-	level( "Dusk_HiddenTemple", 		"dusk" ),
 	level( "DuskEnd",					"dusk" ),
-	level( "DuskEnd_Past",				"dusk" ),
 	level( "Nintendo_CandleSpace",		"dusk" ),
+
 	level( "Night",						"night" ),
 	level( "NightArchive",				"night" ),
+	level( "Night2",					"night" ),
+	level( "NightEnd",					"night" ),
 	level( "TGCOffice",					"night" ),
+	level( "Event_Personality",         "night" ),
 	level( "VoidSharedSpace"	,		"night" ),
 	level( "Event_DaysOfMischief",		"night" ),
 	level( "Event_DaysOfMischief_Escape","night" ),
-	level( "Night2",					"night" ),
-	level( "NightEnd",					"night" ),
+	
+	-- AP08 Prophecy
+	level( "DawnCave",					"dawn" ),
+	level( "Dawn_TrialsWater",			"dawn" ),
+	level( "Dawn_TrialsEarth",			"dawn" ),
+	level( "Dawn_TrialsAir",			"dawn" ),
+	level( "Dawn_TrialsFire",			"dawn" ),
+
+	-- AP11 Little Prince
 	level( "NightDesert",				"night" ),
 	level( "NightDesert_Planets",		"night" ),
 	level( "NightDesert_Beach",			"night" ),
 	level( "Night_InfiniteDesert",      "night" ),
 	level( "Night_JarCave",				"night" ),
 	level( "Night_Shelter",				"night" ),
-	level( "Night_IPHallway",			"night" ),
+
+	-- AP16 AURORA
+	level( "Event_Arr_Runaway",         "sunset" ),
+	level( "Event_Arr_SoftInside",      "sunset" ),
+	level( "Event_Arr_Warrior",         "sunset" ),
+	level( "Event_Arr_TheSeed",         "sunset" ),
+	level( "Event_Arr_EyesOfAChild",    "sunset" ),
+	level( "Event_Arr_ExhaleInhale",    "sunset" ),
+	
+	-- AP21 Nine Colored Deer
     level( "Night_PaintedWorld",        "night" ),
+	level( "Event_DaysOfMoonlight_HugeMoon",      "night" ),
+	
+    -- AP24 Moomin
+	level( "Season24Void1",         	"night" ),
+	level( "Night_StoryBook",      	    "night" ),
 	level( "Night_ValleyForest",        "night" ),
 	level( "Night_ValleyHouse",         "night" ),
     level( "Night_ValleyHouseSky",      "night" ),
-	level( "Event_DaysOfMoonlight_HugeMoon",      "night" ),
+        
+    -- AP26 Blue Bird
+	level( "Rain_BlueBirdTheater", 		"rain" ),
+
+	-- AP27 The Two Embers
+	level( "DuskMid_Past", 				"dusk" ),
+	level( "DuskMid_PastMarket", 		"dusk" ),
+	level( "Dusk_HiddenTemple", 		"dusk" ),
+	level( "DuskEnd_Past",				"dusk" ),
+
+	-- AP29 Lightmending
 	level( "Night_Jumble",      		"night" ),
 	level( "Night_Workshop",			"night"	),
-	level( "Season24Void1",         	"night" ),
-	level( "Night_StoryBook",      	    "night" ),
+	
+	-- AP31 Dear Van Gogh
+	level( "Night_GO_City",				"night" ),
+	level( "Night_GO_Farm",				"night" ),
+	level( "Night_GO_Field",			"night" ),
+	level( "Night_GO_Gallery",			"night" ),
+	level( "Night_GO_Island",			"night" ),
+	level( "Night_GO_Town",				"night" ),
+	level( "Night_GO_Tree",				"night" ),
+	
 	level( "StormStart", 				"storm" ),
 	level( "Storm", 					"storm" ),
 	level( "StormEnd",					"storm" ),
@@ -127,9 +162,11 @@ ArcLevels = {
 	level( "OrbitEnd", 					"storm" ),
 	level( "CandleSpaceEnd", 			"storm" ),
 	level( "Credits", 					"storm" ),
+	-- Any levels after Credits in this list will not be able to be resumed via return shrine. Only stick your level after this point if that is your intention.
 	level( "AR_TestLevel",				"storm" ),
 	level( "AR_WheatField",				"storm" ),
 	level( "AR_Bedroom",				"storm" ),
+	
 }
 
 function bundle( name, autoRequest, defaultPriority, next, text, prerequisites )
@@ -141,13 +178,16 @@ ResourceBundles = {
 	bundle( "audioExtra",	true,	4,	"",				"download_audio",		{} ),
 	bundle( "prairie",		false,	2,	"rain",			"download_day",			{"images","meshes"} ),
 	bundle( "rain",			false,	2,	"sunset",		"download_rain",		{"images","meshes"} ),
-	bundle( "sunset",		false,	2,	"dusk",			"download_sunset",		{"images","meshes","dawn"} ),
+	bundle( "sunset",		false,	2,	"dusk",			"download_sunset",		{"images","meshes"} ),
 	bundle( "dusk",			false,	2,	"night",		"download_dusk",		{"images","meshes"} ),
 	bundle( "night",		false,	2,	"storm",		"download_night",		{"images","meshes"} ),
 	bundle( "storm",		false,	2,	"",				"download_storm",		{"images","meshes"} ),
 	bundle( "dawn",			false,	3,	"",				"download_dawncave",	{"images","meshes"} ),
 	bundle( "images",		false,	3,	"",				"download_images",		{} ),
 	bundle( "meshes",		false,	3,	"",				"download_meshes",		{} ),
+	--bundle( "aviary",		false,	3,	"",				"download_aviary",		{"images","meshes"} ),
+	--bundle( "ap08",		false,	3,	"",				"download_ap08",		{"images","meshes"} ),
+	--bundle( "ap31",		false,	3,	"",				"download_ap31",		{"images","meshes"} ),
 }
 
 -- These levels will also be packaged with the Game, but will only appear in the LevelsHuge debug menu section.
@@ -179,6 +219,10 @@ ExtraLevels = {
 	"S31_SandBox",
 	"OceanTest", -- for performance testing
 	"Test_TGCEmployees", -- for testing all of the TGCOffice NPCS
+	-- AP32 Pearl
+	"Dusk_PearlIsland",
+	"Dusk_PearlSea",
+	"Dusk_PearlSeaDeep"
 }
 
 -- Tutorial levels. The first level you get if you have no checkpoint data

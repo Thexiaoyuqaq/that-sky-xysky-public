@@ -191,7 +191,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "gesture",
         "event": "SocialEmote",
         "icon": "UiEmoteAP10TskTsk",
         "level": "Rain",
@@ -221,7 +221,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "gesture",
+        "emote_category": "cheerful",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteClap",
         "level": "Prairie_Village",
@@ -251,7 +251,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "positive",
+        "emote_category": "cheerful",
         "event": "SocialEmote",
         "icon": "UiEmoteLaugh",
         "level": "Prairie_Village",
@@ -266,7 +266,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmote",
         "icon": "UiEmoteYawn",
         "level": "Prairie_Village",
@@ -281,7 +281,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmote",
         "icon": "UiEmoteSweat",
         "level": "Prairie_Cave",
@@ -326,7 +326,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "positive",
+        "emote_category": "cheerful",
         "event": "SocialEmote",
         "icon": "UiEmoteAP01Kiss",
         "level": "RainMid",
@@ -341,7 +341,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "gesture",
+        "emote_category": "cheerful",
         "event": "SocialEmote",
         "icon": "UiEmoteAP07Gratitude",
         "level": "Prairie_Island",
@@ -356,7 +356,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "performance",
+        "emote_category": "cheerful",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP07BellyScratch",
         "level": "Prairie_Island",
@@ -386,7 +386,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "positive",
+        "emote_category": "cheerful",
         "event": "SocialEmote",
         "icon": "UiEmoteAP10Chuckle",
         "level": "RainMid",
@@ -401,7 +401,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteCold",
         "level": "Rain",
@@ -431,7 +431,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmote",
         "icon": "UiEmoteAngry",
         "level": "RainForest",
@@ -446,7 +446,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmote",
         "icon": "UiEmoteShy",
         "level": "RainForest",
@@ -461,7 +461,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmote",
         "icon": "UiEmoteStress",
         "level": "RainMid",
@@ -476,7 +476,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "gesture",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteApologize",
         "level": "RainMid",
@@ -491,7 +491,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmote",
         "icon": "UiEmoteCry",
         "level": "RainMid",
@@ -506,7 +506,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "dance",
         "event": "SocialEmote",
         "icon": "UiEmoteAP02Sarcastic",
         "level": "RainForest",
@@ -551,7 +551,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmote",
         "icon": "UiEmoteAP07Grumpy",
         "level": "Prairie_Island",
@@ -566,7 +566,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP09Peek",
         "level": "SunsetVillage",
@@ -581,7 +581,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmote",
         "icon": "UiEmoteAP10Eww",
         "level": "RainForest",
@@ -596,7 +596,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmote",
         "icon": "UiEmoteAP10Facepalm",
         "level": "Rain",
@@ -656,7 +656,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "positive",
+        "emote_category": "cheerful",
         "event": "SocialEmote",
         "icon": "UiEmoteCheer",
         "level": "SunsetColosseum",
@@ -671,7 +671,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "positive",
+        "emote_category": "cheerful",
         "event": "SocialEmote",
         "icon": "UiEmoteAP02Joy",
         "level": "Sunset",
@@ -686,7 +686,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "performance",
+        "emote_category": "dance",
         "event": "SocialEmote",
         "icon": "UiEmoteAP03Axel",
         "level": "Sunset",
@@ -701,7 +701,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "positive",
+        "emote_category": "cheerful",
         "event": "SocialEmote",
         "icon": "UiEmoteAP04Celebrate",
         "level": "Prairie_ButterflyFields",
@@ -716,7 +716,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "performance",
+        "emote_category": "dance",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP04LoopDance",
         "level": "Dawn",
@@ -731,7 +731,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "performance",
+        "emote_category": "dance",
         "event": "SocialDance",
         "icon": "UiEmoteAP01Dance",
         "level": "Prairie_NestAndKeeper",
@@ -761,7 +761,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "performance",
+        "emote_category": "dance",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP06CrabWalk",
         "level": "DuskOasis",
@@ -776,7 +776,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "positive",
+        "emote_category": "cheerful",
         "event": "SocialEmote",
         "icon": "UiEmoteAP07Rally",
         "level": "Prairie_Island",
@@ -791,7 +791,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "performance",
+        "emote_category": "dance",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP09SpinTrick",
         "level": "SunsetVillage",
@@ -806,7 +806,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "performance",
+        "emote_category": "dance",
         "event": "SocialEmote",
         "icon": "UiEmoteAP09ShowDanceAnim",
         "level": "SunsetVillage",
@@ -821,7 +821,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteScared",
         "level": "Dusk",
@@ -836,7 +836,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteFaint",
         "level": "Dusk",
@@ -926,7 +926,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmote",
         "icon": "UiEmoteAP04DontGo",
         "level": "DuskGraveyard",
@@ -941,7 +941,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "performance",
         "event": "SocialEmote",
         "icon": "UiEmoteAP06Scare",
         "level": "DuskOasis",
@@ -986,7 +986,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "positive",
+        "emote_category": "cheerful",
         "event": "SocialEmote",
         "icon": "UiEmoteAP08ChestPound",
         "level": "DawnCave",
@@ -1001,7 +1001,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "positive",
+        "emote_category": "performance",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP10Marching",
         "level": "RainForest",
@@ -1121,7 +1121,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP06Doze",
         "level": "DuskOasis",
@@ -1151,7 +1151,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "performance",
+        "emote_category": "gesture",
         "event": "SocialEmote",
         "icon": "UiEmoteAP08DeepBreath",
         "level": "DawnCave",
@@ -1490,7 +1490,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "positive",
+        "emote_category": "cheerful",
         "event": "SocialEmote",
         "icon": "UiEmoteAP11Gloat",
         "level": "NightDesert",
@@ -1520,7 +1520,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmote",
         "icon": "UiEmoteAP11Sneeze",
         "level": "NightDesert",
@@ -1535,7 +1535,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP11Slouch",
         "level": "Night_JarCave",
@@ -1550,7 +1550,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "cheerful",
         "event": "SocialEmote",
         "icon": "UiEmoteAP11Scheme",
         "level": "NightDesert_Beach",
@@ -1666,7 +1666,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "positive",
+        "emote_category": "cheerful",
         "event": "SocialEmote",
         "icon": "UiEmoteAP13EvilLaughAnim",
         "level": "Dusk_Triangle",
@@ -1681,7 +1681,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP13Ouch",
         "level": "Dusk_Triangle",
@@ -1696,7 +1696,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmote",
         "icon": "UiEmoteAP13Anxious",
         "level": "Dusk_Triangle",
@@ -1725,7 +1725,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "positive",
+        "emote_category": "dance",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP14HeadBobAnim",
         "level": "Sunset_Theater",
@@ -1744,7 +1744,7 @@
         "event": "SocialEmoteLoop",
         "icon": "UiSocialDuetDanceA",
         "level": "Sunset_Theater",
-        "max_level": 2,
+        "max_level": 4,
         "name": "duetdance",
         "params": "DuetDanceEmote",
         "speedMult": [
@@ -1759,7 +1759,7 @@
         "event": "SocialEmote",
         "icon": "UiSocialHandShakeA",
         "level": "Sunset_Theater",
-        "max_level": 2,
+        "max_level": 4,
         "name": "handshake",
         "params": "HandShakeEmote",
         "speedMult": [
@@ -1770,7 +1770,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "positive",
+        "emote_category": "cheerful",
         "event": "SocialEmote",
         "icon": "UiEmoteAP14Awww",
         "level": "Sunset_Theater",
@@ -1869,7 +1869,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "positive",
+        "emote_category": "performance",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP16ArmWaveAnim",
         "level": "SunsetColosseum",
@@ -1884,7 +1884,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "positive",
+        "emote_category": "dance",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP16RaiseTheRoofAnim",
         "level": "SunsetColosseum",
@@ -1899,7 +1899,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "performance",
+        "emote_category": "dance",
         "event": "SocialEmote",
         "icon": "UiEmoteAP16Twirl",
         "level": "SunsetColosseum",
@@ -1914,7 +1914,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "positive",
+        "emote_category": "dance",
         "event": "SocialEmoteRhythmicLoop",
         "icon": "UiEmoteAP16RhythmicClapAnim",
         "level": "SunsetColosseum",
@@ -1944,7 +1944,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "gesture",
+        "emote_category": "cheerful",
         "event": "SocialEmote",
         "icon": "UiEmoteAP16SilentClapAnim",
         "level": "SunsetColosseum",
@@ -1959,7 +1959,7 @@
     {
         "default": false,
         "droppable": true,
-        "emote_category": "positive",
+        "emote_category": "cheerful",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP16Skip",
         "level": "SunsetColosseum",
@@ -1992,7 +1992,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "negative",
+        "emote_category": "performance",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP17Tiptoe",
         "level": "Night_Shelter",
@@ -2010,7 +2010,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP17Grief",
         "level": "Night_Shelter",
@@ -2067,7 +2067,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "performance",
+        "emote_category": "group",
         "event": "SocialEmote",
         "icon": "UiEmoteAP18Hackysack",
         "level": "Dawn",
@@ -2100,7 +2100,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP18Mope",
         "level": "Dawn",
@@ -2162,7 +2162,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "performance",
+        "emote_category": "dance",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP19JollyDance",
         "level": "Prairie_WildLifePark",
@@ -2206,7 +2206,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "performance",
+        "emote_category": "dance",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAuroraPenguinDanceAnim",
         "level": "SunsetColosseum",
@@ -2231,6 +2231,62 @@
             0.0
         ],
         "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "MainStreet_ShopOutfits",
+        "max_level": 0,
+        "name": "ap20_haberdasher",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "MainStreet_ShopOutfits",
+        "max_level": 0,
+        "name": "ap20_cobbler",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "MainStreet_ShopOutfits",
+        "max_level": 0,
+        "name": "ap20_modiste",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "MainStreet_ShopOutfits",
+        "max_level": 0,
+        "name": "ap20_lapidary",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
     },
     {
         "default": false,
@@ -2264,7 +2320,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "positive",
+        "emote_category": "performance",
         "event": "SocialMuscle",
         "icon": "UiEmoteAP21Muscle",
         "level": "Night_PaintedWorld",
@@ -2294,7 +2350,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "performance",
+        "emote_category": "dance",
         "event": "SocialEmote",
         "icon": "UiEmoteAP21FloatDance",
         "level": "Night_PaintedWorld",
@@ -2567,7 +2623,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "positive",
+        "emote_category": "cheerful",
         "event": "SocialEmote",
         "icon": "UiEmoteAP25HeartHands",
         "level": "MainStreet_ShopOutfits",
@@ -2582,7 +2638,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "performance",
+        "emote_category": "dance",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP25HypeDance",
         "level": "MainStreet_ShopOutfits",
@@ -2611,7 +2667,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmote",
         "icon": "UiEmoteAP26CoughAnim",
         "level": "Rain_BlueBirdTheater",
@@ -2626,7 +2682,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "positive",
+        "emote_category": "cheerful",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP26Amazed",
         "level": "Rain_BlueBirdTheater",
@@ -2894,7 +2950,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "positive",
+        "emote_category": "cheerful",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP28AirplaneArms",
         "level": "Skyway",
@@ -2912,7 +2968,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "performance",
+        "emote_category": "dance",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP28JellyDance",
         "level": "Skyway",
@@ -2927,7 +2983,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "negative",
+        "emote_category": "somber",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP28Dizzy",
         "level": "Skyway",
@@ -2985,7 +3041,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "positive",
+        "emote_category": "cheerful",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP29CuteClapAnim",
         "level": "Night_Workshop",
@@ -3044,7 +3100,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "positive",
+        "emote_category": "cheerful",
         "event": "SocialEmote",
         "icon": "UiEmoteAP30Approve",
         "level": "MainStreet_FunArmada",
@@ -3059,7 +3115,7 @@
     {
         "default": false,
         "droppable": false,
-        "emote_category": "performance",
+        "emote_category": "dance",
         "event": "SocialEmoteLoop",
         "icon": "UiEmoteAP30BreakDance",
         "level": "MainStreet_FunArmada",
@@ -3096,6 +3152,114 @@
         "max_level": 4,
         "name": "write",
         "params": "WriteEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Night_GO_Gallery",
+        "max_level": 1,
+        "name": "questap31",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "SocialEmoteLoop",
+        "icon": "UiMiscStarCluster",
+        "level": "Night_GO_Gallery",
+        "max_level": 4,
+        "name": "armoire1",
+        "params": "SneakEmote",
+        "speedMult": [
+            0.1,
+            0.1,
+            0.4,
+            0.4
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiMiscStarCluster",
+        "level": "Night_GO_Gallery",
+        "max_level": 0,
+        "name": "armoire2",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "generic_npc"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "somber",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP31Frustration",
+        "level": "Night_GO_Gallery",
+        "max_level": 4,
+        "name": "frustration",
+        "params": "FrustrationEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "somber",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP31SlowWalk",
+        "level": "Night_GO_Gallery",
+        "max_level": 4,
+        "name": "slowwalk",
+        "params": "SlowWalkEmote",
+        "speedMult": [
+            0.1,
+            0.1,
+            0.1,
+            0.1
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "cheerful",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP31Bask",
+        "level": "Night_GO_Gallery",
+        "max_level": 4,
+        "name": "bask",
+        "params": "BaskEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "gesture",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP31Draw",
+        "level": "Night_GO_Gallery",
+        "max_level": 4,
+        "name": "draw",
+        "params": "DrawEmote",
         "speedMult": [
             0.0
         ],

@@ -1,6 +1,29 @@
 {
   "generic_shop_defs": [
     {
+      "id": 3141752734,
+      "shop_name": "SpellShop_Bloom_Spell",
+      "name": "BloomEventCurrencyPrestige",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 2,
+      "currency_type": "prestige",
+      "costs": [
+        2
+      ],
+      "currency_types": [
+        "prestige"
+      ],
+      "event_name": "global_bloom",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "currency",
+      "item_name": "event_candle_days_of_bloom",
+      "item_count": 1
+    },
+    {
       "id": 3957656605,
       "shop_name": "SpellShop_PClaunch_Scroll",
       "name": "PropCompanionCube",
@@ -328,7 +351,7 @@
       "name": "ChallengeBouncePad_2",
       "icon": "",
       "localized_name": "",
-      "order_index": 0,
+      "order_index": -1,
       "cost": 6,
       "currency_type": "candles",
       "costs": [
@@ -351,7 +374,7 @@
       "name": "ChallengeBouncePad_3",
       "icon": "",
       "localized_name": "",
-      "order_index": 0,
+      "order_index": -1,
       "cost": 8,
       "currency_type": "candles",
       "costs": [
@@ -369,12 +392,35 @@
       "item_count": 1
     },
     {
+      "id": 2578317110,
+      "shop_name": "ToyShop_MainStreet_Events",
+      "name": "SunlightChallengeRamp",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 5,
+      "currency_type": "candles",
+      "costs": [
+        5
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_sunlight_challenge",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_SunlightRamp",
+      "item_count": 1
+    },
+    {
       "id": 341553063,
       "shop_name": "NoShop",
       "name": "ChallengeToken",
       "icon": "",
       "localized_name": "",
-      "order_index": 0,
+      "order_index": -1,
       "cost": 1,
       "currency_type": "candles",
       "costs": [
@@ -397,7 +443,7 @@
       "name": "ChallengeTarget",
       "icon": "",
       "localized_name": "",
-      "order_index": 0,
+      "order_index": -1,
       "cost": 3,
       "currency_type": "candles",
       "costs": [
@@ -420,7 +466,7 @@
       "name": "ChallengePlatform",
       "icon": "",
       "localized_name": "",
-      "order_index": 0,
+      "order_index": -1,
       "cost": 4,
       "currency_type": "candles",
       "costs": [
@@ -443,7 +489,7 @@
       "name": "ChallengeBouncePad_2",
       "icon": "",
       "localized_name": "",
-      "order_index": 0,
+      "order_index": -1,
       "cost": 6,
       "currency_type": "candles",
       "costs": [
@@ -466,7 +512,7 @@
       "name": "ChallengeBouncePad_3",
       "icon": "",
       "localized_name": "",
-      "order_index": 0,
+      "order_index": -1,
       "cost": 8,
       "currency_type": "candles",
       "costs": [
@@ -481,6 +527,31 @@
       "unlock_requiremnts": [],
       "item_type": "inventory_unlock_upgrade",
       "item_name": "CharSkyKid_Prop_AP30ChallengeBouncePad_3",
+      "item_count": 1
+    },
+    {
+      "id": 3317474914,
+      "shop_name": "NoShop",
+      "name": "SunlightChallengeRamp_UpgradeCount",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 5,
+      "currency_type": "candles",
+      "costs": [
+        5
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_sunlight_challenge",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "CharSkyKid_Prop_SunlightRamp"
+      ],
+      "item_type": "inventory_unlock_upgrade",
+      "item_name": "CharSkyKid_Prop_SunlightRamp",
       "item_count": 1
     },
     {
@@ -7167,29 +7238,6 @@
       "item_count": 3
     },
     {
-      "id": 3141752734,
-      "shop_name": "SpellShop_Bloom_Spell",
-      "name": "BloomEventCurrencyPrestige",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 2,
-      "currency_type": "prestige",
-      "costs": [
-        2
-      ],
-      "currency_types": [
-        "prestige"
-      ],
-      "event_name": "global_bloom",
-      "max_per_cycle": 99,
-      "reset_event": "gen_shop_monthly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "currency",
-      "item_name": "event_candle_days_of_bloom",
-      "item_count": 1
-    },
-    {
       "id": 490311362,
       "shop_name": "SpellShop_Bloom_Spell",
       "name": "BloomEventCurrencyCandle",
@@ -12180,8 +12228,31 @@
       "item_count": 3
     },
     {
-      "id": 293196423,
-      "shop_name": "SpellShop_Sunlight_Spell",
+      "id": 4043198217,
+      "shop_name": "ItemShop_Sunlight",
+      "name": "SunlightRampChallenge",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 5,
+      "currency_type": "candles",
+      "costs": [
+        5
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_summer",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_SunlightRamp",
+      "item_count": 1
+    },
+    {
+      "id": 3317301657,
+      "shop_name": "ItemShop_Sunlight",
       "name": "SunlightSandcastleA",
       "icon": "UiOutfitPropSunlightSandcastleA",
       "localized_name": "",
@@ -12203,8 +12274,8 @@
       "item_count": 1
     },
     {
-      "id": 4194424402,
-      "shop_name": "SpellShop_Sunlight_Spell",
+      "id": 3419536926,
+      "shop_name": "ItemShop_Sunlight",
       "name": "SunlightSandcastleB",
       "icon": "UiOutfitPropSunlightSandcastleB",
       "localized_name": "",
@@ -12226,8 +12297,8 @@
       "item_count": 1
     },
     {
-      "id": 3002162605,
-      "shop_name": "SpellShop_Sunlight_Spell",
+      "id": 1474566111,
+      "shop_name": "ItemShop_Sunlight",
       "name": "SunlightSandcastleC",
       "icon": "UiOutfitPropSunlightSandcastleC",
       "localized_name": "",
@@ -12249,8 +12320,8 @@
       "item_count": 1
     },
     {
-      "id": 930139832,
-      "shop_name": "SpellShop_Sunlight_Spell",
+      "id": 3445144780,
+      "shop_name": "ItemShop_Sunlight",
       "name": "SunlightSandcastleD",
       "icon": "UiOutfitPropSunlightSandcastleD",
       "localized_name": "",
@@ -12272,8 +12343,8 @@
       "item_count": 1
     },
     {
-      "id": 4233846803,
-      "shop_name": "SpellShop_Sunlight_Spell",
+      "id": 937422829,
+      "shop_name": "ItemShop_Sunlight",
       "name": "SunlightSandcastleE",
       "icon": "UiOutfitPropSunlightSandcastleE",
       "localized_name": "",
@@ -12295,8 +12366,8 @@
       "item_count": 1
     },
     {
-      "id": 1051105758,
-      "shop_name": "SpellShop_Sunlight_Spell",
+      "id": 3400940658,
+      "shop_name": "ItemShop_Sunlight",
       "name": "SunlightSandcastleF",
       "icon": "UiOutfitPropSunlightSandcastleF",
       "localized_name": "",
@@ -12318,8 +12389,8 @@
       "item_count": 1
     },
     {
-      "id": 273015497,
-      "shop_name": "SpellShop_Sunlight_Spell",
+      "id": 409776083,
+      "shop_name": "ItemShop_Sunlight",
       "name": "SunlightSandcastleG",
       "icon": "UiOutfitPropSunlightSandcastleG",
       "localized_name": "",
@@ -12339,6 +12410,282 @@
       "item_type": "inventory_unlock",
       "item_name": "CharSkyKid_Prop_SunlightSandcastleG",
       "item_count": 1
+    },
+    {
+      "id": 841747889,
+      "shop_name": "ItemShop_Sunlight",
+      "name": "SunlightMantaFloat",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 65,
+      "currency_type": "candles",
+      "costs": [
+        65
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_summer",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_MantaFloat",
+      "item_count": 1
+    },
+    {
+      "id": 509205413,
+      "shop_name": "ItemShop_Sunlight",
+      "name": "SunlightSwimTrunks",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 70,
+      "currency_type": "candles",
+      "costs": [
+        70
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_summer",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Body_SwimTrunks",
+      "item_count": 1
+    },
+    {
+      "id": 3740555815,
+      "shop_name": "ItemShop_Sunlight",
+      "name": "SunlightTent",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 90,
+      "currency_type": "candles",
+      "costs": [
+        90
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_summer",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_Tent_01",
+      "item_count": 1
+    },
+    {
+      "id": 899005708,
+      "shop_name": "ItemShop_Sunlight",
+      "name": "SunlightSummerHat",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 44,
+      "currency_type": "candles",
+      "costs": [
+        44
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_summer",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Horn_SummerHat_01",
+      "item_count": 1
+    },
+    {
+      "id": 3687375075,
+      "shop_name": "ItemShop_Sunlight",
+      "name": "SunlightTowelPink",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 30,
+      "currency_type": "heart",
+      "costs": [
+        30
+      ],
+      "currency_types": [
+        "heart"
+      ],
+      "event_name": "global_summer",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Wing_SunlightTowelPink",
+      "item_count": 1
+    },
+    {
+      "id": 3564055663,
+      "shop_name": "ItemShop_Sunlight",
+      "name": "SunlightTowelYellow",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 110,
+      "currency_type": "candles",
+      "costs": [
+        110
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_summer",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Wing_SunlightTowelYellow",
+      "item_count": 1
+    },
+    {
+      "id": 991322687,
+      "shop_name": "ItemShop_Sunlight",
+      "name": "SunlightTowelBlue",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 140,
+      "currency_type": "candles",
+      "costs": [
+        140
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_summer",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Wing_SunlightTowelBlue",
+      "item_count": 1
+    },
+    {
+      "id": 3068118400,
+      "shop_name": "SpellShop_Sunlight_Spell",
+      "name": "SunlightDuckFlippersFree",
+      "icon": "UiOutfitFeetSunlightDuckFlippers",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_summer",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_feet_sunlightduckflippers",
+      "item_count": 3
+    },
+    {
+      "id": 602608025,
+      "shop_name": "SpellShop_Sunlight_Spell",
+      "name": "SunlightWetsuitFree",
+      "icon": "UiOutfitBodySunlightWetsuit",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_summer",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_body_sunlightwetsuit",
+      "item_count": 3
+    },
+    {
+      "id": 1619900113,
+      "shop_name": "SpellShop_Sunlight_Spell",
+      "name": "SunlightSurferFree",
+      "icon": "UiOutfitHairSunlightSurfer",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_summer",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_hair_sunlightsurfer",
+      "item_count": 3
+    },
+    {
+      "id": 3668564312,
+      "shop_name": "SpellShop_Sunlight_Spell",
+      "name": "SunlightSnorkelFree",
+      "icon": "UiOutfitMaskSunlightSnorkel",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_summer",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_mask_sunlightsnorkel",
+      "item_count": 3
+    },
+    {
+      "id": 2525344784,
+      "shop_name": "SpellShop_Sunlight_Spell",
+      "name": "SunlightSunglassesFree",
+      "icon": "UiOutfitHatSunlightSunglasses",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_summer",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_hat_sunlightsunglasses",
+      "item_count": 3
     },
     {
       "id": 3868405847,
@@ -12801,26 +13148,26 @@
       "item_count": 3
     },
     {
-      "id": 209168397,
+      "id": 1627180149,
       "shop_name": "SpellShop_Sunlight_Spell",
-      "name": "SunlightDyeRed",
+      "name": "SunlightDyeBlack",
       "icon": "",
       "localized_name": "",
       "order_index": -1,
-      "cost": 4,
+      "cost": 10,
       "currency_type": "event_candle_days_of_sunlight",
       "costs": [
-        4
+        10
       ],
       "currency_types": [
         "event_candle_days_of_sunlight"
       ],
       "event_name": "global_summer",
-      "max_per_cycle": 1,
+      "max_per_cycle": 3,
       "reset_event": "gen_shop_yearly_reset",
       "unlock_requiremnts": [],
       "item_type": "currency",
-      "item_name": "color_red",
+      "item_name": "color_black",
       "item_count": 1
     },
     {
@@ -12839,7 +13186,7 @@
         "event_candle_days_of_sunlight"
       ],
       "event_name": "global_summer",
-      "max_per_cycle": 1,
+      "max_per_cycle": 6,
       "reset_event": "gen_shop_yearly_reset",
       "unlock_requiremnts": [],
       "item_type": "currency",
@@ -15814,6 +16161,29 @@
       "item_count": 1
     },
     {
+      "id": 2735876066,
+      "shop_name": "PropShop_MainStreet_PropTest",
+      "name": "StoneTableSmall",
+      "icon": "UiOutfitPropStoneTableSmall",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 20,
+      "currency_type": "candles",
+      "costs": [
+        20
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "weekly_prop_rotation_02",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_StoneTableSmall",
+      "item_count": 1
+    },
+    {
       "id": 339987620,
       "shop_name": "PropShop_MainStreet_PropTest",
       "name": "StoneDesk",
@@ -16021,6 +16391,29 @@
       "item_count": 1
     },
     {
+      "id": 2934281321,
+      "shop_name": "PropShop_MainStreet_PropTest",
+      "name": "StoneCubeSmall",
+      "icon": "UiOutfitPropStoneCubeSmall",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 9,
+      "currency_type": "candles",
+      "costs": [
+        9
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "weekly_prop_rotation_12",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_StoneCubeSmall",
+      "item_count": 1
+    },
+    {
       "id": 2159743495,
       "shop_name": "PropShop_MainStreet_PropTest",
       "name": "StoneCubeWide",
@@ -16064,6 +16457,29 @@
       "unlock_requiremnts": [],
       "item_type": "inventory_unlock",
       "item_name": "CharSkyKid_Prop_StoneCubeTall",
+      "item_count": 1
+    },
+    {
+      "id": 3501242697,
+      "shop_name": "PropShop_MainStreet_PropTest",
+      "name": "DecorPillowA",
+      "icon": "UiOutfitPropDecorPillowA",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 8,
+      "currency_type": "candles",
+      "costs": [
+        8
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "weekly_prop_rotation_02",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_DecorPillowA",
       "item_count": 1
     },
     {
@@ -16409,6 +16825,29 @@
       "unlock_requiremnts": [],
       "item_type": "inventory_unlock",
       "item_name": "CharSkyKid_Prop_StoneDresserTall",
+      "item_count": 1
+    },
+    {
+      "id": 1900406628,
+      "shop_name": "PropShop_MainStreet_PropTest",
+      "name": "RugSmallSolid",
+      "icon": "UiOutfitPropRugSmallSolid",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 13,
+      "currency_type": "candles",
+      "costs": [
+        13
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "weekly_prop_rotation_03",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_RugSmallSolid",
       "item_count": 1
     },
     {
@@ -18196,10 +18635,10 @@
       "icon": "UiMiscDiamond",
       "localized_name": "",
       "order_index": -1,
-      "cost": 10,
+      "cost": 8,
       "currency_type": "candles",
       "costs": [
-        10
+        8
       ],
       "currency_types": [
         "candles"

@@ -319,7 +319,7 @@
         "red_20%",
         "yellow_15%",
         "white_30%",
-        "cyan_25%",
+        "magenta_25%",
         "wax_10%"
       ],
       "small_per_day": 180,
@@ -350,7 +350,7 @@
         "red_20%",
         "yellow_15%",
         "white_30%",
-        "cyan_25%",
+        "magenta_25%",
         "wax_10%"
       ],
       "small_per_day": 0,
@@ -366,7 +366,7 @@
         "red_20%",
         "yellow_15%",
         "white_30%",
-        "cyan_25%",
+        "magenta_25%",
         "wax_10%"
       ],
       "small_per_day": 130,
@@ -382,7 +382,7 @@
         "red_20%",
         "yellow_15%",
         "white_30%",
-        "cyan_25%",
+        "magenta_25%",
         "wax_10%"
       ],
       "small_per_day": 200,
@@ -398,7 +398,7 @@
         "red_20%",
         "yellow_15%",
         "white_30%",
-        "cyan_25%",
+        "magenta_25%",
         "wax_10%"
       ],
       "small_per_day": 0,
@@ -412,8 +412,9 @@
       "level": "Rain",
       "distribution": [
         "green_20%",
-        "cyan_35%",
-        "white_35%",
+        "cyan_20%",
+        "white_25%",
+        "magenta_25%",
         "wax_10%"
       ],
       "small_per_day": 180,
@@ -427,8 +428,9 @@
       "level": "RainForest",
       "distribution": [
         "green_20%",
-        "cyan_35%",
-        "white_35%",
+        "cyan_20%",
+        "white_25%",
+        "magenta_25%",
         "wax_10%"
       ],
       "small_per_day": 240,
@@ -442,8 +444,9 @@
       "level": "RainMid",
       "distribution": [
         "green_20%",
-        "cyan_35%",
-        "white_35%",
+        "cyan_20%",
+        "white_25%",
+        "magenta_25%",
         "wax_10%"
       ],
       "small_per_day": 260,
@@ -457,8 +460,9 @@
       "level": "RainShelter",
       "distribution": [
         "green_20%",
-        "cyan_35%",
-        "white_35%",
+        "cyan_20%",
+        "white_25%",
+        "magenta_25%",
         "wax_10%"
       ],
       "small_per_day": 190,
@@ -472,8 +476,9 @@
       "level": "Rain_Cave",
       "distribution": [
         "green_20%",
-        "cyan_35%",
-        "white_35%",
+        "cyan_20%",
+        "white_25%",
+        "magenta_25%",
         "wax_10%"
       ],
       "small_per_day": 60,
@@ -489,9 +494,9 @@
         "red_5%",
         "yellow_5%",
         "green_5%",
-        "cyan_25%",
+        "cyan_5%",
         "blue_5%",
-        "magenta_5%",
+        "magenta_25%",
         "white_25%",
         "black_5%",
         "wax_20%"
@@ -521,10 +526,11 @@
       "id": 80,
       "level": "SunsetEnd2",
       "distribution": [
-        "red_15%",
-        "yellow_15%",
+        "red_10%",
+        "yellow_10%",
         "green_10%",
-        "cyan_25%",
+        "cyan_10%",
+        "magenta_25%",
         "white_25%",
         "wax_10%"
       ],
@@ -538,10 +544,11 @@
       "id": 81,
       "level": "Sunset_Citadel",
       "distribution": [
-        "red_15%",
-        "yellow_15%",
+        "red_10%",
+        "yellow_10%",
         "green_10%",
-        "cyan_25%",
+        "cyan_10%",
+        "magenta_25%",
         "white_25%",
         "wax_10%"
       ],
@@ -555,10 +562,9 @@
       "id": 82,
       "level": "Dusk",
       "distribution": [
-        "blue_10%",
-        "cyan_20%",
-        "magenta_20%",
-        "white_20%",
+        "blue_20%",
+        "magenta_25%",
+        "white_25%",
         "black_20%",
         "wax_10%"
       ],
@@ -572,10 +578,9 @@
       "id": 83,
       "level": "DuskMid",
       "distribution": [
-        "blue_10%",
-        "cyan_20%",
-        "magenta_20%",
-        "white_20%",
+        "blue_20%",
+        "magenta_25%",
+        "white_25%",
         "black_20%",
         "wax_10%"
       ],
@@ -589,10 +594,9 @@
       "id": 84,
       "level": "DuskGraveyard",
       "distribution": [
-        "blue_10%",
-        "cyan_20%",
-        "magenta_20%",
-        "white_20%",
+        "blue_20%",
+        "magenta_25%",
+        "white_25%",
         "black_20%",
         "wax_10%"
       ],
@@ -606,10 +610,9 @@
       "id": 85,
       "level": "Dusk_CrabField",
       "distribution": [
-        "blue_10%",
-        "cyan_20%",
-        "magenta_20%",
-        "white_20%",
+        "blue_20%",
+        "magenta_25%",
+        "white_25%",
         "black_20%",
         "wax_10%"
       ],
@@ -623,10 +626,9 @@
       "id": 86,
       "level": "Dusk_Triangle",
       "distribution": [
-        "blue_10%",
-        "cyan_20%",
-        "magenta_20%",
-        "white_20%",
+        "blue_20%",
+        "magenta_25%",
+        "white_25%",
         "black_20%",
         "wax_10%"
       ],
@@ -640,10 +642,9 @@
       "id": 87,
       "level": "DuskOasis",
       "distribution": [
-        "blue_10%",
-        "cyan_20%",
-        "magenta_20%",
-        "white_20%",
+        "blue_20%",
+        "magenta_25%",
+        "white_25%",
         "black_20%",
         "wax_10%"
       ],
@@ -657,10 +658,9 @@
       "id": 88,
       "level": "NightArchive",
       "distribution": [
-        "blue_10%",
-        "cyan_20%",
-        "magenta_20%",
-        "white_20%",
+        "blue_20%",
+        "magenta_25%",
+        "white_25%",
         "black_20%",
         "wax_10%"
       ],
@@ -675,7 +675,7 @@
       "level": "StormStart",
       "distribution": [
         "red_20%",
-        "cyan_20%",
+        "magenta_20%",
         "white_25%",
         "black_25%",
         "wax_10%"
@@ -706,7 +706,7 @@
       "level": "Storm",
       "distribution": [
         "red_20%",
-        "cyan_20%",
+        "magenta_20%",
         "white_25%",
         "black_25%",
         "wax_10%"

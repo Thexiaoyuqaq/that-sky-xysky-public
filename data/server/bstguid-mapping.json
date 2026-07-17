@@ -1,19 +1,14 @@
 {
   "2518601": {
-    "10413943": {
-      "source": "BSTGuid",
-      "zoneBstGuid": 1648534375,
-      "type": 44
-    },
     "62445508": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
+      "type": 4
     },
     "85234311": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
+      "type": 4
     },
     "107260875": {
       "source": "WaxPickupSpawnerZone",
@@ -27,7 +22,7 @@
     "145304263": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
+      "type": 4
     },
     "193349828": {
       "source": "WaxPickupSpawnerZone",
@@ -50,7 +45,7 @@
     "464083294": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
+      "type": 4
     },
     "493930691": {
       "source": "BSTGuid",
@@ -60,7 +55,7 @@
     "506250397": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
+      "type": 4
     },
     "527931445": {
       "source": "BSTGuid",
@@ -71,16 +66,6 @@
       "source": "CandleObject",
       "type": 4
     },
-    "559067153": {
-      "source": "BSTGuid",
-      "zoneBstGuid": 1648534375,
-      "type": 44
-    },
-    "578774188": {
-      "source": "BSTGuid",
-      "zoneBstGuid": 1648534375,
-      "type": 44
-    },
     "587939386": {
       "source": "BSTGuid",
       "zoneBstGuid": 193349828,
@@ -90,11 +75,6 @@
       "source": "BSTGuid",
       "zoneBstGuid": 193349828,
       "type": 4
-    },
-    "650146797": {
-      "source": "BSTGuid",
-      "zoneBstGuid": 1648534375,
-      "type": 44
     },
     "713678955": {
       "source": "BSTGuid",
@@ -114,22 +94,12 @@
     "799637671": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
+      "type": 4
     },
     "800744038": {
       "source": "BSTGuid",
       "zoneBstGuid": 193349828,
       "type": 4
-    },
-    "811128939": {
-      "source": "BSTGuid",
-      "zoneBstGuid": 1648534375,
-      "type": 44
-    },
-    "880184623": {
-      "source": "BSTGuid",
-      "zoneBstGuid": 1648534375,
-      "type": 44
     },
     "884925791": {
       "source": "BSTGuid",
@@ -166,10 +136,6 @@
       "zoneBstGuid": 1634131746,
       "type": 44
     },
-    "1082439512": {
-      "source": "WaxPickupSpawnerZone",
-      "type": 44
-    },
     "1098150191": {
       "source": "BSTGuid",
       "zoneBstGuid": 107260875,
@@ -178,22 +144,12 @@
     "1107191731": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
-    },
-    "1132373610": {
-      "source": "BSTGuid",
-      "zoneBstGuid": 1648534375,
-      "type": 44
+      "type": 4
     },
     "1162893647": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
-    },
-    "1191850669": {
-      "source": "BSTGuid",
-      "zoneBstGuid": 1648534375,
-      "type": 44
+      "type": 4
     },
     "1192888094": {
       "source": "BSTGuid",
@@ -208,7 +164,7 @@
     "1256829620": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
+      "type": 4
     },
     "1265738651": {
       "source": "BSTGuid",
@@ -218,16 +174,11 @@
     "1269841441": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
-    },
-    "1270724781": {
-      "source": "BSTGuid",
-      "zoneBstGuid": 1648534375,
-      "type": 44
+      "type": 4
     },
     "1293824685": {
       "source": "WaxPickupSpawnerZone",
-      "type": 44
+      "type": 4
     },
     "1300506953": {
       "source": "CandleObject",
@@ -236,7 +187,7 @@
     "1327371702": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
+      "type": 4
     },
     "1338960031": {
       "source": "BSTGuid",
@@ -251,7 +202,7 @@
     "1370881448": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
+      "type": 4
     },
     "1380677329": {
       "source": "BSTGuid",
@@ -275,25 +226,16 @@
     "1587890437": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
+      "type": 4
     },
     "1634131746": {
       "source": "WaxPickupSpawnerZone",
       "type": 44
     },
-    "1648534375": {
-      "source": "WaxPickupSpawnerZone",
-      "type": 44
-    },
-    "1651532318": {
-      "source": "BSTGuid",
-      "zoneBstGuid": 1648534375,
-      "type": 44
-    },
     "1705721580": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
+      "type": 4
     },
     "1732326851": {
       "source": "WaxPickupSpawnerZone",
@@ -332,31 +274,27 @@
     "2003455182": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
+      "type": 4
     },
     "2007069678": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
+      "type": 4
     },
     "2014913961": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
-    },
-    "2024132467": {
-      "source": "WaxPickupSpawnerZone",
-      "type": 44
+      "type": 4
     },
     "2030881048": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
+      "type": 4
     },
     "2070246814": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
+      "type": 4
     },
     "2105409796": {
       "source": "BSTGuid",
@@ -614,7 +552,7 @@
     "2107524357": {
       "source": "BSTGuid",
       "zoneBstGuid": 1293824685,
-      "type": 44
+      "type": 4
     },
     "2116315499": {
       "source": "BSTGuid",
@@ -7572,6 +7510,16 @@
       "zoneBstGuid": 780510336,
       "type": 4
     },
+    "58990177": {
+      "source": "Pickup",
+      "type": 70,
+      "count": 1
+    },
+    "71244589": {
+      "source": "Pickup",
+      "type": 70,
+      "count": 50
+    },
     "73833389": {
       "source": "BSTGuid",
       "zoneBstGuid": 780510336,
@@ -7596,6 +7544,11 @@
       "source": "BSTGuid",
       "zoneBstGuid": 780510336,
       "type": 4
+    },
+    "146003271": {
+      "source": "Timeline",
+      "type": 71,
+      "eventName": "global_twinribbon_live_balloon"
     },
     "146348010": {
       "source": "LevelMesh",
@@ -7862,6 +7815,11 @@
       "zoneBstGuid": 780510336,
       "type": 4
     },
+    "687586626": {
+      "source": "LevelMesh",
+      "type": 71,
+      "eventName": "global_twinribbon_live_balloon"
+    },
     "690664163": {
       "source": "BSTGuid",
       "zoneBstGuid": 780510336,
@@ -7957,6 +7915,11 @@
       "type": 4
     },
     "865937968": {
+      "source": "Pickup",
+      "type": 70,
+      "count": 1
+    },
+    "871954384": {
       "source": "Pickup",
       "type": 70,
       "count": 1
@@ -8291,6 +8254,11 @@
       "zoneBstGuid": 780510336,
       "type": 4
     },
+    "1420196806": {
+      "source": "Pickup",
+      "type": 70,
+      "count": 1
+    },
     "1422237016": {
       "source": "BSTGuid",
       "zoneBstGuid": 780510336,
@@ -8420,6 +8388,11 @@
       "zoneBstGuid": 780510336,
       "type": 4
     },
+    "1636256309": {
+      "source": "Pickup",
+      "type": 70,
+      "count": 1
+    },
     "1639223723": {
       "source": "BSTGuid",
       "zoneBstGuid": 780510336,
@@ -8469,6 +8442,11 @@
       "source": "CandleObject",
       "type": 4
     },
+    "1726318658": {
+      "source": "Timeline",
+      "type": 71,
+      "eventName": "global_twinribbon_live_balloon"
+    },
     "1755971843": {
       "source": "BSTGuid",
       "zoneBstGuid": 780510336,
@@ -8509,6 +8487,11 @@
       "zoneBstGuid": 780510336,
       "type": 4
     },
+    "1791573501": {
+      "source": "MoveObjectAlongRail",
+      "type": 71,
+      "eventName": "global_twinribbon_live_balloon"
+    },
     "1800481839": {
       "source": "Pickup",
       "type": 70,
@@ -8533,11 +8516,6 @@
       "source": "BSTGuid",
       "zoneBstGuid": 780510336,
       "type": 4
-    },
-    "1835317068": {
-      "source": "Enable",
-      "type": 71,
-      "eventName": "global_twinribbon"
     },
     "1835932384": {
       "source": "LevelMesh",
@@ -8648,6 +8626,11 @@
       "type": 70,
       "count": 1
     },
+    "2012355654": {
+      "source": "Pickup",
+      "type": 70,
+      "count": 1
+    },
     "2019193403": {
       "source": "BSTGuid",
       "zoneBstGuid": 780510336,
@@ -8702,6 +8685,11 @@
       "source": "Pickup",
       "type": 70,
       "count": 1
+    },
+    "2109582037": {
+      "source": "Enable",
+      "type": 71,
+      "eventName": "global_twinribbon_live_balloon"
     },
     "2119291150": {
       "source": "BSTGuid",
@@ -19719,6 +19707,11 @@
       "zoneBstGuid": 585547010,
       "type": 38
     },
+    "273551424": {
+      "source": "LevelMesh",
+      "type": 17,
+      "eventName": "season_31"
+    },
     "287170827": {
       "source": "BSTGuid",
       "zoneBstGuid": 1668901978,
@@ -20286,6 +20279,11 @@
       "zoneBstGuid": 2087742265,
       "type": 4
     },
+    "1068974901": {
+      "source": "LevelMesh",
+      "type": 17,
+      "eventName": "season_31"
+    },
     "1090673070": {
       "source": "WaxPickupSpawnerZone",
       "type": 4
@@ -20627,6 +20625,11 @@
       "source": "BSTGuid",
       "zoneBstGuid": 520496131,
       "type": 4
+    },
+    "1691109296": {
+      "source": "Parent",
+      "type": 17,
+      "eventName": "season_31"
     },
     "1697961998": {
       "source": "BSTGuid",
@@ -52432,35 +52435,110 @@
       "zoneBstGuid": 930502970,
       "type": 4
     },
+    "21034524": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "23096457": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
     "28154143": {
       "source": "BSTGuid",
       "zoneBstGuid": 733139651,
-      "type": 4
+      "type": 44
     },
     "41767450": {
       "source": "BSTGuid",
       "zoneBstGuid": 1838990836,
-      "type": 4
+      "type": 44
     },
     "50513966": {
       "source": "BSTGuid",
       "zoneBstGuid": 1011051797,
       "type": 40
     },
+    "52703475": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
     "62727884": {
       "source": "BSTGuid",
       "zoneBstGuid": 268445588,
       "type": 4
+    },
+    "70910716": {
+      "source": "Pickup",
+      "type": 34,
+      "count": 1
+    },
+    "76884006": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "78241774": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "100751182": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "102558646": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
+    "105600328": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "113118692": {
+      "source": "Pickup",
+      "type": 34,
+      "count": 1
+    },
+    "114990172": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "117940822": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "129554415": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
     },
     "136075806": {
       "source": "BSTGuid",
       "zoneBstGuid": 1011051797,
       "type": 40
     },
+    "143498388": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
+    "145120444": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
     "148023656": {
       "source": "BSTGuid",
       "zoneBstGuid": 811234343,
-      "type": 4
+      "type": 44
     },
     "165461864": {
       "source": "BSTGuid",
@@ -52472,49 +52550,154 @@
       "zoneBstGuid": 1011051797,
       "type": 40
     },
+    "235213791": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
     "246122321": {
       "source": "BSTGuid",
       "zoneBstGuid": 733139651,
-      "type": 4
+      "type": 44
+    },
+    "246954083": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "247363915": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
+    "254475096": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "262000775": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
     },
     "268445588": {
       "source": "WaxPickupSpawnerZone",
       "type": 4
     },
+    "277748896": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
     "288341583": {
       "source": "BSTGuid",
       "zoneBstGuid": 1838990836,
-      "type": 4
+      "type": 44
+    },
+    "288762046": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "295741898": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
     },
     "308436150": {
       "source": "BSTGuid",
       "zoneBstGuid": 1838990836,
-      "type": 4
+      "type": 44
+    },
+    "310143490": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "311484214": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "323632169": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
     },
     "328925761": {
       "source": "BSTGuid",
       "zoneBstGuid": 1011051797,
       "type": 40
     },
+    "341465446": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
+    "349815136": {
+      "source": "Pickup",
+      "type": 34,
+      "count": 1
+    },
+    "366739882": {
+      "source": "Pickup",
+      "type": 34,
+      "count": 1
+    },
+    "376949998": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "386894774": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
     "387093172": {
       "source": "BSTGuid",
       "zoneBstGuid": 1224613768,
       "type": 4
     },
+    "388995055": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
+    "395597683": {
+      "source": "Pickup",
+      "type": 34,
+      "count": 1
+    },
+    "396112540": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "403779676": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
     "422604453": {
       "source": "BSTGuid",
       "zoneBstGuid": 733139651,
-      "type": 4
+      "type": 44
     },
     "446120865": {
       "source": "BSTGuid",
       "zoneBstGuid": 1838990836,
-      "type": 4
+      "type": 44
     },
     "470450016": {
       "source": "BSTGuid",
       "zoneBstGuid": 1011051797,
       "type": 40
+    },
+    "470592936": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
     },
     "480485231": {
       "source": "BSTGuid",
@@ -52526,10 +52709,20 @@
       "zoneBstGuid": 1011051797,
       "type": 40
     },
+    "492839509": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
     "495812650": {
       "source": "BSTGuid",
       "zoneBstGuid": 893961797,
       "type": 4
+    },
+    "496792222": {
+      "source": "Pickup",
+      "type": 34,
+      "count": 1
     },
     "498331986": {
       "source": "BSTGuid",
@@ -52539,16 +52732,51 @@
     "515780227": {
       "source": "BSTGuid",
       "zoneBstGuid": 811234343,
-      "type": 4
+      "type": 44
+    },
+    "532725001": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
     },
     "543599191": {
       "source": "CandleObject",
       "type": 4
     },
+    "572241180": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "610009758": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
+    "611151742": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "617097750": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "618058953": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "620902419": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
     "621495603": {
       "source": "BSTGuid",
       "zoneBstGuid": 733139651,
-      "type": 4
+      "type": 44
     },
     "622902276": {
       "source": "Npc",
@@ -52559,6 +52787,11 @@
       "source": "BSTGuid",
       "zoneBstGuid": 1011051797,
       "type": 40
+    },
+    "633090669": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
     },
     "637357162": {
       "source": "BSTGuid",
@@ -52580,43 +52813,113 @@
       "zoneBstGuid": 1011051797,
       "type": 40
     },
+    "663447838": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
     "664824966": {
       "source": "BSTGuid",
       "zoneBstGuid": 1011051797,
       "type": 40
+    },
+    "666009243": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
     },
     "669092493": {
       "source": "BSTGuid",
       "zoneBstGuid": 1224613768,
       "type": 4
     },
+    "671753050": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "675274098": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
+    "697684055": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "709888801": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "720168967": {
+      "source": "Pickup",
+      "type": 34,
+      "count": 1
+    },
+    "724771295": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
     "733139651": {
       "source": "WaxPickupSpawnerZone",
-      "type": 4
+      "type": 44
     },
     "734226331": {
       "source": "BSTGuid",
       "zoneBstGuid": 811234343,
-      "type": 4
+      "type": 44
     },
     "736658649": {
       "source": "BSTGuid",
       "zoneBstGuid": 1011051797,
       "type": 40
     },
+    "746709619": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
     "766536055": {
       "source": "BSTGuid",
       "zoneBstGuid": 1011051797,
       "type": 40
+    },
+    "766632456": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
     },
     "791196393": {
       "source": "BSTGuid",
       "zoneBstGuid": 1224613768,
       "type": 4
     },
+    "798144883": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
     "811234343": {
       "source": "WaxPickupSpawnerZone",
-      "type": 4
+      "type": 44
+    },
+    "813335360": {
+      "source": "Pickup",
+      "type": 34,
+      "count": 1
+    },
+    "816993108": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "819826122": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
     },
     "831614643": {
       "source": "BSTGuid",
@@ -52626,11 +52929,36 @@
     "843612962": {
       "source": "BSTGuid",
       "zoneBstGuid": 1838990836,
-      "type": 4
+      "type": 44
+    },
+    "867943346": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "878629653": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
+    "879023364": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "882628727": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
     },
     "893961797": {
       "source": "WaxPickupSpawnerZone",
       "type": 4
+    },
+    "899993659": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
     },
     "919358787": {
       "source": "BSTGuid",
@@ -52640,6 +52968,16 @@
     "930502970": {
       "source": "WaxPickupSpawnerZone",
       "type": 4
+    },
+    "943152338": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "978092204": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
     },
     "986346282": {
       "source": "BSTGuid",
@@ -52656,15 +52994,55 @@
       "zoneBstGuid": 1224613768,
       "type": 4
     },
+    "1034827503": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "1038402281": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "1045217667": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
     "1071628028": {
       "source": "BSTGuid",
       "zoneBstGuid": 1838990836,
-      "type": 4
+      "type": 44
     },
     "1079260953": {
       "source": "BSTGuid",
       "zoneBstGuid": 1838990836,
-      "type": 4
+      "type": 44
+    },
+    "1096662467": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "1114875108": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "1117873808": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
+    "1122898050": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "1128904761": {
+      "source": "Pickup",
+      "type": 34,
+      "count": 1
     },
     "1137742820": {
       "source": "BSTGuid",
@@ -52676,15 +53054,45 @@
       "zoneBstGuid": 268445588,
       "type": 4
     },
+    "1143518538": {
+      "source": "Pickup",
+      "type": 34,
+      "count": 1
+    },
+    "1147388322": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "1155340682": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "1169637764": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "1171874468": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
     "1174901760": {
       "source": "BSTGuid",
       "zoneBstGuid": 811234343,
-      "type": 4
+      "type": 44
     },
     "1177530181": {
       "source": "BSTGuid",
       "zoneBstGuid": 1011051797,
       "type": 40
+    },
+    "1180391879": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
     },
     "1193487571": {
       "source": "BSTGuid",
@@ -52705,25 +53113,95 @@
       "source": "WaxPickupSpawnerZone",
       "type": 4
     },
+    "1240391641": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
     "1241475224": {
       "source": "BSTGuid",
       "zoneBstGuid": 893961797,
       "type": 4
+    },
+    "1241925326": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "1242060596": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "1247820735": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
     },
     "1271071820": {
       "source": "BSTGuid",
       "zoneBstGuid": 930502970,
       "type": 4
     },
+    "1293266966": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "1293624639": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "1312510020": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
+    "1321684146": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
+    "1329724209": {
+      "source": "Pickup",
+      "type": 34,
+      "count": 1
+    },
     "1331827889": {
       "source": "BSTGuid",
       "zoneBstGuid": 1011051797,
       "type": 40
     },
+    "1347662986": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
+    "1354366802": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "1363275797": {
+      "source": "Pickup",
+      "type": 34,
+      "count": 1
+    },
     "1383753913": {
       "source": "BSTGuid",
       "zoneBstGuid": 268445588,
       "type": 4
+    },
+    "1392004418": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
+    "1394808651": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
     },
     "1400006382": {
       "source": "BSTGuid",
@@ -52733,17 +53211,42 @@
     "1405481721": {
       "source": "BSTGuid",
       "zoneBstGuid": 1838990836,
-      "type": 4
+      "type": 44
+    },
+    "1407511802": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
+    "1428891695": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
     },
     "1449049497": {
       "source": "BSTGuid",
       "zoneBstGuid": 811234343,
-      "type": 4
+      "type": 44
+    },
+    "1453565396": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "1469848594": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
     },
     "1471690442": {
       "source": "BSTGuid",
       "zoneBstGuid": 268445588,
       "type": 4
+    },
+    "1477140932": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
     },
     "1485045932": {
       "source": "Npc",
@@ -53020,40 +53523,125 @@
       "zoneBstGuid": 1485046125,
       "type": 4
     },
+    "1487931488": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "1499378162": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
     "1501134095": {
       "source": "BSTGuid",
       "zoneBstGuid": 811234343,
-      "type": 4
+      "type": 44
     },
     "1505139583": {
       "source": "BSTGuid",
       "zoneBstGuid": 733139651,
-      "type": 4
+      "type": 44
     },
     "1507846464": {
       "source": "BSTGuid",
       "zoneBstGuid": 1011051797,
       "type": 40
     },
+    "1519910717": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
     "1526960236": {
       "source": "BSTGuid",
       "zoneBstGuid": 811234343,
-      "type": 4
+      "type": 44
+    },
+    "1532029451": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "1532298410": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "1545958676": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "1548855744": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "1563793454": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "1578100377": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
     },
     "1580169638": {
       "source": "BSTGuid",
       "zoneBstGuid": 893961797,
       "type": 4
     },
+    "1584376682": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "1602988807": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "1607457239": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
     "1613362940": {
       "source": "BSTGuid",
       "zoneBstGuid": 811234343,
-      "type": 4
+      "type": 44
+    },
+    "1615952651": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
     },
     "1619213336": {
       "source": "BSTGuid",
       "zoneBstGuid": 1011051797,
       "type": 40
+    },
+    "1629912446": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "1631853768": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "1652724406": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "1652833420": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
     },
     "1661071106": {
       "source": "BSTGuid",
@@ -53063,27 +53651,71 @@
     "1671666415": {
       "source": "BSTGuid",
       "zoneBstGuid": 733139651,
-      "type": 4
+      "type": 44
     },
     "1689216603": {
       "source": "BSTGuid",
       "zoneBstGuid": 733139651,
-      "type": 4
+      "type": 44
+    },
+    "1694079930": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "1696893130": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "1718727417": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "1721617371": {
+      "source": "Pickup",
+      "type": 34,
+      "count": 1
+    },
+    "1722343398": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "1736296024": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "1766770224": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
     },
     "1782100060": {
       "source": "BSTGuid",
       "zoneBstGuid": 1011051797,
       "type": 40
     },
+    "1792417599": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
+    "1805589845": {
+      "source": "WaxPickupSpawnerZone",
+      "type": 44
+    },
     "1808403327": {
       "source": "BSTGuid",
       "zoneBstGuid": 811234343,
-      "type": 4
+      "type": 44
     },
     "1814929217": {
       "source": "BSTGuid",
       "zoneBstGuid": 733139651,
-      "type": 4
+      "type": 44
     },
     "1836086304": {
       "source": "BSTGuid",
@@ -53092,47 +53724,112 @@
     },
     "1838990836": {
       "source": "WaxPickupSpawnerZone",
-      "type": 4
+      "type": 44
     },
     "1845768576": {
       "source": "BSTGuid",
       "zoneBstGuid": 893961797,
       "type": 4
     },
+    "1861155015": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
+    "1861942019": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
+    "1878724699": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
     "1894737766": {
       "source": "BSTGuid",
       "zoneBstGuid": 1011051797,
       "type": 40
+    },
+    "1900652319": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
+    "1920515411": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
     },
     "1922176484": {
       "source": "BSTGuid",
       "zoneBstGuid": 1011051797,
       "type": 40
     },
+    "1922232493": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
     "1940891994": {
       "source": "BSTGuid",
       "zoneBstGuid": 733139651,
-      "type": 4
+      "type": 44
     },
     "1946386712": {
       "source": "BSTGuid",
       "zoneBstGuid": 1224613768,
       "type": 4
     },
+    "1959839114": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 811234343,
+      "type": 44
+    },
     "1960536381": {
       "source": "BSTGuid",
       "zoneBstGuid": 1838990836,
-      "type": 4
+      "type": 44
     },
     "1984484099": {
       "source": "BSTGuid",
       "zoneBstGuid": 811234343,
-      "type": 4
+      "type": 44
+    },
+    "1987381087": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "1989321526": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "2007166156": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "2008589613": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "2015172601": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
     },
     "2021995119": {
       "source": "BSTGuid",
       "zoneBstGuid": 268445588,
       "type": 4
+    },
+    "2043939010": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
     },
     "2060386450": {
       "source": "Pickup",
@@ -53159,6 +53856,11 @@
       "zoneBstGuid": 1011051797,
       "type": 40
     },
+    "2061391822": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1838990836,
+      "type": 44
+    },
     "2072642232": {
       "source": "CandleObject",
       "type": 4
@@ -53171,6 +53873,21 @@
       "source": "BSTGuid",
       "zoneBstGuid": 930502970,
       "type": 4
+    },
+    "2085428279": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 733139651,
+      "type": 44
+    },
+    "2089959443": {
+      "source": "Pickup",
+      "type": 34,
+      "count": 1
+    },
+    "2102368281": {
+      "source": "Pickup",
+      "type": 34,
+      "count": 1
     },
     "2105409569": {
       "source": "BSTGuid",
@@ -53217,15 +53934,30 @@
       "zoneBstGuid": 2439513716,
       "type": 4
     },
+    "2109748431": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
+    "2117621657": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
+    },
     "2121294120": {
       "source": "BSTGuid",
       "zoneBstGuid": 733139651,
-      "type": 4
+      "type": 44
     },
     "2121833484": {
       "source": "BSTGuid",
       "zoneBstGuid": 930502970,
       "type": 4
+    },
+    "2124726639": {
+      "source": "BSTGuid",
+      "zoneBstGuid": 1805589845,
+      "type": 44
     },
     "2126052267": {
       "source": "BSTGuid",
@@ -53235,7 +53967,7 @@
     "2127777146": {
       "source": "BSTGuid",
       "zoneBstGuid": 1838990836,
-      "type": 4
+      "type": 44
     },
     "2144008381": {
       "source": "BSTGuid",

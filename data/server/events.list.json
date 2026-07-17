@@ -4,92 +4,92 @@
       "name": "AP27CapeHealingSpa",
       "duration": 1439,
       "when": [
-        188524800,
-        188611200
+        195987600,
+        196074000
       ]
     },
     {
       "name": "anniversary_office_video_thankyou",
       "duration": 10,
       "when": [
-        196030800
+        196732800
       ]
     },
     {
       "name": "ap18_ritual_02",
       "duration": 1,
       "when": [
-        188571600,
-        188572500
+        196732800,
+        196733700
       ]
     },
     {
       "name": "ap18_ritual_02_audience_lobby",
       "duration": 7,
       "when": [
-        188571180,
-        188572080,
-        188572980
+        196732380,
+        196733280,
+        196734180
       ]
     },
     {
       "name": "ap18_ritual_03",
       "duration": 1,
       "when": [
-        188571600,
-        188572500
+        196732800,
+        196733700
       ]
     },
     {
       "name": "ap18_ritual_03_audience_lobby",
       "duration": 7,
       "when": [
-        188571180,
-        188572080,
-        188572980
+        196732380,
+        196733280,
+        196734180
       ]
     },
     {
       "name": "ap18_ritual_04",
       "duration": 1,
       "when": [
-        188571600,
-        188572500
+        196732800,
+        196733700
       ]
     },
     {
       "name": "ap18_ritual_04_audience_lobby",
       "duration": 7,
       "when": [
-        188571180,
-        188572080,
-        188572980
+        196732380,
+        196733280,
+        196734180
       ]
     },
     {
       "name": "ap18_ritual_05",
       "duration": 1,
       "when": [
-        188571600,
-        188572500
+        196732800,
+        196733700
       ]
     },
     {
       "name": "ap18_ritual_05_audience_lobby",
       "duration": 7,
       "when": [
-        188571180,
-        188572080,
-        188572980
+        196732380,
+        196733280,
+        196734180
       ]
     },
     {
       "name": "ap18_ritual_timer_15",
       "duration": 15,
       "when": [
-        188570700,
-        188571600,
-        188572500
+        196731900,
+        196732800,
+        196733700
       ]
     },
     {
@@ -180,515 +180,270 @@
       "name": "aurora_concert",
       "duration": 48,
       "when": [
-        188568600,
-        188575800
+        196733400,
+        196740600
       ]
     },
     {
       "name": "aurora_concert_countdown",
       "duration": 2,
       "when": [
-        188575800
+        196733400,
+        196740600
       ]
     },
     {
       "name": "aurora_exhaleinhale",
       "duration": 4,
       "when": [
-        188575920
+        196733520,
+        196740720
       ]
     },
     {
       "name": "aurora_exhaleinhale_countdown",
       "duration": 1,
       "when": [
-        188575920
+        196733520,
+        196740720
       ]
     },
     {
       "name": "aurora_exhaleinhale_wrap",
       "duration": 2,
       "when": [
-        188576160
+        196733760,
+        196740960
       ]
     },
     {
       "name": "aurora_eyesofachild",
       "duration": 4,
       "when": [
-        188570760,
-        188577960
+        196735560
       ]
     },
     {
       "name": "aurora_eyesofachild_countdown",
       "duration": 1,
       "when": [
-        188577900
-      ]
-    },
-    {
-      "name": "aurora_minigame_1",
-      "duration": 12,
-      "when": [
-        188571600
-      ]
-    },
-    {
-      "name": "aurora_minigame_2",
-      "duration": 12,
-      "when": [
-        188572500
-      ]
-    },
-    {
-      "name": "aurora_minigame_3",
-      "duration": 12,
-      "when": [
-        188566200
+        196735500
       ]
     },
     {
       "name": "aurora_minigame_4",
       "duration": 12,
       "when": [
-        188567100
+        196731900
       ]
     },
     {
       "name": "aurora_minigame_vote_rotation",
       "duration": 2,
       "when": [
-        188570760,
-        188570880,
-        188571000,
-        188571120,
-        188571240,
-        188571360,
-        188571480,
-        188571600,
-        188571720,
-        188571840,
-        188571960,
-        188572080,
-        188572200,
-        188572320,
-        188572440,
-        188572560
+        196731960,
+        196732080,
+        196732200,
+        196732320,
+        196732440,
+        196732560,
+        196732680,
+        196732800,
+        196732920,
+        196733040,
+        196733160,
+        196733280,
+        196733400,
+        196733520,
+        196733640,
+        196733760
       ]
     },
     {
       "name": "aurora_orbit",
       "duration": 3,
       "when": [
-        188571000,
-        188578200
+        196735800
       ]
     },
     {
       "name": "aurora_orbit_countdown",
       "duration": 1,
       "when": [
-        188571000,
-        188578200
+        196735800
       ]
     },
     {
       "name": "aurora_queendom",
       "duration": 4,
       "when": [
-        188571240,
-        188578440
+        196736040
       ]
     },
     {
       "name": "aurora_queendom_countdown",
       "duration": 1,
       "when": [
-        188571180,
-        188578380
+        196735980
       ]
     },
     {
       "name": "aurora_runaway",
       "duration": 4,
       "when": [
-        188576340
+        196733940,
+        196741140
       ]
     },
     {
       "name": "aurora_runaway_countdown",
       "duration": 1,
       "when": [
-        188576280
+        196733880,
+        196741080
       ]
     },
     {
       "name": "aurora_runaway_wrap",
       "duration": 2,
       "when": [
-        188576580
+        196734180
       ]
     },
     {
       "name": "aurora_softinside",
       "duration": 5,
       "when": [
-        188576760
+        196734360
       ]
     },
     {
       "name": "aurora_softinside_countdown",
       "duration": 1,
       "when": [
-        188576700
+        196734300
       ]
     },
     {
       "name": "aurora_softinside_wrap",
       "duration": 2,
       "when": [
-        188577060
+        196734660
       ]
     },
     {
       "name": "aurora_soundbath_session",
       "duration": 9,
       "when": [
-        188570400,
-        188571000,
-        188571600,
-        188572200,
-        188572800,
-        188573400
+        196731600,
+        196732200,
+        196732800,
+        196733400,
+        196734000,
+        196734600
       ]
     },
     {
       "name": "aurora_theseed",
       "duration": 4,
       "when": [
-        188577660
+        196735260
       ]
     },
     {
       "name": "aurora_theseed_countdown",
       "duration": 1,
       "when": [
-        188577600
+        196735200
       ]
     },
     {
       "name": "aurora_warrior",
       "duration": 4,
       "when": [
-        188577240
+        196734840
       ]
     },
     {
       "name": "aurora_warrior_countdown",
       "duration": 1,
       "when": [
-        188577180
+        196734780
       ]
     },
     {
       "name": "aurora_warrior_wrap",
       "duration": 2,
       "when": [
-        188577480
-      ]
-    },
-    {
-      "name": "awardshow_active",
-      "duration": 60,
-      "when": [
-        196470000
-      ]
-    },
-    {
-      "name": "awardshow_buildup",
-      "duration": 12840,
-      "when": [
-        195696000
-      ]
-    },
-    {
-      "name": "awardshow_hatshop_forsale",
-      "duration": 2520,
-      "when": [
-        196466400
-      ]
-    },
-    {
-      "name": "awardshow_hatshop_visible",
-      "duration": 15360,
-      "when": [
-        195696000
-      ]
-    },
-    {
-      "name": "awardshow_travelingspiritvote",
-      "duration": 11520,
-      "when": [
-        195696000
+        196735080
       ]
     },
     {
       "name": "basecamp_rain",
       "duration": 4320,
       "when": [
-        186796800
+        196473600
       ]
     },
     {
-      "name": "bloom_2022_bloom",
-      "duration": 8640,
+      "name": "collectible_armoire1",
+      "duration": 110880,
       "when": [
-        186278400
+        180252800
       ]
     },
     {
-      "name": "bloom_2022_fall",
-      "duration": 12960,
+      "name": "collectible_armoire2",
+      "duration": 110880,
       "when": [
-        186796800
-      ]
-    },
-    {
-      "name": "bloom_2022_flowerpatch",
-      "duration": 30240,
-      "when": [
-        186019200
-      ]
-    },
-    {
-      "name": "bloom_2022_wisteriabloom_2",
-      "duration": 2880,
-      "when": [
-        186451200
-      ]
-    },
-    {
-      "name": "bloom_2022_wisteriabloom_3",
-      "duration": 2880,
-      "when": [
-        186624000
-      ]
-    },
-    {
-      "name": "bloom_2022_wisteriafall_1",
-      "duration": 4320,
-      "when": [
-        186796800
-      ]
-    },
-    {
-      "name": "bloom_2023_waxbutterfly",
-      "duration": 30,
-      "when": [
-        186948000,
-        186955200
-      ]
-    },
-    {
-      "name": "bloom_2023_waxp1",
-      "duration": 4320,
-      "when": [
-        186624000
-      ]
-    },
-    {
-      "name": "bloom_2023_waxp2",
-      "duration": 11520,
-      "when": [
-        186883200
-      ]
-    },
-    {
-      "name": "bloom_2024_fluttermax",
-      "duration": 10080,
-      "when": [
-        186624000
-      ]
-    },
-    {
-      "name": "bloom_2024_flutterslow",
-      "duration": 10080,
-      "when": [
-        186019200
-      ]
-    },
-    {
-      "name": "bloom_carry",
-      "duration": 18720,
-      "when": [
-        186451200
-      ]
-    },
-    {
-      "name": "bloom_carry_oasis",
-      "duration": 30240,
-      "when": [
-        186019200
-      ]
-    },
-    {
-      "name": "bloom_crabvoice",
-      "duration": 21600,
-      "when": [
-        186278400
-      ]
-    },
-    {
-      "name": "bloom_crabvoice_oasis",
-      "duration": 30240,
-      "when": [
-        186019200
-      ]
-    },
-    {
-      "name": "bloom_doublefive",
-      "duration": 25920,
-      "when": [
-        186019200
-      ]
-    },
-    {
-      "name": "bloom_doublefive_oasis",
-      "duration": 30240,
-      "when": [
-        186019200
-      ]
-    },
-    {
-      "name": "bloom_lazycool",
-      "duration": 24480,
-      "when": [
-        186105600
-      ]
-    },
-    {
-      "name": "bloom_lazycool_oasis",
-      "duration": 30240,
-      "when": [
-        186019200
-      ]
-    },
-    {
-      "name": "bloom_oasis_sprout",
-      "duration": 5760,
-      "when": [
-        186278400
-      ]
-    },
-    {
-      "name": "bloom_oasis_sprout_4",
-      "duration": 1440,
-      "when": [
-        186537600
-      ]
-    },
-    {
-      "name": "bloom_oasis_terrain_color",
-      "duration": 20160,
-      "when": [
-        186624000
-      ]
-    },
-    {
-      "name": "bloom_shh",
-      "duration": 20160,
-      "when": [
-        186364800
-      ]
-    },
-    {
-      "name": "bloom_shh_oasis",
-      "duration": 30240,
-      "when": [
-        186019200
-      ]
-    },
-    {
-      "name": "bloom_shower_on",
-      "duration": 21600,
-      "when": [
-        186278400
-      ]
-    },
-    {
-      "name": "bloom_tripleaxel",
-      "duration": 23040,
-      "when": [
-        186192000
-      ]
-    },
-    {
-      "name": "bloom_tripleaxel_oasis",
-      "duration": 30240,
-      "when": [
-        186019200
-      ]
-    },
-    {
-      "name": "collectible_approve",
-      "duration": 1440,
-      "when": [
-        195987600
+        180252800
       ]
     },
     {
       "name": "collectible_armwave",
       "duration": 1440,
       "when": [
-        188524800,
-        188611200
+        195987600,
+        196074000
       ]
     },
     {
       "name": "collectible_backflip",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
-      "name": "collectible_balltrick",
-      "duration": 1440,
+      "name": "collectible_bask",
+      "duration": 110880,
       "when": [
-        195987600
+        180252800
       ]
     },
     {
       "name": "collectible_beacon",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_bird",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_bow",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_brave",
-      "duration": 1440,
-      "when": [
-        188524800
-      ]
-    },
-    {
-      "name": "collectible_breakdance",
       "duration": 1440,
       "when": [
         195987600
@@ -698,35 +453,35 @@
       "name": "collectible_butterfly",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_cape",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_cheer",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_cold",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_come",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
@@ -740,21 +495,21 @@
       "name": "collectible_cry",
       "duration": 1440,
       "when": [
-        188524800
-      ]
-    },
-    {
-      "name": "collectible_cuteclap",
-      "duration": 110880,
-      "when": [
-        181184400
+        195987600
       ]
     },
     {
       "name": "collectible_die",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
+      ]
+    },
+    {
+      "name": "collectible_draw",
+      "duration": 110880,
+      "when": [
+        180252800
       ]
     },
     {
@@ -768,121 +523,128 @@
       "name": "collectible_float",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_force",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
+      ]
+    },
+    {
+      "name": "collectible_frustration",
+      "duration": 110880,
+      "when": [
+        180252800
       ]
     },
     {
       "name": "collectible_ghost",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_guard",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_handstand",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_laugh",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_lighthorn",
       "duration": 1440,
       "when": [
-        188524800,
-        188611200
+        195987600,
+        196074000
       ]
     },
     {
       "name": "collectible_lookaround",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_love",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_manatee",
       "duration": 1440,
       "when": [
-        188524800,
-        188611200
+        195987600,
+        196074000
       ]
     },
     {
       "name": "collectible_manta",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_nothanks",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_ohno",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_point",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_pout",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_pray",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_proud",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
@@ -896,8 +658,8 @@
       "name": "collectible_raisetheroof",
       "duration": 1440,
       "when": [
-        188524800,
-        188611200
+        195987600,
+        196074000
       ]
     },
     {
@@ -908,121 +670,100 @@
       ]
     },
     {
-      "name": "collectible_revolvingdance",
-      "duration": 110880,
-      "when": [
-        181184400
-      ]
-    },
-    {
       "name": "collectible_rhythmicclap",
       "duration": 1440,
       "when": [
-        188524800,
-        188611200
+        195987600,
+        196074000
       ]
     },
     {
       "name": "collectible_salute",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_scared",
       "duration": 1440,
       "when": [
-        188524800
-      ]
-    },
-    {
-      "name": "collectible_secrethandshake",
-      "duration": 110880,
-      "when": [
-        181184400
+        195987600
       ]
     },
     {
       "name": "collectible_seek",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_shy",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
+      ]
+    },
+    {
+      "name": "collectible_slowwalk",
+      "duration": 110880,
+      "when": [
+        180252800
       ]
     },
     {
       "name": "collectible_sneaky",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_sorry",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_strong",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_thumbsup",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_twirl",
       "duration": 1440,
       "when": [
-        188524800,
-        188611200
+        195987600,
+        196074000
       ]
     },
     {
       "name": "collectible_wave",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "collectible_whale",
       "duration": 1440,
       "when": [
-        188524800
-      ]
-    },
-    {
-      "name": "collectible_whisper",
-      "duration": 110880,
-      "when": [
-        181184400
+        195987600
       ]
     },
     {
       "name": "collectible_wipe",
-      "duration": 1440,
-      "when": [
-        188524800
-      ]
-    },
-    {
-      "name": "collectible_write",
       "duration": 1440,
       "when": [
         195987600
@@ -1032,35 +773,35 @@
       "name": "collectible_yawn",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "day_boat",
       "duration": 1440,
       "when": [
-        188438400
+        195987600
       ]
     },
     {
       "name": "day_fairyring",
       "duration": 10,
       "when": [
-        188571000
+        196732200
       ]
     },
     {
       "name": "dusk_darkstone_0",
       "duration": 1440,
       "when": [
-        188438400
+        195987600
       ]
     },
     {
       "name": "dusk_darkstone_1",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
@@ -1074,15 +815,15 @@
       "name": "dusk_quest",
       "duration": 1440,
       "when": [
-        188524800
+        196732800
       ]
     },
     {
       "name": "elder_sanctuary_patrol",
       "duration": 1,
       "when": [
-        188571600,
-        188572800
+        196732800,
+        196734000
       ]
     },
     {
@@ -1096,91 +837,63 @@
       "name": "event_dusk_tcandle_master",
       "duration": 1440,
       "when": [
-        188438400
+        196646400
       ]
     },
     {
-      "name": "event_dusk_tcandles2",
+      "name": "event_dusk_tcandles3",
       "duration": 1440,
       "when": [
-        188438400
+        196646400
       ]
     },
     {
       "name": "event_night_tcandle_master",
       "duration": 1440,
       "when": [
-        188524800
+        196732800
       ]
     },
     {
       "name": "event_night_tcandles1",
       "duration": 1440,
       "when": [
-        188524800
+        196732800
       ]
     },
     {
       "name": "event_prairie_tcandle_master",
       "duration": 1440,
       "when": [
-        186883200
+        195987600
       ]
     },
     {
       "name": "event_prairie_tcandles2",
       "duration": 1440,
       "when": [
-        186883200
-      ]
-    },
-    {
-      "name": "event_rain_tcandle_master",
-      "duration": 1440,
-      "when": [
-        186537600
-      ]
-    },
-    {
-      "name": "event_rain_tcandles1",
-      "duration": 1440,
-      "when": [
-        186537600
-      ]
-    },
-    {
-      "name": "event_sunset_tcandle_master",
-      "duration": 1440,
-      "when": [
-        186624000
-      ]
-    },
-    {
-      "name": "event_sunset_tcandles2",
-      "duration": 1440,
-      "when": [
-        186624000
+        195987600
       ]
     },
     {
       "name": "feast_catch_crabbit",
       "duration": 60,
       "when": [
-        188568000,
-        188571600
+        196729200,
+        196732800
       ]
     },
     {
       "name": "feast_teatable_rotation",
       "duration": 6,
       "when": [
-        188570520,
-        188570880,
-        188571240,
-        188571600,
-        188571960,
-        188572320,
-        188572680
+        196731720,
+        196732080,
+        196732440,
+        196732800,
+        196733160,
+        196733520,
+        196733880
       ]
     },
     {
@@ -1194,22 +907,22 @@
       "name": "fetch_manta_fertilizer_01",
       "duration": 2,
       "when": [
-        188570880,
-        188571120,
-        188571360,
-        188571600,
-        188571840,
-        188572080,
-        188572320,
-        188572560,
-        188572800
+        196732080,
+        196732320,
+        196732560,
+        196732800,
+        196733040,
+        196733280,
+        196733520,
+        196733760,
+        196734000
       ]
     },
     {
       "name": "fireworks_show_act1",
       "duration": 3,
       "when": [
-        190253400,
+        198202200,
         211338600,
         211425000
       ]
@@ -1218,30 +931,38 @@
       "name": "fireworks_show_medpad",
       "duration": 16,
       "when": [
-        190252800,
+        198201600,
         211338000,
         211424400
+      ]
+    },
+    {
+      "name": "force_ip_onboarding",
+      "duration": 110880,
+      "when": [
+        196646400
       ]
     },
     {
       "name": "gen_shop_daily_reset",
       "duration": 0,
       "when": [
-        188611200
+        196732800,
+        196819200
       ]
     },
     {
       "name": "gen_shop_monthly_reset",
       "duration": 0,
       "when": [
-        190252800
+        198201600
       ]
     },
     {
       "name": "gen_shop_weekly_reset",
       "duration": 0,
       "when": [
-        189043200
+        180252800
       ]
     },
     {
@@ -1252,17 +973,17 @@
       ]
     },
     {
-      "name": "global_ann_perf3",
+      "name": "global_ann_perf1",
       "duration": 5,
       "when": [
-        196029900
+        196733580
       ]
     },
     {
-      "name": "global_ann_perf4",
+      "name": "global_ann_perf12",
       "duration": 5,
       "when": [
-        196031700
+        196731900
       ]
     },
     {
@@ -1280,139 +1001,6 @@
       ]
     },
     {
-      "name": "global_ball_snow",
-      "duration": 217440,
-      "when": [
-        174614400
-      ]
-    },
-    {
-      "name": "global_bloom",
-      "duration": 30240,
-      "when": [
-        186019200
-      ]
-    },
-    {
-      "name": "global_bloom_2022",
-      "duration": 30240,
-      "when": [
-        186019200
-      ]
-    },
-    {
-      "name": "global_bloom_2023",
-      "duration": 30240,
-      "when": [
-        186019200
-      ]
-    },
-    {
-      "name": "global_bloom_2025_3",
-      "duration": 4320,
-      "when": [
-        186537600
-      ]
-    },
-    {
-      "name": "global_bloom_2025_4",
-      "duration": 4320,
-      "when": [
-        186796800
-      ]
-    },
-    {
-      "name": "global_bloom_2025_5",
-      "duration": 4320,
-      "when": [
-        187056000
-      ]
-    },
-    {
-      "name": "global_bloom_2025_6",
-      "duration": 8640,
-      "when": [
-        187315200
-      ]
-    },
-    {
-      "name": "global_bloom_2026_grow",
-      "duration": 20160,
-      "when": [
-        186278400
-      ]
-    },
-    {
-      "name": "global_bloom_2026_grow_2",
-      "duration": 2880,
-      "when": [
-        186451200
-      ]
-    },
-    {
-      "name": "global_bloom_2026_grow_3",
-      "duration": 14400,
-      "when": [
-        186624000
-      ]
-    },
-    {
-      "name": "global_bloom_2026_harvest",
-      "duration": 2880,
-      "when": [
-        187660800
-      ]
-    },
-    {
-      "name": "global_bloom_2026_wither",
-      "duration": 2880,
-      "when": [
-        187488000
-      ]
-    },
-    {
-      "name": "global_bloom_sakura_bloom",
-      "duration": 8640,
-      "when": [
-        186278400
-      ]
-    },
-    {
-      "name": "global_bloom_sakura_bloom_wax02",
-      "duration": 4320,
-      "when": [
-        186537600
-      ]
-    },
-    {
-      "name": "global_bloom_sakura_fall",
-      "duration": 1440,
-      "when": [
-        186883200
-      ]
-    },
-    {
-      "name": "global_bloom_sakura_fall_wax01",
-      "duration": 4320,
-      "when": [
-        186796800
-      ]
-    },
-    {
-      "name": "global_bloom_sakura_flowerPatch",
-      "duration": 30240,
-      "when": [
-        186019200
-      ]
-    },
-    {
-      "name": "global_bloom_shop",
-      "duration": 30240,
-      "when": [
-        186019200
-      ]
-    },
-    {
       "name": "global_cafe_open",
       "duration": 99999999,
       "when": [
@@ -1423,8 +1011,8 @@
       "name": "global_daily_reset_time",
       "duration": 1440,
       "when": [
-        188524800,
-        188611200
+        195987600,
+        196074000
       ]
     },
     {
@@ -1449,13 +1037,6 @@
       ]
     },
     {
-      "name": "global_home_spellshop",
-      "duration": 30240,
-      "when": [
-        186084000
-      ]
-    },
-    {
       "name": "global_mainstreet",
       "duration": 99999999,
       "when": [
@@ -1477,39 +1058,17 @@
       ]
     },
     {
-      "name": "global_nature_2024",
-      "duration": 20160,
-      "when": [
-        188438400
-      ]
-    },
-    {
-      "name": "global_nature_2024_meteor1",
-      "duration": 30,
-      "when": [
-        188569800,
-        188571600
-      ]
-    },
-    {
-      "name": "global_nature_2026",
-      "duration": 20160,
-      "when": [
-        188438400
-      ]
-    },
-    {
       "name": "global_nature_geyser",
       "duration": 15,
       "when": [
-        188568000
+        196732800
       ]
     },
     {
       "name": "global_newyear_firework_interval",
       "duration": 5,
       "when": [
-        188571600
+        196732800
       ]
     },
     {
@@ -1555,17 +1114,17 @@
       ]
     },
     {
+      "name": "global_summer",
+      "duration": 30240,
+      "when": [
+        198115200
+      ]
+    },
+    {
       "name": "global_transcendent_traveler",
       "duration": 99999999,
       "when": [
         154828800
-      ]
-    },
-    {
-      "name": "global_treasure",
-      "duration": 20160,
-      "when": [
-        180857600
       ]
     },
     {
@@ -1576,18 +1135,11 @@
       ]
     },
     {
-      "name": "global_webshop_start",
-      "duration": 99999999,
-      "when": [
-        187833600
-      ]
-    },
-    {
       "name": "global_weekend_shop",
       "duration": 1440,
       "when": [
-        188524800,
-        188611200
+        195987600,
+        196074000
       ]
     },
     {
@@ -1609,78 +1161,50 @@
       "name": "hub_clocktower",
       "duration": 0,
       "when": [
-        188571600,
-        188572500
-      ]
-    },
-    {
-      "name": "mainstreet_construction_mode",
-      "duration": 6311520,
-      "when": [
-        188697600
+        196732800,
+        196733700
       ]
     },
     {
       "name": "mainstreet_cycle_day_B",
       "duration": 25,
       "when": [
-        188572500
+        196733700
       ]
     },
     {
       "name": "mainstreet_cycle_morning_B",
       "duration": 10,
       "when": [
-        188571600
+        196732800
       ]
     },
     {
       "name": "mainstreet_cycle_night_B",
       "duration": 10,
       "when": [
-        188571000
+        196732200
       ]
     },
     {
       "name": "mainstreet_cycle_overcast_day_B",
       "duration": 5,
       "when": [
-        188572200
+        196733400
       ]
     },
     {
       "name": "mainstreet_cycle_sunset_B",
       "duration": 10,
       "when": [
-        188570400
-      ]
-    },
-    {
-      "name": "musicshop_weekly_rotation_01",
-      "duration": 10080,
-      "when": [
-        195696000
+        196731600
       ]
     },
     {
       "name": "musicshop_weekly_rotation_02",
       "duration": 10080,
       "when": [
-        188438400
-      ]
-    },
-    {
-      "name": "musicshop_weekly_rotation_03",
-      "duration": 10080,
-      "when": [
-        186019200
-      ]
-    },
-    {
-      "name": "musicshop_weekly_rotation_04",
-      "duration": 10080,
-      "when": [
-        186624000
+        196300800
       ]
     },
     {
@@ -1691,13 +1215,6 @@
       ]
     },
     {
-      "name": "night_quest",
-      "duration": 1440,
-      "when": [
-        186883200
-      ]
-    },
-    {
       "name": "personality_quiz_evergreen",
       "duration": 99999999,
       "when": [
@@ -1705,18 +1222,11 @@
       ]
     },
     {
-      "name": "prairie_quest",
-      "duration": 1440,
-      "when": [
-        186537600
-      ]
-    },
-    {
       "name": "projector_ember_p1",
       "duration": 1440,
       "when": [
-        188524800,
-        188611200
+        195987600,
+        196074000
       ]
     },
     {
@@ -2847,6 +2357,181 @@
       ]
     },
     {
+      "name": "quest_ap31_fetch_01",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_01_painting",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_02",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_02_painting",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_02_painting_part1",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_02_painting_part10",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_02_painting_part2",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_02_painting_part3",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_02_painting_part4",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_02_painting_part5",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_02_painting_part6",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_02_painting_part7",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_02_painting_part8",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_02_painting_part9",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_03",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_03_painting",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_03_painting_part1",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_03_painting_part2",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_03_painting_part3",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_04",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_04_painting",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_05",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_05_painting",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_06",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
+      "name": "quest_ap31_fetch_06_painting",
+      "duration": 99999999,
+      "when": [
+        180252800
+      ]
+    },
+    {
       "name": "quest_cafe_serving",
       "duration": 99999999,
       "when": [
@@ -2913,35 +2598,35 @@
       "name": "quest_scavenger_spirit_beachday1",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "quest_scavenger_spirit_beachday2",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "quest_scavenger_spirit_rockcollection1",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "quest_sunset_flyrace",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "quest_sunset_race",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
@@ -2952,59 +2637,31 @@
       ]
     },
     {
-      "name": "quest_tgc_office_aaron",
-      "duration": 1440,
-      "when": [
-        188524800
-      ]
-    },
-    {
-      "name": "quest_tgc_office_atlas",
-      "duration": 1440,
-      "when": [
-        186710400
-      ]
-    },
-    {
-      "name": "quest_tgc_office_scott",
-      "duration": 1440,
-      "when": [
-        186624000
-      ]
-    },
-    {
       "name": "quest_tgc_office_travis",
       "duration": 1440,
       "when": [
-        186796800
+        195987600
       ]
     },
     {
       "name": "quest_tgc_office_vince",
       "duration": 1440,
       "when": [
-        186883200
-      ]
-    },
-    {
-      "name": "quest_tgc_office_yui",
-      "duration": 1440,
-      "when": [
-        188438400
+        196732800
       ]
     },
     {
       "name": "radiant_darkstone_despawn",
       "duration": 1,
       "when": [
-        188571540
+        196732740
       ]
     },
     {
       "name": "radiant_darkstone_despawn_warning",
       "duration": 1,
       "when": [
-        188571480
+        196732680
       ]
     },
     {
@@ -3018,36 +2675,22 @@
       "name": "radiant_darkstone_spawn",
       "duration": 59,
       "when": [
-        188568000,
-        188571600
+        196729200,
+        196732800
       ]
     },
     {
       "name": "rain_darkstone_0",
       "duration": 1440,
       "when": [
-        188438400
+        196732800
       ]
     },
     {
       "name": "rain_darkstone_1",
       "duration": 1440,
       "when": [
-        188524800
-      ]
-    },
-    {
-      "name": "rain_quest",
-      "duration": 1440,
-      "when": [
-        186624000
-      ]
-    },
-    {
-      "name": "rain_rainbow",
-      "duration": 30,
-      "when": [
-        188542800
+        196646400
       ]
     },
     {
@@ -3061,9 +2704,9 @@
       "name": "season_21_deersummon",
       "duration": 25,
       "when": [
-        188569800,
-        188571600,
-        188573400
+        196731000,
+        196732800,
+        196734600
       ]
     },
     {
@@ -3081,153 +2724,75 @@
       ]
     },
     {
-      "name": "season_29",
+      "name": "season_31",
       "duration": 110880,
       "when": [
-        181184400
+        196733754
       ]
     },
     {
-      "name": "season_30",
-      "duration": 110880,
+      "name": "season_31_start_shop",
+      "duration": 99999999,
       "when": [
-        189043200
-      ]
-    },
-    {
-      "name": "season_b_dusk_candles1",
-      "duration": 1440,
-      "when": [
-        186796800
-      ]
-    },
-    {
-      "name": "season_b_night_candles1",
-      "duration": 1440,
-      "when": [
-        186883200
-      ]
-    },
-    {
-      "name": "season_b_prairie_candles2",
-      "duration": 1440,
-      "when": [
-        186537600
-      ]
-    },
-    {
-      "name": "season_b_rain_candles2",
-      "duration": 1440,
-      "when": [
-        186624000
-      ]
-    },
-    {
-      "name": "season_b_sunset_candles1",
-      "duration": 1440,
-      "when": [
-        186710400
+        196733754
       ]
     },
     {
       "name": "skyfest2026_w1",
       "duration": 1440,
       "when": [
-        195955200
+        195987600
+      ]
+    },
+    {
+      "name": "skyfest2026_w2",
+      "duration": 1440,
+      "when": [
+        196646400,
+        196732800
       ]
     },
     {
       "name": "skyfest_fireworks_show",
       "duration": 1440,
       "when": [
-        188485200,
-        188488800,
-        188492400,
-        188496000,
-        188499600,
-        188503200,
-        188506800,
-        188510400,
-        188514000,
-        188517600,
-        188521200,
-        188524800,
-        188528400,
-        188532000,
-        188535600,
-        188539200
+        195987600
       ]
     },
     {
       "name": "skyfest_fireworks_show_act1",
       "duration": 3,
       "when": [
-        188572740,
-        188576340
-      ]
-    },
-    {
-      "name": "skyfest_fireworks_show_act2",
-      "duration": 3,
-      "when": [
-        188572920
-      ]
-    },
-    {
-      "name": "skyfest_fireworks_show_act3",
-      "duration": 1,
-      "when": [
-        188569500
-      ]
-    },
-    {
-      "name": "skyfest_fireworks_show_act4",
-      "duration": 8,
-      "when": [
-        188569560
+        196734120
       ]
     },
     {
       "name": "skyfest_fireworks_show_medpad",
       "duration": 16,
       "when": [
-        188572680,
-        188576280
+        196734060,
+        196737660
       ]
     },
     {
       "name": "skyfest_gallerydawn",
       "duration": 1440,
       "when": [
-        186796800
+        195987600
       ]
     },
     {
       "name": "skyfest_oreo",
       "duration": 1440,
       "when": [
-        186883200
+        196732800
       ]
     },
     {
       "name": "skyfest_parade",
       "duration": 20,
       "when": [
-        196030800
-      ]
-    },
-    {
-      "name": "skyfest_poolparty",
-      "duration": 1440,
-      "when": [
-        186624000
-      ]
-    },
-    {
-      "name": "skyfest_skibi",
-      "duration": 1440,
-      "when": [
-        188438400
+        196732800
       ]
     },
     {
@@ -3238,73 +2803,59 @@
       ]
     },
     {
-      "name": "skyfest_tgc_office",
-      "duration": 1440,
-      "when": [
-        186710400
-      ]
-    },
-    {
-      "name": "skyfest_tower",
-      "duration": 1440,
-      "when": [
-        188524800
-      ]
-    },
-    {
       "name": "snake_coin",
       "duration": 1,
       "when": [
-        188570820,
-        188570880,
-        188570940,
-        188571000,
-        188571060,
-        188571120,
-        188571180,
-        188571240,
-        188571300,
-        188571360,
-        188571420,
-        188571480,
-        188571540,
-        188571600,
-        188571660,
-        188571720
+        196731960,
+        196732020,
+        196732080,
+        196732140,
+        196732200,
+        196732260,
+        196732320,
+        196732380,
+        196732440,
+        196732500,
+        196732560,
+        196732620,
+        196732680,
+        196732740,
+        196732800,
+        196732860
       ]
     },
     {
       "name": "snake_random_rail",
       "duration": 6,
       "when": [
-        188570520,
-        188570880,
-        188571240,
-        188571600,
-        188571960,
-        188572320,
-        188572680
+        196731720,
+        196732080,
+        196732440,
+        196732800,
+        196733160,
+        196733520,
+        196733880
       ]
     },
     {
       "name": "social_dusk_embersanctuary",
       "duration": 1439,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "social_dusk_spitroastpassive",
       "duration": 1439,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "social_eelwatercreature",
       "duration": 1439,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
@@ -3322,94 +2873,38 @@
       ]
     },
     {
-      "name": "social_feed_prompt_dobloom",
+      "name": "social_feed_prompt_grand_entrance",
       "duration": 10080,
       "when": [
-        186278400
-      ]
-    },
-    {
-      "name": "social_feed_prompt_hide_seek",
-      "duration": 44580,
-      "when": [
-        184986000
-      ]
-    },
-    {
-      "name": "social_feed_prompt_newbie_tip",
-      "duration": 10080,
-      "when": [
-        188092800
-      ]
-    },
-    {
-      "name": "social_feed_prompt_sunny_adventures",
-      "duration": 10080,
-      "when": [
-        186883200
-      ]
-    },
-    {
-      "name": "social_feed_prompt_welcome_home",
-      "duration": 43200,
-      "when": [
-        187660800
-      ]
-    },
-    {
-      "name": "social_nature2022turtle",
-      "duration": 10,
-      "when": [
-        188571000
+        196560000
       ]
     },
     {
       "name": "social_prairie_cozycave",
       "duration": 1439,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "social_rain_bonfirecamp",
       "duration": 1439,
       "when": [
-        188524800
-      ]
-    },
-    {
-      "name": "social_rain_grandmatable",
-      "duration": 15,
-      "when": [
-        188569800
+        195987600
       ]
     },
     {
       "name": "social_skyway_speedtube",
       "duration": 1439,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "social_sunset_labyrinth",
       "duration": 1439,
       "when": [
-        188524800
-      ]
-    },
-    {
-      "name": "social_sunsetskater",
-      "duration": 15,
-      "when": [
-        188571600
-      ]
-    },
-    {
-      "name": "social_turtle_despawn",
-      "duration": 10,
-      "when": [
-        188571600
+        195987600
       ]
     },
     {
@@ -4389,84 +3884,35 @@
       "name": "stormy_dusk",
       "duration": 1440,
       "when": [
-        186537600
-      ]
-    },
-    {
-      "name": "stormy_intensity_1",
-      "duration": 240,
-      "when": [
-        186688200
-      ]
-    },
-    {
-      "name": "stormy_intensity_2",
-      "duration": 240,
-      "when": [
-        188503800
-      ]
-    },
-    {
-      "name": "stormy_intensity_3",
-      "duration": 240,
-      "when": [
-        186608400
-      ]
-    },
-    {
-      "name": "stormy_intensity_4",
-      "duration": 240,
-      "when": [
-        186762000
-      ]
-    },
-    {
-      "name": "stormy_intensity_5",
-      "duration": 240,
-      "when": [
-        188559000
+        196646400
       ]
     },
     {
       "name": "stormy_night",
       "duration": 1440,
       "when": [
-        188438400
+        196732800
       ]
     },
     {
       "name": "stormy_prairie",
       "duration": 1440,
       "when": [
-        186710400
-      ]
-    },
-    {
-      "name": "stormy_rain",
-      "duration": 1440,
-      "when": [
-        186796800
-      ]
-    },
-    {
-      "name": "stormy_sunset",
-      "duration": 1440,
-      "when": [
-        186883200
+        195987600
       ]
     },
     {
       "name": "sunset_colosseum_firework_interval",
       "duration": 3,
       "when": [
-        188571600
+        196732800
       ]
     },
     {
       "name": "sunset_quest",
       "duration": 1440,
       "when": [
-        188438400
+        195987600
       ]
     },
     {
@@ -4484,55 +3930,48 @@
       ]
     },
     {
-      "name": "survey_cosmetics_0_32_5",
-      "duration": 11520,
+      "name": "survey_anniversary_0_33_7",
+      "duration": 17280,
       "when": [
-        185932800
-      ]
-    },
-    {
-      "name": "survey_season_29_end",
-      "duration": 11520,
-      "when": [
-        186796800
+        196560000
       ]
     },
     {
       "name": "te_ep_1",
       "duration": 15,
       "when": [
-        188570400,
-        188571600,
-        188572800,
-        188574000
+        196731600,
+        196732800,
+        196734000,
+        196735200
       ]
     },
     {
       "name": "te_ep_2",
       "duration": 15,
       "when": [
-        188570700,
-        188571900,
-        188573100
+        196731900,
+        196733100,
+        196734300
       ]
     },
     {
       "name": "te_ep_3",
       "duration": 15,
       "when": [
-        188571000,
-        188572200,
-        188573400
+        196732200,
+        196733400,
+        196734600
       ]
     },
     {
       "name": "te_ep_4",
       "duration": 15,
       "when": [
-        188570100,
-        188571300,
-        188572500,
-        188573700
+        196731300,
+        196732500,
+        196733700,
+        196734900
       ]
     },
     {
@@ -4546,66 +3985,21 @@
       "name": "visiting_vendor_ap22_miniquest_house",
       "duration": 1440,
       "when": [
-        188484480,
-        188484540,
-        188484600,
-        188484660,
-        188484720,
-        188484780,
-        188484840,
-        188484900,
-        188484960,
-        188485020,
-        188485080,
-        188485140,
-        188485200,
-        188485260,
-        188485320,
-        188485380
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_ap22_miniquest_shop",
       "duration": 1440,
       "when": [
-        188484480,
-        188484540,
-        188484600,
-        188484660,
-        188484720,
-        188484780,
-        188484840,
-        188484900,
-        188484960,
-        188485020,
-        188485080,
-        188485140,
-        188485200,
-        188485260,
-        188485320,
-        188485380
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_ap22_miniquest_social",
       "duration": 1440,
       "when": [
-        188484480,
-        188484540,
-        188484600,
-        188484660,
-        188484720,
-        188484780,
-        188484840,
-        188484900,
-        188484960,
-        188485020,
-        188485080,
-        188485140,
-        188485200,
-        188485260,
-        188485320,
-        188485380
+        195987600
       ]
     },
     {
@@ -4616,185 +4010,178 @@
       ]
     },
     {
-      "name": "visiting_vendor_jelly",
-      "duration": 5760,
-      "when": [
-        188352000
-      ]
-    },
-    {
       "name": "visiting_vendor_questap06",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap07",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap08",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap09",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap10",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap11",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap12",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap13",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap14",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap15",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap16",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap17",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap18",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap19",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap20",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap21",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap22",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap23",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap24",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap25",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap26",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap27",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap27manatee",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap28",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
       "name": "visiting_vendor_questap29",
       "duration": 1440,
       "when": [
-        188524800
+        195987600
       ]
     },
     {
@@ -4805,109 +4192,89 @@
       ]
     },
     {
-      "name": "weekly_dye_rotation_01",
-      "duration": 10080,
+      "name": "visiting_vendor_questap31",
+      "duration": 1440,
       "when": [
-        188438400
+        196646400,
+        196732800
       ]
     },
     {
-      "name": "weekly_dye_rotation_03",
+      "name": "weekly_dye_rotation_02",
       "duration": 10080,
       "when": [
-        186019200
+        196300800
       ]
     },
     {
       "name": "weekly_prop_rotation_01",
       "duration": 10080,
       "when": [
-        188438400
-      ]
-    },
-    {
-      "name": "weekly_prop_rotation_10",
-      "duration": 10080,
-      "when": [
-        186019200
-      ]
-    },
-    {
-      "name": "weekly_prop_rotation_11",
-      "duration": 10080,
-      "when": [
-        186624000
-      ]
-    },
-    {
-      "name": "weekly_prop_rotation_13",
-      "duration": 10080,
-      "when": [
-        195696000
+        196300800
       ]
     },
     {
       "name": "wildlifepark_cycle_day",
       "duration": 3,
       "when": [
-        188571060,
-        188571780,
-        188572500
+        196732260,
+        196732980,
+        196733700
       ]
     },
     {
       "name": "wildlifepark_cycle_morning",
       "duration": 2,
       "when": [
-        188570880,
-        188571600,
-        188572320
+        196732080,
+        196732800,
+        196733520
       ]
     },
     {
       "name": "wildlifepark_cycle_night",
       "duration": 3,
       "when": [
-        188570700,
-        188571420,
-        188572140,
-        188572860
+        196731900,
+        196732620,
+        196733340,
+        196734060
       ]
     },
     {
       "name": "wildlifepark_cycle_not_night_hint",
       "duration": 8,
       "when": [
-        188570880,
-        188571600,
-        188572320
+        196732080,
+        196732800,
+        196733520
       ]
     },
     {
       "name": "wildlifepark_cycle_overcast_day",
       "duration": 1,
       "when": [
-        188571000,
-        188571720,
-        188572440
+        196732200,
+        196732920,
+        196733640
       ]
     },
     {
       "name": "wildlifepark_cycle_overcast_night",
       "duration": 1,
       "when": [
-        188571360,
-        188572080,
-        188572800
+        196732560,
+        196733280,
+        196734000
       ]
     },
     {
       "name": "wildlifepark_cycle_sunset",
       "duration": 2,
       "when": [
-        188571240,
-        188571960,
-        188572680
+        196732440,
+        196733160,
+        196733880
       ]
     },
     {

@@ -420,6 +420,11 @@
         "type": "body"
     },
     {
+        "id": 4283498658,
+        "name": "CharSkyKid_Body_AP31WorkerDress",
+        "type": "body"
+    },
+    {
         "id": 565657098,
         "name": "CharSkyKid_Body_FortuneMuralist",
         "type": "body"
@@ -497,6 +502,11 @@
     {
         "id": 1003584869,
         "name": "CharSkyKid_Body_SunlightDress",
+        "type": "body"
+    },
+    {
+        "id": 1804954203,
+        "name": "CharSkyKid_Body_SunlightWetsuit",
         "type": "body"
     },
     {
@@ -860,6 +870,11 @@
         "type": "feet"
     },
     {
+        "id": 1097954141,
+        "name": "CharSkyKid_Feet_AP31Clogs",
+        "type": "feet"
+    },
+    {
         "id": 1920507960,
         "name": "CharSkyKid_Feet_RainbowDarkLoafers",
         "type": "feet"
@@ -867,6 +882,11 @@
     {
         "id": 1616682074,
         "name": "CharSkyKid_Feet_SunlightSandals",
+        "type": "feet"
+    },
+    {
+        "id": 2956216488,
+        "name": "CharSkyKid_Feet_SunlightDuckFlippers",
         "type": "feet"
     },
     {
@@ -1660,6 +1680,21 @@
         "type": "hair"
     },
     {
+        "id": 3116507635,
+        "name": "CharSkyKid_Hair_AP31Bonnet",
+        "type": "hair"
+    },
+    {
+        "id": 1022613391,
+        "name": "CharSkyKid_Hair_AP31AlmondBlossom",
+        "type": "hair"
+    },
+    {
+        "id": 1704083768,
+        "name": "CharSkyKid_Hair_AP31Starry",
+        "type": "hair"
+    },
+    {
         "id": 191656498,
         "name": "CharSkyKid_Hair_DoubleBun",
         "type": "hair"
@@ -1742,6 +1777,11 @@
     {
         "id": 2025123542,
         "name": "CharSkyKid_Hair_MarchingBand",
+        "type": "hair"
+    },
+    {
+        "id": 3846767637,
+        "name": "CharSkyKid_Hair_SunlightSurfer",
         "type": "hair"
     },
     {
@@ -2045,6 +2085,26 @@
         "type": "hat"
     },
     {
+        "id": 1162605695,
+        "name": "CharSkyKid_Hat_AP31FloppyHat",
+        "type": "hat"
+    },
+    {
+        "id": 4167120338,
+        "name": "CharSkyKid_Hat_AP31Postman",
+        "type": "hat"
+    },
+    {
+        "id": 2337376020,
+        "name": "CharSkyKid_Hat_AP07StrawHatNoCrab",
+        "type": "hat"
+    },
+    {
+        "id": 1744347437,
+        "name": "CharSkyKid_Hat_AP31BlueFur",
+        "type": "hat"
+    },
+    {
         "id": 2852204993,
         "name": "CharSkyKid_Horn_Orange",
         "type": "hat"
@@ -2240,6 +2300,11 @@
         "type": "hat"
     },
     {
+        "id": 247978469,
+        "name": "CharSkyKid_Hat_SunlightSunglasses",
+        "type": "hat"
+    },
+    {
         "id": 3339760965,
         "name": "CharSkyKid_Horn_MusicNote_02",
         "type": "hat"
@@ -2417,6 +2482,21 @@
     {
         "id": 415201570,
         "name": "CharSkyKid_Horn_AP29OrbEarring",
+        "type": "horn"
+    },
+    {
+        "id": 2668348,
+        "name": "CharSkyKid_Horn_AP31Bandage",
+        "type": "horn"
+    },
+    {
+        "id": 2640433851,
+        "name": "CharSkyKid_Horn_AP31StarryEarring",
+        "type": "horn"
+    },
+    {
+        "id": 2723403312,
+        "name": "CharSkyKid_Horn_AP31StarryEarringStrokes",
         "type": "horn"
     },
     {
@@ -2950,6 +3030,16 @@
         "type": "mask"
     },
     {
+        "id": 2473432644,
+        "name": "CharSkyKid_Mask_AP31Starry",
+        "type": "mask"
+    },
+    {
+        "id": 3603611889,
+        "name": "CharSkyKid_Mask_AP31StarryStrokes",
+        "type": "mask"
+    },
+    {
         "id": 1614955514,
         "name": "CharSkyKid_Mask_RedFace",
         "type": "mask"
@@ -3047,6 +3137,11 @@
     {
         "id": 2565689942,
         "name": "CharSkyKid_Mask_FortuneHorse",
+        "type": "mask"
+    },
+    {
+        "id": 1586765002,
+        "name": "CharSkyKid_Mask_SunlightSnorkel",
         "type": "mask"
     },
     {
@@ -3220,6 +3315,11 @@
         "type": "neck"
     },
     {
+        "id": 3253349514,
+        "name": "CharSkyKid_Neck_AP31Pendant",
+        "type": "neck"
+    },
+    {
         "id": 1539087887,
         "name": "CharSkyKid_Neck_AP07BowTie",
         "type": "neck"
@@ -3282,6 +3382,21 @@
     {
         "id": 1740328786,
         "name": "CharSkyKid_Neck_AP30RuffledCollar",
+        "type": "neck"
+    },
+    {
+        "id": 508096697,
+        "name": "CharSkyKid_Neck_AP31Starry",
+        "type": "neck"
+    },
+    {
+        "id": 2998705414,
+        "name": "CharSkyKid_Neck_AP31StarryStrokes",
+        "type": "neck"
+    },
+    {
+        "id": 940537212,
+        "name": "CharSkyKid_Neck_AP31StrawHat",
         "type": "neck"
     },
     {
@@ -3825,6 +3940,21 @@
         "type": "prop"
     },
     {
+        "id": 3702492309,
+        "name": "CharSkyKid_Prop_TableBronze",
+        "type": "prop"
+    },
+    {
+        "id": 3458219220,
+        "name": "CharSkyKid_Prop_TableSilver",
+        "type": "prop"
+    },
+    {
+        "id": 1874807599,
+        "name": "CharSkyKid_Prop_TableGold",
+        "type": "prop"
+    },
+    {
         "id": 2403746432,
         "name": "CharSkyKid_Prop_JarRound",
         "type": "prop"
@@ -4127,6 +4257,21 @@
     {
         "id": 3783391418,
         "name": "CharSkyKid_Prop_AP30BirdPlush",
+        "type": "prop"
+    },
+    {
+        "id": 364559279,
+        "name": "CharSkyKid_Prop_AP31BlossomTea",
+        "type": "prop"
+    },
+    {
+        "id": 2036900608,
+        "name": "CharSkyKid_Prop_AP31IrisVase",
+        "type": "prop"
+    },
+    {
+        "id": 932421922,
+        "name": "CharSkyKid_Prop_AP31SunflowerVase",
         "type": "prop"
     },
     {
@@ -4480,6 +4625,11 @@
         "type": "prop"
     },
     {
+        "id": 1621771123,
+        "name": "CharSkyKid_Prop_SkyArtBook02_Closed",
+        "type": "prop"
+    },
+    {
         "id": 3580839943,
         "name": "CharSkyKid_Prop_Swing",
         "type": "prop"
@@ -4717,6 +4867,21 @@
     {
         "id": 880849997,
         "name": "CharSkyKid_Prop_Surfboard",
+        "type": "prop"
+    },
+    {
+        "id": 1009654894,
+        "name": "CharSkyKid_Prop_SunlightSurfboardSporty",
+        "type": "prop"
+    },
+    {
+        "id": 3615674701,
+        "name": "CharSkyKid_Prop_SunlightRamp",
+        "type": "prop"
+    },
+    {
+        "id": 2958781753,
+        "name": "CharSkyKid_Prop_CrabFloat",
         "type": "prop"
     },
     {
@@ -5550,6 +5715,51 @@
         "type": "prop"
     },
     {
+        "id": 3121838750,
+        "name": "CharSkyKid_Prop_AP31PaintingTree",
+        "type": "prop"
+    },
+    {
+        "id": 3769340502,
+        "name": "CharSkyKid_Prop_AP31PaintingFarm",
+        "type": "prop"
+    },
+    {
+        "id": 1634149594,
+        "name": "CharSkyKid_Prop_AP31PaintingWindmill",
+        "type": "prop"
+    },
+    {
+        "id": 2866930142,
+        "name": "CharSkyKid_Prop_AP31PaintingBedroom",
+        "type": "prop"
+    },
+    {
+        "id": 1566166073,
+        "name": "CharSkyKid_Prop_AP31PaintingPortrait",
+        "type": "prop"
+    },
+    {
+        "id": 2546187851,
+        "name": "CharSkyKid_Prop_AP31PaintingSunflower",
+        "type": "prop"
+    },
+    {
+        "id": 428290162,
+        "name": "CharSkyKid_Prop_AP31PaintingHouse",
+        "type": "prop"
+    },
+    {
+        "id": 3379080678,
+        "name": "CharSkyKid_Prop_AP31PaintingField",
+        "type": "prop"
+    },
+    {
+        "id": 1432050083,
+        "name": "CharSkyKid_Prop_AP31PaintingStarry",
+        "type": "prop"
+    },
+    {
         "id": 2245279351,
         "name": "CharSkyKid_Wing_ClassicOne_Default",
         "type": "wing"
@@ -6172,6 +6382,41 @@
     {
         "id": 19915109,
         "name": "CharSkyKid_Wing_AP30SpiritBird",
+        "type": "wing"
+    },
+    {
+        "id": 3507079841,
+        "name": "CharSkyKid_Wing_AP31Starry",
+        "type": "wing"
+    },
+    {
+        "id": 992040684,
+        "name": "CharSkyKid_Wing_AP31AlmondBlossom",
+        "type": "wing"
+    },
+    {
+        "id": 2843350282,
+        "name": "CharSkyKid_Wing_AP31Postman",
+        "type": "wing"
+    },
+    {
+        "id": 3717712495,
+        "name": "CharSkyKid_Wing_AP31Wheat",
+        "type": "wing"
+    },
+    {
+        "id": 4161251844,
+        "name": "CharSkyKid_Wing_AP31StrawHat",
+        "type": "wing"
+    },
+    {
+        "id": 1464666850,
+        "name": "CharSkyKid_Wing_AP31SheerShawl",
+        "type": "wing"
+    },
+    {
+        "id": 2662727052,
+        "name": "CharSkyKid_Wing_AP31RedCape",
         "type": "wing"
     },
     {
@@ -6870,6 +7115,106 @@
         "type": "body"
     },
     {
+        "id": 7219740,
+        "name": "NPC_AP31ArtistInjured",
+        "type": "body"
+    },
+    {
+        "id": 5930051,
+        "name": "NPC_AP31ArtistBlue",
+        "type": "body"
+    },
+    {
+        "id": 1164523906,
+        "name": "NPC_AP31Brother",
+        "type": "body"
+    },
+    {
+        "id": 3901563792,
+        "name": "NPC_AP31Sister",
+        "type": "body"
+    },
+    {
+        "id": 382859021,
+        "name": "NPC_AP31YoungHuman",
+        "type": "body"
+    },
+    {
+        "id": 2077581738,
+        "name": "NPC_AP31YoungHumanWhiteShirt",
+        "type": "body"
+    },
+    {
+        "id": 2469004117,
+        "name": "NPC_AP31BlueGeneric",
+        "type": "body"
+    },
+    {
+        "id": 1163474709,
+        "name": "NPC_AP31WorkerDressBlue",
+        "type": "body"
+    },
+    {
+        "id": 2765571767,
+        "name": "NPC_AP31WorkerDressBrown",
+        "type": "body"
+    },
+    {
+        "id": 3227713985,
+        "name": "NPC_AP31WorkerDressYellow",
+        "type": "body"
+    },
+    {
+        "id": 1942110914,
+        "name": "NPC_AP31WorkerDressGray",
+        "type": "body"
+    },
+    {
+        "id": 2805503159,
+        "name": "NPC_AP31SuitBrown",
+        "type": "body"
+    },
+    {
+        "id": 2805130156,
+        "name": "NPC_AP31SuitBlack",
+        "type": "body"
+    },
+    {
+        "id": 385577237,
+        "name": "NPC_AP31SuitBlue",
+        "type": "body"
+    },
+    {
+        "id": 1467885156,
+        "name": "NPC_AP31VictorianDressBrown",
+        "type": "body"
+    },
+    {
+        "id": 3290099131,
+        "name": "NPC_AP31VictorianDressBlack",
+        "type": "body"
+    },
+    {
+        "id": 792785995,
+        "name": "NPC_AP31VictorianDressGreen",
+        "type": "body"
+    },
+    {
+        "id": 473250579,
+        "name": "NPC_AP31Priest",
+        "type": "body"
+    },
+    {
+        "id": 1235210873,
+        "name": "NPC_AP31BuzzBlonde",
+        "type": "hair"
+    },
+    {
+        "id": 4029946884,
+        "name": "NPC_AP31TopSharpRed",
+        "type": "hair"
+    },
+    {
         "id": 772190650,
         "name": "CharSkyNPC_Body_Invisible",
         "type": "body"
@@ -7298,5 +7643,40 @@
         "id": 3318272121,
         "name": "CharSkyKid_Prop_ChallengeTreasure",
         "type": "prop"
+    },
+    {
+        "id": 322850602,
+        "name": "CharSkyKid_Wing_FriendshipDuck",
+        "type": "wing"
+    },
+    {
+        "id": 4036039271,
+        "name": "CharSkyKid_Feet_YellowWellies",
+        "type": "feet"
+    },
+    {
+        "id": 4195187952,
+        "name": "CharSkyKid_Body_SunflowerSkirt",
+        "type": "body"
+    },
+    {
+        "id": 2710957657,
+        "name": "CharSkyKid_Hat_FriendshipMiniDuck",
+        "type": "hat"
+    },
+    {
+        "id": 4217919963,
+        "name": "CharSkyKid_Hat_SunflowerHat",
+        "type": "hat"
+    },
+    {
+        "id": 3838528540,
+        "name": "CharSkyKid_Neck_SunflowerTie",
+        "type": "neck"
+    },
+    {
+        "id": 4171595851,
+        "name": "CharSkyKid_Hat_SunflowerHeadband",
+        "type": "hat"
     }
 ]

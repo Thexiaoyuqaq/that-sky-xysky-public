@@ -771,6 +771,101 @@
       "unlock_pre_reqs": []
     },
     {
+      "id": "SNC206",
+      "type": "Non-Consumable",
+      "tier": 3,
+      "name": "commerce_item_name_dear_starrymask",
+      "desc": "commerce_item_desc_dear_starrymask",
+      "icon": "UiOutfitMaskAP31Starry",
+      "soundId": 4,
+      "event_name": "season_31_start_shop",
+      "npc_names": [
+        "ap31_starry_shop"
+      ],
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Mask_AP31Starry"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "SNC207",
+      "type": "Non-Consumable",
+      "tier": 5,
+      "name": "commerce_item_name_dear_starryearring",
+      "desc": "commerce_item_desc_dear_starryearring",
+      "icon": "UiOutfitHornAP31StarryEarrings",
+      "soundId": 5,
+      "event_name": "season_31_start_shop",
+      "npc_names": [
+        "ap31_starry_shop"
+      ],
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Horn_AP31StarryEarring"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "SNC208",
+      "type": "Non-Consumable",
+      "tier": 15,
+      "name": "commerce_item_name_dear_wheatcape",
+      "desc": "commerce_item_desc_dear_wheatcape",
+      "icon": "UiOutfitCapeAP31Wheat",
+      "soundId": 7,
+      "event_name": "season_31_start_shop",
+      "npc_names": [
+        "ap31shop"
+      ],
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Wing_AP31Wheat"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "SNC209",
+      "type": "Non-Consumable",
+      "tier": 25,
+      "name": "commerce_item_name_dear_starrywing",
+      "desc": "commerce_item_desc_dear_starrywing",
+      "icon": "UiOutfitCapeAP31Starry",
+      "soundId": 8,
+      "event_name": "season_31_start_shop",
+      "npc_names": [
+        "ap31_starry_shop"
+      ],
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Neck_AP31Starry",
+        "CharSkyKid_Wing_AP31Starry"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": [
+        "quest_ap31_fetch_06"
+      ]
+    },
+    {
       "id": "SNC175",
       "type": "Non-Consumable",
       "tier": 20,
@@ -3259,6 +3354,10 @@
       "icon": "UiOutfitCapeTGCBlackHoodie",
       "soundId": 8,
       "event_name": "global_skyfest",
+      "npc_names": [
+        "questanniversary_retiap"
+      ],
+      "npc_on_event_name": "ap31_anniversary_shop_migration",
       "currencyType": "candles",
       "currencyCount": 0,
       "currencyType2": "candles",
@@ -3279,6 +3378,10 @@
       "icon": "UiOutfitFeetOreoSlipper",
       "soundId": 4,
       "event_name": "global_skyfest",
+      "npc_names": [
+        "questanniversary_retiap"
+      ],
+      "npc_on_event_name": "ap31_anniversary_shop_migration",
       "currencyType": "candles",
       "currencyCount": 0,
       "currencyType2": "candles",
@@ -3299,6 +3402,10 @@
       "icon": "UiOutfitPropSkykidPlushie",
       "soundId": 4,
       "event_name": "global_skyfest",
+      "npc_names": [
+        "questanniversary_retiap"
+      ],
+      "npc_on_event_name": "ap31_anniversary_shop_migration",
       "currencyType": "candles",
       "currencyCount": 0,
       "currencyType2": "candles",
@@ -3538,6 +3645,67 @@
       "unlock_pre_reqs": []
     },
     {
+      "id": "SNC203",
+      "type": "Non-Consumable",
+      "tier": 10,
+      "name": "commerce_item_name_sunlight_wetsuit",
+      "desc": "commerce_item_desc_sunlight_wetsuit",
+      "icon": "UiOutfitBodySunlightWetsuit",
+      "soundId": 6,
+      "event_name": "global_summer",
+      "currencyType": "season_candle",
+      "currencyCount": 0,
+      "currencyType2": "season_candle",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Feet_SunlightDuckFlippers",
+        "CharSkyKid_Body_SunlightWetsuit"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "SNC204",
+      "type": "Non-Consumable",
+      "tier": 4,
+      "name": "commerce_item_name_sunlight_crabfloatie",
+      "desc": "commerce_item_desc_sunlight_crabfloatie",
+      "icon": "UiOutfitPropCrabFloat",
+      "soundId": 4,
+      "event_name": "global_summer",
+      "currencyType": "season_candle",
+      "currencyCount": 0,
+      "currencyType2": "season_candle",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Prop_CrabFloat"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "SNC205",
+      "type": "Non-Consumable",
+      "tier": 3,
+      "name": "commerce_item_name_sunlight_sunglasses",
+      "desc": "commerce_item_desc_sunlight_sunglasses",
+      "icon": "UiOutfitHatSunlightSunglasses",
+      "soundId": 4,
+      "event_name": "global_summer",
+      "currencyType": "season_candle",
+      "currencyCount": 0,
+      "currencyType2": "season_candle",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Hat_SunlightSunglasses"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
       "id": "SNC161",
       "type": "Non-Consumable",
       "tier": 15,
@@ -3546,6 +3714,9 @@
       "icon": "UiOutfitHatSunlightJelly",
       "soundId": 4,
       "event_name": "global_summer",
+      "npc_names": [
+        "questsummer_shop"
+      ],
       "currencyType": "season_candle",
       "currencyCount": 0,
       "currencyType2": "season_candle",

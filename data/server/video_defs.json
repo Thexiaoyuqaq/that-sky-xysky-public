@@ -1,18 +1,18 @@
 {
   "video_defs": [
     {
-      "name": "6yrsofsky",
-      "duration": 3600,
-      "location": "https://video.cdn.thatgamecompany.com/encoded/6yrsofsky/SCA_6YrsOfSky_VLS_60m_EN_250521/SCA_6YrsOfSky_VLS_60m_EN_250521_tgc.m3u8",
-      "subtitle_base": "",
-      "has_translations": false
-    },
-    {
       "name": "295filler",
       "duration": 3600,
       "location": "https://video.cdn.thatgamecompany.com/encoded/295filler/SCA_295Filler_VLS_60m_EN_250521/SCA_295Filler_VLS_60m_EN_250521_tgc.m3u8",
       "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/295filler/SCA_295Filler_VLS_60m_EN_250520.mp4.vtt",
       "has_translations": true
+    },
+    {
+      "name": "6yrsofsky",
+      "duration": 3600,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/6yrsofsky/SCA_6YrsOfSky_VLS_60m_EN_250521/SCA_6YrsOfSky_VLS_60m_EN_250521_tgc.m3u8",
+      "subtitle_base": "",
+      "has_translations": false
     },
     {
       "name": "7th_celebration",
@@ -32,14 +32,21 @@
       "name": "activity_kinetic",
       "duration": 1800,
       "location": "https://video.cdn.thatgamecompany.com/encoded/activity_kinetic/7d365217-f274-469c-8d47-326d1e8974ef/SCA26_KineticActivity_VLS_30m_EN_260630/SCA26_KineticActivity_VLS_30m_EN_260630_tgc.m3u8",
-      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/activity_kinetic/e041bae2-069e-4008-9793-781f5cc95cf2/_activity_kinetic.vtt",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/activity_kinetic/0802bbe4-d4d6-4070-b99a-527fa27c54f6/activity_kinetic.vtt",
       "has_translations": true
+    },
+    {
+      "name": "activity_remix",
+      "duration": 1800,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/activity_remix/be305f1d-5e3f-4927-b4f9-ffb371d0d4c3/SCA26_Acti-RemixRev_VLS_30m_260706/SCA26_Acti-RemixRev_VLS_30m_260706_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/activity_remix/e74e17b8-63c4-437c-88e7-a37c8edb47db/activity_remix_260708.vtt",
+      "has_translations": false
     },
     {
       "name": "activity_tranquil",
       "duration": 1800,
       "location": "https://video.cdn.thatgamecompany.com/encoded/activity_tranquil/80d127a1-e8c9-4e86-aa26-ec4e12d9f5ee/SCA26_TranquilActivity_VLS_30m_260630/SCA26_TranquilActivity_VLS_30m_260630_tgc.m3u8",
-      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/activity_tranquil/07c3b0d8-010e-4f91-b944-6eb225b1ae27/activity_tranquil.vtt",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/activity_tranquil/d0fdd6d8-db55-427c-b78e-b4c716f283f5/activity_tranquil.vtt",
       "has_translations": true
     },
     {
@@ -48,6 +55,62 @@
       "location": "https://video.cdn.thatgamecompany.com/encoded/skyfest24/gallery2/DOS5_ArtGalleryInGame_K_240424/DOS5_ArtGalleryInGame_K_240424_tgc.m3u8",
       "subtitle_base": "",
       "has_translations": false
+    },
+    {
+      "name": "artb2_abyss_ashyui",
+      "duration": 110,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/artb2_abyss_ashyui/860a6262-e334-47ce-aedb-042e757ec0fe/ARTB2_NFC_Abyss_AshYui_VLS_110s_2605/ARTB2_NFC_Abyss_AshYui_VLS_110s_2605_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/artb2_abyss_ashyui/3a1cc482-8524-475e-92c3-008ee8a7d66f/artb2_-nfc-abyss-ash-yui_vls_110s_2605.vtt",
+      "has_translations": true
+    },
+    {
+      "name": "artb2_aurora_ashyui",
+      "duration": 128,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/artb2_aurora_ashyui/98ca9dd6-9594-462c-8b8c-c6c148c6779d/ARTB2_NFC_Aurora_AshYui_VLS_128s_2605/ARTB2_NFC_Aurora_AshYui_VLS_128s_2605_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/artb2_aurora_ashyui/b9944f72-43fc-43a9-ba2e-078898d8750a/artb2_nfc_aurora_ashyui_vls_128s_260521.vtt",
+      "has_translations": true
+    },
+    {
+      "name": "artb2_enchantment_ashyui",
+      "duration": 115,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/artb2_enchantment_ashyui/7e26d0d2-e786-400b-b95d-a01273e368ea/ARTB2_NFC_Enchantment_AshYui_VLS_115s_2605/ARTB2_NFC_Enchantment_AshYui_VLS_115s_2605_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/artb2_enchantment_ashyui/b13b6b8e-1030-4f7d-aaf2-32f89833c160/artb2_nfc_enchantment_ashyui_vls_115s_2605.vtt",
+      "has_translations": true
+    },
+    {
+      "name": "artb2_moments_ashyui",
+      "duration": 155,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/artb2_moments_ashyui/97278f9b-245b-44dc-9b57-0c0ad3ff77a7/ARTB2_NFC_Moments_AshYui_VLS_155s_2605/ARTB2_NFC_Moments_AshYui_VLS_155s_2605_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/artb2_moments_ashyui/5eafdff0-ca1f-4b52-93ff-63fdf30250a5/ARTB2_-NFC-Moments-Ash_Yui_VLS_155s_260521.vtt",
+      "has_translations": true
+    },
+    {
+      "name": "artb2_prophecy_ashyui",
+      "duration": 103,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/artb2_prophecy_ashyui/db7a3fc1-ffa9-4b61-a0e8-7e8ec7d65151/ARTB2_NFC_Prophecy_AshYui_VLS_103s_2605/ARTB2_NFC_Prophecy_AshYui_VLS_103s_2605_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/artb2_prophecy_ashyui/7c24a36f-a654-4b5f-ab4a-352fa684b7be/ARTB2_-NFC-Prophecy-Ash_Yui_VLS_103s_2605.vtt",
+      "has_translations": true
+    },
+    {
+      "name": "artb2_revival_ashyui",
+      "duration": 188,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/artb2_revival_ashyui/59b7f43d-ab45-43e1-b42b-d7201cd13e58/ARTB2_NFC_Revival_AshYui_VLS_188s_2605/ARTB2_NFC_Revival_AshYui_VLS_188s_2605_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/artb2_revival_ashyui/01f1dc49-e854-4b2c-af64-5275f3442542/ARTB2_-NFC-Revival-Ash_Yui_VLS_188s_260521.vtt",
+      "has_translations": true
+    },
+    {
+      "name": "artb2_sanctuary_ashyui",
+      "duration": 103,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/artb2_sanctuary_ashyui/b8e6eb7d-be2b-44f2-ae92-9f9834552014/ARTB2_NFC_Sanctuary_AshYui_VLS_103s_2605/ARTB2_NFC_Sanctuary_AshYui_VLS_103s_2605_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/artb2_sanctuary_ashyui/a326723d-0744-41af-ac45-75b97950c66b/ARTB2_-NFC-Sanctuary-Ash_Yui_VLS_103s_260521.vtt",
+      "has_translations": true
+    },
+    {
+      "name": "artb2_tlp_ashyui",
+      "duration": 119,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/artb2_tlp_ashyui/7e0e0388-e29c-4c99-9c55-079df53d761b/ARTB2_NFC_TLP_AshYui_VLS_119s_2605/ARTB2_NFC_TLP_AshYui_VLS_119s_2605_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/artb2_tlp_ashyui/0a9db34a-76e7-4462-b21d-e11156206e1a/artb2_nfc_tlp_ashyui_vls_119s_2605.vtt",
+      "has_translations": true
     },
     {
       "name": "artbook_signing",
@@ -64,23 +127,86 @@
       "has_translations": true
     },
     {
+      "name": "awd26Locked*_activity_s31teaser",
+      "duration": 1800,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/awd26Locked*_activity_s31teaser/35f62134-1058-419c-979b-8c24629258ef/SCA26_Acti-S31_VLS_30m_EN_2606/SCA26_Acti-S31_VLS_30m_EN_2606_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/awd26Locked*_activity_s31teaser/7d2b69d2-89a4-45a1-a025-05f5fea4235b/activity_s31teaser_260706.vtt",
+      "has_translations": true
+    },
+    {
+      "name": "awd26Locked*_show_p1",
+      "duration": 1950,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/awd26Locked*_show_p1/ddee4cfb-021d-4a1e-b3fa-0ca880fdd522/SCA26_AwdCeremony-P1_VLS_32m30s_EN_260706/SCA26_AwdCeremony-P1_VLS_32m30s_EN_260706_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/%20awd26Locked*_show_p1/a46c3dfe-bd58-4c59-88fc-e86351220eee/SCA26_Show_P1.vtt",
+      "has_translations": true
+    },
+    {
+      "name": "awd26Locked*_show_p2",
+      "duration": 1650,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/awd26Locked*_show_p2/fc8f6472-9d5d-47fc-a394-e741d80f93cc/SCA26_AwdCeremony-P2_VLS_27m30s_EN_260706/SCA26_AwdCeremony-P2_VLS_27m30s_EN_260706_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/%20awd26Locked*_show_p2/4ae89f43-3388-4970-ac18-915c542fb291/SCA26_Show_P2.vtt",
+      "has_translations": true
+    },
+    {
+      "name": "awd26Locked*_win_a",
+      "duration": 1800,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/awd26Locked*_win_a/dc37fe5a-54e4-4565-a150-3412f44733b7/SCA26_AwdWin-A_VLS_30m_EN_260617/SCA26_AwdWin-A_VLS_30m_EN_260617_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/awd26Locked*_win_a/5edd495b-35a7-471c-99d3-2d299e9b64b1/SCA26_AwdWin-A.vtt",
+      "has_translations": true
+    },
+    {
+      "name": "awd26Locked*_win_b",
+      "duration": 1800,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/awd26Locked*_win_b/81abc608-95b5-4e8f-ba09-fa1f5d9722d3/SCA26_AwdWin-B_VLS_30m_EN_260617/SCA26_AwdWin-B_VLS_30m_EN_260617_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/awd26Locked*_win_b/e69fde27-cf61-4e0c-bc45-0f3b9939da2e/SCA26_AwdWin-B.vtt",
+      "has_translations": true
+    },
+    {
+      "name": "awd26Locked*_win_c",
+      "duration": 1800,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/awd26Locked*_win_c/27110657-8f0e-43bd-ae36-7b546917eea5/SCA26_AwdWin-C_VLS_30m_EN_260706/SCA26_AwdWin-C_VLS_30m_EN_260706_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/awd26Locked*_win_c/311a75cf-9417-4912-a722-9fbbbe1b289a/SCA26_AwdWin-C.vtt",
+      "has_translations": true
+    },
+    {
+      "name": "awd26Locked*_win_d",
+      "duration": 1800,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/awd26Locked*_win_d/f0bf59c5-ae7f-408c-b52f-76704ba26bf9/SCA26_AwdWin-D_VLS_30m_EN_260617/SCA26_AwdWin-D_VLS_30m_EN_260617_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/awd26Locked*_win_d/dc3001e4-c590-4aa4-ae7a-51747d8e9af6/SCA26_AwdWin-D.vtt",
+      "has_translations": true
+    },
+    {
+      "name": "awd26Locked*_win_e",
+      "duration": 1800,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/awd26Locked*_win_e/1abd5c59-1e00-4e26-8eaf-46eed263f8f5/SCA26_AwdWin-E_VLS_30m_EN_260706/SCA26_AwdWin-E_VLS_30m_EN_260706_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/awd26Locked*_win_e/bc460ab3-1c5e-4b6f-ad87-965a6ccb0ce7/SCA26_AwdWin-E.vtt",
+      "has_translations": true
+    },
+    {
+      "name": "awd26_countdown",
+      "duration": 1800,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/awd26_countdown/e1810696-6316-4251-b801-e0176d4dd3e8/SCA26_Countdown_VLS_30m_2604/SCA26_Countdown_VLS_30m_2604_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/awd26_countdown/a05a6fce-2c5f-4d32-a617-3f484ee2fbb8/awd26_countdown_0618.vtt",
+      "has_translations": false
+    },
+    {
       "name": "awd26_sel_a",
       "duration": 1800,
       "location": "https://video.cdn.thatgamecompany.com/encoded/awd26_sel_a/9c9b8da8-9f52-40a8-8a38-b72cd96c49bc/SCA26_AwdSel-A_VLS_30m_EN_260623/SCA26_AwdSel-A_VLS_30m_EN_260623_tgc.m3u8",
-      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/awd26_sel_a/cf7f43e0-59e4-4f0e-aedc-a6554dd94dcb/SCA26_AwdSel-A.vtt",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/awd26_sel_a/f9e7fd19-741d-4546-92de-af8e8520cc32/SCA26_AwdSel-A.vtt",
       "has_translations": true
     },
     {
       "name": "awd26_sel_b",
       "duration": 1800,
       "location": "https://video.cdn.thatgamecompany.com/encoded/awd26_sel_b/c4da200c-533c-42bc-a9db-3a14385d0d05/SCA26_AwdSel-B_VLS_30m_EN_260623/SCA26_AwdSel-B_VLS_30m_EN_260623_tgc.m3u8",
-      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/awd26_sel_b/bf2c7cce-6a83-4253-b4de-5553d48d704d/SCA26_AwdSel-B.vtt",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/awd26_sel_b/772d39af-aee4-43e4-8c19-bad9259753fc/%5Ben%5D%20SCA26_AwdSel-B_0701%20(1).vtt",
       "has_translations": true
     },
     {
       "name": "awd26_sel_c",
       "duration": 1800,
-      "location": "https://video.cdn.thatgamecompany.com/encoded/awd26_sel_c/411536b1-b9cd-47c1-ae71-94cf71556048/SCA26_AwdSel-C_VLS_30m_EN_260623/SCA26_AwdSel-C_VLS_30m_EN_260623_tgc.m3u8",
+      "location": "https://video.cdn.thatgamecompany.com/encoded/awd26_sel_c/e62bf0f4-760c-464c-9c0f-3c8fe918e259/SCA26_AwdSel-C_VLS_30m_EN_260706/SCA26_AwdSel-C_VLS_30m_EN_260706_tgc.m3u8",
       "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/awd26_sel_c/18438a72-368d-42f4-ae77-97b92d22a965/SCA26_AwdSel-C.vtt",
       "has_translations": true
     },
@@ -200,14 +326,14 @@
       "name": "creator_const_a",
       "duration": 900,
       "location": "https://video.cdn.thatgamecompany.com/encoded/creator_const_a/a4017eed-e57e-4fd2-b0a6-1a5e6f0a6c41/SCA26_CC-A_VLS_30m_EN_2606/SCA26_CC-A_VLS_30m_EN_2606_tgc.m3u8",
-      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/creator_const_a/addd881d-7c37-4374-b46d-9c0673726357/SCA26_CC-A.vtt",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/creator_const_a/0c371c89-f752-49a5-958e-90c50bec3495/SCA26_CC-A.vtt",
       "has_translations": true
     },
     {
       "name": "creator_const_b",
       "duration": 900,
       "location": "https://video.cdn.thatgamecompany.com/encoded/creator_const_b/dbf48579-b8f1-4d0d-b3b4-66f1b21ab975/SCA26_CC-B_VLS_30m_EN_2606/SCA26_CC-B_VLS_30m_EN_2606_tgc.m3u8",
-      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/creator_const_b/ffc17eae-82ac-48f8-843a-55c366a24e11/SCA26_CC-B.vtt",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/creator_const_b/4ce2dc52-d340-4397-ba63-9e074b2bd638/SCA26_CC-B.vtt",
       "has_translations": true
     },
     {
@@ -403,14 +529,14 @@
       "name": "studio_stories_a",
       "duration": 900,
       "location": "https://video.cdn.thatgamecompany.com/encoded/studio_stories_a/2e2eb2ec-ce0e-42fc-afd6-6dcae0bd30c7/SCA26_SS-A_VLS_30m_EN_260630/SCA26_SS-A_VLS_30m_EN_260630_tgc.m3u8",
-      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/studio_stories_a/e43be58c-b65a-4607-a5b4-86d4803dfa10/SCA26_SS-A.vtt",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/studio_stories_a/ac5945ba-dd03-4f30-86b1-a28e5a18f2b7/SCA26_SS-A.vtt",
       "has_translations": true
     },
     {
       "name": "studio_stories_b",
       "duration": 900,
       "location": "https://video.cdn.thatgamecompany.com/encoded/studio_stories_b/f343d544-d1d0-48d3-90b6-2660d144994e/SCA26_SS-B_VLS_30m_EN_260630/SCA26_SS-B_VLS_30m_EN_260630_tgc.m3u8",
-      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/studio_stories_b/78b2cdf0-20f9-48ea-8203-663b9abc9025/SCA26_SS-B.vtt",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/studio_stories_b/f4102781-4e43-4be2-9fcd-a2f5753329f5/SCA26_SS-B.vtt",
       "has_translations": true
     },
     {
@@ -436,6 +562,152 @@
     },
     {
       "channel": "cinema",
+      "event": "skyfest2026_awardshowday",
+      "preshow_seconds": 0,
+      "playlist": [
+        "awd26_sel_a",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26_sel_b",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26_sel_c",
+        "activity_tranquil",
+        "awd26_sel_a",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26_sel_b",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26_sel_c",
+        "activity_kinetic",
+        "awd26_sel_a",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26_sel_b",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26_sel_c",
+        "activity_tranquil",
+        "awd26_sel_a",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26_sel_b",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26_sel_c",
+        "activity_kinetic",
+        "awd26_sel_a",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26_sel_b",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26_sel_c",
+        "activity_tranquil",
+        "awd26_sel_a",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26_sel_b",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26_sel_c",
+        "activity_kinetic",
+        "awd26_sel_a",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26_sel_b",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26_sel_c",
+        "activity_tranquil",
+        "awd26_sel_a",
+        "awd26_sel_b",
+        "awd26_sel_c",
+        "awd26_countdown",
+        "awd26Locked*_show_p1",
+        "awd26Locked*_show_p2"
+      ],
+      "loop": false,
+      "gap_seconds": 0,
+      "postshow_seconds": 0,
+      "silence_please": false
+    },
+    {
+      "channel": "cinema",
+      "event": "skyfest2026_postshowday",
+      "preshow_seconds": 0,
+      "playlist": [
+        "awd26Locked*_activity_s31teaser",
+        "activity_remix",
+        "awd26Locked*_win_a",
+        "awd26Locked*_win_b",
+        "awd26Locked*_win_c",
+        "activity_tranquil",
+        "awd26Locked*_win_a",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26Locked*_win_b",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26Locked*_win_c",
+        "activity_kinetic",
+        "awd26Locked*_win_a",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26Locked*_win_b",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26Locked*_win_c",
+        "activity_tranquil",
+        "awd26Locked*_win_a",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26Locked*_win_b",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26Locked*_win_c",
+        "activity_kinetic",
+        "awd26Locked*_win_a",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26Locked*_win_b",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26Locked*_win_c",
+        "activity_tranquil",
+        "awd26Locked*_win_a",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26Locked*_win_b",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26Locked*_win_c",
+        "activity_kinetic",
+        "awd26Locked*_win_a",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26Locked*_win_b",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26Locked*_win_c",
+        "activity_tranquil",
+        "awd26Locked*_win_a",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26Locked*_win_b",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26Locked*_win_c",
+        "activity_kinetic"
+      ],
+      "loop": false,
+      "gap_seconds": 0,
+      "postshow_seconds": 0,
+      "silence_please": false
+    },
+    {
+      "channel": "cinema",
       "event": "skyfest2026_w1",
       "preshow_seconds": 0,
       "playlist": [
@@ -455,6 +727,60 @@
         "creator_const_b",
         "awd26_sel_c",
         "activity_kinetic"
+      ],
+      "loop": true,
+      "gap_seconds": 0,
+      "postshow_seconds": 0,
+      "silence_please": false
+    },
+    {
+      "channel": "cinema",
+      "event": "skyfest2026_w2",
+      "preshow_seconds": 0,
+      "playlist": [
+        "awd26Locked*_win_a",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26Locked*_win_b",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26Locked*_win_c",
+        "activity_tranquil",
+        "awd26Locked*_win_a",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26Locked*_win_b",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26Locked*_win_c",
+        "activity_kinetic"
+      ],
+      "loop": true,
+      "gap_seconds": 0,
+      "postshow_seconds": 0,
+      "silence_please": false
+    },
+    {
+      "channel": "cinema",
+      "event": "skyfest2026_w3",
+      "preshow_seconds": 0,
+      "playlist": [
+        "activity_tranquil",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26Locked*_win_d",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26Locked*_show_p1_replay",
+        "awd26Locked*_show_p2_replay",
+        "activity_kinetic",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26Locked*_win_e",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26Locked*_show_p1_replay",
+        "awd26Locked*_show_p2_replay"
       ],
       "loop": true,
       "gap_seconds": 0,

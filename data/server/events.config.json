@@ -11,6 +11,164 @@
   },
   "groups": [
     {
+      "id": "season_ap31",
+      "title": "Season AP31",
+      "type": "campaign",
+      "enabled": true,
+      "events": [
+        {
+          "name": "quest_ap31_fetch_01",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_01_painting",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_02",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_02_painting",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_02_painting_part1",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_02_painting_part10",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_02_painting_part2",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_02_painting_part3",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_02_painting_part4",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_02_painting_part5",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_02_painting_part6",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_02_painting_part7",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_02_painting_part8",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_02_painting_part9",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_03",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_03_painting",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_03_painting_part1",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_03_painting_part2",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_03_painting_part3",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_04",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_04_painting",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_05",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_05_painting",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_06",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "quest_ap31_fetch_06_painting",
+          "when": {
+            "kind": "list"
+          }
+        }
+      ]
+    },
+    {
       "id": "season_ap29",
       "title": "Season AP29",
       "type": "campaign",
@@ -168,6 +326,42 @@
       "type": "daily",
       "enabled": true,
       "events": [
+        {
+          "name": "collectible_armoire1",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "collectible_armoire2",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "collectible_bask",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "collectible_draw",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "collectible_frustration",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "collectible_slowwalk",
+          "when": {
+            "kind": "list"
+          }
+        },
         {
           "name": "collectible_cough",
           "when": {
@@ -569,12 +763,6 @@
           }
         },
         {
-          "name": "skyfest_soundbath",
-          "when": {
-            "kind": "list"
-          }
-        },
-        {
           "name": "sunset_village_fishing",
           "when": {
             "kind": "list"
@@ -622,7 +810,6 @@
             "kind": "dayStart"
           }
         }
-        
       ]
     },
     {
@@ -778,12 +965,6 @@
           }
         },
         {
-          "name": "global_skyfest",
-          "when": {
-            "kind": "list"
-          }
-        },
-        {
           "name": "global_weekend_shop2",
           "when": {
             "kind": "list"
@@ -802,9 +983,15 @@
           }
         },
         {
-          "name": "global_qixi_couple",
+          "name": "global_summer",
           "when": {
             "kind": "list"
+          }
+        },
+        {
+          "name": "global_qixi_couple",
+          "when": {
+            "kind": "dayStart"
           }
         },
         {
@@ -1021,26 +1208,7 @@
           "when": {
             "kind": "dayStart"
           }
-        },
-        {
-          "name": "skyfest2026_w1",
-          "when": {
-            "kind": "dayStart"
-          }
-        },
-        {
-          "name": "skyfest_fireworks_show",
-          "when": {
-            "kind": "dayStart"
-          }
-        },
-        {
-          "name": "skyfest_gallerydawn",
-          "when": {
-            "kind": "dayStart"
-          }
         }
-        
       ]
     },
     {
@@ -1908,6 +2076,18 @@
           "when": {
             "kind": "list"
           }
+        },
+        {
+          "name": "season_31",
+          "when": {
+            "kind": "list"
+          }
+        },
+        {
+          "name": "season_31_start_shop",
+          "when": {
+            "kind": "list"
+          }
         }
       ]
     },
@@ -1923,7 +2103,8 @@
             "kind": "dayStart"
           }
         }
-      ]},
+      ]
+    },
     {
       "id": "social_daily",
       "title": "Social Daily",
