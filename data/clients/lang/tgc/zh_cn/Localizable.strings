@@ -7850,6 +7850,7 @@
 "shop_hint_owned_upgrade_friendship" = "在<b>好友菜单</b>使用这个新升级的能力。";
 "shop_hint_owned_wing_buff" = "<cape/> 提升！如果在暴风眼失去了，在重生时会再次获得。";
 "shop_hint_replay_ap06unlock" = "是否再次浏览这段回忆？";
+"shop_hint_replay_quest" = "要重温这个任务吗？";
 "shop_hint_unlock_ap06unlock" = "您完成了这位 <1>古老先灵</1>的愿望。";
 "shop_hint_unlock_challenge_goal" = "你解锁了一个新的<2>挑战目标</2>！此目标<b>只能</b>在<1>共享空间挑战</1>中使用。";
 "shop_hint_unlock_challenge_goaldep" = "你获得了一件新的<2>挑战摆设</2>！此摆设<b>只能</b>在<1>共享空间挑战</1>中使用。";

@@ -11,7 +11,9 @@
             "dep": 4247221443,
             "tt": 2,
             "to": 9,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4280776681,
@@ -24,7 +26,9 @@
             "dep": 4247221443,
             "tt": 3,
             "td": 4247221443,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 463233285,
@@ -37,7 +41,9 @@
             "dep": 4280776681,
             "tt": 3,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 345789952,
@@ -50,7 +56,9 @@
             "dep": 463233285,
             "tt": 3,
             "to": 2,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 153585575,
@@ -64,7 +72,9 @@
             "tt": 3,
             "to": 1,
             "td": 4280776681,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 86622194,
@@ -77,7 +87,9 @@
             "dep": 153585575,
             "tt": 4,
             "td": 153585575,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1768870363,
@@ -90,7 +102,9 @@
             "dep": 86622194,
             "tt": 3,
             "to": 9,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1147049062,
@@ -103,7 +117,9 @@
             "dep": 86622194,
             "tt": 4,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1316031635,
@@ -116,7 +132,9 @@
             "dep": 86622194,
             "tt": 4,
             "to": 2,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3624197084,
@@ -129,7 +147,9 @@
             "dep": 19364623,
             "evn": "season_24",
             "tt": 2,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1690003492,
@@ -142,7 +162,9 @@
             "dep": 3624197084,
             "evn": "season_24",
             "tt": 3,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 562440888,
@@ -155,7 +177,9 @@
             "dep": 1690003492,
             "evn": "season_24",
             "tt": 4,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1609195382,
@@ -168,7 +192,9 @@
             "dep": 562440888,
             "evn": "season_24",
             "tt": 5,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2060651791,
@@ -180,7 +206,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "to": 9,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2937160110,
@@ -192,7 +220,9 @@
             "ctyp": "season_candle",
             "dep": 2060651791,
             "tt": 1,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4211180319,
@@ -205,7 +235,9 @@
             "dep": 2937160110,
             "tt": 2,
             "to": 9,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2887580677,
@@ -218,7 +250,9 @@
             "dep": 2937160110,
             "tt": 2,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2685723058,
@@ -231,7 +265,9 @@
             "dep": 2887580677,
             "tt": 2,
             "to": 2,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2920382491,
@@ -244,7 +280,9 @@
             "dep": 2887580677,
             "tt": 2,
             "td": 2937160110,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4227957938,
@@ -257,7 +295,9 @@
             "dep": 2920382491,
             "tt": 3,
             "to": 9,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1819633253,
@@ -270,7 +310,9 @@
             "dep": 2920382491,
             "tt": 3,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 671623191,
@@ -283,7 +325,9 @@
             "dep": 1819633253,
             "tt": 3,
             "to": 2,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2903604872,
@@ -296,7 +340,9 @@
             "dep": 1819633253,
             "tt": 3,
             "td": 2920382491,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4244735557,
@@ -309,7 +355,9 @@
             "dep": 2903604872,
             "tt": 4,
             "to": 9,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2510997774,
@@ -322,7 +370,9 @@
             "dep": 2903604872,
             "tt": 4,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 759334185,
@@ -335,7 +385,9 @@
             "dep": 2510997774,
             "tt": 4,
             "to": 2,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3021048205,
@@ -348,7 +400,9 @@
             "dep": 2510997774,
             "tt": 4,
             "td": 2903604872,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2847871499,
@@ -361,7 +415,9 @@
             "dep": 3021048205,
             "tt": 5,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3004270586,
@@ -374,7 +430,9 @@
             "dep": 3021048205,
             "tt": 5,
             "td": 3021048205,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3539797469,
@@ -387,7 +445,9 @@
             "dep": 3021048205,
             "tt": 5,
             "to": 2,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4144069843,
@@ -400,7 +460,9 @@
             "dep": 3004270586,
             "tt": 5,
             "to": 9,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2153396257,
@@ -412,7 +474,9 @@
             "ctyp": "heart",
             "dep": 3004270586,
             "tt": 6,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2386007621,
@@ -425,7 +489,9 @@
             "dep": 2937160110,
             "evn": "season_25",
             "tt": 2,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1239792999,
@@ -438,7 +504,9 @@
             "dep": 2386007621,
             "evn": "season_25",
             "tt": 3,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2324136136,
@@ -451,7 +519,9 @@
             "dep": 1239792999,
             "evn": "season_25",
             "tt": 4,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3504448047,
@@ -462,7 +532,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 0,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3521225666,
@@ -474,7 +546,9 @@
             "ctyp": "season_candle",
             "dep": 3504448047,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3899522921,
@@ -486,7 +560,9 @@
             "ctyp": "season_candle",
             "dep": 3504448047,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2028888267,
@@ -498,7 +574,9 @@
             "ctyp": "season_candle",
             "dep": 3899522921,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2045665886,
@@ -510,7 +588,9 @@
             "ctyp": "season_candle",
             "dep": 3899522921,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3392765093,
@@ -522,7 +602,9 @@
             "ctyp": "season_candle",
             "dep": 2045665886,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3538003285,
@@ -534,7 +616,9 @@
             "ctyp": "season_candle",
             "dep": 2045665886,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3420559952,
@@ -546,7 +630,9 @@
             "ctyp": "season_candle",
             "dep": 3538003285,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1992497954,
@@ -558,7 +644,9 @@
             "ctyp": "season_candle",
             "dep": 3538003285,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 679210443,
@@ -570,7 +658,9 @@
             "ctyp": "season_candle",
             "dep": 1992497954,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1884335548,
@@ -582,7 +672,9 @@
             "ctyp": "season_candle",
             "dep": 1992497954,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3342432236,
@@ -594,7 +686,9 @@
             "ctyp": "season_candle",
             "dep": 1884335548,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1975720335,
@@ -606,7 +700,9 @@
             "ctyp": "season_candle",
             "dep": 1884335548,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2738611896,
@@ -618,7 +714,9 @@
             "ctyp": "season_candle",
             "dep": 1975720335,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1641232750,
@@ -630,7 +728,9 @@
             "ctyp": "season_candle",
             "dep": 1975720335,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4053227520,
@@ -641,7 +741,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 0,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4103560377,
@@ -653,7 +755,9 @@
             "ctyp": "season_candle",
             "dep": 4053227520,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 439176151,
@@ -665,7 +769,9 @@
             "ctyp": "season_candle",
             "dep": 4053227520,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1797689357,
@@ -677,7 +783,9 @@
             "ctyp": "season_candle",
             "dep": 439176151,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1747356500,
@@ -689,7 +797,9 @@
             "ctyp": "season_candle",
             "dep": 439176151,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1859482246,
@@ -701,7 +811,9 @@
             "ctyp": "season_candle",
             "dep": 1747356500,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4086782758,
@@ -713,7 +825,9 @@
             "ctyp": "season_candle",
             "dep": 1747356500,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4137115615,
@@ -725,7 +839,9 @@
             "ctyp": "season_candle",
             "dep": 4086782758,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1780911738,
@@ -737,7 +853,9 @@
             "ctyp": "season_candle",
             "dep": 4086782758,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3340820959,
@@ -749,7 +867,9 @@
             "ctyp": "season_candle",
             "dep": 1780911738,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 986842510,
@@ -761,7 +881,9 @@
             "ctyp": "season_candle",
             "dep": 1780911738,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1744012939,
@@ -773,7 +895,9 @@
             "ctyp": "season_candle",
             "dep": 986842510,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1760790558,
@@ -785,7 +909,9 @@
             "ctyp": "season_candle",
             "dep": 986842510,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3008909143,
@@ -797,7 +923,9 @@
             "ctyp": "season_candle",
             "dep": 1760790558,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1152669233,
@@ -809,7 +937,9 @@
             "ctyp": "season_candle",
             "dep": 1760790558,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 121022122,
@@ -820,7 +950,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 0,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 104244503,
@@ -832,7 +964,9 @@
             "ctyp": "season_candle",
             "dep": 121022122,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3915265190,
@@ -844,7 +978,9 @@
             "ctyp": "season_candle",
             "dep": 121022122,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 240329801,
@@ -856,7 +992,9 @@
             "ctyp": "season_candle",
             "dep": 3915265190,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3898487571,
@@ -868,7 +1006,9 @@
             "ctyp": "season_candle",
             "dep": 3915265190,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3813772970,
@@ -880,7 +1020,9 @@
             "ctyp": "season_candle",
             "dep": 3898487571,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 87466884,
@@ -892,7 +1034,9 @@
             "ctyp": "season_candle",
             "dep": 3898487571,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 70689265,
@@ -904,7 +1048,9 @@
             "ctyp": "season_candle",
             "dep": 87466884,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 687599756,
@@ -916,7 +1062,9 @@
             "ctyp": "season_candle",
             "dep": 87466884,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2723779853,
@@ -928,7 +1076,9 @@
             "ctyp": "season_candle",
             "dep": 687599756,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2673446996,
@@ -940,7 +1090,9 @@
             "ctyp": "season_candle",
             "dep": 687599756,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1186393635,
@@ -952,7 +1104,9 @@
             "ctyp": "season_candle",
             "dep": 2673446996,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4235697122,
@@ -964,7 +1118,9 @@
             "ctyp": "season_candle",
             "dep": 2673446996,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 758195812,
@@ -976,7 +1132,9 @@
             "ctyp": "season_candle",
             "dep": 4235697122,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 247181047,
@@ -988,7 +1146,9 @@
             "ctyp": "season_candle",
             "dep": 4235697122,
             "evn": "season_25",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2077429410,
@@ -1000,7 +1160,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "to": 99,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3538884337,
@@ -1012,7 +1174,9 @@
             "ctyp": "season_candle",
             "dep": 2077429410,
             "tt": 1,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2229483744,
@@ -1025,7 +1189,9 @@
             "dep": 3538884337,
             "tt": 2,
             "to": 99,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2094042413,
@@ -1038,7 +1204,9 @@
             "dep": 3538884337,
             "tt": 2,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2043709556,
@@ -1051,7 +1219,9 @@
             "dep": 2094042413,
             "tt": 3,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3488551480,
@@ -1064,7 +1234,9 @@
             "dep": 2094042413,
             "tt": 2,
             "td": 3538884337,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2279816601,
@@ -1077,7 +1249,9 @@
             "dep": 3488551480,
             "tt": 3,
             "to": 99,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2060487175,
@@ -1090,7 +1264,9 @@
             "dep": 3488551480,
             "tt": 4,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2010154318,
@@ -1103,7 +1279,9 @@
             "dep": 2060487175,
             "tt": 5,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3505329099,
@@ -1117,7 +1295,9 @@
             "tt": 2,
             "to": 1,
             "td": 3488551480,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2263038982,
@@ -1130,7 +1310,9 @@
             "dep": 3505329099,
             "tt": 4,
             "to": 99,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3589217194,
@@ -1143,7 +1325,9 @@
             "dep": 3505329099,
             "tt": 3,
             "td": 3505329099,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1749032699,
@@ -1156,7 +1340,9 @@
             "dep": 3589217194,
             "tt": 5,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3605994813,
@@ -1169,7 +1355,9 @@
             "dep": 3589217194,
             "tt": 4,
             "td": 3589217194,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2296594220,
@@ -1182,7 +1370,9 @@
             "dep": 3605994813,
             "tt": 5,
             "to": 99,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3555661956,
@@ -1195,7 +1385,9 @@
             "dep": 3605994813,
             "tt": 5,
             "td": 3605994813,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3203313876,
@@ -1208,7 +1400,9 @@
             "dep": 3555661956,
             "tt": 6,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2322000786,
@@ -1220,7 +1414,9 @@
             "ctyp": "heart",
             "dep": 3555661956,
             "tt": 6,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3991464090,
@@ -1234,7 +1430,9 @@
             "evn": "season_26",
             "tt": 2,
             "to": 3,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1769778398,
@@ -1248,7 +1446,9 @@
             "evn": "season_26",
             "tt": 3,
             "to": 3,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 654884315,
@@ -1262,7 +1462,9 @@
             "evn": "season_26",
             "tt": 4,
             "to": 3,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 805833241,
@@ -1274,7 +1476,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3556611634,
@@ -1286,7 +1490,9 @@
             "ctyp": "season_candle",
             "dep": 805833241,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3539834015,
@@ -1298,7 +1504,9 @@
             "ctyp": "season_candle",
             "dep": 805833241,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 348503857,
@@ -1310,7 +1518,9 @@
             "ctyp": "season_candle",
             "dep": 3539834015,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 822794805,
@@ -1322,7 +1532,9 @@
             "ctyp": "season_candle",
             "dep": 3539834015,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 10214445,
@@ -1334,7 +1546,9 @@
             "ctyp": "season_candle",
             "dep": 822794805,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3506278777,
@@ -1346,7 +1560,9 @@
             "ctyp": "season_candle",
             "dep": 822794805,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4167389358,
@@ -1358,7 +1574,9 @@
             "ctyp": "season_candle",
             "dep": 3506278777,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3506415534,
@@ -1370,7 +1588,9 @@
             "ctyp": "season_candle",
             "dep": 3506278777,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3523056396,
@@ -1382,7 +1602,9 @@
             "ctyp": "season_candle",
             "dep": 3506415534,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1704534247,
@@ -1394,7 +1616,9 @@
             "ctyp": "season_candle",
             "dep": 3506415534,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1255689281,
@@ -1405,7 +1629,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 0,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1205356424,
@@ -1417,7 +1643,9 @@
             "ctyp": "season_candle",
             "dep": 1255689281,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3850547585,
@@ -1429,7 +1657,9 @@
             "ctyp": "season_candle",
             "dep": 1255689281,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3840286276,
@@ -1441,7 +1671,9 @@
             "ctyp": "season_candle",
             "dep": 3850547585,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1222134043,
@@ -1453,7 +1685,9 @@
             "ctyp": "season_candle",
             "dep": 3850547585,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1306022138,
@@ -1465,7 +1699,9 @@
             "ctyp": "season_candle",
             "dep": 1222134043,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2173561040,
@@ -1477,7 +1713,9 @@
             "ctyp": "season_candle",
             "dep": 1222134043,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3800214728,
@@ -1489,7 +1727,9 @@
             "ctyp": "season_candle",
             "dep": 2173561040,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1217546939,
@@ -1501,7 +1741,9 @@
             "ctyp": "season_candle",
             "dep": 2173561040,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3958985394,
@@ -1513,7 +1755,9 @@
             "ctyp": "season_candle",
             "dep": 1217546939,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3210142356,
@@ -1525,7 +1769,9 @@
             "ctyp": "season_candle",
             "dep": 1217546939,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1275160217,
@@ -1537,7 +1783,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 515074052,
@@ -1549,7 +1797,9 @@
             "ctyp": "season_candle",
             "dep": 1275160217,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 531851671,
@@ -1561,7 +1811,9 @@
             "ctyp": "season_candle",
             "dep": 1275160217,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 294393894,
@@ -1573,7 +1825,9 @@
             "ctyp": "season_candle",
             "dep": 531851671,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 962852377,
@@ -1585,7 +1839,9 @@
             "ctyp": "season_candle",
             "dep": 531851671,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 912519520,
@@ -1597,7 +1853,9 @@
             "ctyp": "season_candle",
             "dep": 962852377,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 985276781,
@@ -1609,7 +1867,9 @@
             "ctyp": "season_candle",
             "dep": 962852377,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 481518814,
@@ -1621,7 +1881,9 @@
             "ctyp": "season_candle",
             "dep": 985276781,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3388533838,
@@ -1633,7 +1895,9 @@
             "ctyp": "season_candle",
             "dep": 985276781,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2445280197,
@@ -1645,7 +1909,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2335418069,
@@ -1657,7 +1923,9 @@
             "ctyp": "season_candle",
             "dep": 2445280197,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 291141560,
@@ -1669,7 +1937,9 @@
             "ctyp": "season_candle",
             "dep": 2445280197,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2750220497,
@@ -1681,7 +1951,9 @@
             "ctyp": "season_candle",
             "dep": 291141560,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2226970214,
@@ -1693,7 +1965,9 @@
             "ctyp": "season_candle",
             "dep": 291141560,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2327836864,
@@ -1705,7 +1979,9 @@
             "ctyp": "season_candle",
             "dep": 2226970214,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2394947340,
@@ -1717,7 +1993,9 @@
             "ctyp": "season_candle",
             "dep": 2226970214,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2411724959,
@@ -1729,7 +2007,9 @@
             "ctyp": "season_candle",
             "dep": 2394947340,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3612807318,
@@ -1741,7 +2021,9 @@
             "ctyp": "season_candle",
             "dep": 2394947340,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2523389894,
@@ -1753,7 +2035,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 286155576,
@@ -1765,7 +2049,9 @@
             "ctyp": "season_candle",
             "dep": 2523389894,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 679644723,
@@ -1777,7 +2063,9 @@
             "ctyp": "season_candle",
             "dep": 2523389894,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3050973308,
@@ -1789,7 +2077,9 @@
             "ctyp": "season_candle",
             "dep": 679644723,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3274890655,
@@ -1801,7 +2091,9 @@
             "ctyp": "season_candle",
             "dep": 679644723,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2489834656,
@@ -1813,7 +2105,9 @@
             "ctyp": "season_candle",
             "dep": 3274890655,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2256448574,
@@ -1825,7 +2119,9 @@
             "ctyp": "season_candle",
             "dep": 3274890655,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3370586827,
@@ -1837,7 +2133,9 @@
             "ctyp": "season_candle",
             "dep": 2256448574,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2446667193,
@@ -1849,7 +2147,9 @@
             "ctyp": "season_candle",
             "dep": 2256448574,
             "evn": "season_26",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2094207029,
@@ -1860,7 +2160,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 0,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1572471888,
@@ -1871,7 +2173,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 2094207029,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1363204993,
@@ -1882,7 +2186,9 @@
             "ap": false,
             "ctyp": "candles",
             "dep": 1572471888,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1622804745,
@@ -1893,7 +2199,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 1572471888,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1312872136,
@@ -1904,7 +2212,9 @@
             "ap": false,
             "ctyp": "candles",
             "dep": 1622804745,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1606027126,
@@ -1915,7 +2225,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 1622804745,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1329649755,
@@ -1926,7 +2238,9 @@
             "ap": false,
             "ctyp": "candles",
             "dep": 1606027126,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1656359983,
@@ -1937,7 +2251,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 1606027126,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1413537850,
@@ -1948,7 +2264,9 @@
             "ap": false,
             "ctyp": "candles",
             "dep": 1656359983,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1639582364,
@@ -1959,7 +2277,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 1656359983,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1430315469,
@@ -1970,7 +2290,9 @@
             "ap": false,
             "ctyp": "candles",
             "dep": 1639582364,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1344768504,
@@ -1981,7 +2303,9 @@
             "ap": false,
             "ctyp": "candles",
             "dep": 1639582364,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1031539147,
@@ -1993,7 +2317,9 @@
             "ctyp": "season_heart",
             "dep": 1572471888,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 42895742,
@@ -2005,7 +2331,9 @@
             "ctyp": "season_heart",
             "dep": 1031539147,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 393014201,
@@ -2017,7 +2345,9 @@
             "ctyp": "season_heart",
             "dep": 42895742,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4095708665,
@@ -2028,7 +2358,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 0,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4260343856,
@@ -2039,7 +2371,9 @@
             "ap": false,
             "ctyp": "candles",
             "dep": 4095708665,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1207553616,
@@ -2050,7 +2384,9 @@
             "ap": false,
             "ctyp": "heart",
             "dep": 4095708665,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1731259960,
@@ -2062,7 +2398,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2669873955,
@@ -2074,7 +2412,9 @@
             "ctyp": "season_candle",
             "dep": 1731259960,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2186798581,
@@ -2086,7 +2426,9 @@
             "ctyp": "season_candle",
             "dep": 1731259960,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4152353681,
@@ -2098,7 +2440,9 @@
             "ctyp": "season_candle",
             "dep": 2186798581,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 940241865,
@@ -2110,7 +2454,9 @@
             "ctyp": "season_candle",
             "dep": 2186798581,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3990483983,
@@ -2122,7 +2468,9 @@
             "ctyp": "season_candle",
             "dep": 940241865,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2136465724,
@@ -2134,7 +2482,9 @@
             "ctyp": "season_candle",
             "dep": 940241865,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1790995566,
@@ -2146,7 +2496,9 @@
             "ctyp": "season_candle",
             "dep": 2136465724,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3683716352,
@@ -2158,7 +2510,9 @@
             "ctyp": "season_candle",
             "dep": 2136465724,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2409070874,
@@ -2169,7 +2523,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 0,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1426158788,
@@ -2181,7 +2537,9 @@
             "ctyp": "season_candle",
             "dep": 2409070874,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2565555477,
@@ -2193,7 +2551,9 @@
             "ctyp": "season_candle",
             "dep": 1426158788,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3366656732,
@@ -2205,7 +2565,9 @@
             "ctyp": "season_candle",
             "dep": 1426158788,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2383970457,
@@ -2217,7 +2579,9 @@
             "ctyp": "season_candle",
             "dep": 3366656732,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 92092396,
@@ -2229,7 +2593,9 @@
             "ctyp": "season_candle",
             "dep": 3366656732,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3824926188,
@@ -2241,7 +2607,9 @@
             "ctyp": "season_candle",
             "dep": 92092396,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1942866709,
@@ -2253,7 +2621,9 @@
             "ctyp": "season_candle",
             "dep": 92092396,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 142425253,
@@ -2265,7 +2635,9 @@
             "ctyp": "season_candle",
             "dep": 1942866709,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2537153471,
@@ -2277,7 +2649,9 @@
             "ctyp": "season_candle",
             "dep": 1942866709,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4231148386,
@@ -2289,7 +2663,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1396819174,
@@ -2301,7 +2677,9 @@
             "ctyp": "season_candle",
             "dep": 4231148386,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4157919669,
@@ -2313,7 +2691,9 @@
             "ctyp": "season_candle",
             "dep": 4231148386,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 852220768,
@@ -2325,7 +2705,9 @@
             "ctyp": "season_candle",
             "dep": 4157919669,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2642010014,
@@ -2337,7 +2719,9 @@
             "ctyp": "season_candle",
             "dep": 4157919669,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1299699518,
@@ -2349,7 +2733,9 @@
             "ctyp": "season_candle",
             "dep": 2642010014,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2922870804,
@@ -2361,7 +2747,9 @@
             "ctyp": "season_candle",
             "dep": 2642010014,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 902553625,
@@ -2373,7 +2761,9 @@
             "ctyp": "season_candle",
             "dep": 2922870804,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 629003873,
@@ -2385,7 +2775,9 @@
             "ctyp": "season_candle",
             "dep": 2922870804,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2146294568,
@@ -2396,7 +2788,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 0,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3297002457,
@@ -2408,7 +2802,9 @@
             "ctyp": "season_candle",
             "dep": 2146294568,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 966853540,
@@ -2420,7 +2816,9 @@
             "ctyp": "season_candle",
             "dep": 3297002457,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 52895880,
@@ -2432,7 +2830,9 @@
             "ctyp": "season_candle",
             "dep": 3297002457,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2955255563,
@@ -2444,7 +2844,9 @@
             "ctyp": "season_candle",
             "dep": 52895880,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3812795131,
@@ -2456,7 +2858,9 @@
             "ctyp": "season_candle",
             "dep": 52895880,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 820007464,
@@ -2468,7 +2872,9 @@
             "ctyp": "season_candle",
             "dep": 3812795131,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1318519644,
@@ -2480,7 +2886,9 @@
             "ctyp": "season_candle",
             "dep": 3812795131,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 536170054,
@@ -2492,7 +2900,9 @@
             "ctyp": "season_candle",
             "dep": 1318519644,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3022839530,
@@ -2504,7 +2914,9 @@
             "ctyp": "season_candle",
             "dep": 1318519644,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1818899794,
@@ -2516,7 +2928,9 @@
             "ctyp": "season_candle",
             "dep": 3022839530,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1753038777,
@@ -2528,7 +2942,9 @@
             "ctyp": "season_candle",
             "dep": 3022839530,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2110984648,
@@ -2540,7 +2956,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "tt": 1,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2057592724,
@@ -2552,7 +2970,9 @@
             "ctyp": "season_candle",
             "dep": 2110984648,
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1993835607,
@@ -2564,7 +2984,9 @@
             "ctyp": "heart",
             "dep": 2057592724,
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2107925581,
@@ -2577,7 +2999,9 @@
             "dep": 2057592724,
             "tt": 1,
             "td": 2057592724,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2010613226,
@@ -2589,7 +3013,9 @@
             "ctyp": "heart",
             "dep": 2107925581,
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2091147962,
@@ -2602,7 +3028,9 @@
             "dep": 2107925581,
             "tt": 2,
             "td": 2107925581,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2007259867,
@@ -2615,7 +3043,9 @@
             "dep": 2091147962,
             "tt": 2,
             "td": 2091147962,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3662353058,
@@ -2627,7 +3057,9 @@
             "ctyp": "heart",
             "dep": 2007259867,
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1990482248,
@@ -2640,7 +3072,9 @@
             "dep": 2007259867,
             "tt": 3,
             "td": 2007259867,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3645575439,
@@ -2652,7 +3086,9 @@
             "ctyp": "heart",
             "dep": 1990482248,
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2040815105,
@@ -2665,7 +3101,9 @@
             "dep": 1990482248,
             "tt": 3,
             "td": 1990482248,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 958175985,
@@ -2677,7 +3115,9 @@
             "ctyp": "heart",
             "dep": 2040815105,
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2024037486,
@@ -2690,7 +3130,9 @@
             "dep": 2040815105,
             "tt": 4,
             "td": 2040815105,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 907843128,
@@ -2702,7 +3144,9 @@
             "ctyp": "heart",
             "dep": 2024037486,
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1940149391,
@@ -2715,7 +3159,9 @@
             "dep": 2024037486,
             "tt": 4,
             "td": 2024037486,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1923371772,
@@ -2728,7 +3174,9 @@
             "dep": 1940149391,
             "tt": 5,
             "td": 1940149391,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1296095058,
@@ -2740,7 +3188,9 @@
             "ctyp": "heart",
             "dep": 1923371772,
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1973557534,
@@ -2753,7 +3203,9 @@
             "dep": 1923371772,
             "tt": 5,
             "td": 1923371772,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1387420248,
@@ -2766,7 +3218,9 @@
             "dep": 2057592724,
             "evn": "season_28",
             "tt": 1,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2228162224,
@@ -2779,7 +3233,9 @@
             "dep": 1387420248,
             "evn": "season_28",
             "tt": 1,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3172558216,
@@ -2792,7 +3248,9 @@
             "dep": 2228162224,
             "evn": "season_28",
             "tt": 2,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1620195144,
@@ -2805,7 +3263,9 @@
             "dep": 3172558216,
             "evn": "season_28",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 250062849,
@@ -2817,7 +3277,9 @@
             "ctyp": "candles",
             "dep": 1973557534,
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3779724043,
@@ -2829,7 +3291,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3796501662,
@@ -2842,7 +3306,9 @@
             "dep": 3779724043,
             "evn": "season_28",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3506731595,
@@ -2855,7 +3321,9 @@
             "dep": 3779724043,
             "evn": "season_28",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3813279281,
@@ -2868,7 +3336,9 @@
             "dep": 3506731595,
             "evn": "season_28",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3830056900,
@@ -2881,7 +3351,9 @@
             "dep": 3813279281,
             "evn": "season_28",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1524008359,
@@ -2894,7 +3366,9 @@
             "dep": 3813279281,
             "evn": "season_28",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3523509214,
@@ -2907,7 +3381,9 @@
             "dep": 1524008359,
             "evn": "season_28",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 662395186,
@@ -2920,7 +3396,9 @@
             "dep": 3523509214,
             "evn": "season_28",
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3540286833,
@@ -2933,7 +3411,9 @@
             "dep": 3523509214,
             "evn": "season_28",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3054954572,
@@ -2946,7 +3426,9 @@
             "dep": 3540286833,
             "evn": "season_28",
             "tt": 1,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3965649521,
@@ -2959,7 +3441,9 @@
             "dep": 3540286833,
             "evn": "season_28",
             "tt": 4,
-            "ta": "spirit_unlock_1000"
+            "ta": "spirit_unlock_1000",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 251066039,
@@ -2972,7 +3456,9 @@
             "dep": 3965649521,
             "evn": "season_28",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3527193326,
@@ -2985,7 +3471,9 @@
             "dep": 3965649521,
             "evn": "season_28",
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3811230934,
@@ -2997,7 +3485,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3794453315,
@@ -3010,7 +3500,9 @@
             "dep": 3811230934,
             "evn": "season_28",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3328314134,
@@ -3023,7 +3515,9 @@
             "dep": 3811230934,
             "evn": "season_28",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3294758896,
@@ -3036,7 +3530,9 @@
             "dep": 3328314134,
             "evn": "season_28",
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3777675696,
@@ -3049,7 +3545,9 @@
             "dep": 3328314134,
             "evn": "season_28",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3895119029,
@@ -3062,7 +3560,9 @@
             "dep": 3777675696,
             "evn": "season_28",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3311536515,
@@ -3075,7 +3575,9 @@
             "dep": 3777675696,
             "evn": "season_28",
             "tt": 2,
-            "ta": "spirit_unlock_600"
+            "ta": "spirit_unlock_600",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1047044186,
@@ -3088,7 +3590,9 @@
             "dep": 3311536515,
             "evn": "season_28",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 956064331,
@@ -3101,7 +3605,9 @@
             "dep": 3311536515,
             "evn": "season_28",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3699401827,
@@ -3114,7 +3620,9 @@
             "dep": 956064331,
             "evn": "season_28",
             "tt": 1,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3216910011,
@@ -3127,7 +3635,9 @@
             "dep": 956064331,
             "evn": "season_28",
             "tt": 4,
-            "ta": "spirit_unlock_1000"
+            "ta": "spirit_unlock_1000",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 55801957,
@@ -3140,7 +3650,9 @@
             "dep": 3216910011,
             "evn": "season_28",
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3644672608,
@@ -3152,7 +3664,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3695005465,
@@ -3165,7 +3679,9 @@
             "dep": 3644672608,
             "evn": "season_28",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2064052896,
@@ -3178,7 +3694,9 @@
             "dep": 3644672608,
             "evn": "season_28",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 152229566,
@@ -3191,7 +3709,9 @@
             "dep": 2064052896,
             "evn": "season_28",
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3678227846,
@@ -3204,7 +3724,9 @@
             "dep": 2064052896,
             "evn": "season_28",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3728560703,
@@ -3217,7 +3739,9 @@
             "dep": 3678227846,
             "evn": "season_28",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 926834734,
@@ -3230,7 +3754,9 @@
             "dep": 3678227846,
             "evn": "season_28",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2097608134,
@@ -3243,7 +3769,9 @@
             "dep": 926834734,
             "evn": "season_28",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2718540272,
@@ -3256,7 +3784,9 @@
             "dep": 926834734,
             "evn": "season_28",
             "tt": 4,
-            "ta": "spirit_unlock_1000"
+            "ta": "spirit_unlock_1000",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2655417373,
@@ -3269,7 +3799,9 @@
             "dep": 2718540272,
             "evn": "season_28",
             "tt": 1,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2114385753,
@@ -3282,7 +3814,9 @@
             "dep": 2718540272,
             "evn": "season_28",
             "tt": 2,
-            "ta": "spirit_unlock_600"
+            "ta": "spirit_unlock_600",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 9717507,
@@ -3295,7 +3829,9 @@
             "dep": 2114385753,
             "evn": "season_28",
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3148540941,
@@ -3307,7 +3843,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3098208084,
@@ -3320,7 +3858,9 @@
             "dep": 3148540941,
             "evn": "season_28",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 341429581,
@@ -3333,7 +3873,9 @@
             "dep": 3148540941,
             "evn": "season_28",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 291096724,
@@ -3346,7 +3888,9 @@
             "dep": 341429581,
             "evn": "season_28",
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3114985703,
@@ -3359,7 +3903,9 @@
             "dep": 341429581,
             "evn": "season_28",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3064652846,
@@ -3372,7 +3918,9 @@
             "dep": 3114985703,
             "evn": "season_28",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3494156794,
@@ -3385,7 +3933,9 @@
             "dep": 3114985703,
             "evn": "season_28",
             "tt": 2,
-            "ta": "spirit_unlock_600"
+            "ta": "spirit_unlock_600",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1098827945,
@@ -3398,7 +3948,9 @@
             "dep": 3494156794,
             "evn": "season_28",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3985580089,
@@ -3411,7 +3963,9 @@
             "dep": 3494156794,
             "evn": "season_28",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3512138328,
@@ -3424,7 +3978,9 @@
             "dep": 3985580089,
             "evn": "season_28",
             "tt": 1,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 307874343,
@@ -3437,7 +3993,9 @@
             "dep": 3985580089,
             "evn": "season_28",
             "tt": 4,
-            "ta": "spirit_unlock_1000"
+            "ta": "spirit_unlock_1000",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1633429718,
@@ -3450,7 +4008,9 @@
             "dep": 307874343,
             "evn": "season_28",
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4059342360,
@@ -3462,7 +4022,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 895433144,
@@ -3475,7 +4037,9 @@
             "dep": 4059342360,
             "evn": "season_28",
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3652164184,
@@ -3488,7 +4052,9 @@
             "dep": 4059342360,
             "evn": "season_28",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1442936407,
@@ -3501,7 +4067,9 @@
             "dep": 4059342360,
             "evn": "season_28",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 688202782,
@@ -3514,7 +4082,9 @@
             "dep": 3652164184,
             "evn": "season_28",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 104243961,
@@ -3527,7 +4097,9 @@
             "dep": 3652164184,
             "evn": "season_28",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3685719422,
@@ -3540,7 +4112,9 @@
             "dep": 104243961,
             "evn": "season_28",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 661868931,
@@ -3553,7 +4127,9 @@
             "dep": 104243961,
             "evn": "season_28",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1098211010,
@@ -3566,7 +4142,9 @@
             "dep": 661868931,
             "evn": "season_28",
             "tt": 4,
-            "ta": "spirit_unlock_1000"
+            "ta": "spirit_unlock_1000",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1821861163,
@@ -3579,7 +4157,9 @@
             "dep": 1098211010,
             "evn": "season_28",
             "tt": 1,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3702497041,
@@ -3592,7 +4172,9 @@
             "dep": 1098211010,
             "evn": "season_28",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2838648665,
@@ -3605,7 +4187,9 @@
             "dep": 3702497041,
             "evn": "season_28",
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2127762267,
@@ -3617,7 +4201,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "tt": 1,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 716060149,
@@ -3629,7 +4215,9 @@
             "ctyp": "season_candle",
             "dep": 2127762267,
             "tt": 1,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 665727292,
@@ -3642,7 +4230,9 @@
             "dep": 716060149,
             "tt": 1,
             "td": 716060149,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 682504911,
@@ -3655,7 +4245,9 @@
             "dep": 665727292,
             "tt": 1,
             "td": 665727292,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1709701269,
@@ -3667,7 +4259,9 @@
             "ctyp": "heart",
             "dep": 682504911,
             "tt": 1,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 632172054,
@@ -3680,7 +4274,9 @@
             "dep": 682504911,
             "tt": 2,
             "td": 682504911,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2093058562,
@@ -3692,7 +4288,9 @@
             "ctyp": "heart",
             "dep": 632172054,
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 648949673,
@@ -3705,7 +4303,9 @@
             "dep": 632172054,
             "tt": 2,
             "td": 632172054,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 598616816,
@@ -3718,7 +4318,9 @@
             "dep": 648949673,
             "tt": 2,
             "td": 648949673,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2076280943,
@@ -3730,7 +4332,9 @@
             "ctyp": "heart",
             "dep": 598616816,
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 615394435,
@@ -3743,7 +4347,9 @@
             "dep": 598616816,
             "tt": 3,
             "td": 598616816,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2551184823,
@@ -3755,7 +4361,9 @@
             "ctyp": "heart",
             "dep": 615394435,
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 833503482,
@@ -3768,7 +4376,9 @@
             "dep": 615394435,
             "tt": 3,
             "td": 615394435,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 850281101,
@@ -3781,7 +4391,9 @@
             "dep": 833503482,
             "tt": 3,
             "td": 833503482,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2567962442,
@@ -3793,7 +4405,9 @@
             "ctyp": "heart",
             "dep": 850281101,
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 800095339,
@@ -3806,7 +4420,9 @@
             "dep": 850281101,
             "tt": 4,
             "td": 850281101,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 296777340,
@@ -3818,7 +4434,9 @@
             "ctyp": "heart",
             "dep": 800095339,
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 783317720,
@@ -3831,7 +4449,9 @@
             "dep": 800095339,
             "tt": 4,
             "td": 800095339,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 833650577,
@@ -3844,7 +4464,9 @@
             "dep": 783317720,
             "tt": 4,
             "td": 783317720,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 347110197,
@@ -3856,7 +4478,9 @@
             "ctyp": "heart",
             "dep": 833650577,
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3097983121,
@@ -3869,7 +4493,9 @@
             "dep": 716060149,
             "evn": "season_29",
             "tt": 1,
-            "ta": "spirit_unlock_600"
+            "ta": "spirit_unlock_600",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 685532355,
@@ -3882,7 +4508,9 @@
             "dep": 3097983121,
             "evn": "season_29",
             "tt": 1,
-            "ta": "spirit_unlock_600"
+            "ta": "spirit_unlock_600",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 302731041,
@@ -3895,7 +4523,9 @@
             "dep": 685532355,
             "evn": "season_29",
             "tt": 2,
-            "ta": "spirit_unlock_600"
+            "ta": "spirit_unlock_600",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1358123056,
@@ -3908,7 +4538,9 @@
             "dep": 302731041,
             "evn": "season_29",
             "tt": 3,
-            "ta": "spirit_unlock_600"
+            "ta": "spirit_unlock_600",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1869472480,
@@ -3920,7 +4552,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1919805337,
@@ -3933,7 +4567,9 @@
             "dep": 1869472480,
             "evn": "season_29",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3361930016,
@@ -3946,7 +4582,9 @@
             "dep": 1869472480,
             "evn": "season_29",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1903027718,
@@ -3959,7 +4597,9 @@
             "dep": 3361930016,
             "evn": "season_29",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1953360575,
@@ -3972,7 +4612,9 @@
             "dep": 1903027718,
             "evn": "season_29",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 719087593,
@@ -3985,7 +4627,9 @@
             "dep": 1903027718,
             "evn": "season_29",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3412262873,
@@ -3998,7 +4642,9 @@
             "dep": 719087593,
             "evn": "season_29",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 415201570,
@@ -4011,7 +4657,9 @@
             "dep": 3412262873,
             "evn": "season_29",
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3395485254,
@@ -4024,7 +4672,9 @@
             "dep": 3412262873,
             "evn": "season_29",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 319660353,
@@ -4037,7 +4687,9 @@
             "dep": 3395485254,
             "evn": "season_29",
             "tt": 1,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3551298110,
@@ -4050,7 +4702,9 @@
             "dep": 3395485254,
             "evn": "season_29",
             "tt": 4,
-            "ta": "spirit_unlock_1000"
+            "ta": "spirit_unlock_1000",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2739718932,
@@ -4063,7 +4717,9 @@
             "dep": 3551298110,
             "evn": "season_29",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1929442571,
@@ -4076,7 +4732,9 @@
             "dep": 3551298110,
             "evn": "season_29",
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 130689854,
@@ -4088,7 +4746,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 113912235,
@@ -4101,7 +4761,9 @@
             "dep": 130689854,
             "evn": "season_29",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 984434046,
@@ -4114,7 +4776,9 @@
             "dep": 130689854,
             "evn": "season_29",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 702309974,
@@ -4127,7 +4791,9 @@
             "dep": 984434046,
             "evn": "season_29",
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 97134616,
@@ -4140,7 +4806,9 @@
             "dep": 984434046,
             "evn": "season_29",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 214577949,
@@ -4153,7 +4821,9 @@
             "dep": 97134616,
             "evn": "season_29",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 967656427,
@@ -4166,7 +4836,9 @@
             "dep": 97134616,
             "evn": "season_29",
             "tt": 2,
-            "ta": "spirit_unlock_600"
+            "ta": "spirit_unlock_600",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1699034072,
@@ -4179,7 +4851,9 @@
             "dep": 967656427,
             "evn": "season_29",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2519946647,
@@ -4192,7 +4866,9 @@
             "dep": 967656427,
             "evn": "season_29",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2600532611,
@@ -4205,7 +4881,9 @@
             "dep": 2519946647,
             "evn": "season_29",
             "tt": 1,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3169529243,
@@ -4218,7 +4896,9 @@
             "dep": 2519946647,
             "evn": "season_29",
             "tt": 4,
-            "ta": "spirit_unlock_1000"
+            "ta": "spirit_unlock_1000",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1544767621,
@@ -4231,7 +4911,9 @@
             "dep": 3169529243,
             "evn": "season_29",
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1506929596,
@@ -4243,7 +4925,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1557262453,
@@ -4256,7 +4940,9 @@
             "dep": 1506929596,
             "evn": "season_29",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 752642831,
@@ -4269,7 +4955,9 @@
             "dep": 1506929596,
             "evn": "season_29",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1356773082,
@@ -4282,7 +4970,9 @@
             "dep": 752642831,
             "evn": "season_29",
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1540484834,
@@ -4295,7 +4985,9 @@
             "dep": 752642831,
             "evn": "season_29",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1456596739,
@@ -4308,7 +5000,9 @@
             "dep": 1540484834,
             "evn": "season_29",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2783202442,
@@ -4321,7 +5015,9 @@
             "dep": 1540484834,
             "evn": "season_29",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 334772634,
@@ -4334,7 +5030,9 @@
             "dep": 2783202442,
             "evn": "season_29",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3371872468,
@@ -4347,7 +5045,9 @@
             "dep": 2783202442,
             "evn": "season_29",
             "tt": 4,
-            "ta": "spirit_unlock_1000"
+            "ta": "spirit_unlock_1000",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3834605683,
@@ -4360,7 +5060,9 @@
             "dep": 3371872468,
             "evn": "season_29",
             "tt": 1,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 645184693,
@@ -4373,7 +5075,9 @@
             "dep": 3371872468,
             "evn": "season_29",
             "tt": 2,
-            "ta": "spirit_unlock_600"
+            "ta": "spirit_unlock_600",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1421254169,
@@ -4386,7 +5090,9 @@
             "dep": 645184693,
             "evn": "season_29",
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 34955929,
@@ -4398,7 +5104,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4279590368,
@@ -4411,7 +5119,9 @@
             "dep": 34955929,
             "evn": "season_29",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1012957401,
@@ -4424,7 +5134,9 @@
             "dep": 34955929,
             "evn": "season_29",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 735865212,
@@ -4437,7 +5149,9 @@
             "dep": 1012957401,
             "evn": "season_29",
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1400691,
@@ -4450,7 +5164,9 @@
             "dep": 1012957401,
             "evn": "season_29",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 85288786,
@@ -4463,7 +5179,9 @@
             "dep": 1400691,
             "evn": "season_29",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1380982476,
@@ -4476,7 +5194,9 @@
             "dep": 1400691,
             "evn": "season_29",
             "tt": 2,
-            "ta": "spirit_unlock_600"
+            "ta": "spirit_unlock_600",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3368825743,
@@ -4489,7 +5209,9 @@
             "dep": 1380982476,
             "evn": "season_29",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1023970646,
@@ -4502,7 +5224,9 @@
             "dep": 1380982476,
             "evn": "season_29",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1935719300,
@@ -4515,7 +5239,9 @@
             "dep": 1023970646,
             "evn": "season_29",
             "tt": 1,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 979402163,
@@ -4528,7 +5254,9 @@
             "dep": 1023970646,
             "evn": "season_29",
             "tt": 4,
-            "ta": "spirit_unlock_1000"
+            "ta": "spirit_unlock_1000",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3945229558,
@@ -4541,7 +5269,9 @@
             "dep": 979402163,
             "evn": "season_29",
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2077576505,
@@ -4553,7 +5283,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "tt": 1,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2243487515,
@@ -4565,7 +5297,9 @@
             "ctyp": "season_candle",
             "dep": 2077576505,
             "tt": 1,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4180409510,
@@ -4577,7 +5311,9 @@
             "ctyp": "candles",
             "dep": 2243487515,
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 826142239,
@@ -4589,7 +5325,9 @@
             "ctyp": "candles",
             "dep": 4180409510,
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2260265134,
@@ -4602,7 +5340,9 @@
             "dep": 2243487515,
             "tt": 2,
             "td": 2243487515,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2277042753,
@@ -4615,7 +5355,9 @@
             "dep": 2260265134,
             "tt": 3,
             "td": 2260265134,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3366526331,
@@ -4627,7 +5369,9 @@
             "ctyp": "candles",
             "dep": 2260265134,
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 330401193,
@@ -4639,7 +5383,9 @@
             "ctyp": "heart",
             "dep": 2277042753,
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1775293343,
@@ -4651,7 +5397,9 @@
             "ctyp": "candles",
             "dep": 330401193,
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 634715293,
@@ -4663,7 +5411,9 @@
             "ctyp": "candles",
             "dep": 1775293343,
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2293820372,
@@ -4676,7 +5426,9 @@
             "dep": 2277042753,
             "tt": 4,
             "td": 2277042753,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2310597991,
@@ -4689,7 +5441,9 @@
             "dep": 2293820372,
             "tt": 5,
             "td": 2293820372,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 191427503,
@@ -4701,7 +5455,9 @@
             "ctyp": "heart",
             "dep": 2293820372,
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3783391418,
@@ -4713,7 +5469,9 @@
             "ctyp": "candles",
             "dep": 2293820372,
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 388197051,
@@ -4726,7 +5484,9 @@
             "dep": 2243487515,
             "evn": "season_30",
             "tt": 1,
-            "ta": "spirit_unlock_600"
+            "ta": "spirit_unlock_600",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1127661976,
@@ -4739,7 +5499,9 @@
             "dep": 388197051,
             "evn": "season_30",
             "tt": 1,
-            "ta": "spirit_unlock_600"
+            "ta": "spirit_unlock_600",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 19915109,
@@ -4752,7 +5514,9 @@
             "dep": 1127661976,
             "evn": "season_30",
             "tt": 2,
-            "ta": "spirit_unlock_600"
+            "ta": "spirit_unlock_600",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3731741287,
@@ -4764,7 +5528,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3748518906,
@@ -4777,7 +5543,9 @@
             "dep": 3731741287,
             "evn": "season_30",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4024546983,
@@ -4790,7 +5558,9 @@
             "dep": 3748518906,
             "evn": "season_30",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3765296525,
@@ -4803,7 +5573,9 @@
             "dep": 4024546983,
             "evn": "season_30",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3647853192,
@@ -4816,7 +5588,9 @@
             "dep": 3765296525,
             "evn": "season_30",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 819118062,
@@ -4829,7 +5603,9 @@
             "dep": 3647853192,
             "evn": "season_30",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4041324602,
@@ -4842,7 +5618,9 @@
             "dep": 819118062,
             "evn": "season_30",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1740328786,
@@ -4855,7 +5633,9 @@
             "dep": 4041324602,
             "evn": "season_30",
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4058102221,
@@ -4868,7 +5648,9 @@
             "dep": 1740328786,
             "evn": "season_30",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2555856138,
@@ -4881,7 +5663,9 @@
             "dep": 4058102221,
             "evn": "season_30",
             "tt": 3,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3610808227,
@@ -4894,7 +5678,9 @@
             "dep": 2555856138,
             "evn": "season_30",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 159630415,
@@ -4907,7 +5693,9 @@
             "dep": 3610808227,
             "evn": "season_30",
             "tt": 4,
-            "ta": "spirit_unlock_1000"
+            "ta": "spirit_unlock_1000",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2857165160,
@@ -4920,7 +5708,9 @@
             "dep": 159630415,
             "evn": "season_30",
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 352946787,
@@ -4932,7 +5722,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 369724406,
@@ -4945,7 +5737,9 @@
             "dep": 352946787,
             "evn": "season_30",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1241047971,
@@ -4958,7 +5752,9 @@
             "dep": 369724406,
             "evn": "season_30",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 386502025,
@@ -4971,7 +5767,9 @@
             "dep": 1241047971,
             "evn": "season_30",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 403279644,
@@ -4984,7 +5782,9 @@
             "dep": 386502025,
             "evn": "season_30",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2980073358,
@@ -4997,7 +5797,9 @@
             "dep": 403279644,
             "evn": "season_30",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1257825590,
@@ -5010,7 +5812,9 @@
             "dep": 2980073358,
             "evn": "season_30",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3198588208,
@@ -5023,7 +5827,9 @@
             "dep": 1257825590,
             "evn": "season_30",
             "tt": 4,
-            "ta": "spirit_unlock_1000"
+            "ta": "spirit_unlock_1000",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3897615645,
@@ -5036,7 +5842,9 @@
             "dep": 3198588208,
             "evn": "season_30",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1170699920,
@@ -5049,7 +5857,9 @@
             "dep": 3897615645,
             "evn": "season_30",
             "tt": 3,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2194341542,
@@ -5062,7 +5872,9 @@
             "dep": 1170699920,
             "evn": "season_30",
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1294062686,
@@ -5075,7 +5887,9 @@
             "dep": 2194341542,
             "evn": "season_30",
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2063769764,
@@ -5087,7 +5901,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2114102621,
@@ -5100,7 +5916,9 @@
             "dep": 2063769764,
             "evn": "season_30",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3206945508,
@@ -5113,7 +5931,9 @@
             "dep": 2114102621,
             "evn": "season_30",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2097325002,
@@ -5126,7 +5946,9 @@
             "dep": 3206945508,
             "evn": "season_30",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2013436907,
@@ -5139,7 +5961,9 @@
             "dep": 2097325002,
             "evn": "season_30",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2958465868,
@@ -5152,7 +5976,9 @@
             "dep": 2013436907,
             "evn": "season_30",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3257278365,
@@ -5165,7 +5991,9 @@
             "dep": 2958465868,
             "evn": "season_30",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1283702485,
@@ -5178,7 +6006,9 @@
             "dep": 3257278365,
             "evn": "season_30",
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3240500746,
@@ -5191,7 +6021,9 @@
             "dep": 1283702485,
             "evn": "season_30",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2729929851,
@@ -5204,7 +6036,9 @@
             "dep": 3240500746,
             "evn": "season_30",
             "tt": 3,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3582275717,
@@ -5217,7 +6051,9 @@
             "dep": 2729929851,
             "evn": "season_30",
             "tt": 4,
-            "ta": "spirit_unlock_1000"
+            "ta": "spirit_unlock_1000",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 193895353,
@@ -5230,7 +6066,9 @@
             "dep": 3582275717,
             "evn": "season_30",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2310369861,
@@ -5243,7 +6081,9 @@
             "dep": 193895353,
             "evn": "season_30",
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1748246798,
@@ -5255,7 +6095,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1061615182,
@@ -5268,7 +6110,9 @@
             "dep": 1748246798,
             "evn": "season_30",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1731469179,
@@ -5281,7 +6125,9 @@
             "dep": 1061615182,
             "evn": "season_30",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1392750645,
@@ -5294,7 +6140,9 @@
             "dep": 1731469179,
             "evn": "season_30",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1044837563,
@@ -5307,7 +6155,9 @@
             "dep": 1392750645,
             "evn": "season_30",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1714691560,
@@ -5320,7 +6170,9 @@
             "dep": 1044837563,
             "evn": "season_30",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1326990699,
@@ -5333,7 +6185,9 @@
             "dep": 1714691560,
             "evn": "season_30",
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1028059944,
@@ -5346,7 +6200,9 @@
             "dep": 1326990699,
             "evn": "season_30",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1832134893,
@@ -5359,7 +6215,9 @@
             "dep": 1028059944,
             "evn": "season_30",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1750300383,
@@ -5372,7 +6230,9 @@
             "dep": 1832134893,
             "evn": "season_30",
             "tt": 4,
-            "ta": "spirit_unlock_1000"
+            "ta": "spirit_unlock_1000",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 786730429,
@@ -5385,7 +6245,9 @@
             "dep": 1750300383,
             "evn": "season_30",
             "tt": 3,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1679409076,
@@ -5398,7 +6260,9 @@
             "dep": 786730429,
             "evn": "season_30",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3685693539,
@@ -5411,7 +6275,9 @@
             "dep": 1679409076,
             "evn": "season_30",
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2060798886,
@@ -5423,7 +6289,9 @@
             "ctyp": "season_candle",
             "dep": 0,
             "tt": 1,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2289889578,
@@ -5435,7 +6303,9 @@
             "ctyp": "season_candle",
             "dep": 2060798886,
             "tt": 1,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3769340502,
@@ -5447,7 +6317,9 @@
             "ctyp": "candles",
             "dep": 2289889578,
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2273111959,
@@ -5460,7 +6332,9 @@
             "dep": 2289889578,
             "tt": 2,
             "td": 2289889578,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1566166073,
@@ -5472,7 +6346,9 @@
             "ctyp": "candles",
             "dep": 2273111959,
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2256334340,
@@ -5485,7 +6361,9 @@
             "dep": 2273111959,
             "tt": 2,
             "td": 2273111959,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2866930142,
@@ -5497,7 +6375,9 @@
             "ctyp": "candles",
             "dep": 2256334340,
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4165015070,
@@ -5509,7 +6389,9 @@
             "ctyp": "heart",
             "dep": 2256334340,
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2239556721,
@@ -5522,7 +6404,9 @@
             "dep": 2256334340,
             "tt": 3,
             "td": 2256334340,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3121838750,
@@ -5534,7 +6418,9 @@
             "ctyp": "candles",
             "dep": 2239556721,
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2394744145,
@@ -5546,7 +6432,9 @@
             "ctyp": "heart",
             "dep": 2239556721,
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2222779102,
@@ -5559,7 +6447,9 @@
             "dep": 2239556721,
             "tt": 3,
             "td": 2239556721,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3379080678,
@@ -5571,7 +6461,9 @@
             "ctyp": "candles",
             "dep": 2222779102,
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2206001483,
@@ -5584,7 +6476,9 @@
             "dep": 2222779102,
             "tt": 3,
             "td": 2222779102,
-            "ta": "zero_trust_quest"
+            "ta": "zero_trust_quest",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1432050083,
@@ -5596,7 +6490,9 @@
             "ctyp": "candles",
             "dep": 2206001483,
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2344411288,
@@ -5608,7 +6504,9 @@
             "ctyp": "heart",
             "dep": 2206001483,
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3253349514,
@@ -5621,7 +6519,9 @@
             "dep": 2289889578,
             "evn": "season_31",
             "tt": 1,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1022613391,
@@ -5634,7 +6534,9 @@
             "dep": 3253349514,
             "evn": "season_31",
             "tt": 2,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 992040684,
@@ -5647,7 +6549,9 @@
             "dep": 1022613391,
             "evn": "season_31",
             "tt": 3,
-            "ta": "spirit_unlock_600"
+            "ta": "spirit_unlock_600",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 364559279,
@@ -5660,7 +6564,9 @@
             "dep": 992040684,
             "evn": "season_31",
             "tt": 4,
-            "ta": "spirit_unlock_600"
+            "ta": "spirit_unlock_600",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1089416066,
@@ -5673,7 +6579,9 @@
             "dep": 0,
             "evn": "season_31",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1072638447,
@@ -5686,7 +6594,9 @@
             "dep": 1089416066,
             "evn": "season_31",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1578792642,
@@ -5699,7 +6609,9 @@
             "dep": 1089416066,
             "evn": "season_31",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1055860828,
@@ -5712,7 +6624,9 @@
             "dep": 1578792642,
             "evn": "season_31",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1039083209,
@@ -5725,7 +6639,9 @@
             "dep": 1055860828,
             "evn": "season_31",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2036900608,
@@ -5738,7 +6654,9 @@
             "dep": 1578792642,
             "evn": "season_31",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1562015023,
@@ -5751,7 +6669,9 @@
             "dep": 1578792642,
             "evn": "season_31",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3116507635,
@@ -5764,7 +6684,9 @@
             "dep": 1562015023,
             "evn": "season_31",
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1438721636,
@@ -5777,7 +6699,9 @@
             "dep": 1562015023,
             "evn": "season_31",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1464666850,
@@ -5790,7 +6714,9 @@
             "dep": 1578792642,
             "evn": "season_31",
             "tt": 4,
-            "ta": "spirit_unlock_1000"
+            "ta": "spirit_unlock_1000",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4283498658,
@@ -5803,7 +6729,9 @@
             "dep": 1464666850,
             "evn": "season_31",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2126105267,
@@ -5816,7 +6744,9 @@
             "dep": 3116507635,
             "evn": "season_31",
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4048007765,
@@ -5829,7 +6759,9 @@
             "dep": 0,
             "evn": "season_31",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3997674908,
@@ -5842,7 +6774,9 @@
             "dep": 4048007765,
             "evn": "season_31",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 641958037,
@@ -5855,7 +6789,9 @@
             "dep": 4048007765,
             "evn": "season_31",
             "tt": 2,
-            "ta": "spirit_unlock_600"
+            "ta": "spirit_unlock_600",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4014452527,
@@ -5868,7 +6804,9 @@
             "dep": 4048007765,
             "evn": "season_31",
             "tt": 3,
-            "ta": "spirit_unlock_267"
+            "ta": "spirit_unlock_267",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3964119670,
@@ -5881,7 +6819,9 @@
             "dep": 4014452527,
             "evn": "season_31",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 591625180,
@@ -5894,7 +6834,9 @@
             "dep": 641958037,
             "evn": "season_31",
             "tt": 3,
-            "ta": "spirit_unlock_267"
+            "ta": "spirit_unlock_267",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 428290162,
@@ -5907,7 +6849,9 @@
             "dep": 4014452527,
             "evn": "season_31",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4167120338,
@@ -5920,7 +6864,9 @@
             "dep": 591625180,
             "evn": "season_31",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3762326009,
@@ -5933,7 +6879,9 @@
             "dep": 641958037,
             "evn": "season_31",
             "tt": 4,
-            "ta": "spirit_unlock_500"
+            "ta": "spirit_unlock_500",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1704083768,
@@ -5946,7 +6894,9 @@
             "dep": 591625180,
             "evn": "season_31",
             "tt": 3,
-            "ta": "spirit_unlock_267"
+            "ta": "spirit_unlock_267",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2843350282,
@@ -5959,7 +6909,9 @@
             "dep": 591625180,
             "evn": "season_31",
             "tt": 4,
-            "ta": "spirit_unlock_500"
+            "ta": "spirit_unlock_500",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 928539340,
@@ -5972,7 +6924,9 @@
             "dep": 2843350282,
             "evn": "season_31",
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 347571548,
@@ -5985,7 +6939,9 @@
             "dep": 0,
             "evn": "season_31",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 397904405,
@@ -5998,7 +6954,9 @@
             "dep": 347571548,
             "evn": "season_31",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 74579100,
@@ -6011,7 +6969,9 @@
             "dep": 347571548,
             "evn": "season_31",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 381126786,
@@ -6024,7 +6984,9 @@
             "dep": 74579100,
             "evn": "season_31",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 297238691,
@@ -6037,7 +6999,9 @@
             "dep": 381126786,
             "evn": "season_31",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1634149594,
@@ -6050,7 +7014,9 @@
             "dep": 381126786,
             "evn": "season_31",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3275051376,
@@ -6063,7 +7029,9 @@
             "dep": 74579100,
             "evn": "season_31",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1097954141,
@@ -6076,7 +7044,9 @@
             "dep": 3275051376,
             "evn": "season_31",
             "tt": 3,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 124911957,
@@ -6089,7 +7059,9 @@
             "dep": 74579100,
             "evn": "season_31",
             "tt": 3,
-            "ta": "spirit_unlock_400"
+            "ta": "spirit_unlock_400",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1162605695,
@@ -6102,7 +7074,9 @@
             "dep": 124911957,
             "evn": "season_31",
             "tt": 4,
-            "ta": "spirit_unlock_1000"
+            "ta": "spirit_unlock_1000",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2662727052,
@@ -6115,7 +7089,9 @@
             "dep": 1162605695,
             "evn": "season_31",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2837505871,
@@ -6128,7 +7104,9 @@
             "dep": 2662727052,
             "evn": "season_31",
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4186444759,
@@ -6141,7 +7119,9 @@
             "dep": 0,
             "evn": "season_31",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4203222378,
@@ -6154,7 +7134,9 @@
             "dep": 4186444759,
             "evn": "season_31",
             "tt": 2,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2742856215,
@@ -6167,7 +7149,9 @@
             "dep": 4186444759,
             "evn": "season_31",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4219999997,
@@ -6180,7 +7164,9 @@
             "dep": 2742856215,
             "evn": "season_31",
             "tt": 3,
-            "ta": "spirit_unlock_267"
+            "ta": "spirit_unlock_267",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4102556664,
@@ -6193,7 +7179,9 @@
             "dep": 4219999997,
             "evn": "season_31",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2546187851,
@@ -6206,7 +7194,9 @@
             "dep": 4186444759,
             "evn": "season_31",
             "tt": 1,
-            "ta": "spirit_unlock_200"
+            "ta": "spirit_unlock_200",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 37709070,
@@ -6219,7 +7209,9 @@
             "dep": 2742856215,
             "evn": "season_31",
             "tt": 3,
-            "ta": "spirit_unlock_267"
+            "ta": "spirit_unlock_267",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 932421922,
@@ -6232,7 +7224,9 @@
             "dep": 4219999997,
             "evn": "season_31",
             "tt": 3,
-            "ta": "spirit_unlock_267"
+            "ta": "spirit_unlock_267",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 1744347437,
@@ -6245,7 +7239,9 @@
             "dep": 932421922,
             "evn": "season_31",
             "tt": 2,
-            "ta": "spirit_unlock_300"
+            "ta": "spirit_unlock_300",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 2759633834,
@@ -6258,7 +7254,9 @@
             "dep": 37709070,
             "evn": "season_31",
             "tt": 4,
-            "ta": "spirit_unlock_1000"
+            "ta": "spirit_unlock_1000",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 4161251844,
@@ -6271,7 +7269,9 @@
             "dep": 932421922,
             "evn": "season_31",
             "tt": 4,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         },
         {
             "id": 3468368246,
@@ -6284,7 +7284,9 @@
             "dep": 1744347437,
             "evn": "season_31",
             "tt": 5,
-            "ta": "zero_trust_unlock"
+            "ta": "zero_trust_unlock",
+            "grant_type": "",
+            "grant_amount": 0
         }
     ],
     "spirit_shops_version": 403162,
