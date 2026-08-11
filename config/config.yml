@@ -54,6 +54,13 @@ game:
       totalAvailableResultsMode: "filtered_unique"
       liteFields: [ "social_feed_id", "user_id", "author_id", "pool_type", "pool_name", "level_id", "create_at", "expire_at", "message", "content_type", "content", "resource_id", "recording_id", "tags", "reactions", "state", "comments_enabled", "location", "local_creation", "followed", "friend" ]
 
+  cache:
+    type: "memory" # 缓存类型，可选值: memory, //redis -开发中
+    list:
+      session:
+      ttl: 24000 # 会话缓存过期时间，单位为秒
+      max_entries: 30000 # 最大缓存条目数
+
 # UDP 服务器配置
 udp:
   uri: "100.64.15.8:19132"
