@@ -77,12 +77,7 @@ module.exports = {
   },
 
   game: {
-    initialCurrency: {
-      candles: get('game.initialCurrency.candles', 5),
-      hearts: get('game.initialCurrency.hearts', 5),
-      seasonCandles: get('game.initialCurrency.seasonCandles', 5),
-      prestige: get('game.initialCurrency.prestige', 5)
-    },
+    initialCurrency: get('game.initialCurrency', {}),
     socialFeed: {
       socialFeedExpireDays: get('game.socialFeed.socialFeedExpireDays', 30),
       uri: get('game.socialFeed.uri', 'live-as-sky.xyqaq.cn'),
@@ -102,17 +97,10 @@ module.exports = {
         totalAvailableResultsMode: get('game.socialFeed.curatedFeeds.totalAvailableResultsMode', 'filtered_unique'),
         liteFields: get('game.socialFeed.curatedFeeds.liteFields', ['social_feed_id','user_id','author_id','pool_type','pool_name','level_id','create_at','expire_at','message','content_type','content','resource_id','recording_id','tags','reactions','state','comments_enabled','location','local_creation','followed','friend'])
       }
-    },
-    cache: {
-        type: get('game.game.cache.type', 'memory'),
-        list: {
-          session: {
-            ttl: get('game.game.cache.list.session.ttl', 24000),
-            max_entries: get('game.game.cache.list.session.max_entries', 30000)
-          }
-        }
-      }
+    }
   },
+
+  cache: get('cache', {}),
 
   contentModeration: {
     enabled: get('contentModeration.enabled', true),
@@ -121,7 +109,9 @@ module.exports = {
     logViolations: get('contentModeration.logViolations', true)
   },
 
-  nodeEnv: get('nodeEnv', 'development'),
+  logger: {
+    apiregister: get('logger.api_register', false),
+    stackerror: get('logger.request_stack_error', true)
+  }
 
-  resourceList: config.resourceList || []
 };

@@ -1,0 +1,46 @@
+cache:
+  type: "memory"
+  namespace: "xysky"
+  defaultTTL: 0
+
+  namespaces:
+    session: "session"
+    users: "users"
+    currency: "currency"
+    forgeRates: "forge-rates"
+    contentModeration: "content-moderation"
+    translation: "translation-cache"
+
+  list:
+    session:
+      ttl: 24000
+      max_entries: 30000
+    contentModeration:
+      ttl: 300
+    translation:
+      ttl: 86400
+    user:
+      ttl: 30
+    currency:
+      ttl: 2
+    forgeRates:
+      minTTL: 60
+      resetGraceTTL: 300
+
+  memory:
+    maxEntries: 30000
+    sweepIntervalMs: 30000
+
+  redis:
+    mode: "standalone"
+    host: "127.0.0.1"
+    port: 6379
+    db: 0
+    username: ""
+    password: ""
+    lazyConnect: true
+    enableOfflineQueue: true
+    enableAutoPipelining: true
+    maxRetriesPerRequest: 1
+    connectTimeout: 5000
+    keepAlive: 30000

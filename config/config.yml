@@ -1,12 +1,11 @@
-# Node 环境配置
-nodeEnv: "development"
+logger:
+  api_register: false
+  request_stack_error: true
 
-# 服务器配置
 server:
   host: "0.0.0.0"
-  port: 2333
+  port: 25565
 
-# 数据库配置
 database:
   type: "sqlite"
   sqlite:
@@ -22,18 +21,19 @@ database:
     idleTimeout: 60000
     maxIdle: 5
     connectTimeout: 10000
+    ssl: false
+  migrations:
+    runOnStartup: true
 
-# JWT 配置
 jwt:
-  secret: "1234cfe08b8e9a522229e4663e4c1234"
+  secret: "1234cfe08b8e9a512329e4663e4c1234"
   expiresIn: "7d"
 
-# 游戏配置
 game:
   initialCurrency:
     candles: 5
     hearts: 5
-    seasonCandles: 5
+    season_candle: 5
     prestige: 5
   socialFeed:
     socialFeedExpireDays: 30
@@ -52,83 +52,43 @@ game:
       defaultVerticalRadius: 24
       scoreAlgoVersion: "v1a32"
       totalAvailableResultsMode: "filtered_unique"
-      liteFields: [ "social_feed_id", "user_id", "author_id", "pool_type", "pool_name", "level_id", "create_at", "expire_at", "message", "content_type", "content", "resource_id", "recording_id", "tags", "reactions", "state", "comments_enabled", "location", "local_creation", "followed", "friend" ]
+      liteFields:
+      - "social_feed_id"
+      - "user_id"
+      - "author_id"
+      - "pool_type"
+      - "pool_name"
+      - "level_id"
+      - "create_at"
+      - "expire_at"
+      - "message"
+      - "content_type"
+      - "content"
+      - "resource_id"
+      - "recording_id"
+      - "tags"
+      - "reactions"
+      - "state"
+      - "comments_enabled"
+      - "location"
+      - "local_creation"
+      - "followed"
+      - "friend"
 
-  cache:
-    type: "memory" # 缓存类型，可选值: memory, //redis -开发中
-    list:
-      session:
-      ttl: 24000 # 会话缓存过期时间，单位为秒
-      max_entries: 30000 # 最大缓存条目数
-
-# UDP 服务器配置
 udp:
   uri: "100.64.15.8:19132"
 
-# CDN 配置
 cdn:
   host: "sky.resources.cdn.thatgamecompany.com"
   prefix: ""
 
-# MQTT 配置 (可选)
 mqtt:
   brokerUrl: ""
   username: ""
   password: ""
 
-# 内容审核配置
 contentModeration:
-  enabled: true # 是否启用内容审核
-  blockMode: "direct" # 拦截模式: direct(直接拦截) 或 replace(替换为星号)
-  replacementChar: "*" # 替换字符
-  logViolations: true # 是否记录违规日志
-
-# 资源列表
-resourceList:
-- "device_capabilities"
-- "userdata"
-- "set_friends"
-- "set_friend_statues"
-- "online_friends"
-- "set_rank"
-- "currency"
-- "forge_rates"
-- "motd"
-- "outfit_defs"
-- "achievements"
-- "achievement_stats"
-- "relationship_defs"
-- "questionnaires"
-- "event_schedule"
-- "set_world_quests"
-- "iap_list"
-- "invite_list"
-- "unlocks"
-- "get_shop"
-- "spirit_shops"
-- "collectibles"
-- "wing_buffs"
-- "gift_messages"
-- "set_app_badge_number"
-- "get_consumable_defs"
-- "get_consumables"
-- "get_buff_defs"
-- "get_buffs"
-- "get_lootboxes"
-- "checkpoints"
-- "generic_shop_defs"
-- "external_account_friends"
-- "serendipity_matches"
-- "get_star_tag_defs"
-- "status_unlocks"
-- "free_gifts"
-- "get_map_defs"
-- "achievement_defs"
-- "achievement_stats_tracking"
-- "event_currency_defs"
-- "infractions"
-- "get_user_profile"
-- "emote_sequences"
-- "video_defs"
-- "radiance_spawn_defs"
-- "messages"
+  enabled: false
+  blockMode: "direct"
+  replacementChar: "*"
+  logViolations: true
