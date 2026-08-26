@@ -76,20 +76,35 @@ XYSky 不只是若干接口的集合，而是一套围绕游戏服务端生命�
 
 ```mermaid
 flowchart LR
-    C[游戏客户端] --> H[HTTP / HTTPS Server]
+    %% 客户端与入口
+    C[游戏客户端] --> H[HTTP/HTTPS 网关]
     A[管理端] --> H
-    H --> M[请求标准化 / 日志 / 会话校验]
+
+    %% 网关层：路由隔离
+    H --> M[中间件：日志/会话/路由权限]
     M --> R[声明式 Controller]
-    R --> B[Game Helper / Domain Service]
+
+    %% WebSocket 升级与集群同步
+    H -. WebSocket升级 .-> W[WebSocket消息处理器]
+    W --> B[Game Helper / Domain Service]
+    W <--> RedisBus[(Redis 消息总线)]
+
+    %% 业务逻辑调用
+    R --> B
+
+    %% 数据持久层（区分环境）
     B --> P[Repository]
-    P --> K[Kysely]
-    K --> D1[(SQLite)]
+    P --> K[Kysely ORM]
+    K --> D1[(SQLite)] 
     K --> D2[(MySQL)]
-    B --> S[Static Data Store]
+
+    %% 多级缓存层
     B --> CA[Cache Manager]
     CA --> C1[(Memory)]
-    CA --> C2[(Redis)]
-    H -. upgrade .-> W1[Player WebSocket]
+    CA --> RedisCache[(Redis 缓存)]
+
+    %% 静态配置表
+    S[Static Data Store] -. 服务启动时全量加载 .-> C1
 ```
 
 ### 请求链路
