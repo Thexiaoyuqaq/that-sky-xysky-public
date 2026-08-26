@@ -34,8 +34,16 @@ validateEnv();
 
 module.exports = {
   server: {
-    port: get('server.port', 4110),
-    host: get('server.host', '0.0.0.0')
+    host: get('server.host', '0.0.0.0'),
+    type: get('server.type', 'http'),
+    http: {
+      port: get('server.http.port'),
+    },
+    https: {
+      port: get('server.https.port'),
+      ssl_cert: get('server.https.cert'),
+      ssl_key: get('server.https.key'),
+    }
   },
 
   database: {
