@@ -268,14 +268,12 @@ cache:
 项目处于持续开发阶段。核心服务链路和大量业务接口已经实现。
 
 ---
-
 ## 许可证
 
-[MIT License](LICENSE) © GNU General Public License v3.0
+[GNU General Public License v3.0](LICENSE)
 
-----
+---
 
 <p align="center">
   <sub>Made with ❤️ for XYSKY 2.0 community</sub>
 </p>
-
