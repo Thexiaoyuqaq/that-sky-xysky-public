@@ -1,0 +1,31 @@
+/**
+ * spam-blocker — 示例插件(元数据 · 消费者)
+ *
+ * priority:20 较晚执行，读取 spam-scorer(priority:0) 通过元数据
+ * 写入的 spamScore，超过阈值就 cancel() 拦截本条消息。
+ *
+ * 演示重点: 插件之间不直接互相 require，而是通过 event 元数据解耦协作。
+ */
+const SPAM_THRESHOLD = 5;
+
+module.exports = {
+  name: 'spam-blocker',
+  version: '1.0.0',
+
+  init(api) {
+    api.logger.info(`spam-blocker enable (阈值=${SPAM_THRESHOLD})`);
+
+    api.on('onPlayerChat', async (event) => {
+      // 读取上游插件写入的分值; 若上游未运行则默认为 0
+      const score = event.getMeta('spamScore', 0);
+      const scoredBy = event.getMeta('spamScoredBy', 'unknown');
+
+      if (score >= SPAM_THRESHOLD) {
+        api.logger.warn(
+          `拦截疑似垃圾消息: user=${event.userId} score=${score} (来自 ${scoredBy})`
+        );
+        event.cancel({ result: 'invalid', reason: 'spam_detected', score });
+      }
+    }, { priority: 20 });
+  },
+};

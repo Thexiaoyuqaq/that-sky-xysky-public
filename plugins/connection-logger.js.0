@@ -1,0 +1,28 @@
+/**
+ * connection-logger — 示例插件(WebSocket 生命周期事件)
+ *
+ * 监听玩家连接 / 断开事件，二者都能拿到玩家 UUID。
+ * 这类事件是 parallel(纯通知)模式，插件并发执行、不改数据。
+ */
+module.exports = {
+  name: 'connection-logger',
+  version: '1.0.0',
+
+  init(api) {
+    api.logger.info('connection-logger enable');
+
+    api.on('onPlayerConnect', async (event) => {
+      api.logger.info(
+        `玩家上线 uuid=${event.getUuid()} conn=${event.getConnectionId()} ` +
+        `ip=${event.getRemoteAddress()}`
+      );
+    });
+
+    api.on('onPlayerDisconnect', async (event) => {
+      api.logger.info(
+        `玩家下线 uuid=${event.getUuid()} conn=${event.getConnectionId()} ` +
+        `code=${event.getCode()} 仍在线=${event.isStillOnline()}`
+      );
+    });
+  },
+};

@@ -1,0 +1,26 @@
+module.exports = {
+  name: 'chat-filter',
+  version: '1.0.0',
+
+  init(api) {
+    api.logger.info('chat-filter enable');
+
+    api.on('onPlayerChat', async (event) => {
+      const msg = event.getMessage() || '';
+
+      if (msg.includes('http://') || msg.includes('https://')) {
+        api.logger.warn(`拦截含链接消息: user=${event.userId}`);
+        return event.cancel({ result: 'invalid', reason: 'link_not_allowed' });
+      }
+
+      if (msg.includes('笨蛋')) {
+        event.setMessage(msg.replace(/笨蛋/g, '**'));
+        api.logger.info(`已替换敏感词: user=${event.userId}`);
+      }
+    }, { priority: 10 });
+  },
+
+  dispose() {
+    // 释放
+  },
+};

@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js 18+">
+  <img src="https://img.shields.io/badge/Node.js-22-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js 22">
   <img src="https://img.shields.io/badge/Express-5.x-000000?style=flat-square&logo=express&logoColor=white" alt="Express 5">
   <img src="https://img.shields.io/badge/WebSocket-ws-111111?style=flat-square" alt="WebSocket">
   <img src="https://img.shields.io/badge/Database-SQLite%20%7C%20MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQLite and MySQL">
@@ -15,8 +15,10 @@
 </p>
 
 <p align="center">
+  <a href="#项目定位">项目定位</a> ·
   <a href="#项目亮点">项目亮点</a> ·
   <a href="#能力矩阵">能力矩阵</a> ·
+  <a href="#技术栈">技术栈</a> ·
   <a href="#架构设计">架构设计</a> ·
   <a href="#快速开始">快速开始</a> ·
   <a href="#配置说明">配置说明</a>
@@ -56,7 +58,7 @@ XYSky 不只是若干接口的集合，而是一套围绕游戏服务端生命�
 | 好友与关系 | 邀请、好友、关注、好友能力、在线好友通知 |
 | 社交内容 | 聊天、消息、点赞、评论 |
 | 任务与活动 | 每日任务、世界任务、奖励领取、季节结算、动态事件调度 |
-| 场景与联机 | Stage 状态、小屋状态、好友房间加入
+| 场景与联机 | Stage 状态、小屋状态、好友房间加入 |
 | 安全 | 违规记录、登录或聊天限制、内容审核 |
 | UGC 与录制 | 录制创建、查询、更新 |
 
@@ -64,7 +66,7 @@ XYSky 不只是若干接口的集合，而是一套围绕游戏服务端生命�
 
 | 层级 | 技术 |
 | --- | --- |
-| Runtime | Node.js 18+、CommonJS、Module Alias |
+| Runtime | Node.js 22、CommonJS、Module Alias |
 | HTTP | Express 5、CORS、HTTP / HTTPS |
 | Realtime | `ws` WebSocket |
 | Database | Kysely、better-sqlite3、mysql2 |
@@ -118,32 +120,40 @@ flowchart LR
 
 ## 快速开始
 
+发行版为预编译的独立可执行文件，已内置运行时，**无需单独安装 Node.js**。
+
 ### 环境要求
 
-- Windows/Linux
-- 可选：MySQL 8+、Redis 6+
+- 操作系统：Windows 10+ 或 Linux（x64）
+- 可选：MySQL 8+、Redis 6+（默认使用内置 SQLite 与内存缓存，可不安装）
 
-### 克隆/安装
+### 下载与部署
 
-1. 克隆仓库  
-git clone https://github.com/Thexiaoyuqaq/that-sky-xysky-public.git
+1. 克隆仓库（获取配置与静态数据目录）：
 
-2. 下载二进制程序  
-根据系统版本从 [Releases](https://github.com/Thexiaoyuqaq/that-sky-xysky-public/releases) 页面下载对应压缩包。  
-（Windows 需额外下载并安装证书 `xysky-local-code-signing.cer` 至“受信任的根证书颁发机构”）
+   ```bash
+   git clone https://github.com/Thexiaoyuqaq/that-sky-xysky-public.git
+   ```
 
-3. 解压到仓库目录  
-将压缩包内容解压至 `that-sky-xysky-public` 文件夹中，完成部署。
+2. 下载二进制程序：根据系统从 [Releases](https://github.com/Thexiaoyuqaq/that-sky-xysky-public/releases) 页面下载对应压缩包。
+
+   > Windows 需额外下载证书 `xysky-local-code-signing.cer`，并安装到“受信任的根证书颁发机构”。
+
+3. 解压部署：将压缩包内容解压到 `that-sky-xysky-public` 目录中，与 `config/`、`data/` 同级。
 
 ### 最小配置
 
-项目已提供 `config/config.yml` 和 `config/cache.yml`。首次启动前至少应生成并替换 JWT 密钥：
+项目已提供 `config/config.yml` 和 `config/cache.yml`。首次启动前，请务必替换默认 JWT 密钥（默认值仅用于演示，切勿用于生产）。
+
+生成一个随机密钥：
 
 ```bash
 node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 ```
 
-将输出写入：
+> 若本机未安装 Node.js，也可使用任意方式生成一段至少 32 字符的随机十六进制字符串。
+
+将其写入 `config/config.yml`：
 
 ```yaml
 # config/config.yml
@@ -161,14 +171,18 @@ jwt:
 
 ### 启动服务
 
+```bash
 # Linux：赋予执行权限并启动
 chmod +x xysky-linux-x64
 ./xysky-linux-x64
+```
 
-# Windows：直接双击 xysky.exe 或在命令行中执行
+```bat
+:: Windows：双击 xysky.exe，或在命令行中执行
 xysky.exe
+```
 
-启动后可访问：
+启动后访问：
 
 ```text
 GET http://localhost:25565/

@@ -1,0 +1,37 @@
+/**
+ * spam-scorer — 示例插件(元数据 · 生产者)
+ *
+ * priority 越小越先执行。本插件 priority:0 最先跑，
+ * 对聊天内容做一些简单的"垃圾分"计算，把结果通过
+ * event.setMeta('spamScore', n) 写入事件元数据，
+ * 供后续插件(如 spam-blocker)读取决策。
+ *
+ * 元数据只在"同一次事件分发"内共享，不会污染 req / 响应。
+ */
+module.exports = {
+  name: 'spam-scorer',
+  version: '1.0.0',
+
+  init(api) {
+    api.logger.info('spam-scorer enable');
+
+    api.on('onPlayerChat', async (event) => {
+      const msg = event.getMessage() || '';
+      let score = 0;
+
+      // 规则: 每命中一项 +N 分
+      if (/(.)\1{4,}/.test(msg)) score += 3;          // 连续重复字符 aaaaa
+      if ((msg.match(/[!！?？]/g) || []).length >= 5) score += 2; // 大量感叹/问号
+      if (msg.length > 200) score += 2;               // 超长刷屏
+      if (/加\s*群|微信|qq\s*群/i.test(msg)) score += 5; // 拉群关键词
+
+      // 写入元数据，并记录是谁打的分
+      event.setMeta('spamScore', score);
+      event.setMeta('spamScoredBy', api.pluginName);
+
+      if (score > 0) {
+        api.logger.info(`user=${event.userId} spamScore=${score}`);
+      }
+    }, { priority: 0 });
+  },
+};
