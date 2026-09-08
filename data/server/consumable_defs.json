@@ -505,6 +505,20 @@
       "order_in_subcategory": 4
     },
     {
+      "id": 3662164090,
+      "name": "ground_trail_star",
+      "buff_id": 3662164090,
+      "cooldown": 60,
+      "category": "spell",
+      "icon": "UiMenuBuffFlairStarSmoke",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "ColoredTrails",
+      "order_in_subcategory": 0
+    },
+    {
       "id": 3162681818,
       "name": "grow",
       "buff_id": 891098028,
@@ -953,6 +967,20 @@
       "order_in_subcategory": 0
     },
     {
+      "id": 3629827381,
+      "name": "message_vgflower",
+      "buff_id": 0,
+      "cooldown": 0.5,
+      "category": "spell",
+      "icon": "UiMenuBuffBoatSunflower",
+      "event": "SocialMessageBoats",
+      "is_toy": true,
+      "type": "Vgflower",
+      "param": "Vgflower",
+      "subcategory": "UGC",
+      "order_in_subcategory": 0
+    },
+    {
       "id": 663704603,
       "name": "oreo_form",
       "buff_id": 3745827883,
@@ -1261,6 +1289,20 @@
       "order_in_subcategory": 0
     },
     {
+      "id": 2007199541,
+      "name": "outfit_body_moonlighttrouser",
+      "buff_id": 2007199541,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "UiOutfitBodyMoonlightTrouser",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Bodies",
+      "order_in_subcategory": 0
+    },
+    {
       "id": 483128979,
       "name": "outfit_body_muralist",
       "buff_id": 483128979,
@@ -1537,8 +1579,8 @@
       "is_toy": false,
       "type": "",
       "param": "",
-      "subcategory": "Masks",
-      "order_in_subcategory": 2
+      "subcategory": "Glasses",
+      "order_in_subcategory": 0
     },
     {
       "id": 2538766712,
@@ -2619,6 +2661,20 @@
       "order_in_subcategory": 0
     },
     {
+      "id": 3423944014,
+      "name": "outfit_hat_moonlighthalo",
+      "buff_id": 3423944014,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "UiOutfitHatMoonlightHalo",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Hat",
+      "order_in_subcategory": 0
+    },
+    {
       "id": 2608811200,
       "name": "outfit_hat_mothantenna",
       "buff_id": 2608811200,
@@ -2811,8 +2867,8 @@
       "is_toy": false,
       "type": "",
       "param": "",
-      "subcategory": "Masks",
-      "order_in_subcategory": 2
+      "subcategory": "Glasses",
+      "order_in_subcategory": 0
     },
     {
       "id": 3393694829,
@@ -2867,8 +2923,36 @@
       "is_toy": false,
       "type": "",
       "param": "",
-      "subcategory": "Masks",
-      "order_in_subcategory": 2
+      "subcategory": "Glasses",
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 1768513691,
+      "name": "outfit_horn_ap21deer",
+      "buff_id": 1768513691,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "UiOutfitHornAP21Deer",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Horn",
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 3705430999,
+      "name": "outfit_horn_ap31starryearring",
+      "buff_id": 3705430999,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Horn",
+      "order_in_subcategory": 0
     },
     {
       "id": 3826543228,
@@ -3105,8 +3189,8 @@
       "is_toy": false,
       "type": "",
       "param": "",
-      "subcategory": "Masks",
-      "order_in_subcategory": 2
+      "subcategory": "Glasses",
+      "order_in_subcategory": 0
     },
     {
       "id": 942365523,
@@ -3161,8 +3245,8 @@
       "is_toy": false,
       "type": "",
       "param": "",
-      "subcategory": "Masks",
-      "order_in_subcategory": 2
+      "subcategory": "Glasses",
+      "order_in_subcategory": 0
     },
     {
       "id": 2050094531,
@@ -3232,7 +3316,7 @@
       "type": "",
       "param": "",
       "subcategory": "Horn",
-      "order_in_subcategory": 1
+      "order_in_subcategory": 0
     },
     {
       "id": 1426295972,
@@ -3247,6 +3331,20 @@
       "param": "",
       "subcategory": "Horn",
       "order_in_subcategory": 4
+    },
+    {
+      "id": 1954162079,
+      "name": "outfit_horn_moonlightearlobes",
+      "buff_id": 1954162079,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "UiOutfitHornMoonlightEarlobes",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Horn",
+      "order_in_subcategory": 0
     },
     {
       "id": 2305213622,
@@ -3413,8 +3511,8 @@
       "is_toy": false,
       "type": "",
       "param": "",
-      "subcategory": "Masks",
-      "order_in_subcategory": 2
+      "subcategory": "Glasses",
+      "order_in_subcategory": 0
     },
     {
       "id": 2052387583,
@@ -3515,6 +3613,34 @@
       "order_in_subcategory": 1
     },
     {
+      "id": 3653517031,
+      "name": "outfit_mask_ap21crescent",
+      "buff_id": 3653517031,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "UiOutfitMaskAP21Crescent",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Masks",
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 1768467480,
+      "name": "outfit_mask_ap31starry",
+      "buff_id": 1768467480,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Masks",
+      "order_in_subcategory": 0
+    },
+    {
       "id": 783039918,
       "name": "outfit_mask_bluesunglasses",
       "buff_id": 783039918,
@@ -3525,8 +3651,8 @@
       "is_toy": false,
       "type": "",
       "param": "",
-      "subcategory": "Masks",
-      "order_in_subcategory": 2
+      "subcategory": "Glasses",
+      "order_in_subcategory": 0
     },
     {
       "id": 3393326356,
@@ -3540,7 +3666,21 @@
       "type": "",
       "param": "",
       "subcategory": "Masks",
-      "order_in_subcategory": 1
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 172283829,
+      "name": "outfit_mask_childrenwhiteeyelash",
+      "buff_id": 172283829,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "UiOutfitMaskChildrenWhiteEyelash",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "",
+      "order_in_subcategory": 0
     },
     {
       "id": 2013773618,
@@ -3582,7 +3722,7 @@
       "type": "",
       "param": "",
       "subcategory": "Masks",
-      "order_in_subcategory": 1
+      "order_in_subcategory": 0
     },
     {
       "id": 4240004242,
@@ -3666,7 +3806,21 @@
       "type": "",
       "param": "",
       "subcategory": "Masks",
-      "order_in_subcategory": 1
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 2511904611,
+      "name": "outfit_mask_moonlightveil",
+      "buff_id": 2511904611,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "UiOutfitMaskMoonlightVeil",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Masks",
+      "order_in_subcategory": 0
     },
     {
       "id": 2227210510,
@@ -3708,7 +3862,7 @@
       "type": "",
       "param": "",
       "subcategory": "Masks",
-      "order_in_subcategory": 1
+      "order_in_subcategory": 0
     },
     {
       "id": 4050329182,
@@ -3750,7 +3904,7 @@
       "type": "",
       "param": "",
       "subcategory": "Masks",
-      "order_in_subcategory": 1
+      "order_in_subcategory": 0
     },
     {
       "id": 3356388791,
@@ -3764,7 +3918,7 @@
       "type": "",
       "param": "",
       "subcategory": "Masks",
-      "order_in_subcategory": 1
+      "order_in_subcategory": 0
     },
     {
       "id": 661904582,
@@ -3806,7 +3960,7 @@
       "type": "",
       "param": "",
       "subcategory": "Masks",
-      "order_in_subcategory": 1
+      "order_in_subcategory": 0
     },
     {
       "id": 3566887243,
@@ -3820,7 +3974,7 @@
       "type": "",
       "param": "",
       "subcategory": "Masks",
-      "order_in_subcategory": 1
+      "order_in_subcategory": 0
     },
     {
       "id": 1627015206,
@@ -3848,7 +4002,7 @@
       "type": "",
       "param": "",
       "subcategory": "Masks",
-      "order_in_subcategory": 1
+      "order_in_subcategory": 0
     },
     {
       "id": 2182950287,
@@ -3947,6 +4101,20 @@
       "param": "",
       "subcategory": "Neck",
       "order_in_subcategory": 3
+    },
+    {
+      "id": 3617551781,
+      "name": "outfit_neck_ap31starry",
+      "buff_id": 3617551781,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Neck",
+      "order_in_subcategory": 0
     },
     {
       "id": 43899279,
@@ -4173,6 +4341,20 @@
       "order_in_subcategory": 0
     },
     {
+      "id": 3306340799,
+      "name": "outfit_neck_vgstarry",
+      "buff_id": 3306340799,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "UiOutfitNeckAP31Starry",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Neck",
+      "order_in_subcategory": 0
+    },
+    {
       "id": 70832281,
       "name": "outfit_neck_winterscarf",
       "buff_id": 70832281,
@@ -4239,8 +4421,8 @@
       "is_toy": false,
       "type": "",
       "param": "",
-      "subcategory": "Masks",
-      "order_in_subcategory": 2
+      "subcategory": "Glasses",
+      "order_in_subcategory": 0
     },
     {
       "id": 2881669051,
@@ -4660,6 +4842,20 @@
       "type": "",
       "param": "",
       "subcategory": "Umbrellas",
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 1674119381,
+      "name": "outfit_prop_bluebird_swing",
+      "buff_id": 1674119381,
+      "cooldown": 0.15000000596046448,
+      "category": "prop",
+      "icon": "UiOutfitPropSwing",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "SocialProps",
       "order_in_subcategory": 0
     },
     {
@@ -5251,6 +5447,20 @@
       "order_in_subcategory": 0
     },
     {
+      "id": 3959861582,
+      "name": "outfit_prop_moonlightlute",
+      "buff_id": 3959861582,
+      "cooldown": 15,
+      "category": "prop",
+      "icon": "UiOutfitPropMoonlightLute",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Instruments",
+      "order_in_subcategory": 0
+    },
+    {
       "id": 1087856191,
       "name": "outfit_prop_moonlightposter",
       "buff_id": 1087856191,
@@ -5559,6 +5769,20 @@
       "order_in_subcategory": 0
     },
     {
+      "id": 888679958,
+      "name": "outfit_prop_starryumbrella",
+      "buff_id": 888679958,
+      "cooldown": 15,
+      "category": "prop",
+      "icon": "",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Umbrellas",
+      "order_in_subcategory": 0
+    },
+    {
       "id": 1004595029,
       "name": "outfit_prop_storybook",
       "buff_id": 1004595029,
@@ -5673,6 +5897,20 @@
     {
       "id": 10058409,
       "name": "outfit_prop_teaset",
+      "buff_id": 10058409,
+      "cooldown": 15,
+      "category": "prop",
+      "icon": "UiOutfitPropTeaTable",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "SocialProps",
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 527961994,
+      "name": "outfit_prop_teaset_star",
       "buff_id": 10058409,
       "cooldown": 15,
       "category": "prop",
@@ -5923,6 +6161,20 @@
       "order_in_subcategory": 0
     },
     {
+      "id": 594405781,
+      "name": "outfit_wing_ap31starry",
+      "buff_id": 594405781,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Capes",
+      "order_in_subcategory": 0
+    },
+    {
       "id": 1326646141,
       "name": "outfit_wing_aurora",
       "buff_id": 1326646141,
@@ -5995,6 +6247,20 @@
     {
       "id": 162066154,
       "name": "outfit_wing_blossom",
+      "buff_id": 162066154,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "UiOutfitCapeBlossom",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Capes",
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 3463137139,
+      "name": "outfit_wing_blossom_star",
       "buff_id": 162066154,
       "cooldown": 15,
       "category": "outfit",
@@ -6153,6 +6419,20 @@
       "cooldown": 15,
       "category": "outfit",
       "icon": "UiOutfitCapeDarkRainbow",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Capes",
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 1262844873,
+      "name": "outfit_wing_deer",
+      "buff_id": 1262844873,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "UiOutfitCapeAP21Deer",
       "event": "none",
       "is_toy": false,
       "type": "",
@@ -6455,6 +6735,20 @@
       "order_in_subcategory": 0
     },
     {
+      "id": 1837200342,
+      "name": "outfit_wing_ocean_star",
+      "buff_id": 329684861,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "UiOutfitCapeOcean",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Capes",
+      "order_in_subcategory": 0
+    },
+    {
       "id": 939730131,
       "name": "outfit_wing_orangelove",
       "buff_id": 939730131,
@@ -6611,6 +6905,20 @@
     {
       "id": 3510136091,
       "name": "outfit_wing_snowflake",
+      "buff_id": 3510136091,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "UiOutfitCapeSnowflake",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Capes",
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 1266725620,
+      "name": "outfit_wing_snowflake_star",
       "buff_id": 3510136091,
       "cooldown": 15,
       "category": "outfit",
@@ -6783,6 +7091,20 @@
       "cooldown": 15,
       "category": "outfit",
       "icon": "UiOutfitCapeSpiderWeb",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Capes",
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 3383077068,
+      "name": "outfit_wing_wheat",
+      "buff_id": 3383077068,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "",
       "event": "none",
       "is_toy": false,
       "type": "",

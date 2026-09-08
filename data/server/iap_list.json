@@ -453,7 +453,10 @@
       "desc": "commerce_item_desc_deer_horn",
       "icon": "UiOutfitHornAP21Deer",
       "soundId": 6,
-      "event_name": "season_21",
+      "event_name": "global_deer_shop",
+      "npc_names": [
+        "ap21_retiap"
+      ],
       "currencyType": "candles",
       "currencyCount": 0,
       "currencyType2": "candles",
@@ -474,7 +477,10 @@
       "desc": "commerce_item_desc_deer_lotuscape",
       "icon": "UiOutfitCapeAP21Deer",
       "soundId": 7,
-      "event_name": "season_21",
+      "event_name": "global_deer_shop",
+      "npc_names": [
+        "ap21_retiap"
+      ],
       "currencyType": "candles",
       "currencyCount": 0,
       "currencyType2": "candles",
@@ -864,6 +870,29 @@
       "unlock_pre_reqs": [
         "quest_ap31_fetch_06"
       ]
+    },
+    {
+      "id": "SNC210",
+      "type": "Non-Consumable",
+      "tier": 15,
+      "name": "commerce_item_name_dear_starryumbrella",
+      "desc": "commerce_item_desc_dear_starryumbrella",
+      "icon": "UiOutfitPropAP31StarryUmbrella",
+      "soundId": 7,
+      "event_name": "season_31_end_shop",
+      "npc_names": [
+        "ap31_starry_shop"
+      ],
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Prop_AP31StarryUmbrella"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
     },
     {
       "id": "SNC175",
@@ -3916,6 +3945,86 @@
       "unlock_pre_reqs": []
     },
     {
+      "id": "SNC211",
+      "type": "Non-Consumable",
+      "tier": 2,
+      "name": "commerce_item_name_camping_shrinkmask",
+      "desc": "commerce_item_desc_camping_shrinkmask",
+      "icon": "UiOutfitMaskChildrenWhiteEyelash",
+      "soundId": 4,
+      "event_name": "global_camping",
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Mask_ChildrenWhiteEyelash"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "SNC212",
+      "type": "Non-Consumable",
+      "tier": 15,
+      "name": "commerce_item_name_moonlight_lute",
+      "desc": "commerce_item_desc_moonlight_lute",
+      "icon": "UiOutfitPropMoonlightLute",
+      "soundId": 6,
+      "event_name": "global_moonlight",
+      "currencyType": "season_candle",
+      "currencyCount": 0,
+      "currencyType2": "season_candle",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Prop_MoonlightLute"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "SNC213",
+      "type": "Non-Consumable",
+      "tier": 10,
+      "name": "commerce_item_name_moonlight_halohat",
+      "desc": "commerce_item_desc_moonlight_halohat",
+      "icon": "UiOutfitHatMoonlightHalo",
+      "soundId": 5,
+      "event_name": "global_moonlight",
+      "currencyType": "season_candle",
+      "currencyCount": 0,
+      "currencyType2": "season_candle",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Hat_MoonlightHalo"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "SNC214",
+      "type": "Non-Consumable",
+      "tier": 3,
+      "name": "commerce_item_name_moonlight_veilmask",
+      "desc": "commerce_item_desc_moonlight_veilmask",
+      "icon": "UiOutfitMaskMoonlightVeil",
+      "soundId": 4,
+      "event_name": "global_moonlight",
+      "currencyType": "season_candle",
+      "currencyCount": 0,
+      "currencyType2": "season_candle",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Mask_MoonlightVeil"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
       "id": "SNC162",
       "type": "Non-Consumable",
       "tier": 15,
@@ -3924,6 +4033,9 @@
       "icon": "UiOutfitCapeMoonlight",
       "soundId": 6,
       "event_name": "global_moonlight",
+      "npc_names": [
+        "questmoonlight_return"
+      ],
       "currencyType": "season_candle",
       "currencyCount": 0,
       "currencyType2": "season_candle",

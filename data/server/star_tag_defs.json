@@ -1,17 +1,6 @@
 {
   "get_star_tag_defs": [
     {
-      "name": "birthdayhat_krill",
-      "sku": "SKY-KC-ST-SUM-DD",
-      "part": "",
-      "consumable_name": "birthdayhat_krill",
-      "group_name": "",
-      "batches": [
-        8
-      ],
-      "can_link_with": ""
-    },
-    {
       "name": "ancestor_daylight_prairie",
       "sku": "SKY-PN-ST-ANC-DP",
       "part": "",
@@ -41,6 +30,17 @@
       "group_name": "",
       "batches": [
         1
+      ],
+      "can_link_with": ""
+    },
+    {
+      "name": "birthdayhat_krill",
+      "sku": "SKY-KC-ST-SUM-DD",
+      "part": "",
+      "consumable_name": "birthdayhat_krill",
+      "group_name": "",
+      "batches": [
+        8
       ],
       "can_link_with": ""
     },
@@ -255,6 +255,15 @@
       "batches": [
         8
       ],
+      "can_link_with": ""
+    },
+    {
+      "name": "ground_trail_star",
+      "sku": "SKY-PN-ST-BL-ST",
+      "part": "",
+      "consumable_name": "ground_trail_star",
+      "group_name": "",
+      "batches": [],
       "can_link_with": ""
     },
     {
@@ -547,6 +556,15 @@
       "can_link_with": ""
     },
     {
+      "name": "outfit_neck_vgstarry",
+      "sku": "SKY-PN-ST-HOL-LS",
+      "part": "",
+      "consumable_name": "outfit_neck_vgstarry",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
       "name": "outfit_prop_STAR_lantern",
       "sku": "SKY-PN-ST-PRO-LT",
       "part": "",
@@ -637,6 +655,15 @@
       "sku": "SKY-PN-ST-PRO-BC",
       "part": "",
       "consumable_name": "outfit_prop_birthdaycake_giant",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_bluebird_swing",
+      "sku": "SKY-PN-ST-HOL-SP",
+      "part": "",
+      "consumable_name": "outfit_prop_bluebird_swing",
       "group_name": "",
       "batches": [],
       "can_link_with": ""
@@ -734,7 +761,7 @@
       "name": "outfit_prop_teaset",
       "sku": "SKY-PN-ST-PRO-BT",
       "part": "",
-      "consumable_name": "outfit_prop_teaset",
+      "consumable_name": "outfit_prop_teaset_star",
       "group_name": "",
       "batches": [
         3
@@ -811,7 +838,7 @@
       "name": "outfit_wing_blossom",
       "sku": "SKY-PN-ST-CAP-BM",
       "part": "",
-      "consumable_name": "outfit_wing_blossom",
+      "consumable_name": "outfit_wing_blossom_star",
       "group_name": "",
       "batches": [
         3
@@ -833,7 +860,7 @@
       "name": "outfit_wing_ocean",
       "sku": "SKY-PN-ST-CAP-ON-2021",
       "part": "",
-      "consumable_name": "outfit_wing_ocean",
+      "consumable_name": "outfit_wing_ocean_star",
       "group_name": "SKY-BB-PP-HOL-2YR",
       "batches": [
         4
@@ -855,7 +882,7 @@
       "name": "outfit_wing_snowflake",
       "sku": "SKY-PN-ST-CAP-FS",
       "part": "",
-      "consumable_name": "outfit_wing_snowflake",
+      "consumable_name": "outfit_wing_snowflake_star",
       "group_name": "",
       "batches": [
         11

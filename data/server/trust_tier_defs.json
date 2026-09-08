@@ -1289,7 +1289,7 @@
     {
       "id": "personality:competitive:3",
       "tier": 3,
-      "xp": 600,
+      "xp": 1000,
       "greeting": "BackFlipEmote_1",
       "tier_up": "TripleAxelEmote_1",
       "ability_name": "strong",
@@ -1301,7 +1301,7 @@
     {
       "id": "personality:competitive:4",
       "tier": 4,
-      "xp": 800,
+      "xp": 1800,
       "greeting": "BackFlipEmote_1+",
       "tier_up": "TripleAxelEmote_1",
       "ability_name": "strong",
@@ -1313,7 +1313,7 @@
     {
       "id": "personality:competitive:5",
       "tier": 5,
-      "xp": 1000,
+      "xp": 2800,
       "greeting": "offer:double_five",
       "tier_up": "TripleAxelEmote_1",
       "ability_name": "strong",
@@ -1361,7 +1361,7 @@
     {
       "id": "personality:disciplined:3",
       "tier": 3,
-      "xp": 600,
+      "xp": 1000,
       "greeting": "SaluteEmote_1Enter",
       "tier_up": "AcknowledgeEmote_1",
       "ability_name": "wise",
@@ -1373,7 +1373,7 @@
     {
       "id": "personality:disciplined:4",
       "tier": 4,
-      "xp": 800,
+      "xp": 1800,
       "greeting": "SaluteEmote_1Enter+",
       "tier_up": "AcknowledgeEmote_1",
       "ability_name": "wise",
@@ -1385,7 +1385,7 @@
     {
       "id": "personality:disciplined:5",
       "tier": 5,
-      "xp": 1000,
+      "xp": 2800,
       "greeting": "copy:respect",
       "tier_up": "AcknowledgeEmote_1",
       "ability_name": "wise",
@@ -1433,7 +1433,7 @@
     {
       "id": "personality:friendly:3",
       "tier": 3,
-      "xp": 600,
+      "xp": 1000,
       "greeting": "BlowKissEmote_1",
       "tier_up": "RallyEmote_1",
       "ability_name": "default",
@@ -1445,7 +1445,7 @@
     {
       "id": "personality:friendly:4",
       "tier": 4,
-      "xp": 800,
+      "xp": 1800,
       "greeting": "BlowKissEmote_1+",
       "tier_up": "RallyEmote_1",
       "ability_name": "default",
@@ -1457,7 +1457,7 @@
     {
       "id": "personality:friendly:5",
       "tier": 5,
-      "xp": 1000,
+      "xp": 2800,
       "greeting": "offer:high_five",
       "tier_up": "RallyEmote_1",
       "ability_name": "default",
@@ -1505,7 +1505,7 @@
     {
       "id": "personality:grumpy:3",
       "tier": 3,
-      "xp": 600,
+      "xp": 1000,
       "greeting": "ShrugEmote_1",
       "tier_up": "BowEmote_1",
       "ability_name": "proud",
@@ -1517,7 +1517,7 @@
     {
       "id": "personality:grumpy:4",
       "tier": 4,
-      "xp": 800,
+      "xp": 1800,
       "greeting": "ShrugEmote_1+",
       "tier_up": "BowEmote_1",
       "ability_name": "proud",
@@ -1529,7 +1529,7 @@
     {
       "id": "personality:grumpy:5",
       "tier": 5,
-      "xp": 1000,
+      "xp": 2800,
       "greeting": "offer:fist_bump",
       "tier_up": "BowEmote_1",
       "ability_name": "proud",
@@ -1637,7 +1637,7 @@
     {
       "id": "personality:shy:3",
       "tier": 3,
-      "xp": 600,
+      "xp": 1000,
       "greeting": "AwwwEmote_1",
       "tier_up": "GratitudeEmote_1",
       "ability_name": "timid",
@@ -1649,7 +1649,7 @@
     {
       "id": "personality:shy:4",
       "tier": 4,
-      "xp": 800,
+      "xp": 1800,
       "greeting": "AwwwEmote_1+",
       "tier_up": "GratitudeEmote_1",
       "ability_name": "timid",
@@ -1661,7 +1661,7 @@
     {
       "id": "personality:shy:5",
       "tier": 5,
-      "xp": 1000,
+      "xp": 2800,
       "greeting": "copy:hearthands",
       "tier_up": "GratitudeEmote_1",
       "ability_name": "timid",
@@ -1697,7 +1697,7 @@
     {
       "id": "personality:sleepy:3",
       "tier": 3,
-      "xp": 600,
+      "xp": 1000,
       "greeting": "YawnEmote_1",
       "tier_up": "DozeEmote_1Exit",
       "ability_name": "lazy",
@@ -1709,7 +1709,7 @@
     {
       "id": "personality:sleepy:4",
       "tier": 4,
-      "xp": 800,
+      "xp": 1800,
       "greeting": "YawnEmote_1+",
       "tier_up": "DozeEmote_1Exit",
       "ability_name": "lazy",
@@ -1721,7 +1721,7 @@
     {
       "id": "personality:sleepy:5",
       "tier": 5,
-      "xp": 1000,
+      "xp": 2800,
       "greeting": "offer:fist_bump",
       "tier_up": "DozeEmote_1Exit",
       "ability_name": "lazy",

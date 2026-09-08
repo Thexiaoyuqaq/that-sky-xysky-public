@@ -26,7 +26,7 @@ EmptyLevel = "WorldEmpty"
 -- Note that these will ship with GOLD builds!
 ArcLevels = {
 	level( "CandleSpace",				"",			"dawn" ),
-	level( "Dawn",						"",			"dawn" ),
+	level( "Dawn",						"dawn",			"dawn" ),
 	level( "StormEvent_VoidSpace",		"",			"storm" ),
 	-- Do not add levels to "" bundle without changing things in MakeResourceScripts.lua
 	-- Combined assets can not exceed 150MB""
@@ -44,7 +44,6 @@ ArcLevels = {
 	level( "MainStreet_Soundbath",  	"dawn" ),
 	level( "MainStreet_Cafe_Wonderland","dawn" ),
 	level( "MainStreet_StorySpace",		"dawn" ),
-	level( "Nest_Shell", 				"dawn" ),
 	level( "Event_Cinema",         		"dawn" ),
 	level( "Night_IPHallway",			"dawn" ),
 	
@@ -132,6 +131,7 @@ ArcLevels = {
 	level( "Night_ValleyForest",        "night" ),
 	level( "Night_ValleyHouse",         "night" ),
     level( "Night_ValleyHouseSky",      "night" ),
+	-- level( "Nest_Night_ValleyHouse",    "night" ),
         
     -- AP26 Blue Bird
 	level( "Rain_BlueBirdTheater", 		"rain" ),
@@ -166,7 +166,6 @@ ArcLevels = {
 	level( "AR_TestLevel",				"storm" ),
 	level( "AR_WheatField",				"storm" ),
 	level( "AR_Bedroom",				"storm" ),
-	
 }
 
 function bundle( name, autoRequest, defaultPriority, next, text, prerequisites )
@@ -218,11 +217,7 @@ ExtraLevels = {
 	"AR_Bedroom",
 	"S31_SandBox",
 	"OceanTest", -- for performance testing
-	"Test_TGCEmployees", -- for testing all of the TGCOffice NPCS
-	-- AP32 Pearl
-	"Dusk_PearlIsland",
-	"Dusk_PearlSea",
-	"Dusk_PearlSeaDeep"
+	"Test_TGCEmployees" -- for testing all of the TGCOffice NPCS
 }
 
 -- Tutorial levels. The first level you get if you have no checkpoint data

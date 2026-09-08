@@ -30,6 +30,17 @@
       "purchasable": false
     },
     {
+      "id": "days_of_camping",
+      "event_name": "global_camping",
+      "name_string_key": "currency_type_event_candle",
+      "hud_icon": "UiMenuEventCurrencyCamping",
+      "client_currency": "event_candle_days_of_camping",
+      "forge_cost": 5,
+      "use_forge_rates": true,
+      "forge_rate_reset_event": "global_daily_reset_time",
+      "purchasable": false
+    },
+    {
       "id": "days_of_color",
       "event_name": "global_rainbow",
       "name_string_key": "currency_type_event_candle",
@@ -94,7 +105,7 @@
     },
     {
       "id": "days_of_love",
-      "event_name": "global_love_ec_off",
+      "event_name": "global_love_ec",
       "name_string_key": "currency_type_event_candle",
       "hud_icon": "UiMenuEventCurrencyLove",
       "client_currency": "event_candle_days_of_love",
@@ -120,6 +131,7 @@
       "hud_icon": "UiMenuEventCurrencyMoonlight",
       "client_currency": "event_candle_days_of_moonlight",
       "forge_cost": 12,
+      "use_forge_rates": true,
       "forge_rate_reset_event": "global_daily_reset_time",
       "purchasable": false
     },

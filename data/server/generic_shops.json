@@ -1,27 +1,119 @@
 {
   "generic_shop_defs": [
     {
-      "id": 3141752734,
-      "shop_name": "SpellShop_Bloom_Spell",
-      "name": "BloomEventCurrencyPrestige",
+      "id": 3106778769,
+      "shop_name": "ToyShop_MainStreet_Events",
+      "name": "HackysackPropScroll",
       "icon": "",
       "localized_name": "",
       "order_index": -1,
       "cost": 2,
-      "currency_type": "prestige",
+      "currency_type": "candles",
       "costs": [
         2
       ],
       "currency_types": [
-        "prestige"
+        "candles"
       ],
-      "event_name": "global_bloom",
-      "max_per_cycle": 99,
-      "reset_event": "gen_shop_monthly_reset",
+      "event_name": "",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_weekly_reset",
       "unlock_requiremnts": [],
-      "item_type": "currency",
-      "item_name": "event_candle_days_of_bloom",
-      "item_count": 1
+      "item_type": "consumable",
+      "item_name": "outfit_prop_hackysack",
+      "item_count": 2
+    },
+    {
+      "id": 3519682998,
+      "shop_name": "SpellShop_Love_Spell",
+      "name": "LoveSwingSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_daysoflove",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_prop_swing",
+      "item_count": 3
+    },
+    {
+      "id": 1303561203,
+      "shop_name": "SpellShop_Love_Spell",
+      "name": "RoseMaskSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_daysoflove",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_mask_rose",
+      "item_count": 3
+    },
+    {
+      "id": 2129028382,
+      "shop_name": "SpellShop_Love_Spell",
+      "name": "LoveGondolaSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_daysoflove",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_prop_gondola",
+      "item_count": 3
+    },
+    {
+      "id": 3225032580,
+      "shop_name": "SpellShop_Love_Spell",
+      "name": "LoveGondolaSpell",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 2,
+      "currency_type": "heart",
+      "costs": [
+        2
+      ],
+      "currency_types": [
+        "heart"
+      ],
+      "event_name": "global_daysoflove",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_prop_gondola",
+      "item_count": 2
     },
     {
       "id": 3957656605,
@@ -321,29 +413,6 @@
       "item_type": "inventory_unlock",
       "item_name": "CharSkyKid_Prop_PlaceableRace",
       "item_count": 1
-    },
-    {
-      "id": 3106778769,
-      "shop_name": "ToyShop_MainStreet_Events",
-      "name": "HackysackPropScroll",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 2,
-      "currency_type": "candles",
-      "costs": [
-        2
-      ],
-      "currency_types": [
-        "candles"
-      ],
-      "event_name": "",
-      "max_per_cycle": 1,
-      "reset_event": "gen_shop_weekly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "consumable",
-      "item_name": "outfit_prop_hackysack",
-      "item_count": 2
     },
     {
       "id": 4176046556,
@@ -966,6 +1035,148 @@
       "unlock_requiremnts": [],
       "item_type": "consumable",
       "item_name": "outfit_prop_ap27projector",
+      "item_count": 3
+    },
+    {
+      "id": 1507804407,
+      "shop_name": "SpellShop_Gallery_Spell",
+      "name": "AP31NeckStarrySpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "season_31_start_shop",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [
+        "quest_ap31_fetch_06"
+      ],
+      "item_type": "consumable",
+      "item_name": "outfit_neck_ap31starry",
+      "item_count": 3
+    },
+    {
+      "id": 866202263,
+      "shop_name": "SpellShop_Gallery_Spell",
+      "name": "AP31WingStarrySpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "season_31_start_shop",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [
+        "quest_ap31_fetch_06"
+      ],
+      "item_type": "consumable",
+      "item_name": "outfit_wing_ap31starry",
+      "item_count": 3
+    },
+    {
+      "id": 1656922092,
+      "shop_name": "SpellShop_Gallery_Spell",
+      "name": "AP31MaskStarrySpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "season_31_start_shop",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_mask_ap31starry",
+      "item_count": 3
+    },
+    {
+      "id": 3275682281,
+      "shop_name": "SpellShop_Gallery_Spell",
+      "name": "AP31HornStarrySpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "season_31_start_shop",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_horn_ap31starryearring",
+      "item_count": 3
+    },
+    {
+      "id": 1717627267,
+      "shop_name": "SpellShop_Gallery_Spell",
+      "name": "AP31WingWheatSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "season_31_start_shop",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_wing_wheat",
+      "item_count": 3
+    },
+    {
+      "id": 986193073,
+      "shop_name": "SpellShop_Gallery_Spell",
+      "name": "AP31PropStarrySpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "season_31_end_shop",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_prop_starryumbrella",
       "item_count": 3
     },
     {
@@ -5854,6 +6065,29 @@
       "item_count": 1
     },
     {
+      "id": 3043187954,
+      "shop_name": "SpellShop_Camping_Spell",
+      "name": "ChildrenMaskSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_camping",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_mask_childrenwhiteeyelash",
+      "item_count": 3
+    },
+    {
       "id": 3395954937,
       "shop_name": "SpellShop_Love_Spell",
       "name": "LoveCrystalHeartsSpellFree",
@@ -6105,98 +6339,6 @@
       "item_type": "consumable",
       "item_name": "outfit_prop_seesaw",
       "item_count": 3
-    },
-    {
-      "id": 3519682998,
-      "shop_name": "SpellShop_Love_Spell",
-      "name": "LoveSwingSpellFree",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 0,
-      "currency_type": "candles",
-      "costs": [
-        0
-      ],
-      "currency_types": [
-        "candles"
-      ],
-      "event_name": "global_daysoflove",
-      "max_per_cycle": 1,
-      "reset_event": "gen_shop_yearly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "consumable",
-      "item_name": "outfit_prop_swing",
-      "item_count": 3
-    },
-    {
-      "id": 1303561203,
-      "shop_name": "SpellShop_Love_Spell",
-      "name": "RoseMaskSpellFree",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 0,
-      "currency_type": "candles",
-      "costs": [
-        0
-      ],
-      "currency_types": [
-        "candles"
-      ],
-      "event_name": "global_daysoflove",
-      "max_per_cycle": 1,
-      "reset_event": "gen_shop_yearly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "consumable",
-      "item_name": "outfit_mask_rose",
-      "item_count": 3
-    },
-    {
-      "id": 2129028382,
-      "shop_name": "SpellShop_Love_Spell",
-      "name": "LoveGondolaSpellFree",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 0,
-      "currency_type": "candles",
-      "costs": [
-        0
-      ],
-      "currency_types": [
-        "candles"
-      ],
-      "event_name": "global_daysoflove",
-      "max_per_cycle": 1,
-      "reset_event": "gen_shop_yearly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "consumable",
-      "item_name": "outfit_prop_gondola",
-      "item_count": 3
-    },
-    {
-      "id": 3225032580,
-      "shop_name": "SpellShop_Love_Spell",
-      "name": "LoveGondolaSpell",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 2,
-      "currency_type": "heart",
-      "costs": [
-        2
-      ],
-      "currency_types": [
-        "heart"
-      ],
-      "event_name": "global_daysoflove",
-      "max_per_cycle": 1,
-      "reset_event": "gen_shop_daily_reset",
-      "unlock_requiremnts": [],
-      "item_type": "consumable",
-      "item_name": "outfit_prop_gondola",
-      "item_count": 2
     },
     {
       "id": 3358752605,
@@ -7236,6 +7378,29 @@
       "item_type": "consumable",
       "item_name": "outfit_hair_bloomspiky",
       "item_count": 3
+    },
+    {
+      "id": 3141752734,
+      "shop_name": "SpellShop_Bloom_Spell",
+      "name": "BloomEventCurrencyPrestige",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 2,
+      "currency_type": "prestige",
+      "costs": [
+        2
+      ],
+      "currency_types": [
+        "prestige"
+      ],
+      "event_name": "global_bloom",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "currency",
+      "item_name": "event_candle_days_of_bloom",
+      "item_count": 1
     },
     {
       "id": 490311362,
@@ -11121,12 +11286,12 @@
       "localized_name": "",
       "order_index": -1,
       "cost": 33,
-      "currency_type": "candles",
+      "currency_type": "prestige",
       "costs": [
         33
       ],
       "currency_types": [
-        "candles"
+        "prestige"
       ],
       "event_name": "global_skyfest",
       "max_per_cycle": 1,
@@ -13286,8 +13451,33 @@
       "item_count": 1
     },
     {
-      "id": 4238395160,
-      "shop_name": "SpellShop_Moonlight_Spell",
+      "id": 2175203287,
+      "shop_name": "SpellShop_Moonlight_Furniture",
+      "name": "AP21DeerMask",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 120,
+      "currency_type": "candles",
+      "costs": [
+        120
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_moonlight",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "ap06unlock_ap21_fetch_05"
+      ],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Mask_AP21Deer",
+      "item_count": 1
+    },
+    {
+      "id": 2233152408,
+      "shop_name": "SpellShop_Moonlight_Furniture",
       "name": "LotusBathtub",
       "icon": "UiOutfitPropLotusBathtub",
       "localized_name": "",
@@ -13307,6 +13497,236 @@
       "item_type": "inventory_unlock",
       "item_name": "CharSkyKid_Prop_LotusBathtub",
       "item_count": 1
+    },
+    {
+      "id": 1147416891,
+      "shop_name": "SpellShop_Moonlight_Furniture",
+      "name": "MoonlightPoster",
+      "icon": "UiOutfitPropMoonlightPoster",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 5,
+      "currency_type": "candles",
+      "costs": [
+        5
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_moonlight",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_MoonlightPoster",
+      "item_count": 1
+    },
+    {
+      "id": 163917804,
+      "shop_name": "SpellShop_Moonlight_Furniture",
+      "name": "MoonlightLantern",
+      "icon": "UiOutfitPropMoonlightLantern",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 70,
+      "currency_type": "candles",
+      "costs": [
+        70
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_moonlight",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_MoonlightLantern",
+      "item_count": 1
+    },
+    {
+      "id": 204587598,
+      "shop_name": "SpellShop_Moonlight_Spell",
+      "name": "AP21DeerWingSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_moonlight",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_wing_deer",
+      "item_count": 3
+    },
+    {
+      "id": 3069375148,
+      "shop_name": "SpellShop_Moonlight_Spell",
+      "name": "AP21DeerHornSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_moonlight",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_horn_ap21deer",
+      "item_count": 3
+    },
+    {
+      "id": 4047302830,
+      "shop_name": "SpellShop_Moonlight_Spell",
+      "name": "AP21CrescentMaskSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_moonlight",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_mask_ap21crescent",
+      "item_count": 3
+    },
+    {
+      "id": 2275330741,
+      "shop_name": "SpellShop_Moonlight_Spell",
+      "name": "MoonlightLutePropSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_moonlight",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_prop_moonlightlute",
+      "item_count": 3
+    },
+    {
+      "id": 1457795931,
+      "shop_name": "SpellShop_Moonlight_Spell",
+      "name": "MoonlightHaloHatSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_moonlight",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_hat_moonlighthalo",
+      "item_count": 3
+    },
+    {
+      "id": 3483978132,
+      "shop_name": "SpellShop_Moonlight_Spell",
+      "name": "MoonlightTrouserBodySpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_moonlight",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_body_moonlighttrouser",
+      "item_count": 3
+    },
+    {
+      "id": 1929232124,
+      "shop_name": "SpellShop_Moonlight_Spell",
+      "name": "MoonlightEarlobesHornSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_moonlight",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_horn_moonlightearlobes",
+      "item_count": 3
+    },
+    {
+      "id": 2329819124,
+      "shop_name": "SpellShop_Moonlight_Spell",
+      "name": "MoonlightVeilMaskSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_moonlight",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_mask_moonlightveil",
+      "item_count": 3
     },
     {
       "id": 1229255726,
@@ -13554,7 +13974,7 @@
         "event_candle_days_of_moonlight"
       ],
       "event_name": "global_moonlight",
-      "max_per_cycle": 1,
+      "max_per_cycle": 2,
       "reset_event": "gen_shop_yearly_reset",
       "unlock_requiremnts": [],
       "item_type": "currency",
@@ -13577,7 +13997,7 @@
         "event_candle_days_of_moonlight"
       ],
       "event_name": "global_moonlight",
-      "max_per_cycle": 1,
+      "max_per_cycle": 2,
       "reset_event": "gen_shop_yearly_reset",
       "unlock_requiremnts": [],
       "item_type": "currency",
@@ -18754,6 +19174,131 @@
       "item_count": 1
     },
     {
+      "id": 3187889152,
+      "shop_name": "NoShop",
+      "name": "MoonlightLotusCushion_UpgradeCount",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 12,
+      "currency_type": "candles",
+      "costs": [
+        12
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "CharSkyKid_Prop_MoonlightLotusCushion"
+      ],
+      "item_type": "inventory_unlock_upgrade",
+      "item_name": "CharSkyKid_Prop_MoonlightLotusCushion",
+      "item_count": 1
+    },
+    {
+      "id": 2016281373,
+      "shop_name": "NoShop",
+      "name": "ScreenYellow_UpgradeCount",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 7,
+      "currency_type": "candles",
+      "costs": [
+        7
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "CharSkyKid_Prop_ScreenYellow"
+      ],
+      "item_type": "inventory_unlock_upgrade",
+      "item_name": "CharSkyKid_Prop_ScreenYellow",
+      "item_count": 1
+    },
+    {
+      "id": 749997881,
+      "shop_name": "NoShop",
+      "name": "CurtainDoorYellow_UpgradeCount",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 7,
+      "currency_type": "candles",
+      "costs": [
+        7
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "CharSkyKid_Prop_CurtainDoorYellow"
+      ],
+      "item_type": "inventory_unlock_upgrade",
+      "item_name": "CharSkyKid_Prop_CurtainDoorYellow",
+      "item_count": 1
+    },
+    {
+      "id": 1925833169,
+      "shop_name": "NoShop",
+      "name": "WindowYellow_UpgradeCount",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 7,
+      "currency_type": "candles",
+      "costs": [
+        7
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "CharSkyKid_Prop_WindowYellow"
+      ],
+      "item_type": "inventory_unlock_upgrade",
+      "item_name": "CharSkyKid_Prop_WindowYellow",
+      "item_count": 1
+    },
+    {
+      "id": 4261767414,
+      "shop_name": "NoShop",
+      "name": "CeilingYellow_UpgradeCount",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 7,
+      "currency_type": "candles",
+      "costs": [
+        7
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "CharSkyKid_Prop_CeilingYellow"
+      ],
+      "item_type": "inventory_unlock_upgrade",
+      "item_name": "CharSkyKid_Prop_CeilingYellow",
+      "item_count": 1
+    },
+    {
       "id": 4206294438,
       "shop_name": "NoShop",
       "name": "AP23Vanity_UpgradeCount",
@@ -18999,6 +19544,79 @@
       ],
       "item_type": "inventory_unlock",
       "item_name": "Nest_MainStreetApartment_Capacity_3",
+      "item_count": 1
+    },
+    {
+      "id": 2646173284,
+      "shop_name": "NoShop",
+      "name": "NestCapacity_Upgrade1_NightGoTown",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 25,
+      "currency_type": "candles",
+      "costs": [
+        25
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "Nest_Night_GO_Town_Capacity_1",
+      "item_count": 1
+    },
+    {
+      "id": 1664826229,
+      "shop_name": "NoShop",
+      "name": "NestCapacity_Upgrade2_NightGoTown",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 30,
+      "currency_type": "heart",
+      "costs": [
+        30
+      ],
+      "currency_types": [
+        "heart"
+      ],
+      "event_name": "",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "Nest_Night_GO_Town_Capacity_1"
+      ],
+      "item_type": "inventory_unlock",
+      "item_name": "Nest_Night_GO_Town_Capacity_2",
+      "item_count": 1
+    },
+    {
+      "id": 2368701830,
+      "shop_name": "NoShop",
+      "name": "NestCapacity_Upgrade3_NightGoTown",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 100,
+      "currency_type": "prestige",
+      "costs": [
+        100
+      ],
+      "currency_types": [
+        "prestige"
+      ],
+      "event_name": "",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "Nest_Night_GO_Town_Capacity_2"
+      ],
+      "item_type": "inventory_unlock",
+      "item_name": "Nest_Night_GO_Town_Capacity_3",
       "item_count": 1
     }
   ]

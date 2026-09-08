@@ -1,13 +1,6 @@
 {
   "video_defs": [
     {
-      "name": "artbook_signing",
-      "duration": 47,
-      "location": "https://video.cdn.thatgamecompany.com/encoded/skyfest24/ArtBookSigning_VLS_47s_EN_2406/ArtBookSigning_VLS_47s_EN_2406_tgc.m3u8",
-      "subtitle_base": "",
-      "has_translations": false
-    },
-    {
       "name": "295filler",
       "duration": 3600,
       "location": "https://video.cdn.thatgamecompany.com/encoded/295filler/SCA_295Filler_VLS_60m_EN_250521/SCA_295Filler_VLS_60m_EN_250521_tgc.m3u8",
@@ -120,6 +113,13 @@
       "has_translations": true
     },
     {
+      "name": "artbook_signing",
+      "duration": 47,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/skyfest24/ArtBookSigning_VLS_47s_EN_2406/ArtBookSigning_VLS_47s_EN_2406_tgc.m3u8",
+      "subtitle_base": "",
+      "has_translations": false
+    },
+    {
       "name": "aurora_concert_thank_you",
       "duration": 60,
       "location": "https://video.cdn.thatgamecompany.com/encoded/aurora_concert_thank_you/ARTO_AuroraIntro_VLS_60s_2505/ARTO_AuroraIntro_VLS_60s_2505_tgc.m3u8",
@@ -222,6 +222,13 @@
       "duration": 1800,
       "location": "https://video.cdn.thatgamecompany.com/encoded/awd26_sel_c/e62bf0f4-760c-464c-9c0f-3c8fe918e259/SCA26_AwdSel-C_VLS_30m_EN_260706/SCA26_AwdSel-C_VLS_30m_EN_260706_tgc.m3u8",
       "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/awd26_sel_c/18438a72-368d-42f4-ae77-97b92d22a965/SCA26_AwdSel-C.vtt",
+      "has_translations": true
+    },
+    {
+      "name": "awd26_show_hilite",
+      "duration": 1800,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/awd26_show_hilite/b1f8a57e-f0d6-431f-9d76-86d2d8c8c456/SCA26_Highlights_VLS_30m_EN_2607/SCA26_Highlights_VLS_30m_EN_2607_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/awd26_show_hilite/4f86c4a4-3b11-4bb6-a290-20ce8dfff427/SCA26_Highlights-ROUGH4_VLS_30m_2607.vtt",
       "has_translations": true
     },
     {
@@ -424,6 +431,13 @@
       "name": "history_of_sky_gallery",
       "duration": 492,
       "location": "https://video.cdn.thatgamecompany.com/encoded/skyfest24/gallery2/DOS5_HistoryOfSkyInGame_K_240502/DOS5_HistoryOfSkyInGame_K_240502_tgc.m3u8",
+      "subtitle_base": "",
+      "has_translations": false
+    },
+    {
+      "name": "hoc_tcp_logo",
+      "duration": 900,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/hoc_tcp_logo/079b187c-206d-437b-b1b7-61ad0b634a44/HOC_TCP-logo_VLS_15m_2607/HOC_TCP-logo_VLS_15m_2607_tgc.m3u8",
       "subtitle_base": "",
       "has_translations": false
     },
@@ -795,6 +809,37 @@
         "creator_const_b",
         "awd26Locked*_show_p1_replay",
         "awd26Locked*_show_p2_replay"
+      ],
+      "loop": true,
+      "gap_seconds": 0,
+      "postshow_seconds": 0,
+      "silence_please": false
+    },
+    {
+      "channel": "creator",
+      "event": "creativehall_loop1",
+      "preshow_seconds": 0,
+      "playlist": [
+        "awd26Locked*_win_a",
+        "studio_stories_a",
+        "creator_const_a",
+        "awd26Locked*_win_b",
+        "studio_stories_b",
+        "creator_const_b",
+        "awd26Locked*_win_c",
+        "awd26_show_hilite",
+        "hoc_tcp_logo",
+        "hoc_tcp_logo",
+        "hoc_tcp_logo",
+        "hoc_tcp_logo",
+        "hoc_tcp_logo",
+        "hoc_tcp_logo",
+        "hoc_tcp_logo",
+        "hoc_tcp_logo",
+        "hoc_tcp_logo",
+        "hoc_tcp_logo",
+        "hoc_tcp_logo",
+        "hoc_tcp_logo"
       ],
       "loop": true,
       "gap_seconds": 0,

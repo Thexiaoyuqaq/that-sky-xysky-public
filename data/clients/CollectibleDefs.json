@@ -74,7 +74,7 @@
         "default": true,
         "droppable": false,
         "event": "SocialShowPresence",
-        "icon": "UiMiscStarCluster",
+        "icon": "UiMenuPresenceDisabled",
         "level": "MainStreet",
         "max_level": 1,
         "name": "presence",

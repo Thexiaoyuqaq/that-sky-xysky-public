@@ -3145,6 +3145,11 @@
         "type": "mask"
     },
     {
+        "id": 1105594441,
+        "name": "CharSkyKid_Mask_ChildrenWhiteEyelash",
+        "type": "mask"
+    },
+    {
         "id": 3332990455,
         "name": "CharSkyKid_Mask_SparrowCheeks",
         "type": "mask"
@@ -4632,6 +4637,11 @@
     {
         "id": 3580839943,
         "name": "CharSkyKid_Prop_Swing",
+        "type": "prop"
+    },
+    {
+        "id": 3860809539,
+        "name": "CharSkyKid_Prop_BlueSwing",
         "type": "prop"
     },
     {
@@ -7595,6 +7605,76 @@
         "type": "neck"
     },
     {
+        "id": 1262467355,
+        "name": "Nest_Night_GO_Town_Capacity_1",
+        "type": "neck"
+    },
+    {
+        "id": 1279244974,
+        "name": "Nest_Night_GO_Town_Capacity_2",
+        "type": "neck"
+    },
+    {
+        "id": 1296022593,
+        "name": "Nest_Night_GO_Town_Capacity_3",
+        "type": "neck"
+    },
+    {
+        "id": 1667533187,
+        "name": "CharSkyKid_Prop_AP31StarryUmbrella",
+        "type": "prop"
+    },
+    {
+        "id": 3307270684,
+        "name": "CharSkyKid_Prop_AP31Easel",
+        "type": "prop"
+    },
+    {
+        "id": 337228654,
+        "name": "CharSkyKid_Prop_AP31PaintBrush",
+        "type": "prop"
+    },
+    {
+        "id": 2411428763,
+        "name": "CharSkyKid_Prop_MicStandWhite",
+        "type": "prop"
+    },
+    {
+        "id": 1218692684,
+        "name": "CharSkyKid_Prop_MicStandGold",
+        "type": "prop"
+    },
+    {
+        "id": 326904091,
+        "name": "CharSkyKid_Prop_MicStandSilver",
+        "type": "prop"
+    },
+    {
+        "id": 2362214946,
+        "name": "CharSkyKid_Prop_MicStandBronze",
+        "type": "prop"
+    },
+    {
+        "id": 1940570727,
+        "name": "CharSkyKid_Horn_TuneBandMic_White",
+        "type": "horn"
+    },
+    {
+        "id": 4095552664,
+        "name": "CharSkyKid_Horn_TuneBandMic_Gold",
+        "type": "horn"
+    },
+    {
+        "id": 1212530495,
+        "name": "CharSkyKid_Horn_TuneBandMic_Silver",
+        "type": "horn"
+    },
+    {
+        "id": 2988639574,
+        "name": "CharSkyKid_Horn_TuneBandMic_Bronze",
+        "type": "horn"
+    },
+    {
         "id": 1775293343,
         "name": "CharSkyKid_Prop_AP30ChallengeBouncePad",
         "type": "prop"
@@ -7678,5 +7758,205 @@
         "id": 4171595851,
         "name": "CharSkyKid_Hat_SunflowerHeadband",
         "type": "hat"
+    },
+    {
+        "id": 2906865010,
+        "name": "CharSkyKid_Prop_MoonlightLute",
+        "type": "prop"
+    },
+    {
+        "id": 865503898,
+        "name": "CharSkyKid_Hat_MoonlightHalo",
+        "type": "hat"
+    },
+    {
+        "id": 1394056393,
+        "name": "CharSkyKid_Body_MoonlightTrouser",
+        "type": "body"
+    },
+    {
+        "id": 852200715,
+        "name": "CharSkyKid_Horn_MoonlightEarlobes",
+        "type": "horn"
+    },
+    {
+        "id": 1014923903,
+        "name": "CharSkyKid_Mask_MoonlightVeil",
+        "type": "mask"
+    },
+    {
+        "id": 3005219648,
+        "name": "CharSkyKid_Prop_MoonlightLotusCushion",
+        "type": "prop"
+    },
+    {
+        "id": 2199859636,
+        "name": "CharSkyKid_Prop_MoonlightMural_Butterfly01",
+        "type": "prop"
+    },
+    {
+        "id": 296544696,
+        "name": "CharSkyKid_Prop_MoonlightMural_Star04",
+        "type": "prop"
+    },
+    {
+        "id": 413988029,
+        "name": "CharSkyKid_Prop_MoonlightMural_Star03",
+        "type": "prop"
+    },
+    {
+        "id": 397210410,
+        "name": "CharSkyKid_Prop_MoonlightMural_Star02",
+        "type": "prop"
+    },
+    {
+        "id": 380432791,
+        "name": "CharSkyKid_Prop_MoonlightMural_Star01",
+        "type": "prop"
+    },
+    {
+        "id": 2116589682,
+        "name": "CharSkyKid_Prop_MoonlightMural_Mountain03",
+        "type": "prop"
+    },
+    {
+        "id": 2133367301,
+        "name": "CharSkyKid_Prop_MoonlightMural_Mountain02",
+        "type": "prop"
+    },
+    {
+        "id": 2083034444,
+        "name": "CharSkyKid_Prop_MoonlightMural_Mountain01",
+        "type": "prop"
+    },
+    {
+        "id": 2112013965,
+        "name": "CharSkyKid_Prop_MoonlightMural_Moon",
+        "type": "prop"
+    },
+    {
+        "id": 878482776,
+        "name": "CharSkyKid_Prop_MoonlightMural_Manta05",
+        "type": "prop"
+    },
+    {
+        "id": 895260395,
+        "name": "CharSkyKid_Prop_MoonlightMural_Manta04",
+        "type": "prop"
+    },
+    {
+        "id": 979148490,
+        "name": "CharSkyKid_Prop_MoonlightMural_Manta03",
+        "type": "prop"
+    },
+    {
+        "id": 995926109,
+        "name": "CharSkyKid_Prop_MoonlightMural_Manta02",
+        "type": "prop"
+    },
+    {
+        "id": 945593252,
+        "name": "CharSkyKid_Prop_MoonlightMural_Manta01",
+        "type": "prop"
+    },
+    {
+        "id": 1149433595,
+        "name": "CharSkyKid_Prop_MoonlightMural_Line03",
+        "type": "prop"
+    },
+    {
+        "id": 1132655976,
+        "name": "CharSkyKid_Prop_MoonlightMural_Line02",
+        "type": "prop"
+    },
+    {
+        "id": 1182988833,
+        "name": "CharSkyKid_Prop_MoonlightMural_Line01",
+        "type": "prop"
+    },
+    {
+        "id": 1814669523,
+        "name": "CharSkyKid_Prop_MoonlightMural_Jellyfish03",
+        "type": "prop"
+    },
+    {
+        "id": 1797891904,
+        "name": "CharSkyKid_Prop_MoonlightMural_Jellyfish02",
+        "type": "prop"
+    },
+    {
+        "id": 1848224761,
+        "name": "CharSkyKid_Prop_MoonlightMural_Jellyfish01",
+        "type": "prop"
+    },
+    {
+        "id": 186426586,
+        "name": "CharSkyKid_Prop_MoonlightMural_Halo",
+        "type": "prop"
+    },
+    {
+        "id": 907661423,
+        "name": "CharSkyKid_Prop_MoonlightMural_Fly02",
+        "type": "prop"
+    },
+    {
+        "id": 924439042,
+        "name": "CharSkyKid_Prop_MoonlightMural_Fly01",
+        "type": "prop"
+    },
+    {
+        "id": 911814663,
+        "name": "CharSkyKid_Prop_MoonlightMural_Flower04",
+        "type": "prop"
+    },
+    {
+        "id": 861481806,
+        "name": "CharSkyKid_Prop_MoonlightMural_Flower03",
+        "type": "prop"
+    },
+    {
+        "id": 878259425,
+        "name": "CharSkyKid_Prop_MoonlightMural_Flower02",
+        "type": "prop"
+    },
+    {
+        "id": 827926568,
+        "name": "CharSkyKid_Prop_MoonlightMural_Flower01",
+        "type": "prop"
+    },
+    {
+        "id": 1342609733,
+        "name": "CharSkyKid_Prop_MoonlightMural_Deer03",
+        "type": "prop"
+    },
+    {
+        "id": 1325832114,
+        "name": "CharSkyKid_Prop_MoonlightMural_Deer02",
+        "type": "prop"
+    },
+    {
+        "id": 1309054495,
+        "name": "CharSkyKid_Prop_MoonlightMural_Deer01",
+        "type": "prop"
+    },
+    {
+        "id": 2170755121,
+        "name": "CharSkyKid_Prop_MoonlightMural_Cloud04",
+        "type": "prop"
+    },
+    {
+        "id": 2187532740,
+        "name": "CharSkyKid_Prop_MoonlightMural_Cloud03",
+        "type": "prop"
+    },
+    {
+        "id": 2204310359,
+        "name": "CharSkyKid_Prop_MoonlightMural_Cloud02",
+        "type": "prop"
+    },
+    {
+        "id": 2221087978,
+        "name": "CharSkyKid_Prop_MoonlightMural_Cloud01",
+        "type": "prop"
     }
 ]

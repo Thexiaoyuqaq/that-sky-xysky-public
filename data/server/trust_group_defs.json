@@ -21,7 +21,7 @@
       "category": "daily",
       "max": 250,
       "global_max": 300,
-      "multiplier": 0.5,
+      "multiplier": 1,
       "cap_cadence": "daily"
     },
     {
