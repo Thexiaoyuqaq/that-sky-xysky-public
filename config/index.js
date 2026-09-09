@@ -17,6 +17,19 @@ function validateEnv() {
     }
   }
 
+  if (['pgsql', 'postgres', 'postgresql'].includes(String(config.database?.type || '').toLowerCase())) {
+    const postgres = config.database.postgres || config.database.pgsql || config.database;
+    const requiredPostgres = ['host', 'user'];
+    const missing = requiredPostgres.filter(v => postgres?.[v] === undefined || postgres?.[v] === null || postgres?.[v] === '');
+    if (!postgres?.name && !postgres?.database) missing.push('name');
+    if (missing.length > 0) {
+      throw new Error(
+        `PostgreSQL mode requires: database.postgres.${missing.join(', database.postgres.')}` +
+        '\nPlease update database.postgres in config.yml'
+      );
+    }
+  }
+
   if (!config.jwt?.secret) {
     throw new Error(
       'JWT secret is missing.\n' +
@@ -61,7 +74,18 @@ module.exports = {
     idleTimeout: get('database.mysql.idleTimeout', 60000),
     maxIdle: get('database.mysql.maxIdle', 5),
     connectTimeout: get('database.mysql.connectTimeout', 10000),
-    waitForConnections: true
+    waitForConnections: true,
+    postgres: {
+      host: get('database.postgres.host', get('database.pgsql.host', get('database.host', '127.0.0.1'))),
+      port: get('database.postgres.port', get('database.pgsql.port', get('database.port', 5432))),
+      user: get('database.postgres.user', get('database.pgsql.user', get('database.user', 'postgres'))),
+      password: get('database.postgres.password', get('database.pgsql.password', get('database.password', ''))),
+      name: get('database.postgres.name', get('database.postgres.database', get('database.pgsql.name', get('database.pgsql.database', get('database.database', 'xysky'))))),
+      max: get('database.postgres.max', get('database.postgres.connectionLimit', get('database.connectionLimit', 10))),
+      idleTimeout: get('database.postgres.idleTimeout', get('database.idleTimeout', 30000)),
+      connectTimeout: get('database.postgres.connectTimeout', get('database.connectTimeout', 10000)),
+      ssl: get('database.postgres.ssl', get('database.ssl', false))
+    }
   },
 
   jwt: {
@@ -109,6 +133,12 @@ module.exports = {
   },
 
   cache: get('cache', {}),
+
+  admin: {
+    jwtSecret: get('admin.jwtSecret', 'sky_admin_secret_key_2026'),
+    username: get('admin.username', 'Thexiaoyu'),
+    password: get('admin.password', 'mc233.cn')
+  },
 
   contentModeration: {
     enabled: get('contentModeration.enabled', true),
