@@ -112,7 +112,7 @@ module.exports = {
     initialCurrency: get('game.initialCurrency', {}),
     socialFeed: {
       socialFeedExpireDays: get('game.socialFeed.socialFeedExpireDays', 30),
-      uri: get('game.socialFeed.uri', 'live-as-sky.xyqaq.cn'),
+      uri: get('game.socialFeed.uri', 'live-as-sky.thatskyproject.cn'),
       curatedFeeds: {
         defaultFillPriority: get('game.socialFeed.curatedFeeds.defaultFillPriority', ['friends', 'followed', 'public', 'local']),
         friendsQueryLimit: get('game.socialFeed.curatedFeeds.friendsQueryLimit', 2000),

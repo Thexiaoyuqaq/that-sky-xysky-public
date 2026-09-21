@@ -444,7 +444,7 @@ For example:
 
 ```yaml
 udp:
-  uri: "https://thatroom.xyqaq.cn/allocate"
+  uri: "https://thatroom.thatskyproject.cn/allocate"
 ```
 
 XYSky sends a request to this endpoint when it needs a game room.
@@ -589,7 +589,7 @@ Use the public HTTP(S) `/allocate` endpoint of QWD:
 
 ```yaml
 udp:
-  uri: "https://thatroom.xyqaq.cn/allocate"
+  uri: "https://thatroom.thatskyproject.cn/allocate"
 ```
 
 The XYSKY UDP Node separately connects to QWD through WebSocket:

@@ -620,7 +620,7 @@ Xysky：
 
 ```yaml
 udp:
-  uri: "https://thatroom.xyqaq.cn/allocate"
+  uri: "https://thatroom.thatskyproject.cn/allocate"
 ```
 
 XYSKY UDP Node：
