@@ -1,9 +1,14 @@
 <h1 align="center">XYSky 2.0</h1>
 
 <p align="center">
-  <strong>面向《Sky: Children of the Light》的模块化 Node.js 游戏服务端实现（暂不开源）</strong>
+  <strong>A modular Node.js game server implementation for <em>Sky: Children of the Light</em> (currently not open source)</strong>
   <br>
-  <sub>覆盖账号、社交、经济、任务、内容、实时通信，并为持续扩展保留清晰边界。</sub>
+  <sub>Covers accounts, social systems, economy, quests, content, real-time communication, and more, with clear boundaries for future expansion.</sub>
+</p>
+
+<p align="center">
+  <a href="README_zh.md">🇨🇳 中文</a> ·
+  <strong>🇬🇧 English</strong>
 </p>
 
 <p align="center">
@@ -15,203 +20,206 @@
 </p>
 
 <p align="center">
-  <a href="#项目定位">项目定位</a> ·
-  <a href="#项目亮点">项目亮点</a> ·
-  <a href="#能力矩阵">能力矩阵</a> ·
-  <a href="#技术栈">技术栈</a> ·
-  <a href="#架构设计">架构设计</a> ·
-  <a href="#快速开始">快速开始</a> ·
-  <a href="#配置说明">配置说明</a>
+  <a href="#project-overview">Project Overview</a> ·
+  <a href="#highlights">Highlights</a> ·
+  <a href="#capability-matrix">Capabilities</a> ·
+  <a href="#technology-stack">Technology Stack</a> ·
+  <a href="#architecture">Architecture</a> ·
+  <a href="#quick-start">Quick Start</a> ·
+  <a href="#configuration">Configuration</a>
 </p>
 
 ---
 
-## 项目定位
+## Project Overview
 
-XYSky 不只是若干接口的集合，而是一套围绕游戏服务端生命周期组织的后端工程。目前源码包含 **200+ 个声明式控制器路由**，同时提供玩家 WebSocket、管理 WebSocket、静态数据驱动、数据库迁移、缓存抽象、事件调度和内容审核等基础设施。
+XYSky is more than a collection of API endpoints. It is a backend engineering project organized around the lifecycle of a game server.
 
-项目默认使用 SQLite 与内存缓存，适合本地开发和快速部署；需要承载更长期的数据与多实例场景时，可切换到 MySQL 与 Redis。
+The current source tree contains **200+ declarative controller routes**, together with player WebSocket services, management WebSocket services, static data management, database migrations, cache abstractions, event scheduling, content moderation, and other supporting infrastructure.
 
-> 本项目为社区技术研究与服务端实现项目，与 thatgamecompany 无隶属或官方合作关系。使用者应自行确认客户端资源、网络服务与部署行为符合适用条款和当地法律。
+The default deployment uses SQLite and an in-memory cache, making it suitable for local development and quick deployment. For longer-running deployments and multi-instance environments, the system can be switched to MySQL and Redis.
 
-## 项目亮点
+> This project is an independent community technology research and server implementation project. It is not affiliated with or officially endorsed by thatgamecompany. Users are responsible for ensuring that client resources, network services, and deployment practices comply with applicable terms and local laws.
 
-| 设计 | 带来的价值 |
+## Highlights
+
+| Design | Value |
 | --- | --- |
-| **开箱即用的默认组合** | SQLite + Memory Cache 无需额外中间件即可启动，降低首次运行成本。 |
-| **可平滑扩展的基础设施** | 数据库支持 SQLite / MySQL，缓存支持 Memory / Redis，业务代码无需绑定单一部署形态。 |
-| **一文件一路由** | 控制器通过 `static route` 声明接口，由加载器递归发现并注册，新增功能不必维护庞大的路由表。 |
-| **清晰的业务分层** | Controller、Helper、Repository、Kysely 数据层各司其职，复杂游戏逻辑更容易定位和维护。 |
-| **配置与内容数据分离** | 服务参数使用 YAML，商店、任务、活动、Buff、收集品等使用 JSON/Lua 静态数据，运营调整不必侵入核心代码。 |
-| **实时能力完整** | 在多ws下，ws管理器使用独立 WebSocket 通道，共享 HTTP/HTTPS Server，并带连接管理、心跳与消息队列。 |
-| **面向开发的热更新** | 源码运行时可重新加载控制器、玩家 WebSocket、缩短调试反馈周期。 |
-| **可运营性设计** | 提供用户、库存、好友、消息、违规、每日任务、配置与缓存等管理 API。 |
-| **安全与治理能力** | 玩家会话校验、统一错误处理、内容审核、违规访问状态映射均已纳入服务链路。 |
+| **Ready-to-use defaults** | SQLite + Memory Cache require no additional middleware, reducing the initial setup cost. |
+| **Smooth infrastructure scaling** | Database support includes SQLite / MySQL, while caching supports Memory / Redis, allowing business logic to remain independent of a specific deployment model. |
+| **One file, one route** | Controllers declare endpoints through `static route`. The loader discovers and registers them recursively, eliminating the need to maintain a large centralized routing table. |
+| **Clear business layering** | Controller, Helper, Repository, and Kysely data layers each have distinct responsibilities, making complex game logic easier to locate and maintain. |
+| **Configuration separated from content** | Server configuration uses YAML, while shops, quests, events, buffs, collectibles, and other static content use JSON/Lua data. Operational adjustments can therefore be made without modifying core logic. |
+| **Complete real-time support** | Multiple WebSocket channels are supported. The WebSocket manager uses independent management channels, shares the HTTP/HTTPS server, and provides connection management, heartbeats, and message queues. |
+| **Developer-oriented hot reload** | Controllers and player WebSocket handlers can be reloaded at runtime, shortening the development and debugging feedback loop. |
+| **Operational capabilities** | Provides management APIs for users, inventories, friends, messages, violations, daily quests, configuration, and caches. |
+| **Security and governance** | Player session validation, unified error handling, content moderation, and violation-related access status mapping are integrated into the service pipeline. |
 
-## 能力矩阵
+## Capability Matrix
 
-| 领域 | 已实现能力 |
+| Domain | Implemented Capabilities |
 | --- | --- |
-| 账号与会话 | 账号创建、登录、会话验证 |
-| 经济与库存 | 锻造汇率、物品兑换、魔法品、光翼 |
-| 商店与商业 | 通用商店、先祖商店 |
-| 好友与关系 | 邀请、好友、关注、好友能力、在线好友通知 |
-| 社交内容 | 聊天、消息、点赞、评论 |
-| 任务与活动 | 每日任务、世界任务、奖励领取、季节结算、动态事件调度 |
-| 场景与联机 | Stage 状态、小屋状态、好友房间加入 |
-| 安全 | 违规记录、登录或聊天限制、内容审核 |
-| UGC 与录制 | 录制创建、查询、更新 |
+| Account & Session | Account creation, login, and session validation |
+| Economy & Inventory | Forge exchange rates, item exchanges, spells, and Winged Light |
+| Shops & Commerce | Generic shops and Spirit shops |
+| Friends & Relationships | Invitations, friends, following, friend capabilities, and online friend notifications |
+| Social Content | Chat, messages, likes, and comments |
+| Quests & Events | Daily quests, world quests, reward claiming, seasonal settlement, and dynamic event scheduling |
+| Scenes & Multiplayer | Stage state, Home state, and joining friends' rooms |
+| Security | Violation records, login/chat restrictions, and content moderation |
+| UGC & Recording | Recording creation, querying, and updating |
 
-## 技术栈
+## Technology Stack
 
-| 层级 | 技术 |
+| Layer | Technology |
 | --- | --- |
-| Runtime | Node.js 22、CommonJS、Module Alias |
-| HTTP | Express 5、CORS、HTTP / HTTPS |
+| Runtime | Node.js 22, CommonJS, Module Alias |
+| HTTP | Express 5, CORS, HTTP / HTTPS |
 | Realtime | `ws` WebSocket |
-| Database | Kysely、better-sqlite3、mysql2 |
-| Cache | 内存缓存、ioredis |
-| Auth | jsonwebtoken、会话存储与校验 |
-| Configuration | YAML + JSON/Lua 静态数据 |
+| Database | Kysely, better-sqlite3, mysql2 |
+| Cache | In-memory cache, ioredis |
+| Auth | jsonwebtoken, session storage and validation |
+| Configuration | YAML + JSON/Lua static data |
 
-## 架构设计
+## Architecture
 
 ```mermaid
 flowchart LR
-    %% 客户端与入口
-    C[游戏客户端] --> H[HTTP/HTTPS 网关]
-    A[管理端] --> H
+    %% Client and entry points
+    C[Game Client] --> H[HTTP/HTTPS Gateway]
+    A[Management Client] --> H
 
-    %% 网关层：路由隔离
-    H --> M[中间件：日志/会话/路由权限]
-    M --> R[声明式 Controller]
+    %% Gateway layer: route isolation
+    H --> M[Middleware: Logging / Session / Route Permissions]
+    M --> R[Declarative Controllers]
 
-    %% WebSocket 升级与集群同步
-    H -. WebSocket升级 .-> W[WebSocket消息处理器]
+    %% WebSocket upgrade and cluster synchronization
+    H -. WebSocket Upgrade .-> W[WebSocket Message Handler]
     W --> B[Game Helper / Domain Service]
-    W <--> RedisBus[(Redis 消息总线)]
+    W <--> RedisBus[(Redis Message Bus)]
 
-    %% 业务逻辑调用
+    %% Business logic
     R --> B
 
-    %% 数据持久层（区分环境）
+    %% Persistence layer
     B --> P[Repository]
     P --> K[Kysely ORM]
     K --> D1[(SQLite)] 
     K --> D2[(MySQL)]
 
-    %% 多级缓存层
+    %% Multi-level cache
     B --> CA[Cache Manager]
     CA --> C1[(Memory)]
-    CA --> RedisCache[(Redis 缓存)]
+    CA --> RedisCache[(Redis Cache)]
 
-    %% 静态配置表
-    S[Static Data Store] -. 服务启动时全量加载 .-> C1
+    %% Static configuration
+    S[Static Data Store] -. Load at startup .-> C1
 ```
 
-### 请求链路
+### Request Flow
 
-1. Express 接收 HTTP/HTTPS 请求并标准化 JSON、表单或兼容格式的请求体。
-2. 中间件记录请求、验证玩家会话，并将可信身份写入 `req.auth`。
-3. 自动加载器找到对应的 `BaseController` 子类，完成中间件、必填参数和异常转发。
-4. 控制器调用领域 Helper，Helper 组合 Repository、静态数据与缓存完成业务。
-5. Repository 通过 Kysely 访问 SQLite 或 MySQL，启动时自动执行版本化迁移。
+1. Express receives HTTP/HTTPS requests and normalizes JSON, form, or compatible request bodies.
+2. Middleware records the request, validates the player session, and stores the trusted identity in `req.auth`.
+3. The automatic loader discovers the corresponding `BaseController` subclass and handles middleware, required parameters, and exception forwarding.
+4. The controller invokes the domain Helper, which combines Repository operations, static data, and caches to complete the business logic.
+5. The Repository accesses SQLite or MySQL through Kysely. Versioned database migrations are automatically executed at startup.
 
+## Quick Start
 
-## 快速开始
+The distribution is provided as a precompiled standalone executable with the runtime bundled, so **Node.js does not need to be installed separately**.
 
-发行版为预编译的独立可执行文件，已内置运行时，**无需单独安装 Node.js**。
+### Requirements
 
-### 环境要求
+- Operating system: Windows 10+ or Linux (x64)
+- Optional: MySQL 8+, Redis 6+ (the default SQLite and in-memory cache require neither)
 
-- 操作系统：Windows 10+ 或 Linux（x64）
-- 可选：MySQL 8+、Redis 6+（默认使用内置 SQLite 与内存缓存，可不安装）
+### Download & Deployment
 
-### 下载与部署
-
-1. 克隆仓库（获取配置与静态数据目录）：
+1. Clone the repository to obtain the configuration and static data directories:
 
    ```bash
    git clone https://github.com/Thexiaoyuqaq/that-sky-xysky-public.git
    ```
 
-2. 下载二进制程序：根据系统从 [Releases](https://github.com/Thexiaoyuqaq/that-sky-xysky-public/releases) 页面下载对应压缩包。
+2. Download the binary for your platform from the [Releases](https://github.com/Thexiaoyuqaq/that-sky-xysky-public/releases) page.
 
-   > Windows 需额外下载证书 `xysky-local-code-signing.cer`，并安装到“受信任的根证书颁发机构”。
+   > Windows users must additionally download the `xysky-local-code-signing.cer` certificate and install it under "Trusted Root Certification Authorities".
 
-3. 解压部署：将压缩包内容解压到 `that-sky-xysky-public` 目录中，与 `config/`、`data/` 同级。
+3. Extract the archive into the `that-sky-xysky-public` directory, alongside `config/` and `data/`.
 
-### 最小配置
+### Minimal Configuration
 
-项目已提供 `config/config.yml` 和 `config/cache.yml`。首次启动前，请务必替换默认 JWT 密钥（默认值仅用于演示，切勿用于生产）。
+The project provides `config/config.yml` and `config/cache.yml`.
 
-生成一个随机密钥：
+Before starting the server for the first time, **replace the default JWT secret**. The default value is for demonstration purposes only and must not be used in production.
+
+Generate a random secret:
 
 ```bash
 node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 ```
 
-> 若本机未安装 Node.js，也可使用任意方式生成一段至少 32 字符的随机十六进制字符串。
+> If Node.js is not installed locally, you may use any other method to generate a random hexadecimal string of at least 32 characters.
 
-将其写入 `config/config.yml`：
+Set the generated value in `config/config.yml`:
 
 ```yaml
 # config/config.yml
 jwt:
-  secret: "替换为至少 32 字符的随机密钥"
+  secret: "replace-with-a-random-secret-of-at-least-32-characters"
   expiresIn: "7d"
 ```
 
-默认配置使用：
+The default configuration uses:
 
-- HTTP：`0.0.0.0:25565`
-- Database：`SQLite`，文件位于 `data/db/sky.db`
-- Cache：进程内 Memory Cache
-- Player WebSocket：`ws://localhost:25565/account/ws`
+- HTTP: `0.0.0.0:25565`
+- Database: `SQLite`, stored at `data/db/sky.db`
+- Cache: Process-local Memory Cache
+- Player WebSocket: `ws://localhost:25565/account/ws`
 
-### 启动服务
+### Start the Server
 
 ```bash
-# Linux：赋予执行权限并启动
+# Linux: grant execute permission and start
 chmod +x xysky-linux-x64
 ./xysky-linux-x64
 ```
 
 ```bat
-:: Windows：双击 xysky.exe，或在命令行中执行
+:: Windows: double-click xysky.exe or run it from a command prompt
 xysky.exe
 ```
 
-启动后访问：
+After startup, access:
 
 ```text
 GET http://localhost:25565/
 ```
 
-正常响应：
+Expected response:
 
 ```json
 { "message": "Hello Xiaoyu." }
 ```
 
-## 配置说明
+## Configuration
 
-配置由 `config/config.yml` 与 `config/cache.yml` 合并加载。
+Configuration is loaded by merging `config/config.yml` and `config/cache.yml`.
 
-### 服务配置
+### Server Configuration
 
-| 配置项 | 默认值 | 说明 |
+| Configuration | Default | Description |
 | --- | --- | --- |
-| `server.host` | `0.0.0.0` | 监听地址 |
-| `server.type` | `http` | 支持 `http`、`https`、`http,https` |
-| `server.http.port` | `25565` | HTTP 端口 |
-| `server.https.port` | `25566` | HTTPS 端口 |
-| `server.https.cert` | `./data/ssl/fullchain.pem` | HTTPS 证书 |
-| `server.https.key` | `./data/ssl/privkey.key` | HTTPS 私钥 |
+| `server.host` | `0.0.0.0` | Listening address |
+| `server.type` | `http` | Supports `http`, `https`, and `http,https` |
+| `server.http.port` | `25565` | HTTP port |
+| `server.https.port` | `25566` | HTTPS port |
+| `server.https.cert` | `./data/ssl/fullchain.pem` | HTTPS certificate |
+| `server.https.key` | `./data/ssl/privkey.key` | HTTPS private key |
 
-### 数据库配置
+### Database Configuration
 
-SQLite 适合单机与开发环境：
+SQLite is suitable for single-machine and development environments:
 
 ```yaml
 database:
@@ -222,7 +230,7 @@ database:
     runOnStartup: true
 ```
 
-MySQL 适合持久运行和独立数据库部署：
+MySQL is suitable for persistent deployments and standalone database infrastructure:
 
 ```yaml
 database:
@@ -236,9 +244,9 @@ database:
     connectionLimit: 10
 ```
 
-### 缓存配置
+### Cache Configuration
 
-本地内存缓存：
+Local in-memory cache:
 
 ```yaml
 # config/cache.yml
@@ -247,7 +255,7 @@ cache:
   namespace: "xysky"
 ```
 
-Redis 缓存：
+Redis cache:
 
 ```yaml
 cache:
@@ -260,34 +268,34 @@ cache:
     password: ""
 ```
 
-部署前请完成以下检查：
+Before deployment, complete the following checks:
 
-- 更换 `jwt.secret`。
-- 公网部署启用 HTTPS，或在可信反向代理后终止 TLS。
-- MySQL 与 Redis 不对公网开放，并使用独立账号和密码。
-- 根据需求启用 `contentModeration.enabled`，维护 `data/server/blocked_words.json`。
+- Replace `jwt.secret`.
+- Enable HTTPS for public deployments, or terminate TLS behind a trusted reverse proxy.
+- Do not expose MySQL or Redis directly to the public internet. Use dedicated accounts and passwords.
+- Enable `contentModeration.enabled` as required and maintain `data/server/blocked_words.json`.
 
+### Modifying Static Content
 
-### 修改静态内容
+Common content files are located under `data/server/`:
 
-常用内容位于 `data/server/`：
+- `shop.json`, `generic_shops.json`, `spirit_shops/`
+- `quest_defs.json`, `events.config.json`, `events.list.json`
+- `buff_defs.json`, `consumable_defs.json`, `currency_types.json`
+- `trust_*_defs.json`, `blocked_words.json`, `motd.json`
 
-- `shop.json`、`generic_shops.json`、`spirit_shops/`
-- `quest_defs.json`、`events.config.json`、`events.list.json`
-- `buff_defs.json`、`consumable_defs.json`、`currency_types.json`
-- `trust_*_defs.json`、`blocked_words.json`、`motd.json`
+## Current Status
 
-## 当前状态
-
-项目处于持续开发阶段。核心服务链路和大量业务接口已经实现。
+The project is under active development. The core service pipeline and a large number of business APIs have already been implemented.
 
 ---
-## 许可证
+
+## License
 
 [GNU General Public License v3.0](LICENSE)
 
 ---
 
 <p align="center">
-  <sub>Made with ❤️ for XYSKY 2.0 community</sub>
+  <sub>Made with ❤️ for the XYSKY 2.0 community</sub>
 </p>
