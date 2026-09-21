@@ -405,7 +405,10 @@ Common content files are located under `data/server/`:
 
 The XYSky HTTP / WebSocket server can be used together with a separate UDP server to handle real-time game communication, room management, player transfers, and other real-time networking logic.
 
-There are currently two independent UDP implementations available.
+The XYSKY UDP ecosystem supports two deployment modes:
+
+- **Managed deployment with QWD (Room Authority)** — QWD allocates rooms and manages available UDP room servers.
+- **Standalone deployment without QWD** — a single XYSKY UDP Node directly provides an 8-player room.
 
 ### XYSKY UDP
 
@@ -423,47 +426,135 @@ The current public implementation includes relatively complete real-time multipl
 - Fixes for snapshot-related issues
 - Complete connection-state handling for player joining, movement, disconnection, and related events
 
-The project is also designed to work with a separate **Room Authority / Room Manager (QWD)**:
+### XYSKY UDP with QWD
+
+For deployments with multiple UDP room servers, XYSKY UDP can be used together with the **Room Authority / Room Manager (QWD)**:
 
 https://github.com/that-sky-project/that-sky-xysky-udp-room-authority
 
-QWD is responsible for allocating and managing game rooms and provides:
+QWD is responsible for allocating available rooms and managing registered XYSKY UDP Nodes.
 
-```http
-GET /allocate
+In this mode, there are **two different QWD endpoints** involved.
+
+#### 1. XYSky → QWD
+
+The `udp.uri` value in the XYSky configuration should point to the **public HTTP(S) `/allocate` endpoint provided by QWD**.
+
+For example:
+
+```yaml
+udp:
+  uri: "https://thatroom.xyqaq.cn/allocate"
 ```
 
-which is used to obtain or allocate an available game room.
+XYSky sends a request to this endpoint when it needs a game room.
 
-The overall architecture can be roughly represented as:
+#### 2. XYSKY UDP Node → QWD
+
+The XYSKY UDP Node connects to QWD through **WebSocket** and automatically registers itself as an available room server.
+
+For example, the Node's `config.yml` can contain:
+
+```yaml
+qwd:
+  url: "wss://thatroom.thatskyproject.cc"
+
+public_uri: "192.168.11.4:19133"
+```
+
+Here:
+
+- `qwd.url` is the **WebSocket endpoint of QWD**.
+- `public_uri` is the **publicly reachable UDP address of this XYSKY UDP Node**.
+- `public_uri` must point to the UDP port that clients can actually access.
+- When the XYSKY UDP Node starts, it connects to QWD and automatically registers this room endpoint.
+
+For example, if the server is actually exposed to clients as:
+
+```text
+203.0.113.42:19133
+```
+
+then the Node should advertise:
+
+```yaml
+public_uri: "203.0.113.42:19133"
+```
+
+The address configured in `public_uri` does not need to be the local bind address. It should be the address that can actually be reached by the game client.
+
+The overall architecture is:
 
 ```text
 XYSky
   │
-  │ Request a room
+  │ HTTP(S) /allocate
   ▼
 QWD / Room Authority
   │
-  │ /allocate
+  │ WebSocket
+  │ room registration
   ▼
-XYSKY UDP Room
+XYSKY UDP Node
   │
-  ├─ Player connections
-  ├─ PlayerState
-  ├─ Snapshot
-  ├─ Player transfer / MoveGame
-  └─ Real-time room synchronization
+  │ public_uri
+  ▼
+Sky Client
 ```
 
-The current XYSKY UDP implementation performs relatively strict field validation against the target client protocol. Therefore, it **should not be considered a cross-version generic UDP server**.
+A QWD-managed deployment therefore works as follows:
 
-Different versions of the Sky client may use different `PlayerState` and related data structures. Even if server-side validation is relaxed, the client itself may not be able to correctly process data from another protocol version.
+```text
+1. XYSKY UDP Node starts
+2. Node connects to QWD through WebSocket
+3. Node registers its public UDP endpoint
+4. Xysky requests a room from QWD through /allocate
+5. QWD returns an available room endpoint
+6. The client connects to the allocated XYSKY UDP Node
+```
 
-When the client and server versions do not match, issues such as being unable to freely select locations after entering the constellation screen, abnormal room states, or other synchronization problems may occur.
+> **Important:** `udp.uri` in XYSky and `qwd.url` in the XYSKY UDP Node serve different purposes and use different protocols.
+>
+> `udp.uri` → HTTP(S) QWD `/allocate` endpoint  
+> `qwd.url` → WebSocket QWD endpoint
 
-Therefore, when using XYSKY UDP, make sure that:
+### Standalone XYSKY UDP Without QWD
 
-> **The client version, XYSKY UDP protocol implementation, and data structures used by the XYSky backend are compatible with each other.**
+If QWD is not required and the deployment only needs a single **8-player room**, XYSKY UDP can run independently without a Room Authority.
+
+In this mode, set:
+
+```yaml
+qwd:
+  url: ""
+```
+
+This disables the QWD dependency. The XYSKY UDP Node will no longer register itself with QWD and can be used directly as a standalone room server.
+
+The UDP port exposed by the XYSKY UDP Node should then be reachable from the client, and the Xysky configuration should point directly to that public UDP address.
+
+For example, if the server exposes UDP port `1123` on the public IP `123.123.123.123`:
+
+```yaml
+udp:
+  uri: "123.123.123.123:1123"
+```
+
+The deployment then becomes:
+
+```text
+XYSky
+  │
+  │ Direct UDP connection
+  ▼
+XYSKY UDP Node
+  │
+  └─ Up to 8 players
+```
+
+In standalone mode, no `/allocate` request is required and no QWD server is required.
+
+> This mode is intended for simple deployments where a single XYSKY UDP Node is sufficient. For multiple rooms or multiple UDP Nodes, use QWD to handle room allocation and registration.
 
 ### ColorSky UDP
 
@@ -484,42 +575,62 @@ Depending on the client and server versions, ColorSky UDP may have differences s
 - Different protocol coverage compared with XYSKY UDP
 - Differences in player transfer or room behavior compared with the current XYSKY UDP implementation
 
-Therefore:
-
 > **When strict compatibility with the current Sky client protocol and complete room logic is required, XYSKY UDP should generally be preferred. For a lightweight Rust-based UDP Relay / Forwarding implementation, ColorSky UDP may be considered instead.**
 
 The current public ColorSky UDP repository provides Rust build instructions. It listens on `0.0.0.0:5413` by default and supports configuring the listening address and port through the CLI or `config.toml`.
 
 ### UDP Endpoint Configuration
 
-XYSky uses `udp.uri` to specify the UDP server endpoint:
+The correct `udp.uri` format depends on whether QWD is being used.
+
+#### With QWD
+
+Use the public HTTP(S) `/allocate` endpoint of QWD:
 
 ```yaml
 udp:
-  uri: "127.0.0.1:19132"
+  uri: "https://thatroom.xyqaq.cn/allocate"
 ```
 
-When using XYSKY UDP, this address should normally point to the actual UDP Room endpoint exposed to the client.
+The XYSKY UDP Node separately connects to QWD through WebSocket:
 
-For example:
+```yaml
+qwd:
+  url: "wss://thatroom.thatskyproject.cc"
+
+public_uri: "203.0.113.42:19133"
+```
+
+The Node automatically registers its `public_uri` with QWD after startup.
+
+#### Without QWD
+
+Disable QWD in the XYSKY UDP Node:
+
+```yaml
+qwd:
+  url: ""
+```
+
+Then point Xysky directly to the publicly accessible UDP endpoint:
 
 ```yaml
 udp:
-  uri: "127.0.0.1:19132"
+  uri: "123.123.123.123:1123"
 ```
 
-> **Note:** `udp.uri` should contain the UDP address that the client can actually reach, either through a public or internal network address. It should not simply be the server's local bind/listening address if that address is not reachable by the client.
+> **Note:** `udp.uri` should always describe the endpoint that the Xysky system should use to obtain or connect to a room. In a QWD-managed deployment, this is the QWD `/allocate` HTTP(S) endpoint. In a standalone deployment, this is the directly reachable UDP `IP:port`.
 
-### Choosing a UDP Implementation
+### Deployment Comparison
 
-| Implementation | Language | Role | Protocol Handling | Room / Transfer Support | Typical Use |
+| Deployment | QWD | Xysky `udp.uri` | XYSKY UDP Node `qwd.url` | XYSKY UDP Node `public_uri` | Use Case |
 |---|---|---|---|---|---|
-| **XYSKY UDP** | Node.js | Full Sky UDP Room Server | Full parsing and validation for the target client version | Full support | Primary UDP solution for XYSky |
-| **ColorSky UDP** | Rust | UDP Relay / Forwarding | Primarily focused on data forwarding | Different capabilities and implementation scope | Lightweight relay, experimental, or alternative deployments |
+| **QWD-managed** | Required | `https://.../allocate` | `wss://...` | Public UDP `IP:port` | Multiple rooms / multiple UDP Nodes |
+| **Standalone** | Not required | Public UDP `IP:port` | `""` | Public UDP `IP:port` | Single 8-player room |
 
 > XYSKY UDP and ColorSky UDP are **not two versions of the same project**. They are two independent UDP server implementations with different design goals and protocol coverage.
 >
-> Before deployment, choose the implementation according to the client version, protocol compatibility requirements, and the room functionality required by your deployment.
+> For XYSKY UDP deployments, QWD is optional. Use QWD when room allocation and management across multiple UDP Nodes are required; otherwise, a single XYSKY UDP Node can operate independently as an 8-player room.
 
 ## Current Status
 

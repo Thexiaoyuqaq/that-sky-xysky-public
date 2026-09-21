@@ -405,119 +405,277 @@ contentModeration:
 
 ## 配套 UDP 服务器
 
-XYSky 的 HTTP / WebSocket 服务端可以与独立的 UDP 服务端配合使用，用于处理游戏实时通信、房间以及玩家串线等实时网络逻辑。
+XYSky 的 HTTP / WebSocket 服务端可以与独立的 UDP 服务端配合使用，用于处理游戏实时通信、房间管理、玩家串线以及其他实时网络逻辑。
 
-目前主要有两套可选择的 UDP 实现。
+目前 XYSKY UDP 支持两种部署方式：
+
+- **使用 QWD（房间权威管理器）托管**：由 QWD 负责分配和管理 UDP 房间。
+- **不使用 QWD 独立运行**：单个 XYSKY UDP Node 直接提供一个最多 8 人的房间。
 
 ### XYSKY UDP
 
 **项目地址：**  
 https://github.com/that-sky-project/that-sky-xysky-udp-team
 
-**XYSKY UDP** 是目前 XYSky 生态中主要的 UDP 服务端实现，面向 **Sky: Children of the Light 34.5 客户端协议**，使用 Node.js 开发，并基于 ENet 提供可靠 UDP 游戏通信。
+**XYSKY UDP** 是目前 XYSky 生态中的主要 UDP 服务端实现，面向 **Sky: Children of the Light 34.5 客户端协议**，使用 Node.js 开发，并基于 ENet 提供可靠 UDP 游戏通信。
 
-当前公开版本包含较完整的实时联机逻辑，包括：
+当前公开实现包含较完整的实时联机逻辑，包括：
 
-- 完整的玩家串线（MoveGame）逻辑
+- 完整的玩家串线（`MoveGame`）逻辑
 - 房间管理与房间状态处理
 - 房间之间的迁移与切换
-- 针对当前协议字段的完整校验
-- 快照相关问题修复
+- 针对当前协议字段的严格校验
+- 快照（`Snapshot`）相关问题修复
 - 玩家加入、移动、断开等完整连接状态处理
 
-该项目同时配套独立的 **Room Authority / Room Manager（QWD）**：
+### 使用 QWD 的 XYSKY UDP
+
+当部署多个 UDP 房间服务器时，可以将 XYSKY UDP 与独立的 **Room Authority / Room Manager（QWD）** 配合使用：
 
 https://github.com/that-sky-project/that-sky-xysky-udp-room-authority
 
-QWD 负责房间的分配与管理，并提供：
+QWD 负责分配可用房间，并管理已经注册到 QWD 的 XYSKY UDP Node。
 
-```text
-GET /allocate
+在这种部署方式下，会涉及 **两个不同的 QWD 地址**。
+
+#### 1. XYSky → QWD
+
+XYSky 配置文件中的 `udp.uri` 应填写 **QWD 提供的 HTTP(S) `/allocate` 公网地址**。
+
+例如：
+
+```yaml
+udp:
+  uri: "https://thatroom.thatskyproject.cn/allocate"
 ```
 
-用于获取或分配可用游戏房间。
+当 XYSky 需要创建或获取游戏房间时，会向该地址请求可用房间。
 
-典型的整体关系可以理解为：
+#### 2. XYSKY UDP Node → QWD
+
+XYSKY UDP Node 则通过 **WebSocket** 连接 QWD，并在启动后自动向 QWD 注册当前房间节点。
+
+例如 XYSKY UDP Node 的 `config.yml`：
+
+```yaml
+qwd:
+  url: "wss://thatroom.thatskyproject.cc"
+
+public_uri: "192.168.11.4:19133"
+```
+
+其中：
+
+- `qwd.url` 是 **QWD 的 WebSocket 地址**。
+- `public_uri` 是 **这个 XYSKY UDP Node 对客户端开放的公网 UDP 地址**。
+- `public_uri` 必须填写客户端实际能够访问的 UDP `IP:端口`。
+- XYSKY UDP Node 启动后，会自动连接 QWD 并注册自己的 `public_uri`。
+
+例如服务器实际对外提供：
+
+```text
+123.123.123.123:19133
+```
+
+那么应配置：
+
+```yaml
+public_uri: "123.123.123.123:19133"
+```
+
+这里的 `public_uri` 不一定是服务器本地绑定的监听地址，而应该是**客户端实际可以访问的 UDP 地址**。
+
+整体架构可以理解为：
 
 ```text
 XYSky
   │
-  │ 请求房间
+  │ HTTP(S) /allocate
   ▼
-QWD / Room Authority
+QWD / 房间权威管理器
   │
-  │ /allocate
+  │ WebSocket
+  │ 房间注册
   ▼
-XYSKY UDP Room
+XYSKY UDP Node
   │
-  ├─ 玩家连接
-  ├─ PlayerState
-  ├─ Snapshot
-  ├─ 串线 / MoveGame
-  └─ 房间实时同步
+  │ public_uri
+  ▼
+Sky 客户端
 ```
 
-XYSKY UDP 当前实现针对目标客户端协议进行了较严格的字段校验，因此**不建议将其视为跨版本通用 UDP 服务端**。
+使用 QWD 时，整体流程如下：
 
-由于 Sky 不同客户端版本的 `PlayerState` 及相关数据结构存在差异，即使服务端选择放宽校验，客户端本身也可能无法正确处理其他版本的数据。在不匹配的版本组合下，可能出现进入星盘后无法正常自由点选、房间状态异常等兼容性问题。
+```text
+1. XYSKY UDP Node 启动
+2. Node 通过 WebSocket 连接 QWD
+3. Node 向 QWD 注册自己的公网 UDP 地址
+4. Xysky 通过 HTTP(S) /allocate 请求房间
+5. QWD 返回可用的 UDP 房间地址
+6. 客户端连接被分配到的 XYSKY UDP Node
+```
 
-因此，使用 XYSKY UDP 时应确保：
+> **注意：** XYSky 中的 `udp.uri` 和 XYSKY UDP Node 中的 `qwd.url` 用途完全不同，协议也不同。
+>
+> `udp.uri` → QWD 的 HTTP(S) `/allocate` 地址  
+> `qwd.url` → QWD 的 WebSocket 地址
 
-> **客户端版本、XYSKY UDP 协议实现以及 XYSky 后端所使用的数据结构保持一致。**
+### 不使用 QWD 的 XYSKY UDP
+
+如果不需要 QWD，并且只需要一个**最多 8 人的房间**，则可以让 XYSKY UDP Node 独立运行。
+
+此时将 XYSKY UDP Node 的：
+
+```yaml
+qwd:
+  url: "wss://thatroom.thatskyproject.cc"
+```
+
+修改为：
+
+```yaml
+qwd:
+  url: ""
+```
+
+这样 XYSKY UDP Node 就不会再依赖 QWD，也不会向 QWD 注册房间。
+
+此时 XYSKY UDP Node 可以直接作为独立的 8 人房间服务器使用。
+
+例如服务器公网 IP 为：
+
+```text
+123.123.123.123
+```
+
+并开放 UDP `1123` 端口，那么 Xysky 的配置可以直接填写：
+
+```yaml
+udp:
+  uri: "123.123.123.123:1123"
+```
+
+整体结构变为：
+
+```text
+XYSky
+  │
+  │ 直接连接 UDP
+  ▼
+XYSKY UDP Node
+  │
+  └─ 最多 8 人
+```
+
+这种模式下：
+
+- 不需要 QWD
+- 不需要 `/allocate`
+- 不需要注册房间
+- Xysky 直接使用指定的 UDP `IP:Port`
+- 一个 XYSKY UDP Node 对应一个独立房间
+
+> 该模式适合简单部署。如果需要多个 UDP Node、多个房间或者动态房间分配，则应使用 QWD。
 
 ### ColorSky UDP
 
 **项目地址：**  
 https://github.com/that-sky-project/that-sky-colorsky-udp
 
-**ColorSky UDP** 是另一套独立的 UDP Server / Relay 实现，使用 Rust 编写，并基于 ENet 进行 UDP 通信。
+**ColorSky UDP** 是另一套独立的 UDP Server / Relay 实现，使用 Rust 编写，并基于 ENet 进行 UDP 通信，同时使用 CRC32 对数据包进行校验。
 
-与 XYSKY UDP 相比，ColorSky UDP 的设计更加偏向于 **UDP relay / forwarding**，并没有对大量 Sky 协议字段进行完整解析，而是更侧重于网络数据的转发。
+与 XYSKY UDP 相比，ColorSky UDP 的设计更加偏向于 **UDP Relay / Forwarding（中继 / 转发）**。
+
+它并没有对大量 Sky 协议字段进行完整解析，而是更加侧重于网络数据的转发。
 
 因此，它可以作为 XYSky 的另一种 UDP 部署方案，但需要注意其与当前客户端协议之间的差异。
 
-ColorSky UDP 可能存在以下情况：
+根据客户端与服务器版本的不同，ColorSky UDP 可能存在：
 
 - 协议实现相对滞后
 - 部分字段没有进行完整解析
-- 与当前版本客户端存在兼容性差异
+- 与当前客户端版本存在兼容性差异
 - 与 XYSKY UDP 的协议覆盖范围不同
-- 某些串线或房间行为可能与当前版本实现存在差异
+- 部分串线或房间行为与当前 XYSKY UDP 实现存在差异
 
-因此：
+> **如果需要严格匹配当前 Sky 客户端协议以及完整的房间逻辑，建议优先使用 XYSKY UDP。**
+>
+> **如果需要一个较轻量的 Rust UDP Relay / Forwarding 实现，则可以考虑 ColorSky UDP。**
 
-> **需要严格匹配当前 Sky 客户端协议与完整房间逻辑时，建议优先使用 XYSKY UDP；需要一个较轻量的 Rust UDP Relay / Forwarding 实现时，可以考虑 ColorSky UDP。**
+ColorSky UDP 当前公开仓库提供 Rust 构建方式，默认监听：
 
-ColorSky UDP 当前公开仓库提供 Rust 构建方式，默认监听 `0.0.0.0:5413`，支持通过 CLI 或 `config.toml` 配置监听地址与端口。
+```text
+0.0.0.0:5413
+```
+
+并支持通过 CLI 或 `config.toml` 配置监听地址与端口。
 
 ### UDP Endpoint 配置
 
-XYSky 通过 `udp.uri` 指向 UDP 服务端：
+`udp.uri` 的填写方式取决于是否使用 QWD。
+
+#### 使用 QWD
+
+Xysky：
 
 ```yaml
 udp:
-  uri: "127.0.0.1:19132"
+  uri: "https://thatroom.xyqaq.cn/allocate"
 ```
 
-使用 XYSKY UDP 时，该地址通常应指向实际对客户端提供服务的 UDP Room。
+XYSKY UDP Node：
 
-例如：
+```yaml
+qwd:
+  url: "wss://thatroom.thatskyproject.cc"
+
+public_uri: "123.123.123.123:19133"
+```
+
+其中：
+
+- `udp.uri` → QWD 的 HTTP(S) `/allocate` 公网地址
+- `qwd.url` → QWD 的 WebSocket 地址
+- `public_uri` → 当前 XYSKY UDP Node 对客户端开放的公网 UDP 地址
+
+XYSKY UDP Node 启动后会自动向 QWD 注册 `public_uri`。
+
+#### 不使用 QWD
+
+XYSKY UDP Node：
+
+```yaml
+qwd:
+  url: ""
+```
+
+Xysky：
 
 ```yaml
 udp:
-  uri: "127.0.0.1:19132"
+  uri: "123.123.123.123:1123"
 ```
 
-> 请注意，`udp.uri` 应填写客户端实际能够访问的公网或内网 UDP 地址，而不是仅用于服务端绑定的监听地址。
+此时 Xysky 会直接使用该公网 UDP 地址连接 XYSKY UDP Node。
 
-### UDP 实现选择
+> **注意：**
+>
+> 使用 QWD 时，`udp.uri` 不是 UDP 地址，而是 **QWD 的 HTTP(S) `/allocate` 地址**。
+>
+> 不使用 QWD 时，`udp.uri` 才直接填写 **XYSKY UDP Node 的公网 UDP `IP:Port`**。
+>
+> 同时，XYSKY UDP Node 的 `public_uri` 必须是客户端实际能够访问的公网 UDP 地址。
 
-| 实现 | 语言 | 定位 | 协议处理 | 房间 / 串线 | 适合场景 |
-| --- | --- | --- | --- | --- | --- |
-| **XYSKY UDP** | Node.js | 完整 Sky UDP Room Server | 针对目标版本进行完整解析与校验 | 完整支持 | 当前 XYSky 主 UDP 方案 |
-| **ColorSky UDP** | Rust | UDP Relay / Forwarding | 更偏向数据转发 | 能力与实现范围不同 | 轻量 Relay、实验或替代方案 |
+### 部署方式对比
 
-> XYSKY UDP 与 ColorSky UDP 并不是同一个项目的两个版本，而是两套独立的 UDP 服务端实现。使用前请根据客户端版本、协议兼容性以及实际房间需求进行选择。
+| 部署方式 | QWD | Xysky `udp.uri` | XYSKY UDP Node `qwd.url` | XYSKY UDP Node `public_uri` | 适用场景 |
+|---|---|---|---|---|---|
+| **QWD 托管模式** | 需要 | `https://.../allocate` | `wss://...` | 公网 UDP `IP:Port` | 多房间 / 多 UDP Node |
+| **独立模式** | 不需要 | 公网 UDP `IP:Port` | `""` | 公网 UDP `IP:Port` | 单个 8 人房间 |
+
+> XYSKY UDP 与 ColorSky UDP **不是同一个项目的两个版本**，而是两套独立的 UDP 服务端实现，在设计目标和协议覆盖范围上均有所不同。
+>
+> 对于 XYSKY UDP，**QWD 并不是必须的**。需要房间分配、多节点管理时使用 QWD；仅需要一个独立的 8 人房间时，可以直接关闭 QWD 依赖并让 XYSKY UDP Node 独立运行。
 
 ---
 
