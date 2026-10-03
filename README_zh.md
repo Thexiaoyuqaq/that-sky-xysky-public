@@ -149,7 +149,6 @@ flowchart LR
 
 2. 根据系统从 [Releases](https://github.com/Thexiaoyuqaq/that-sky-xysky-public/releases) 页面下载对应的二进制程序。
 
-   > Windows 用户需额外下载证书 `xysky-local-code-signing.cer`，并将其安装到“受信任的根证书颁发机构”。
 
 3. 解压部署：将压缩包内容解压到 `that-sky-xysky-public` 目录中，与 `config/`、`data/` 同级。
 
