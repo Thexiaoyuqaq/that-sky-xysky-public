@@ -1,0 +1,2141 @@
+version: 3
+baseTime: 1587366000
+timezone: Asia/Shanghai
+validWindowSec: 1800
+defaults:
+  duration: 9999999
+anchors:
+  season_ap31: '2026-01-05T21:13:20'
+  season_ap29: '2026-01-16T16:00:00'
+  season_ap09: '2021-01-04T16:00:00'
+  season_ap10: '2021-04-05T15:00:00'
+  season_ap12: '2021-10-04T15:00:00'
+  season_ap13: '2022-01-17T16:00:00'
+  season_ap14: '2022-04-11T15:00:00'
+  season_ap16: '2022-10-17T15:00:00'
+  season_ap17: '2023-01-16T16:00:00'
+  season_ap18: '2023-04-17T15:00:00'
+  season_ap19: '2023-07-17T15:00:00'
+  season_ap20: '2023-10-16T15:00:00'
+  season_ap21: '2024-01-15T16:00:00'
+  season_ap22: '2024-04-15T15:00:00'
+  season_ap23: '2024-07-15T15:00:00'
+  season_ap24: '2024-10-14T15:00:00'
+  season_ap25: '2025-01-20T16:00:00'
+  season_ap26: '2025-04-21T15:00:00'
+  season_ap27: '2025-07-21T15:00:00'
+  season_ap28: '2025-10-20T15:00:00'
+  seasons: '2020-04-20T15:00:00'
+  ap06_unlocks: '2020-04-20T15:00:00'
+  season_ap30: '2026-01-05T21:13:20'
+collections:
+  - id: season_ap31
+    title: Season AP31
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap31_fetch_01
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_01_painting
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_02
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_02_painting
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_02_painting_part1
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_02_painting_part10
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_02_painting_part2
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_02_painting_part3
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_02_painting_part4
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_02_painting_part5
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_02_painting_part6
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_02_painting_part7
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_02_painting_part8
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_02_painting_part9
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_03
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_03_painting
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_03_painting_part1
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_03_painting_part2
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_03_painting_part3
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_04
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_04_painting
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_05
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_05_painting
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_06
+        anchor: season_ap31
+        duration: 99999999
+      - id: quest_ap31_fetch_06_painting
+        anchor: season_ap31
+        duration: 99999999
+  - id: season_ap29
+    title: Season AP29
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: ap29_fetch_01_revolvingdance
+        anchor: season_ap29
+        duration: 99999999
+      - id: ap29_fetch_02_revolvingdance
+        anchor: season_ap29
+        offset: 1d
+        duration: 99999999
+      - id: ap29_fetch_03_revolvingdance
+        anchor: season_ap29
+        offset: 7d
+        duration: 99999999
+      - id: ap29_fetch_04_cuteclap
+        anchor: season_ap29
+        offset: 14d
+        duration: 99999999
+      - id: ap29_fetch_05_cuteclap
+        anchor: season_ap29
+        offset: 21d
+        duration: 99999999
+      - id: ap29_fetch_06_cuteclap
+        anchor: season_ap29
+        offset: 28d
+        duration: 99999999
+      - id: ap29_fetch_07_secret
+        anchor: season_ap29
+        offset: 35d
+        duration: 99999999
+      - id: ap29_fetch_08_secret
+        anchor: season_ap29
+        offset: 42d
+        duration: 99999999
+      - id: ap29_fetch_09_secret
+        anchor: season_ap29
+        offset: 49d
+        duration: 99999999
+      - id: ap29_fetch_10_whisper
+        anchor: season_ap29
+        offset: 55d23h
+        duration: 99999999
+      - id: ap29_fetch_11_whisper
+        anchor: season_ap29
+        offset: 62d23h
+        duration: 99999999
+      - id: ap29_fetch_12_whisper
+        anchor: season_ap29
+        offset: 69d23h
+        duration: 99999999
+      - id: quest_ap29_fetch_01
+        anchor: season_ap29
+        duration: 99999999
+      - id: quest_ap29_fetch_02
+        anchor: season_ap29
+        offset: 1d
+        duration: 99999999
+      - id: quest_ap29_fetch_03
+        anchor: season_ap29
+        offset: 7d
+        duration: 99999999
+      - id: quest_ap29_fetch_04
+        anchor: season_ap29
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap29_fetch_05
+        anchor: season_ap29
+        offset: 21d
+        duration: 99999999
+      - id: quest_ap29_fetch_06
+        anchor: season_ap29
+        offset: 28d
+        duration: 99999999
+      - id: quest_ap29_fetch_07
+        anchor: season_ap29
+        offset: 35d
+        duration: 99999999
+      - id: quest_ap29_fetch_08
+        anchor: season_ap29
+        offset: 42d
+        duration: 99999999
+      - id: quest_ap29_fetch_09
+        anchor: season_ap29
+        offset: 49d
+        duration: 99999999
+      - id: quest_ap29_fetch_10
+        anchor: season_ap29
+        offset: 55d23h
+        duration: 99999999
+      - id: quest_ap29_fetch_11
+        anchor: season_ap29
+        offset: 62d23h
+        duration: 99999999
+      - id: quest_ap29_fetch_12
+        anchor: season_ap29
+        offset: 69d23h
+        duration: 99999999
+  - id: collectibles
+    title: Collectibles
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: collectible_armoire1
+        at: '2026-01-05T21:13:20'
+        duration: 110880
+      - id: collectible_armoire2
+        at: '2026-01-05T21:13:20'
+        duration: 110880
+      - id: collectible_bask
+        at: '2026-01-05T21:13:20'
+        duration: 110880
+      - id: collectible_draw
+        at: '2026-01-05T21:13:20'
+        duration: 110880
+      - id: collectible_frustration
+        at: '2026-01-05T21:13:20'
+        duration: 110880
+      - id: collectible_slowwalk
+        at: '2026-01-05T21:13:20'
+        duration: 110880
+      - id: collectible_cough
+        at: '2025-04-21T15:00:00'
+        duration: 99999999
+      - id: collectible_duetbow
+        at: '2024-08-12T15:00:00'
+        duration: 99999999
+      - id: collectible_questap23_duo
+        at: '2024-08-12T15:00:00'
+        duration: 99999999
+      - id: collectible_reading
+        at: '2024-10-14T15:00:00'
+        duration: 99999999
+      - id: collectible_armwave
+        daily: '00:00'
+        days: 2
+        duration: 1440
+      - id: collectible_backflip
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_beacon
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_bird
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_bow
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_brave
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_butterfly
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_cape
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_cheer
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_cold
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_come
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_cry
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_die
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_float
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_force
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_ghost
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_guard
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_handstand
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_laugh
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_lighthorn
+        daily: '00:00'
+        days: 2
+        duration: 1440
+      - id: collectible_lookaround
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_love
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_manatee
+        daily: '00:00'
+        days: 2
+        duration: 1440
+      - id: collectible_manta
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_nothanks
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_ohno
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_point
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_pout
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_pray
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_proud
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_raisetheroof
+        daily: '00:00'
+        days: 2
+        duration: 1440
+      - id: collectible_rhythmicclap
+        daily: '00:00'
+        days: 2
+        duration: 1440
+      - id: collectible_salute
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_scared
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_seek
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_shy
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_sneaky
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_sorry
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_strong
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_thumbsup
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_twirl
+        daily: '00:00'
+        days: 2
+        duration: 1440
+      - id: collectible_wave
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_whale
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_wipe
+        daily: '00:00'
+        duration: 1440
+      - id: collectible_yawn
+        daily: '00:00'
+        duration: 1440
+  - id: dusk
+    title: Dusk
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: dusk_embersanctuary_on
+        at: '2025-08-29T15:00:00'
+        duration: 99999999
+      - id: dusk_darkstone_0
+        daily: '00:00'
+        duration: 1440
+      - id: dusk_darkstone_1
+        daily: '00:00'
+        duration: 1440
+  - id: evergreen_misc
+    title: Evergreen Misc
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: enable_dye_shop
+        at: '2025-08-28T15:00:00'
+        duration: 99999999
+      - id: feast_toyvendorforever
+        at: '2023-12-18T16:00:00'
+        duration: 99999999
+      - id: personality_quiz_evergreen
+        at: '2026-01-09T16:00:00'
+        duration: 99999999
+      - id: quest_cafe_serving
+        at: '2024-04-27T15:00:00'
+        duration: 99999999
+      - id: quest_competition_cloudcollect
+        at: '2024-07-29T15:00:00'
+        duration: 99999999
+      - id: quest_competition_flyrace
+        at: '2024-07-29T15:00:00'
+        duration: 99999999
+      - id: quest_competition_sliderace
+        at: '2024-07-29T15:00:00'
+        duration: 99999999
+      - id: quest_competition_speedskate
+        at: '2024-07-29T15:00:00'
+        duration: 99999999
+      - id: quest_competition_voidcollect
+        at: '2024-07-29T15:00:00'
+        duration: 99999999
+      - id: quest_sunset_yeti_race
+        at: '2022-12-19T16:00:00'
+        duration: 99999999
+      - id: sunset_village_fishing
+        at: '2022-12-19T16:00:00'
+        duration: 99999999
+      - id: sunset_village_spell_shop
+        at: '2022-12-19T16:00:00'
+        duration: 99999999
+      - id: wing_buff_conversion_period
+        at: '2026-04-05T15:00:00'
+        duration: 10080
+      - id: quest_scavenger_spirit_beachday1
+        daily: '00:00'
+        duration: 1440
+      - id: quest_scavenger_spirit_beachday2
+        daily: '00:00'
+        duration: 1440
+      - id: quest_scavenger_spirit_rockcollection1
+        daily: '00:00'
+        duration: 1440
+      - id: quest_sunset_flyrace
+        daily: '00:00'
+        duration: 1440
+      - id: quest_sunset_race
+        daily: '00:00'
+        duration: 1440
+  - id: nature
+    title: nature
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: nature_geyser_on
+        at: '2021-04-19T15:00:00'
+        duration: 99999999
+      - id: quest_nature_vortex1
+        at: '2023-04-20T15:00:00'
+        duration: 99999999
+      - id: quest_nature_vortex2
+        at: '2023-04-20T15:00:00'
+        duration: 99999999
+      - id: quest_nature_vortex3
+        at: '2023-04-20T15:00:00'
+        duration: 99999999
+  - id: realm_daily_quests
+    title: Realm Daily Quests
+    enabled: true
+    select:
+      mode: random
+      count: 1
+      salt: realm_daily_quests
+      avoidRepeatDays: 1
+    events:
+      - id: night_quest
+        daily: '00:00'
+        duration: 1440
+      - id: dusk_quest
+        daily: '00:00'
+        duration: 1440
+      - id: sunset_quest
+        daily: '00:00'
+        duration: 1440
+      - id: rain_quest
+        daily: '00:00'
+        duration: 1440
+      - id: prairie_quest
+        daily: '00:00'
+        duration: 1440
+  - id: global_events
+    title: Global Events
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: global_cafe_open
+        at: '2024-04-27T15:00:00'
+        duration: 99999999
+      - id: global_feast_wonderland
+        at: '2024-12-23T16:00:00'
+        duration: 99999999
+      - id: global_mainstreet
+        at: '2023-11-27T16:00:00'
+        duration: 99999999
+      - id: global_musicshop_sale
+        at: '2024-11-25T16:00:00'
+        duration: 99999999
+      - id: global_pc_launch
+        at: '2024-04-10T15:00:00'
+        duration: 99999999
+      - id: global_transcendent_traveler
+        at: '2025-03-17T15:00:00'
+        duration: 99999999
+      - id: global_violin
+        at: '2023-07-03T15:00:00'
+        duration: 99999999
+      - id: global_merchandise_live
+        at: '2026-03-17T09:00:00'
+        duration: 81000
+      - id: global_flowflowerpack_launch
+        at: '2026-05-15T15:00:00'
+        duration: 99999999
+      - id: global_flowflowerjourney_evergreen
+        at: '2026-05-26T15:00:00'
+        duration: 99999999
+      - id: global_ball_beach
+        at: '2026-04-01T15:00:00'
+        duration: 308160
+      - id: global_weekend_shop2
+        at:
+          - '2026-04-17T15:00:00'
+          - '2026-05-01T15:00:00'
+        duration: 1440
+      - id: global_wing_none
+        at: '2026-01-01T16:00:00'
+        duration: 99999999
+      - id: global_sky_anniversary
+        at: '2026-07-03T15:00:00'
+        duration: 30240
+      - id: global_summer
+        at: '2026-07-31T15:00:00'
+        duration: 30240
+      - id: global_qixi_couple
+        daily: '00:00'
+        duration: 1440
+      - id: global_office_shop
+        at: '2025-07-07T15:00:00'
+        duration: 99999999
+      - id: global_weekend_shop
+        daily: '00:00'
+        days: 2
+        duration: 1440
+      - id: global_rosegarden_forever
+        at: '2025-04-08T15:00:00'
+        duration: 99999999
+      - id: global_daily_reset_time
+        daily: '00:00'
+        days: 2
+        duration: 1440
+  - id: season_ap09
+    title: Season AP09
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap09_fetch_01
+        anchor: season_ap09
+        duration: 99999999
+      - id: quest_ap09_fetch_02
+        anchor: season_ap09
+        offset: 7d
+        duration: 99999999
+      - id: quest_ap09_fetch_03
+        anchor: season_ap09
+        offset: 21d
+        duration: 99999999
+      - id: quest_ap09_fetch_04
+        anchor: season_ap09
+        offset: 35d
+        duration: 99999999
+  - id: season_ap10
+    title: Season AP10
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap10_fetch_01
+        anchor: season_ap10
+        duration: 99999999
+      - id: quest_ap10_fetch_02
+        anchor: season_ap10
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap10_fetch_03
+        anchor: season_ap10
+        offset: 28d
+        duration: 99999999
+      - id: quest_ap10_fetch_04
+        anchor: season_ap10
+        offset: 35d
+        duration: 99999999
+      - id: quest_ap10_fetch_05
+        anchor: season_ap10
+        offset: 42d
+        duration: 99999999
+      - id: quest_ap10_fetch_06
+        anchor: season_ap10
+        offset: 56d
+        duration: 99999999
+  - id: season_ap11
+    title: Season AP11
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap11_fetch_04
+        at: '2021-08-02T15:00:00'
+        duration: 99999999
+  - id: season_ap12
+    title: Season AP12
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap12_fetch_01
+        anchor: season_ap12
+        duration: 99999999
+      - id: quest_ap12_fetch_02
+        anchor: season_ap12
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap12_fetch_03
+        anchor: season_ap12
+        offset: 28d
+        duration: 99999999
+      - id: quest_ap12_fetch_04
+        anchor: season_ap12
+        offset: 42d1h
+        duration: 99999999
+      - id: quest_ap12_fetch_05
+        anchor: season_ap12
+        offset: 56d1h
+        duration: 99999999
+  - id: season_ap13
+    title: Season AP13
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap13_fetch_01
+        anchor: season_ap13
+        duration: 99999999
+      - id: quest_ap13_fetch_02
+        anchor: season_ap13
+        offset: 7d
+        duration: 99999999
+      - id: quest_ap13_fetch_03
+        anchor: season_ap13
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap13_fetch_04
+        anchor: season_ap13
+        offset: 28d
+        duration: 99999999
+      - id: quest_ap13_fetch_05
+        anchor: season_ap13
+        offset: 49d
+        duration: 99999999
+  - id: tgc_office
+    title: Tgc_Office
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: tgcoffice_behavior_employees
+        at: '2026-07-03T15:00:00'
+        duration: 99999999
+      - id: quest_tgc_office_travis
+        daily: '00:00'
+        duration: 1440
+  - id: season_ap14
+    title: Season AP14
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap14_fetch_01
+        anchor: season_ap14
+        duration: 99999999
+      - id: quest_ap14_fetch_02
+        anchor: season_ap14
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap14_fetch_03
+        anchor: season_ap14
+        offset: 28d
+        duration: 99999999
+      - id: quest_ap14_fetch_04
+        anchor: season_ap14
+        offset: 42d
+        duration: 99999999
+      - id: quest_ap14_fetch_05
+        anchor: season_ap14
+        offset: 56d
+        duration: 99999999
+  - id: season_ap16
+    title: Season AP16
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap16_fetch_01
+        anchor: season_ap16
+        duration: 99999999
+      - id: quest_ap16_fetch_02
+        anchor: season_ap16
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap16_fetch_03
+        anchor: season_ap16
+        offset: 28d1h
+        duration: 99999999
+      - id: quest_ap16_fetch_04
+        anchor: season_ap16
+        offset: 42d1h
+        duration: 99999999
+      - id: quest_ap16_fetch_05
+        anchor: season_ap16
+        offset: 52d18h
+        duration: 99999999
+  - id: season_ap17
+    title: Season AP17
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap17_fetch_01
+        anchor: season_ap17
+        duration: 99999999
+      - id: quest_ap17_fetch_03
+        anchor: season_ap17
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap17_fetch_05
+        anchor: season_ap17
+        offset: 28d
+        duration: 99999999
+      - id: quest_ap17_fetch_07
+        anchor: season_ap17
+        offset: 42d
+        duration: 99999999
+      - id: quest_ap17_fetch_09
+        anchor: season_ap17
+        offset: 62d23h
+        duration: 99999999
+  - id: season_ap18
+    title: Season AP18
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap18_fetch_01
+        anchor: season_ap18
+        duration: 99999999
+      - id: quest_ap18_fetch_02
+        anchor: season_ap18
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap18_fetch_03
+        anchor: season_ap18
+        offset: 28d
+        duration: 99999999
+      - id: quest_ap18_fetch_04
+        anchor: season_ap18
+        offset: 45d
+        duration: 99999999
+      - id: quest_ap18_fetch_05
+        anchor: season_ap18
+        offset: 56d
+        duration: 99999999
+  - id: season_ap19
+    title: Season AP19
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap19_fetch_01
+        anchor: season_ap19
+        duration: 99999999
+      - id: quest_ap19_fetch_02
+        anchor: season_ap19
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap19_fetch_03
+        anchor: season_ap19
+        offset: 28d
+        duration: 99999999
+      - id: quest_ap19_fetch_04
+        anchor: season_ap19
+        offset: 42d
+        duration: 99999999
+      - id: quest_ap19_fetch_05
+        anchor: season_ap19
+        offset: 63d
+        duration: 99999999
+  - id: season_ap20
+    title: Season AP20
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap20_fetch_01
+        anchor: season_ap20
+        duration: 99999999
+      - id: quest_ap20_fetch_02
+        anchor: season_ap20
+        offset: 7d
+        duration: 99999999
+      - id: quest_ap20_fetch_03
+        anchor: season_ap20
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap20_fetch_04
+        anchor: season_ap20
+        offset: 28d1h
+        duration: 99999999
+      - id: quest_ap20_fetch_05
+        anchor: season_ap20
+        offset: 35d1h
+        duration: 99999999
+      - id: quest_ap20_fetch_06
+        anchor: season_ap20
+        offset: 42d1h
+        duration: 99999999
+      - id: quest_ap20_fetch_07
+        anchor: season_ap20
+        offset: 49d1h
+        duration: 99999999
+      - id: quest_ap20_fetch_08
+        anchor: season_ap20
+        offset: 63d1h
+        duration: 99999999
+      - id: quest_ap20_fetch_09
+        anchor: season_ap20
+        offset: 57d1h
+        duration: 99999999
+      - id: quest_ap20_fetch_10
+        anchor: season_ap20
+        offset: 70d1h
+        duration: 99999999
+  - id: season_ap21
+    title: Season AP21
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap21_fetch_01
+        anchor: season_ap21
+        duration: 99999999
+      - id: quest_ap21_fetch_02
+        anchor: season_ap21
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap21_fetch_03
+        anchor: season_ap21
+        offset: 28d
+        duration: 99999999
+      - id: quest_ap21_fetch_04
+        anchor: season_ap21
+        offset: 42d
+        duration: 99999999
+      - id: quest_ap21_fetch_05
+        anchor: season_ap21
+        offset: 55d23h
+        duration: 99999999
+      - id: quest_ap21_fetch_05_part02
+        anchor: season_ap21
+        offset: 55d23h
+        duration: 99999999
+  - id: season_ap22
+    title: Season AP22
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap22_fetch_01
+        anchor: season_ap22
+        duration: 99999999
+      - id: quest_ap22_fetch_02
+        anchor: season_ap22
+        offset: 7d
+        duration: 99999999
+      - id: quest_ap22_fetch_03
+        anchor: season_ap22
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap22_fetch_04
+        anchor: season_ap22
+        offset: 42d
+        duration: 99999999
+      - id: quest_ap22_fetch_05
+        anchor: season_ap22
+        offset: 56d
+        duration: 99999999
+      - id: quest_ap22_miniHouse_01
+        anchor: season_ap22
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap22_miniHouse_02
+        anchor: season_ap22
+        offset: 21d
+        duration: 99999999
+      - id: quest_ap22_miniHouse_03
+        anchor: season_ap22
+        offset: 42d
+        duration: 99999999
+      - id: quest_ap22_miniShop_01
+        anchor: season_ap22
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap22_miniShop_02
+        anchor: season_ap22
+        offset: 35d
+        duration: 99999999
+      - id: quest_ap22_miniShop_03
+        anchor: season_ap22
+        offset: 56d
+        duration: 99999999
+      - id: quest_ap22_miniSocial_01
+        anchor: season_ap22
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap22_miniSocial_02
+        anchor: season_ap22
+        offset: 42d
+        duration: 99999999
+      - id: quest_ap22_miniSocial_03
+        anchor: season_ap22
+        offset: 49d
+        duration: 99999999
+  - id: season_ap23
+    title: Season AP23
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap23_fetch_01
+        anchor: season_ap23
+        duration: 99999999
+      - id: quest_ap23_fetch_02
+        anchor: season_ap23
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap23_fetch_03
+        anchor: season_ap23
+        offset: 28d
+        duration: 99999999
+      - id: quest_ap23_fetch_04
+        anchor: season_ap23
+        offset: 42d
+        duration: 99999999
+      - id: quest_ap23_fetch_05
+        anchor: season_ap23
+        offset: 56d
+        duration: 99999999
+  - id: season_ap24
+    title: Season AP24
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap24_fetch_01
+        anchor: season_ap24
+        duration: 99999999
+      - id: quest_ap24_fetch_02
+        anchor: season_ap24
+        duration: 99999999
+      - id: quest_ap24_fetch_03
+        anchor: season_ap24
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap24_fetch_04
+        anchor: season_ap24
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap24_fetch_05
+        anchor: season_ap24
+        offset: 28d1h
+        duration: 99999999
+      - id: quest_ap24_fetch_06
+        anchor: season_ap24
+        offset: 28d1h
+        duration: 99999999
+      - id: quest_ap24_fetch_07
+        anchor: season_ap24
+        offset: 42d1h
+        duration: 99999999
+      - id: quest_ap24_fetch_08
+        anchor: season_ap24
+        offset: 42d1h
+        duration: 99999999
+      - id: quest_ap24_fetch_09
+        anchor: season_ap24
+        offset: 49d1h
+        duration: 99999999
+      - id: quest_ap24_fetch_10
+        anchor: season_ap24
+        offset: 49d1h
+        duration: 99999999
+      - id: quest_ap24_fetch_11
+        anchor: season_ap24
+        offset: 56d1h
+        duration: 99999999
+      - id: quest_ap24_fetch_12
+        anchor: season_ap24
+        offset: 56d1h
+        duration: 99999999
+      - id: quest_ap24_sidequest_01
+        anchor: season_ap24
+        duration: 99999999
+      - id: quest_ap24_sidequest_02
+        anchor: season_ap24
+        duration: 99999999
+      - id: quest_ap24_sidequest_03
+        anchor: season_ap24
+        duration: 99999999
+      - id: quest_ap24_sidequest_04
+        anchor: season_ap24
+        duration: 99999999
+      - id: quest_ap24_sidequest_06
+        anchor: season_ap24
+        duration: 99999999
+      - id: quest_ap24_sidequest_07
+        anchor: season_ap24
+        duration: 99999999
+  - id: season_ap25
+    title: Season AP25
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap25_fetch_01
+        anchor: season_ap25
+        duration: 99999999
+      - id: quest_ap25_fetch_02
+        anchor: season_ap25
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap25_fetch_03
+        anchor: season_ap25
+        offset: 28d
+        duration: 99999999
+      - id: quest_ap25_fetch_04
+        anchor: season_ap25
+        offset: 42d
+        duration: 99999999
+      - id: quest_ap25_fetch_05
+        anchor: season_ap25
+        offset: 55d23h
+        duration: 99999999
+  - id: season_ap26
+    title: Season AP26
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap26_fetch_01
+        anchor: season_ap26
+        duration: 99999999
+      - id: quest_ap26_fetch_02
+        anchor: season_ap26
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap26_fetch_03
+        anchor: season_ap26
+        offset: 28d
+        duration: 99999999
+      - id: quest_ap26_fetch_04
+        anchor: season_ap26
+        offset: 42d
+        duration: 99999999
+      - id: quest_ap26_fetch_05
+        anchor: season_ap26
+        offset: 56d
+        duration: 99999999
+      - id: quest_ap26_fetch_06
+        anchor: season_ap26
+        offset: 70d
+        duration: 99999999
+  - id: season_ap27
+    title: Season AP27
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap27_fetch_01
+        anchor: season_ap27
+        duration: 99999999
+      - id: quest_ap27_fetch_02
+        anchor: season_ap27
+        offset: 7d
+        duration: 99999999
+      - id: quest_ap27_fetch_02_part1
+        anchor: season_ap27
+        offset: 7d
+        duration: 99999999
+      - id: quest_ap27_fetch_02_part2
+        anchor: season_ap27
+        offset: 7d
+        duration: 99999999
+      - id: quest_ap27_fetch_02_part3
+        anchor: season_ap27
+        offset: 7d
+        duration: 99999999
+      - id: quest_ap27_fetch_03
+        anchor: season_ap27
+        offset: 14d
+        duration: 99999999
+      - id: quest_ap27_fetch_04
+        anchor: season_ap27
+        offset: 21d
+        duration: 99999999
+      - id: quest_ap27_fetch_05
+        anchor: season_ap27
+        offset: 39d
+        duration: 99999999
+      - id: quest_ap27_manatee_01
+        anchor: season_ap27
+        offset: 39d
+        duration: 99999999
+      - id: AP27CapeHealingSpa
+        daily: '00:00'
+        days: 2
+        duration: 1439
+  - id: season_ap28
+    title: Season AP28
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap28_fetch_01
+        anchor: season_ap28
+        duration: 99999999
+      - id: quest_ap28_fetch_01_bells
+        anchor: season_ap28
+        duration: 99999999
+      - id: quest_ap28_fetch_02
+        anchor: season_ap28
+        offset: 7d
+        duration: 99999999
+      - id: quest_ap28_fetch_02_bells
+        anchor: season_ap28
+        offset: 7d
+        duration: 99999999
+      - id: quest_ap28_fetch_03
+        anchor: season_ap28
+        offset: 14d1h
+        duration: 99999999
+      - id: quest_ap28_fetch_03_bells
+        anchor: season_ap28
+        offset: 14d1h
+        duration: 99999999
+      - id: quest_ap28_fetch_04
+        anchor: season_ap28
+        offset: 21d1h
+        duration: 99999999
+      - id: quest_ap28_fetch_04_bells
+        anchor: season_ap28
+        offset: 21d1h
+        duration: 99999999
+      - id: quest_ap28_fetch_05
+        anchor: season_ap28
+        offset: 28d1h
+        duration: 99999999
+      - id: quest_ap28_fetch_05_bells
+        anchor: season_ap28
+        offset: 28d1h
+        duration: 99999999
+      - id: quest_ap28_fetch_06
+        anchor: season_ap28
+        offset: 35d1h
+        duration: 99999999
+      - id: quest_ap28_fetch_06_bells
+        anchor: season_ap28
+        offset: 35d1h
+        duration: 99999999
+      - id: quest_ap28_fetch_07
+        anchor: season_ap28
+        offset: 42d1h
+        duration: 99999999
+      - id: quest_ap28_fetch_07_bells
+        anchor: season_ap28
+        offset: 42d1h
+        duration: 99999999
+      - id: quest_ap28_fetch_08
+        anchor: season_ap28
+        offset: 49d1h
+        duration: 99999999
+      - id: quest_ap28_fetch_08_bells
+        anchor: season_ap28
+        offset: 49d1h
+        duration: 99999999
+      - id: quest_ap28_fetch_09
+        anchor: season_ap28
+        offset: 56d1h
+        duration: 99999999
+      - id: quest_ap28_fetch_09_bells
+        anchor: season_ap28
+        offset: 56d1h
+        duration: 99999999
+      - id: quest_ap28_fetch_10
+        anchor: season_ap28
+        offset: 63d1h
+        duration: 99999999
+      - id: quest_ap28_fetch_10_bells
+        anchor: season_ap28
+        offset: 63d1h
+        duration: 99999999
+  - id: radiance
+    title: Radiance
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: radiant_darkstone_enable
+        at: '2025-01-20T16:00:00'
+        duration: 99999999
+  - id: seasons
+    title: Seasons
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: season_06_ever_started
+        anchor: seasons
+        duration: 99999999
+      - id: season_27_ch4_shop
+        anchor: seasons
+        offset: 2005d
+        duration: 99999999
+      - id: season_27_end_shop
+        anchor: seasons
+        offset: 1965d
+        duration: 99999999
+      - id: season_31
+        anchor: seasons
+        offset: 2277d15m54s
+        duration: 110880
+      - id: season_31_start_shop
+        anchor: seasons
+        offset: 2277d15m54s
+        duration: 99999999
+  - id: stormy
+    title: stormy
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: stormy_prairie
+        daily: '00:00'
+        duration: 1440
+  - id: social_daily
+    title: Social Daily
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: social_turtle_on
+        at: '2022-04-18T15:00:00'
+        duration: 99999999
+      - id: social_wax_on
+        at: '2021-09-01T15:00:00'
+        duration: 99999999
+      - id: social_feed_prompt_birthday_party
+        at: '2026-07-06T15:00:00'
+        duration: 10080
+      - id: social_feed_prompt_casual_cafe
+        at: '2026-07-01T15:00:00'
+        duration: 44640
+      - id: social_dusk_embersanctuary
+        daily: '00:00'
+        duration: 1439
+      - id: social_dusk_spitroastpassive
+        daily: '00:00'
+        duration: 1439
+      - id: social_eelwatercreature
+        daily: '00:00'
+        duration: 1439
+      - id: social_prairie_cozycave
+        daily: '00:00'
+        duration: 1439
+      - id: social_rain_bonfirecamp
+        daily: '00:00'
+        duration: 1439
+      - id: social_skyway_speedtube
+        daily: '00:00'
+        duration: 1439
+      - id: social_sunset_labyrinth
+        daily: '00:00'
+        duration: 1439
+      - id: day_boat
+        daily: '00:00'
+        duration: 1440
+  - id: ap06_unlocks
+    title: AP06 Unlocks
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: spiritshopitem_ap06unlock_ap07_fetch_01
+        anchor: ap06_unlocks
+        offset: 84d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap07_fetch_02
+        anchor: ap06_unlocks
+        offset: 91d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap07_fetch_03
+        anchor: ap06_unlocks
+        offset: 98d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap07_fetch_04
+        anchor: ap06_unlocks
+        offset: 106d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap07_fetch_05
+        anchor: ap06_unlocks
+        offset: 112d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap07_fetch_06
+        anchor: ap06_unlocks
+        offset: 141d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap08_fetch_01
+        anchor: ap06_unlocks
+        offset: 168d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap08_fetch_02
+        anchor: ap06_unlocks
+        offset: 175d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap08_fetch_03
+        anchor: ap06_unlocks
+        offset: 189d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap08_fetch_04
+        anchor: ap06_unlocks
+        offset: 203d1h
+        duration: 99999998
+      - id: spiritshopitem_ap06unlock_ap09_fetch_01
+        anchor: ap06_unlocks
+        offset: 259d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap09_fetch_02
+        anchor: ap06_unlocks
+        offset: 266d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap09_fetch_03
+        anchor: ap06_unlocks
+        offset: 280d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap09_fetch_04
+        anchor: ap06_unlocks
+        offset: 294d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap09_fetch_05
+        anchor: ap06_unlocks
+        offset: 301d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap10_fetch_01
+        anchor: ap06_unlocks
+        offset: 350d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap10_fetch_02
+        anchor: ap06_unlocks
+        offset: 364d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap10_fetch_03
+        anchor: ap06_unlocks
+        offset: 378d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap10_fetch_04
+        anchor: ap06_unlocks
+        offset: 385d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap10_fetch_05
+        anchor: ap06_unlocks
+        offset: 392d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap10_fetch_06
+        anchor: ap06_unlocks
+        offset: 406d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap11_fetch_01
+        anchor: ap06_unlocks
+        offset: 442d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap11_fetch_02
+        anchor: ap06_unlocks
+        offset: 451d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap11_fetch_03
+        anchor: ap06_unlocks
+        offset: 459d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap11_fetch_04
+        anchor: ap06_unlocks
+        offset: 469d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap11_fetch_05
+        anchor: ap06_unlocks
+        offset: 478d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap11_fetch_06
+        anchor: ap06_unlocks
+        offset: 487d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap11_fetch_07
+        anchor: ap06_unlocks
+        offset: 497d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap12_fetch_01
+        anchor: ap06_unlocks
+        offset: 532d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap12_fetch_02
+        anchor: ap06_unlocks
+        offset: 546d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap12_fetch_03
+        anchor: ap06_unlocks
+        offset: 560d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap12_fetch_04
+        anchor: ap06_unlocks
+        offset: 574d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap12_fetch_05
+        anchor: ap06_unlocks
+        offset: 588d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap13_fetch_01
+        anchor: ap06_unlocks
+        offset: 637d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap13_fetch_02
+        anchor: ap06_unlocks
+        offset: 644d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap13_fetch_03
+        anchor: ap06_unlocks
+        offset: 651d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap13_fetch_04
+        anchor: ap06_unlocks
+        offset: 665d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap13_fetch_05
+        anchor: ap06_unlocks
+        offset: 686d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap14_fetch_01
+        anchor: ap06_unlocks
+        offset: 721d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap14_fetch_02
+        anchor: ap06_unlocks
+        offset: 735d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap14_fetch_03
+        anchor: ap06_unlocks
+        offset: 749d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap14_fetch_04
+        anchor: ap06_unlocks
+        offset: 763d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap14_fetch_05
+        anchor: ap06_unlocks
+        offset: 777d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap15_fetch_01
+        anchor: ap06_unlocks
+        offset: 812d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap15_fetch_02
+        anchor: ap06_unlocks
+        offset: 820d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap15_fetch_03
+        anchor: ap06_unlocks
+        offset: 837d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap15_fetch_04
+        anchor: ap06_unlocks
+        offset: 851d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap15_fetch_05
+        anchor: ap06_unlocks
+        offset: 865d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap15_fetch_06
+        anchor: ap06_unlocks
+        offset: 879d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap16_fetch_01
+        anchor: ap06_unlocks
+        offset: 910d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap16_fetch_02
+        anchor: ap06_unlocks
+        offset: 924d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap16_fetch_03
+        anchor: ap06_unlocks
+        offset: 938d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap16_fetch_04
+        anchor: ap06_unlocks
+        offset: 952d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap16_fetch_05
+        anchor: ap06_unlocks
+        offset: 962d18h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap17_fetch_01
+        anchor: ap06_unlocks
+        offset: 1001d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap17_fetch_02
+        anchor: ap06_unlocks
+        offset: 1001d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap17_fetch_03
+        anchor: ap06_unlocks
+        offset: 1015d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap17_fetch_04
+        anchor: ap06_unlocks
+        offset: 1015d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap17_fetch_05
+        anchor: ap06_unlocks
+        offset: 1029d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap17_fetch_06
+        anchor: ap06_unlocks
+        offset: 1029d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap17_fetch_07
+        anchor: ap06_unlocks
+        offset: 1043d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap17_fetch_08
+        anchor: ap06_unlocks
+        offset: 1043d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap17_fetch_09
+        anchor: ap06_unlocks
+        offset: 1064d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap17_fetch_10
+        anchor: ap06_unlocks
+        offset: 1064d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap18_fetch_01
+        anchor: ap06_unlocks
+        offset: 1092d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap18_fetch_02
+        anchor: ap06_unlocks
+        offset: 1106d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap18_fetch_03
+        anchor: ap06_unlocks
+        offset: 1120d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap18_fetch_04
+        anchor: ap06_unlocks
+        offset: 1137d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap18_fetch_05
+        anchor: ap06_unlocks
+        offset: 1148d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap19_fetch_01
+        anchor: ap06_unlocks
+        offset: 1183d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap19_fetch_02
+        anchor: ap06_unlocks
+        offset: 1197d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap19_fetch_03
+        anchor: ap06_unlocks
+        offset: 1211d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap19_fetch_04
+        anchor: ap06_unlocks
+        offset: 1225d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap19_fetch_05
+        anchor: ap06_unlocks
+        offset: 1246d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap20_fetch_01
+        anchor: ap06_unlocks
+        offset: 1274d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap20_fetch_02
+        anchor: ap06_unlocks
+        offset: 1281d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap20_fetch_03
+        anchor: ap06_unlocks
+        offset: 1288d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap20_fetch_04
+        anchor: ap06_unlocks
+        offset: 1302d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap20_fetch_05
+        anchor: ap06_unlocks
+        offset: 1309d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap20_fetch_06
+        anchor: ap06_unlocks
+        offset: 1316d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap20_fetch_07
+        anchor: ap06_unlocks
+        offset: 1323d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap20_fetch_08
+        anchor: ap06_unlocks
+        offset: 1337d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap20_fetch_09
+        anchor: ap06_unlocks
+        offset: 1331d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap20_fetch_10
+        anchor: ap06_unlocks
+        offset: 1344d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap21_fetch_01
+        anchor: ap06_unlocks
+        offset: 1365d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap21_fetch_02
+        anchor: ap06_unlocks
+        offset: 1379d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap21_fetch_03
+        anchor: ap06_unlocks
+        offset: 1393d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap21_fetch_04
+        anchor: ap06_unlocks
+        offset: 1407d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap21_fetch_05
+        anchor: ap06_unlocks
+        offset: 1421d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap22_fetch_01
+        anchor: ap06_unlocks
+        offset: 1456d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap22_fetch_02
+        anchor: ap06_unlocks
+        offset: 1463d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap22_fetch_03
+        anchor: ap06_unlocks
+        offset: 1470d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap22_fetch_04
+        anchor: ap06_unlocks
+        offset: 1498d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap22_fetch_05
+        anchor: ap06_unlocks
+        offset: 1512d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap22_miniHouse_01
+        anchor: ap06_unlocks
+        offset: 1470d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap22_miniHouse_02
+        anchor: ap06_unlocks
+        offset: 1477d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap22_miniHouse_03
+        anchor: ap06_unlocks
+        offset: 1498d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap22_miniShop_01
+        anchor: ap06_unlocks
+        offset: 1470d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap22_miniShop_02
+        anchor: ap06_unlocks
+        offset: 1491d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap22_miniShop_03
+        anchor: ap06_unlocks
+        offset: 1512d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap22_miniSocial_01
+        anchor: ap06_unlocks
+        offset: 1470d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap22_miniSocial_02
+        anchor: ap06_unlocks
+        offset: 1498d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap22_miniSocial_03
+        anchor: ap06_unlocks
+        offset: 1505d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap23_fetch_01
+        anchor: ap06_unlocks
+        offset: 1547d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap23_fetch_02
+        anchor: ap06_unlocks
+        offset: 1561d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap23_fetch_03
+        anchor: ap06_unlocks
+        offset: 1575d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap23_fetch_04
+        anchor: ap06_unlocks
+        offset: 1589d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap23_fetch_05
+        anchor: ap06_unlocks
+        offset: 1603d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap24_fetch_01
+        anchor: ap06_unlocks
+        offset: 1638d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap24_fetch_03
+        anchor: ap06_unlocks
+        offset: 1652d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap24_fetch_05
+        anchor: ap06_unlocks
+        offset: 1666d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap24_fetch_07
+        anchor: ap06_unlocks
+        offset: 1680d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap24_fetch_09
+        anchor: ap06_unlocks
+        offset: 1687d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap24_fetch_11
+        anchor: ap06_unlocks
+        offset: 1694d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap25_fetch_01
+        anchor: ap06_unlocks
+        offset: 1736d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap25_fetch_02
+        anchor: ap06_unlocks
+        offset: 1750d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap25_fetch_03
+        anchor: ap06_unlocks
+        offset: 1764d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap25_fetch_04
+        anchor: ap06_unlocks
+        offset: 1778d1h
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap25_fetch_05
+        anchor: ap06_unlocks
+        offset: 1792d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap26_fetch_01
+        anchor: ap06_unlocks
+        offset: 1827d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap26_fetch_02
+        anchor: ap06_unlocks
+        offset: 1841d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap26_fetch_03
+        anchor: ap06_unlocks
+        offset: 1855d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap26_fetch_04
+        anchor: ap06_unlocks
+        offset: 1869d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap26_fetch_05
+        anchor: ap06_unlocks
+        offset: 1883d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap26_fetch_06
+        anchor: ap06_unlocks
+        offset: 1897d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap27_fetch_01
+        anchor: ap06_unlocks
+        offset: 1918d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap27_fetch_02
+        anchor: ap06_unlocks
+        offset: 1925d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap27_fetch_03
+        anchor: ap06_unlocks
+        offset: 1932d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap27_fetch_04
+        anchor: ap06_unlocks
+        offset: 1939d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap27_fetch_05
+        anchor: ap06_unlocks
+        offset: 1957d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_ap27_manatee_01
+        anchor: ap06_unlocks
+        offset: 1957d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_fetch_dawn
+        anchor: ap06_unlocks
+        offset: 14d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_fetch_day
+        anchor: ap06_unlocks
+        offset: 21d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_fetch_dusk
+        anchor: ap06_unlocks
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_fetch_night
+        anchor: ap06_unlocks
+        offset: 28d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_fetch_rain
+        anchor: ap06_unlocks
+        offset: 52d
+        duration: 99999999
+      - id: spiritshopitem_ap06unlock_fetch_sunset
+        anchor: ap06_unlocks
+        offset: 7d
+        duration: 99999999
+  - id: projectors
+    title: Projectors
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: projector_ember_p1
+        daily: '00:00'
+        days: 2
+        duration: 1440
+  - id: traveling_spirits
+    title: Traveling Spirits
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: visiting_vendor_questap06
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap07
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap08
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap09
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap10
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap11
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap12
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap13
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap14
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap15
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap16
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap17
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap18
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap19
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap20
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap21
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap22
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap23
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap24
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap25
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap26
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap27
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap27manatee
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap28
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap29
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_questap30
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_ap22_miniquest_house
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_ap22_miniquest_shop
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_ap22_miniquest_social
+        daily: '00:00'
+        duration: 1440
+      - id: visiting_vendor_chestpound
+        at: '2026-04-10T21:13:20'
+        duration: 6311520
+  - id: treasure_candle_rotation
+    title: Treasure Candle Rotation
+    enabled: true
+    select:
+      mode: random
+      salt: treasure_candle_rotation
+      avoidRepeatDays: 1
+      countByWeekday:
+        SUN: 3
+        THU: all
+        FRI: 3
+        SAT: 3
+        default: 1
+    events:
+      - id: event_rain_tcandle_master
+        daily: '00:00'
+        duration: 1440
+        select:
+          mode: random
+          salt: treasure_candle_rotation
+          avoidRepeatDays: 1
+          countByWeekday:
+            THU: all
+            default: 1
+        children:
+          - id: event_rain_tcandles2
+            daily: '00:00'
+            duration: 1440
+          - id: event_rain_tcandles3
+            daily: '00:00'
+            duration: 1440
+          - id: event_rain_tcandles1
+            daily: '00:00'
+            duration: 1440
+      - id: event_sunset_tcandle_master
+        daily: '00:00'
+        duration: 1440
+        select:
+          mode: random
+          salt: treasure_candle_rotation
+          avoidRepeatDays: 1
+          countByWeekday:
+            THU: all
+            default: 1
+        children:
+          - id: event_sunset_tcandles1
+            daily: '00:00'
+            duration: 1440
+          - id: event_sunset_tcandles2
+            daily: '00:00'
+            duration: 1440
+      - id: event_prairie_tcandle_master
+        daily: '00:00'
+        duration: 1440
+        select:
+          mode: random
+          salt: treasure_candle_rotation
+          avoidRepeatDays: 1
+          countByWeekday:
+            THU: all
+            default: 1
+        children:
+          - id: event_prairie_tcandles1
+            daily: '00:00'
+            duration: 1440
+          - id: event_prairie_tcandles2
+            daily: '00:00'
+            duration: 1440
+          - id: event_prairie_tcandles3
+            daily: '00:00'
+            duration: 1440
+      - id: event_dusk_tcandle_master
+        daily: '00:00'
+        duration: 1440
+        select:
+          mode: random
+          salt: treasure_candle_rotation
+          avoidRepeatDays: 1
+          countByWeekday:
+            THU: all
+            default: 1
+        children:
+          - id: event_dusk_tcandles2
+            daily: '00:00'
+            duration: 1440
+          - id: event_dusk_tcandles1
+            daily: '00:00'
+            duration: 1440
+          - id: event_dusk_tcandles3
+            daily: '00:00'
+            duration: 1440
+      - id: event_night_tcandle_master
+        daily: '00:00'
+        duration: 1440
+        select:
+          mode: random
+          salt: treasure_candle_rotation
+          avoidRepeatDays: 1
+          countByWeekday:
+            THU: all
+            default: 1
+        children:
+          - id: event_night_tcandles1
+            daily: '00:00'
+            duration: 1440
+          - id: event_night_tcandles2
+            daily: '00:00'
+            duration: 1440
+  - id: season_ap30
+    title: Season AP30
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: quest_ap30_fetch_01
+        anchor: season_ap30
+        duration: 99999999
+      - id: quest_ap30_fetch_02
+        anchor: season_ap30
+        duration: 99999999
+      - id: quest_ap30_fetch_03
+        anchor: season_ap30
+        duration: 99999999
+      - id: quest_ap30_fetch_04
+        anchor: season_ap30
+        duration: 99999999
+      - id: quest_ap30_fetch_05
+        anchor: season_ap30
+        duration: 99999999
+      - id: quest_ap30_fetch_01_challenge
+        anchor: season_ap30
+        duration: 99999999
+      - id: quest_ap30_fetch_02_challenge
+        anchor: season_ap30
+        duration: 99999999
+      - id: quest_ap30_fetch_03_challenge
+        anchor: season_ap30
+        duration: 99999999
+      - id: quest_ap30_fetch_04_challenge
+        anchor: season_ap30
+        duration: 99999999
+      - id: quest_ap30_fetch_05_challenge
+        anchor: season_ap30
+        duration: 99999999
+  - id: scheduled_social
+    title: Scheduled Social
+    enabled: true
+    select:
+      mode: all
+    events:
+      - id: social_rain_grandmatable
+        times:
+          - '05:30'
+          - '08:00'
+          - '12:00'
+          - '16:00'
+          - '20:00'
+          - '22:00'
+          - '22:40'
+          - '00:30'
+        prepare: 1800
+        duration: 9999999

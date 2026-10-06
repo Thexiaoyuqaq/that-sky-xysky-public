@@ -2,6 +2,14 @@ logger:
   api_register: false
   request_stack_error: true
 
+  request:
+    enabled: true
+    type: blacklist # blacklist or whitelist
+    blacklist:
+    - "/account/find_previous_or_empty"
+    whitelist:
+    - ""
+
 server:
   host: "0.0.0.0"
   type: "http"
@@ -28,6 +36,7 @@ database:
     maxIdle: 5
     connectTimeout: 10000
     ssl: false
+
   postgres:
     host: "127.0.0.1"
     port: 5432
