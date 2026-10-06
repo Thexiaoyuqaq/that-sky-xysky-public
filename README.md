@@ -149,7 +149,6 @@ The distribution is provided as a precompiled standalone executable with the run
 
 2. Download the binary for your platform from the [Releases](https://github.com/Thexiaoyuqaq/that-sky-xysky-public/releases) page.
 
-   > Windows users must additionally download the `xysky-local-code-signing.cer` certificate and install it under "Trusted Root Certification Authorities".
 
 3. Extract the archive into the `that-sky-xysky-public` directory, alongside `config/` and `data/`.
 
