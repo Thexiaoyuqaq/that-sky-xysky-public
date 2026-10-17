@@ -439,7 +439,7 @@
       "req_unlock": "",
       "local_anim": "LongHugTake",
       "remote_anim": "LongHugGive",
-      "grind_dist_multiplier": 1.600000023841858,
+      "grind_dist_multiplier": 2.0999999046325684,
       "is_loop_anim": true,
       "has_loop_exit_anim": true,
       "particle": "Emote2"
@@ -2221,7 +2221,7 @@
       "req_unlock": "",
       "local_anim": "LongHugTake",
       "remote_anim": "LongHugGive",
-      "grind_dist_multiplier": 1.600000023841858,
+      "grind_dist_multiplier": 2.0999999046325684,
       "is_loop_anim": true,
       "has_loop_exit_anim": true,
       "particle": ""

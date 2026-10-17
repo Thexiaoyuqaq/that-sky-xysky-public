@@ -3313,6 +3313,18 @@
         "droppable": false,
         "event": "",
         "icon": "UiSocialTeleport",
+        "level": "Event_DaysOfMischief",
+        "max_level": 0,
+        "name": "little_witch",
+        "params": "",
+        "speedMult": [],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
         "level": "Sunset_YetiPark",
         "max_level": 1,
         "name": "questfeast_yeti",
@@ -3433,5 +3445,82 @@
             0.0
         ],
         "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Dusk_PearlIsland",
+        "max_level": 1,
+        "name": "questap32",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "cheerful",
+        "event": "SocialEmoteLoop",
+        "icon": "UiEmoteAP32Wallow",
+        "level": "Dusk_PearlIsland",
+        "max_level": 4,
+        "name": "wallow",
+        "params": "WallowEmote",
+        "speedMult": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "emote_category": "somber",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP32Hesitate",
+        "level": "Dusk_PearlIsland",
+        "max_level": 4,
+        "name": "hesitate",
+        "params": "HesitateEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "cheerful",
+        "event": "SocialEmote",
+        "icon": "UiEmoteAP32ShowOff",
+        "level": "Dusk_PearlIsland",
+        "max_level": 4,
+        "name": "showoff",
+        "params": "ShowOffEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
+    },
+    {
+        "default": false,
+        "droppable": true,
+        "emote_category": "group",
+        "event": "SocialArmWrestle",
+        "icon": "UiEmoteAP32ArmWrestleA",
+        "level": "Dusk_PearlIsland",
+        "max_level": 1,
+        "name": "armwrestle",
+        "params": "ArmWrestleEmote",
+        "speedMult": [
+            0.0
+        ],
+        "type": "emote"
     }
 ]

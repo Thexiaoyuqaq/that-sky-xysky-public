@@ -2752,6 +2752,150 @@
         "yOffset": 0.0
     },
     {
+        "add_shadow_caster": true,
+        "allow_roll": true,
+        "audio_material": 30,
+        "category": "Furniture",
+        "code_type_name": "Placeable",
+        "diffuse1Tex": "WoodBase",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "PropRampAntiqueTint",
+        "forward_offset": 2.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "max_place_distance": 15.0,
+        "mesh": "AP24ConsoleTable_01",
+        "name": "AP24ConsoleTable",
+        "normTex": "WoodBaseSh",
+        "normal_scale": 1.0,
+        "outfit_name": "CharSkyKid_Prop_AP24ConsoleTable",
+        "place_audio_type": "WoodHeavy",
+        "recordable": true,
+        "scale": [
+            1.0
+        ],
+        "shader": "MeshSlNoShadows",
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 1,
+        "shared_space_free_in_levels": [
+            "Nest_Night_GO_Town"
+        ],
+        "shared_space_placement_count": 2,
+        "surface_offset": 0.0,
+        "volume": 5,
+        "volume_type": "L(Bed)",
+        "yOffset": 0.0
+    },
+    {
+        "add_shadow_caster": true,
+        "allow_roll": true,
+        "audio_material": 30,
+        "category": "MiscellaneousSmall",
+        "code_type_name": "Placeable",
+        "diffuse1Tex": "WoodBase",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "PropRampAntiqueTint",
+        "forward_offset": 2.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "max_place_distance": 15.0,
+        "mesh": "AP24Crate",
+        "name": "AP24Crate",
+        "normTex": "WoodBaseSh",
+        "normal_scale": 1.0,
+        "outfit_name": "CharSkyKid_Prop_AP24Crate",
+        "place_audio_type": "WoodMedium",
+        "recordable": true,
+        "scale": [
+            1.0
+        ],
+        "shader": "MeshSlNoShadows",
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 1,
+        "shared_space_free_in_levels": [
+            "Nest_Night_GO_Town"
+        ],
+        "shared_space_placement_count": 8,
+        "surface_offset": 0.0,
+        "volume": 5,
+        "volume_type": "M(Chair)",
+        "yOffset": 0.0
+    },
+    {
+        "add_shadow_caster": true,
+        "allow_roll": true,
+        "audio_material": 30,
+        "category": "Furniture",
+        "code_type_name": "Placeable",
+        "diffuse1Tex": "WoodBase",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "PropRampAntiqueTint",
+        "forward_offset": 2.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "max_place_distance": 15.0,
+        "mesh": "AP24Desk_01",
+        "name": "AP24Desk",
+        "normTex": "WoodBaseSh",
+        "normal_scale": 1.0,
+        "outfit_name": "CharSkyKid_Prop_AP24Desk",
+        "place_audio_type": "WoodHeavy",
+        "recordable": true,
+        "scale": [
+            1.2
+        ],
+        "shader": "MeshSlNoShadows",
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 1,
+        "shared_space_free_in_levels": [
+            "Nest_Night_GO_Town"
+        ],
+        "shared_space_placement_count": 4,
+        "surface_offset": 0.0,
+        "volume": 5,
+        "volume_type": "L(Bed)",
+        "yOffset": 0.04
+    },
+    {
+        "add_shadow_caster": true,
+        "allow_roll": true,
+        "audio_material": 22,
+        "category": "LightsSmall",
+        "code_type_name": "OilLampPlaceable",
+        "diffuse1Tex": "White",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "PropRampAntiqueTint",
+        "flame_params": {
+            "offset": "(0.0,0.18,0.0)",
+            "scale": 0.1
+        },
+        "forward_offset": 2.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "max_place_distance": 15.0,
+        "mesh": "P_AP24OilLampBase",
+        "name": "AP24OilLamp",
+        "normTex": "UpNormal",
+        "normal_scale": 1.0,
+        "outfit_name": "CharSkyKid_Prop_AP24OilLamp",
+        "place_audio_type": "MetalSmall",
+        "recordable": true,
+        "scale": [
+            1.0
+        ],
+        "shader": "MeshSlNoShadows",
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 1,
+        "shared_space_free_in_levels": [
+            "Nest_Night_GO_Town"
+        ],
+        "shared_space_placement_count": 4,
+        "surface_offset": 0.0,
+        "volume": 5,
+        "volume_type": "S(Pot)",
+        "yOffset": 0.0
+    },
+    {
         "allow_roll": true,
         "audio_material": 30,
         "category": "WallMounted",
@@ -2781,6 +2925,52 @@
         "surface_offset": 0.0,
         "volume": 5,
         "volume_type": "S(Pot)",
+        "yOffset": 0.0
+    },
+    {
+        "add_shadow_caster": true,
+        "allow_roll": true,
+        "audio_material": 30,
+        "category": "Chairs",
+        "code_type_name": "Placeable",
+        "diffuse1Tex": "WoodBase",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "PropRampAntiqueTint",
+        "forward_offset": 2.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "marker_params": [
+            {
+                "offset": "(0.02, 0.45, -0.10)",
+                "scale": 0.25
+            }
+        ],
+        "max_place_distance": 15.0,
+        "mesh": "AP24RockingChair",
+        "name": "AP24RockingChair",
+        "normTex": "WoodBaseSh",
+        "normal_scale": 1.0,
+        "on_tap_play_anim_params": {
+            "anim": "GoSitMovieSeat",
+            "chat_enabled": true,
+            "sitStateAnimName": "sitMovieSeatState"
+        },
+        "outfit_name": "CharSkyKid_Prop_AP24RockingChair",
+        "place_audio_type": "WoodMedium",
+        "recordable": true,
+        "scale": [
+            1.0
+        ],
+        "shader": "MeshSlNoShadows",
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 1,
+        "shared_space_free_in_levels": [
+            "Nest_Night_GO_Town"
+        ],
+        "shared_space_placement_count": 8,
+        "surface_offset": 0.0,
+        "volume": 5,
+        "volume_type": "M(Chair)",
         "yOffset": 0.0
     },
     {
@@ -3807,6 +3997,133 @@
         "yOffset": 5.0
     },
     {
+        "add_shadow_caster": true,
+        "allow_roll": true,
+        "audio_material": 52,
+        "category": "Beds",
+        "code_type_name": "Placeable",
+        "diffuse1Tex": "WoodBase",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "PropRampGO",
+        "forward_offset": 2.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "marker_params": [
+            {
+                "offset": "(0, 0.64, 0.18)",
+                "rotation": "(0.2, -10.0, 0.0)"
+            }
+        ],
+        "max_place_distance": 15.0,
+        "mesh": "P_AP31Bed",
+        "name": "AP31Bed",
+        "normTex": "WoodBaseSh",
+        "normal_scale": 1.0,
+        "on_tap_play_anim_params": {
+            "anim": "GoSleepBed",
+            "icon": "UiEmoteAP06Doze",
+            "on_enter_sound_name": "ToSleepOnBed"
+        },
+        "outfit_name": "CharSkyKid_Prop_AP31Bed",
+        "place_audio_type": "WoodHeavy",
+        "recordable": true,
+        "scale": [
+            1.15
+        ],
+        "shader": "MeshSlNoShadows",
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 1,
+        "shared_space_free_in_levels": [
+            "Nest_Night_GO_Town"
+        ],
+        "shared_space_placement_count": 2,
+        "surface_offset": 0.0,
+        "volume": 5,
+        "volume_type": "L(Bed)",
+        "yOffset": -0.01
+    },
+    {
+        "add_shadow_caster": true,
+        "allow_roll": true,
+        "audio_material": 30,
+        "category": "Chairs",
+        "code_type_name": "Placeable",
+        "diffuse1Tex": "WoodBase",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "PropRampGO",
+        "forward_offset": 2.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "marker_params": [
+            {
+                "offset": "(0.02, 0.47, -0.10)",
+                "scale": 0.25
+            }
+        ],
+        "max_place_distance": 15.0,
+        "mesh": "P_AP31BedroomChair",
+        "name": "AP31BedroomChair",
+        "normTex": "WoodBaseSh",
+        "normal_scale": 1.0,
+        "on_tap_play_anim_params": {
+            "anim": "GoSitMovieSeat",
+            "chat_enabled": true,
+            "sitStateAnimName": "sitMovieSeatState"
+        },
+        "outfit_name": "CharSkyKid_Prop_AP31BedroomChair",
+        "place_audio_type": "WoodMedium",
+        "recordable": true,
+        "scale": [
+            1.299
+        ],
+        "shader": "MeshSlNoShadows",
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 1,
+        "shared_space_free_in_levels": [
+            "Nest_Night_GO_Town"
+        ],
+        "shared_space_placement_count": 8,
+        "surface_offset": 0.0,
+        "volume": 5,
+        "volume_type": "M(Chair)",
+        "yOffset": -0.01
+    },
+    {
+        "add_shadow_caster": true,
+        "allow_roll": true,
+        "audio_material": 30,
+        "category": "Furniture",
+        "code_type_name": "Placeable",
+        "diffuse1Tex": "WoodBase",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "PropRampGO",
+        "forward_offset": 2.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "max_place_distance": 15.0,
+        "mesh": "P_AP31BedroomTallTable",
+        "name": "AP31BedroomTallTable",
+        "normTex": "WoodBaseSh",
+        "normal_scale": 1.0,
+        "outfit_name": "CharSkyKid_Prop_AP31BedroomTallTable",
+        "place_audio_type": "WoodBig",
+        "recordable": true,
+        "scale": [
+            1.1
+        ],
+        "shader": "MeshSlNoShadows",
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 1,
+        "shared_space_free_in_levels": [
+            "Nest_Night_GO_Town"
+        ],
+        "shared_space_placement_count": 4,
+        "surface_offset": 0.0,
+        "volume": 5,
+        "volume_type": "M(Chair)",
+        "yOffset": 0.0
+    },
+    {
         "allow_roll": true,
         "audio_material": 30,
         "category": "Tables",
@@ -4187,6 +4504,40 @@
     },
     {
         "allow_roll": true,
+        "audio_material": 30,
+        "category": "MiscellaneousSmall",
+        "code_type_name": "Placeable",
+        "diffuse1Tex": "WoodBase",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "PropRampGO",
+        "forward_offset": 2.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "max_place_distance": 15.0,
+        "mesh": "P_AP31PaintingSet",
+        "name": "AP31PaintingSet",
+        "normTex": "WoodBaseSh",
+        "normal_scale": 1.0,
+        "outfit_name": "CharSkyKid_Prop_AP31PaintingSet",
+        "place_audio_type": "WoodLight",
+        "recordable": true,
+        "scale": [
+            1.0
+        ],
+        "shader": "MeshSlNoShadows",
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 1,
+        "shared_space_free_in_levels": [
+            "Nest_Night_GO_Town"
+        ],
+        "shared_space_placement_count": 1,
+        "surface_offset": 0.0,
+        "volume": 5,
+        "volume_type": "S(Pot)",
+        "yOffset": 0.0
+    },
+    {
+        "allow_roll": true,
         "audio_material": 16,
         "category": "WallMounted",
         "code_type_name": "CombinedModelPlaceable",
@@ -4380,6 +4731,214 @@
         "shadow_scale": 1.0,
         "shared_space_default_count": 1,
         "shared_space_placement_count": 4,
+        "surface_offset": 0.0,
+        "volume": 5,
+        "volume_type": "S(Pot)",
+        "yOffset": 0.0
+    },
+    {
+        "allow_placement_clipping": true,
+        "allow_roll": true,
+        "attribute_override_amount": 0.0,
+        "audio_material": 32,
+        "category": "SmallDecorations",
+        "code_type_name": "BottleShip",
+        "diffuse1Tex": "WoodBase",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "CharRampS21Deer",
+        "emission_scale": 1.0,
+        "forward_offset": 2.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "max_place_distance": 15.0,
+        "mesh": "Prop_AP32MessageInABottle_04",
+        "name": "AP32MessageInABottle",
+        "normTex": "WoodBaseSh",
+        "normal_scale": 1.0,
+        "outfit_name": "CharSkyKid_Prop_AP32MessageInABottle",
+        "place_audio_type": "SandHeavy",
+        "recordable": true,
+        "scale": [
+            0.5
+        ],
+        "selfLit": [
+            1.0,
+            0.02,
+            0.0
+        ],
+        "shader": "MeshSlNoShadows",
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 1,
+        "shared_space_placement_count": 8,
+        "surface_offset": 0.0,
+        "volume": 5,
+        "volume_type": "S(Pot)",
+        "yOffset": 0.0
+    },
+    {
+        "allow_roll": false,
+        "attribTex": "Attrib_General",
+        "attribute_override_amount": 0.0,
+        "audio_material": 20,
+        "category": "SpecialLarge",
+        "code_type_name": "SailBoat",
+        "diffuse1Tex": "White",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "CharRampS21Deer",
+        "emission_scale": 0.0,
+        "face_away": true,
+        "forward_offset": 4.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "marker_params": [
+            {
+                "offset": "(0.0, 0.0, 0.0)",
+                "rotation": "(0,0,0)",
+                "scale": "(1,1,1)"
+            },
+            {
+                "offset": "(0.0, 0.0, 0.0)",
+                "rotation": "(0,0,0)",
+                "scale": "(1,1,1)"
+            }
+        ],
+        "max_place_distance": 15.0,
+        "mesh": "Prop_AP32PearlBoat03",
+        "name": "AP32PearlBoat",
+        "normTex": "WoodenBoat",
+        "normal_scale": 1.5,
+        "outfit_name": "CharSkyKid_Prop_AP32PearlBoat",
+        "place_audio_type": "StoneHuge",
+        "primary_dye_hsv": [
+            0.0,
+            0.0,
+            100.0
+        ],
+        "recordable": false,
+        "requires_water": true,
+        "scale": [
+            0.6
+        ],
+        "secondary_base_hsv": [
+            0.0,
+            0.0,
+            100.0
+        ],
+        "secondary_dye_hsv": [
+            0.0,
+            0.0,
+            100.0
+        ],
+        "shader": "MeshSlNoShadows",
+        "shader_params": {
+            "vector4s": [
+                {
+                    "shader_param_name": "u_selfLit",
+                    "value": "(0.5, 0.01, 0.0, 0)"
+                }
+            ]
+        },
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 1,
+        "shared_space_placement_count": 1,
+        "surface_offset": 0.0,
+        "volume": 30,
+        "volume_type": "XL(Table)",
+        "yOffset": 0.0
+    },
+    {
+        "allow_roll": true,
+        "attribute_override_amount": 0.0,
+        "audio_material": 52,
+        "category": "Rugs",
+        "code_type_name": "PearlCoach",
+        "diffuse1Tex": "CharRampS21Deer",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "White",
+        "emission_scale": 0.0,
+        "force_floor": true,
+        "forward_offset": 2.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "marker_params": [
+            {
+                "offset": "(0.5, 0.6, -0.6)"
+            },
+            {
+                "offset": "(-0.5, 0.6, -0.6)"
+            }
+        ],
+        "max_place_distance": 15.0,
+        "mesh": "Prop_AP32PearlCouch",
+        "name": "AP32PearlCouch",
+        "normal_scale": 1.0,
+        "on_tap_play_anim_params": {
+            "anim": "GoSit2",
+            "chat_enabled": true
+        },
+        "outfit_name": "CharSkyKid_Prop_AP32PearlCouch",
+        "place_audio_type": "ClothMedium",
+        "recordable": true,
+        "scale": [
+            0.55
+        ],
+        "shader": "NineColorPearlCoach",
+        "shader_params": {
+            "fake_str_dict_flag": 1,
+            "floats": [
+                {
+                    "shader_param_name": "u_nineColor",
+                    "value": 0.0
+                }
+            ],
+            "textures": [
+                {
+                    "shader_param_name": "diffuseRadianceTex",
+                    "texture_name": "CharRampS21Deer"
+                },
+                {
+                    "shader_param_name": "diffuse2Tex",
+                    "texture_name": "StoneBase"
+                }
+            ]
+        },
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 2,
+        "shared_space_placement_count": 2,
+        "surface_offset": 0.0,
+        "volume": 8,
+        "volume_type": "M(Chair)",
+        "yOffset": 0.0
+    },
+    {
+        "allow_roll": true,
+        "attribute_override_amount": 0.0,
+        "audio_material": 30,
+        "category": "WallMounted",
+        "code_type_name": "Placeable",
+        "diffuse1Tex": "WoodBase",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "PropRampAntiqueTint",
+        "emission_scale": 0.0,
+        "face_down": true,
+        "forward_offset": 2.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "max_place_distance": 15.0,
+        "mesh": "Prop_AP32Portrait",
+        "name": "AP32Portrait",
+        "normTex": "WoodBaseSh",
+        "normal_scale": 1.0,
+        "outfit_name": "CharSkyKid_Prop_AP32Portrait",
+        "place_audio_type": "WoodLight",
+        "recordable": true,
+        "scale": [
+            1.0
+        ],
+        "shader": "MeshSlNoShadows",
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 1,
+        "shared_space_placement_count": 1,
         "surface_offset": 0.0,
         "volume": 5,
         "volume_type": "S(Pot)",
@@ -5910,7 +6469,7 @@
             },
             {
                 "offset": "(12.0, 0, 0)",
-                "rotation": "(180,0,0)",
+                "rotation": "(0,0,0)",
                 "scale": "(1.0, 1.0, 1.0)"
             }
         ],
@@ -8548,6 +9107,59 @@
         "yOffset": 0.0
     },
     {
+        "allow_roll": true,
+        "attribTex": "Attrib_General",
+        "audio_material": 0,
+        "base_rgba": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+        ],
+        "category": "Tables",
+        "code_type_name": "Swing",
+        "diffuse1Tex": "CharRampEvents",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "White",
+        "forward_offset": 2.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "marker_params": [
+            {
+                "offset": "(-5.0, 0, 0)",
+                "rotation": "(0,0,0)",
+                "scale": "(1.0, 1.0, 1.0)"
+            },
+            {
+                "offset": "(5.0, 0, 0)",
+                "rotation": "(0,0,0)",
+                "scale": "(1.0, 1.0, 1.0)"
+            }
+        ],
+        "max_place_distance": 15.0,
+        "mesh": "Prop_IvorySwing",
+        "name": "IvorySwing",
+        "normal_scale": 1.0,
+        "on_tap_play_anim_params": {
+            "anim": "SwingSit",
+            "chat_enabled": true
+        },
+        "outfit_name": "CharSkyKid_Prop_IvorySwing",
+        "place_audio_type": "StoneHeavy",
+        "recordable": true,
+        "scale": [
+            0.08
+        ],
+        "shader": "MeshPlaceableProp",
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 1,
+        "shared_space_placement_count": 1,
+        "surface_offset": 0.0,
+        "volume": 30,
+        "volume_type": "XL(Table)",
+        "yOffset": 0.0
+    },
+    {
         "add_shadow_caster": true,
         "allow_roll": true,
         "audio_material": 31,
@@ -9527,6 +10139,41 @@
         "yOffset": 0.0
     },
     {
+        "allow_roll": true,
+        "audio_material": 30,
+        "category": "FlameSmall",
+        "code_type_name": "Placeable",
+        "diffuse1Tex": "WoodBase",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "CharRampEvents2",
+        "flame_params": {
+            "offset": "(0.0,0.4,0.0)",
+            "scale": 0.07
+        },
+        "forward_offset": 2.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "max_place_distance": 15.0,
+        "mesh": "P_MischiefBoboCandle",
+        "name": "MischiefBoboCandle",
+        "normTex": "WoodBaseSh",
+        "normal_scale": 1.0,
+        "outfit_name": "CharSkyKid_Prop_MischiefBoboCandle",
+        "place_audio_type": "WoodLight",
+        "recordable": true,
+        "scale": [
+            1.0
+        ],
+        "shader": "MeshSlNoShadows",
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 1,
+        "shared_space_placement_count": 1,
+        "surface_offset": 0.0,
+        "volume": 2,
+        "volume_type": "XS(Cup)",
+        "yOffset": 0.0
+    },
+    {
         "add_shadow_caster": true,
         "allow_roll": true,
         "audio_material": 48,
@@ -9725,6 +10372,81 @@
         "yOffset": 0.0
     },
     {
+        "add_shadow_caster": true,
+        "allow_roll": true,
+        "audio_material": 52,
+        "category": "Furniture",
+        "code_type_name": "Placeable",
+        "diffuse1Tex": "WoodBase",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "CharRampS21Deer",
+        "dyeable_primary": true,
+        "dyeable_secondary": true,
+        "emission_scale": 1.0,
+        "forward_offset": 2.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "max_place_distance": 15.0,
+        "mesh": "P_MischiefCoatRack",
+        "name": "MischiefCoatRack",
+        "normTex": "WoodBaseSh",
+        "normal_scale": 1.0,
+        "outfit_name": "CharSkyKid_Prop_MischiefCoatRack",
+        "place_audio_type": "WoodMedium",
+        "primary_dye_hsv": [
+            0.0,
+            0.0,
+            100.0
+        ],
+        "recordable": true,
+        "scale": [
+            1.0
+        ],
+        "selfLit": [
+            1.0,
+            0.2,
+            0.0
+        ],
+        "shader": "MeshSlNoShadowsDyeSysWindC",
+        "shader_params": {
+            "floats": [
+                {
+                    "shader_param_name": "u_clothWindStrength",
+                    "value": 0.03
+                },
+                {
+                    "shader_param_name": "u_clothLooseness",
+                    "value": 0.01
+                },
+                {
+                    "shader_param_name": "u_clothRipple",
+                    "value": 3.5
+                },
+                {
+                    "shader_param_name": "u_clothWindSpeed",
+                    "value": 1.5
+                },
+                {
+                    "shader_param_name": "u_lumGlowAdapt",
+                    "value": 10.0
+                }
+            ],
+            "vector4s": [
+                {
+                    "shader_param_name": "u_clothWindDir",
+                    "value": "(4.0,2.0,2.0,0.0)"
+                }
+            ]
+        },
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 1,
+        "shared_space_placement_count": 2,
+        "surface_offset": 0.0,
+        "volume": 10,
+        "volume_type": "M(Chair)",
+        "yOffset": 0.0
+    },
+    {
         "allow_roll": true,
         "attribTex": "CharSkyKid_General_Att",
         "audio_material": 0,
@@ -9848,6 +10570,46 @@
         "surface_offset": 0.0,
         "volume": 10,
         "volume_type": "S(Pot)",
+        "yOffset": 0.0
+    },
+    {
+        "allow_roll": true,
+        "audio_material": 52,
+        "category": "Chairs",
+        "code_type_name": "Placeable",
+        "diffuse1Tex": "WoodBase",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "CharRampEvents2",
+        "forward_offset": 2.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "marker_params": [
+            {
+                "offset": "(-0.03, 0.44, -0.25"
+            }
+        ],
+        "max_place_distance": 15.0,
+        "mesh": "P_MischiefPumpkinSofa",
+        "name": "MischiefPumpkinSofa",
+        "normTex": "WoodBaseSh",
+        "normal_scale": 1.0,
+        "on_tap_play_anim_params": {
+            "anim": "GoSitStoneSofa",
+            "sitStateAnimName": "sitStoneSofaState"
+        },
+        "outfit_name": "CharSkyKid_Prop_MischiefPumpkinSofa",
+        "place_audio_type": "ClothMedium",
+        "recordable": true,
+        "scale": [
+            1.0
+        ],
+        "shader": "MeshSlNoShadows",
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 1,
+        "shared_space_placement_count": 4,
+        "surface_offset": 0.0,
+        "volume": 15,
+        "volume_type": "M(Chair)",
         "yOffset": 0.0
     },
     {
@@ -15256,6 +16018,48 @@
         "yOffset": 3.5
     },
     {
+        "add_shadow_caster": true,
+        "allow_roll": true,
+        "attribTex": "Attrib_General",
+        "audio_material": 0,
+        "category": "SpecialSmall",
+        "code_type_name": "SkyArtBook",
+        "diffuse1Tex": "White",
+        "diffuse1_scale": 1.0,
+        "diffuse2Tex": "CharRampEvents2",
+        "emission_scale": 1.0,
+        "forward_offset": 2.0,
+        "hang_offset": 0.0,
+        "has_collision": true,
+        "max_place_distance": 5.0,
+        "mesh": "Prop_SkyArtBookBlueNE_Open",
+        "name": "SkyArtBookBlueNE_Closed",
+        "normal_scale": 1.0,
+        "on_off_toggle_params": {
+            "icon": "UiOutfitPropSkyArtBook",
+            "offset": "0.0,0.2,0.0",
+            "use_generic_logic": false
+        },
+        "on_tap_play_anim_params": {
+            "anim": "Sit",
+            "chat_enabled": true
+        },
+        "outfit_name": "CharSkyKid_Prop_SkyArtBookBlueNE_Closed",
+        "place_audio_type": "DefaultLight",
+        "recordable": true,
+        "scale": [
+            0.1
+        ],
+        "shader": "MeshPlaceableProp",
+        "shadow_scale": 1.0,
+        "shared_space_default_count": 0,
+        "shared_space_placement_count": 0,
+        "surface_offset": 0.0,
+        "volume": 5,
+        "volume_type": "S(Pot)",
+        "yOffset": 3.5
+    },
+    {
         "allow_roll": true,
         "audio_material": 0,
         "category": "SpecialLarge",
@@ -15577,6 +16381,7 @@
         "diffuse2Tex": "CharRampEvents",
         "forward_offset": 2.0,
         "hang_offset": 0.0,
+        "has_collision": true,
         "max_place_distance": 15.0,
         "mesh": "Prop_SnowmanArm_01",
         "name": "SnowmanArm_01",
@@ -15613,6 +16418,7 @@
         "diffuse2Tex": "CharRampEvents",
         "forward_offset": 2.0,
         "hang_offset": 0.0,
+        "has_collision": true,
         "max_place_distance": 15.0,
         "mesh": "Prop_SnowmanArm_02",
         "name": "SnowmanArm_02",
@@ -15685,6 +16491,7 @@
         "diffuse2Tex": "CharRampEvents",
         "forward_offset": 2.0,
         "hang_offset": 0.0,
+        "has_collision": true,
         "max_place_distance": 15.0,
         "mesh": "Prop_SnowmanBodyLarge",
         "name": "SnowmanBodyLarge",
@@ -15722,6 +16529,7 @@
         "face_down": true,
         "forward_offset": 2.0,
         "hang_offset": 0.0,
+        "has_collision": true,
         "max_place_distance": 15.0,
         "mesh": "Prop_SnowmanBodyMedium",
         "name": "SnowmanBodyMedium",
@@ -15758,6 +16566,7 @@
         "diffuse2Tex": "CharRampEvents",
         "forward_offset": 2.0,
         "hang_offset": 0.0,
+        "has_collision": true,
         "max_place_distance": 15.0,
         "mesh": "Prop_SnowmanBodySmall",
         "name": "SnowmanBodySmall",
@@ -15902,6 +16711,7 @@
         "diffuse2Tex": "CharRampEvents",
         "forward_offset": 2.0,
         "hang_offset": 0.0,
+        "has_collision": true,
         "max_place_distance": 15.0,
         "mesh": "Prop_SnowmanHead",
         "name": "SnowmanHead",

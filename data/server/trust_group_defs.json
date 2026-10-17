@@ -19,8 +19,8 @@
     {
       "activity_group": "player_interaction",
       "category": "daily",
-      "max": 250,
-      "global_max": 300,
+      "max": 160,
+      "global_max": 400,
       "multiplier": 1,
       "cap_cadence": "daily"
     },

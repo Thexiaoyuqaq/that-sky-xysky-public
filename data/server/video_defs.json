@@ -484,6 +484,13 @@
       "has_translations": true
     },
     {
+      "name": "mischief_mayhem",
+      "duration": 1200,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/mischief_mayhem/d6e00fb5-f523-41fb-818d-6e7802f57b6c/DOMI_MiMayhem-placeholder-V2_VLS_20m_EN_2608/DOMI_MiMayhem-placeholder-V2_VLS_20m_EN_2608_tgc.m3u8",
+      "subtitle_base": "",
+      "has_translations": false
+    },
+    {
       "name": "nic_dev_talk",
       "duration": 3235,
       "location": "https://video.cdn.thatgamecompany.com/encoded/skyfest24/DOS5_GDC-Nic_VLS_54m_EN_240521/DOS5_GDC-Nic_VLS_54m_EN_240521_tgc.m3u8",
@@ -587,6 +594,18 @@
       "gap_seconds": 30,
       "postshow_seconds": 10,
       "silence_please": true
+    },
+    {
+      "channel": "cinema",
+      "event": "halloween_cinema",
+      "preshow_seconds": 0,
+      "playlist": [
+        "mischief_mayhem"
+      ],
+      "loop": true,
+      "gap_seconds": 0,
+      "postshow_seconds": 0,
+      "silence_please": false
     },
     {
       "channel": "cinema",

@@ -565,6 +565,15 @@
       "can_link_with": ""
     },
     {
+      "name": "outfit_neck_winterscarf_star",
+      "sku": "SKY-PL-ST-HOL-SF",
+      "part": "",
+      "consumable_name": "outfit_neck_winterscarf",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
       "name": "outfit_prop_STAR_lantern",
       "sku": "SKY-PN-ST-PRO-LT",
       "part": "",
@@ -613,6 +622,15 @@
       "sku": "SKY-BK-ST-HOL-ART",
       "part": "",
       "consumable_name": "outfit_prop_artbook2",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
+      "name": "outfit_prop_artbook_cn",
+      "sku": "SKY-CN-BK-ST-PRO-ART",
+      "part": "",
+      "consumable_name": "outfit_prop_artbook_cn",
       "group_name": "",
       "batches": [],
       "can_link_with": ""
@@ -1353,6 +1371,15 @@
       "can_link_with": ""
     },
     {
+      "name": "teleport_forest_elder_tiny",
+      "sku": "SKY-PN-ST-ANC-HFS",
+      "part": "",
+      "consumable_name": "teleport_forest_elder_tiny",
+      "group_name": "",
+      "batches": [],
+      "can_link_with": ""
+    },
+    {
       "name": "teleport_forgotten_ark",
       "sku": "SKY-PN-ST-POR-FA",
       "part": "",
@@ -1496,6 +1523,15 @@
       "batches": [
         6
       ],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_wishing_tree",
+      "sku": "SKY-PN-ST-HOL-SR",
+      "part": "",
+      "consumable_name": "teleport_wishing_tree",
+      "group_name": "",
+      "batches": [],
       "can_link_with": ""
     },
     {

@@ -1,119 +1,211 @@
 {
   "generic_shop_defs": [
     {
-      "id": 3106778769,
-      "shop_name": "ToyShop_MainStreet_Events",
-      "name": "HackysackPropScroll",
+      "id": 2168617355,
+      "shop_name": "DyeShop_Radiance",
+      "name": "CandletoBasicDye2WeekSp",
       "icon": "",
       "localized_name": "",
       "order_index": -1,
-      "cost": 2,
+      "cost": 1,
       "currency_type": "candles",
       "costs": [
-        2
+        1
       ],
       "currency_types": [
         "candles"
       ],
-      "event_name": "",
+      "event_name": "weekly_dye_rotation_sp",
+      "max_per_cycle": 12,
+      "reset_event": "gen_shop_weekly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "currency",
+      "item_name": "color_red",
+      "item_count": 1
+    },
+    {
+      "id": 1809661108,
+      "shop_name": "DyeShop_Radiance",
+      "name": "DyeYellowWeek2",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 4,
+      "currency_type": "color_green",
+      "costs": [
+        4
+      ],
+      "currency_types": [
+        "color_green"
+      ],
+      "event_name": "weekly_dye_rotation_02",
+      "max_per_cycle": 3,
+      "reset_event": "gen_shop_weekly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "currency",
+      "item_name": "color_yellow",
+      "item_count": 1
+    },
+    {
+      "id": 828624363,
+      "shop_name": "DyeShop_Radiance",
+      "name": "DyeMagentaWeek2",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 4,
+      "currency_type": "color_red",
+      "costs": [
+        4
+      ],
+      "currency_types": [
+        "color_red"
+      ],
+      "event_name": "weekly_dye_rotation_02",
+      "max_per_cycle": 3,
+      "reset_event": "gen_shop_weekly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "currency",
+      "item_name": "color_magenta",
+      "item_count": 1
+    },
+    {
+      "id": 2200410487,
+      "shop_name": "DyeShop_Radiance",
+      "name": "DyeBlackWeek2",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 3,
+      "currency_type": "color_yellow",
+      "costs": [
+        3
+      ],
+      "currency_types": [
+        "color_yellow"
+      ],
+      "event_name": "weekly_dye_rotation_02",
       "max_per_cycle": 1,
       "reset_event": "gen_shop_weekly_reset",
       "unlock_requiremnts": [],
-      "item_type": "consumable",
-      "item_name": "outfit_prop_hackysack",
-      "item_count": 2
+      "item_type": "currency",
+      "item_name": "color_black",
+      "item_count": 1
     },
     {
-      "id": 3519682998,
-      "shop_name": "SpellShop_Love_Spell",
-      "name": "LoveSwingSpellFree",
+      "id": 1192332239,
+      "shop_name": "DyeShop_Radiance",
+      "name": "DyeYellowWeek3",
       "icon": "",
       "localized_name": "",
       "order_index": -1,
-      "cost": 0,
+      "cost": 4,
+      "currency_type": "color_blue",
+      "costs": [
+        4
+      ],
+      "currency_types": [
+        "color_blue"
+      ],
+      "event_name": "weekly_dye_rotation_03",
+      "max_per_cycle": 3,
+      "reset_event": "gen_shop_weekly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "currency",
+      "item_name": "color_yellow",
+      "item_count": 1
+    },
+    {
+      "id": 3477370140,
+      "shop_name": "DyeShop_Radiance",
+      "name": "DyeBlackWeek3",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 3,
+      "currency_type": "color_cyan",
+      "costs": [
+        3
+      ],
+      "currency_types": [
+        "color_cyan"
+      ],
+      "event_name": "weekly_dye_rotation_03",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_weekly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "currency",
+      "item_name": "color_black",
+      "item_count": 1
+    },
+    {
+      "id": 1494829674,
+      "shop_name": "DyeShop_Radiance",
+      "name": "DyeWhiteWeek3",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 3,
+      "currency_type": "color_yellow",
+      "costs": [
+        3
+      ],
+      "currency_types": [
+        "color_yellow"
+      ],
+      "event_name": "weekly_dye_rotation_03",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_weekly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "currency",
+      "item_name": "color_white",
+      "item_count": 1
+    },
+    {
+      "id": 2005023144,
+      "shop_name": "DyeShop_Radiance",
+      "name": "CandletoBasicDye1Week3",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 1,
       "currency_type": "candles",
       "costs": [
-        0
+        1
       ],
       "currency_types": [
         "candles"
       ],
-      "event_name": "global_daysoflove",
-      "max_per_cycle": 1,
-      "reset_event": "gen_shop_yearly_reset",
+      "event_name": "weekly_dye_rotation_03",
+      "max_per_cycle": 12,
+      "reset_event": "gen_shop_weekly_reset",
       "unlock_requiremnts": [],
-      "item_type": "consumable",
-      "item_name": "outfit_prop_swing",
-      "item_count": 3
+      "item_type": "currency",
+      "item_name": "color_blue",
+      "item_count": 1
     },
     {
-      "id": 1303561203,
-      "shop_name": "SpellShop_Love_Spell",
-      "name": "RoseMaskSpellFree",
+      "id": 1304361751,
+      "shop_name": "DyeShop_Radiance",
+      "name": "CandletoBasicDye2Week3",
       "icon": "",
       "localized_name": "",
       "order_index": -1,
-      "cost": 0,
+      "cost": 1,
       "currency_type": "candles",
       "costs": [
-        0
+        1
       ],
       "currency_types": [
         "candles"
       ],
-      "event_name": "global_daysoflove",
-      "max_per_cycle": 1,
-      "reset_event": "gen_shop_yearly_reset",
+      "event_name": "weekly_dye_rotation_03",
+      "max_per_cycle": 12,
+      "reset_event": "gen_shop_weekly_reset",
       "unlock_requiremnts": [],
-      "item_type": "consumable",
-      "item_name": "outfit_mask_rose",
-      "item_count": 3
-    },
-    {
-      "id": 2129028382,
-      "shop_name": "SpellShop_Love_Spell",
-      "name": "LoveGondolaSpellFree",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 0,
-      "currency_type": "candles",
-      "costs": [
-        0
-      ],
-      "currency_types": [
-        "candles"
-      ],
-      "event_name": "global_daysoflove",
-      "max_per_cycle": 1,
-      "reset_event": "gen_shop_yearly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "consumable",
-      "item_name": "outfit_prop_gondola",
-      "item_count": 3
-    },
-    {
-      "id": 3225032580,
-      "shop_name": "SpellShop_Love_Spell",
-      "name": "LoveGondolaSpell",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 2,
-      "currency_type": "heart",
-      "costs": [
-        2
-      ],
-      "currency_types": [
-        "heart"
-      ],
-      "event_name": "global_daysoflove",
-      "max_per_cycle": 1,
-      "reset_event": "gen_shop_daily_reset",
-      "unlock_requiremnts": [],
-      "item_type": "consumable",
-      "item_name": "outfit_prop_gondola",
-      "item_count": 2
+      "item_type": "currency",
+      "item_name": "color_green",
+      "item_count": 1
     },
     {
       "id": 3957656605,
@@ -413,6 +505,29 @@
       "item_type": "inventory_unlock",
       "item_name": "CharSkyKid_Prop_PlaceableRace",
       "item_count": 1
+    },
+    {
+      "id": 3106778769,
+      "shop_name": "ToyShop_MainStreet_Events",
+      "name": "HackysackPropScroll",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 2,
+      "currency_type": "candles",
+      "costs": [
+        2
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_weekly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_prop_hackysack",
+      "item_count": 2
     },
     {
       "id": 4176046556,
@@ -1985,6 +2100,144 @@
       "item_count": 2
     },
     {
+      "id": 1012918584,
+      "shop_name": "SpellShop_Mischief_Spell",
+      "name": "MischiefBatWingSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_wing_mischiefbatwing",
+      "item_count": 3
+    },
+    {
+      "id": 3494094342,
+      "shop_name": "SpellShop_Mischief_Spell",
+      "name": "MischiefMagicHatSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_hat_mischiefmagichat",
+      "item_count": 3
+    },
+    {
+      "id": 3700724535,
+      "shop_name": "SpellShop_Mischief_Spell",
+      "name": "MischiefCandyHairSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_hair_mischiefcandy",
+      "item_count": 3
+    },
+    {
+      "id": 4026335783,
+      "shop_name": "SpellShop_Mischief_Spell",
+      "name": "MischiefNeckCatSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_neck_mischiefcat",
+      "item_count": 3
+    },
+    {
+      "id": 2965792868,
+      "shop_name": "SpellShop_Mischief_Spell",
+      "name": "MischiefWandSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_prop_mischiefwand",
+      "item_count": 3
+    },
+    {
+      "id": 97512612,
+      "shop_name": "SpellShop_Mischief_Spell",
+      "name": "MischiefMagicDressSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_body_mischiefmagicdress",
+      "item_count": 3
+    },
+    {
       "id": 3818684176,
       "shop_name": "SpellShop_Mischief_Spell",
       "name": "MischiefWitchHornSpell",
@@ -2882,6 +3135,443 @@
       "item_count": 1
     },
     {
+      "id": 3169984114,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefCoatRack",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 20,
+      "currency_type": "candles",
+      "costs": [
+        20
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_MischiefCoatRack",
+      "item_count": 1
+    },
+    {
+      "id": 3638704439,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefPumkinSofa",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 15,
+      "currency_type": "candles",
+      "costs": [
+        15
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_MischiefPumpkinSofa",
+      "item_count": 1
+    },
+    {
+      "id": 2726961605,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefBeak",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 34,
+      "currency_type": "candles",
+      "costs": [
+        34
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Mask_MischiefBeak",
+      "item_count": 1
+    },
+    {
+      "id": 536265558,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefLeaf",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 22,
+      "currency_type": "candles",
+      "costs": [
+        22
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Hat_MischiefLeaf",
+      "item_count": 1
+    },
+    {
+      "id": 3893337632,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefGoth",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 85,
+      "currency_type": "candles",
+      "costs": [
+        85
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Wing_MischiefGoth",
+      "item_count": 1
+    },
+    {
+      "id": 4182017193,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefCurseSticker",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 24,
+      "currency_type": "candles",
+      "costs": [
+        24
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Face_CurseSticker",
+      "item_count": 1
+    },
+    {
+      "id": 3805640366,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefSpiderBun",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 36,
+      "currency_type": "candles",
+      "costs": [
+        36
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Hair_SpiderBun",
+      "item_count": 1
+    },
+    {
+      "id": 1528848284,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefCauldron",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 48,
+      "currency_type": "candles",
+      "costs": [
+        48
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_MischiefCauldron",
+      "item_count": 1
+    },
+    {
+      "id": 746838376,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefCat",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 44,
+      "currency_type": "candles",
+      "costs": [
+        44
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Hair_MischiefCat",
+      "item_count": 1
+    },
+    {
+      "id": 3991643512,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefPumkinCrab",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 36,
+      "currency_type": "candles",
+      "costs": [
+        36
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Horn_PumpkinCrab",
+      "item_count": 1
+    },
+    {
+      "id": 3196699328,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefTable",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 33,
+      "currency_type": "heart",
+      "costs": [
+        33
+      ],
+      "currency_types": [
+        "heart"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_MischiefTable",
+      "item_count": 1
+    },
+    {
+      "id": 1779979013,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefWingWithered",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 99,
+      "currency_type": "candles",
+      "costs": [
+        99
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Wing_Withered_01",
+      "item_count": 1
+    },
+    {
+      "id": 21705737,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefWitchHair",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 66,
+      "currency_type": "candles",
+      "costs": [
+        66
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Hair_Witch",
+      "item_count": 1
+    },
+    {
+      "id": 1336968888,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefGothBody",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 58,
+      "currency_type": "candles",
+      "costs": [
+        58
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Body_Goth",
+      "item_count": 1
+    },
+    {
+      "id": 2452186845,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefGothBoots",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 38,
+      "currency_type": "candles",
+      "costs": [
+        38
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Feet_GothBoots",
+      "item_count": 1
+    },
+    {
+      "id": 3228871549,
+      "shop_name": "Mischief_ItemShop",
+      "name": "KrillCarpet",
+      "icon": "UiOutfitPropDarkDragonCarpet",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 5,
+      "currency_type": "heart",
+      "costs": [
+        5
+      ],
+      "currency_types": [
+        "heart"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_KrillCarpet",
+      "item_count": 1
+    },
+    {
+      "id": 205264418,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefWeb",
+      "icon": "UiOutfitPropSpiderWeb",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 5,
+      "currency_type": "candles",
+      "costs": [
+        5
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_MischiefWeb",
+      "item_count": 1
+    },
+    {
+      "id": 2359448174,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefPumpkinLamp",
+      "icon": "UiOutfitPropPumpkinLamp",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 10,
+      "currency_type": "prestige",
+      "costs": [
+        10
+      ],
+      "currency_types": [
+        "prestige"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_MischiefPumpkinLamp",
+      "item_count": 1
+    },
+    {
+      "id": 3873041046,
+      "shop_name": "Mischief_ItemShop",
+      "name": "MischiefTree",
+      "icon": "UiOutfitPropTreeArch",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 20,
+      "currency_type": "candles",
+      "costs": [
+        20
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_halloween",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_MischiefTree",
+      "item_count": 1
+    },
+    {
       "id": 539528783,
       "shop_name": "SpellShop_Mischief_Furniture",
       "name": "MischiefPuzzleBox",
@@ -2948,98 +3638,6 @@
       "unlock_requiremnts": [],
       "item_type": "inventory_unlock",
       "item_name": "CharSkyKid_Prop_PuzzleCage",
-      "item_count": 1
-    },
-    {
-      "id": 2080346449,
-      "shop_name": "SpellShop_Mischief_Furniture",
-      "name": "KrillCarpet",
-      "icon": "UiOutfitPropDarkDragonCarpet",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 5,
-      "currency_type": "heart",
-      "costs": [
-        5
-      ],
-      "currency_types": [
-        "heart"
-      ],
-      "event_name": "global_halloween",
-      "max_per_cycle": 1,
-      "reset_event": "gen_shop_daily_reset",
-      "unlock_requiremnts": [],
-      "item_type": "inventory_unlock",
-      "item_name": "CharSkyKid_Prop_KrillCarpet",
-      "item_count": 1
-    },
-    {
-      "id": 3099550876,
-      "shop_name": "SpellShop_Mischief_Furniture",
-      "name": "MischiefWeb",
-      "icon": "UiOutfitPropSpiderWeb",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 5,
-      "currency_type": "candles",
-      "costs": [
-        5
-      ],
-      "currency_types": [
-        "candles"
-      ],
-      "event_name": "global_halloween",
-      "max_per_cycle": 1,
-      "reset_event": "gen_shop_daily_reset",
-      "unlock_requiremnts": [],
-      "item_type": "inventory_unlock",
-      "item_name": "CharSkyKid_Prop_MischiefWeb",
-      "item_count": 1
-    },
-    {
-      "id": 55475992,
-      "shop_name": "SpellShop_Mischief_Furniture",
-      "name": "MischiefPumpkinLamp",
-      "icon": "UiOutfitPropPumpkinLamp",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 10,
-      "currency_type": "prestige",
-      "costs": [
-        10
-      ],
-      "currency_types": [
-        "prestige"
-      ],
-      "event_name": "global_halloween",
-      "max_per_cycle": 1,
-      "reset_event": "gen_shop_daily_reset",
-      "unlock_requiremnts": [],
-      "item_type": "inventory_unlock",
-      "item_name": "CharSkyKid_Prop_MischiefPumpkinLamp",
-      "item_count": 1
-    },
-    {
-      "id": 3163337824,
-      "shop_name": "SpellShop_Mischief_Furniture",
-      "name": "MischiefTree",
-      "icon": "UiOutfitPropTreeArch",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 20,
-      "currency_type": "candles",
-      "costs": [
-        20
-      ],
-      "currency_types": [
-        "candles"
-      ],
-      "event_name": "global_halloween",
-      "max_per_cycle": 1,
-      "reset_event": "gen_shop_daily_reset",
-      "unlock_requiremnts": [],
-      "item_type": "inventory_unlock",
-      "item_name": "CharSkyKid_Prop_MischiefTree",
       "item_count": 1
     },
     {
@@ -3227,6 +3825,56 @@
       "item_count": 1
     },
     {
+      "id": 3774480289,
+      "shop_name": "NoShop",
+      "name": "MischiefCoatRack_UpgradeCount",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 20,
+      "currency_type": "candles",
+      "costs": [
+        20
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "CharSkyKid_Prop_MischiefCoatRack"
+      ],
+      "item_type": "inventory_unlock_upgrade",
+      "item_name": "CharSkyKid_Prop_MischiefCoatRack",
+      "item_count": 1
+    },
+    {
+      "id": 4024374024,
+      "shop_name": "NoShop",
+      "name": "MischiefPumkinSofa_UpgradeCount",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 15,
+      "currency_type": "candles",
+      "costs": [
+        15
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "CharSkyKid_Prop_MischiefPumpkinSofa"
+      ],
+      "item_type": "inventory_unlock_upgrade",
+      "item_name": "CharSkyKid_Prop_MischiefPumpkinSofa",
+      "item_count": 1
+    },
+    {
       "id": 3509746136,
       "shop_name": "NoShop",
       "name": "MischiefPuzzleBox_UpgradeCount",
@@ -3349,6 +3997,29 @@
       ],
       "item_type": "inventory_unlock_upgrade",
       "item_name": "CharSkyKid_Prop_MischiefWeb",
+      "item_count": 1
+    },
+    {
+      "id": 657884773,
+      "shop_name": "DyeShop_Radiance",
+      "name": "DyeWhiteWeek2",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 3,
+      "currency_type": "color_magenta",
+      "costs": [
+        3
+      ],
+      "currency_types": [
+        "color_magenta"
+      ],
+      "event_name": "weekly_dye_rotation_02",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_weekly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "currency",
+      "item_name": "color_white",
       "item_count": 1
     },
     {
@@ -4521,6 +5192,29 @@
       "unlock_requiremnts": [],
       "item_type": "lootbox",
       "item_name": "color_random",
+      "item_count": 1
+    },
+    {
+      "id": 2535272627,
+      "shop_name": "DyeShop_Radiance",
+      "name": "CandletoBasicDye1Week2",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 1,
+      "currency_type": "candles",
+      "costs": [
+        1
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "weekly_dye_rotation_02",
+      "max_per_cycle": 12,
+      "reset_event": "gen_shop_weekly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "currency",
+      "item_name": "color_green",
       "item_count": 1
     },
     {
@@ -6341,6 +7035,98 @@
       "item_count": 3
     },
     {
+      "id": 3519682998,
+      "shop_name": "SpellShop_Love_Spell",
+      "name": "LoveSwingSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_daysoflove",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_prop_swing",
+      "item_count": 3
+    },
+    {
+      "id": 1303561203,
+      "shop_name": "SpellShop_Love_Spell",
+      "name": "RoseMaskSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_daysoflove",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_mask_rose",
+      "item_count": 3
+    },
+    {
+      "id": 2129028382,
+      "shop_name": "SpellShop_Love_Spell",
+      "name": "LoveGondolaSpellFree",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "candles",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "global_daysoflove",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_yearly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_prop_gondola",
+      "item_count": 3
+    },
+    {
+      "id": 3225032580,
+      "shop_name": "SpellShop_Love_Spell",
+      "name": "LoveGondolaSpell",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 2,
+      "currency_type": "heart",
+      "costs": [
+        2
+      ],
+      "currency_types": [
+        "heart"
+      ],
+      "event_name": "global_daysoflove",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_prop_gondola",
+      "item_count": 2
+    },
+    {
       "id": 3358752605,
       "shop_name": "SpellShop_Love_Spell",
       "name": "FlowercrownHornSpellFree",
@@ -7925,13 +8711,13 @@
       "icon": "UiOutfitHornPastryTea",
       "localized_name": "",
       "order_index": -1,
-      "cost": 22,
-      "currency_type": "event_candle_days_of_pastrycafe",
+      "cost": 28,
+      "currency_type": "candles",
       "costs": [
-        22
+        28
       ],
       "currency_types": [
-        "event_candle_days_of_pastrycafe"
+        "candles"
       ],
       "event_name": "global_cafe",
       "max_per_cycle": 1,
@@ -7948,13 +8734,13 @@
       "icon": "UiOutfitPropPastryTeaTable",
       "localized_name": "",
       "order_index": -1,
-      "cost": 52,
-      "currency_type": "event_candle_days_of_pastrycafe",
+      "cost": 33,
+      "currency_type": "heart",
       "costs": [
-        52
+        33
       ],
       "currency_types": [
-        "event_candle_days_of_pastrycafe"
+        "heart"
       ],
       "event_name": "global_cafe",
       "max_per_cycle": 1,
@@ -7985,6 +8771,282 @@
       "unlock_requiremnts": [],
       "item_type": "currency",
       "item_name": "event_candle_days_of_pastrycafe",
+      "item_count": 1
+    },
+    {
+      "id": 166767768,
+      "shop_name": "EventShop_MainStreet_Pastry",
+      "name": "IvoryBowSpellFree",
+      "icon": "UiOutfitCapeIvoryBow",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "event_candle_days_of_pastrycafe",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "event_candle_days_of_pastrycafe"
+      ],
+      "event_name": "global_cafe",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_wing_ivorybow",
+      "item_count": 3
+    },
+    {
+      "id": 971682563,
+      "shop_name": "EventShop_MainStreet_Pastry",
+      "name": "PastryNeckBowSpellFree",
+      "icon": "UiOutfitNeckPastryBow",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "event_candle_days_of_pastrycafe",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "event_candle_days_of_pastrycafe"
+      ],
+      "event_name": "global_cafe",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_neck_pastrybow",
+      "item_count": 3
+    },
+    {
+      "id": 3343385163,
+      "shop_name": "EventShop_MainStreet_Pastry",
+      "name": "PastryEarsSpellFree",
+      "icon": "UiOutfitHornPastryEars",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "event_candle_days_of_pastrycafe",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "event_candle_days_of_pastrycafe"
+      ],
+      "event_name": "global_cafe",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_hat_pastryears",
+      "item_count": 3
+    },
+    {
+      "id": 3105956053,
+      "shop_name": "EventShop_MainStreet_Pastry",
+      "name": "PastryMiniSpellFree",
+      "icon": "UiOutfitHornPastryMini",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "event_candle_days_of_pastrycafe",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "event_candle_days_of_pastrycafe"
+      ],
+      "event_name": "global_cafe",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_hat_pastrymini",
+      "item_count": 3
+    },
+    {
+      "id": 3422912299,
+      "shop_name": "EventShop_MainStreet_Pastry",
+      "name": "PastryHatTeaSpellFree",
+      "icon": "UiOutfitHornPastryTea",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "event_candle_days_of_pastrycafe",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "event_candle_days_of_pastrycafe"
+      ],
+      "event_name": "global_cafe",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_hat_pastrytea",
+      "item_count": 3
+    },
+    {
+      "id": 3935655160,
+      "shop_name": "EventShop_MainStreet_Pastry",
+      "name": "PastryHairShortSpellFree",
+      "icon": "UiOutfitHairPastryShort",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "event_candle_days_of_pastrycafe",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "event_candle_days_of_pastrycafe"
+      ],
+      "event_name": "global_cafe",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_hair_pastryshort",
+      "item_count": 3
+    },
+    {
+      "id": 553601038,
+      "shop_name": "EventShop_MainStreet_Pastry",
+      "name": "PastryPlushSpellFree",
+      "icon": "UiOutfitPropPastryPlush",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "event_candle_days_of_pastrycafe",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "event_candle_days_of_pastrycafe"
+      ],
+      "event_name": "global_cafe",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_prop_pastryplush",
+      "item_count": 3
+    },
+    {
+      "id": 1418497074,
+      "shop_name": "EventShop_MainStreet_Pastry",
+      "name": "PastryCapeCloudSpellFree",
+      "icon": "UiOutfitCapePastryCloud",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "event_candle_days_of_pastrycafe",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "event_candle_days_of_pastrycafe"
+      ],
+      "event_name": "global_cafe",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_wing_pastrycloud",
+      "item_count": 3
+    },
+    {
+      "id": 2981741196,
+      "shop_name": "EventShop_MainStreet_Pastry",
+      "name": "IvoryHairSpellFree",
+      "icon": "UiOutfitHairIvoryHat",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "event_candle_days_of_pastrycafe",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "event_candle_days_of_pastrycafe"
+      ],
+      "event_name": "global_cafe",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_hair_ivoryhat",
+      "item_count": 3
+    },
+    {
+      "id": 4035487454,
+      "shop_name": "EventShop_MainStreet_Pastry",
+      "name": "IvoryOverallsSpellFree",
+      "icon": "UiOutfitBodyIvoryOveralls",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 0,
+      "currency_type": "event_candle_days_of_pastrycafe",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        "event_candle_days_of_pastrycafe"
+      ],
+      "event_name": "global_cafe",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "consumable",
+      "item_name": "outfit_body_ivoryoveralls",
+      "item_count": 3
+    },
+    {
+      "id": 2648722986,
+      "shop_name": "EventShop_MainStreet_Ivory",
+      "name": "Wing_IvoryBow",
+      "icon": "UiOutfitCapeIvoryBow",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 43,
+      "currency_type": "event_candle_days_of_pastrycafe",
+      "costs": [
+        43
+      ],
+      "currency_types": [
+        "event_candle_days_of_pastrycafe"
+      ],
+      "event_name": "global_cafe",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_weekly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Wing_IvoryBow",
+      "item_count": 1
+    },
+    {
+      "id": 3110706262,
+      "shop_name": "EventShop_MainStreet_Ivory",
+      "name": "Hair_IvoryHat",
+      "icon": "UiOutfitHairIvoryHat",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 33,
+      "currency_type": "event_candle_days_of_pastrycafe",
+      "costs": [
+        33
+      ],
+      "currency_types": [
+        "event_candle_days_of_pastrycafe"
+      ],
+      "event_name": "global_cafe",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_weekly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Hair_IvoryHat",
       "item_count": 1
     },
     {
@@ -11772,6 +12834,29 @@
       "item_count": 3
     },
     {
+      "id": 4169283132,
+      "shop_name": "DyeShop_Radiance",
+      "name": "CandletoBasicDye2Week2",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 1,
+      "currency_type": "candles",
+      "costs": [
+        1
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "weekly_dye_rotation_02",
+      "max_per_cycle": 12,
+      "reset_event": "gen_shop_weekly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "currency",
+      "item_name": "color_red",
+      "item_count": 1
+    },
+    {
       "id": 965497246,
       "shop_name": "SpellShop_Competition_Spell",
       "name": "TriumphIceSkatesFeetFree",
@@ -13496,6 +14581,29 @@
       "unlock_requiremnts": [],
       "item_type": "inventory_unlock",
       "item_name": "CharSkyKid_Prop_LotusBathtub",
+      "item_count": 1
+    },
+    {
+      "id": 4185147478,
+      "shop_name": "DyeShop_Radiance",
+      "name": "DyeCyanWeek3",
+      "icon": "",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 4,
+      "currency_type": "color_green",
+      "costs": [
+        4
+      ],
+      "currency_types": [
+        "color_green"
+      ],
+      "event_name": "weekly_dye_rotation_03",
+      "max_per_cycle": 3,
+      "reset_event": "gen_shop_weekly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "currency",
+      "item_name": "color_cyan",
       "item_count": 1
     },
     {
@@ -15224,305 +16332,6 @@
       "item_count": 1
     },
     {
-      "id": 2168617355,
-      "shop_name": "DyeShop_Radiance",
-      "name": "CandletoBasicDye2WeekSp",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 1,
-      "currency_type": "candles",
-      "costs": [
-        1
-      ],
-      "currency_types": [
-        "candles"
-      ],
-      "event_name": "weekly_dye_rotation_sp",
-      "max_per_cycle": 12,
-      "reset_event": "gen_shop_weekly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "currency",
-      "item_name": "color_red",
-      "item_count": 1
-    },
-    {
-      "id": 1809661108,
-      "shop_name": "DyeShop_Radiance",
-      "name": "DyeYellowWeek2",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 4,
-      "currency_type": "color_green",
-      "costs": [
-        4
-      ],
-      "currency_types": [
-        "color_green"
-      ],
-      "event_name": "weekly_dye_rotation_02",
-      "max_per_cycle": 3,
-      "reset_event": "gen_shop_weekly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "currency",
-      "item_name": "color_yellow",
-      "item_count": 1
-    },
-    {
-      "id": 828624363,
-      "shop_name": "DyeShop_Radiance",
-      "name": "DyeMagentaWeek2",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 4,
-      "currency_type": "color_red",
-      "costs": [
-        4
-      ],
-      "currency_types": [
-        "color_red"
-      ],
-      "event_name": "weekly_dye_rotation_02",
-      "max_per_cycle": 3,
-      "reset_event": "gen_shop_weekly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "currency",
-      "item_name": "color_magenta",
-      "item_count": 1
-    },
-    {
-      "id": 2200410487,
-      "shop_name": "DyeShop_Radiance",
-      "name": "DyeBlackWeek2",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 3,
-      "currency_type": "color_yellow",
-      "costs": [
-        3
-      ],
-      "currency_types": [
-        "color_yellow"
-      ],
-      "event_name": "weekly_dye_rotation_02",
-      "max_per_cycle": 1,
-      "reset_event": "gen_shop_weekly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "currency",
-      "item_name": "color_black",
-      "item_count": 1
-    },
-    {
-      "id": 657884773,
-      "shop_name": "DyeShop_Radiance",
-      "name": "DyeWhiteWeek2",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 3,
-      "currency_type": "color_magenta",
-      "costs": [
-        3
-      ],
-      "currency_types": [
-        "color_magenta"
-      ],
-      "event_name": "weekly_dye_rotation_02",
-      "max_per_cycle": 1,
-      "reset_event": "gen_shop_weekly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "currency",
-      "item_name": "color_white",
-      "item_count": 1
-    },
-    {
-      "id": 2535272627,
-      "shop_name": "DyeShop_Radiance",
-      "name": "CandletoBasicDye1Week2",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 1,
-      "currency_type": "candles",
-      "costs": [
-        1
-      ],
-      "currency_types": [
-        "candles"
-      ],
-      "event_name": "weekly_dye_rotation_02",
-      "max_per_cycle": 12,
-      "reset_event": "gen_shop_weekly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "currency",
-      "item_name": "color_green",
-      "item_count": 1
-    },
-    {
-      "id": 4169283132,
-      "shop_name": "DyeShop_Radiance",
-      "name": "CandletoBasicDye2Week2",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 1,
-      "currency_type": "candles",
-      "costs": [
-        1
-      ],
-      "currency_types": [
-        "candles"
-      ],
-      "event_name": "weekly_dye_rotation_02",
-      "max_per_cycle": 12,
-      "reset_event": "gen_shop_weekly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "currency",
-      "item_name": "color_red",
-      "item_count": 1
-    },
-    {
-      "id": 4185147478,
-      "shop_name": "DyeShop_Radiance",
-      "name": "DyeCyanWeek3",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 4,
-      "currency_type": "color_green",
-      "costs": [
-        4
-      ],
-      "currency_types": [
-        "color_green"
-      ],
-      "event_name": "weekly_dye_rotation_03",
-      "max_per_cycle": 3,
-      "reset_event": "gen_shop_weekly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "currency",
-      "item_name": "color_cyan",
-      "item_count": 1
-    },
-    {
-      "id": 1192332239,
-      "shop_name": "DyeShop_Radiance",
-      "name": "DyeYellowWeek3",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 4,
-      "currency_type": "color_blue",
-      "costs": [
-        4
-      ],
-      "currency_types": [
-        "color_blue"
-      ],
-      "event_name": "weekly_dye_rotation_03",
-      "max_per_cycle": 3,
-      "reset_event": "gen_shop_weekly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "currency",
-      "item_name": "color_yellow",
-      "item_count": 1
-    },
-    {
-      "id": 3477370140,
-      "shop_name": "DyeShop_Radiance",
-      "name": "DyeBlackWeek3",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 3,
-      "currency_type": "color_cyan",
-      "costs": [
-        3
-      ],
-      "currency_types": [
-        "color_cyan"
-      ],
-      "event_name": "weekly_dye_rotation_03",
-      "max_per_cycle": 1,
-      "reset_event": "gen_shop_weekly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "currency",
-      "item_name": "color_black",
-      "item_count": 1
-    },
-    {
-      "id": 1494829674,
-      "shop_name": "DyeShop_Radiance",
-      "name": "DyeWhiteWeek3",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 3,
-      "currency_type": "color_yellow",
-      "costs": [
-        3
-      ],
-      "currency_types": [
-        "color_yellow"
-      ],
-      "event_name": "weekly_dye_rotation_03",
-      "max_per_cycle": 1,
-      "reset_event": "gen_shop_weekly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "currency",
-      "item_name": "color_white",
-      "item_count": 1
-    },
-    {
-      "id": 2005023144,
-      "shop_name": "DyeShop_Radiance",
-      "name": "CandletoBasicDye1Week3",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 1,
-      "currency_type": "candles",
-      "costs": [
-        1
-      ],
-      "currency_types": [
-        "candles"
-      ],
-      "event_name": "weekly_dye_rotation_03",
-      "max_per_cycle": 12,
-      "reset_event": "gen_shop_weekly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "currency",
-      "item_name": "color_blue",
-      "item_count": 1
-    },
-    {
-      "id": 1304361751,
-      "shop_name": "DyeShop_Radiance",
-      "name": "CandletoBasicDye2Week3",
-      "icon": "",
-      "localized_name": "",
-      "order_index": -1,
-      "cost": 1,
-      "currency_type": "candles",
-      "costs": [
-        1
-      ],
-      "currency_types": [
-        "candles"
-      ],
-      "event_name": "weekly_dye_rotation_03",
-      "max_per_cycle": 12,
-      "reset_event": "gen_shop_weekly_reset",
-      "unlock_requiremnts": [],
-      "item_type": "currency",
-      "item_name": "color_green",
-      "item_count": 1
-    },
-    {
       "id": 2871170089,
       "shop_name": "DyeShop_Radiance",
       "name": "DyeMagentaRadExchange02",
@@ -16234,6 +17043,236 @@
       "item_type": "inventory_unlock",
       "item_name": "CharSkyKid_Prop_AP23DecorCup",
       "item_count": 1
+    },
+    {
+      "id": 2781207443,
+      "shop_name": "PropShop_MainStreet_PropTest",
+      "name": "AP24OilLamp",
+      "icon": "UiOutfitPropAP24OilLamp",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 14,
+      "currency_type": "candles",
+      "costs": [
+        14
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "weekly_prop_rotation_06",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_AP24OilLamp",
+      "item_count": 1
+    },
+    {
+      "id": 1759873922,
+      "shop_name": "PropShop_MainStreet_PropTest",
+      "name": "AP24ConsoleTable",
+      "icon": "UiOutfitPropAP24ConsoleTable",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 13,
+      "currency_type": "candles",
+      "costs": [
+        13
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "weekly_prop_rotation_04",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_AP24ConsoleTable",
+      "item_count": 1
+    },
+    {
+      "id": 3915535301,
+      "shop_name": "PropShop_MainStreet_PropTest",
+      "name": "AP24RockingChair",
+      "icon": "UiOutfitPropAP24RockingChair",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 11,
+      "currency_type": "candles",
+      "costs": [
+        11
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "weekly_prop_rotation_05",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_AP24RockingChair",
+      "item_count": 1
+    },
+    {
+      "id": 2273833286,
+      "shop_name": "PropShop_MainStreet_PropTest",
+      "name": "AP24Crate",
+      "icon": "UiOutfitPropAP24Crate",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 6,
+      "currency_type": "candles",
+      "costs": [
+        6
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "weekly_prop_rotation_03",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_AP24Crate",
+      "item_count": 1
+    },
+    {
+      "id": 913316732,
+      "shop_name": "PropShop_MainStreet_PropTest",
+      "name": "AP24Desk",
+      "icon": "UiOutfitPropAP24Desk",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 12,
+      "currency_type": "candles",
+      "costs": [
+        12
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "weekly_prop_rotation_05",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_AP24Desk",
+      "item_count": 1
+    },
+    {
+      "id": 343065566,
+      "shop_name": "PropShop_MainStreet_PropTest",
+      "name": "AP31BedroomChair",
+      "icon": "UiOutfitPropAP31BedroomChair",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 13,
+      "currency_type": "candles",
+      "costs": [
+        13
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "weekly_prop_rotation_02",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_AP31BedroomChair",
+      "item_count": 1
+    },
+    {
+      "id": 2655021762,
+      "shop_name": "PropShop_MainStreet_PropTest",
+      "name": "AP31BedroomTallTable",
+      "icon": "UiOutfitPropAP31BedroomTallTable",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 14,
+      "currency_type": "candles",
+      "costs": [
+        14
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "weekly_prop_rotation_02",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_AP31BedroomTallTable",
+      "item_count": 1
+    },
+    {
+      "id": 2984362396,
+      "shop_name": "PropShop_MainStreet_PropTest",
+      "name": "AP31Bed",
+      "icon": "UiOutfitPropAP31Bed",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 22,
+      "currency_type": "candles",
+      "costs": [
+        22
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "weekly_prop_rotation_03",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_AP31Bed",
+      "item_count": 1
+    },
+    {
+      "id": 1379597863,
+      "shop_name": "PropShop_MainStreet_PropTest",
+      "name": "AP31PaintingSet",
+      "icon": "UiOutfitPropAP31PaintingSet",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 8,
+      "currency_type": "candles",
+      "costs": [
+        8
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "weekly_prop_rotation_04",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_monthly_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "CharSkyKid_Prop_AP31PaintingSet",
+      "item_count": 1
+    },
+    {
+      "id": 2171034275,
+      "shop_name": "",
+      "name": "Seating",
+      "icon": "",
+      "localized_name": "",
+      "order_index": 0,
+      "cost": 0,
+      "currency_type": "",
+      "costs": [
+        0
+      ],
+      "currency_types": [
+        ""
+      ],
+      "event_name": "",
+      "max_per_cycle": 0,
+      "reset_event": "",
+      "unlock_requiremnts": [],
+      "item_type": "",
+      "item_name": "",
+      "item_count": 0
     },
     {
       "id": 603399690,
@@ -19299,6 +20338,231 @@
       "item_count": 1
     },
     {
+      "id": 2899764154,
+      "shop_name": "NoShop",
+      "name": "AP24OilLamp_UpgradeCount",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 14,
+      "currency_type": "candles",
+      "costs": [
+        14
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "CharSkyKid_Prop_AP24OilLamp"
+      ],
+      "item_type": "inventory_unlock_upgrade",
+      "item_name": "CharSkyKid_Prop_AP24OilLamp",
+      "item_count": 1
+    },
+    {
+      "id": 1438236909,
+      "shop_name": "NoShop",
+      "name": "AP24ConsoleTable_UpgradeCount",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 13,
+      "currency_type": "candles",
+      "costs": [
+        13
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "CharSkyKid_Prop_AP24ConsoleTable"
+      ],
+      "item_type": "inventory_unlock_upgrade",
+      "item_name": "CharSkyKid_Prop_AP24ConsoleTable",
+      "item_count": 1
+    },
+    {
+      "id": 3197913336,
+      "shop_name": "NoShop",
+      "name": "AP24RockingChair_UpgradeCount",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 11,
+      "currency_type": "candles",
+      "costs": [
+        11
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "CharSkyKid_Prop_AP24RockingChair"
+      ],
+      "item_type": "inventory_unlock_upgrade",
+      "item_name": "CharSkyKid_Prop_AP24RockingChair",
+      "item_count": 1
+    },
+    {
+      "id": 1574439065,
+      "shop_name": "NoShop",
+      "name": "AP24Crate_UpgradeCount",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 6,
+      "currency_type": "candles",
+      "costs": [
+        6
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "CharSkyKid_Prop_AP24Crate"
+      ],
+      "item_type": "inventory_unlock_upgrade",
+      "item_name": "CharSkyKid_Prop_AP24Crate",
+      "item_count": 1
+    },
+    {
+      "id": 236541147,
+      "shop_name": "NoShop",
+      "name": "AP24Desk_UpgradeCount",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 12,
+      "currency_type": "candles",
+      "costs": [
+        12
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "CharSkyKid_Prop_AP24Desk"
+      ],
+      "item_type": "inventory_unlock_upgrade",
+      "item_name": "CharSkyKid_Prop_AP24Desk",
+      "item_count": 1
+    },
+    {
+      "id": 595887585,
+      "shop_name": "NoShop",
+      "name": "AP31BedroomChair_UpgradeCount",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 13,
+      "currency_type": "candles",
+      "costs": [
+        13
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "CharSkyKid_Prop_AP31BedroomChair"
+      ],
+      "item_type": "inventory_unlock_upgrade",
+      "item_name": "CharSkyKid_Prop_AP31BedroomChair",
+      "item_count": 1
+    },
+    {
+      "id": 3394698797,
+      "shop_name": "NoShop",
+      "name": "AP31BedroomTallTable_UpgradeCount",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 14,
+      "currency_type": "candles",
+      "costs": [
+        14
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "CharSkyKid_Prop_AP31BedroomTallTable"
+      ],
+      "item_type": "inventory_unlock_upgrade",
+      "item_name": "CharSkyKid_Prop_AP31BedroomTallTable",
+      "item_count": 1
+    },
+    {
+      "id": 1236956091,
+      "shop_name": "NoShop",
+      "name": "AP31Bed_UpgradeCount",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 22,
+      "currency_type": "candles",
+      "costs": [
+        22
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "CharSkyKid_Prop_AP31Bed"
+      ],
+      "item_type": "inventory_unlock_upgrade",
+      "item_name": "CharSkyKid_Prop_AP31Bed",
+      "item_count": 1
+    },
+    {
+      "id": 624782614,
+      "shop_name": "NoShop",
+      "name": "AP31PaintingSet_UpgradeCount",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 8,
+      "currency_type": "candles",
+      "costs": [
+        8
+      ],
+      "currency_types": [
+        "candles"
+      ],
+      "event_name": "",
+      "max_per_cycle": 99,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [
+        "CharSkyKid_Prop_AP31PaintingSet"
+      ],
+      "item_type": "inventory_unlock_upgrade",
+      "item_name": "CharSkyKid_Prop_AP31PaintingSet",
+      "item_count": 1
+    },
+    {
       "id": 4206294438,
       "shop_name": "NoShop",
       "name": "AP23Vanity_UpgradeCount",
@@ -19617,6 +20881,29 @@
       ],
       "item_type": "inventory_unlock",
       "item_name": "Nest_Night_GO_Town_Capacity_3",
+      "item_count": 1
+    },
+    {
+      "id": 2400828935,
+      "shop_name": "NoShop",
+      "name": "Nest_Nest_Night_GO_Town",
+      "icon": "UiMiscDiamond",
+      "localized_name": "",
+      "order_index": -1,
+      "cost": 60,
+      "currency_type": "prestige",
+      "costs": [
+        60
+      ],
+      "currency_types": [
+        "prestige"
+      ],
+      "event_name": "",
+      "max_per_cycle": 1,
+      "reset_event": "gen_shop_daily_reset",
+      "unlock_requiremnts": [],
+      "item_type": "inventory_unlock",
+      "item_name": "Nest_Nest_Night_GO_Town",
       "item_count": 1
     }
   ]

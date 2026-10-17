@@ -9,6 +9,14 @@
       "validation_level": ""
     },
     {
+      "trust_activity": "player_daily_quest",
+      "type": "player",
+      "activity_group": "player_interaction",
+      "trust_delta": 10,
+      "party_type": "party",
+      "validation_level": ""
+    },
+    {
       "trust_activity": "player_heart_gift",
       "type": "player",
       "activity_group": "player_gift",

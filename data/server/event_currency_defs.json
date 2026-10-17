@@ -26,7 +26,9 @@
       "name_string_key": "currency_type_event_candle",
       "hud_icon": "UiMenuEventCurrencyCafe",
       "client_currency": "event_candle_days_of_pastrycafe",
-      "forge_rate_reset_event": "",
+      "forge_cost": 5,
+      "use_forge_rates": true,
+      "forge_rate_reset_event": "global_daily_reset_time",
       "purchasable": false
     },
     {

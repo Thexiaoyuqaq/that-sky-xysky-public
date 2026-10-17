@@ -26,14 +26,14 @@
       "name": "l_Dawn_1",
       "level": "Dawn",
       "landmark": null,
-      "id": 137838313
+      "id": 1167523847
     },
     {
       "type": "wing_buff",
       "name": "l_Dawn_2",
       "level": "Dawn",
       "landmark": null,
-      "id": 1167523847
+      "id": 137838313
     },
     {
       "type": "wing_buff",
@@ -46,15 +46,15 @@
       "type": "wing_buff",
       "name": "l_Dawn_4",
       "level": "Dawn",
-      "landmark": "Dawn_Plateau",
-      "id": 1842807740
+      "landmark": "Dawn_Start",
+      "id": 1842807127
     },
     {
       "type": "wing_buff",
       "name": "l_Dawn_5",
       "level": "Dawn",
-      "landmark": "Dawn_Start",
-      "id": 1842807127
+      "landmark": "Dawn_Plateau",
+      "id": 1842807740
     },
     {
       "type": "wing_buff",
@@ -103,14 +103,14 @@
       "name": "l_Dusk_0",
       "level": "Dusk",
       "landmark": null,
-      "id": 2529558650
+      "id": 2529558651
     },
     {
       "type": "wing_buff",
       "name": "l_Dusk_1",
       "level": "Dusk",
       "landmark": null,
-      "id": 2529558651
+      "id": 2529558650
     },
     {
       "type": "wing_buff",
@@ -124,56 +124,56 @@
       "name": "l_DuskGraveyard_0",
       "level": "DuskGraveyard",
       "landmark": null,
-      "id": 2529558578
+      "id": 1167523896
     },
     {
       "type": "wing_buff",
       "name": "l_DuskGraveyard_1",
       "level": "DuskGraveyard",
       "landmark": null,
-      "id": 1167523849
+      "id": 2529558538
     },
     {
       "type": "wing_buff",
       "name": "l_DuskGraveyard_2",
       "level": "DuskGraveyard",
       "landmark": null,
-      "id": 2529558538
+      "id": 2529558578
     },
     {
       "type": "wing_buff",
       "name": "l_DuskGraveyard_3",
       "level": "DuskGraveyard",
       "landmark": null,
-      "id": 1167523896
+      "id": 1167523851
     },
     {
       "type": "wing_buff",
       "name": "l_DuskGraveyard_4",
       "level": "DuskGraveyard",
       "landmark": null,
-      "id": 1167523878
+      "id": 1167523849
     },
     {
       "type": "wing_buff",
       "name": "l_DuskGraveyard_5",
       "level": "DuskGraveyard",
       "landmark": null,
-      "id": 1167523851
+      "id": 1167523878
     },
     {
       "type": "wing_buff",
       "name": "l_DuskMid_0",
       "level": "DuskMid",
       "landmark": null,
-      "id": 2529558566
+      "id": 2529558567
     },
     {
       "type": "wing_buff",
       "name": "l_DuskMid_1",
       "level": "DuskMid",
       "landmark": null,
-      "id": 2529558567
+      "id": 2529558566
     },
     {
       "type": "wing_buff",
@@ -194,35 +194,35 @@
       "name": "l_Dusk_CrabField_0",
       "level": "Dusk_CrabField",
       "landmark": null,
-      "id": 2529559682
+      "id": 852951042
     },
     {
       "type": "wing_buff",
       "name": "l_Dusk_CrabField_1",
       "level": "Dusk_CrabField",
       "landmark": null,
-      "id": 852951042
+      "id": 2529559680
     },
     {
       "type": "wing_buff",
       "name": "l_Dusk_CrabField_2",
       "level": "Dusk_CrabField",
       "landmark": null,
-      "id": 2529559680
+      "id": 2529559682
     },
     {
       "type": "wing_buff",
       "name": "l_Dusk_Triangle_0",
       "level": "Dusk_Triangle",
       "landmark": null,
-      "id": 2105409799
+      "id": 3122856834
     },
     {
       "type": "wing_buff",
       "name": "l_Dusk_Triangle_1",
       "level": "Dusk_Triangle",
       "landmark": null,
-      "id": 3122856834
+      "id": 2105409799
     },
     {
       "type": "wing_buff",
@@ -236,28 +236,28 @@
       "name": "l_MainStreet_FunArmada_0",
       "level": "MainStreet_FunArmada",
       "landmark": null,
-      "id": 1273224520
+      "id": 1102599928
     },
     {
       "type": "wing_buff",
       "name": "l_MainStreet_FunArmada_1",
       "level": "MainStreet_FunArmada",
       "landmark": null,
-      "id": 1102599928
+      "id": 1273224520
     },
     {
       "type": "wing_buff",
       "name": "l_Night_0",
       "level": "Night",
-      "landmark": "Night_ThirdFloor",
-      "id": 34603372
+      "landmark": null,
+      "id": 34603370
     },
     {
       "type": "wing_buff",
       "name": "l_Night_1",
       "level": "Night",
-      "landmark": null,
-      "id": 34603370
+      "landmark": "Night_ThirdFloor",
+      "id": 34603372
     },
     {
       "type": "wing_buff",
@@ -277,50 +277,50 @@
       "type": "wing_buff",
       "name": "l_Night2_2",
       "level": "Night2",
-      "landmark": null,
-      "id": 34603155
+      "landmark": "Night2_SecondFloor",
+      "id": 1167523847
     },
     {
       "type": "wing_buff",
       "name": "l_Night2_3",
       "level": "Night2",
-      "landmark": "Night2_SecondFloor",
-      "id": 1167523847
+      "landmark": null,
+      "id": 34603155
     },
     {
       "type": "wing_buff",
       "name": "l_NightArchive_0",
       "level": "NightArchive",
       "landmark": null,
-      "id": 2105409716
+      "id": 2105409719
     },
     {
       "type": "wing_buff",
       "name": "l_NightArchive_1",
       "level": "NightArchive",
       "landmark": null,
-      "id": 2105409719
+      "id": 2105409716
     },
     {
       "type": "wing_buff",
       "name": "l_NightDesert_0",
       "level": "NightDesert",
       "landmark": null,
-      "id": 2060386491
+      "id": 2060386489
     },
     {
       "type": "wing_buff",
       "name": "l_NightDesert_1",
       "level": "NightDesert",
       "landmark": null,
-      "id": 2060386489
+      "id": 2060386490
     },
     {
       "type": "wing_buff",
       "name": "l_NightDesert_2",
       "level": "NightDesert",
       "landmark": null,
-      "id": 2060386490
+      "id": 2060386491
     },
     {
       "type": "wing_buff",
@@ -334,14 +334,14 @@
       "name": "l_Night_PaintedWorld_1",
       "level": "Night_PaintedWorld",
       "landmark": null,
-      "id": 826605945
+      "id": 826605975
     },
     {
       "type": "wing_buff",
       "name": "l_Night_PaintedWorld_2",
       "level": "Night_PaintedWorld",
       "landmark": null,
-      "id": 826605975
+      "id": 826605945
     },
     {
       "type": "wing_buff",
@@ -359,66 +359,87 @@
     },
     {
       "type": "wing_buff",
+      "name": "l_Prairie_ButterflyFields_0",
+      "level": "Prairie_ButterflyFields",
+      "landmark": null,
+      "id": 1167523870
+    },
+    {
+      "type": "wing_buff",
+      "name": "l_Prairie_ButterflyFields_1",
+      "level": "Prairie_ButterflyFields",
+      "landmark": null,
+      "id": 1167523871
+    },
+    {
+      "type": "wing_buff",
+      "name": "l_Prairie_ButterflyFields_2",
+      "level": "Prairie_ButterflyFields",
+      "landmark": "Prairie_ButterflyFields_Town",
+      "id": 1167523881
+    },
+    {
+      "type": "wing_buff",
       "name": "l_Storm_0",
       "level": "Storm",
       "landmark": null,
-      "id": 2529558549
+      "id": 1167524165
     },
     {
       "type": "wing_buff",
       "name": "l_Storm_1",
       "level": "Storm",
       "landmark": null,
-      "id": 4283170817
+      "id": 4283170836
     },
     {
       "type": "wing_buff",
       "name": "l_Storm_2",
       "level": "Storm",
       "landmark": null,
-      "id": 4283170831
+      "id": 2529558549
     },
     {
       "type": "wing_buff",
       "name": "l_Storm_3",
       "level": "Storm",
       "landmark": null,
-      "id": 4283170836
+      "id": 4283170820
     },
     {
       "type": "wing_buff",
       "name": "l_Storm_4",
       "level": "Storm",
       "landmark": null,
-      "id": 4283170823
+      "id": 4283170831
     },
     {
       "type": "wing_buff",
       "name": "l_Storm_5",
       "level": "Storm",
       "landmark": null,
-      "id": 4283170828
+      "id": 4283170826
     },
     {
       "type": "wing_buff",
       "name": "l_Storm_6",
       "level": "Storm",
       "landmark": null,
-      "id": 4283170826
+      "id": 4283170828
     },
     {
       "type": "wing_buff",
       "name": "l_Storm_7",
       "level": "Storm",
       "landmark": null,
-      "id": 4283170820
+      "id": 4283170823
     },
     {
       "type": "wing_buff",
       "name": "l_Storm_8",
       "level": "Storm",
       "landmark": null,
-      "id": 1167524165
+      "id": 4283170817
     },
     {
       "type": "wing_buff",
@@ -523,21 +544,21 @@
       "name": "l_SunsetVillage_0",
       "level": "SunsetVillage",
       "landmark": null,
-      "id": 4283170930
+      "id": 4283170944
     },
     {
       "type": "wing_buff",
       "name": "l_SunsetVillage_1",
       "level": "SunsetVillage",
       "landmark": null,
-      "id": 4283170944
+      "id": 4283170937
     },
     {
       "type": "wing_buff",
       "name": "l_SunsetVillage_2",
       "level": "SunsetVillage",
       "landmark": null,
-      "id": 4283170937
+      "id": 4283170930
     },
     {
       "type": "wing_buff",
@@ -558,14 +579,14 @@
       "name": "l_Sunset_FlyRace_0",
       "level": "Sunset_FlyRace",
       "landmark": null,
-      "id": 34603332
+      "id": 34603253
     },
     {
       "type": "wing_buff",
       "name": "l_Sunset_FlyRace_1",
       "level": "Sunset_FlyRace",
       "landmark": null,
-      "id": 34603253
+      "id": 34603332
     },
     {
       "type": "wing_buff",
@@ -579,35 +600,14 @@
       "name": "l_Sunset_YetiPark_0",
       "level": "Sunset_YetiPark",
       "landmark": null,
-      "id": 4283170820
+      "id": 4283170819
     },
     {
       "type": "wing_buff",
       "name": "l_Sunset_YetiPark_1",
       "level": "Sunset_YetiPark",
       "landmark": null,
-      "id": 4283170819
-    },
-    {
-      "type": "wing_buff",
-      "name": "l_Prairie_ButterflyFields_0",
-      "level": "Prairie_ButterflyFields",
-      "landmark": null,
-      "id": 1167523870
-    },
-    {
-      "type": "wing_buff",
-      "name": "l_Prairie_ButterflyFields_1",
-      "level": "Prairie_ButterflyFields",
-      "landmark": null,
-      "id": 1167523871
-    },
-    {
-      "type": "wing_buff",
-      "name": "l_Prairie_ButterflyFields_2",
-      "level": "Prairie_ButterflyFields",
-      "landmark": "Prairie_ButterflyFields_Town",
-      "id": 1167523881
+      "id": 4283170820
     },
     {
       "type": "wing_buff",
@@ -628,56 +628,56 @@
       "name": "l_Prairie_Island_0",
       "level": "Prairie_Island",
       "landmark": null,
-      "id": 4283171109
+      "id": 4283171107
     },
     {
       "type": "wing_buff",
       "name": "l_Prairie_Island_1",
       "level": "Prairie_Island",
       "landmark": null,
-      "id": 4283171102
+      "id": 4283171105
     },
     {
       "type": "wing_buff",
       "name": "l_Prairie_Island_2",
       "level": "Prairie_Island",
       "landmark": null,
-      "id": 4283170859
+      "id": 4283171102
     },
     {
       "type": "wing_buff",
       "name": "l_Prairie_Island_3",
       "level": "Prairie_Island",
       "landmark": null,
-      "id": 4283171106
+      "id": 4283171109
     },
     {
       "type": "wing_buff",
       "name": "l_Prairie_Island_4",
       "level": "Prairie_Island",
       "landmark": null,
-      "id": 4283171105
+      "id": 4283171108
     },
     {
       "type": "wing_buff",
       "name": "l_Prairie_Island_5",
       "level": "Prairie_Island",
       "landmark": null,
-      "id": 4283171103
+      "id": 4283171106
     },
     {
       "type": "wing_buff",
       "name": "l_Prairie_Island_6",
       "level": "Prairie_Island",
       "landmark": null,
-      "id": 4283171108
+      "id": 4283171103
     },
     {
       "type": "wing_buff",
       "name": "l_Prairie_Island_7",
       "level": "Prairie_Island",
       "landmark": null,
-      "id": 4283171107
+      "id": 4283170859
     },
     {
       "type": "wing_buff",
@@ -697,15 +697,15 @@
       "type": "wing_buff",
       "name": "l_Prairie_Village_0",
       "level": "Prairie_Village",
-      "landmark": "Prairie_Village_Shrine",
-      "id": 1167523844
+      "landmark": null,
+      "id": 1167524834
     },
     {
       "type": "wing_buff",
       "name": "l_Prairie_Village_1",
       "level": "Prairie_Village",
-      "landmark": null,
-      "id": 1167524834
+      "landmark": "Prairie_Village_Shrine",
+      "id": 1167523847
     },
     {
       "type": "wing_buff",
@@ -726,7 +726,7 @@
       "name": "l_Prairie_Village_4",
       "level": "Prairie_Village",
       "landmark": "Prairie_Village_Shrine",
-      "id": 1167523847
+      "id": 1167523844
     },
     {
       "type": "wing_buff",
@@ -775,7 +775,7 @@
       "name": "l_RainForest_0",
       "level": "RainForest",
       "landmark": null,
-      "id": 2753888296
+      "id": 2753888566
     },
     {
       "type": "wing_buff",
@@ -789,7 +789,7 @@
       "name": "l_RainForest_2",
       "level": "RainForest",
       "landmark": null,
-      "id": 2753888566
+      "id": 2753888296
     },
     {
       "type": "wing_buff",
@@ -810,28 +810,28 @@
       "name": "l_RainMid_1",
       "level": "RainMid",
       "landmark": null,
-      "id": 2753888467
+      "id": 2753888588
     },
     {
       "type": "wing_buff",
       "name": "l_RainMid_2",
       "level": "RainMid",
       "landmark": null,
-      "id": 2753888588
+      "id": 2753888467
     },
     {
       "type": "wing_buff",
       "name": "l_RainShelter_0",
       "level": "RainShelter",
       "landmark": null,
-      "id": 1842807127
+      "id": 4283170960
     },
     {
       "type": "wing_buff",
       "name": "l_RainShelter_1",
       "level": "RainShelter",
       "landmark": null,
-      "id": 4283170960
+      "id": 1842807127
     },
     {
       "type": "wing_buff",
@@ -859,28 +859,28 @@
       "name": "l_Rain_Cave_0",
       "level": "Rain_Cave",
       "landmark": null,
-      "id": 2105409543
+      "id": 2105409550
     },
     {
       "type": "wing_buff",
       "name": "l_Rain_Cave_1",
       "level": "Rain_Cave",
       "landmark": null,
-      "id": 2753888697
+      "id": 2105409543
     },
     {
       "type": "wing_buff",
       "name": "l_Rain_Cave_2",
       "level": "Rain_Cave",
       "landmark": null,
-      "id": 2105409550
+      "id": 2105409541
     },
     {
       "type": "wing_buff",
       "name": "l_Rain_Cave_3",
       "level": "Rain_Cave",
       "landmark": null,
-      "id": 2105409541
+      "id": 2753888697
     },
     {
       "type": "wing_buff",
@@ -898,13 +898,6 @@
     },
     {
       "type": "collectible",
-      "name": "mope",
-      "level": "Dawn",
-      "landmark": null,
-      "id": 2819097844
-    },
-    {
-      "type": "collectible",
       "name": "pullup",
       "level": "Dawn",
       "landmark": null,
@@ -916,6 +909,13 @@
       "level": "Dawn",
       "landmark": null,
       "id": 821362863
+    },
+    {
+      "type": "collectible",
+      "name": "mope",
+      "level": "Dawn",
+      "landmark": null,
+      "id": 2819097844
     },
     {
       "type": "collectible",
@@ -1059,17 +1059,17 @@
     },
     {
       "type": "collectible",
-      "name": "doze",
-      "level": "DuskOasis",
-      "landmark": null,
-      "id": 4283171484
-    },
-    {
-      "type": "collectible",
       "name": "crabwalk",
       "level": "DuskOasis",
       "landmark": null,
       "id": 4283171514
+    },
+    {
+      "type": "collectible",
+      "name": "doze",
+      "level": "DuskOasis",
+      "landmark": null,
+      "id": 4283171484
     },
     {
       "type": "collectible",
@@ -1146,13 +1146,6 @@
       "name": "questap20",
       "level": "MainStreet",
       "landmark": null,
-      "id": 3384672438
-    },
-    {
-      "type": "collectible",
-      "name": "questap20",
-      "level": "MainStreet",
-      "landmark": null,
       "id": 3384672393
     },
     {
@@ -1160,7 +1153,21 @@
       "name": "questap20",
       "level": "MainStreet",
       "landmark": null,
+      "id": 3384672438
+    },
+    {
+      "type": "collectible",
+      "name": "questap20",
+      "level": "MainStreet",
+      "landmark": null,
       "id": 3384672367
+    },
+    {
+      "type": "collectible",
+      "name": "questap20",
+      "level": "MainStreet",
+      "landmark": null,
+      "id": 3384674363
     },
     {
       "type": "collectible",
@@ -1175,13 +1182,6 @@
       "level": "MainStreet",
       "landmark": null,
       "id": 3384673945
-    },
-    {
-      "type": "collectible",
-      "name": "questap20",
-      "level": "MainStreet",
-      "landmark": null,
-      "id": 3384674363
     },
     {
       "type": "collectible",
@@ -1248,6 +1248,13 @@
     },
     {
       "type": "collectible",
+      "name": "ap27_memory3",
+      "level": "Night",
+      "landmark": null,
+      "id": 2141004045
+    },
+    {
+      "type": "collectible",
       "name": "ap27_memory4",
       "level": "Night",
       "landmark": null,
@@ -1259,13 +1266,6 @@
       "level": "Night",
       "landmark": null,
       "id": 565214316
-    },
-    {
-      "type": "collectible",
-      "name": "ap27_memory3",
-      "level": "Night",
-      "landmark": null,
-      "id": 2141004045
     },
     {
       "type": "collectible",
@@ -1374,13 +1374,6 @@
     },
     {
       "type": "collectible",
-      "name": "princesscarry",
-      "level": "Night_PaintedWorld",
-      "landmark": null,
-      "id": 2345992871
-    },
-    {
-      "type": "collectible",
       "name": "floatdance",
       "level": "Night_PaintedWorld",
       "landmark": null,
@@ -1388,10 +1381,10 @@
     },
     {
       "type": "collectible",
-      "name": "whistle",
+      "name": "princesscarry",
       "level": "Night_PaintedWorld",
       "landmark": null,
-      "id": 826606819
+      "id": 2345992871
     },
     {
       "type": "collectible",
@@ -1399,6 +1392,13 @@
       "level": "Night_PaintedWorld",
       "landmark": null,
       "id": 826605843
+    },
+    {
+      "type": "collectible",
+      "name": "whistle",
+      "level": "Night_PaintedWorld",
+      "landmark": null,
+      "id": 826606819
     },
     {
       "type": "collectible",
@@ -1434,6 +1434,13 @@
       "level": "Prairie_ButterflyFields",
       "landmark": null,
       "id": 4283171192
+    },
+    {
+      "type": "collectible",
+      "name": "butterfly",
+      "level": "Prairie_ButterflyFields",
+      "landmark": null,
+      "id": 1706
     },
     {
       "type": "collectible",
@@ -1577,13 +1584,6 @@
     },
     {
       "type": "collectible",
-      "name": "butterfly",
-      "level": "Prairie_ButterflyFields",
-      "landmark": null,
-      "id": 1706
-    },
-    {
-      "type": "collectible",
       "name": "salutation",
       "level": "Prairie_Cave",
       "landmark": null,
@@ -1661,20 +1661,6 @@
     },
     {
       "type": "collectible",
-      "name": "thumbsup",
-      "level": "Prairie_Village",
-      "landmark": null,
-      "id": 3122855955
-    },
-    {
-      "type": "collectible",
-      "name": "laugh",
-      "level": "Prairie_Village",
-      "landmark": null,
-      "id": 3122855974
-    },
-    {
-      "type": "collectible",
       "name": "wave",
       "level": "Prairie_Village",
       "landmark": null,
@@ -1686,6 +1672,20 @@
       "level": "Prairie_Village",
       "landmark": null,
       "id": 1293287597
+    },
+    {
+      "type": "collectible",
+      "name": "laugh",
+      "level": "Prairie_Village",
+      "landmark": null,
+      "id": 3122855974
+    },
+    {
+      "type": "collectible",
+      "name": "thumbsup",
+      "level": "Prairie_Village",
+      "landmark": null,
+      "id": 3122855955
     },
     {
       "type": "collectible",
@@ -1759,17 +1759,17 @@
     },
     {
       "type": "collectible",
-      "name": "shy",
-      "level": "RainForest",
-      "landmark": null,
-      "id": 1622
-    },
-    {
-      "type": "collectible",
       "name": "seek",
       "level": "RainForest",
       "landmark": null,
       "id": 34603146
+    },
+    {
+      "type": "collectible",
+      "name": "shy",
+      "level": "RainForest",
+      "landmark": null,
+      "id": 1622
     },
     {
       "type": "collectible",
@@ -1794,10 +1794,10 @@
     },
     {
       "type": "collectible",
-      "name": "cry",
+      "name": "sorry",
       "level": "RainMid",
       "landmark": null,
-      "id": 1759
+      "id": 1665
     },
     {
       "type": "collectible",
@@ -1808,10 +1808,10 @@
     },
     {
       "type": "collectible",
-      "name": "sorry",
+      "name": "cry",
       "level": "RainMid",
       "landmark": null,
-      "id": 1665
+      "id": 1759
     },
     {
       "type": "collectible",

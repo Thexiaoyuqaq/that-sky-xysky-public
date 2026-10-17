@@ -589,6 +589,111 @@
       "requires_manual_completion": false
     },
     {
+      "id": "ap32_fetch_01",
+      "schedule_type": "event",
+      "reward_cadence": "none",
+      "trust_cadence": "first_completion_only",
+      "category": "fetch_quest",
+      "npc": "questap32",
+      "requires_questgiver": false,
+      "repeatable": true,
+      "trust_activity": "spirit_unlock_200",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 5,
+      "scheduled_event": "quest_ap32_fetch_01",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "ap32_fetch_02",
+      "schedule_type": "event",
+      "reward_cadence": "none",
+      "trust_cadence": "first_completion_only",
+      "category": "fetch_quest",
+      "npc": "questap32",
+      "requires_questgiver": false,
+      "prereq_quests": [
+        "ap32_fetch_01"
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_unlock_200",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 5,
+      "scheduled_event": "quest_ap32_fetch_02",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "ap32_fetch_03",
+      "schedule_type": "event",
+      "reward_cadence": "none",
+      "trust_cadence": "first_completion_only",
+      "category": "fetch_quest",
+      "npc": "questap32",
+      "requires_questgiver": false,
+      "prereq_quests": [
+        "ap32_fetch_02"
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_unlock_200",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 5,
+      "scheduled_event": "quest_ap32_fetch_03",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "ap32_fetch_04",
+      "schedule_type": "event",
+      "reward_cadence": "none",
+      "trust_cadence": "first_completion_only",
+      "category": "fetch_quest",
+      "npc": "questap32",
+      "requires_questgiver": false,
+      "prereq_quests": [
+        "ap32_fetch_03"
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_unlock_200",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 5,
+      "scheduled_event": "quest_ap32_fetch_04",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "ap32_fetch_05",
+      "schedule_type": "event",
+      "reward_cadence": "none",
+      "trust_cadence": "first_completion_only",
+      "category": "fetch_quest",
+      "npc": "questap32",
+      "requires_questgiver": false,
+      "prereq_quests": [
+        "ap32_fetch_04"
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_unlock_200",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 5,
+      "scheduled_event": "quest_ap32_fetch_05",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "ap32_fetch_06",
+      "schedule_type": "event",
+      "reward_cadence": "none",
+      "trust_cadence": "first_completion_only",
+      "category": "fetch_quest",
+      "npc": "questap32",
+      "requires_questgiver": false,
+      "prereq_quests": [
+        "ap32_fetch_05"
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_unlock_200",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 5,
+      "scheduled_event": "quest_ap32_fetch_06",
+      "requires_manual_completion": false
+    },
+    {
       "id": "bloom_harvesting",
       "schedule_type": "daily_schedule",
       "reward_cadence": "every_completion",
@@ -1288,6 +1393,27 @@
       "requires_manual_completion": false
     },
     {
+      "id": "companion_armwrestle_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "armwrestle",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
       "id": "companion_balltrick_spend_time_medium",
       "schedule_type": "daily_persistent",
       "reward_cadence": "none",
@@ -1456,6 +1582,27 @@
       "requires_manual_completion": false
     },
     {
+      "id": "companion_hesitate_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "hesitate",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
       "id": "companion_jellydance_spend_time_medium",
       "schedule_type": "daily_persistent",
       "reward_cadence": "none",
@@ -1540,12 +1687,54 @@
       "requires_manual_completion": false
     },
     {
+      "id": "companion_showoff_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "showoff",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
       "id": "companion_slowwalk_spend_time_medium",
       "schedule_type": "daily_persistent",
       "reward_cadence": "none",
       "trust_cadence": "every_completion",
       "category": "trust_companion",
       "npc": "slowwalk",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_wallow_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "wallow",
       "requires_questgiver": false,
       "completion_stats_types": [
         "spend_companion_time"
@@ -4583,6 +4772,99 @@
       "requires_manual_completion": false
     },
     {
+      "id": "mischief_littlewitch_01",
+      "schedule_type": "event",
+      "reward_cadence": "first_completion_only",
+      "trust_cadence": "first_completion_only",
+      "category": "fetch_quest",
+      "npc": "little_witch",
+      "landmark": "Event_DaysOfMischief",
+      "requires_questgiver": false,
+      "repeatable": true,
+      "trust_activity": "spirit_unlock_200",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 60,
+      "scheduled_event": "global_halloween",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "mischief_littlewitch_02",
+      "schedule_type": "event",
+      "reward_cadence": "first_completion_only",
+      "trust_cadence": "first_completion_only",
+      "category": "fetch_quest",
+      "npc": "little_witch",
+      "landmark": "Event_DaysOfMischief",
+      "requires_questgiver": false,
+      "repeatable": true,
+      "trust_activity": "spirit_unlock_200",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 60,
+      "scheduled_event": "global_halloween",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "mischief_littlewitch_03",
+      "schedule_type": "event",
+      "reward_cadence": "first_completion_only",
+      "trust_cadence": "first_completion_only",
+      "category": "fetch_quest",
+      "npc": "little_witch",
+      "landmark": "Event_DaysOfMischief",
+      "requires_questgiver": false,
+      "repeatable": true,
+      "trust_activity": "spirit_unlock_200",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 60,
+      "scheduled_event": "global_halloween",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "moonlight_mural_day1",
+      "schedule_type": "event",
+      "reward_cadence": "every_completion",
+      "trust_cadence": "none",
+      "category": "event",
+      "npc": "whistle",
+      "landmark": "Night_PaintedWorld",
+      "requires_questgiver": false,
+      "repeatable": false,
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 5,
+      "scheduled_event": "global_moonlight_mural_d1",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "moonlight_mural_day3",
+      "schedule_type": "event",
+      "reward_cadence": "every_completion",
+      "trust_cadence": "none",
+      "category": "event",
+      "npc": "muscle",
+      "landmark": "Night_PaintedWorld",
+      "requires_questgiver": false,
+      "repeatable": false,
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 5,
+      "scheduled_event": "global_moonlight_mural_d3",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "moonlight_mural_day5",
+      "schedule_type": "event",
+      "reward_cadence": "every_completion",
+      "trust_cadence": "none",
+      "category": "event",
+      "npc": "princesscarry",
+      "landmark": "Night_PaintedWorld",
+      "requires_questgiver": false,
+      "repeatable": false,
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 5,
+      "scheduled_event": "global_moonlight_mural_d5",
+      "requires_manual_completion": false
+    },
+    {
       "id": "personality_fun_qa_1",
       "schedule_type": "event",
       "reward_cadence": "every_completion",
@@ -7029,6 +7311,29 @@
       "requires_manual_completion": false
     },
     {
+      "id": "spirit_soundbath3",
+      "schedule_type": "daily_schedule",
+      "reward_cadence": "every_completion",
+      "trust_cadence": "none",
+      "category": "daily",
+      "icon": "UiMenuExploreMask",
+      "npc": "windpose",
+      "landmark": "AviaryVillage",
+      "requires_questgiver": true,
+      "reward_id": "quest_candle_or_season_reward",
+      "completion_stats_types": [
+        "spirit_soundbath"
+      ],
+      "completion_stats_values": [
+        60
+      ],
+      "repeatable": true,
+      "trust_activity": "zero_trust_quest",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "requires_manual_completion": false
+    },
+    {
       "id": "spirit_production1",
       "schedule_type": "daily_schedule",
       "reward_cadence": "every_completion",
@@ -7527,29 +7832,6 @@
       ],
       "completion_stats_values": [
         1
-      ],
-      "repeatable": true,
-      "trust_activity": "zero_trust_quest",
-      "completion_type": "stat",
-      "repeat_cooldown_seconds": 0,
-      "requires_manual_completion": false
-    },
-    {
-      "id": "spirit_soundbath3",
-      "schedule_type": "daily_schedule",
-      "reward_cadence": "every_completion",
-      "trust_cadence": "none",
-      "category": "daily",
-      "icon": "UiMenuExploreMask",
-      "npc": "windpose",
-      "landmark": "AviaryVillage",
-      "requires_questgiver": true,
-      "reward_id": "quest_candle_or_season_reward",
-      "completion_stats_types": [
-        "spirit_soundbath"
-      ],
-      "completion_stats_values": [
-        60
       ],
       "repeatable": true,
       "trust_activity": "zero_trust_quest",
@@ -8537,7 +8819,22 @@
       "repeatable": true,
       "trust_activity": "zero_trust_quest",
       "completion_type": "activity",
-      "repeat_cooldown_seconds": 432000,
+      "repeat_cooldown_seconds": 432300,
+      "requires_manual_completion": false
+    },
+    {
+      "id": "trust_moment_armwrestle",
+      "schedule_type": "persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "none",
+      "category": "trust_moment",
+      "npc": "armwrestle",
+      "landmark": "Dusk_PearlIsland",
+      "requires_questgiver": false,
+      "repeatable": true,
+      "trust_activity": "zero_trust_quest",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 432300,
       "requires_manual_completion": false
     },
     {
@@ -8552,7 +8849,7 @@
       "repeatable": true,
       "trust_activity": "zero_trust_quest",
       "completion_type": "activity",
-      "repeat_cooldown_seconds": 432000,
+      "repeat_cooldown_seconds": 432300,
       "requires_manual_completion": false
     },
     {
@@ -8567,7 +8864,7 @@
       "repeatable": true,
       "trust_activity": "zero_trust_quest",
       "completion_type": "activity",
-      "repeat_cooldown_seconds": 432000,
+      "repeat_cooldown_seconds": 432300,
       "requires_manual_completion": false
     },
     {
@@ -8582,7 +8879,7 @@
       "repeatable": true,
       "trust_activity": "zero_trust_quest",
       "completion_type": "activity",
-      "repeat_cooldown_seconds": 432000,
+      "repeat_cooldown_seconds": 432300,
       "requires_manual_completion": false
     },
     {
@@ -8608,6 +8905,21 @@
       "category": "trust_moment",
       "npc": "flag",
       "landmark": "Sunset_Citadel",
+      "requires_questgiver": false,
+      "repeatable": true,
+      "trust_activity": "zero_trust_quest",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 432300,
+      "requires_manual_completion": false
+    },
+    {
+      "id": "trust_moment_hesitate",
+      "schedule_type": "persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "none",
+      "category": "trust_moment",
+      "npc": "hesitate",
+      "landmark": "Dusk_PearlIsland",
       "requires_questgiver": false,
       "repeatable": true,
       "trust_activity": "zero_trust_quest",
@@ -8657,7 +8969,7 @@
       "repeatable": true,
       "trust_activity": "zero_trust_quest",
       "completion_type": "activity",
-      "repeat_cooldown_seconds": 432000,
+      "repeat_cooldown_seconds": 432300,
       "requires_manual_completion": false
     },
     {
@@ -8672,7 +8984,37 @@
       "repeatable": true,
       "trust_activity": "zero_trust_quest",
       "completion_type": "activity",
-      "repeat_cooldown_seconds": 432000,
+      "repeat_cooldown_seconds": 432300,
+      "requires_manual_completion": false
+    },
+    {
+      "id": "trust_moment_showoff",
+      "schedule_type": "persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "none",
+      "category": "trust_moment",
+      "npc": "showoff",
+      "landmark": "Dusk_PearlIsland",
+      "requires_questgiver": false,
+      "repeatable": true,
+      "trust_activity": "zero_trust_quest",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 432300,
+      "requires_manual_completion": false
+    },
+    {
+      "id": "trust_moment_wallow",
+      "schedule_type": "persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "none",
+      "category": "trust_moment",
+      "npc": "wallow",
+      "landmark": "Dusk_PearlIsland",
+      "requires_questgiver": false,
+      "repeatable": true,
+      "trust_activity": "zero_trust_quest",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 432300,
       "requires_manual_completion": false
     },
     {
@@ -8687,7 +9029,7 @@
       "repeatable": true,
       "trust_activity": "zero_trust_quest",
       "completion_type": "activity",
-      "repeat_cooldown_seconds": 432000,
+      "repeat_cooldown_seconds": 432300,
       "requires_manual_completion": false
     },
     {
@@ -8702,7 +9044,7 @@
       "repeatable": true,
       "trust_activity": "zero_trust_quest",
       "completion_type": "activity",
-      "repeat_cooldown_seconds": 432000,
+      "repeat_cooldown_seconds": 432300,
       "requires_manual_completion": false
     },
     {

@@ -125,6 +125,68 @@
       "required_quests": []
     },
     {
+      "id": "npc:armwrestle:1",
+      "tier": 1,
+      "xp": 0,
+      "greeting": "WaveEmote_1",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "armwrestle",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:armwrestle:2",
+      "tier": 2,
+      "xp": 400,
+      "greeting": "WaveEmote_1+",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "armwrestle",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:armwrestle:3",
+      "tier": 3,
+      "xp": 1000,
+      "greeting": "BlowKissEmote_1",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "armwrestle",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:armwrestle:4",
+      "tier": 4,
+      "xp": 1800,
+      "greeting": "BlowKissEmote_1+",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "armwrestle",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": [
+        "trust_moment_armwrestle"
+      ]
+    },
+    {
+      "id": "npc:armwrestle:5",
+      "tier": 5,
+      "xp": 2800,
+      "greeting": "BlowKissEmote_1+",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "armwrestle",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
       "id": "npc:balltrick:1",
       "tier": 1,
       "xp": 0,
@@ -615,6 +677,68 @@
       "required_quests": []
     },
     {
+      "id": "npc:hesitate:1",
+      "tier": 1,
+      "xp": 0,
+      "greeting": "WaveEmote_1",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "hesitate",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:hesitate:2",
+      "tier": 2,
+      "xp": 400,
+      "greeting": "WaveEmote_1+",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "hesitate",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:hesitate:3",
+      "tier": 3,
+      "xp": 1000,
+      "greeting": "BlowKissEmote_1",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "hesitate",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:hesitate:4",
+      "tier": 4,
+      "xp": 1800,
+      "greeting": "BlowKissEmote_1+",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "hesitate",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": [
+        "trust_moment_hesitate"
+      ]
+    },
+    {
+      "id": "npc:hesitate:5",
+      "tier": 5,
+      "xp": 2800,
+      "greeting": "BlowKissEmote_1+",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "hesitate",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
       "id": "npc:jellydance:1",
       "tier": 1,
       "xp": 0,
@@ -734,6 +858,66 @@
       "tier_up": "RallyEmote_1",
       "ability_name": "default",
       "tier_npc": "lighthorn",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:little_witch:1",
+      "tier": 1,
+      "xp": 0,
+      "greeting": "WaveEmote_1",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "little_witch",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:little_witch:2",
+      "tier": 2,
+      "xp": 400,
+      "greeting": "WaveEmote_1+",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "little_witch",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:little_witch:3",
+      "tier": 3,
+      "xp": 800,
+      "greeting": "BlowKissEmote_1",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "little_witch",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:little_witch:4",
+      "tier": 4,
+      "xp": 1200,
+      "greeting": "BlowKissEmote_1+",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "little_witch",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:little_witch:5",
+      "tier": 5,
+      "xp": 1700,
+      "greeting": "BlowKissEmote_1+",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "little_witch",
       "tier_personality": "",
       "tier_type": "npc",
       "required_quests": []
@@ -895,6 +1079,54 @@
       "required_quests": []
     },
     {
+      "id": "npc:questap32:1",
+      "tier": 1,
+      "xp": 0,
+      "greeting": "",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "questap32",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:questap32:2",
+      "tier": 2,
+      "xp": 400,
+      "greeting": "",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "questap32",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:questap32:3",
+      "tier": 3,
+      "xp": 800,
+      "greeting": "",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "questap32",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:questap32:4",
+      "tier": 4,
+      "xp": 1200,
+      "greeting": "",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "questap32",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
       "id": "npc:revolvingdance:1",
       "tier": 1,
       "xp": 0,
@@ -1019,6 +1251,68 @@
       "required_quests": []
     },
     {
+      "id": "npc:showoff:1",
+      "tier": 1,
+      "xp": 0,
+      "greeting": "WaveEmote_1",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "showoff",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:showoff:2",
+      "tier": 2,
+      "xp": 400,
+      "greeting": "WaveEmote_1+",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "showoff",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:showoff:3",
+      "tier": 3,
+      "xp": 1000,
+      "greeting": "BlowKissEmote_1",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "showoff",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:showoff:4",
+      "tier": 4,
+      "xp": 1800,
+      "greeting": "BlowKissEmote_1+",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "showoff",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": [
+        "trust_moment_showoff"
+      ]
+    },
+    {
+      "id": "npc:showoff:5",
+      "tier": 5,
+      "xp": 2800,
+      "greeting": "BlowKissEmote_1+",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "showoff",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
       "id": "npc:slowwalk:1",
       "tier": 1,
       "xp": 0,
@@ -1074,6 +1368,68 @@
       "tier_up": "RallyEmote_1",
       "ability_name": "default",
       "tier_npc": "slowwalk",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:wallow:1",
+      "tier": 1,
+      "xp": 0,
+      "greeting": "WaveEmote_1",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "wallow",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:wallow:2",
+      "tier": 2,
+      "xp": 400,
+      "greeting": "WaveEmote_1+",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "wallow",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:wallow:3",
+      "tier": 3,
+      "xp": 1000,
+      "greeting": "BlowKissEmote_1",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "wallow",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:wallow:4",
+      "tier": 4,
+      "xp": 1800,
+      "greeting": "BlowKissEmote_1+",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "wallow",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": [
+        "trust_moment_wallow"
+      ]
+    },
+    {
+      "id": "npc:wallow:5",
+      "tier": 5,
+      "xp": 2800,
+      "greeting": "BlowKissEmote_1+",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "wallow",
       "tier_personality": "",
       "tier_type": "npc",
       "required_quests": []

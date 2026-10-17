@@ -124,6 +124,86 @@
       "unlock_pre_reqs": []
     },
     {
+      "id": "XSNC01",
+      "type": "Non-Consumable",
+      "tier": 100,
+      "name": "commerce_item_name_web_sunheadband",
+      "desc": "commerce_item_desc_web_sunheadband",
+      "icon": "UiOutfitHatSunflowerHeadband",
+      "soundId": 4,
+      "event_name": "global_webshop_start",
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Hat_SunflowerHeadband"
+      ],
+      "platforms": "xsolla",
+      "giftable": false,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "XSNC02",
+      "type": "Non-Consumable",
+      "tier": 100,
+      "name": "commerce_item_name_web_sprouthat",
+      "desc": "commerce_item_desc_web_sprouthat",
+      "icon": "UiOutfitHornSprout",
+      "soundId": 4,
+      "event_name": "global_webshop_start",
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Hat_Sprout"
+      ],
+      "platforms": "xsolla",
+      "giftable": false,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "XSNC03",
+      "type": "Non-Consumable",
+      "tier": 100,
+      "name": "commerce_item_name_web_sunflowerneck",
+      "desc": "commerce_item_desc_web_sunflowerneck",
+      "icon": "UiOutfitNeckSunflowerTie",
+      "soundId": 4,
+      "event_name": "global_webshop_start",
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Neck_SunflowerTie"
+      ],
+      "platforms": "xsolla",
+      "giftable": false,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "XSNC04",
+      "type": "Non-Consumable",
+      "tier": 100,
+      "name": "commerce_item_name_web_sunflowerskirt",
+      "desc": "commerce_item_desc_web_sunflowerskirt",
+      "icon": "UiOutfitBodySunflowerSkirt",
+      "soundId": 4,
+      "event_name": "global_webshop_start",
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Body_SunflowerSkirt"
+      ],
+      "platforms": "xsolla",
+      "giftable": false,
+      "unlock_pre_reqs": []
+    },
+    {
       "id": "SNC72",
       "type": "Non-Consumable",
       "tier": 15,
@@ -895,6 +975,140 @@
       "unlock_pre_reqs": []
     },
     {
+      "id": "SNC218",
+      "type": "Non-Consumable",
+      "tier": 15,
+      "name": "commerce_item_name_cafe_ivoryswing",
+      "desc": "commerce_item_desc_cafe_ivoryswing",
+      "icon": "UiOutfitPropIvorySwing",
+      "soundId": 6,
+      "event_name": "global_cafe",
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Prop_IvorySwing"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "SNC219",
+      "type": "Non-Consumable",
+      "tier": 10,
+      "name": "commerce_item_name_cafe_ivoryoveralls",
+      "desc": "commerce_item_desc_cafe_ivoryoveralls",
+      "icon": "UiOutfitBodyIvoryOveralls",
+      "soundId": 5,
+      "event_name": "global_cafe",
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Body_IvoryOveralls"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "SNC112",
+      "type": "Non-Consumable",
+      "tier": 15,
+      "name": "commerce_item_name_cafe_pastryhair",
+      "desc": "commerce_item_desc_cafe_pastryhair",
+      "icon": "UiOutfitHornPastryEars",
+      "soundId": 6,
+      "event_name": "global_cafe",
+      "npc_names": [
+        "cafe_shop_iap"
+      ],
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Hair_PastryShort",
+        "CharSkyKid_Horn_PastryEars"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "SNC113",
+      "type": "Non-Consumable",
+      "tier": 15,
+      "name": "commerce_item_name_cafe_pastryplush",
+      "desc": "commerce_item_desc_cafe_pastryplush",
+      "icon": "UiOutfitPropPastryPlush",
+      "soundId": 6,
+      "event_name": "global_cafe",
+      "npc_names": [
+        "cafe_shop_iap"
+      ],
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Prop_PastryPlush"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "SNC114",
+      "type": "Non-Consumable",
+      "tier": 7,
+      "name": "commerce_item_name_cafe_pastrymini",
+      "desc": "commerce_item_desc_cafe_pastrymini",
+      "icon": "UiOutfitHornPastryMini",
+      "soundId": 5,
+      "event_name": "global_cafe",
+      "npc_names": [
+        "cafe_shop_iap"
+      ],
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Horn_PastryMini"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "SNC115",
+      "type": "Non-Consumable",
+      "tier": 15,
+      "name": "commerce_item_name_cafe_pastrywing",
+      "desc": "commerce_item_desc_cafe_pastrywing",
+      "icon": "UiOutfitCapePastryCloud",
+      "soundId": 6,
+      "event_name": "global_cafe",
+      "npc_names": [
+        "cafe_shop_iap"
+      ],
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Neck_PastryBow",
+        "CharSkyKid_Wing_PastryCloud"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
       "id": "SNC175",
       "type": "Non-Consumable",
       "tier": 20,
@@ -983,6 +1197,66 @@
       "unlock_pre_reqs": []
     },
     {
+      "id": "SNC215",
+      "type": "Non-Consumable",
+      "tier": 15,
+      "name": "commerce_item_name_mischief_batwingcape",
+      "desc": "commerce_item_desc_mischief_batwingcape",
+      "icon": "UiOutfitCapeMischiefBatWing",
+      "soundId": 6,
+      "event_name": "global_halloween",
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Wing_MischiefBatWing"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "SNC216",
+      "type": "Non-Consumable",
+      "tier": 10,
+      "name": "commerce_item_name_mischief_magichat",
+      "desc": "commerce_item_desc_mischief_magichat",
+      "icon": "UiOutfitHatMischiefMagicHat",
+      "soundId": 5,
+      "event_name": "global_halloween",
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Hat_MischiefMagicHat"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
+      "id": "SNC217",
+      "type": "Non-Consumable",
+      "tier": 3,
+      "name": "commerce_item_name_mischief_catbuddy",
+      "desc": "commerce_item_desc_mischief_catbuddy",
+      "icon": "UiOutfitNeckMischiefCat",
+      "soundId": 4,
+      "event_name": "global_halloween",
+      "currencyType": "candles",
+      "currencyCount": 0,
+      "currencyType2": "candles",
+      "currencyCount2": 0,
+      "unlocks": [
+        "CharSkyKid_Neck_MischiefCat"
+      ],
+      "platforms": "*",
+      "giftable": true,
+      "unlock_pre_reqs": []
+    },
+    {
       "id": "SNC170",
       "type": "Non-Consumable",
       "tier": 12,
@@ -991,6 +1265,9 @@
       "icon": "UiOutfitHatMischiefCatEars",
       "soundId": 6,
       "event_name": "global_halloween",
+      "npc_names": [
+        "questmischief_shop"
+      ],
       "currencyType": "candles",
       "currencyCount": 0,
       "currencyType2": "candles",
@@ -1012,6 +1289,9 @@
       "icon": "UiOutfitHairMischiefFeatherHat",
       "soundId": 5,
       "event_name": "global_halloween",
+      "npc_names": [
+        "questmischief_shop"
+      ],
       "currencyType": "candles",
       "currencyCount": 0,
       "currencyType2": "candles",
@@ -4477,88 +4757,6 @@
       "currencyType2": "candles",
       "currencyCount2": 0,
       "unlocks": [],
-      "platforms": "*",
-      "giftable": true,
-      "unlock_pre_reqs": []
-    },
-    {
-      "id": "SNC112",
-      "type": "Non-Consumable",
-      "tier": 15,
-      "name": "commerce_item_name_cafe_pastryhair",
-      "desc": "commerce_item_desc_cafe_pastryhair",
-      "icon": "UiOutfitHornPastryEars",
-      "soundId": 6,
-      "event_name": "global_cafe",
-      "currencyType": "candles",
-      "currencyCount": 0,
-      "currencyType2": "candles",
-      "currencyCount2": 0,
-      "unlocks": [
-        "CharSkyKid_Hair_PastryShort",
-        "CharSkyKid_Horn_PastryEars"
-      ],
-      "platforms": "*",
-      "giftable": true,
-      "unlock_pre_reqs": []
-    },
-    {
-      "id": "SNC113",
-      "type": "Non-Consumable",
-      "tier": 15,
-      "name": "commerce_item_name_cafe_pastryplush",
-      "desc": "commerce_item_desc_cafe_pastryplush",
-      "icon": "UiOutfitPropPastryPlush",
-      "soundId": 6,
-      "event_name": "global_cafe",
-      "currencyType": "candles",
-      "currencyCount": 0,
-      "currencyType2": "candles",
-      "currencyCount2": 0,
-      "unlocks": [
-        "CharSkyKid_Prop_PastryPlush"
-      ],
-      "platforms": "*",
-      "giftable": true,
-      "unlock_pre_reqs": []
-    },
-    {
-      "id": "SNC114",
-      "type": "Non-Consumable",
-      "tier": 7,
-      "name": "commerce_item_name_cafe_pastrymini",
-      "desc": "commerce_item_desc_cafe_pastrymini",
-      "icon": "UiOutfitHornPastryMini",
-      "soundId": 5,
-      "event_name": "global_cafe",
-      "currencyType": "candles",
-      "currencyCount": 0,
-      "currencyType2": "candles",
-      "currencyCount2": 0,
-      "unlocks": [
-        "CharSkyKid_Horn_PastryMini"
-      ],
-      "platforms": "*",
-      "giftable": true,
-      "unlock_pre_reqs": []
-    },
-    {
-      "id": "SNC115",
-      "type": "Non-Consumable",
-      "tier": 15,
-      "name": "commerce_item_name_cafe_pastrywing",
-      "desc": "commerce_item_desc_cafe_pastrywing",
-      "icon": "UiOutfitCapePastryCloud",
-      "soundId": 6,
-      "event_name": "global_cafe",
-      "currencyType": "candles",
-      "currencyCount": 0,
-      "currencyType2": "candles",
-      "currencyCount2": 0,
-      "unlocks": [
-        "CharSkyKid_Neck_PastryBow",
-        "CharSkyKid_Wing_PastryCloud"
-      ],
       "platforms": "*",
       "giftable": true,
       "unlock_pre_reqs": []

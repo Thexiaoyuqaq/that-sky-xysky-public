@@ -97,6 +97,7 @@ ArcLevels = {
 	level( "VoidSharedSpace"	,		"night" ),
 	level( "Event_DaysOfMischief",		"night" ),
 	level( "Event_DaysOfMischief_Escape","night" ),
+	level( "UndergroundOffice","night" ),
 	
 	-- AP08 Prophecy
 	level( "DawnCave",					"dawn" ),
@@ -152,8 +153,13 @@ ArcLevels = {
 	level( "Night_GO_Field",			"night" ),
 	level( "Night_GO_Gallery",			"night" ),
 	level( "Night_GO_Island",			"night" ),
+	level( "Nest_Night_GO_Town",        "night" ),
 	level( "Night_GO_Town",				"night" ),
 	level( "Night_GO_Tree",				"night" ),
+	
+	-- AP32 Pearl
+	level( "Dusk_PearlIsland",			"dusk" ),
+	level( "Dusk_PearlSea",				"dusk" ),
 	
 	level( "StormStart", 				"storm" ),
 	level( "Storm", 					"storm" ),
@@ -217,7 +223,7 @@ ExtraLevels = {
 	"AR_Bedroom",
 	"S31_SandBox",
 	"OceanTest", -- for performance testing
-	"Test_TGCEmployees" -- for testing all of the TGCOffice NPCS
+	"Test_TGCEmployees", -- for testing all of the TGCOffice NPCS
 }
 
 -- Tutorial levels. The first level you get if you have no checkpoint data
