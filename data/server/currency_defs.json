@@ -1,0 +1,702 @@
+{
+  "typeAliases": {
+    "0": "none"
+  },
+  "currencies": [
+    {
+      "dbField": "candles",
+      "name": "蜡烛",
+      "is_wax": false,
+      "default": 5,
+      "typeIds": [
+        1
+      ],
+      "alias": [
+        "candle"
+      ]
+    },
+    {
+      "dbField": "vip",
+      "name": "VIP",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        2
+      ]
+    },
+    {
+      "dbField": "hearts",
+      "apiField": "heart",
+      "name": "爱心",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        3
+      ],
+      "alias": [
+        "heart"
+      ]
+    },
+    {
+      "dbField": "wax",
+      "name": "蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        4,
+        -4
+      ]
+    },
+    {
+      "dbField": "rainbow_candle",
+      "name": "彩虹蜡烛",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        5
+      ]
+    },
+    {
+      "dbField": "rainbow_heart",
+      "name": "彩虹爱心",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        6
+      ]
+    },
+    {
+      "dbField": "day_temple",
+      "name": "云野神殿",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        7
+      ]
+    },
+    {
+      "dbField": "storm_key",
+      "name": "暴风眼钥匙",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        8
+      ]
+    },
+    {
+      "dbField": "dawn_heart",
+      "name": "晨岛爱心",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        9
+      ]
+    },
+    {
+      "dbField": "day_heart",
+      "name": "云野爱心",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        10
+      ]
+    },
+    {
+      "dbField": "rain_heart",
+      "name": "雨林爱心",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        11
+      ]
+    },
+    {
+      "dbField": "dusk_heart",
+      "name": "暮土爱心",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        12
+      ]
+    },
+    {
+      "dbField": "sunset_heart",
+      "name": "霞谷爱心",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        13
+      ]
+    },
+    {
+      "dbField": "night_heart",
+      "name": "禁阁爱心",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        14
+      ]
+    },
+    {
+      "dbField": "storm_heart",
+      "name": "暴风眼爱心",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        15
+      ]
+    },
+    {
+      "dbField": "season_candle",
+      "name": "奇妙之旅限定蜡烛",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        16
+      ]
+    },
+    {
+      "dbField": "season_wax",
+      "name": "奇妙之旅限定蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        17
+      ]
+    },
+    {
+      "dbField": "prestige",
+      "name": "升华蜡烛",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        18
+      ]
+    },
+    {
+      "dbField": "prestige_wax",
+      "name": "升华蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        19
+      ]
+    },
+    {
+      "dbField": "season_pass_token",
+      "name": "奇妙礼遇卡",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        20
+      ]
+    },
+    {
+      "dbField": "heart_wax",
+      "name": "心火",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        21
+      ],
+      "alias": [
+        "hearts_wax"
+      ]
+    },
+    {
+      "dbField": "season_heart",
+      "name": "奇妙之旅限定爱心",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        22
+      ]
+    },
+    {
+      "dbField": "event_candle",
+      "name": "活动代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        23
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_bloom",
+      "name": "花憩节代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        24
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_color",
+      "name": "缤纷飞行日代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        25
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_fashion",
+      "name": "时装节代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        26
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_feast",
+      "name": "宴会节代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        27
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_fortune",
+      "name": "春节活动代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        28
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_love",
+      "name": "同心节代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        29
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_mischief",
+      "name": "恶作剧之日代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        30
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_music",
+      "name": "音乐节代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        31
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_nature",
+      "name": "自然日代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        32
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_sky",
+      "name": "《光·遇》周年庆代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        33
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_sunlight",
+      "name": "夏之日代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        34
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_aurora",
+      "name": "欧若拉音乐会代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        35
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_fireworks",
+      "name": "烟花大会代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        36
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_pastry_cafe",
+      "name": "甜点工坊代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        37
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_sky_wax",
+      "name": "《光·遇》周年庆蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        38
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_competition",
+      "name": "锦标赛代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        39
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_fashion_wax",
+      "name": "时装节蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        40
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_mischief_wax",
+      "name": "恶作剧之日蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        41
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_moonlight",
+      "name": "秋宵节代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        42
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_moonlight_wax",
+      "name": "秋宵节蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        43
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_sunlight_wax",
+      "name": "夏之日蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        44
+      ]
+    },
+    {
+      "dbField": "color_red",
+      "name": "红色染料",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        45
+      ]
+    },
+    {
+      "dbField": "color_red_wax",
+      "name": "红色染料蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        46
+      ]
+    },
+    {
+      "dbField": "color_yellow",
+      "name": "黄色染料",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        47
+      ]
+    },
+    {
+      "dbField": "color_yellow_wax",
+      "name": "黄色染料蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        48
+      ]
+    },
+    {
+      "dbField": "color_green",
+      "name": "绿色染料",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        49
+      ]
+    },
+    {
+      "dbField": "color_green_wax",
+      "name": "绿色染料蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        50
+      ]
+    },
+    {
+      "dbField": "color_cyan",
+      "name": "青色染料",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        51
+      ]
+    },
+    {
+      "dbField": "color_cyan_wax",
+      "name": "青色染料蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        52
+      ]
+    },
+    {
+      "dbField": "color_blue",
+      "name": "蓝色染料",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        53
+      ]
+    },
+    {
+      "dbField": "color_blue_wax",
+      "name": "蓝色染料蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        54
+      ]
+    },
+    {
+      "dbField": "color_magenta",
+      "name": "紫色染料",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        55
+      ]
+    },
+    {
+      "dbField": "color_magenta_wax",
+      "name": "紫色染料蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        56
+      ]
+    },
+    {
+      "dbField": "color_black",
+      "name": "黑色染料",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        57
+      ]
+    },
+    {
+      "dbField": "color_black_wax",
+      "name": "黑色染料蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        58
+      ]
+    },
+    {
+      "dbField": "color_white",
+      "name": "白色染料",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        59
+      ]
+    },
+    {
+      "dbField": "color_white_wax",
+      "name": "白色染料蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        60
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_feast_wax",
+      "name": "宴会节蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        61
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_music_wax",
+      "name": "音乐节蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        62
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_love_wax",
+      "name": "同心节蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        63
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_bloom_wax",
+      "name": "花憩节蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        64
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_fortune_wax",
+      "name": "春节活动蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        65
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_treasure",
+      "name": "寻宝节代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        66
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_treasure_wax",
+      "name": "寻宝节蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        67
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_nature_wax",
+      "name": "自然日蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        68
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_color_wax",
+      "name": "缤纷飞行日蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        69
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_twinribbon",
+      "name": "中国绊爱联动活动代币",
+      "is_wax": false,
+      "default": 0,
+      "typeIds": [
+        70
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_twinribbon_wax",
+      "name": "中国绊爱联动活动蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        71
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_competition_wax",
+      "name": "锦标赛蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        72
+      ]
+    },
+    {
+      "dbField": "season_wax_21",
+      "name": "奇妙之旅限定蜡（第21季）",
+      "is_wax": true,
+      "default": 0
+    },
+    {
+      "dbField": "season_wax_23",
+      "name": "奇妙之旅限定蜡（第23季）",
+      "is_wax": true,
+      "default": 0
+    },
+    {
+      "dbField": "season_wax_28",
+      "name": "奇妙之旅限定蜡（第28季）",
+      "is_wax": true,
+      "default": 0
+    },
+    {
+      "dbField": "prestige_vip",
+      "name": "升华 VIP",
+      "is_wax": false,
+      "default": 0
+    },
+    {
+      "dbField": "event_candle_days_of_camping",
+      "name": "露营日代币",
+      "is_wax": false,
+      "default": 0
+    },
+    {
+      "dbField": "event_candle_days_of_pastrycafe",
+      "name": "甜点工坊代币",
+      "is_wax": false,
+      "default": 0
+    }
+  ]
+}
