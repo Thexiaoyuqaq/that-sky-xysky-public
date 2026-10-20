@@ -60,6 +60,9 @@ game:
     hearts: 5
     season_candle: 5
     prestige: 5
+
+  dailyResetTimeZone: "Asia/Shanghai"
+
   socialFeed:
     socialFeedExpireDays: 30
     uri: "serveruri.cn"
