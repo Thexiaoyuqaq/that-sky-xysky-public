@@ -9,6 +9,7 @@ logger:
     - "/account/find_previous_or_empty"
     whitelist:
     - ""
+    log_non_ok: false
 
 server:
   host: "0.0.0.0"
@@ -36,7 +37,6 @@ database:
     maxIdle: 5
     connectTimeout: 10000
     ssl: false
-
   postgres:
     host: "127.0.0.1"
     port: 5432
@@ -61,7 +61,19 @@ game:
     season_candle: 5
     prestige: 5
 
+  # Daily quest / completion reset boundary (IANA time zone).
+  # Live upstream resets at 00:00 Pacific time; this deployment defaults to
+  # Asia/Shanghai. Change this single value to move the reset boundary.
   dailyResetTimeZone: "Asia/Shanghai"
+
+  # In-game support entry (/account/support/get). The client displays the
+  # returned URL as a QR code / opens it as a support session.
+  # `url` may contain {user_id} and {language}; leave empty to use the official
+  # https://sky.support.thatgame.co/<language>/player_insights/<user_id> form.
+  support:
+    url: "https://qm.qq.com/cgi-bin/qm/qr?k=273576833"
+    channel: "Beta"
+    defaultLanguage: "zh"
 
   socialFeed:
     socialFeedExpireDays: 30
@@ -104,7 +116,12 @@ game:
       - "friend"
 
 udp:
+  # Static "host:port" or an allocator URL ending in /allocate.
   uri: "100.64.15.8:19132"
+  # Sent to clients when the allocator has no room capacity or is unreachable.
+  # Point this at a real game node; 127.0.0.1:201 only makes sense for a
+  # single-machine deployment.
+  fallback: "127.0.0.1:201"
 
 cdn:
   host: "sky.resources.cdn.thatgamecompany.com"
@@ -114,9 +131,16 @@ mqtt:
   brokerUrl: ""
   username: ""
   password: ""
+cache: {}
 
 contentModeration:
-  enabled: false
-  blockMode: "direct"
-  replacementChar: "*"
+  enabled: true
+  # Standalone moderation service (see moderation-api/README.md).
+  apiUrl: "http://127.0.0.1:8787"
+  # Optional bearer token; must match auth.token in moderation-api/config/config.yml.
+  apiToken: ""
+  timeoutMs: 3000
+  # allow: chat keeps working if the API is down; block: fail closed.
+  onError: "allow"
+  cacheTtlSeconds: 60
   logViolations: true
