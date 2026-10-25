@@ -123,9 +123,17 @@ udp:
   # single-machine deployment.
   fallback: "127.0.0.1:201"
 
+# per-player token and hands host/prefix/token to the client.
+# Empty apiUrl = resource sync disabled (client issues no CDN requests); a
+# request failure degrades to the same state instead of failing login.
 cdn:
-  host: "sky.resources.cdn.thatgamecompany.com"
+  # 为空 = 关闭资源同步（不发取码请求）。
+  host: ""
+  # Sent to the client as X-CDN-Prefix (usually empty).
   prefix: ""
+  # Must match cdn.apiKey in cdnapi/config/config.yml.
+  apiKey: ""
+  timeoutMs: 3000
 
 mqtt:
   brokerUrl: ""
