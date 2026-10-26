@@ -142,7 +142,7 @@ mqtt:
 cache: {}
 
 contentModeration:
-  enabled: true
+  enabled: false
   # Standalone moderation service (see moderation-api/README.md).
   apiUrl: "http://127.0.0.1:8787"
   # Optional bearer token; must match auth.token in moderation-api/config/config.yml.
