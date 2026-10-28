@@ -123,15 +123,15 @@ udp:
   # single-machine deployment.
   fallback: "127.0.0.1:201"
 
+# Resource CDN API (cdnapi). POST /service/auth/api/v1/token asks it for a
 # per-player token and hands host/prefix/token to the client.
 # Empty apiUrl = resource sync disabled (client issues no CDN requests); a
 # request failure degrades to the same state instead of failing login.
 cdn:
-  # 为空 = 关闭资源同步（不发取码请求）。
-  host: ""
+  request_token: false
+  host: "127.0.0.1:1234"
   # Sent to the client as X-CDN-Prefix (usually empty).
   prefix: ""
-  # Must match cdn.apiKey in cdnapi/config/config.yml.
   apiKey: ""
   timeoutMs: 3000
 
