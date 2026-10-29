@@ -10,6 +10,7 @@ cache:
     forgeRates: "forge-rates"
     contentModeration: "content-moderation"
     translation: "translation-cache"
+    room: "room"
 
   list:
     session:
@@ -26,6 +27,21 @@ cache:
     forgeRates:
       minTTL: 60
       resetGraceTTL: 300
+    # Room membership mirror behind chat scoping. wsManager rebuilds this index
+    # from the allocator so a chat message only reaches players in the same room.
+    room:
+      # How often every online player's room is re-read from the allocator.
+      # Real-time matters here (it decides who receives a message), so this is
+      # kept at 1s. 0 disables the cycle: the sender is then resolved on demand
+      # when they send, which costs one lookup on first message.
+      refreshMs: 1000
+      # Players per batch lookup request. Larger = fewer round trips, bigger
+      # responses. The allocator caps a batch at 1000.
+      batchSize: 500
+      # Retention of the durable copy in the shared backend (redis / memory).
+      # This is not the freshness window: the in-process index is rebuilt every
+      # refreshMs. It only bounds how long an entry survives a restart.
+      ttl: 30
 
   memory:
     maxEntries: 30000
