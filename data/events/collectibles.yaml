@@ -1,0 +1,186 @@
+version: 3
+baseTime: 1587366000
+timezone: Asia/Shanghai
+validWindowSec: 1800
+defaults:
+  duration: 9999999
+
+collections:
+
+- id: collectibles
+  title: Collectibles
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: collectible_armoire1
+    at: '2026-01-05T21:13:20'
+    duration: 110880
+  - id: collectible_armoire2
+    at: '2026-01-05T21:13:20'
+    duration: 110880
+  - id: collectible_bask
+    at: '2026-01-05T21:13:20'
+    duration: 110880
+  - id: collectible_draw
+    at: '2026-01-05T21:13:20'
+    duration: 110880
+  - id: collectible_frustration
+    at: '2026-01-05T21:13:20'
+    duration: 110880
+  - id: collectible_slowwalk
+    at: '2026-01-05T21:13:20'
+    duration: 110880
+  - id: collectible_cough
+    at: '2025-04-21T15:00:00'
+    duration: 99999999
+  - id: collectible_duetbow
+    at: '2024-08-12T15:00:00'
+    duration: 99999999
+  - id: collectible_questap23_duo
+    at: '2024-08-12T15:00:00'
+    duration: 99999999
+  - id: collectible_reading
+    at: '2024-10-14T15:00:00'
+    duration: 99999999
+  - id: collectible_armwave
+    daily: '00:00'
+    days: 2
+    duration: 1440
+  - id: collectible_backflip
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_beacon
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_bird
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_bow
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_brave
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_butterfly
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_cape
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_cheer
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_cold
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_come
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_cry
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_die
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_float
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_force
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_ghost
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_guard
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_handstand
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_laugh
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_lighthorn
+    daily: '00:00'
+    days: 2
+    duration: 1440
+  - id: collectible_lookaround
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_love
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_manatee
+    daily: '00:00'
+    days: 2
+    duration: 1440
+  - id: collectible_manta
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_nothanks
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_ohno
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_point
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_pout
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_pray
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_proud
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_raisetheroof
+    daily: '00:00'
+    days: 2
+    duration: 1440
+  - id: collectible_rhythmicclap
+    daily: '00:00'
+    days: 2
+    duration: 1440
+  - id: collectible_salute
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_scared
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_seek
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_shy
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_sneaky
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_sorry
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_strong
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_thumbsup
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_twirl
+    daily: '00:00'
+    days: 2
+    duration: 1440
+  - id: collectible_wave
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_whale
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_wipe
+    daily: '00:00'
+    duration: 1440
+  - id: collectible_yawn
+    daily: '00:00'
+    duration: 1440

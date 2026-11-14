@@ -1,0 +1,122 @@
+version: 3
+baseTime: 1587366000
+timezone: Asia/Shanghai
+validWindowSec: 1800
+defaults:
+  duration: 9999999
+
+collections:
+- id: projectors
+  title: Projectors
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: projector_ember_p1
+    daily: '00:00'
+    days: 2
+    duration: 1440
+- id: traveling_spirits
+  title: Traveling Spirits
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: visiting_vendor_questap06
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap07
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap08
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap09
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap10
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap11
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap12
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap13
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap14
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap15
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap16
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap17
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap18
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap19
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap20
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap21
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap22
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap23
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap24
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap25
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap26
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap27
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap27manatee
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap28
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap29
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap30
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap31
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_questap32
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_ap22_miniquest_house
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_ap22_miniquest_shop
+    daily: '00:00'
+    duration: 1440
+  - id: visiting_vendor_ap22_miniquest_social
+    daily: '00:00'
+    duration: 1440
+
+  # 复刻先祖
+  - id: visiting_vendor_awww
+    at: '2026-04-10T21:13:20'
+    duration: 6311520

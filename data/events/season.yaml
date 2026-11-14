@@ -1,0 +1,978 @@
+version: 3
+baseTime: 1587366000
+timezone: Asia/Shanghai
+validWindowSec: 1800
+defaults:
+  duration: 9999999
+anchors:
+  seasons: '2020-04-20T15:00:00'
+  season_ap32: '2026-10-16T15:00:00'
+  season_ap31: '2026-01-05T21:13:20'
+  season_ap29: '2026-01-16T16:00:00'
+  season_ap09: '2021-01-04T16:00:00'
+  season_ap10: '2021-04-05T15:00:00'
+  season_ap12: '2021-10-04T15:00:00'
+  season_ap13: '2022-01-17T16:00:00'
+  season_ap14: '2022-04-11T15:00:00'
+  season_ap16: '2022-10-17T15:00:00'
+  season_ap17: '2023-01-16T16:00:00'
+  season_ap18: '2023-04-17T15:00:00'
+  season_ap19: '2023-07-17T15:00:00'
+  season_ap20: '2023-10-16T15:00:00'
+  season_ap21: '2024-01-15T16:00:00'
+  season_ap22: '2024-04-15T15:00:00'
+  season_ap23: '2024-07-15T15:00:00'
+  season_ap24: '2024-10-14T15:00:00'
+  season_ap25: '2025-01-20T16:00:00'
+  season_ap26: '2025-04-21T15:00:00'
+  season_ap27: '2025-07-21T15:00:00'
+  season_ap28: '2025-10-20T15:00:00'
+  season_ap30: '2026-01-05T21:13:20'
+
+collections:
+- id: season_ap32
+  title: Season AP32
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap32_fetch_01
+    anchor: season_ap32
+    duration: 99999999
+  - id: quest_ap32_fetch_01_sea
+    anchor: season_ap32
+    duration: 99999999
+  - id: quest_ap32_fetch_02
+    anchor: season_ap32
+    duration: 99999999
+  - id: quest_ap32_fetch_02_sea
+    anchor: season_ap32
+    duration: 99999999
+  - id: quest_ap32_fetch_03
+    anchor: season_ap32
+    duration: 99999999
+  - id: quest_ap32_fetch_03_sea_part1
+    anchor: season_ap32
+    duration: 99999999
+  - id: quest_ap32_fetch_03_sea_part2
+    anchor: season_ap32
+    duration: 99999999
+  - id: quest_ap32_fetch_03_sea_part3
+    anchor: season_ap32
+    duration: 99999999
+  - id: quest_ap32_fetch_04
+    anchor: season_ap32
+    duration: 99999999
+  - id: quest_ap32_fetch_04_sea
+    anchor: season_ap32
+    duration: 99999999
+  - id: quest_ap32_fetch_05
+    anchor: season_ap32
+    duration: 99999999
+  - id: quest_ap32_fetch_05_sea
+    anchor: season_ap32
+    duration: 99999999
+  - id: quest_ap32_fetch_06
+    anchor: season_ap32
+    duration: 99999999
+  - id: quest_ap32_fetch_06_sea
+    anchor: season_ap32
+    duration: 99999999
+
+  - id: season_32
+    anchor: season_ap32
+    duration: 110940
+
+- id: season_ap31
+  title: Season AP31
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap31_fetch_01
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_01_painting
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_02
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_02_painting
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_02_painting_part1
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_02_painting_part10
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_02_painting_part2
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_02_painting_part3
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_02_painting_part4
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_02_painting_part5
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_02_painting_part6
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_02_painting_part7
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_02_painting_part8
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_02_painting_part9
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_03
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_03_painting
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_03_painting_part1
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_03_painting_part2
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_03_painting_part3
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_04
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_04_painting
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_05
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_05_painting
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_06
+    anchor: season_ap31
+    duration: 99999999
+  - id: quest_ap31_fetch_06_painting
+    anchor: season_ap31
+    duration: 99999999
+- id: season_ap29
+  title: Season AP29
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: ap29_fetch_01_revolvingdance
+    anchor: season_ap29
+    duration: 99999999
+  - id: ap29_fetch_02_revolvingdance
+    anchor: season_ap29
+    offset: 1d
+    duration: 99999999
+  - id: ap29_fetch_03_revolvingdance
+    anchor: season_ap29
+    offset: 7d
+    duration: 99999999
+  - id: ap29_fetch_04_cuteclap
+    anchor: season_ap29
+    offset: 14d
+    duration: 99999999
+  - id: ap29_fetch_05_cuteclap
+    anchor: season_ap29
+    offset: 21d
+    duration: 99999999
+  - id: ap29_fetch_06_cuteclap
+    anchor: season_ap29
+    offset: 28d
+    duration: 99999999
+  - id: ap29_fetch_07_secret
+    anchor: season_ap29
+    offset: 35d
+    duration: 99999999
+  - id: ap29_fetch_08_secret
+    anchor: season_ap29
+    offset: 42d
+    duration: 99999999
+  - id: ap29_fetch_09_secret
+    anchor: season_ap29
+    offset: 49d
+    duration: 99999999
+  - id: ap29_fetch_10_whisper
+    anchor: season_ap29
+    offset: 55d23h
+    duration: 99999999
+  - id: ap29_fetch_11_whisper
+    anchor: season_ap29
+    offset: 62d23h
+    duration: 99999999
+  - id: ap29_fetch_12_whisper
+    anchor: season_ap29
+    offset: 69d23h
+    duration: 99999999
+  - id: quest_ap29_fetch_01
+    anchor: season_ap29
+    duration: 99999999
+  - id: quest_ap29_fetch_02
+    anchor: season_ap29
+    offset: 1d
+    duration: 99999999
+  - id: quest_ap29_fetch_03
+    anchor: season_ap29
+    offset: 7d
+    duration: 99999999
+  - id: quest_ap29_fetch_04
+    anchor: season_ap29
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap29_fetch_05
+    anchor: season_ap29
+    offset: 21d
+    duration: 99999999
+  - id: quest_ap29_fetch_06
+    anchor: season_ap29
+    offset: 28d
+    duration: 99999999
+  - id: quest_ap29_fetch_07
+    anchor: season_ap29
+    offset: 35d
+    duration: 99999999
+  - id: quest_ap29_fetch_08
+    anchor: season_ap29
+    offset: 42d
+    duration: 99999999
+  - id: quest_ap29_fetch_09
+    anchor: season_ap29
+    offset: 49d
+    duration: 99999999
+  - id: quest_ap29_fetch_10
+    anchor: season_ap29
+    offset: 55d23h
+    duration: 99999999
+  - id: quest_ap29_fetch_11
+    anchor: season_ap29
+    offset: 62d23h
+    duration: 99999999
+  - id: quest_ap29_fetch_12
+    anchor: season_ap29
+    offset: 69d23h
+    duration: 99999999
+
+- id: season_ap09
+  title: Season AP09
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap09_fetch_01
+    anchor: season_ap09
+    duration: 99999999
+  - id: quest_ap09_fetch_02
+    anchor: season_ap09
+    offset: 7d
+    duration: 99999999
+  - id: quest_ap09_fetch_03
+    anchor: season_ap09
+    offset: 21d
+    duration: 99999999
+  - id: quest_ap09_fetch_04
+    anchor: season_ap09
+    offset: 35d
+    duration: 99999999
+- id: season_ap10
+  title: Season AP10
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap10_fetch_01
+    anchor: season_ap10
+    duration: 99999999
+  - id: quest_ap10_fetch_02
+    anchor: season_ap10
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap10_fetch_03
+    anchor: season_ap10
+    offset: 28d
+    duration: 99999999
+  - id: quest_ap10_fetch_04
+    anchor: season_ap10
+    offset: 35d
+    duration: 99999999
+  - id: quest_ap10_fetch_05
+    anchor: season_ap10
+    offset: 42d
+    duration: 99999999
+  - id: quest_ap10_fetch_06
+    anchor: season_ap10
+    offset: 56d
+    duration: 99999999
+- id: season_ap11
+  title: Season AP11
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap11_fetch_04
+    at: '2021-08-02T15:00:00'
+    duration: 99999999
+- id: season_ap12
+  title: Season AP12
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap12_fetch_01
+    anchor: season_ap12
+    duration: 99999999
+  - id: quest_ap12_fetch_02
+    anchor: season_ap12
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap12_fetch_03
+    anchor: season_ap12
+    offset: 28d
+    duration: 99999999
+  - id: quest_ap12_fetch_04
+    anchor: season_ap12
+    offset: 42d1h
+    duration: 99999999
+  - id: quest_ap12_fetch_05
+    anchor: season_ap12
+    offset: 56d1h
+    duration: 99999999
+- id: season_ap13
+  title: Season AP13
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap13_fetch_01
+    anchor: season_ap13
+    duration: 99999999
+  - id: quest_ap13_fetch_02
+    anchor: season_ap13
+    offset: 7d
+    duration: 99999999
+  - id: quest_ap13_fetch_03
+    anchor: season_ap13
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap13_fetch_04
+    anchor: season_ap13
+    offset: 28d
+    duration: 99999999
+  - id: quest_ap13_fetch_05
+    anchor: season_ap13
+    offset: 49d
+    duration: 99999999
+
+- id: season_ap14
+  title: Season AP14
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap14_fetch_01
+    anchor: season_ap14
+    duration: 99999999
+  - id: quest_ap14_fetch_02
+    anchor: season_ap14
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap14_fetch_03
+    anchor: season_ap14
+    offset: 28d
+    duration: 99999999
+  - id: quest_ap14_fetch_04
+    anchor: season_ap14
+    offset: 42d
+    duration: 99999999
+  - id: quest_ap14_fetch_05
+    anchor: season_ap14
+    offset: 56d
+    duration: 99999999
+- id: season_ap16
+  title: Season AP16
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap16_fetch_01
+    anchor: season_ap16
+    duration: 99999999
+  - id: quest_ap16_fetch_02
+    anchor: season_ap16
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap16_fetch_03
+    anchor: season_ap16
+    offset: 28d1h
+    duration: 99999999
+  - id: quest_ap16_fetch_04
+    anchor: season_ap16
+    offset: 42d1h
+    duration: 99999999
+  - id: quest_ap16_fetch_05
+    anchor: season_ap16
+    offset: 52d18h
+    duration: 99999999
+- id: season_ap17
+  title: Season AP17
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap17_fetch_01
+    anchor: season_ap17
+    duration: 99999999
+  - id: quest_ap17_fetch_03
+    anchor: season_ap17
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap17_fetch_05
+    anchor: season_ap17
+    offset: 28d
+    duration: 99999999
+  - id: quest_ap17_fetch_07
+    anchor: season_ap17
+    offset: 42d
+    duration: 99999999
+  - id: quest_ap17_fetch_09
+    anchor: season_ap17
+    offset: 62d23h
+    duration: 99999999
+- id: season_ap18
+  title: Season AP18
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap18_fetch_01
+    anchor: season_ap18
+    duration: 99999999
+  - id: quest_ap18_fetch_02
+    anchor: season_ap18
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap18_fetch_03
+    anchor: season_ap18
+    offset: 28d
+    duration: 99999999
+  - id: quest_ap18_fetch_04
+    anchor: season_ap18
+    offset: 45d
+    duration: 99999999
+  - id: quest_ap18_fetch_05
+    anchor: season_ap18
+    offset: 56d
+    duration: 99999999
+- id: season_ap19
+  title: Season AP19
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap19_fetch_01
+    anchor: season_ap19
+    duration: 99999999
+  - id: quest_ap19_fetch_02
+    anchor: season_ap19
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap19_fetch_03
+    anchor: season_ap19
+    offset: 28d
+    duration: 99999999
+  - id: quest_ap19_fetch_04
+    anchor: season_ap19
+    offset: 42d
+    duration: 99999999
+  - id: quest_ap19_fetch_05
+    anchor: season_ap19
+    offset: 63d
+    duration: 99999999
+- id: season_ap20
+  title: Season AP20
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap20_fetch_01
+    anchor: season_ap20
+    duration: 99999999
+  - id: quest_ap20_fetch_02
+    anchor: season_ap20
+    offset: 7d
+    duration: 99999999
+  - id: quest_ap20_fetch_03
+    anchor: season_ap20
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap20_fetch_04
+    anchor: season_ap20
+    offset: 28d1h
+    duration: 99999999
+  - id: quest_ap20_fetch_05
+    anchor: season_ap20
+    offset: 35d1h
+    duration: 99999999
+  - id: quest_ap20_fetch_06
+    anchor: season_ap20
+    offset: 42d1h
+    duration: 99999999
+  - id: quest_ap20_fetch_07
+    anchor: season_ap20
+    offset: 49d1h
+    duration: 99999999
+  - id: quest_ap20_fetch_08
+    anchor: season_ap20
+    offset: 63d1h
+    duration: 99999999
+  - id: quest_ap20_fetch_09
+    anchor: season_ap20
+    offset: 57d1h
+    duration: 99999999
+  - id: quest_ap20_fetch_10
+    anchor: season_ap20
+    offset: 70d1h
+    duration: 99999999
+- id: season_ap21
+  title: Season AP21
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap21_fetch_01
+    anchor: season_ap21
+    duration: 99999999
+  - id: quest_ap21_fetch_02
+    anchor: season_ap21
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap21_fetch_03
+    anchor: season_ap21
+    offset: 28d
+    duration: 99999999
+  - id: quest_ap21_fetch_04
+    anchor: season_ap21
+    offset: 42d
+    duration: 99999999
+  - id: quest_ap21_fetch_05
+    anchor: season_ap21
+    offset: 55d23h
+    duration: 99999999
+  - id: quest_ap21_fetch_05_part02
+    anchor: season_ap21
+    offset: 55d23h
+    duration: 99999999
+- id: season_ap22
+  title: Season AP22
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap22_fetch_01
+    anchor: season_ap22
+    duration: 99999999
+  - id: quest_ap22_fetch_02
+    anchor: season_ap22
+    offset: 7d
+    duration: 99999999
+  - id: quest_ap22_fetch_03
+    anchor: season_ap22
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap22_fetch_04
+    anchor: season_ap22
+    offset: 42d
+    duration: 99999999
+  - id: quest_ap22_fetch_05
+    anchor: season_ap22
+    offset: 56d
+    duration: 99999999
+  - id: quest_ap22_miniHouse_01
+    anchor: season_ap22
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap22_miniHouse_02
+    anchor: season_ap22
+    offset: 21d
+    duration: 99999999
+  - id: quest_ap22_miniHouse_03
+    anchor: season_ap22
+    offset: 42d
+    duration: 99999999
+  - id: quest_ap22_miniShop_01
+    anchor: season_ap22
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap22_miniShop_02
+    anchor: season_ap22
+    offset: 35d
+    duration: 99999999
+  - id: quest_ap22_miniShop_03
+    anchor: season_ap22
+    offset: 56d
+    duration: 99999999
+  - id: quest_ap22_miniSocial_01
+    anchor: season_ap22
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap22_miniSocial_02
+    anchor: season_ap22
+    offset: 42d
+    duration: 99999999
+  - id: quest_ap22_miniSocial_03
+    anchor: season_ap22
+    offset: 49d
+    duration: 99999999
+- id: season_ap23
+  title: Season AP23
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap23_fetch_01
+    anchor: season_ap23
+    duration: 99999999
+  - id: quest_ap23_fetch_02
+    anchor: season_ap23
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap23_fetch_03
+    anchor: season_ap23
+    offset: 28d
+    duration: 99999999
+  - id: quest_ap23_fetch_04
+    anchor: season_ap23
+    offset: 42d
+    duration: 99999999
+  - id: quest_ap23_fetch_05
+    anchor: season_ap23
+    offset: 56d
+    duration: 99999999
+- id: season_ap24
+  title: Season AP24
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap24_fetch_01
+    anchor: season_ap24
+    duration: 99999999
+  - id: quest_ap24_fetch_02
+    anchor: season_ap24
+    duration: 99999999
+  - id: quest_ap24_fetch_03
+    anchor: season_ap24
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap24_fetch_04
+    anchor: season_ap24
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap24_fetch_05
+    anchor: season_ap24
+    offset: 28d1h
+    duration: 99999999
+  - id: quest_ap24_fetch_06
+    anchor: season_ap24
+    offset: 28d1h
+    duration: 99999999
+  - id: quest_ap24_fetch_07
+    anchor: season_ap24
+    offset: 42d1h
+    duration: 99999999
+  - id: quest_ap24_fetch_08
+    anchor: season_ap24
+    offset: 42d1h
+    duration: 99999999
+  - id: quest_ap24_fetch_09
+    anchor: season_ap24
+    offset: 49d1h
+    duration: 99999999
+  - id: quest_ap24_fetch_10
+    anchor: season_ap24
+    offset: 49d1h
+    duration: 99999999
+  - id: quest_ap24_fetch_11
+    anchor: season_ap24
+    offset: 56d1h
+    duration: 99999999
+  - id: quest_ap24_fetch_12
+    anchor: season_ap24
+    offset: 56d1h
+    duration: 99999999
+  - id: quest_ap24_sidequest_01
+    anchor: season_ap24
+    duration: 99999999
+  - id: quest_ap24_sidequest_02
+    anchor: season_ap24
+    duration: 99999999
+  - id: quest_ap24_sidequest_03
+    anchor: season_ap24
+    duration: 99999999
+  - id: quest_ap24_sidequest_04
+    anchor: season_ap24
+    duration: 99999999
+  - id: quest_ap24_sidequest_06
+    anchor: season_ap24
+    duration: 99999999
+  - id: quest_ap24_sidequest_07
+    anchor: season_ap24
+    duration: 99999999
+- id: season_ap25
+  title: Season AP25
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap25_fetch_01
+    anchor: season_ap25
+    duration: 99999999
+  - id: quest_ap25_fetch_02
+    anchor: season_ap25
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap25_fetch_03
+    anchor: season_ap25
+    offset: 28d
+    duration: 99999999
+  - id: quest_ap25_fetch_04
+    anchor: season_ap25
+    offset: 42d
+    duration: 99999999
+  - id: quest_ap25_fetch_05
+    anchor: season_ap25
+    offset: 55d23h
+    duration: 99999999
+- id: season_ap26
+  title: Season AP26
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap26_fetch_01
+    anchor: season_ap26
+    duration: 99999999
+  - id: quest_ap26_fetch_02
+    anchor: season_ap26
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap26_fetch_03
+    anchor: season_ap26
+    offset: 28d
+    duration: 99999999
+  - id: quest_ap26_fetch_04
+    anchor: season_ap26
+    offset: 42d
+    duration: 99999999
+  - id: quest_ap26_fetch_05
+    anchor: season_ap26
+    offset: 56d
+    duration: 99999999
+  - id: quest_ap26_fetch_06
+    anchor: season_ap26
+    offset: 70d
+    duration: 99999999
+- id: season_ap27
+  title: Season AP27
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap27_fetch_01
+    anchor: season_ap27
+    duration: 99999999
+  - id: quest_ap27_fetch_02
+    anchor: season_ap27
+    offset: 7d
+    duration: 99999999
+  - id: quest_ap27_fetch_02_part1
+    anchor: season_ap27
+    offset: 7d
+    duration: 99999999
+  - id: quest_ap27_fetch_02_part2
+    anchor: season_ap27
+    offset: 7d
+    duration: 99999999
+  - id: quest_ap27_fetch_02_part3
+    anchor: season_ap27
+    offset: 7d
+    duration: 99999999
+  - id: quest_ap27_fetch_03
+    anchor: season_ap27
+    offset: 14d
+    duration: 99999999
+  - id: quest_ap27_fetch_04
+    anchor: season_ap27
+    offset: 21d
+    duration: 99999999
+  - id: quest_ap27_fetch_05
+    anchor: season_ap27
+    offset: 39d
+    duration: 99999999
+  - id: quest_ap27_manatee_01
+    anchor: season_ap27
+    offset: 39d
+    duration: 99999999
+  - id: AP27CapeHealingSpa
+    daily: '00:00'
+    days: 2
+    duration: 1439
+- id: season_ap28
+  title: Season AP28
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap28_fetch_01
+    anchor: season_ap28
+    duration: 99999999
+  - id: quest_ap28_fetch_01_bells
+    anchor: season_ap28
+    duration: 99999999
+  - id: quest_ap28_fetch_02
+    anchor: season_ap28
+    offset: 7d
+    duration: 99999999
+  - id: quest_ap28_fetch_02_bells
+    anchor: season_ap28
+    offset: 7d
+    duration: 99999999
+  - id: quest_ap28_fetch_03
+    anchor: season_ap28
+    offset: 14d1h
+    duration: 99999999
+  - id: quest_ap28_fetch_03_bells
+    anchor: season_ap28
+    offset: 14d1h
+    duration: 99999999
+  - id: quest_ap28_fetch_04
+    anchor: season_ap28
+    offset: 21d1h
+    duration: 99999999
+  - id: quest_ap28_fetch_04_bells
+    anchor: season_ap28
+    offset: 21d1h
+    duration: 99999999
+  - id: quest_ap28_fetch_05
+    anchor: season_ap28
+    offset: 28d1h
+    duration: 99999999
+  - id: quest_ap28_fetch_05_bells
+    anchor: season_ap28
+    offset: 28d1h
+    duration: 99999999
+  - id: quest_ap28_fetch_06
+    anchor: season_ap28
+    offset: 35d1h
+    duration: 99999999
+  - id: quest_ap28_fetch_06_bells
+    anchor: season_ap28
+    offset: 35d1h
+    duration: 99999999
+  - id: quest_ap28_fetch_07
+    anchor: season_ap28
+    offset: 42d1h
+    duration: 99999999
+  - id: quest_ap28_fetch_07_bells
+    anchor: season_ap28
+    offset: 42d1h
+    duration: 99999999
+  - id: quest_ap28_fetch_08
+    anchor: season_ap28
+    offset: 49d1h
+    duration: 99999999
+  - id: quest_ap28_fetch_08_bells
+    anchor: season_ap28
+    offset: 49d1h
+    duration: 99999999
+  - id: quest_ap28_fetch_09
+    anchor: season_ap28
+    offset: 56d1h
+    duration: 99999999
+  - id: quest_ap28_fetch_09_bells
+    anchor: season_ap28
+    offset: 56d1h
+    duration: 99999999
+  - id: quest_ap28_fetch_10
+    anchor: season_ap28
+    offset: 63d1h
+    duration: 99999999
+  - id: quest_ap28_fetch_10_bells
+    anchor: season_ap28
+    offset: 63d1h
+    duration: 99999999
+
+- id: seasons
+  title: Seasons
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: season_06_ever_started
+    anchor: seasons
+    duration: 99999999
+  - id: season_27_ch4_shop
+    anchor: seasons
+    offset: 2005d
+    duration: 99999999
+  - id: season_27_end_shop
+    anchor: seasons
+    offset: 1965d
+    duration: 99999999
+  - id: season_31
+    anchor: seasons
+    offset: 2277d15m54s
+    duration: 110880
+  - id: season_31_start_shop
+    anchor: seasons
+    offset: 2277d15m54s
+    duration: 99999999
+
+- id: season_ap30
+  title: Season AP30
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: quest_ap30_fetch_01
+    anchor: season_ap30
+    duration: 99999999
+  - id: quest_ap30_fetch_02
+    anchor: season_ap30
+    duration: 99999999
+  - id: quest_ap30_fetch_03
+    anchor: season_ap30
+    duration: 99999999
+  - id: quest_ap30_fetch_04
+    anchor: season_ap30
+    duration: 99999999
+  - id: quest_ap30_fetch_05
+    anchor: season_ap30
+    duration: 99999999
+  - id: quest_ap30_fetch_01_challenge
+    anchor: season_ap30
+    duration: 99999999
+  - id: quest_ap30_fetch_02_challenge
+    anchor: season_ap30
+    duration: 99999999
+  - id: quest_ap30_fetch_03_challenge
+    anchor: season_ap30
+    duration: 99999999
+  - id: quest_ap30_fetch_04_challenge
+    anchor: season_ap30
+    duration: 99999999
+  - id: quest_ap30_fetch_05_challenge
+    anchor: season_ap30
+    duration: 99999999

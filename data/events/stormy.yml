@@ -1,0 +1,46 @@
+version: 3
+baseTime: 1587366000
+timezone: Asia/Shanghai
+validWindowSec: 1800
+defaults:
+  duration: 9999999
+anchors:
+  stormy_cycle: '2026-03-19T15:00:00'
+
+collections:
+- id: stormy
+  title: stormy
+  enabled: false
+  select:
+    mode: all
+  events:
+  - id: stormy_dusk
+    cycle: { every: 1d, total: 5, index: 0, anchor: stormy_cycle, count: 2 }
+    duration: 1440
+  - id: stormy_night
+    cycle: { every: 1d, total: 5, index: 1, anchor: stormy_cycle, count: 2 }
+    duration: 1440
+  - id: stormy_prairie
+    cycle: { every: 1d, total: 5, index: 2, anchor: stormy_cycle, count: 2 }
+    duration: 1440
+  - id: stormy_rain
+    cycle: { every: 1d, total: 5, index: 3, anchor: stormy_cycle, count: 2 }
+    duration: 1440
+  - id: stormy_sunset
+    cycle: { every: 1d, total: 5, index: 4, anchor: stormy_cycle, count: 2 }
+    duration: 1440
+  - id: stormy_intensity_1
+    window: { count: 3, every: 28800, phase: 3000 }
+    duration: 240
+  - id: stormy_intensity_2
+    window: { count: 3, every: 28800, phase: 4200 }
+    duration: 240
+  - id: stormy_intensity_3
+    window: { count: 2, every: 28800, phase: 9600 }
+    duration: 240
+  - id: stormy_intensity_4
+    window: { count: 2, every: 28800, phase: 19200 }
+    duration: 240
+  - id: stormy_intensity_5
+    window: { count: 3, every: 28800, phase: 6600 }
+    duration: 240

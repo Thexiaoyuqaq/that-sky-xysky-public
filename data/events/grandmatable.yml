@@ -1,0 +1,26 @@
+version: 3
+baseTime: 1587366000
+timezone: Asia/Shanghai
+validWindowSec: 1800
+defaults:
+  duration: 9999999
+
+collections:
+- id: scheduled_social
+  title: Scheduled Social
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: social_rain_grandmatable
+    times:
+    - '05:30'
+    - '08:00'
+    - '12:00'
+    - '16:00'
+    - '20:00'
+    - '22:00'
+    - '22:40'
+    - '00:30'
+    prepare: 1800
+    duration: 9999999

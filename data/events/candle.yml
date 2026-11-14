@@ -1,0 +1,116 @@
+version: 3
+baseTime: 1587366000
+timezone: Asia/Shanghai
+validWindowSec: 1800
+defaults:
+  duration: 9999999
+
+collections:
+- id: treasure_candle_rotation
+  title: Treasure Candle Rotation
+  enabled: true
+  select:
+    mode: random
+    salt: treasure_candle_rotation
+    avoidRepeatDays: 1
+    countByWeekday:
+      SUN: 3
+      THU: all
+      FRI: 3
+      SAT: 3
+      default: 1
+  events:
+  - id: event_rain_tcandle_master
+    daily: '00:00'
+    duration: 1440
+    select:
+      mode: random
+      salt: treasure_candle_rotation
+      avoidRepeatDays: 1
+      countByWeekday:
+        THU: all
+        default: 1
+    children:
+    - id: event_rain_tcandles2
+      daily: '00:00'
+      duration: 1440
+    - id: event_rain_tcandles3
+      daily: '00:00'
+      duration: 1440
+    - id: event_rain_tcandles1
+      daily: '00:00'
+      duration: 1440
+  - id: event_sunset_tcandle_master
+    daily: '00:00'
+    duration: 1440
+    select:
+      mode: random
+      salt: treasure_candle_rotation
+      avoidRepeatDays: 1
+      countByWeekday:
+        THU: all
+        default: 1
+    children:
+    - id: event_sunset_tcandles1
+      daily: '00:00'
+      duration: 1440
+    - id: event_sunset_tcandles2
+      daily: '00:00'
+      duration: 1440
+  - id: event_prairie_tcandle_master
+    daily: '00:00'
+    duration: 1440
+    select:
+      mode: random
+      salt: treasure_candle_rotation
+      avoidRepeatDays: 1
+      countByWeekday:
+        THU: all
+        default: 1
+    children:
+    - id: event_prairie_tcandles1
+      daily: '00:00'
+      duration: 1440
+    - id: event_prairie_tcandles2
+      daily: '00:00'
+      duration: 1440
+    - id: event_prairie_tcandles3
+      daily: '00:00'
+      duration: 1440
+  - id: event_dusk_tcandle_master
+    daily: '00:00'
+    duration: 1440
+    select:
+      mode: random
+      salt: treasure_candle_rotation
+      avoidRepeatDays: 1
+      countByWeekday:
+        THU: all
+        default: 1
+    children:
+    - id: event_dusk_tcandles2
+      daily: '00:00'
+      duration: 1440
+    - id: event_dusk_tcandles1
+      daily: '00:00'
+      duration: 1440
+    - id: event_dusk_tcandles3
+      daily: '00:00'
+      duration: 1440
+  - id: event_night_tcandle_master
+    daily: '00:00'
+    duration: 1440
+    select:
+      mode: random
+      salt: treasure_candle_rotation
+      avoidRepeatDays: 1
+      countByWeekday:
+        THU: all
+        default: 1
+    children:
+    - id: event_night_tcandles1
+      daily: '00:00'
+      duration: 1440
+    - id: event_night_tcandles2
+      daily: '00:00'
+      duration: 1440

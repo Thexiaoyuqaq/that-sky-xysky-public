@@ -1,0 +1,20 @@
+version: 3
+baseTime: 1587366000
+timezone: Asia/Shanghai
+validWindowSec: 1800
+defaults:
+  duration: 9999999
+
+collections:
+- id: tgc_office
+  title: Tgc_Office
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: tgcoffice_behavior_employees
+    at: '2026-07-03T15:00:00'
+    duration: 99999999
+  - id: quest_tgc_office_travis
+    daily: '00:00'
+    duration: 1440

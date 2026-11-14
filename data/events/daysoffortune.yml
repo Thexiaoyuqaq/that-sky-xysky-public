@@ -1,0 +1,61 @@
+version: 3
+baseTime: 1587366000
+timezone: Asia/Shanghai
+validWindowSec: 1800
+defaults:
+  duration: 9999999
+anchors:
+  event_chunjie: '2026-11-10T10:10:00'
+collections:
+- id: chunjie
+  title: 活动 春节
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: global_daysoffortune
+    anchor: event_chunjie
+    duration: 99999999
+
+  - id: global_daysoffortune_audience
+    anchor: event_chunjie
+    duration: 99999999
+
+  - id: global_daysoffortune_pre # 预热
+    anchor: event_chunjie
+    duration: 99999999
+
+  - id: global_daysoffortune_wax # 烛光
+    anchor: event_chunjie
+    duration: 99999999
+
+  - id: global_daysoffortune_dumpling # 饺子
+    anchor: event_chunjie
+    duration: 99999999
+  - id: global_daysoffortune_carousel # 旋转木马
+    anchor: event_chunjie
+    duration: 99999999
+
+- id: yanhuij
+  title: 活动 宴会节
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: global_feast
+    at: '2026-10-19T00:00:00'
+    duration: 99999999
+    enabled: true
+  - id: global_feast_storefronts
+    at: '2026-10-19T00:00:00'
+    duration: 99999999
+    enabled: true
+  - id: global_feast_wonderland
+    at: '2024-12-23T16:00:00'
+    duration: 99999999
+  - id: feast_catch_crabbit
+    anchor: event_chunjie
+    duration: 99999999
+  - id: feast_toyvendorforever
+    at: '2026-10-19T00:00:00'
+    duration: 99999999

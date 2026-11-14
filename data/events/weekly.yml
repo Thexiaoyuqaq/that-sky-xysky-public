@@ -1,0 +1,41 @@
+version: 3
+baseTime: 1587366000
+timezone: Asia/Shanghai
+validWindowSec: 1800
+defaults:
+  duration: 9999999
+anchors:
+  weekly_cycle: '2026-03-13T15:00:00'
+
+collections:
+
+- id: weekly_rotation
+  title: Weekly Rotations
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: musicshop_weekly_rotation_02
+    at: '2026-04-10T15:00:00'
+    duration: 10080
+  - id: musicshop_weekly_rotation_03
+    at: '2026-03-13T15:00:00'
+    duration: 10080
+  - id: musicshop_weekly_rotation_04
+    at: '2026-03-20T15:00:00'
+    duration: 10080
+  - id: weekly_dye_rotation_01
+    cycle: { every: 1w, total: 2, index: 0, anchor: weekly_cycle, count: 2 }
+    duration: 10080
+  - id: weekly_dye_rotation_03
+    cycle: { every: 1w, total: 2, index: 1, anchor: weekly_cycle, count: 2 }
+    duration: 10080
+  - id: weekly_prop_rotation_01
+    at: '2026-04-10T15:00:00'
+    duration: 10080
+  - id: weekly_prop_rotation_10
+    at: '2026-03-13T15:00:00'
+    duration: 10080
+  - id: weekly_prop_rotation_11
+    at: '2026-03-20T15:00:00'
+    duration: 10080

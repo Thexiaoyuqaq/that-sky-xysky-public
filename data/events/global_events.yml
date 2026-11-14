@@ -1,0 +1,71 @@
+version: 3
+baseTime: 1587366000
+timezone: Asia/Shanghai
+validWindowSec: 1800
+defaults:
+  duration: 9999999
+
+collections:
+- id: global_events
+  title: Global Events
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: global_cafe_open
+    at: '2024-04-27T15:00:00'
+    duration: 99999999
+
+  - id: global_mainstreet
+    at: '2023-11-27T16:00:00'
+    duration: 99999999
+  - id: global_musicshop_sale
+    at: '2024-11-25T16:00:00'
+    duration: 99999999
+  - id: global_pc_launch
+    at: '2024-04-10T15:00:00'
+    duration: 99999999
+  - id: global_transcendent_traveler
+    at: '2025-03-17T15:00:00'
+    duration: 99999999
+  - id: global_violin
+    at: '2023-07-03T15:00:00'
+    duration: 99999999
+  - id: global_merchandise_live
+    at: '2026-09-11T09:00:00'
+    duration: 62280
+  - id: global_flowflowerpack_launch
+    at: '2026-05-15T15:00:00'
+    duration: 99999999
+  - id: global_flowflowerjourney_evergreen
+    at: '2026-05-26T15:00:00'
+    duration: 99999999
+  - id: global_ball_beach
+    at: '2026-04-01T15:00:00'
+    duration: 308160
+  - id: global_wing_none
+    at: '2026-01-01T16:00:00'
+    duration: 99999999
+  - id: global_sky_anniversary
+    at: '2026-07-03T15:00:00'
+    duration: 30240
+  - id: global_summer
+    at: '2026-07-31T15:00:00'
+    duration: 30240
+  - id: global_qixi_couple
+    daily: '00:00'
+    duration: 1440
+  - id: global_office_shop
+    at: '2025-07-07T15:00:00'
+    duration: 99999999
+  - id: global_weekend_shop
+    daily: '00:00'
+    days: 2
+    duration: 1440
+  - id: global_rosegarden_forever
+    at: '2025-04-08T15:00:00'
+    duration: 99999999
+  - id: global_daily_reset_time
+    daily: '00:00'
+    days: 2
+    duration: 1440

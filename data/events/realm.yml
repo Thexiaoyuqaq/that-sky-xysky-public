@@ -1,0 +1,89 @@
+version: 3
+baseTime: 1587366000
+timezone: Asia/Shanghai
+validWindowSec: 1800
+defaults:
+  duration: 9999999
+
+collections:
+- id: realm_weather_cycle
+  title: Realm Weather Cycles
+  enabled: true
+  select:
+    mode: all
+  events:
+  - id: wildlifepark_cycle_not_night_hint
+    window: { count: 4, every: 720, phase: 0 }
+    duration: 8
+  - id: wildlifepark_cycle_sunset
+    window: { count: 4, every: 720, phase: 360 }
+    duration: 2
+  - id: wildlifepark_cycle_overcast_night
+    window: { count: 4, every: 720, phase: 480 }
+    duration: 1
+  - id: wildlifepark_cycle_night
+    window: { count: 4, every: 720, phase: 540 }
+    duration: 3
+  - id: wildlifepark_cycle_morning
+    window: { count: 4, every: 720, phase: 0 }
+    duration: 2
+  - id: wildlifepark_cycle_overcast_day
+    window: { count: 4, every: 720, phase: 840 }
+    duration: 1
+  - id: wildlifepark_cycle_day
+    window: { count: 4, every: 720, phase: 900 }
+    duration: 3
+  - id: mainstreet_cycle_morning_B
+    window: { count: 2, every: 3600, phase: 0 }
+    duration: 10
+  - id: mainstreet_cycle_overcast_day_B
+    window: { count: 2, every: 3600, phase: 600 }
+    duration: 5
+  - id: mainstreet_cycle_day_B
+    window: { count: 2, every: 3600, phase: 900 }
+    duration: 25
+  - id: mainstreet_cycle_sunset_B
+    window: { count: 2, every: 3600, phase: 2400 }
+    duration: 10
+  - id: mainstreet_cycle_night_B
+    window: { count: 2, every: 3600, phase: 3000 }
+    duration: 10
+
+  - id: hub_clocktower
+    window: { count: 1, every: 3600, phase: 0, startOffset: 3600 }
+    duration: 0
+  - id: day_fairyring
+    window: { count: 2, every: 3600, phase: 3000 }
+    duration: 10
+
+  - id: rain_rainbow
+    times:
+    - '08:00'
+    - '20:00'
+    prepare: 1800
+    duration: 30
+
+- id: realm_daily_quests
+  title: Realm Daily Quests
+  enabled: true
+  select:
+    mode: random
+    count: 1
+    salt: realm_daily_quests
+    avoidRepeatDays: 1
+  events:
+  - id: night_quest
+    daily: '00:00'
+    duration: 1440
+  - id: dusk_quest
+    daily: '00:00'
+    duration: 1440
+  - id: sunset_quest
+    daily: '00:00'
+    duration: 1440
+  - id: rain_quest
+    daily: '00:00'
+    duration: 1440
+  - id: prairie_quest
+    daily: '00:00'
+    duration: 1440
