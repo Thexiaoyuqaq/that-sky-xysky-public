@@ -148,7 +148,7 @@
     },
     {
       "dbField": "season_candle",
-      "name": "奇妙之旅限定蜡烛",
+      "name": "季节蜡烛",
       "is_wax": false,
       "default": 0,
       "typeIds": [
@@ -157,7 +157,7 @@
     },
     {
       "dbField": "season_wax",
-      "name": "奇妙之旅限定蜡",
+      "name": "季节蜡烛蜡",
       "is_wax": true,
       "default": 0,
       "typeIds": [
@@ -175,7 +175,7 @@
     },
     {
       "dbField": "prestige_wax",
-      "name": "升华蜡",
+      "name": "升华蜡烛蜡",
       "is_wax": true,
       "default": 0,
       "typeIds": [
@@ -184,7 +184,7 @@
     },
     {
       "dbField": "season_pass_token",
-      "name": "奇妙礼遇卡",
+      "name": "季卡",
       "is_wax": false,
       "default": 0,
       "typeIds": [
@@ -193,7 +193,7 @@
     },
     {
       "dbField": "heart_wax",
-      "name": "心火",
+      "name": "爱心蜡",
       "is_wax": true,
       "default": 0,
       "typeIds": [
@@ -205,7 +205,7 @@
     },
     {
       "dbField": "season_heart",
-      "name": "奇妙之旅限定爱心",
+      "name": "季节爱心",
       "is_wax": false,
       "default": 0,
       "typeIds": [
@@ -304,7 +304,7 @@
     },
     {
       "dbField": "event_candle_days_of_sky",
-      "name": "《光·遇》周年庆代币",
+      "name": "周年庆代币",
       "is_wax": false,
       "default": 0,
       "typeIds": [
@@ -349,7 +349,7 @@
     },
     {
       "dbField": "event_candle_days_of_sky_wax",
-      "name": "《光·遇》周年庆蜡",
+      "name": "周年庆代币蜡",
       "is_wax": true,
       "default": 0,
       "typeIds": [
@@ -367,7 +367,7 @@
     },
     {
       "dbField": "event_candle_days_of_fashion_wax",
-      "name": "时装节蜡",
+      "name": "时装节代币蜡",
       "is_wax": true,
       "default": 0,
       "typeIds": [
@@ -376,7 +376,7 @@
     },
     {
       "dbField": "event_candle_days_of_mischief_wax",
-      "name": "恶作剧之日蜡",
+      "name": "恶作剧之日代币蜡",
       "is_wax": true,
       "default": 0,
       "typeIds": [
@@ -394,7 +394,7 @@
     },
     {
       "dbField": "event_candle_days_of_moonlight_wax",
-      "name": "秋宵节蜡",
+      "name": "秋宵节代币蜡",
       "is_wax": true,
       "default": 0,
       "typeIds": [
@@ -403,7 +403,7 @@
     },
     {
       "dbField": "event_candle_days_of_sunlight_wax",
-      "name": "夏之日蜡",
+      "name": "夏之日代币蜡",
       "is_wax": true,
       "default": 0,
       "typeIds": [
@@ -556,7 +556,7 @@
     },
     {
       "dbField": "event_candle_days_of_feast_wax",
-      "name": "宴会节蜡",
+      "name": "宴会节代币蜡",
       "is_wax": true,
       "default": 0,
       "typeIds": [
@@ -565,7 +565,7 @@
     },
     {
       "dbField": "event_candle_days_of_music_wax",
-      "name": "音乐节蜡",
+      "name": "音乐节代币蜡",
       "is_wax": true,
       "default": 0,
       "typeIds": [
@@ -583,7 +583,7 @@
     },
     {
       "dbField": "event_candle_days_of_bloom_wax",
-      "name": "花憩节蜡",
+      "name": "花憩节代币蜡",
       "is_wax": true,
       "default": 0,
       "typeIds": [
@@ -592,7 +592,7 @@
     },
     {
       "dbField": "event_candle_days_of_fortune_wax",
-      "name": "春节活动蜡",
+      "name": "春节代币蜡",
       "is_wax": true,
       "default": 0,
       "typeIds": [
@@ -610,7 +610,7 @@
     },
     {
       "dbField": "event_candle_days_of_treasure_wax",
-      "name": "寻宝节蜡",
+      "name": "寻宝节代币蜡",
       "is_wax": true,
       "default": 0,
       "typeIds": [
@@ -619,7 +619,7 @@
     },
     {
       "dbField": "event_candle_days_of_nature_wax",
-      "name": "自然日蜡",
+      "name": "自然日代币蜡",
       "is_wax": true,
       "default": 0,
       "typeIds": [
@@ -628,7 +628,7 @@
     },
     {
       "dbField": "event_candle_days_of_color_wax",
-      "name": "缤纷飞行日蜡",
+      "name": "缤纷飞行日代币蜡",
       "is_wax": true,
       "default": 0,
       "typeIds": [
@@ -637,7 +637,7 @@
     },
     {
       "dbField": "event_candle_days_of_twinribbon",
-      "name": "中国绊爱联动活动代币",
+      "name": "绊爱代币",
       "is_wax": false,
       "default": 0,
       "typeIds": [
@@ -646,7 +646,7 @@
     },
     {
       "dbField": "event_candle_days_of_twinribbon_wax",
-      "name": "中国绊爱联动活动蜡",
+      "name": "绊爱代币蜡",
       "is_wax": true,
       "default": 0,
       "typeIds": [
@@ -655,7 +655,7 @@
     },
     {
       "dbField": "event_candle_days_of_competition_wax",
-      "name": "锦标赛蜡",
+      "name": "锦标赛代币蜡",
       "is_wax": true,
       "default": 0,
       "typeIds": [
@@ -664,19 +664,19 @@
     },
     {
       "dbField": "season_wax_21",
-      "name": "奇妙之旅限定蜡（第21季）",
+      "name": "季节蜡（第21季）",
       "is_wax": true,
       "default": 0
     },
     {
       "dbField": "season_wax_23",
-      "name": "奇妙之旅限定蜡（第23季）",
+      "name": "季节蜡（第23季）",
       "is_wax": true,
       "default": 0
     },
     {
       "dbField": "season_wax_28",
-      "name": "奇妙之旅限定蜡（第28季）",
+      "name": "季节蜡（第28季）",
       "is_wax": true,
       "default": 0
     },
