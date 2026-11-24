@@ -48,105 +48,6 @@
       ]
     },
     {
-      "dbField": "rainbow_candle",
-      "name": "彩虹蜡烛",
-      "is_wax": false,
-      "default": 0,
-      "typeIds": [
-        5
-      ]
-    },
-    {
-      "dbField": "rainbow_heart",
-      "name": "彩虹爱心",
-      "is_wax": false,
-      "default": 0,
-      "typeIds": [
-        6
-      ]
-    },
-    {
-      "dbField": "day_temple",
-      "name": "云野神殿",
-      "is_wax": false,
-      "default": 0,
-      "typeIds": [
-        7
-      ]
-    },
-    {
-      "dbField": "storm_key",
-      "name": "暴风眼钥匙",
-      "is_wax": false,
-      "default": 0,
-      "typeIds": [
-        8
-      ]
-    },
-    {
-      "dbField": "dawn_heart",
-      "name": "晨岛爱心",
-      "is_wax": false,
-      "default": 0,
-      "typeIds": [
-        9
-      ]
-    },
-    {
-      "dbField": "day_heart",
-      "name": "云野爱心",
-      "is_wax": false,
-      "default": 0,
-      "typeIds": [
-        10
-      ]
-    },
-    {
-      "dbField": "rain_heart",
-      "name": "雨林爱心",
-      "is_wax": false,
-      "default": 0,
-      "typeIds": [
-        11
-      ]
-    },
-    {
-      "dbField": "dusk_heart",
-      "name": "暮土爱心",
-      "is_wax": false,
-      "default": 0,
-      "typeIds": [
-        12
-      ]
-    },
-    {
-      "dbField": "sunset_heart",
-      "name": "霞谷爱心",
-      "is_wax": false,
-      "default": 0,
-      "typeIds": [
-        13
-      ]
-    },
-    {
-      "dbField": "night_heart",
-      "name": "禁阁爱心",
-      "is_wax": false,
-      "default": 0,
-      "typeIds": [
-        14
-      ]
-    },
-    {
-      "dbField": "storm_heart",
-      "name": "暴风眼爱心",
-      "is_wax": false,
-      "default": 0,
-      "typeIds": [
-        15
-      ]
-    },
-    {
       "dbField": "season_candle",
       "name": "季节蜡烛",
       "is_wax": false,
@@ -210,15 +111,6 @@
       "default": 0,
       "typeIds": [
         22
-      ]
-    },
-    {
-      "dbField": "event_candle",
-      "name": "活动代币",
-      "is_wax": false,
-      "default": 0,
-      "typeIds": [
-        23
       ]
     },
     {
@@ -661,24 +553,6 @@
       "typeIds": [
         72
       ]
-    },
-    {
-      "dbField": "season_wax_21",
-      "name": "季节蜡（第21季）",
-      "is_wax": true,
-      "default": 0
-    },
-    {
-      "dbField": "season_wax_23",
-      "name": "季节蜡（第23季）",
-      "is_wax": true,
-      "default": 0
-    },
-    {
-      "dbField": "season_wax_28",
-      "name": "季节蜡（第28季）",
-      "is_wax": true,
-      "default": 0
     },
     {
       "dbField": "prestige_vip",
