@@ -4,6 +4,16 @@
   },
   "currencies": [
     {
+      "dbField": "wax",
+      "name": "蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        4,
+        -4
+      ]
+    },
+    {
       "dbField": "candles",
       "name": "蜡烛",
       "is_wax": false,
@@ -35,16 +45,6 @@
       ],
       "alias": [
         "heart"
-      ]
-    },
-    {
-      "dbField": "wax",
-      "name": "蜡",
-      "is_wax": true,
-      "default": 0,
-      "typeIds": [
-        4,
-        -4
       ]
     },
     {
@@ -231,7 +231,7 @@
       ]
     },
     {
-      "dbField": "event_candle_days_of_pastry_cafe",
+      "dbField": "event_candle_days_of_pastrycafe",
       "name": "甜点工坊代币",
       "is_wax": false,
       "default": 0,
@@ -555,20 +555,35 @@
       ]
     },
     {
-      "dbField": "prestige_vip",
-      "name": "升华 VIP",
-      "is_wax": false,
-      "default": 0
-    },
-    {
       "dbField": "event_candle_days_of_camping",
       "name": "露营日代币",
       "is_wax": false,
-      "default": 0
+      "default": 0,
+      "typeIds": [
+        73
+      ]
     },
     {
-      "dbField": "event_candle_days_of_pastrycafe",
-      "name": "甜点工坊代币",
+      "dbField": "event_candle_days_of_camping_wax",
+      "name": "露营日代币蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        74
+      ]
+    },
+    {
+      "dbField": "event_candle_days_of_pastrycafe_wax",
+      "name": "甜点工坊代币蜡",
+      "is_wax": true,
+      "default": 0,
+      "typeIds": [
+        75
+      ]
+    },
+    {
+      "dbField": "prestige_vip",
+      "name": "升华 VIP",
       "is_wax": false,
       "default": 0
     }

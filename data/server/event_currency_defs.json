@@ -70,8 +70,9 @@
       "name_string_key": "currency_type_event_candle",
       "hud_icon": "UiMenuEventCurrencyFashion",
       "client_currency": "event_candle_days_of_fashion",
-      "forge_cost": 30,
-      "forge_rate_reset_event": "",
+      "forge_cost": 10,
+      "use_forge_rates": true,
+      "forge_rate_reset_event": "global_daily_reset_time",
       "purchasable": false
     },
     {
@@ -80,7 +81,7 @@
       "name_string_key": "currency_type_event_candle",
       "hud_icon": "UiMenuEventCurrencyFeast",
       "client_currency": "event_candle_days_of_feast",
-      "forge_cost": 16,
+      "forge_cost": 20,
       "use_forge_rates": true,
       "forge_rate_reset_event": "global_daily_reset_time",
       "purchasable": false
@@ -107,12 +108,13 @@
     },
     {
       "id": "days_of_love",
-      "event_name": "global_love_ec",
+      "event_name": "global_daysoflove",
       "name_string_key": "currency_type_event_candle",
       "hud_icon": "UiMenuEventCurrencyLove",
       "client_currency": "event_candle_days_of_love",
-      "forge_cost": 20,
-      "forge_rate_reset_event": "",
+      "forge_cost": 8,
+      "use_forge_rates": true,
+      "forge_rate_reset_event": "global_daily_reset_time",
       "purchasable": false
     },
     {

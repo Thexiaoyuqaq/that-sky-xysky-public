@@ -1177,6 +1177,20 @@
       "order_in_subcategory": 0
     },
     {
+      "id": 4163844793,
+      "name": "outfit_body_feastattiretrousers",
+      "buff_id": 4163844793,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Bodies",
+      "order_in_subcategory": 0
+    },
+    {
       "id": 3055866908,
       "name": "outfit_body_feastcoat",
       "buff_id": 3055866908,
@@ -1513,6 +1527,20 @@
       "order_in_subcategory": 0
     },
     {
+      "id": 2678233973,
+      "name": "outfit_horn_orange",
+      "buff_id": 2678233973,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "UiOutfitHornOrange",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Horn",
+      "order_in_subcategory": 2
+    },
+    {
       "id": 821189232,
       "name": "outfit_body_triumphskateoutfit",
       "buff_id": 821189232,
@@ -1623,6 +1651,20 @@
       "param": "",
       "subcategory": "Masks",
       "order_in_subcategory": 3
+    },
+    {
+      "id": 976152898,
+      "name": "outfit_face_styleblush",
+      "buff_id": 976152898,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Masks",
+      "order_in_subcategory": 0
     },
     {
       "id": 1242418451,
@@ -2367,6 +2409,34 @@
       "order_in_subcategory": 0
     },
     {
+      "id": 55881798,
+      "name": "outfit_hair_stylebutterflyclip",
+      "buff_id": 55881798,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Hair",
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 1530131037,
+      "name": "outfit_hair_stylecurtain",
+      "buff_id": 1530131037,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Hair",
+      "order_in_subcategory": 0
+    },
+    {
       "id": 4245742233,
       "name": "outfit_hair_sunlightsurfer",
       "buff_id": 4245742233,
@@ -2611,6 +2681,20 @@
       "cooldown": 15,
       "category": "outfit",
       "icon": "UiOutfitHatFeastFurHat",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Hat",
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 2261151760,
+      "name": "outfit_hat_feastsnowflake",
+      "buff_id": 2261151760,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "",
       "event": "none",
       "is_toy": false,
       "type": "",
@@ -3445,20 +3529,6 @@
       "order_in_subcategory": 6
     },
     {
-      "id": 2678233973,
-      "name": "outfit_horn_orange",
-      "buff_id": 2678233973,
-      "cooldown": 15,
-      "category": "outfit",
-      "icon": "UiOutfitHornOrange",
-      "event": "none",
-      "is_toy": false,
-      "type": "",
-      "param": "",
-      "subcategory": "Horn",
-      "order_in_subcategory": 2
-    },
-    {
       "id": 2388132571,
       "name": "outfit_horn_oreoheadband",
       "buff_id": 2388132571,
@@ -3667,6 +3737,20 @@
       "param": "",
       "subcategory": "Horn",
       "order_in_subcategory": 3
+    },
+    {
+      "id": 2769164433,
+      "name": "outfit_horn_yetiearmuffs",
+      "buff_id": 2769164433,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Horn",
+      "order_in_subcategory": 0
     },
     {
       "id": 4076351969,
@@ -4271,6 +4355,20 @@
       "order_in_subcategory": 3
     },
     {
+      "id": 974351915,
+      "name": "outfit_neck_feastwreath",
+      "buff_id": 974351915,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Neck",
+      "order_in_subcategory": 0
+    },
+    {
       "id": 2402585453,
       "name": "outfit_neck_krilltail",
       "buff_id": 2402585453,
@@ -4775,6 +4873,20 @@
       "order_in_subcategory": 0
     },
     {
+      "id": 4102423087,
+      "name": "outfit_prop_ap32pearlboat",
+      "buff_id": 4102423087,
+      "cooldown": 15,
+      "category": "prop",
+      "icon": "UiOutfitPropAP32PearlBoat",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "",
+      "order_in_subcategory": 0
+    },
+    {
       "id": 4275158517,
       "name": "outfit_prop_artbook",
       "buff_id": 4275158517,
@@ -5047,6 +5159,20 @@
       "cooldown": 15,
       "category": "prop",
       "icon": "UiOutfitPropCrabbitPortal",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "SocialProps",
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 2003001519,
+      "name": "outfit_prop_crabplush",
+      "buff_id": 2003001519,
+      "cooldown": 15,
+      "category": "prop",
+      "icon": "UiOutfitPropAP17Crab",
       "event": "none",
       "is_toy": false,
       "type": "",
@@ -5419,6 +5545,20 @@
       "order_in_subcategory": 0
     },
     {
+      "id": 3964730006,
+      "name": "outfit_prop_mantaplush",
+      "buff_id": 3964730006,
+      "cooldown": 15,
+      "category": "prop",
+      "icon": "UiOutfitPropAP17Manta",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "SocialProps",
+      "order_in_subcategory": 0
+    },
+    {
       "id": 3165352994,
       "name": "outfit_prop_marshmallow",
       "buff_id": 3165352994,
@@ -5724,6 +5864,20 @@
       "type": "",
       "param": "",
       "subcategory": "Instruments",
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 287229285,
+      "name": "outfit_prop_pillowxmas",
+      "buff_id": 287229285,
+      "cooldown": 15,
+      "category": "prop",
+      "icon": "UiOutfitPropWinterPillow",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "SocialProps",
       "order_in_subcategory": 0
     },
     {
@@ -6595,12 +6749,40 @@
       "order_in_subcategory": 0
     },
     {
+      "id": 2714549056,
+      "name": "outfit_wing_feastattirecape",
+      "buff_id": 2714549056,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Capes",
+      "order_in_subcategory": 0
+    },
+    {
       "id": 2254595829,
       "name": "outfit_wing_feastfluffyshawl",
       "buff_id": 2254595829,
       "cooldown": 15,
       "category": "outfit",
       "icon": "UiOutfitCapeFeastFluffyShawl",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Capes",
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 1234431634,
+      "name": "outfit_wing_feastfurshawl",
+      "buff_id": 1234431634,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "",
       "event": "none",
       "is_toy": false,
       "type": "",
@@ -7105,6 +7287,20 @@
       "cooldown": 15,
       "category": "outfit",
       "icon": "UiOutfitCapeSprout",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "Capes",
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 1765724872,
+      "name": "outfit_wing_stylefurcoat",
+      "buff_id": 1765724872,
+      "cooldown": 15,
+      "category": "outfit",
+      "icon": "",
       "event": "none",
       "is_toy": false,
       "type": "",
@@ -7987,6 +8183,20 @@
       "cooldown": 20,
       "category": "",
       "icon": "ConstellationImageSunset",
+      "event": "none",
+      "is_toy": false,
+      "type": "",
+      "param": "",
+      "subcategory": "",
+      "order_in_subcategory": 0
+    },
+    {
+      "id": 2824705885,
+      "name": "teleport_hidden_temple",
+      "buff_id": 2824705885,
+      "cooldown": 0.15000000596046448,
+      "category": "",
+      "icon": "ConstellationImageDusk",
       "event": "none",
       "is_toy": false,
       "type": "",

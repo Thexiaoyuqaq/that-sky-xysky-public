@@ -23,4 +23,4 @@ collections:
     - '22:40'
     - '00:30'
     prepare: 1800
-    duration: 9999999
+    duration: 30

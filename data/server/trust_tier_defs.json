@@ -923,6 +923,78 @@
       "required_quests": []
     },
     {
+      "id": "npc:questap25:1",
+      "tier": 1,
+      "xp": 0,
+      "greeting": "CheerEmote_1",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "questap25",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:questap25:2",
+      "tier": 2,
+      "xp": 400,
+      "greeting": "CheerEmote_1+",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "questap25",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:questap25:3",
+      "tier": 3,
+      "xp": 800,
+      "greeting": "BackFlipEmote_1",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "questap25",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:questap25:4",
+      "tier": 4,
+      "xp": 1200,
+      "greeting": "BackFlipEmote_1+",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "questap25",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:questap25:5",
+      "tier": 5,
+      "xp": 1600,
+      "greeting": "offer:double_five",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "questap25",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
+      "id": "npc:questap25:6",
+      "tier": 6,
+      "xp": 2000,
+      "greeting": "offer:double_five",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "questap25",
+      "tier_personality": "",
+      "tier_type": "npc",
+      "required_quests": []
+    },
+    {
       "id": "npc:questap29:1",
       "tier": 1,
       "xp": 0,
@@ -1573,7 +1645,7 @@
     {
       "id": "npc_default:2",
       "tier": 2,
-      "xp": 400,
+      "xp": 300,
       "greeting": "WaveEmote_1+",
       "tier_up": "RallyEmote_1",
       "ability_name": "default",
@@ -1585,7 +1657,7 @@
     {
       "id": "npc_default:3",
       "tier": 3,
-      "xp": 1000,
+      "xp": 700,
       "greeting": "BlowKissEmote_1",
       "tier_up": "RallyEmote_1",
       "ability_name": "default",
@@ -1597,7 +1669,7 @@
     {
       "id": "npc_default:4",
       "tier": 4,
-      "xp": 1800,
+      "xp": 1300,
       "greeting": "BlowKissEmote_1+",
       "tier_up": "RallyEmote_1",
       "ability_name": "default",
@@ -1609,7 +1681,19 @@
     {
       "id": "npc_default:5",
       "tier": 5,
-      "xp": 2800,
+      "xp": 2100,
+      "greeting": "offer:high_five",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "",
+      "tier_personality": "",
+      "tier_type": "npc_default",
+      "required_quests": []
+    },
+    {
+      "id": "npc_default:6",
+      "tier": 6,
+      "xp": 3100,
       "greeting": "offer:high_five",
       "tier_up": "RallyEmote_1",
       "ability_name": "default",
@@ -1633,7 +1717,7 @@
     {
       "id": "personality:competitive:2",
       "tier": 2,
-      "xp": 400,
+      "xp": 300,
       "greeting": "CheerEmote_1+",
       "tier_up": "TripleAxelEmote_1",
       "ability_name": "strong",
@@ -1645,7 +1729,7 @@
     {
       "id": "personality:competitive:3",
       "tier": 3,
-      "xp": 1000,
+      "xp": 700,
       "greeting": "BackFlipEmote_1",
       "tier_up": "TripleAxelEmote_1",
       "ability_name": "strong",
@@ -1657,7 +1741,7 @@
     {
       "id": "personality:competitive:4",
       "tier": 4,
-      "xp": 1800,
+      "xp": 1300,
       "greeting": "BackFlipEmote_1+",
       "tier_up": "TripleAxelEmote_1",
       "ability_name": "strong",
@@ -1669,7 +1753,7 @@
     {
       "id": "personality:competitive:5",
       "tier": 5,
-      "xp": 2800,
+      "xp": 2100,
       "greeting": "offer:double_five",
       "tier_up": "TripleAxelEmote_1",
       "ability_name": "strong",
@@ -1681,7 +1765,7 @@
     {
       "id": "personality:competitive:6",
       "tier": 6,
-      "xp": 5000,
+      "xp": 3100,
       "greeting": "offer:double_five",
       "tier_up": "TripleAxelEmote_1",
       "ability_name": "strong",
@@ -1705,7 +1789,7 @@
     {
       "id": "personality:disciplined:2",
       "tier": 2,
-      "xp": 400,
+      "xp": 300,
       "greeting": "BowEmote_1+",
       "tier_up": "AcknowledgeEmote_1",
       "ability_name": "wise",
@@ -1717,7 +1801,7 @@
     {
       "id": "personality:disciplined:3",
       "tier": 3,
-      "xp": 1000,
+      "xp": 700,
       "greeting": "SaluteEmote_1Enter",
       "tier_up": "AcknowledgeEmote_1",
       "ability_name": "wise",
@@ -1729,7 +1813,7 @@
     {
       "id": "personality:disciplined:4",
       "tier": 4,
-      "xp": 1800,
+      "xp": 1300,
       "greeting": "SaluteEmote_1Enter+",
       "tier_up": "AcknowledgeEmote_1",
       "ability_name": "wise",
@@ -1741,7 +1825,7 @@
     {
       "id": "personality:disciplined:5",
       "tier": 5,
-      "xp": 2800,
+      "xp": 2100,
       "greeting": "copy:respect",
       "tier_up": "AcknowledgeEmote_1",
       "ability_name": "wise",
@@ -1753,7 +1837,7 @@
     {
       "id": "personality:disciplined:6",
       "tier": 6,
-      "xp": 5000,
+      "xp": 3100,
       "greeting": "copy:respect",
       "tier_up": "AcknowledgeEmote_1",
       "ability_name": "wise",
@@ -1777,7 +1861,7 @@
     {
       "id": "personality:friendly:2",
       "tier": 2,
-      "xp": 400,
+      "xp": 300,
       "greeting": "WaveEmote_1+",
       "tier_up": "RallyEmote_1",
       "ability_name": "default",
@@ -1789,7 +1873,7 @@
     {
       "id": "personality:friendly:3",
       "tier": 3,
-      "xp": 1000,
+      "xp": 700,
       "greeting": "BlowKissEmote_1",
       "tier_up": "RallyEmote_1",
       "ability_name": "default",
@@ -1801,7 +1885,7 @@
     {
       "id": "personality:friendly:4",
       "tier": 4,
-      "xp": 1800,
+      "xp": 1300,
       "greeting": "BlowKissEmote_1+",
       "tier_up": "RallyEmote_1",
       "ability_name": "default",
@@ -1813,7 +1897,7 @@
     {
       "id": "personality:friendly:5",
       "tier": 5,
-      "xp": 2800,
+      "xp": 2100,
       "greeting": "offer:high_five",
       "tier_up": "RallyEmote_1",
       "ability_name": "default",
@@ -1825,7 +1909,7 @@
     {
       "id": "personality:friendly:6",
       "tier": 6,
-      "xp": 5000,
+      "xp": 3100,
       "greeting": "offer:high_five",
       "tier_up": "RallyEmote_1",
       "ability_name": "default",
@@ -1849,7 +1933,7 @@
     {
       "id": "personality:grumpy:2",
       "tier": 2,
-      "xp": 400,
+      "xp": 300,
       "greeting": "GrumpyEmote_1+",
       "tier_up": "BowEmote_1",
       "ability_name": "proud",
@@ -1861,7 +1945,7 @@
     {
       "id": "personality:grumpy:3",
       "tier": 3,
-      "xp": 1000,
+      "xp": 700,
       "greeting": "ShrugEmote_1",
       "tier_up": "BowEmote_1",
       "ability_name": "proud",
@@ -1873,7 +1957,7 @@
     {
       "id": "personality:grumpy:4",
       "tier": 4,
-      "xp": 1800,
+      "xp": 1300,
       "greeting": "ShrugEmote_1+",
       "tier_up": "BowEmote_1",
       "ability_name": "proud",
@@ -1885,7 +1969,7 @@
     {
       "id": "personality:grumpy:5",
       "tier": 5,
-      "xp": 2800,
+      "xp": 2100,
       "greeting": "offer:fist_bump",
       "tier_up": "BowEmote_1",
       "ability_name": "proud",
@@ -1897,7 +1981,7 @@
     {
       "id": "personality:grumpy:6",
       "tier": 6,
-      "xp": 5000,
+      "xp": 3100,
       "greeting": "offer:fist_bump",
       "tier_up": "BowEmote_1",
       "ability_name": "proud",
@@ -1967,6 +2051,18 @@
       "required_quests": []
     },
     {
+      "id": "personality:guide:6",
+      "tier": 6,
+      "xp": 2000,
+      "greeting": "BlowKissEmote_1",
+      "tier_up": "RallyEmote_1",
+      "ability_name": "default",
+      "tier_npc": "",
+      "tier_personality": "guide",
+      "tier_type": "personality",
+      "required_quests": []
+    },
+    {
       "id": "personality:shy:1",
       "tier": 1,
       "xp": 0,
@@ -1981,7 +2077,7 @@
     {
       "id": "personality:shy:2",
       "tier": 2,
-      "xp": 400,
+      "xp": 300,
       "greeting": "ShyEmote_1+",
       "tier_up": "GratitudeEmote_1",
       "ability_name": "timid",
@@ -1993,7 +2089,7 @@
     {
       "id": "personality:shy:3",
       "tier": 3,
-      "xp": 1000,
+      "xp": 700,
       "greeting": "AwwwEmote_1",
       "tier_up": "GratitudeEmote_1",
       "ability_name": "timid",
@@ -2005,7 +2101,7 @@
     {
       "id": "personality:shy:4",
       "tier": 4,
-      "xp": 1800,
+      "xp": 1300,
       "greeting": "AwwwEmote_1+",
       "tier_up": "GratitudeEmote_1",
       "ability_name": "timid",
@@ -2017,7 +2113,19 @@
     {
       "id": "personality:shy:5",
       "tier": 5,
-      "xp": 2800,
+      "xp": 2100,
+      "greeting": "copy:hearthands",
+      "tier_up": "GratitudeEmote_1",
+      "ability_name": "timid",
+      "tier_npc": "",
+      "tier_personality": "shy",
+      "tier_type": "personality",
+      "required_quests": []
+    },
+    {
+      "id": "personality:shy:6",
+      "tier": 6,
+      "xp": 3100,
       "greeting": "copy:hearthands",
       "tier_up": "GratitudeEmote_1",
       "ability_name": "timid",
@@ -2041,7 +2149,7 @@
     {
       "id": "personality:sleepy:2",
       "tier": 2,
-      "xp": 400,
+      "xp": 300,
       "greeting": "DozeEmote_1Enter+",
       "tier_up": "DozeEmote_1Exit",
       "ability_name": "lazy",
@@ -2053,7 +2161,7 @@
     {
       "id": "personality:sleepy:3",
       "tier": 3,
-      "xp": 1000,
+      "xp": 700,
       "greeting": "YawnEmote_1",
       "tier_up": "DozeEmote_1Exit",
       "ability_name": "lazy",
@@ -2065,7 +2173,7 @@
     {
       "id": "personality:sleepy:4",
       "tier": 4,
-      "xp": 1800,
+      "xp": 1300,
       "greeting": "YawnEmote_1+",
       "tier_up": "DozeEmote_1Exit",
       "ability_name": "lazy",
@@ -2077,7 +2185,7 @@
     {
       "id": "personality:sleepy:5",
       "tier": 5,
-      "xp": 2800,
+      "xp": 2100,
       "greeting": "offer:fist_bump",
       "tier_up": "DozeEmote_1Exit",
       "ability_name": "lazy",
@@ -2089,7 +2197,7 @@
     {
       "id": "personality:sleepy:6",
       "tier": 6,
-      "xp": 5000,
+      "xp": 3100,
       "greeting": "offer:fist_bump",
       "tier_up": "DozeEmote_1Exit",
       "ability_name": "lazy",

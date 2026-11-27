@@ -4,7 +4,7 @@
       "trust_activity": "gameroom_eden_run",
       "type": "player",
       "activity_group": "player_eden_run_symmetric",
-      "trust_delta": 200,
+      "trust_delta": 100,
       "party_type": "gameroom",
       "validation_level": ""
     },
@@ -12,7 +12,7 @@
       "trust_activity": "player_daily_quest",
       "type": "player",
       "activity_group": "player_interaction",
-      "trust_delta": 10,
+      "trust_delta": 6,
       "party_type": "party",
       "validation_level": ""
     },
@@ -121,6 +121,22 @@
       "validation_level": ""
     },
     {
+      "trust_activity": "spirit_unlock_1200",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 1200,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock_134",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 134,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
       "trust_activity": "spirit_unlock_150",
       "type": "npc",
       "activity_group": "spirit_unlock",
@@ -129,10 +145,26 @@
       "validation_level": ""
     },
     {
+      "trust_activity": "spirit_unlock_167",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 167,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
       "trust_activity": "spirit_unlock_200",
       "type": "npc",
       "activity_group": "spirit_unlock",
       "trust_delta": 200,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock_2000",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 2000,
       "party_type": "",
       "validation_level": ""
     },
@@ -149,6 +181,14 @@
       "type": "npc",
       "activity_group": "spirit_unlock",
       "trust_delta": 300,
+      "party_type": "",
+      "validation_level": ""
+    },
+    {
+      "trust_activity": "spirit_unlock_334",
+      "type": "npc",
+      "activity_group": "spirit_unlock",
+      "trust_delta": 334,
       "party_type": "",
       "validation_level": ""
     },

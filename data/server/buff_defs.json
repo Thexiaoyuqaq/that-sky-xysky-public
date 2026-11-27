@@ -551,7 +551,9 @@
       "fx_type": "basic",
       "disable_icon": false,
       "depend_buffs": [],
-      "client_event_names": null,
+      "client_event_names": [
+        "global_daysoffortune"
+      ],
       "client_level_names": null
     },
     {
@@ -621,7 +623,8 @@
       "disable_icon": false,
       "depend_buffs": [],
       "client_event_names": [
-        "global_halloween"
+        "global_halloween",
+        "global_daysoffortune"
       ],
       "client_level_names": null
     },
@@ -676,7 +679,9 @@
       "disable_icon": false,
       "depend_buffs": [],
       "client_event_names": [
-        "global_halloween"
+        "global_halloween",
+        "global_feast",
+        "global_daysoffortune"
       ],
       "client_level_names": null
     },
@@ -839,28 +844,33 @@
       "client_level_names": null
     },
     {
-      "id": 1605399236,
-      "name": "shout_aurora_keychain",
+      "id": 847392189,
+      "name": "ground_trail_snow",
       "cooldown": 0,
       "cancel_cooldown": 0,
-      "duration": 3,
+      "duration": 20,
       "multiplier": 1,
-      "effect": "shout",
-      "icon": "UiEmoteCallAurora",
-      "event": "ShoutBuffEvent",
+      "effect": "ground_trail_snow",
+      "icon": "UiMenuBuffFlairStarSmoke",
+      "event": "none",
       "is_aura": false,
       "aura_dist": 0,
       "is_stackable": false,
       "is_removable": true,
       "disable_fx": false,
-      "recipient_type": "local",
+      "recipient_type": "handhold",
       "params": [
-        "aurorastarvoice"
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0"
       ],
       "fx_type": "basic",
       "disable_icon": false,
       "depend_buffs": [],
-      "client_event_names": null,
+      "client_event_names": [
+        "global_feast"
+      ],
       "client_level_names": null
     },
     {
@@ -888,7 +898,9 @@
       "fx_type": "basic",
       "disable_icon": false,
       "depend_buffs": [],
-      "client_event_names": null,
+      "client_event_names": [
+        "global_feast"
+      ],
       "client_level_names": null
     },
     {
@@ -1558,7 +1570,8 @@
       "disable_icon": false,
       "depend_buffs": [],
       "client_event_names": [
-        "global_halloween"
+        "global_halloween",
+        "global_daysoffortune"
       ],
       "client_level_names": null
     },
@@ -1583,7 +1596,8 @@
       "disable_icon": false,
       "depend_buffs": [],
       "client_event_names": [
-        "global_halloween"
+        "global_halloween",
+        "global_daysoffortune"
       ],
       "client_level_names": null
     },
@@ -1951,6 +1965,31 @@
       "recipient_type": "handhold",
       "params": [
         "CharSkyKid_Body_FashionJeans"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 4163844793,
+      "name": "outfit_body_feastattiretrousers",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_body",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Body_FeastAttireTrousers"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -3008,6 +3047,31 @@
       "client_level_names": null
     },
     {
+      "id": 976152898,
+      "name": "outfit_face_styleblush",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_face",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Face_StyleBlush"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
       "id": 1242418451,
       "name": "outfit_feet_annivbutterfly",
       "cooldown": 0,
@@ -3330,7 +3394,8 @@
       "disable_icon": false,
       "depend_buffs": [],
       "client_event_names": [
-        "global_competition"
+        "global_competition",
+        "global_feast"
       ],
       "client_level_names": null
     },
@@ -4393,6 +4458,56 @@
       "client_level_names": null
     },
     {
+      "id": 55881798,
+      "name": "outfit_hair_stylebutterflyclip",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_hair",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Hair_StyleButterflyClip"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 1530131037,
+      "name": "outfit_hair_stylecurtain",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_hair",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Hair_StyleCurtain"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
       "id": 4245742233,
       "name": "outfit_hair_sunlightsurfer",
       "cooldown": 0,
@@ -4595,7 +4710,9 @@
       "fx_type": "basic",
       "disable_icon": false,
       "depend_buffs": [],
-      "client_event_names": null,
+      "client_event_names": [
+        "global_feast"
+      ],
       "client_level_names": null
     },
     {
@@ -4841,6 +4958,31 @@
       "recipient_type": "handhold",
       "params": [
         "CharSkyKid_Hat_FeastFurHat"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 2261151760,
+      "name": "outfit_hat_feastsnowflake",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_hat",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Hat_FeastSnowflake"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -6740,6 +6882,31 @@
       "client_level_names": null
     },
     {
+      "id": 2769164433,
+      "name": "outfit_horn_yetiearmuffs",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_horn",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Horn_YetiEarMuffs"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
       "id": 4076351969,
       "name": "outfit_mask_actor",
       "cooldown": 0,
@@ -7927,6 +8094,31 @@
       "client_level_names": null
     },
     {
+      "id": 974351915,
+      "name": "outfit_neck_feastwreath",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_neck",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Neck_FeastWreath"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
       "id": 2402585453,
       "name": "outfit_neck_krilltail",
       "cooldown": 0,
@@ -8202,6 +8394,60 @@
       "client_level_names": null
     },
     {
+      "id": 2589565735,
+      "name": "outfit_neck_presentbodya",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "gift_wrap",
+      "icon": "UiMenuPresent",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Neck_PresentBodyA"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": [
+        "global_feast"
+      ],
+      "client_level_names": null
+    },
+    {
+      "id": 2606343354,
+      "name": "outfit_neck_presentbodyb",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "gift_wrap",
+      "icon": "UiMenuPresent",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Neck_PresentBodyB"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": [
+        "global_feast"
+      ],
+      "client_level_names": null
+    },
+    {
       "id": 61495690,
       "name": "outfit_neck_scarf",
       "cooldown": 0,
@@ -8343,7 +8589,7 @@
       "disable_fx": false,
       "recipient_type": "handhold",
       "params": [
-        "CharSkyKid_Neck_WinterScarf_01"
+        "CharSkyKid_Neck_WinterScarf_Ghost"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -8446,31 +8692,6 @@
         "CharSkyKid_Face_Anniversary3DGlasses"
       ],
       "fx_type": "basic",
-      "disable_icon": false,
-      "depend_buffs": [],
-      "client_event_names": null,
-      "client_level_names": null
-    },
-    {
-      "id": 1725047129,
-      "name": "shout_crab",
-      "cooldown": 0,
-      "cancel_cooldown": 0,
-      "duration": 0.05000000074505806,
-      "multiplier": 1,
-      "effect": "shout",
-      "icon": "UiEmoteCallCrab",
-      "event": "ShoutBuffEvent",
-      "is_aura": false,
-      "aura_dist": 0,
-      "is_stackable": false,
-      "is_removable": true,
-      "disable_fx": false,
-      "recipient_type": "local",
-      "params": [
-        "crabvoice"
-      ],
-      "fx_type": "smoke",
       "disable_icon": false,
       "depend_buffs": [],
       "client_event_names": null,
@@ -8921,6 +9142,31 @@
       "recipient_type": "handhold",
       "params": [
         "CharSkyKid_Prop_AP27Projector"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 4102423087,
+      "name": "outfit_prop_ap32pearlboat",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_prop",
+      "icon": "UiOutfitPropAP32PearlBoat",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Prop_AP32PearlBoat"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -9448,6 +9694,31 @@
       "recipient_type": "handhold",
       "params": [
         "CharSkyKid_Prop_CrabbitPortal"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 2003001519,
+      "name": "outfit_prop_crabplush",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_prop",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "local",
+      "params": [
+        "CharSkyKid_Prop_AP17Crab"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -10106,6 +10377,31 @@
       "client_level_names": null
     },
     {
+      "id": 3964730006,
+      "name": "outfit_prop_mantaplush",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_prop",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "local",
+      "params": [
+        "CharSkyKid_Prop_AP17Manta"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
       "id": 3165352994,
       "name": "outfit_prop_marshmallow",
       "cooldown": 0,
@@ -10658,6 +10954,31 @@
       "client_level_names": null
     },
     {
+      "id": 287229285,
+      "name": "outfit_prop_pillowxmas",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_prop",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "local",
+      "params": [
+        "CharSkyKid_Prop_PillowXmas"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
       "id": 2486921257,
       "name": "outfit_prop_pinwheel",
       "cooldown": 0,
@@ -10931,7 +11252,9 @@
       "fx_type": "basic",
       "disable_icon": false,
       "depend_buffs": [],
-      "client_event_names": null,
+      "client_event_names": [
+        "global_feast"
+      ],
       "client_level_names": null
     },
     {
@@ -10981,7 +11304,9 @@
       "fx_type": "basic",
       "disable_icon": false,
       "depend_buffs": [],
-      "client_event_names": null,
+      "client_event_names": [
+        "global_feast"
+      ],
       "client_level_names": null
     },
     {
@@ -12268,6 +12593,31 @@
       "client_level_names": null
     },
     {
+      "id": 2714549056,
+      "name": "outfit_wing_feastattirecape",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_wing",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Wing_FeastAttireCape"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
       "id": 2254595829,
       "name": "outfit_wing_feastfluffyshawl",
       "cooldown": 0,
@@ -12285,6 +12635,31 @@
       "recipient_type": "handhold",
       "params": [
         "CharSkyKid_Wing_FeastFluffyShawl"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 1234431634,
+      "name": "outfit_wing_feastfurshawl",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_wing",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Wing_FeastFurShawl"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -13195,6 +13570,31 @@
       "client_level_names": null
     },
     {
+      "id": 1765724872,
+      "name": "outfit_wing_stylefurcoat",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "outfit_wing",
+      "icon": "",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "CharSkyKid_Wing_StyleFurCoat"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
       "id": 3920863532,
       "name": "outfit_wing_sunlightshawl",
       "cooldown": 0,
@@ -13729,6 +14129,31 @@
       "disable_icon": false,
       "depend_buffs": [],
       "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 2950276230,
+      "name": "penguin_form",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 30,
+      "multiplier": 1,
+      "effect": "penguin_form",
+      "icon": "UiMenuBuffPenguin",
+      "event": "none",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "local",
+      "params": [],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": [
+        "global_feast"
+      ],
       "client_level_names": null
     },
     {
@@ -14528,6 +14953,56 @@
       "client_level_names": null
     },
     {
+      "id": 1605399236,
+      "name": "shout_aurora_keychain",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 3,
+      "multiplier": 1,
+      "effect": "shout",
+      "icon": "UiEmoteCallAurora",
+      "event": "ShoutBuffEvent",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "local",
+      "params": [
+        "aurorastarvoice"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 1725047129,
+      "name": "shout_crab",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 0.05000000074505806,
+      "multiplier": 1,
+      "effect": "shout",
+      "icon": "UiEmoteCallCrab",
+      "event": "ShoutBuffEvent",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "local",
+      "params": [
+        "crabvoice"
+      ],
+      "fx_type": "smoke",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
       "id": 3337525709,
       "name": "shout_jelly",
       "cooldown": 0,
@@ -14648,7 +15123,8 @@
       "disable_icon": false,
       "depend_buffs": [],
       "client_event_names": [
-        "global_halloween"
+        "global_halloween",
+        "global_daysoffortune"
       ],
       "client_level_names": null
     },
@@ -14673,7 +15149,8 @@
       "disable_icon": false,
       "depend_buffs": [],
       "client_event_names": [
-        "global_halloween"
+        "global_halloween",
+        "global_daysoffortune"
       ],
       "client_level_names": null
     },
@@ -14791,7 +15268,7 @@
       "duration": 0.05000000074505806,
       "multiplier": 1,
       "effect": "teleport",
-      "icon": "ConstellationImageDusk",
+      "icon": "UiOutfitCapeAP32BlueTear",
       "event": "TeleportBuffEvent",
       "is_aura": false,
       "aura_dist": 0,
@@ -14982,6 +15459,32 @@
       "recipient_type": "handhold",
       "params": [
         "Sunset_YetiPark"
+      ],
+      "fx_type": "basic",
+      "disable_icon": false,
+      "depend_buffs": [],
+      "client_event_names": null,
+      "client_level_names": null
+    },
+    {
+      "id": 2824705885,
+      "name": "teleport_hidden_temple",
+      "cooldown": 0,
+      "cancel_cooldown": 0,
+      "duration": 0.05000000074505806,
+      "multiplier": 1,
+      "effect": "teleport",
+      "icon": "ConstellationImageDusk",
+      "event": "TeleportBuffEvent",
+      "is_aura": false,
+      "aura_dist": 0,
+      "is_stackable": false,
+      "is_removable": true,
+      "disable_fx": false,
+      "recipient_type": "handhold",
+      "params": [
+        "Dusk_HiddenTemple",
+        "TwoEmberCapeStarPin"
       ],
       "fx_type": "basic",
       "disable_icon": false,
@@ -15718,7 +16221,8 @@
       "disable_icon": false,
       "depend_buffs": [],
       "client_event_names": [
-        "global_rainbow"
+        "global_rainbow",
+        "global_daysoffortune"
       ],
       "client_level_names": null
     },
@@ -15778,7 +16282,8 @@
       "disable_icon": false,
       "depend_buffs": [],
       "client_event_names": [
-        "global_rainbow"
+        "global_rainbow",
+        "global_daysoffortune"
       ],
       "client_level_names": null
     },
@@ -16094,7 +16599,8 @@
       "disable_icon": false,
       "depend_buffs": [],
       "client_event_names": [
-        "global_rainbow"
+        "global_rainbow",
+        "global_daysoffortune"
       ],
       "client_level_names": null
     },

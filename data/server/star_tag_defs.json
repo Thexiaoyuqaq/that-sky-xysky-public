@@ -568,7 +568,7 @@
       "name": "outfit_neck_winterscarf_star",
       "sku": "SKY-PL-ST-HOL-SF",
       "part": "",
-      "consumable_name": "outfit_neck_winterscarf",
+      "consumable_name": "outfit_neck_winterscarf_star",
       "group_name": "",
       "batches": [],
       "can_link_with": ""
@@ -1399,6 +1399,15 @@
       "batches": [
         3
       ],
+      "can_link_with": ""
+    },
+    {
+      "name": "teleport_hidden_temple",
+      "sku": "SKY-PN-ST-POR-AT",
+      "part": "",
+      "consumable_name": "teleport_hidden_temple",
+      "group_name": "",
+      "batches": [],
       "can_link_with": ""
     },
     {

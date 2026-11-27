@@ -1,0 +1,5177 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-27T04:07:35.734Z",
+  "defaults": {
+    "teamCount": 1,
+    "enforceTeams": false,
+    "allowChangingTeams": false,
+    "randomlyAssignTeams": false,
+    "maxVotesPerDay": -1,
+    "maxVotesPerVotingPeriod": -1,
+    "votingTimePeriod": null,
+    "retainDataTimePeriod": null,
+    "maxVotesPerAdd": 1
+  },
+  "groups": [
+    {
+      "groupId": "award_travelingspirit",
+      "eventName": null,
+      "levelIds": [
+        417578099
+      ],
+      "levelNames": [
+        "Event_Cinema"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "award_travelingspirit_1",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "award_travelingspirit_2",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "award_travelingspirit_3",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "Event_Cinema",
+          "levelId": 417578099,
+          "updateIntervalSec": 60,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Event_Cinema",
+          "levelId": 417578099,
+          "updateIntervalSec": 60,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Event_Cinema",
+          "levelId": 417578099,
+          "updateIntervalSec": 60,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "do_bloom_flowers_2026",
+      "eventName": null,
+      "levelIds": [
+        2350532176
+      ],
+      "levelNames": [
+        "Prairie_Village"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": 250,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": "global_bloom_2026_grow",
+      "retainDataTimePeriod": "global_bloom",
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_bloom_flowers_2026_15",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        },
+        {
+          "voteId": "do_bloom_flowers_2026_2",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        },
+        {
+          "voteId": "do_bloom_flowers_2026_6",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        },
+        {
+          "voteId": "do_bloom_flowers_2026_10",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        },
+        {
+          "voteId": "do_bloom_flowers_2026_11",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        },
+        {
+          "voteId": "do_bloom_flowers_2026_17",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        },
+        {
+          "voteId": "do_bloom_flowers_2026_4",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        },
+        {
+          "voteId": "do_bloom_flowers_2026_5",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        },
+        {
+          "voteId": "do_bloom_flowers_2026_13",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        },
+        {
+          "voteId": "do_bloom_flowers_2026_16",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        },
+        {
+          "voteId": "do_bloom_flowers_2026_7",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        },
+        {
+          "voteId": "do_bloom_flowers_2026_9",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        },
+        {
+          "voteId": "do_bloom_flowers_2026_8",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        },
+        {
+          "voteId": "do_bloom_flowers_2026_18",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        },
+        {
+          "voteId": "do_bloom_flowers_2026_14",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        },
+        {
+          "voteId": "do_bloom_flowers_2026_3",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        },
+        {
+          "voteId": "do_bloom_flowers_2026_1",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        },
+        {
+          "voteId": "do_bloom_flowers_2026_12",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": 100,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 3000000
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "Prairie_Village",
+          "levelId": 2350532176,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_01_color",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_01_color_black",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_01_color_blue",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_01_color_cyan",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_01_color_green",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_01_color_purple",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_01_color_red",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_01_color_white",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_01_color_yellow",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_01_type",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_01_type_1",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_01_type_2",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_01_type_3",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_02_color",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_02_color_black",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_02_color_blue",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_02_color_cyan",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_02_color_green",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_02_color_purple",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_02_color_red",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_02_color_white",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_02_color_yellow",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_02_type",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_02_type_1",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_02_type_2",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_02_type_3",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_03_color",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_03_color_black",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_03_color_blue",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_03_color_cyan",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_03_color_green",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_03_color_purple",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_03_color_red",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_03_color_white",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_03_color_yellow",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_03_type",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_03_type_1",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_03_type_2",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_03_type_3",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_04_color",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_04_color_black",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_04_color_blue",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_04_color_cyan",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_04_color_green",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_04_color_purple",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_04_color_red",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_04_color_white",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_04_color_yellow",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_04_type",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_04_type_1",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_04_type_2",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_04_type_3",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_05_color",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_05_color_black",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_05_color_blue",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_05_color_cyan",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_05_color_green",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_05_color_purple",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_05_color_red",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_05_color_white",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_05_color_yellow",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_05_type",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_05_type_1",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_05_type_2",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_05_type_3",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_06_color",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_06_color_black",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_06_color_blue",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_06_color_cyan",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_06_color_green",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_06_color_purple",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_06_color_red",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_06_color_white",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_06_color_yellow",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_06_type",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_06_type_1",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_06_type_2",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_06_type_3",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_07_color",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_07_color_black",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_07_color_blue",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_07_color_cyan",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_07_color_green",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_07_color_purple",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_07_color_red",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_07_color_white",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_07_color_yellow",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_07_type",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_07_type_1",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_07_type_2",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_07_type_3",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_08_color",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_08_color_black",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_08_color_blue",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_08_color_cyan",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_08_color_green",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_08_color_purple",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_08_color_red",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_08_color_white",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_08_color_yellow",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_08_type",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_08_type_1",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_08_type_2",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_08_type_3",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_09_color",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_09_color_black",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_09_color_blue",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_09_color_cyan",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_09_color_green",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_09_color_purple",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_09_color_red",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_09_color_white",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_09_color_yellow",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_09_type",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_09_type_1",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_09_type_2",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_09_type_3",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_10_color",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_10_color_black",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_10_color_blue",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_10_color_cyan",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_10_color_green",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_10_color_purple",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_10_color_red",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_10_color_white",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_10_color_yellow",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "docolor_2026_balloon_10_type",
+      "eventName": null,
+      "levelIds": [
+        2394719185
+      ],
+      "levelNames": [
+        "DayHubCave"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "do_color_balloon_10_type_1",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_10_type_2",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "do_color_balloon_10_type_3",
+          "teamNumber": 0,
+          "isTeamVote": false,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "DayHubCave",
+          "levelId": 2394719185,
+          "updateIntervalSec": 30,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "dofeast_melt",
+      "eventName": null,
+      "levelIds": [
+        194602929
+      ],
+      "levelNames": [
+        "SunsetVillage_Feast"
+      ],
+      "teamCount": 2,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dofeast_melt_1",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        },
+        {
+          "voteId": "dofeast_melt_2",
+          "teamNumber": 2,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "SunsetVillage_Feast",
+          "levelId": 194602929,
+          "updateIntervalSec": 60,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": true,
+            "remainingVotes": true,
+            "localVote": true,
+            "team": true,
+            "teamSizes": true
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "donature_sculpture_2026",
+      "eventName": null,
+      "levelIds": [
+        3057325709
+      ],
+      "levelNames": [
+        "Prairie_Island"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": 20,
+      "maxVotesPerVotingPeriod": 280,
+      "votingTimePeriod": "global_nature_2026",
+      "retainDataTimePeriod": "global_nature_2026",
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "donature_sculpture_2026_1",
+          "teamNumber": 0,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 9240000
+        }
+      ],
+      "refreshPolicies": [
+        {
+          "levelName": "Prairie_Island",
+          "levelId": 3057325709,
+          "updateIntervalSec": 60,
+          "updateOnInterval": true,
+          "runOnCompleteOnInterval": true,
+          "requests": {
+            "vote": true,
+            "remainingVotes": true,
+            "localVote": true,
+            "team": true,
+            "teamSizes": true
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "dotreasure_day_island_2026_1",
+      "eventName": null,
+      "levelIds": [
+        4070111637,
+        2060214456,
+        3057325709,
+        2350532176,
+        3429122502,
+        2839585646,
+        1759178769
+      ],
+      "levelNames": [
+        "Dusk_Triangle",
+        "NightDesert",
+        "Prairie_Island",
+        "Prairie_Village",
+        "Prairie_WildLifePark",
+        "RainForest",
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "Dusk_Triangle",
+          "levelId": 4070111637,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "NightDesert",
+          "levelId": 2060214456,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_Island",
+          "levelId": 3057325709,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": true,
+            "remainingVotes": true,
+            "localVote": true,
+            "team": true,
+            "teamSizes": true
+          }
+        },
+        {
+          "levelName": "Prairie_Village",
+          "levelId": 2350532176,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_WildLifePark",
+          "levelId": 3429122502,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "RainForest",
+          "levelId": 2839585646,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "SunsetVillage",
+          "levelId": 1759178769,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "dotreasure_day_island_2026_1_scavenger",
+      "eventName": null,
+      "levelIds": [
+        3057325709
+      ],
+      "levelNames": [
+        "Prairie_Island"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_day_island_2026_1_scavenger",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_day_island_2026_1_scout",
+      "eventName": null,
+      "levelIds": [
+        3057325709
+      ],
+      "levelNames": [
+        "Prairie_Island"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_day_island_2026_1_scout",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_day_island_2026_2",
+      "eventName": null,
+      "levelIds": [
+        4070111637,
+        2060214456,
+        3057325709,
+        2350532176,
+        3429122502,
+        2839585646,
+        1759178769
+      ],
+      "levelNames": [
+        "Dusk_Triangle",
+        "NightDesert",
+        "Prairie_Island",
+        "Prairie_Village",
+        "Prairie_WildLifePark",
+        "RainForest",
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "Dusk_Triangle",
+          "levelId": 4070111637,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "NightDesert",
+          "levelId": 2060214456,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_Island",
+          "levelId": 3057325709,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": true,
+            "remainingVotes": true,
+            "localVote": true,
+            "team": true,
+            "teamSizes": true
+          }
+        },
+        {
+          "levelName": "Prairie_Village",
+          "levelId": 2350532176,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_WildLifePark",
+          "levelId": 3429122502,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "RainForest",
+          "levelId": 2839585646,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "SunsetVillage",
+          "levelId": 1759178769,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "dotreasure_day_island_2026_2_scavenger",
+      "eventName": null,
+      "levelIds": [
+        3057325709
+      ],
+      "levelNames": [
+        "Prairie_Island"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_day_island_2026_2_scavenger",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_day_island_2026_2_scout",
+      "eventName": null,
+      "levelIds": [
+        3057325709
+      ],
+      "levelNames": [
+        "Prairie_Island"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_day_island_2026_2_scout",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_day_village_2026_1",
+      "eventName": null,
+      "levelIds": [
+        4070111637,
+        2060214456,
+        3057325709,
+        2350532176,
+        3429122502,
+        2839585646,
+        1759178769
+      ],
+      "levelNames": [
+        "Dusk_Triangle",
+        "NightDesert",
+        "Prairie_Island",
+        "Prairie_Village",
+        "Prairie_WildLifePark",
+        "RainForest",
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "Dusk_Triangle",
+          "levelId": 4070111637,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "NightDesert",
+          "levelId": 2060214456,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_Island",
+          "levelId": 3057325709,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": true,
+            "remainingVotes": true,
+            "localVote": true,
+            "team": true,
+            "teamSizes": true
+          }
+        },
+        {
+          "levelName": "Prairie_Village",
+          "levelId": 2350532176,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_WildLifePark",
+          "levelId": 3429122502,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "RainForest",
+          "levelId": 2839585646,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "SunsetVillage",
+          "levelId": 1759178769,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "dotreasure_day_village_2026_1_scavenger",
+      "eventName": null,
+      "levelIds": [
+        2350532176
+      ],
+      "levelNames": [
+        "Prairie_Village"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_day_village_2026_1_scavenger",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_day_village_2026_1_scout",
+      "eventName": null,
+      "levelIds": [
+        2350532176
+      ],
+      "levelNames": [
+        "Prairie_Village"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_day_village_2026_1_scout",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_day_village_2026_2",
+      "eventName": null,
+      "levelIds": [
+        4070111637,
+        2060214456,
+        3057325709,
+        2350532176,
+        3429122502,
+        2839585646,
+        1759178769
+      ],
+      "levelNames": [
+        "Dusk_Triangle",
+        "NightDesert",
+        "Prairie_Island",
+        "Prairie_Village",
+        "Prairie_WildLifePark",
+        "RainForest",
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "Dusk_Triangle",
+          "levelId": 4070111637,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "NightDesert",
+          "levelId": 2060214456,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_Island",
+          "levelId": 3057325709,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": true,
+            "remainingVotes": true,
+            "localVote": true,
+            "team": true,
+            "teamSizes": true
+          }
+        },
+        {
+          "levelName": "Prairie_Village",
+          "levelId": 2350532176,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_WildLifePark",
+          "levelId": 3429122502,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "RainForest",
+          "levelId": 2839585646,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "SunsetVillage",
+          "levelId": 1759178769,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "dotreasure_day_village_2026_2_scavenger",
+      "eventName": null,
+      "levelIds": [
+        2350532176
+      ],
+      "levelNames": [
+        "Prairie_Village"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_day_village_2026_2_scavenger",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_day_village_2026_2_scout",
+      "eventName": null,
+      "levelIds": [
+        2350532176
+      ],
+      "levelNames": [
+        "Prairie_Village"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_day_village_2026_2_scout",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_day_wildlifepark_2026_1",
+      "eventName": null,
+      "levelIds": [
+        4070111637,
+        2060214456,
+        3057325709,
+        2350532176,
+        3429122502,
+        2839585646,
+        1759178769
+      ],
+      "levelNames": [
+        "Dusk_Triangle",
+        "NightDesert",
+        "Prairie_Island",
+        "Prairie_Village",
+        "Prairie_WildLifePark",
+        "RainForest",
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "Dusk_Triangle",
+          "levelId": 4070111637,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "NightDesert",
+          "levelId": 2060214456,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_Island",
+          "levelId": 3057325709,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": true,
+            "remainingVotes": true,
+            "localVote": true,
+            "team": true,
+            "teamSizes": true
+          }
+        },
+        {
+          "levelName": "Prairie_Village",
+          "levelId": 2350532176,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_WildLifePark",
+          "levelId": 3429122502,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "RainForest",
+          "levelId": 2839585646,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "SunsetVillage",
+          "levelId": 1759178769,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "dotreasure_day_wildlifepark_2026_1_scavenger",
+      "eventName": null,
+      "levelIds": [
+        3429122502
+      ],
+      "levelNames": [
+        "Prairie_WildLifePark"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_day_wildlifepark_2026_1_scavenger",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_day_wildlifepark_2026_1_scout",
+      "eventName": null,
+      "levelIds": [
+        3429122502
+      ],
+      "levelNames": [
+        "Prairie_WildLifePark"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_day_wildlifepark_2026_1_scout",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_day_wildlifepark_2026_2",
+      "eventName": null,
+      "levelIds": [
+        4070111637,
+        2060214456,
+        3057325709,
+        2350532176,
+        3429122502,
+        2839585646,
+        1759178769
+      ],
+      "levelNames": [
+        "Dusk_Triangle",
+        "NightDesert",
+        "Prairie_Island",
+        "Prairie_Village",
+        "Prairie_WildLifePark",
+        "RainForest",
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "Dusk_Triangle",
+          "levelId": 4070111637,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "NightDesert",
+          "levelId": 2060214456,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_Island",
+          "levelId": 3057325709,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": true,
+            "remainingVotes": true,
+            "localVote": true,
+            "team": true,
+            "teamSizes": true
+          }
+        },
+        {
+          "levelName": "Prairie_Village",
+          "levelId": 2350532176,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_WildLifePark",
+          "levelId": 3429122502,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "RainForest",
+          "levelId": 2839585646,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "SunsetVillage",
+          "levelId": 1759178769,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "dotreasure_day_wildlifepark_2026_2_scavenger",
+      "eventName": null,
+      "levelIds": [
+        3429122502
+      ],
+      "levelNames": [
+        "Prairie_WildLifePark"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_day_wildlifepark_2026_2_scavenger",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_day_wildlifepark_2026_2_scout",
+      "eventName": null,
+      "levelIds": [
+        3429122502
+      ],
+      "levelNames": [
+        "Prairie_WildLifePark"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_day_wildlifepark_2026_2_scout",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_dusk_2026_1",
+      "eventName": null,
+      "levelIds": [
+        4070111637,
+        2060214456,
+        3057325709,
+        2350532176,
+        3429122502,
+        2839585646,
+        1759178769
+      ],
+      "levelNames": [
+        "Dusk_Triangle",
+        "NightDesert",
+        "Prairie_Island",
+        "Prairie_Village",
+        "Prairie_WildLifePark",
+        "RainForest",
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "Dusk_Triangle",
+          "levelId": 4070111637,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "NightDesert",
+          "levelId": 2060214456,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_Island",
+          "levelId": 3057325709,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": true,
+            "remainingVotes": true,
+            "localVote": true,
+            "team": true,
+            "teamSizes": true
+          }
+        },
+        {
+          "levelName": "Prairie_Village",
+          "levelId": 2350532176,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_WildLifePark",
+          "levelId": 3429122502,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "RainForest",
+          "levelId": 2839585646,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "SunsetVillage",
+          "levelId": 1759178769,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "dotreasure_dusk_2026_1_scavenger",
+      "eventName": null,
+      "levelIds": [
+        4070111637
+      ],
+      "levelNames": [
+        "Dusk_Triangle"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_dusk_2026_1_scavenger",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_dusk_2026_1_scout",
+      "eventName": null,
+      "levelIds": [
+        4070111637
+      ],
+      "levelNames": [
+        "Dusk_Triangle"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_dusk_2026_1_scout",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_dusk_2026_2",
+      "eventName": null,
+      "levelIds": [
+        4070111637,
+        2060214456,
+        3057325709,
+        2350532176,
+        3429122502,
+        2839585646,
+        1759178769
+      ],
+      "levelNames": [
+        "Dusk_Triangle",
+        "NightDesert",
+        "Prairie_Island",
+        "Prairie_Village",
+        "Prairie_WildLifePark",
+        "RainForest",
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "Dusk_Triangle",
+          "levelId": 4070111637,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "NightDesert",
+          "levelId": 2060214456,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_Island",
+          "levelId": 3057325709,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": true,
+            "remainingVotes": true,
+            "localVote": true,
+            "team": true,
+            "teamSizes": true
+          }
+        },
+        {
+          "levelName": "Prairie_Village",
+          "levelId": 2350532176,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_WildLifePark",
+          "levelId": 3429122502,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "RainForest",
+          "levelId": 2839585646,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "SunsetVillage",
+          "levelId": 1759178769,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "dotreasure_dusk_2026_2_scavenger",
+      "eventName": null,
+      "levelIds": [
+        4070111637
+      ],
+      "levelNames": [
+        "Dusk_Triangle"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_dusk_2026_2_scavenger",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_dusk_2026_2_scout",
+      "eventName": null,
+      "levelIds": [
+        4070111637
+      ],
+      "levelNames": [
+        "Dusk_Triangle"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_dusk_2026_2_scout",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_night_2026_1",
+      "eventName": null,
+      "levelIds": [
+        4070111637,
+        2060214456,
+        3057325709,
+        2350532176,
+        3429122502,
+        2839585646,
+        1759178769
+      ],
+      "levelNames": [
+        "Dusk_Triangle",
+        "NightDesert",
+        "Prairie_Island",
+        "Prairie_Village",
+        "Prairie_WildLifePark",
+        "RainForest",
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "Dusk_Triangle",
+          "levelId": 4070111637,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "NightDesert",
+          "levelId": 2060214456,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_Island",
+          "levelId": 3057325709,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": true,
+            "remainingVotes": true,
+            "localVote": true,
+            "team": true,
+            "teamSizes": true
+          }
+        },
+        {
+          "levelName": "Prairie_Village",
+          "levelId": 2350532176,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_WildLifePark",
+          "levelId": 3429122502,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "RainForest",
+          "levelId": 2839585646,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "SunsetVillage",
+          "levelId": 1759178769,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "dotreasure_night_2026_1_scavenger",
+      "eventName": null,
+      "levelIds": [
+        2060214456
+      ],
+      "levelNames": [
+        "NightDesert"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_night_2026_1_scavenger",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_night_2026_1_scout",
+      "eventName": null,
+      "levelIds": [
+        2060214456
+      ],
+      "levelNames": [
+        "NightDesert"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_night_2026_1_scout",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_night_2026_2",
+      "eventName": null,
+      "levelIds": [
+        4070111637,
+        2060214456,
+        3057325709,
+        2350532176,
+        3429122502,
+        2839585646,
+        1759178769
+      ],
+      "levelNames": [
+        "Dusk_Triangle",
+        "NightDesert",
+        "Prairie_Island",
+        "Prairie_Village",
+        "Prairie_WildLifePark",
+        "RainForest",
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "Dusk_Triangle",
+          "levelId": 4070111637,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "NightDesert",
+          "levelId": 2060214456,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_Island",
+          "levelId": 3057325709,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": true,
+            "remainingVotes": true,
+            "localVote": true,
+            "team": true,
+            "teamSizes": true
+          }
+        },
+        {
+          "levelName": "Prairie_Village",
+          "levelId": 2350532176,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_WildLifePark",
+          "levelId": 3429122502,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "RainForest",
+          "levelId": 2839585646,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "SunsetVillage",
+          "levelId": 1759178769,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "dotreasure_night_2026_2_scavenger",
+      "eventName": null,
+      "levelIds": [
+        2060214456
+      ],
+      "levelNames": [
+        "NightDesert"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_night_2026_2_scavenger",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_night_2026_2_scout",
+      "eventName": null,
+      "levelIds": [
+        2060214456
+      ],
+      "levelNames": [
+        "NightDesert"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_night_2026_2_scout",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_rain_2026_1",
+      "eventName": null,
+      "levelIds": [
+        4070111637,
+        2060214456,
+        3057325709,
+        2350532176,
+        3429122502,
+        2839585646,
+        1759178769
+      ],
+      "levelNames": [
+        "Dusk_Triangle",
+        "NightDesert",
+        "Prairie_Island",
+        "Prairie_Village",
+        "Prairie_WildLifePark",
+        "RainForest",
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "Dusk_Triangle",
+          "levelId": 4070111637,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "NightDesert",
+          "levelId": 2060214456,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_Island",
+          "levelId": 3057325709,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": true,
+            "remainingVotes": true,
+            "localVote": true,
+            "team": true,
+            "teamSizes": true
+          }
+        },
+        {
+          "levelName": "Prairie_Village",
+          "levelId": 2350532176,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_WildLifePark",
+          "levelId": 3429122502,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "RainForest",
+          "levelId": 2839585646,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "SunsetVillage",
+          "levelId": 1759178769,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "dotreasure_rain_2026_1_scavenger",
+      "eventName": null,
+      "levelIds": [
+        2839585646
+      ],
+      "levelNames": [
+        "RainForest"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_rain_2026_1_scavenger",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_rain_2026_1_scout",
+      "eventName": null,
+      "levelIds": [
+        2839585646
+      ],
+      "levelNames": [
+        "RainForest"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_rain_2026_1_scout",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_rain_2026_2",
+      "eventName": null,
+      "levelIds": [
+        4070111637,
+        2060214456,
+        3057325709,
+        2350532176,
+        3429122502,
+        2839585646,
+        1759178769
+      ],
+      "levelNames": [
+        "Dusk_Triangle",
+        "NightDesert",
+        "Prairie_Island",
+        "Prairie_Village",
+        "Prairie_WildLifePark",
+        "RainForest",
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "Dusk_Triangle",
+          "levelId": 4070111637,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "NightDesert",
+          "levelId": 2060214456,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_Island",
+          "levelId": 3057325709,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": true,
+            "remainingVotes": true,
+            "localVote": true,
+            "team": true,
+            "teamSizes": true
+          }
+        },
+        {
+          "levelName": "Prairie_Village",
+          "levelId": 2350532176,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_WildLifePark",
+          "levelId": 3429122502,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "RainForest",
+          "levelId": 2839585646,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "SunsetVillage",
+          "levelId": 1759178769,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "dotreasure_rain_2026_2_scavenger",
+      "eventName": null,
+      "levelIds": [
+        2839585646
+      ],
+      "levelNames": [
+        "RainForest"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_rain_2026_2_scavenger",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_rain_2026_2_scout",
+      "eventName": null,
+      "levelIds": [
+        2839585646
+      ],
+      "levelNames": [
+        "RainForest"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_rain_2026_2_scout",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_sunset_2026_1",
+      "eventName": null,
+      "levelIds": [
+        4070111637,
+        2060214456,
+        3057325709,
+        2350532176,
+        3429122502,
+        2839585646,
+        1759178769
+      ],
+      "levelNames": [
+        "Dusk_Triangle",
+        "NightDesert",
+        "Prairie_Island",
+        "Prairie_Village",
+        "Prairie_WildLifePark",
+        "RainForest",
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "Dusk_Triangle",
+          "levelId": 4070111637,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "NightDesert",
+          "levelId": 2060214456,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_Island",
+          "levelId": 3057325709,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": true,
+            "remainingVotes": true,
+            "localVote": true,
+            "team": true,
+            "teamSizes": true
+          }
+        },
+        {
+          "levelName": "Prairie_Village",
+          "levelId": 2350532176,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_WildLifePark",
+          "levelId": 3429122502,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "RainForest",
+          "levelId": 2839585646,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "SunsetVillage",
+          "levelId": 1759178769,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "dotreasure_sunset_2026_1_scavenger",
+      "eventName": null,
+      "levelIds": [
+        1759178769
+      ],
+      "levelNames": [
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_sunset_2026_1_scavenger",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_sunset_2026_1_scout",
+      "eventName": null,
+      "levelIds": [
+        1759178769
+      ],
+      "levelNames": [
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_sunset_2026_1_scout",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_sunset_2026_2",
+      "eventName": null,
+      "levelIds": [
+        4070111637,
+        2060214456,
+        3057325709,
+        2350532176,
+        3429122502,
+        2839585646,
+        1759178769
+      ],
+      "levelNames": [
+        "Dusk_Triangle",
+        "NightDesert",
+        "Prairie_Island",
+        "Prairie_Village",
+        "Prairie_WildLifePark",
+        "RainForest",
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "Dusk_Triangle",
+          "levelId": 4070111637,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "NightDesert",
+          "levelId": 2060214456,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_Island",
+          "levelId": 3057325709,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": true,
+            "remainingVotes": true,
+            "localVote": true,
+            "team": true,
+            "teamSizes": true
+          }
+        },
+        {
+          "levelName": "Prairie_Village",
+          "levelId": 2350532176,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "Prairie_WildLifePark",
+          "levelId": 3429122502,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "RainForest",
+          "levelId": 2839585646,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "SunsetVillage",
+          "levelId": 1759178769,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "dotreasure_sunset_2026_2_scavenger",
+      "eventName": null,
+      "levelIds": [
+        1759178769
+      ],
+      "levelNames": [
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_sunset_2026_2_scavenger",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "dotreasure_sunset_2026_2_scout",
+      "eventName": null,
+      "levelIds": [
+        1759178769
+      ],
+      "levelNames": [
+        "SunsetVillage"
+      ],
+      "teamCount": 1,
+      "enforceTeams": true,
+      "allowChangingTeams": true,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [
+        {
+          "voteId": "dotreasure_sunset_2026_2_scout",
+          "teamNumber": 1,
+          "isTeamVote": true,
+          "maxVotesPerDay": -1,
+          "maxVotesPerVotingPeriod": -1,
+          "targetAmount": 0
+        }
+      ],
+      "refreshPolicies": []
+    },
+    {
+      "groupId": "ivory_2026",
+      "eventName": null,
+      "levelIds": [
+        1509719447
+      ],
+      "levelNames": [
+        "MainStreet"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "MainStreet",
+          "levelId": 1509719447,
+          "updateIntervalSec": -1,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": true,
+            "remainingVotes": true,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "mischief_stats",
+      "eventName": null,
+      "levelIds": [
+        3082753918,
+        295816905
+      ],
+      "levelNames": [
+        "Event_DaysOfMischief",
+        "TGCOffice"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "Event_DaysOfMischief",
+          "levelId": 3082753918,
+          "updateIntervalSec": 60,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        },
+        {
+          "levelName": "TGCOffice",
+          "levelId": 295816905,
+          "updateIntervalSec": 60,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "tot_day_1",
+      "eventName": null,
+      "levelIds": [
+        263580627
+      ],
+      "levelNames": [
+        "SunsetColosseum"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "SunsetColosseum",
+          "levelId": 263580627,
+          "updateIntervalSec": 120,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "tot_day_10",
+      "eventName": null,
+      "levelIds": [
+        263580627
+      ],
+      "levelNames": [
+        "SunsetColosseum"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "SunsetColosseum",
+          "levelId": 263580627,
+          "updateIntervalSec": 120,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "tot_day_11",
+      "eventName": null,
+      "levelIds": [
+        263580627
+      ],
+      "levelNames": [
+        "SunsetColosseum"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "SunsetColosseum",
+          "levelId": 263580627,
+          "updateIntervalSec": 120,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "tot_day_2",
+      "eventName": null,
+      "levelIds": [
+        263580627
+      ],
+      "levelNames": [
+        "SunsetColosseum"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "SunsetColosseum",
+          "levelId": 263580627,
+          "updateIntervalSec": 120,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "tot_day_3",
+      "eventName": null,
+      "levelIds": [
+        263580627
+      ],
+      "levelNames": [
+        "SunsetColosseum"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "SunsetColosseum",
+          "levelId": 263580627,
+          "updateIntervalSec": 120,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "tot_day_4",
+      "eventName": null,
+      "levelIds": [
+        263580627
+      ],
+      "levelNames": [
+        "SunsetColosseum"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "SunsetColosseum",
+          "levelId": 263580627,
+          "updateIntervalSec": 120,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "tot_day_5",
+      "eventName": null,
+      "levelIds": [
+        263580627
+      ],
+      "levelNames": [
+        "SunsetColosseum"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "SunsetColosseum",
+          "levelId": 263580627,
+          "updateIntervalSec": 120,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "tot_day_6",
+      "eventName": null,
+      "levelIds": [
+        263580627
+      ],
+      "levelNames": [
+        "SunsetColosseum"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "SunsetColosseum",
+          "levelId": 263580627,
+          "updateIntervalSec": 120,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "tot_day_7",
+      "eventName": null,
+      "levelIds": [
+        263580627
+      ],
+      "levelNames": [
+        "SunsetColosseum"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "SunsetColosseum",
+          "levelId": 263580627,
+          "updateIntervalSec": 120,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "tot_day_8",
+      "eventName": null,
+      "levelIds": [
+        263580627
+      ],
+      "levelNames": [
+        "SunsetColosseum"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "SunsetColosseum",
+          "levelId": 263580627,
+          "updateIntervalSec": 120,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "tot_day_9",
+      "eventName": null,
+      "levelIds": [
+        263580627
+      ],
+      "levelNames": [
+        "SunsetColosseum"
+      ],
+      "teamCount": 1,
+      "enforceTeams": false,
+      "allowChangingTeams": false,
+      "randomlyAssignTeams": false,
+      "maxVotesPerDay": -1,
+      "maxVotesPerVotingPeriod": -1,
+      "votingTimePeriod": null,
+      "retainDataTimePeriod": null,
+      "maxVotesPerAdd": 1,
+      "options": [],
+      "refreshPolicies": [
+        {
+          "levelName": "SunsetColosseum",
+          "levelId": 263580627,
+          "updateIntervalSec": 120,
+          "updateOnInterval": false,
+          "runOnCompleteOnInterval": false,
+          "requests": {
+            "vote": false,
+            "remainingVotes": false,
+            "localVote": false,
+            "team": false,
+            "teamSizes": false
+          }
+        }
+      ]
+    }
+  ]
+}

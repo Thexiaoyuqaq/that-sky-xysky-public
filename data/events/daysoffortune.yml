@@ -13,9 +13,9 @@ collections:
   select:
     mode: all
   events:
-  - id: global_daysoffortune
-    anchor: event_chunjie
-    duration: 99999999
+  # - id: global_daysoffortune
+  #   anchor: event_chunjie
+  #   duration: 99999999
 
   - id: global_daysoffortune_audience
     anchor: event_chunjie
@@ -59,3 +59,36 @@ collections:
   - id: feast_toyvendorforever
     at: '2026-10-19T00:00:00'
     duration: 99999999
+
+  - id: feast_racetrack1
+    at: '2026-10-19T00:00:00'
+    duration: 99999999
+    enabled: true
+  - id: feast_racetrack2
+    at: '2026-10-19T00:00:00'
+    duration: 99999999
+    enabled: true
+  - id: feast_racetrack3
+    at: '2026-10-19T00:00:00'
+    duration: 99999999
+    enabled: true
+  - id: feast_racetrack4
+    at: '2026-10-19T00:00:00'
+    duration: 99999999
+    enabled: true
+  - id: feast_racetrack5
+    at: '2026-10-19T00:00:00'
+    duration: 99999999
+    enabled: true
+  - id: feast_racetrack6
+    at: '2026-10-19T00:00:00'
+    duration: 99999999
+    enabled: true
+  - id: feast_racetrack7
+    at: '2026-10-19T00:00:00'
+    duration: 99999999
+    enabled: true
+  - id: global_feast_snow
+    at: '2026-10-19T00:00:00'
+    duration: 99999999
+    enabled: true

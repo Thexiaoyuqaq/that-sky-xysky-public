@@ -1,305 +1,6 @@
 {
     "spirit_shops": [
         {
-            "id": 2028888267,
-            "nm": "lootbox_color_blue_hearthands_02",
-            "typ": "lootbox",
-            "spirit": "hearthands",
-            "cst": 0,
-            "ap": true,
-            "ctyp": "season_candle",
-            "dep": 3899522921,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 2045665886,
-            "nm": "lootbox_color_blue_hearthands_01",
-            "typ": "lootbox",
-            "spirit": "hearthands",
-            "cst": 16,
-            "ap": false,
-            "ctyp": "season_candle",
-            "dep": 3899522921,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 3392765093,
-            "nm": "lootbox_color_cyan_hearthands_01",
-            "typ": "lootbox",
-            "spirit": "hearthands",
-            "cst": 0,
-            "ap": true,
-            "ctyp": "season_candle",
-            "dep": 2045665886,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 3538003285,
-            "nm": "emote_upgrade_hearthands_03",
-            "typ": "spirit_upgrade",
-            "spirit": "hearthands",
-            "cst": 18,
-            "ap": false,
-            "ctyp": "season_candle",
-            "dep": 2045665886,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 3420559952,
-            "nm": "emote_upgrade_hearthands_04",
-            "typ": "spirit_upgrade",
-            "spirit": "hearthands",
-            "cst": 0,
-            "ap": true,
-            "ctyp": "season_candle",
-            "dep": 3538003285,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 1992497954,
-            "nm": "lootbox_color_magenta_hearthands_02",
-            "typ": "lootbox",
-            "spirit": "hearthands",
-            "cst": 20,
-            "ap": false,
-            "ctyp": "season_candle",
-            "dep": 3538003285,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 679210443,
-            "nm": "lootbox_color_black_hearthands_01",
-            "typ": "lootbox",
-            "spirit": "hearthands",
-            "cst": 0,
-            "ap": true,
-            "ctyp": "season_candle",
-            "dep": 1992497954,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 1884335548,
-            "nm": "CharSkyKid_Hair_AP25BluePaint",
-            "typ": "outfit",
-            "spirit": "hearthands",
-            "cst": 24,
-            "ap": false,
-            "ctyp": "season_candle",
-            "dep": 1992497954,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 3342432236,
-            "nm": "lootbox_color_cyan_hearthands_02",
-            "typ": "lootbox",
-            "spirit": "hearthands",
-            "cst": 0,
-            "ap": true,
-            "ctyp": "season_candle",
-            "dep": 1884335548,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 1975720335,
-            "nm": "lootbox_color_magenta_hearthands_01",
-            "typ": "lootbox",
-            "spirit": "hearthands",
-            "cst": 28,
-            "ap": false,
-            "ctyp": "season_candle",
-            "dep": 1884335548,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 2738611896,
-            "nm": "CharSkyKid_Body_AP25Wrap",
-            "typ": "outfit",
-            "spirit": "hearthands",
-            "cst": 0,
-            "ap": true,
-            "ctyp": "season_candle",
-            "dep": 1975720335,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 1641232750,
-            "nm": "heart_hearthands",
-            "typ": "season_heart",
-            "spirit": "hearthands",
-            "cst": 3,
-            "ap": true,
-            "ctyp": "season_candle",
-            "dep": 1975720335,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 4053227520,
-            "nm": "emote_upgrade_cartwheel_01",
-            "typ": "spirit_upgrade",
-            "spirit": "cartwheel",
-            "cst": 0,
-            "ap": false,
-            "ctyp": "season_candle",
-            "dep": 0,
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 4103560377,
-            "nm": "emote_upgrade_cartwheel_02",
-            "typ": "spirit_upgrade",
-            "spirit": "cartwheel",
-            "cst": 0,
-            "ap": true,
-            "ctyp": "season_candle",
-            "dep": 4053227520,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 439176151,
-            "nm": "CharSkyKid_Hair_AP25Bob",
-            "typ": "outfit",
-            "spirit": "cartwheel",
-            "cst": 12,
-            "ap": false,
-            "ctyp": "season_candle",
-            "dep": 4053227520,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 1797689357,
-            "nm": "lootbox_color_red_cartwheel_02",
-            "typ": "lootbox",
-            "spirit": "cartwheel",
-            "cst": 0,
-            "ap": true,
-            "ctyp": "season_candle",
-            "dep": 439176151,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 1747356500,
-            "nm": "lootbox_color_red_cartwheel_01",
-            "typ": "lootbox",
-            "spirit": "cartwheel",
-            "cst": 16,
-            "ap": false,
-            "ctyp": "season_candle",
-            "dep": 439176151,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 1859482246,
-            "nm": "CharSkyKid_Prop_AP25ClothDivider",
-            "typ": "outfit",
-            "spirit": "cartwheel",
-            "cst": 0,
-            "ap": true,
-            "ctyp": "season_candle",
-            "dep": 1747356500,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 4086782758,
-            "nm": "emote_upgrade_cartwheel_03",
-            "typ": "spirit_upgrade",
-            "spirit": "cartwheel",
-            "cst": 20,
-            "ap": false,
-            "ctyp": "season_candle",
-            "dep": 1747356500,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 4137115615,
-            "nm": "emote_upgrade_cartwheel_04",
-            "typ": "spirit_upgrade",
-            "spirit": "cartwheel",
-            "cst": 0,
-            "ap": true,
-            "ctyp": "season_candle",
-            "dep": 4086782758,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 1780911738,
-            "nm": "lootbox_color_red_cartwheel_03",
-            "typ": "lootbox",
-            "spirit": "cartwheel",
-            "cst": 24,
-            "ap": false,
-            "ctyp": "season_candle",
-            "dep": 4086782758,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 3340820959,
-            "nm": "CharSkyKid_Body_AP25Tunic",
-            "typ": "outfit",
-            "spirit": "cartwheel",
-            "cst": 0,
-            "ap": true,
-            "ctyp": "season_candle",
-            "dep": 1780911738,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 986842510,
-            "nm": "CharSkyKid_Wing_AP25Ribbons",
-            "typ": "outfit",
-            "spirit": "cartwheel",
-            "cst": 28,
-            "ap": false,
-            "ctyp": "season_candle",
-            "dep": 1780911738,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 1744012939,
-            "nm": "lootbox_color_yellow_cartwheel_01",
-            "typ": "lootbox",
-            "spirit": "cartwheel",
-            "cst": 0,
-            "ap": true,
-            "ctyp": "season_candle",
-            "dep": 986842510,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
-            "id": 1760790558,
-            "nm": "lootbox_color_yellow_cartwheel_02",
-            "typ": "lootbox",
-            "spirit": "cartwheel",
-            "cst": 32,
-            "ap": false,
-            "ctyp": "season_candle",
-            "dep": 986842510,
-            "evn": "season_25",
-            "ta": "spirit_unlock"
-        },
-        {
             "id": 3008909143,
             "nm": "CharSkyKid_Feet_AP25BootTall",
             "typ": "outfit",
@@ -511,8 +212,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 0,
+            "tt": 1,
             "to": 99,
-            "ta": "spirit_unlock"
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 3538884337,
@@ -524,7 +226,7 @@
             "ctyp": "season_candle",
             "dep": 2077429410,
             "tt": 1,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock_400"
         },
         {
             "id": 2229483744,
@@ -537,7 +239,7 @@
             "dep": 3538884337,
             "tt": 2,
             "to": 99,
-            "ta": "spirit_unlock"
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 2094042413,
@@ -550,7 +252,7 @@
             "dep": 3538884337,
             "tt": 2,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 2043709556,
@@ -563,7 +265,7 @@
             "dep": 2094042413,
             "tt": 3,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 3488551480,
@@ -576,7 +278,7 @@
             "dep": 2094042413,
             "tt": 2,
             "td": 3538884337,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock_400"
         },
         {
             "id": 2279816601,
@@ -589,7 +291,7 @@
             "dep": 3488551480,
             "tt": 3,
             "to": 99,
-            "ta": "spirit_unlock"
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 2060487175,
@@ -602,7 +304,7 @@
             "dep": 3488551480,
             "tt": 4,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 2010154318,
@@ -615,7 +317,7 @@
             "dep": 2060487175,
             "tt": 5,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 3505329099,
@@ -626,10 +328,10 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 2060487175,
-            "tt": 2,
+            "tt": 3,
             "to": 1,
             "td": 3488551480,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock_400"
         },
         {
             "id": 2263038982,
@@ -642,7 +344,7 @@
             "dep": 3505329099,
             "tt": 4,
             "to": 99,
-            "ta": "spirit_unlock"
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 3589217194,
@@ -653,9 +355,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 3505329099,
-            "tt": 3,
+            "tt": 4,
             "td": 3505329099,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock_400"
         },
         {
             "id": 1749032699,
@@ -668,7 +370,7 @@
             "dep": 3589217194,
             "tt": 5,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 3605994813,
@@ -679,9 +381,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 3589217194,
-            "tt": 4,
+            "tt": 5,
             "td": 3589217194,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock_400"
         },
         {
             "id": 2296594220,
@@ -694,7 +396,7 @@
             "dep": 3605994813,
             "tt": 5,
             "to": 99,
-            "ta": "spirit_unlock"
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 3555661956,
@@ -705,9 +407,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 3605994813,
-            "tt": 5,
+            "tt": 6,
             "td": 3605994813,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock_400"
         },
         {
             "id": 3203313876,
@@ -720,7 +422,7 @@
             "dep": 3555661956,
             "tt": 6,
             "to": 1,
-            "ta": "spirit_unlock"
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 2322000786,
@@ -732,7 +434,7 @@
             "ctyp": "heart",
             "dep": 3555661956,
             "tt": 6,
-            "ta": "spirit_unlock"
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 3991464090,
@@ -744,9 +446,9 @@
             "ctyp": "season_candle",
             "dep": 3538884337,
             "evn": "season_26",
-            "tt": 2,
+            "tt": 1,
             "to": 3,
-            "ta": "spirit_unlock"
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 1769778398,
@@ -758,9 +460,9 @@
             "ctyp": "season_heart",
             "dep": 3991464090,
             "evn": "season_26",
-            "tt": 3,
+            "tt": 1,
             "to": 3,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock_400"
         },
         {
             "id": 654884315,
@@ -772,9 +474,9 @@
             "ctyp": "season_heart",
             "dep": 1769778398,
             "evn": "season_26",
-            "tt": 4,
+            "tt": 2,
             "to": 3,
-            "ta": "spirit_unlock"
+            "ta": "spirit_unlock_400"
         },
         {
             "id": 805833241,
@@ -1372,7 +1074,8 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 0,
-            "ta": "spirit_unlock"
+            "tt": 1,
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 1572471888,
@@ -1383,7 +1086,8 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 2094207029,
-            "ta": "spirit_unlock"
+            "tt": 1,
+            "ta": "spirit_unlock_400"
         },
         {
             "id": 1363204993,
@@ -1394,7 +1098,8 @@
             "ap": false,
             "ctyp": "candles",
             "dep": 1572471888,
-            "ta": "spirit_unlock"
+            "tt": 2,
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 1622804745,
@@ -1405,7 +1110,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 1572471888,
-            "ta": "spirit_unlock"
+            "tt": 2,
+            "td": 1572471888,
+            "ta": "spirit_unlock_400"
         },
         {
             "id": 1312872136,
@@ -1416,7 +1123,8 @@
             "ap": false,
             "ctyp": "candles",
             "dep": 1622804745,
-            "ta": "spirit_unlock"
+            "tt": 3,
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 1606027126,
@@ -1427,7 +1135,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 1622804745,
-            "ta": "spirit_unlock"
+            "tt": 3,
+            "td": 1622804745,
+            "ta": "spirit_unlock_400"
         },
         {
             "id": 1329649755,
@@ -1438,7 +1148,8 @@
             "ap": false,
             "ctyp": "candles",
             "dep": 1606027126,
-            "ta": "spirit_unlock"
+            "tt": 4,
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 1656359983,
@@ -1449,7 +1160,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 1606027126,
-            "ta": "spirit_unlock"
+            "tt": 4,
+            "td": 1606027126,
+            "ta": "spirit_unlock_400"
         },
         {
             "id": 1413537850,
@@ -1460,7 +1173,8 @@
             "ap": false,
             "ctyp": "candles",
             "dep": 1656359983,
-            "ta": "spirit_unlock"
+            "tt": 4,
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 1639582364,
@@ -1471,7 +1185,9 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 1656359983,
-            "ta": "spirit_unlock"
+            "tt": 5,
+            "td": 1656359983,
+            "ta": "spirit_unlock_400"
         },
         {
             "id": 1430315469,
@@ -1482,7 +1198,8 @@
             "ap": false,
             "ctyp": "candles",
             "dep": 1639582364,
-            "ta": "spirit_unlock"
+            "tt": 5,
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 1344768504,
@@ -1493,7 +1210,8 @@
             "ap": false,
             "ctyp": "candles",
             "dep": 1639582364,
-            "ta": "spirit_unlock"
+            "tt": 5,
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 1031539147,
@@ -1505,7 +1223,8 @@
             "ctyp": "season_heart",
             "dep": 1572471888,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "tt": 1,
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 42895742,
@@ -1517,7 +1236,8 @@
             "ctyp": "season_heart",
             "dep": 1031539147,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "tt": 1,
+            "ta": "spirit_unlock_400"
         },
         {
             "id": 393014201,
@@ -1529,7 +1249,8 @@
             "ctyp": "season_heart",
             "dep": 42895742,
             "evn": "season_27",
-            "ta": "spirit_unlock"
+            "tt": 2,
+            "ta": "spirit_unlock_400"
         },
         {
             "id": 4095708665,
@@ -1540,7 +1261,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 0,
-            "ta": "spirit_unlock"
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 4260343856,
@@ -1551,7 +1272,7 @@
             "ap": false,
             "ctyp": "candles",
             "dep": 4095708665,
-            "ta": "spirit_unlock"
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 1207553616,
@@ -1562,7 +1283,7 @@
             "ap": false,
             "ctyp": "heart",
             "dep": 4095708665,
-            "ta": "spirit_unlock"
+            "ta": "zero_trust_unlock"
         },
         {
             "id": 1731259960,
@@ -6008,6 +5729,7 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 1117127391,
+            "evn": "season_32",
             "tt": 2,
             "ta": "zero_trust_unlock"
         },
@@ -6020,6 +5742,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 1117127391,
+            "evn": "season_32",
             "tt": 1,
             "ta": "spirit_unlock_200"
         },
@@ -6032,6 +5755,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 103036703,
+            "evn": "season_32",
             "tt": 3,
             "ta": "spirit_unlock_400"
         },
@@ -6044,6 +5768,7 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 1150682629,
+            "evn": "season_32",
             "tt": 4,
             "ta": "zero_trust_unlock"
         },
@@ -6056,6 +5781,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 1150682629,
+            "evn": "season_32",
             "tt": 2,
             "ta": "spirit_unlock_300"
         },
@@ -6068,6 +5794,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 4253837258,
+            "evn": "season_32",
             "tt": 2,
             "ta": "spirit_unlock_300"
         },
@@ -6080,6 +5807,7 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 119814322,
+            "evn": "season_32",
             "tt": 3,
             "ta": "zero_trust_unlock"
         },
@@ -6092,6 +5820,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 119814322,
+            "evn": "season_32",
             "tt": 3,
             "ta": "spirit_unlock_400"
         },
@@ -6104,6 +5833,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 442215002,
+            "evn": "season_32",
             "tt": 1,
             "ta": "zero_trust_quest"
         },
@@ -6116,6 +5846,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 442215002,
+            "evn": "season_32",
             "tt": 4,
             "ta": "spirit_unlock_1000"
         },
@@ -6128,6 +5859,7 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 816923478,
+            "evn": "season_32",
             "tt": 4,
             "ta": "zero_trust_unlock"
         },
@@ -6140,6 +5872,7 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 816923478,
+            "evn": "season_32",
             "tt": 5,
             "ta": "zero_trust_unlock"
         },
@@ -6164,6 +5897,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 3551081424,
+            "evn": "season_32",
             "tt": 1,
             "ta": "spirit_unlock_200"
         },
@@ -6176,6 +5910,7 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 3551081424,
+            "evn": "season_32",
             "tt": 2,
             "ta": "zero_trust_unlock"
         },
@@ -6188,6 +5923,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 3551081424,
+            "evn": "season_32",
             "tt": 2,
             "ta": "spirit_unlock_300"
         },
@@ -6200,6 +5936,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 3551081424,
+            "evn": "season_32",
             "tt": 2,
             "ta": "spirit_unlock_300"
         },
@@ -6212,6 +5949,7 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 1222861840,
+            "evn": "season_32",
             "tt": 3,
             "ta": "zero_trust_unlock"
         },
@@ -6224,6 +5962,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 1222861840,
+            "evn": "season_32",
             "tt": 3,
             "ta": "spirit_unlock_400"
         },
@@ -6236,6 +5975,7 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 3584636662,
+            "evn": "season_32",
             "tt": 4,
             "ta": "zero_trust_unlock"
         },
@@ -6248,6 +5988,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 3584636662,
+            "evn": "season_32",
             "tt": 3,
             "ta": "spirit_unlock_400"
         },
@@ -6260,6 +6001,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 3715477298,
+            "evn": "season_32",
             "tt": 4,
             "ta": "spirit_unlock_1000"
         },
@@ -6272,6 +6014,7 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 3715477298,
+            "evn": "season_32",
             "tt": 4,
             "ta": "zero_trust_unlock"
         },
@@ -6284,6 +6027,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 2788926749,
+            "evn": "season_32",
             "tt": 1,
             "ta": "zero_trust_quest"
         },
@@ -6296,6 +6040,7 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 2788926749,
+            "evn": "season_32",
             "tt": 5,
             "ta": "zero_trust_unlock"
         },
@@ -6320,6 +6065,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 2236361117,
+            "evn": "season_32",
             "tt": 1,
             "ta": "spirit_unlock_200"
         },
@@ -6332,6 +6078,7 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 2236361117,
+            "evn": "season_32",
             "tt": 2,
             "ta": "zero_trust_unlock"
         },
@@ -6344,6 +6091,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 2236361117,
+            "evn": "season_32",
             "tt": 2,
             "ta": "spirit_unlock_300"
         },
@@ -6356,6 +6104,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 3479508189,
+            "evn": "season_32",
             "tt": 2,
             "ta": "spirit_unlock_300"
         },
@@ -6368,6 +6117,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 3479508189,
+            "evn": "season_32",
             "tt": 3,
             "ta": "spirit_unlock_400"
         },
@@ -6380,6 +6130,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 2202805879,
+            "evn": "season_32",
             "tt": 3,
             "ta": "spirit_unlock_400"
         },
@@ -6392,6 +6143,7 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 2202805879,
+            "evn": "season_32",
             "tt": 3,
             "ta": "zero_trust_unlock"
         },
@@ -6404,6 +6156,7 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 2202805879,
+            "evn": "season_32",
             "tt": 4,
             "ta": "zero_trust_unlock"
         },
@@ -6416,6 +6169,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 2152473022,
+            "evn": "season_32",
             "tt": 1,
             "ta": "zero_trust_quest"
         },
@@ -6428,6 +6182,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 2152473022,
+            "evn": "season_32",
             "tt": 4,
             "ta": "spirit_unlock_1000"
         },
@@ -6440,6 +6195,7 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 2152473022,
+            "evn": "season_32",
             "tt": 5,
             "ta": "zero_trust_unlock"
         },
@@ -6464,6 +6220,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 622125499,
+            "evn": "season_32",
             "tt": 1,
             "ta": "spirit_unlock_200"
         },
@@ -6476,6 +6233,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 3899318670,
+            "evn": "season_32",
             "tt": 2,
             "ta": "spirit_unlock_600"
         },
@@ -6488,6 +6246,7 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 3899318670,
+            "evn": "season_32",
             "tt": 2,
             "ta": "zero_trust_unlock"
         },
@@ -6500,6 +6259,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 3882541051,
+            "evn": "season_32",
             "tt": 3,
             "ta": "spirit_unlock_400"
         },
@@ -6512,6 +6272,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 3882541051,
+            "evn": "season_32",
             "tt": 3,
             "ta": "spirit_unlock_400"
         },
@@ -6524,6 +6285,7 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 1692645014,
+            "evn": "season_32",
             "tt": 3,
             "ta": "zero_trust_unlock"
         },
@@ -6536,6 +6298,7 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 1692645014,
+            "evn": "season_32",
             "tt": 4,
             "ta": "zero_trust_unlock"
         },
@@ -6548,6 +6311,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 3524526064,
+            "evn": "season_32",
             "tt": 4,
             "ta": "spirit_unlock_1000"
         },
@@ -6560,6 +6324,7 @@
             "ap": false,
             "ctyp": "season_candle",
             "dep": 3524526064,
+            "evn": "season_32",
             "tt": 1,
             "ta": "zero_trust_quest"
         },
@@ -6572,10 +6337,11 @@
             "ap": true,
             "ctyp": "season_candle",
             "dep": 3524526064,
+            "evn": "season_32",
             "tt": 5,
             "ta": "zero_trust_unlock"
         }
     ],
-    "spirit_shops_version": 418430,
-    "spirit_shops_total_count": 2527
+    "spirit_shops_version": 433153,
+    "spirit_shops_total_count": 2502
 }

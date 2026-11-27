@@ -318,8 +318,8 @@
       "distribution": [
         "red_20%",
         "yellow_20%",
-        "white_20%",
-        "black_30%",
+        "white_30%",
+        "green_20%",
         "wax_10%"
       ],
       "small_per_day": 180,
@@ -349,8 +349,8 @@
       "distribution": [
         "red_20%",
         "yellow_20%",
-        "white_20%",
-        "black_30%",
+        "white_30%",
+        "green_20%",
         "wax_10%"
       ],
       "small_per_day": 0,
@@ -365,8 +365,8 @@
       "distribution": [
         "red_20%",
         "yellow_20%",
-        "white_20%",
-        "black_30%",
+        "white_30%",
+        "green_20%",
         "wax_10%"
       ],
       "small_per_day": 130,
@@ -381,8 +381,8 @@
       "distribution": [
         "red_20%",
         "yellow_20%",
-        "white_20%",
-        "black_30%",
+        "white_30%",
+        "green_20%",
         "wax_10%"
       ],
       "small_per_day": 200,
@@ -397,8 +397,8 @@
       "distribution": [
         "red_20%",
         "yellow_20%",
-        "white_20%",
-        "black_30%",
+        "white_30%",
+        "green_20%",
         "wax_10%"
       ],
       "small_per_day": 0,
@@ -411,12 +411,10 @@
       "id": 74,
       "level": "Rain",
       "distribution": [
-        "green_15%",
-        "cyan_15%",
-        "white_15%",
-        "red_20%",
-        "black_25%",
-        "wax_10%"
+        "green_30%",
+        "cyan_20%",
+        "white_30%",
+        "wax_20%"
       ],
       "small_per_day": 180,
       "medium_per_day": 35,
@@ -428,12 +426,10 @@
       "id": 75,
       "level": "RainForest",
       "distribution": [
-        "green_15%",
-        "cyan_15%",
-        "white_15%",
-        "red_20%",
-        "black_25%",
-        "wax_10%"
+        "green_30%",
+        "cyan_20%",
+        "white_30%",
+        "wax_20%"
       ],
       "small_per_day": 240,
       "medium_per_day": 55,
@@ -445,12 +441,10 @@
       "id": 76,
       "level": "RainMid",
       "distribution": [
-        "green_15%",
-        "cyan_15%",
-        "white_15%",
-        "red_20%",
-        "black_25%",
-        "wax_10%"
+        "green_30%",
+        "cyan_20%",
+        "white_30%",
+        "wax_20%"
       ],
       "small_per_day": 260,
       "medium_per_day": 60,
@@ -462,12 +456,10 @@
       "id": 77,
       "level": "RainShelter",
       "distribution": [
-        "green_15%",
-        "cyan_15%",
-        "white_15%",
-        "red_20%",
-        "black_25%",
-        "wax_10%"
+        "green_30%",
+        "cyan_20%",
+        "white_30%",
+        "wax_20%"
       ],
       "small_per_day": 190,
       "medium_per_day": 50,
@@ -479,12 +471,10 @@
       "id": 78,
       "level": "Rain_Cave",
       "distribution": [
-        "green_15%",
-        "cyan_15%",
-        "white_15%",
-        "red_20%",
-        "black_25%",
-        "wax_10%"
+        "green_30%",
+        "cyan_20%",
+        "white_30%",
+        "wax_20%"
       ],
       "small_per_day": 60,
       "medium_per_day": 50,
@@ -496,14 +486,14 @@
       "id": 79,
       "level": "Skyway",
       "distribution": [
-        "red_25%",
+        "red_5%",
         "yellow_5%",
-        "green_5%",
+        "green_25%",
         "cyan_5%",
         "blue_5%",
         "magenta_5%",
-        "white_5%",
-        "black_25%",
+        "white_25%",
+        "black_5%",
         "wax_20%"
       ],
       "small_per_day": 240,
@@ -533,10 +523,9 @@
       "distribution": [
         "red_20%",
         "yellow_10%",
-        "green_10%",
+        "green_25%",
         "cyan_10%",
-        "black_25%",
-        "white_15%",
+        "white_25%",
         "wax_10%"
       ],
       "small_per_day": 180,
@@ -551,10 +540,9 @@
       "distribution": [
         "red_20%",
         "yellow_10%",
-        "green_10%",
+        "green_25%",
         "cyan_10%",
-        "black_25%",
-        "white_15%",
+        "white_25%",
         "wax_10%"
       ],
       "small_per_day": 150,
@@ -568,10 +556,10 @@
       "level": "Dusk",
       "distribution": [
         "blue_20%",
-        "magenta_25%",
-        "red_20%",
-        "black_25%",
-        "wax_10%"
+        "magenta_20%",
+        "green_15%",
+        "white_25%",
+        "black_20%"
       ],
       "small_per_day": 75,
       "medium_per_day": 50,
@@ -584,10 +572,10 @@
       "level": "DuskMid",
       "distribution": [
         "blue_20%",
-        "magenta_25%",
-        "red_20%",
-        "black_25%",
-        "wax_10%"
+        "magenta_20%",
+        "green_15%",
+        "white_25%",
+        "black_20%"
       ],
       "small_per_day": 75,
       "medium_per_day": 50,
@@ -600,10 +588,10 @@
       "level": "DuskGraveyard",
       "distribution": [
         "blue_20%",
-        "magenta_25%",
-        "red_20%",
-        "black_25%",
-        "wax_10%"
+        "magenta_20%",
+        "green_15%",
+        "white_25%",
+        "black_20%"
       ],
       "small_per_day": 75,
       "medium_per_day": 52,
@@ -616,10 +604,10 @@
       "level": "Dusk_CrabField",
       "distribution": [
         "blue_20%",
-        "magenta_25%",
-        "red_20%",
-        "black_25%",
-        "wax_10%"
+        "magenta_20%",
+        "green_15%",
+        "white_25%",
+        "black_20%"
       ],
       "small_per_day": 75,
       "medium_per_day": 52,
@@ -632,10 +620,10 @@
       "level": "Dusk_Triangle",
       "distribution": [
         "blue_20%",
-        "magenta_25%",
-        "red_20%",
-        "black_25%",
-        "wax_10%"
+        "magenta_20%",
+        "green_15%",
+        "white_25%",
+        "black_20%"
       ],
       "small_per_day": 75,
       "medium_per_day": 52,
@@ -648,10 +636,10 @@
       "level": "DuskOasis",
       "distribution": [
         "blue_20%",
-        "magenta_25%",
-        "red_20%",
-        "black_25%",
-        "wax_10%"
+        "magenta_20%",
+        "green_15%",
+        "white_25%",
+        "black_20%"
       ],
       "small_per_day": 75,
       "medium_per_day": 52,
@@ -664,10 +652,10 @@
       "level": "NightArchive",
       "distribution": [
         "blue_20%",
-        "magenta_25%",
-        "red_20%",
-        "black_25%",
-        "wax_10%"
+        "magenta_20%",
+        "green_15%",
+        "white_25%",
+        "black_20%"
       ],
       "small_per_day": 150,
       "medium_per_day": 35,
@@ -679,9 +667,11 @@
       "id": 89,
       "level": "StormStart",
       "distribution": [
-        "red_40%",
-        "black_40%",
-        "wax_20%"
+        "red_20%",
+        "green_20%",
+        "white_25%",
+        "black_25%",
+        "wax_10%"
       ],
       "small_per_day": 100,
       "medium_per_day": 50,
@@ -708,15 +698,29 @@
       "id": 90,
       "level": "Storm",
       "distribution": [
-        "red_40%",
-        "black_40%",
-        "wax_20%"
+        "red_20%",
+        "green_20%",
+        "white_25%",
+        "black_25%",
+        "wax_10%"
       ],
       "small_per_day": 100,
       "medium_per_day": 50,
       "large_per_day": 14,
       "event": "global_radiance_bloom_black_green",
       "replace": true
+    },
+    {
+      "id": 91,
+      "level": "SunsetVillage_Feast",
+      "distribution": [
+        "white_100%"
+      ],
+      "small_per_day": 100,
+      "medium_per_day": 0,
+      "large_per_day": 0,
+      "event": "global_feast",
+      "replace": false
     }
   ]
 }

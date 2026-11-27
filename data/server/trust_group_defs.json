@@ -5,7 +5,7 @@
       "category": "weekly",
       "max": 200,
       "global_max": 2500,
-      "multiplier": 0.5,
+      "multiplier": 1,
       "cap_cadence": "weekly"
     },
     {

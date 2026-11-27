@@ -1,6 +1,88 @@
 {
   "get_quest_defs": [
     {
+      "id": "ap28_fetch_10",
+      "schedule_type": "event",
+      "reward_cadence": "none",
+      "trust_cadence": "first_completion_only",
+      "category": "fetch_quest",
+      "npc": "questap28",
+      "requires_questgiver": false,
+      "prereq_quests": [
+        "ap28_fetch_09"
+      ],
+      "repeatable": false,
+      "trust_activity": "zero_trust_quest",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 60,
+      "requires_manual_completion": false
+    },
+    {
+      "id": "ap29_fetch_01",
+      "schedule_type": "event",
+      "reward_cadence": "none",
+      "trust_cadence": "first_completion_only",
+      "category": "fetch_quest",
+      "npc": "questap29",
+      "requires_questgiver": false,
+      "repeatable": false,
+      "trust_activity": "spirit_unlock_200",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 60,
+      "requires_manual_completion": false
+    },
+    {
+      "id": "ap29_fetch_02",
+      "schedule_type": "event",
+      "reward_cadence": "none",
+      "trust_cadence": "first_completion_only",
+      "category": "fetch_quest",
+      "npc": "questap29",
+      "requires_questgiver": false,
+      "prereq_quests": [
+        "ap29_fetch_01"
+      ],
+      "repeatable": false,
+      "trust_activity": "spirit_unlock_200",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 60,
+      "requires_manual_completion": false
+    },
+    {
+      "id": "ap29_fetch_03",
+      "schedule_type": "event",
+      "reward_cadence": "none",
+      "trust_cadence": "first_completion_only",
+      "category": "fetch_quest",
+      "npc": "questap29",
+      "requires_questgiver": false,
+      "prereq_quests": [
+        "ap29_fetch_02"
+      ],
+      "repeatable": false,
+      "trust_activity": "spirit_unlock_200",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 60,
+      "requires_manual_completion": false
+    },
+    {
+      "id": "ap29_fetch_04",
+      "schedule_type": "event",
+      "reward_cadence": "none",
+      "trust_cadence": "first_completion_only",
+      "category": "fetch_quest",
+      "npc": "questap29",
+      "requires_questgiver": false,
+      "prereq_quests": [
+        "ap29_fetch_03"
+      ],
+      "repeatable": false,
+      "trust_activity": "spirit_unlock_200",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 60,
+      "requires_manual_completion": false
+    },
+    {
       "id": "ap28_daily_generic",
       "schedule_type": "daily_schedule",
       "reward_cadence": "every_completion",
@@ -169,88 +251,6 @@
       ],
       "repeatable": false,
       "trust_activity": "zero_trust_quest",
-      "completion_type": "activity",
-      "repeat_cooldown_seconds": 60,
-      "requires_manual_completion": false
-    },
-    {
-      "id": "ap28_fetch_10",
-      "schedule_type": "event",
-      "reward_cadence": "none",
-      "trust_cadence": "first_completion_only",
-      "category": "fetch_quest",
-      "npc": "questap28",
-      "requires_questgiver": false,
-      "prereq_quests": [
-        "ap28_fetch_09"
-      ],
-      "repeatable": false,
-      "trust_activity": "zero_trust_quest",
-      "completion_type": "activity",
-      "repeat_cooldown_seconds": 60,
-      "requires_manual_completion": false
-    },
-    {
-      "id": "ap29_fetch_01",
-      "schedule_type": "event",
-      "reward_cadence": "none",
-      "trust_cadence": "first_completion_only",
-      "category": "fetch_quest",
-      "npc": "questap29",
-      "requires_questgiver": false,
-      "repeatable": false,
-      "trust_activity": "spirit_unlock_200",
-      "completion_type": "activity",
-      "repeat_cooldown_seconds": 60,
-      "requires_manual_completion": false
-    },
-    {
-      "id": "ap29_fetch_02",
-      "schedule_type": "event",
-      "reward_cadence": "none",
-      "trust_cadence": "first_completion_only",
-      "category": "fetch_quest",
-      "npc": "questap29",
-      "requires_questgiver": false,
-      "prereq_quests": [
-        "ap29_fetch_01"
-      ],
-      "repeatable": false,
-      "trust_activity": "spirit_unlock_200",
-      "completion_type": "activity",
-      "repeat_cooldown_seconds": 60,
-      "requires_manual_completion": false
-    },
-    {
-      "id": "ap29_fetch_03",
-      "schedule_type": "event",
-      "reward_cadence": "none",
-      "trust_cadence": "first_completion_only",
-      "category": "fetch_quest",
-      "npc": "questap29",
-      "requires_questgiver": false,
-      "prereq_quests": [
-        "ap29_fetch_02"
-      ],
-      "repeatable": false,
-      "trust_activity": "spirit_unlock_200",
-      "completion_type": "activity",
-      "repeat_cooldown_seconds": 60,
-      "requires_manual_completion": false
-    },
-    {
-      "id": "ap29_fetch_04",
-      "schedule_type": "event",
-      "reward_cadence": "none",
-      "trust_cadence": "first_completion_only",
-      "category": "fetch_quest",
-      "npc": "questap29",
-      "requires_questgiver": false,
-      "prereq_quests": [
-        "ap29_fetch_03"
-      ],
-      "repeatable": false,
-      "trust_activity": "spirit_unlock_200",
       "completion_type": "activity",
       "repeat_cooldown_seconds": 60,
       "requires_manual_completion": false
@@ -1414,6 +1414,27 @@
       "requires_manual_completion": false
     },
     {
+      "id": "companion_backflip_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "backflip",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
       "id": "companion_balltrick_spend_time_medium",
       "schedule_type": "daily_persistent",
       "reward_cadence": "none",
@@ -1456,6 +1477,90 @@
       "requires_manual_completion": false
     },
     {
+      "id": "companion_beacon_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "beacon",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_bird_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "bird",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_bow_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "bow",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_brave_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "brave",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
       "id": "companion_breakdance_spend_time_medium",
       "schedule_type": "daily_persistent",
       "reward_cadence": "none",
@@ -1477,12 +1582,138 @@
       "requires_manual_completion": false
     },
     {
+      "id": "companion_butterfly_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "butterfly",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_cheer_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "cheer",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_cold_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "cold",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_come_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "come",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_cry_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "cry",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
       "id": "companion_cuteclap_spend_time_medium",
       "schedule_type": "daily_persistent",
       "reward_cadence": "none",
       "trust_cadence": "every_completion",
       "category": "trust_companion",
       "npc": "cuteclap",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_die_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "die",
       "requires_questgiver": false,
       "completion_stats_types": [
         "spend_companion_time"
@@ -1561,12 +1792,96 @@
       "requires_manual_completion": false
     },
     {
+      "id": "companion_float_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "float",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_force_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "force",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
       "id": "companion_frustration_spend_time_medium",
       "schedule_type": "daily_persistent",
       "reward_cadence": "none",
       "trust_cadence": "every_completion",
       "category": "trust_companion",
       "npc": "frustration",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_ghost_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "ghost",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_handstand_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "handstand",
       "requires_questgiver": false,
       "completion_stats_types": [
         "spend_companion_time"
@@ -1624,12 +1939,222 @@
       "requires_manual_completion": false
     },
     {
+      "id": "companion_laugh_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "laugh",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
       "id": "companion_lighthorn_spend_time_medium",
       "schedule_type": "daily_persistent",
       "reward_cadence": "none",
       "trust_cadence": "every_completion",
       "category": "trust_companion",
       "npc": "lighthorn",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_lookaround_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "lookaround",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_love_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "love",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_manta_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "manta",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_nothanks_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "nothanks",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_ohno_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "ohno",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_point_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "point",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_pout_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "pout",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_pray_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "pray",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_proud_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "proud",
       "requires_questgiver": false,
       "completion_stats_types": [
         "spend_companion_time"
@@ -1666,12 +2191,75 @@
       "requires_manual_completion": false
     },
     {
+      "id": "companion_salute_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "salute",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_scared_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "scared",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
       "id": "companion_secrethandshake_spend_time_medium",
       "schedule_type": "daily_persistent",
       "reward_cadence": "none",
       "trust_cadence": "every_completion",
       "category": "trust_companion",
       "npc": "secrethandshake",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_seek_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "seek",
       "requires_questgiver": false,
       "completion_stats_types": [
         "spend_companion_time"
@@ -1708,12 +2296,117 @@
       "requires_manual_completion": false
     },
     {
+      "id": "companion_shy_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "shy",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
       "id": "companion_slowwalk_spend_time_medium",
       "schedule_type": "daily_persistent",
       "reward_cadence": "none",
       "trust_cadence": "every_completion",
       "category": "trust_companion",
       "npc": "slowwalk",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_sneaky_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "sneaky",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_sorry_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "sorry",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_strong_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "strong",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_thumbsup_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "thumbsup",
       "requires_questgiver": false,
       "completion_stats_types": [
         "spend_companion_time"
@@ -1750,6 +2443,48 @@
       "requires_manual_completion": false
     },
     {
+      "id": "companion_wave_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "wave",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_whale_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "whale",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
       "id": "companion_whisper_spend_time_medium",
       "schedule_type": "daily_persistent",
       "reward_cadence": "none",
@@ -1771,12 +2506,54 @@
       "requires_manual_completion": false
     },
     {
+      "id": "companion_wipe_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "wipe",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
       "id": "companion_write_spend_time_medium",
       "schedule_type": "daily_persistent",
       "reward_cadence": "none",
       "trust_cadence": "every_completion",
       "category": "trust_companion",
       "npc": "write",
+      "requires_questgiver": false,
+      "completion_stats_types": [
+        "spend_companion_time"
+      ],
+      "completion_stats_values": [
+        20
+      ],
+      "repeatable": true,
+      "trust_activity": "spirit_companion_small",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "scheduled_event": "global_daily_reset_time",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "companion_yawn_spend_time_medium",
+      "schedule_type": "daily_persistent",
+      "reward_cadence": "none",
+      "trust_cadence": "every_completion",
+      "category": "trust_companion",
+      "npc": "yawn",
       "requires_questgiver": false,
       "completion_stats_types": [
         "spend_companion_time"
@@ -3215,6 +3992,54 @@
       "trust_activity": "zero_trust_quest",
       "completion_type": "stat",
       "repeat_cooldown_seconds": 0,
+      "requires_manual_completion": false
+    },
+    {
+      "id": "feast_market_01",
+      "schedule_type": "event",
+      "reward_cadence": "first_completion_only",
+      "trust_cadence": "first_completion_only",
+      "category": "fetch_quest",
+      "npc": "questfeast_peek",
+      "landmark": "SunsetVillage_Feast",
+      "requires_questgiver": false,
+      "repeatable": true,
+      "trust_activity": "zero_trust_quest",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 60,
+      "scheduled_event": "global_feast",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "feast_market_02",
+      "schedule_type": "event",
+      "reward_cadence": "first_completion_only",
+      "trust_cadence": "first_completion_only",
+      "category": "fetch_quest",
+      "npc": "questfeast_peek",
+      "landmark": "SunsetVillage_Feast",
+      "requires_questgiver": false,
+      "repeatable": true,
+      "trust_activity": "zero_trust_quest",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 60,
+      "scheduled_event": "global_feast",
+      "requires_manual_completion": false
+    },
+    {
+      "id": "feast_market_03",
+      "schedule_type": "event",
+      "reward_cadence": "first_completion_only",
+      "trust_cadence": "first_completion_only",
+      "category": "fetch_quest",
+      "npc": "questfeast_peek",
+      "landmark": "SunsetVillage_Feast",
+      "requires_questgiver": false,
+      "repeatable": true,
+      "trust_activity": "zero_trust_quest",
+      "completion_type": "activity",
+      "repeat_cooldown_seconds": 60,
+      "scheduled_event": "global_feast",
       "requires_manual_completion": false
     },
     {
@@ -4865,7 +5690,7 @@
       "requires_manual_completion": false
     },
     {
-      "id": "personality_fun_qa_1",
+      "id": "personality_2027_fun_qa_1",
       "schedule_type": "event",
       "reward_cadence": "every_completion",
       "trust_cadence": "none",
@@ -4880,7 +5705,7 @@
       "requires_manual_completion": false
     },
     {
-      "id": "personality_fun_qa_10",
+      "id": "personality_2027_fun_qa_10",
       "schedule_type": "event",
       "reward_cadence": "every_completion",
       "trust_cadence": "none",
@@ -4895,7 +5720,7 @@
       "requires_manual_completion": false
     },
     {
-      "id": "personality_fun_qa_11",
+      "id": "personality_2027_fun_qa_11",
       "schedule_type": "event",
       "reward_cadence": "every_completion",
       "trust_cadence": "none",
@@ -4910,7 +5735,7 @@
       "requires_manual_completion": false
     },
     {
-      "id": "personality_fun_qa_12",
+      "id": "personality_2027_fun_qa_12",
       "schedule_type": "event",
       "reward_cadence": "every_completion",
       "trust_cadence": "none",
@@ -4925,7 +5750,7 @@
       "requires_manual_completion": false
     },
     {
-      "id": "personality_fun_qa_13",
+      "id": "personality_2027_fun_qa_13",
       "schedule_type": "event",
       "reward_cadence": "every_completion",
       "trust_cadence": "none",
@@ -4940,7 +5765,7 @@
       "requires_manual_completion": false
     },
     {
-      "id": "personality_fun_qa_14",
+      "id": "personality_2027_fun_qa_14",
       "schedule_type": "event",
       "reward_cadence": "every_completion",
       "trust_cadence": "none",
@@ -4955,7 +5780,7 @@
       "requires_manual_completion": false
     },
     {
-      "id": "personality_fun_qa_2",
+      "id": "personality_2027_fun_qa_2",
       "schedule_type": "event",
       "reward_cadence": "every_completion",
       "trust_cadence": "none",
@@ -4970,7 +5795,7 @@
       "requires_manual_completion": false
     },
     {
-      "id": "personality_fun_qa_3",
+      "id": "personality_2027_fun_qa_3",
       "schedule_type": "event",
       "reward_cadence": "every_completion",
       "trust_cadence": "none",
@@ -4985,7 +5810,7 @@
       "requires_manual_completion": false
     },
     {
-      "id": "personality_fun_qa_4",
+      "id": "personality_2027_fun_qa_4",
       "schedule_type": "event",
       "reward_cadence": "every_completion",
       "trust_cadence": "none",
@@ -5000,7 +5825,7 @@
       "requires_manual_completion": false
     },
     {
-      "id": "personality_fun_qa_5",
+      "id": "personality_2027_fun_qa_5",
       "schedule_type": "event",
       "reward_cadence": "every_completion",
       "trust_cadence": "none",
@@ -5015,7 +5840,7 @@
       "requires_manual_completion": false
     },
     {
-      "id": "personality_fun_qa_6",
+      "id": "personality_2027_fun_qa_6",
       "schedule_type": "event",
       "reward_cadence": "every_completion",
       "trust_cadence": "none",
@@ -5030,7 +5855,7 @@
       "requires_manual_completion": false
     },
     {
-      "id": "personality_fun_qa_7",
+      "id": "personality_2027_fun_qa_7",
       "schedule_type": "event",
       "reward_cadence": "every_completion",
       "trust_cadence": "none",
@@ -5045,7 +5870,7 @@
       "requires_manual_completion": false
     },
     {
-      "id": "personality_fun_qa_8",
+      "id": "personality_2027_fun_qa_8",
       "schedule_type": "event",
       "reward_cadence": "every_completion",
       "trust_cadence": "none",
@@ -5060,7 +5885,7 @@
       "requires_manual_completion": false
     },
     {
-      "id": "personality_fun_qa_9",
+      "id": "personality_2027_fun_qa_9",
       "schedule_type": "event",
       "reward_cadence": "every_completion",
       "trust_cadence": "none",
@@ -7311,29 +8136,6 @@
       "requires_manual_completion": false
     },
     {
-      "id": "spirit_soundbath3",
-      "schedule_type": "daily_schedule",
-      "reward_cadence": "every_completion",
-      "trust_cadence": "none",
-      "category": "daily",
-      "icon": "UiMenuExploreMask",
-      "npc": "windpose",
-      "landmark": "AviaryVillage",
-      "requires_questgiver": true,
-      "reward_id": "quest_candle_or_season_reward",
-      "completion_stats_types": [
-        "spirit_soundbath"
-      ],
-      "completion_stats_values": [
-        60
-      ],
-      "repeatable": true,
-      "trust_activity": "zero_trust_quest",
-      "completion_type": "stat",
-      "repeat_cooldown_seconds": 0,
-      "requires_manual_completion": false
-    },
-    {
       "id": "spirit_production1",
       "schedule_type": "daily_schedule",
       "reward_cadence": "every_completion",
@@ -7832,6 +8634,29 @@
       ],
       "completion_stats_values": [
         1
+      ],
+      "repeatable": true,
+      "trust_activity": "zero_trust_quest",
+      "completion_type": "stat",
+      "repeat_cooldown_seconds": 0,
+      "requires_manual_completion": false
+    },
+    {
+      "id": "spirit_soundbath3",
+      "schedule_type": "daily_schedule",
+      "reward_cadence": "every_completion",
+      "trust_cadence": "none",
+      "category": "daily",
+      "icon": "UiMenuExploreMask",
+      "npc": "windpose",
+      "landmark": "AviaryVillage",
+      "requires_questgiver": true,
+      "reward_id": "quest_candle_or_season_reward",
+      "completion_stats_types": [
+        "spirit_soundbath"
+      ],
+      "completion_stats_values": [
+        60
       ],
       "repeatable": true,
       "trust_activity": "zero_trust_quest",

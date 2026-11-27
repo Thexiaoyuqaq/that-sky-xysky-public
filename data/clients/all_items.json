@@ -2805,6 +2805,11 @@
         "type": "mask"
     },
     {
+        "id": 4108912749,
+        "name": "CharSkyKid_Mask_AP10SticksMask_01",
+        "type": "mask"
+    },
+    {
         "id": 2971069819,
         "name": "CharSkyKid_Mask_AP10MaskA_01",
         "type": "mask"
@@ -3095,6 +3100,11 @@
         "type": "mask"
     },
     {
+        "id": 2565689942,
+        "name": "CharSkyKid_Mask_FortuneHorse",
+        "type": "mask"
+    },
+    {
         "id": 3556109083,
         "name": "CharSkyKid_Mask_Rose",
         "type": "mask"
@@ -3157,11 +3167,6 @@
     {
         "id": 629020744,
         "name": "CharSkyKid_Mask_TreasureEyePatch",
-        "type": "mask"
-    },
-    {
-        "id": 2565689942,
-        "name": "CharSkyKid_Mask_FortuneHorse",
         "type": "mask"
     },
     {
@@ -3355,6 +3360,11 @@
         "type": "neck"
     },
     {
+        "id": 2859276981,
+        "name": "CharSkyKid_Neck_AP32Pendant",
+        "type": "neck"
+    },
+    {
         "id": 1539087887,
         "name": "CharSkyKid_Neck_AP07BowTie",
         "type": "neck"
@@ -3437,6 +3447,16 @@
     {
         "id": 3507584533,
         "name": "CharSkyKid_Neck_DragonBodyBlack",
+        "type": "neck"
+    },
+    {
+        "id": 4131558019,
+        "name": "CharSkyKid_Neck_PresentBodyA",
+        "type": "neck"
+    },
+    {
+        "id": 4148335638,
+        "name": "CharSkyKid_Neck_PresentBodyB",
         "type": "neck"
     },
     {
@@ -8010,6 +8030,11 @@
         "type": "prop"
     },
     {
+        "id": 2912331554,
+        "name": "CharSkyKid_Prop_FeastChallengeTarget",
+        "type": "prop"
+    },
+    {
         "id": 634715293,
         "name": "CharSkyKid_Prop_AP30ChallengePlatform",
         "type": "prop"
@@ -8058,11 +8083,6 @@
         "id": 4171595851,
         "name": "CharSkyKid_Hat_SunflowerHeadband",
         "type": "hat"
-    },
-    {
-        "id": 2859276981,
-        "name": "CharSkyKid_Neck_AP32Pendant",
-        "type": "neck"
     },
     {
         "id": 2788926749,
@@ -8208,6 +8228,56 @@
         "id": 3229766275,
         "name": "CharSkyNPC_Hat_PurpleCoral",
         "type": "hat"
+    },
+    {
+        "id": 3194999940,
+        "name": "CharSkyKid_Hat_FeastSnowflake",
+        "type": "hat"
+    },
+    {
+        "id": 339451492,
+        "name": "CharSkyKid_Wing_FeastAttireCape",
+        "type": "wing"
+    },
+    {
+        "id": 1532736237,
+        "name": "CharSkyKid_Body_FeastAttireTrousers",
+        "type": "body"
+    },
+    {
+        "id": 2680079414,
+        "name": "CharSkyKid_Wing_FeastFurShawl",
+        "type": "wing"
+    },
+    {
+        "id": 4123407973,
+        "name": "CharSkyKid_Horn_YetiEarMuffs",
+        "type": "horn"
+    },
+    {
+        "id": 2274659967,
+        "name": "CharSkyKid_Neck_FeastWreath",
+        "type": "neck"
+    },
+    {
+        "id": 42617801,
+        "name": "CharSkyKid_Hair_StyleCurtain",
+        "type": "hair"
+    },
+    {
+        "id": 3956457202,
+        "name": "CharSkyKid_Hair_StyleButterflyClip",
+        "type": "hair"
+    },
+    {
+        "id": 2746755460,
+        "name": "CharSkyKid_Wing_StyleFurCoat",
+        "type": "wing"
+    },
+    {
+        "id": 596295142,
+        "name": "CharSkyKid_Face_StyleBlush",
+        "type": "face"
     },
     {
         "id": 2012375604,

@@ -1,0 +1,3508 @@
+{
+ "generatedAt": "2026-11-27T04:27:12.924Z",
+ "coverage": {
+  "binEmitters": 80,
+  "instances": 92,
+  "withServerConfig": 0,
+  "inferredPools": 92,
+  "missingEventName": 19
+ },
+ "emitters": [
+  {
+   "emitterName": "AwardUnsupported",
+   "eventName": "awardshow_active",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_755498484",
+   "levelId": 417578099,
+   "levelName": "Event_Cinema",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 30,
+   "preactiveDuration": 0,
+   "activeDuration": 60,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "chunkSizeAmount": [
+    35,
+    35,
+    35,
+    0
+   ],
+   "poolName": "emitter:AwardUnsupported",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "BirthdayCake2023",
+   "eventName": "global_sky_anniversary",
+   "waxBehavior": 1,
+   "emissionType": 1,
+   "manualEmitOnly": false,
+   "chunkMode": 2,
+   "enabled": true,
+   "nodeName": "BstNode_704512012",
+   "levelId": 295816905,
+   "levelName": "TGCOffice",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:BirthdayCake2023",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "BloomOasis",
+   "eventName": "bloom_2023_waxp2",
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2072644059",
+   "levelId": 170656205,
+   "levelName": "DuskOasis",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 2,
+   "preactiveDuration": 0,
+   "activeDuration": 18,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:BloomOasis",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "BloomOasisButterfly",
+   "eventName": "bloom_2023_waxbutterfly",
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2439513454",
+   "levelId": 170656205,
+   "levelName": "DuskOasis",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 2,
+   "preactiveDuration": 0,
+   "activeDuration": 18,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:BloomOasisButterfly",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "BloomShower",
+   "eventName": "bloom_shower_on",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2439512181",
+   "levelId": 164626931,
+   "levelName": "Rain",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:BloomShower",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "BloomWildRainbow",
+   "eventName": null,
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2439513454",
+   "levelId": 3429122502,
+   "levelName": "Prairie_WildLifePark",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 2,
+   "preactiveDuration": 1,
+   "activeDuration": 18,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:BloomWildRainbow",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "BloomWildSlow",
+   "eventName": "bloom_2024_flutterslow",
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2072641764",
+   "levelId": 3429122502,
+   "levelName": "Prairie_WildLifePark",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 2,
+   "preactiveDuration": 0,
+   "activeDuration": 18,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:BloomWildSlow",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "CafeOven",
+   "eventName": "cafe_oven",
+   "waxBehavior": 1,
+   "emissionType": 1,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2072641828",
+   "levelId": 1444818677,
+   "levelName": "MainStreet_Cafe",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 60,
+   "preactiveDuration": 1,
+   "activeDuration": 15,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 4,
+   "chunkSizeLikelihood": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "chunkSizeAmount": [
+    2,
+    0,
+    0,
+    0
+   ],
+   "poolName": "emitter:CafeOven",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "CampingBonfire",
+   "eventName": null,
+   "waxBehavior": 0,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_2340290576",
+   "levelId": 3429122502,
+   "levelName": "Prairie_WildLifePark",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:CampingBonfire",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "CampingEC",
+   "eventName": null,
+   "waxBehavior": 0,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_591752787",
+   "levelId": 3429122502,
+   "levelName": "Prairie_WildLifePark",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:CampingEC",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "CandlespaceBlizz",
+   "eventName": "social_winter_event_on",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_2439512833",
+   "levelId": 3526133726,
+   "levelName": "CandleSpace",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 1,
+   "preactiveDuration": 0,
+   "activeDuration": 1,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:CandlespaceBlizz",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "CandlespaceSnowHutFire",
+   "eventName": "social_winter_event_on",
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_2439512546",
+   "levelId": 3526133726,
+   "levelName": "CandleSpace",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 1,
+   "preactiveDuration": 0,
+   "activeDuration": 1,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:CandlespaceSnowHutFire",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DoBloom_MessageBoat",
+   "eventName": "global_bloom",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_723140381",
+   "levelId": 214074919,
+   "levelName": "Night_InfiniteDesert",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 1,
+   "preactiveDuration": 0,
+   "activeDuration": 10,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "chunkSizeAmount": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "poolName": "emitter:DoBloom_MessageBoat",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DoBloom_MessageBoat",
+   "eventName": "global_bloom",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_723140381",
+   "levelId": 649101397,
+   "levelName": "Sunset_YetiPark",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 1,
+   "preactiveDuration": 0,
+   "activeDuration": 10,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "chunkSizeAmount": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "poolName": "emitter:DoBloom_MessageBoat",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DoBloom_MessageBoat",
+   "eventName": "global_bloom",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_723140381",
+   "levelId": 2060214456,
+   "levelName": "NightDesert",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 1,
+   "preactiveDuration": 0,
+   "activeDuration": 10,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "chunkSizeAmount": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "poolName": "emitter:DoBloom_MessageBoat",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DoBloom_MessageBoat",
+   "eventName": "global_bloom",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_723140381",
+   "levelId": 3057325709,
+   "levelName": "Prairie_Island",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 1,
+   "preactiveDuration": 0,
+   "activeDuration": 10,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "chunkSizeAmount": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "poolName": "emitter:DoBloom_MessageBoat",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DoBloom_MessageBoat",
+   "eventName": "global_bloom",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_723140381",
+   "levelId": 4133595729,
+   "levelName": "Rain_Cave",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 1,
+   "preactiveDuration": 0,
+   "activeDuration": 10,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "chunkSizeAmount": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "poolName": "emitter:DoBloom_MessageBoat",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DoBloom_MessageSunflower",
+   "eventName": "global_bloom",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_723140381",
+   "levelId": 2350532176,
+   "levelName": "Prairie_Village",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 1,
+   "preactiveDuration": 0,
+   "activeDuration": 10,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "chunkSizeAmount": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "poolName": "emitter:DoBloom_MessageSunflower",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DoBloom2025",
+   "eventName": "global_bloom",
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1236014721",
+   "levelId": 214074919,
+   "levelName": "Night_InfiniteDesert",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:DoBloom2025",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DoBloom2025",
+   "eventName": "global_bloom",
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1236014721",
+   "levelId": 649101397,
+   "levelName": "Sunset_YetiPark",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:DoBloom2025",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DoBloom2025",
+   "eventName": "global_bloom",
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1762180832",
+   "levelId": 2060214456,
+   "levelName": "NightDesert",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:DoBloom2025",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DoBloom2025",
+   "eventName": "global_bloom",
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1236014721",
+   "levelId": 3057325709,
+   "levelName": "Prairie_Island",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:DoBloom2025",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DoBloom2025",
+   "eventName": "global_bloom",
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1236014721",
+   "levelId": 4133595729,
+   "levelName": "Rain_Cave",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:DoBloom2025",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DoBloom2026",
+   "eventName": "global_bloom",
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1236014721",
+   "levelId": 2350532176,
+   "levelName": "Prairie_Village",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:DoBloom2026",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DoFortuneCarouselWax",
+   "eventName": "global_daysoffortune_wax",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_704386464",
+   "levelId": 1759178769,
+   "levelName": "SunsetVillage",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:DoFortuneCarouselWax",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DoMusicBlizz",
+   "eventName": "global_music",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_990466353",
+   "levelId": 263580627,
+   "levelName": "SunsetColosseum",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:DoMusicBlizz",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DoMusicBlizz",
+   "eventName": "global_music",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_990466353",
+   "levelId": 1559613961,
+   "levelName": "MainStreet_ConcertHall",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:DoMusicBlizz",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DoMusicBlizz",
+   "eventName": "global_music",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_990466353",
+   "levelId": 1612139937,
+   "levelName": "Sunset_Theater",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:DoMusicBlizz",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DoMusicBlizz",
+   "eventName": "global_music",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_990466353",
+   "levelId": 2060214456,
+   "levelName": "NightDesert",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:DoMusicBlizz",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "DuskSpitRoastPassive",
+   "eventName": "social_wax_on",
+   "waxBehavior": 2,
+   "emissionType": 1,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_2060386306",
+   "levelId": 864432821,
+   "levelName": "DuskGraveyard",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 0,
+   "activeDuration": 600,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:DuskSpitRoastPassive",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "EelWaterCreature",
+   "eventName": "social_wax_on",
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2060386327",
+   "levelId": 4070111637,
+   "levelName": "Dusk_Triangle",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 1,
+   "preactiveDuration": 1,
+   "activeDuration": 222,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:EelWaterCreature",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "FeastPyramid",
+   "eventName": "global_feast",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1564914378",
+   "levelId": 194602929,
+   "levelName": "SunsetVillage_Feast",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:FeastPyramid",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "FeastPyramidWax",
+   "eventName": "global_feast",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2042863423",
+   "levelId": 194602929,
+   "levelName": "SunsetVillage_Feast",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:FeastPyramidWax",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "FeastSkyBall",
+   "eventName": "global_feast",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_1507219342",
+   "levelId": 1759178769,
+   "levelName": "SunsetVillage",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:FeastSkyBall",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "FeastTeaFast",
+   "eventName": null,
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2042830260",
+   "levelId": 1104763408,
+   "levelName": "MainStreet_Cafe_Wonderland",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 4,
+   "preactiveDuration": 0,
+   "activeDuration": 11111,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "chunkSizeAmount": [
+    8,
+    0,
+    0,
+    0
+   ],
+   "poolName": "emitter:FeastTeaFast",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "FeastTeaMid",
+   "eventName": null,
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1189870990",
+   "levelId": 1104763408,
+   "levelName": "MainStreet_Cafe_Wonderland",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 4,
+   "preactiveDuration": 0,
+   "activeDuration": 1111,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "chunkSizeAmount": [
+    4,
+    0,
+    0,
+    0
+   ],
+   "poolName": "emitter:FeastTeaMid",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "FeastTeaSlow",
+   "eventName": "global_feast",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1606021424",
+   "levelId": 1104763408,
+   "levelName": "MainStreet_Cafe_Wonderland",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 8,
+   "preactiveDuration": 0,
+   "activeDuration": 1555,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "chunkSizeAmount": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "poolName": "emitter:FeastTeaSlow",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "FeastVillageCampfire",
+   "eventName": "global_feast",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_245356953",
+   "levelId": 194602929,
+   "levelName": "SunsetVillage_Feast",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:FeastVillageCampfire",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "GroundLight",
+   "eventName": "global_sky_anniversary",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_1245708405",
+   "levelId": 295816905,
+   "levelName": "TGCOffice",
+   "allowEmissionPercentMin": 0.009999999776482582,
+   "allowEmissionPercentMax": 0.05000000074505806,
+   "paramsSource": "binTest",
+   "emitInterval": 30,
+   "preactiveDuration": 0.10000000149011612,
+   "activeDuration": 0.10000000149011612,
+   "inactiveDuration": 0.10000000149011612,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:GroundLight",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "HalloweenCauldron",
+   "eventName": "global_halloween",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_2439512659",
+   "levelId": 3082753918,
+   "levelName": "Event_DaysOfMischief",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 0.699999988079071,
+   "preactiveDuration": 1,
+   "activeDuration": 1,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:HalloweenCauldron",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "HalloweenCauldron2",
+   "eventName": "global_halloween",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_595689138",
+   "levelId": 3082753918,
+   "levelName": "Event_DaysOfMischief",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 0.699999988079071,
+   "preactiveDuration": 1,
+   "activeDuration": 1,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:HalloweenCauldron2",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "HalloweenCauldronSpell",
+   "eventName": "global_halloween",
+   "waxBehavior": 0,
+   "emissionType": 1,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_2439513352",
+   "levelId": 3082753918,
+   "levelName": "Event_DaysOfMischief",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 1,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:HalloweenCauldronSpell",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "HalloweenECEscape",
+   "eventName": null,
+   "waxBehavior": 0,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2115052583",
+   "levelId": 2418094228,
+   "levelName": "Event_DaysOfMischief_Escape",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 0.699999988079071,
+   "preactiveDuration": 1,
+   "activeDuration": 1,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:HalloweenECEscape",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "HalloweenECFast",
+   "eventName": null,
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1236014721",
+   "levelId": 3082753918,
+   "levelName": "Event_DaysOfMischief",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:HalloweenECFast",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "HalloweenECMonsters",
+   "eventName": null,
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_118097370",
+   "levelId": 3082753918,
+   "levelName": "Event_DaysOfMischief",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:HalloweenECMonsters",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "HalloweenEscape",
+   "eventName": null,
+   "waxBehavior": 0,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2439512659",
+   "levelId": 2418094228,
+   "levelName": "Event_DaysOfMischief_Escape",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 0.699999988079071,
+   "preactiveDuration": 1,
+   "activeDuration": 1,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:HalloweenEscape",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "HalloweenZombie",
+   "eventName": null,
+   "waxBehavior": 0,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_29092121",
+   "levelId": 3082753918,
+   "levelName": "Event_DaysOfMischief",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 1,
+   "preactiveDuration": 0,
+   "activeDuration": 1440,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:HalloweenZombie",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "HealingSpa",
+   "eventName": null,
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_6734533",
+   "levelId": 1152668600,
+   "levelName": "Dusk_HiddenTemple",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 2,
+   "preactiveDuration": 0,
+   "activeDuration": 10000000,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:HealingSpa",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "LoveBlizz",
+   "eventName": null,
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_2072642983",
+   "levelId": 3051518728,
+   "levelName": "NightDesert_Beach",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:LoveBlizz",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "LoveMeteor",
+   "eventName": null,
+   "waxBehavior": 1,
+   "emissionType": 1,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_1511782397",
+   "levelId": 3051518728,
+   "levelName": "NightDesert_Beach",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 5,
+   "preactiveDuration": 0,
+   "activeDuration": 9999,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:LoveMeteor",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "LunarCarouselECWax",
+   "eventName": "global_daysoffortune_carousel",
+   "waxBehavior": 0,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1916200505",
+   "levelId": 1759178769,
+   "levelName": "SunsetVillage",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:LunarCarouselECWax",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "LunarDragonPop",
+   "eventName": "social_lunardragonpop_sunset",
+   "waxBehavior": 1,
+   "emissionType": 1,
+   "manualEmitOnly": false,
+   "chunkMode": 3,
+   "enabled": true,
+   "nodeName": "BstNode_604453065",
+   "levelId": 1638008359,
+   "levelName": "Sunset",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 5,
+   "preactiveDuration": 1,
+   "activeDuration": 7,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 10,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    10,
+    25,
+    35,
+    0
+   ],
+   "poolName": "emitter:LunarDragonPop",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "LunarSnakeCoin",
+   "eventName": "global_daysoffortune_wax",
+   "waxBehavior": 0,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1136715819",
+   "levelId": 1638008359,
+   "levelName": "Sunset",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 0.5,
+   "preactiveDuration": 0.10000000149011612,
+   "activeDuration": 0.10000000149011612,
+   "inactiveDuration": 0.4000000059604645,
+   "chunksPerEmit": 4,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:LunarSnakeCoin",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "MoonLight_MessageLantern",
+   "eventName": "global_moonlight",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1918588444",
+   "levelId": 1694829989,
+   "levelName": "Night_PaintedWorld",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:MoonLight_MessageLantern",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "MoonLight_Region",
+   "eventName": "global_moonlight",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_596466310",
+   "levelId": 1694829989,
+   "levelName": "Night_PaintedWorld",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 0.10000000149011612,
+   "activeDuration": 0.20000000298023224,
+   "inactiveDuration": 0.10000000149011612,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:MoonLight_Region",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "MoonLight_SharedSpaceMural",
+   "eventName": "global_moonlight",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_83554929",
+   "levelId": 1694829989,
+   "levelName": "Night_PaintedWorld",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 2,
+   "preactiveDuration": 0,
+   "activeDuration": 0.01600000075995922,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:MoonLight_SharedSpaceMural",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "MoonLight_SharedSpaceMural_create",
+   "eventName": "global_moonlight",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1411966206",
+   "levelId": 1694829989,
+   "levelName": "Night_PaintedWorld",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 2,
+   "preactiveDuration": 0,
+   "activeDuration": 0.01600000075995922,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:MoonLight_SharedSpaceMural_create",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "MuseumGiantWax",
+   "eventName": "global_museum",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_369413851",
+   "levelId": 3429122502,
+   "levelName": "Prairie_WildLifePark",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:MuseumGiantWax",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "NatureGeyser",
+   "eventName": "nature_geyser_on",
+   "waxBehavior": 1,
+   "emissionType": 1,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2439512238",
+   "levelId": 3057325709,
+   "levelName": "Prairie_Island",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:NatureGeyser",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "NatureMicrodarkness",
+   "eventName": "global_nature_2026",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2031874710",
+   "levelId": 3057325709,
+   "levelName": "Prairie_Island",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:NatureMicrodarkness",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "NatureOceanClear",
+   "eventName": "global_nature_2026",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1962908801",
+   "levelId": 3057325709,
+   "levelName": "Prairie_Island",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 0,
+   "activeDuration": 0,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "poolName": "emitter:NatureOceanClear",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "NatureTurtle",
+   "eventName": "social_turtle_on",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2060386345",
+   "levelId": 3057325709,
+   "levelName": "Prairie_Island",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:NatureTurtle",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "PersonalityWax",
+   "eventName": "global_personality",
+   "waxBehavior": 0,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_1259776182",
+   "levelId": 2920756220,
+   "levelName": "Event_Personality",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 1,
+   "preactiveDuration": 0,
+   "activeDuration": 1,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:PersonalityWax",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "PostFeastTeaFast",
+   "eventName": null,
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_203574335",
+   "levelId": 1104763408,
+   "levelName": "MainStreet_Cafe_Wonderland",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 4,
+   "preactiveDuration": 0,
+   "activeDuration": 11111,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "chunkSizeAmount": [
+    8,
+    0,
+    0,
+    0
+   ],
+   "poolName": "emitter:PostFeastTeaFast",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "PostFeastTeaMid",
+   "eventName": null,
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_757230044",
+   "levelId": 1104763408,
+   "levelName": "MainStreet_Cafe_Wonderland",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 4,
+   "preactiveDuration": 0,
+   "activeDuration": 1111,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "chunkSizeAmount": [
+    4,
+    0,
+    0,
+    0
+   ],
+   "poolName": "emitter:PostFeastTeaMid",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "PostFeastTeaSlow",
+   "eventName": null,
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_1924745770",
+   "levelId": 1104763408,
+   "levelName": "MainStreet_Cafe_Wonderland",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 8,
+   "preactiveDuration": 0,
+   "activeDuration": 1555,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "chunkSizeAmount": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "poolName": "emitter:PostFeastTeaSlow",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "PostRitualHalloweenCauldron",
+   "eventName": "halloween_ritual_active",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_321353457",
+   "levelId": 3082753918,
+   "levelName": "Event_DaysOfMischief",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 0.699999988079071,
+   "preactiveDuration": 1,
+   "activeDuration": 1,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:PostRitualHalloweenCauldron",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "PostRitualHalloweenCauldron2",
+   "eventName": "halloween_ritual_active",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_507689672",
+   "levelId": 3082753918,
+   "levelName": "Event_DaysOfMischief",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 0.699999988079071,
+   "preactiveDuration": 1,
+   "activeDuration": 1,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:PostRitualHalloweenCauldron2",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "PrairieCampfire",
+   "eventName": "global_prairie_campfire_on",
+   "waxBehavior": 1,
+   "emissionType": 1,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2439512238",
+   "levelId": 2477345666,
+   "levelName": "Prairie_ButterflyFields",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:PrairieCampfire",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "PrairieCozyCave",
+   "eventName": "social_wax_on",
+   "waxBehavior": 2,
+   "emissionType": 1,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2060386315",
+   "levelId": 3244931597,
+   "levelName": "Prairie_Cave",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 0,
+   "activeDuration": 600,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.6000000238418579,
+    0.30000001192092896,
+    0.10000000149011612,
+    0
+   ],
+   "chunkSizeAmount": [
+    4,
+    8,
+    18,
+    0
+   ],
+   "poolName": "emitter:PrairieCozyCave",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "RainBonfireCamp",
+   "eventName": "social_wax_on",
+   "waxBehavior": 2,
+   "emissionType": 1,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2060386331",
+   "levelId": 2839585646,
+   "levelName": "RainForest",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 0,
+   "activeDuration": 60,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:RainBonfireCamp",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "RainbowEvent",
+   "eventName": "social_rainbow_on",
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_852951042",
+   "levelId": 2394719185,
+   "levelName": "DayHubCave",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:RainbowEvent",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "RainbowEvent",
+   "eventName": "social_rainbow_on",
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_852951132",
+   "levelId": 3526133726,
+   "levelName": "CandleSpace",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:RainbowEvent",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "RainbowRoad",
+   "eventName": "social_rainbowroad",
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_852951132",
+   "levelId": 2394719185,
+   "levelName": "DayHubCave",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:RainbowRoad",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "RainGrandmaTable",
+   "eventName": "social_wax_on",
+   "waxBehavior": 1,
+   "emissionType": 1,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2060386341",
+   "levelId": 2720691892,
+   "levelName": "RainShelter",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:RainGrandmaTable",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "SakuraEmitterBlooming",
+   "eventName": null,
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1673134088",
+   "levelId": 3526133726,
+   "levelName": "CandleSpace",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:SakuraEmitterBlooming",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "SakuraEmitterFalling",
+   "eventName": null,
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1673134110",
+   "levelId": 3526133726,
+   "levelName": "CandleSpace",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:SakuraEmitterFalling",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "ScorePillar",
+   "eventName": "competition_closing_ceremony",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_198231307",
+   "levelId": 263580627,
+   "levelName": "SunsetColosseum",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 15,
+   "preactiveDuration": 0,
+   "activeDuration": 1440,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 5,
+   "chunkSizeLikelihood": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    0,
+    0,
+    0
+   ],
+   "poolName": "emitter:ScorePillar",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "ShareMoonCake",
+   "eventName": "global_moonlight_mooncake",
+   "waxBehavior": 3,
+   "emissionType": 1,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_1956895549",
+   "levelId": 1694829989,
+   "levelName": "Night_PaintedWorld",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 1,
+   "preactiveDuration": 0,
+   "activeDuration": 10,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:ShareMoonCake",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "SkyFestEel",
+   "eventName": "skyfest_poolparty",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2060386327",
+   "levelId": 1509719447,
+   "levelName": "MainStreet",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 1,
+   "preactiveDuration": 1,
+   "activeDuration": 222,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:SkyFestEel",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "SkyTower",
+   "eventName": "skyfest_tower",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_609377609",
+   "levelId": 1509719447,
+   "levelName": "MainStreet",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:SkyTower",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "SkywaySpeedTube",
+   "eventName": "social_wax_on",
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2060386406",
+   "levelId": 2081768701,
+   "levelName": "Skyway",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:SkywaySpeedTube",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "SocialFeedChallenge",
+   "eventName": "global_daily_reset_time",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": true,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1816839686",
+   "levelId": 3743646255,
+   "levelName": "MainStreet_FunArmada",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:SocialFeedChallenge",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "SpringCanopyTent",
+   "eventName": "global_spring_wax",
+   "waxBehavior": 0,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2340290576",
+   "levelId": 2394719185,
+   "levelName": "DayHubCave",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:SpringCanopyTent",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "SummerBonfireLg",
+   "eventName": null,
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_1345737879",
+   "levelId": 2518601,
+   "levelName": "NightArchive",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 0,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:SummerBonfireLg",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "SummerBonfireMd",
+   "eventName": "global_summer_md",
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_2439512328",
+   "levelId": 3526133726,
+   "levelName": "CandleSpace",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 5,
+   "preactiveDuration": 0,
+   "activeDuration": 999,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:SummerBonfireMd",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "SummerBonfireSm",
+   "eventName": "global_summer_npc",
+   "waxBehavior": 2,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_2439512120",
+   "levelId": 3526133726,
+   "levelName": "CandleSpace",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 5,
+   "preactiveDuration": 0,
+   "activeDuration": 999,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:SummerBonfireSm",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "SummerSeashells",
+   "eventName": "global_summer_shellsLG",
+   "waxBehavior": 1,
+   "emissionType": 1,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2072642278",
+   "levelId": 2720691892,
+   "levelName": "RainShelter",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:SummerSeashells",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "SunsetLabyrinth",
+   "eventName": "social_wax_on",
+   "waxBehavior": 2,
+   "emissionType": 1,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_2060386339",
+   "levelId": 507487826,
+   "levelName": "SunsetEnd2",
+   "allowEmissionPercentMin": null,
+   "allowEmissionPercentMax": null,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 0,
+   "activeDuration": 600,
+   "inactiveDuration": 0,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:SunsetLabyrinth",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "SunsetSkater",
+   "eventName": "social_sunsetskater",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": false,
+   "nodeName": "BstNode_2105409943",
+   "levelId": 1759178769,
+   "levelName": "SunsetVillage",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:SunsetSkater",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "TwinRibbon",
+   "eventName": "global_twinribbon",
+   "waxBehavior": 3,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_335888409",
+   "levelId": 417578099,
+   "levelName": "Event_Cinema",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 10,
+   "preactiveDuration": 1,
+   "activeDuration": 2,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 3,
+   "chunkSizeLikelihood": [
+    0.5,
+    0.30000001192092896,
+    0.20000000298023224,
+    0
+   ],
+   "chunkSizeAmount": [
+    3,
+    7,
+    15,
+    0
+   ],
+   "poolName": "emitter:TwinRibbon",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  },
+  {
+   "emitterName": "UGCEvent_SharedMemory",
+   "eventName": "global_ugc_shop_prop",
+   "waxBehavior": 1,
+   "emissionType": 0,
+   "manualEmitOnly": false,
+   "chunkMode": 1,
+   "enabled": true,
+   "nodeName": "BstNode_455456546",
+   "levelId": 372393162,
+   "levelName": "MainStreet_ShopProps",
+   "allowEmissionPercentMin": 0,
+   "allowEmissionPercentMax": 0,
+   "paramsSource": "binTest",
+   "emitInterval": 1,
+   "preactiveDuration": 0,
+   "activeDuration": 10,
+   "inactiveDuration": 1,
+   "chunksPerEmit": 1,
+   "chunkSizeLikelihood": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "chunkSizeAmount": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "poolName": "emitter:UGCEvent_SharedMemory",
+   "poolAmount": 600,
+   "poolInferred": true,
+   "sources": [
+    "bin"
+   ]
+  }
+ ]
+}

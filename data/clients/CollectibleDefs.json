@@ -3285,6 +3285,20 @@
         "droppable": false,
         "event": "",
         "icon": "UiSocialTeleport",
+        "level": "SunsetVillage_Feast",
+        "max_level": 1,
+        "name": "questfeast_peek",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
         "level": "RainShelter",
         "max_level": 1,
         "name": "questsummer",
@@ -3440,6 +3454,20 @@
         "level": "SunsetColosseum",
         "max_level": 1,
         "name": "questcompetition",
+        "params": "",
+        "speedMult": [
+            0.0
+        ],
+        "type": "quest_giver"
+    },
+    {
+        "default": false,
+        "droppable": false,
+        "event": "",
+        "icon": "UiSocialTeleport",
+        "level": "Event_Cinema",
+        "max_level": 1,
+        "name": "questap03_leaderboard",
         "params": "",
         "speedMult": [
             0.0

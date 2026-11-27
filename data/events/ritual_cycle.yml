@@ -13,12 +13,6 @@ collections:
   select:
     mode: all
   events:
-  # Storm-eye ritual (season 18) and its cutscenes. The whole sequence repeats
-  # every hour: a 15-minute timer opens the phase, then the four acts run one
-  # after another at 5-minute steps, and the audience lobby opens 8 minutes in.
-  #
-  # The `_audience_lobby` variant is the waiting room players sit in before the
-  # act starts, so it is padded slightly wider than the act itself.
   - id: ap18_ritual_timer_15
     window: { count: 3, every: 900, phase: 1800 }
     duration: 15
@@ -37,9 +31,7 @@ collections:
   - id: ap18_ritual_04_audience_lobby
     window: { count: 4, every: 900, phase: 2280 }
     duration: 7
-  # Story cutscenes ("the event" chapters). Four 15-minute slots, staggered 5
-  # minutes apart inside each 20-minute block, so a player who misses one act
-  # can catch the next shortly after.
+
   - id: te_ep_1
     window: { count: 4, every: 1200, phase: 0 }
     duration: 15

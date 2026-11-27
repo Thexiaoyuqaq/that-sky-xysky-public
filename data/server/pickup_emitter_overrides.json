@@ -1,0 +1,16 @@
+{
+  "_readme": [
+    "发射器人工覆盖表。运行时与 pickup_emitters.generated.json 合并，只写需要偏离 bin 的字段。",
+    "",
+    "格式：",
+    "  defaults  对所有实例生效；emitters 按 emitterName 匹配，可再用 levelId 限定单个实例。",
+    "可写字段（snake_case 亦可）：",
+    "  eventName, activeDuration, preactiveDuration, emitInterval, chunksPerEmit,",
+    "  chunkSizeAmount, chunkSizeLikelihood, poolName, poolAmount, currencyType",
+    "",
+    "注意：chunkSizeAmount 与 chunkSizeLikelihood 长度必须一致（客户端会 abort），",
+    "     都在 6 个槽位以内；服务端会自动补零对齐。"
+  ],
+  "defaults": {},
+  "emitters": []
+}
